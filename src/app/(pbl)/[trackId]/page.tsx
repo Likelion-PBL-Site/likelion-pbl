@@ -30,7 +30,7 @@ export default async function TrackPage({ params }: TrackPageProps) {
   }
 
   const track = mockTracks.find((t) => t.id === trackId);
-  const missions = getMissionsByTrack(trackId);
+  const missions = await getMissionsByTrack(trackId as TrackType);
 
   if (!track) {
     notFound();

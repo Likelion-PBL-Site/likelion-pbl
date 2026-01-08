@@ -5,7 +5,7 @@ import { useParams } from "next/navigation";
 import { Monitor, Server, Palette, ChevronLeft, ChevronRight, BookOpen } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { usePBLStore } from "@/store/pbl-store";
-import { getMissionsByTrack } from "@/lib/mock-data";
+import { getMissionsByTrackSync } from "@/lib/mock-data";
 import { trackLabels, difficultyLabels } from "@/types/pbl";
 import type { TrackType } from "@/types/pbl";
 import { Button } from "@/components/ui/button";
@@ -34,7 +34,7 @@ export function PBLSidebar() {
   const currentTrack = params.trackId as TrackType | undefined;
   const currentMissionId = params.missionId as string | undefined;
 
-  const missions = currentTrack ? getMissionsByTrack(currentTrack) : [];
+  const missions = currentTrack ? getMissionsByTrackSync(currentTrack) : [];
 
   const tracks: TrackType[] = ["frontend", "backend", "design"];
 

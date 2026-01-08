@@ -1,4 +1,9 @@
-import type { Mission, MissionSummary, TrackInfo } from "@/types/pbl";
+import type { Mission, MissionSummary, TrackInfo, TrackType } from "@/types/pbl";
+import {
+  isNotionConfigured,
+  fetchMissionsByTrackFromNotion,
+  fetchMissionByIdFromNotion,
+} from "@/lib/notion";
 
 /**
  * 목업 트랙 정보
@@ -346,9 +351,9 @@ export const mockDesignMissions: Mission[] = [
 ];
 
 /**
- * 트랙별 미션 목록 가져오기
+ * 트랙별 미션 목록 가져오기 (동기 - 목업 데이터만)
  */
-export function getMissionsByTrack(track: string): MissionSummary[] {
+export function getMissionsByTrackSync(track: string): MissionSummary[] {
   switch (track) {
     case "frontend":
       return mockFrontendMissions.map(missionToSummary);
@@ -362,15 +367,53 @@ export function getMissionsByTrack(track: string): MissionSummary[] {
 }
 
 /**
- * 미션 상세 정보 가져오기
+ * 미션 상세 정보 가져오기 (동기 - 목업 데이터만)
  */
-export function getMissionById(missionId: string): Mission | undefined {
+export function getMissionByIdSync(missionId: string): Mission | undefined {
   const allMissions = [
     ...mockFrontendMissions,
     ...mockBackendMissions,
     ...mockDesignMissions,
   ];
   return allMissions.find((m) => m.id === missionId);
+}
+
+/**
+ * 트랙별 미션 목록 가져오기 (노션 연동 지원)
+ * 노션이 설정되어 있으면 노션에서, 아니면 목업 데이터에서 가져옴
+ */
+export async function getMissionsByTrack(track: TrackType): Promise<MissionSummary[]> {
+  // 노션이 설정되어 있으면 노션에서 데이터 가져오기
+  if (isNotionConfigured()) {
+    const notionMissions = await fetchMissionsByTrackFromNotion(track);
+    if (notionMissions.length > 0) {
+      return notionMissions;
+    }
+    // 노션에 데이터가 없으면 목업 데이터 사용
+    console.warn(`노션에서 ${track} 트랙 미션을 찾을 수 없어 목업 데이터를 사용합니다.`);
+  }
+
+  // 목업 데이터 반환
+  return getMissionsByTrackSync(track);
+}
+
+/**
+ * 미션 상세 정보 가져오기 (노션 연동 지원)
+ * 노션이 설정되어 있으면 노션에서, 아니면 목업 데이터에서 가져옴
+ */
+export async function getMissionById(missionId: string): Promise<Mission | undefined> {
+  // 노션이 설정되어 있으면 노션에서 데이터 가져오기
+  if (isNotionConfigured()) {
+    const notionMission = await fetchMissionByIdFromNotion(missionId);
+    if (notionMission) {
+      return notionMission;
+    }
+    // 노션에서 못 찾으면 목업 데이터에서 시도
+    console.warn(`노션에서 미션(${missionId})을 찾을 수 없어 목업 데이터를 사용합니다.`);
+  }
+
+  // 목업 데이터에서 반환
+  return getMissionByIdSync(missionId);
 }
 
 /**
