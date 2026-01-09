@@ -4,7 +4,7 @@ import type { SiteConfig, NavConfig, FooterLinkGroup } from "@/types";
  * 멋쟁이사자처럼 PBL 사이트 설정
  */
 export const siteConfig: SiteConfig = {
-  name: "멋사 대학 PBL",
+  name: "LIKELION UNIV. PBL",
   description: "아기사자를 위한 IT 교육 프로젝트 기반 학습 플랫폼",
   url: "https://pbl.likelion.org",
   ogImage: "/likelion.jpg",
