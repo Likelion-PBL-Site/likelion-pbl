@@ -51,7 +51,7 @@ export function Logo({
       {!iconOnly && (
         <div className="flex flex-col">
           <span className={cn(config.text, "text-primary leading-tight")}>
-            LIKELION
+            LIKELION UNIV.
           </span>
           <span className="text-[10px] font-medium text-muted-foreground leading-tight">
             PBL

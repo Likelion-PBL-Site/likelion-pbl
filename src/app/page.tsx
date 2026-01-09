@@ -64,7 +64,7 @@ export default function HomePage() {
               Project-based Learning
             </Badge>
             <h1 className="mb-6 text-4xl font-bold tracking-tight sm:text-5xl md:text-6xl">
-              <span className="text-primary">멋쟁이사자처럼</span>과 함께
+              <span className="text-primary">멋사 대학</span>과 함께
               <br />
               IT 역량을 키워보세요
             </h1>
