@@ -27,6 +27,14 @@ export const navConfig: NavConfig = {
       title: "트랙",
       href: "/tracks",
     },
+    {
+      title: "학습 가이드",
+      href: "/guide",
+    },
+    {
+      title: "FAQ",
+      href: "/faq",
+    },
   ],
 };
 
@@ -74,8 +82,8 @@ export const footerLinks: FooterLinkGroup[] = [
   {
     title: "리소스",
     links: [
-      { title: "학습 가이드", href: "#" },
-      { title: "FAQ", href: "#" },
+      { title: "학습 가이드", href: "/guide" },
+      { title: "FAQ", href: "/faq" },
     ],
   },
   {
