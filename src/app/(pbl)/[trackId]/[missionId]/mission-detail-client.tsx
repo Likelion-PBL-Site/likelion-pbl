@@ -90,15 +90,15 @@ export function MissionDetailClient({ mission, trackId }: MissionDetailClientPro
         </div>
 
         {/* 탭 콘텐츠 */}
-        <Tabs defaultValue="intro" className="space-y-6">
-          <TabsList className="flex-wrap h-auto gap-1">
-            <TabsTrigger value="intro">미션 소개</TabsTrigger>
-            <TabsTrigger value="objective">과제 목표</TabsTrigger>
-            <TabsTrigger value="requirements">요구 사항</TabsTrigger>
-            <TabsTrigger value="guidelines">구현 지침</TabsTrigger>
-            <TabsTrigger value="example">결과 예시</TabsTrigger>
-            <TabsTrigger value="constraints">제약 사항</TabsTrigger>
-            <TabsTrigger value="bonus">보너스</TabsTrigger>
+        <Tabs defaultValue="intro" className="space-y-4 md:space-y-6">
+          <TabsList className="w-full justify-start overflow-x-auto h-auto gap-1 p-1 no-scrollbar">
+            <TabsTrigger value="intro" className="text-xs md:text-sm px-2 md:px-3 shrink-0">미션 소개</TabsTrigger>
+            <TabsTrigger value="objective" className="text-xs md:text-sm px-2 md:px-3 shrink-0">과제 목표</TabsTrigger>
+            <TabsTrigger value="requirements" className="text-xs md:text-sm px-2 md:px-3 shrink-0">요구 사항</TabsTrigger>
+            <TabsTrigger value="guidelines" className="text-xs md:text-sm px-2 md:px-3 shrink-0">구현 지침</TabsTrigger>
+            <TabsTrigger value="example" className="text-xs md:text-sm px-2 md:px-3 shrink-0">결과 예시</TabsTrigger>
+            <TabsTrigger value="constraints" className="text-xs md:text-sm px-2 md:px-3 shrink-0">제약 사항</TabsTrigger>
+            <TabsTrigger value="bonus" className="text-xs md:text-sm px-2 md:px-3 shrink-0">보너스</TabsTrigger>
           </TabsList>
 
           {/* 1. 미션 소개 */}
@@ -154,15 +154,15 @@ export function MissionDetailClient({ mission, trackId }: MissionDetailClientPro
               <CardHeader>
                 <CardTitle className="text-xl">기능 요구 사항</CardTitle>
               </CardHeader>
-              <CardContent>
-                <div className="space-y-4">
+              <CardContent className="p-3 md:p-6">
+                <div className="space-y-2 md:space-y-4">
                   {mission.requirements.map((req) => {
                     const isCompleted = completedRequirements.includes(req.id);
 
                     return (
                       <div
                         key={req.id}
-                        className={`flex gap-3 p-4 rounded-lg border transition-colors ${
+                        className={`flex gap-2 md:gap-3 p-3 md:p-4 rounded-lg border transition-colors ${
                           isCompleted
                             ? "bg-primary/5 border-primary/20"
                             : "bg-card hover:bg-muted/50"
@@ -176,28 +176,28 @@ export function MissionDetailClient({ mission, trackId }: MissionDetailClientPro
                           }
                           className="mt-0.5"
                         />
-                        <div className="flex-1">
+                        <div className="flex-1 min-w-0">
                           <label
                             htmlFor={req.id}
-                            className={`font-medium cursor-pointer ${
+                            className={`text-sm md:text-base font-medium cursor-pointer ${
                               isCompleted ? "line-through text-muted-foreground" : ""
                             }`}
                           >
                             {req.title}
                             {req.isRequired && (
-                              <Badge variant="outline" className="ml-2 text-xs">
+                              <Badge variant="outline" className="ml-1 md:ml-2 text-[10px] md:text-xs">
                                 필수
                               </Badge>
                             )}
                           </label>
                           {req.description && (
-                            <p className="text-sm text-muted-foreground mt-1">
+                            <p className="text-xs md:text-sm text-muted-foreground mt-1">
                               {req.description}
                             </p>
                           )}
                         </div>
                         {isCompleted && (
-                          <CheckCircle2 className="h-5 w-5 text-primary shrink-0" />
+                          <CheckCircle2 className="h-4 w-4 md:h-5 md:w-5 text-primary shrink-0" />
                         )}
                       </div>
                     );
