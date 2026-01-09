@@ -31,7 +31,7 @@ const trackIconColors = {
 };
 
 export const metadata = {
-  title: "트랙 선택 | 멋쟁이사자처럼 PBL",
+  title: "트랙 선택 | 멋사 대학 PBL",
   description: "프론트엔드, 백엔드, 기획/디자인 트랙 중 학습할 분야를 선택하세요.",
 };
 
@@ -48,7 +48,7 @@ export default function TracksPage() {
             어떤 분야를 학습하시겠어요?
           </h1>
           <p className="text-muted-foreground max-w-2xl mx-auto">
-            멋쟁이사자처럼 PBL은 프론트엔드, 백엔드, 기획/디자인 세 가지 트랙을 제공합니다.
+            멋사 대학 PBL은 프론트엔드, 백엔드, 기획/디자인 세 가지 트랙을 제공합니다.
             관심 있는 분야를 선택하고 프로젝트 기반 학습을 시작하세요.
           </p>
         </div>

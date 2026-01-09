@@ -38,8 +38,8 @@ const features = [
   },
   {
     icon: Users,
-    title: "대학생 맞춤 커리큘럼",
-    description: "개발 경험이 없는 대학생도 쉽게 시작할 수 있도록 설계되었습니다.",
+    title: "아기사자 맞춤 커리큘럼",
+    description: "개발 경험이 없어도 쉽게 시작할 수 있도록 설계되었습니다.",
   },
   {
     icon: Trophy,

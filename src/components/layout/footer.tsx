@@ -41,28 +41,6 @@ export function Footer() {
           <p className="text-sm text-muted-foreground">
             © {currentYear} {siteConfig.name}. All rights reserved.
           </p>
-          <div className="flex items-center gap-4">
-            {siteConfig.links?.github && (
-              <Link
-                href={siteConfig.links.github}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-sm text-muted-foreground transition-colors hover:text-primary"
-              >
-                GitHub
-              </Link>
-            )}
-            {siteConfig.links?.twitter && (
-              <Link
-                href={siteConfig.links.twitter}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-sm text-muted-foreground transition-colors hover:text-primary"
-              >
-                Twitter
-              </Link>
-            )}
-          </div>
         </div>
       </Container>
     </footer>

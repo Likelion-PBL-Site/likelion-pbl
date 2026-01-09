@@ -4,8 +4,8 @@ import type { SiteConfig, NavConfig, FooterLinkGroup } from "@/types";
  * 멋쟁이사자처럼 PBL 사이트 설정
  */
 export const siteConfig: SiteConfig = {
-  name: "멋쟁이사자처럼 PBL",
-  description: "대학생을 위한 IT 교육 프로젝트 기반 학습 플랫폼",
+  name: "멋사 대학 PBL",
+  description: "아기사자를 위한 IT 교육 프로젝트 기반 학습 플랫폼",
   url: "https://pbl.likelion.org",
   ogImage: "/likelion.jpg",
   links: {
@@ -81,8 +81,7 @@ export const footerLinks: FooterLinkGroup[] = [
   {
     title: "멋쟁이사자처럼",
     links: [
-      { title: "공식 사이트", href: "https://likelion.net", external: true },
-      { title: "채용", href: "https://likelion.career", external: true },
+      { title: "공식 사이트", href: "https://likelion.net", external: true }
     ],
   },
   {
