@@ -2,20 +2,26 @@
 
 import { useEffect } from "react";
 import Link from "next/link";
-import { ArrowLeft, Clock, ExternalLink, CheckCircle2 } from "lucide-react";
+import { ArrowLeft, Clock, ExternalLink } from "lucide-react";
 import { Container } from "@/components/layout/container";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { Checkbox } from "@/components/ui/checkbox";
 import { difficultyLabels, trackLabels } from "@/types/pbl";
-import type { Mission, TrackType } from "@/types/pbl";
+import type { Mission, TrackType, Requirement } from "@/types/pbl";
+import type { MissionSections } from "@/types/notion-blocks";
 import { usePBLStore, calculateProgress } from "@/store/pbl-store";
+import { NotionBlockRenderer } from "@/components/notion/notion-block-renderer";
+import { MissionProgressChecklist } from "@/components/mission";
 
 interface MissionDetailClientProps {
   mission: Mission;
   trackId: TrackType;
+  /** Notion 섹션 블록 데이터 (있으면 블록 렌더러 사용) */
+  sections?: MissionSections | null;
+  /** Notion에서 추출한 요구사항 (있으면 이걸 사용) */
+  notionRequirements?: Requirement[];
 }
 
 const difficultyColors = {
@@ -28,8 +34,16 @@ const difficultyColors = {
  * 미션 상세 클라이언트 컴포넌트
  * 체크리스트 인터랙션 및 진행률 관리를 담당
  */
-export function MissionDetailClient({ mission, trackId }: MissionDetailClientProps) {
+export function MissionDetailClient({
+  mission,
+  trackId,
+  sections,
+  notionRequirements,
+}: MissionDetailClientProps) {
   const { missionProgress, toggleRequirement, visitMission } = usePBLStore();
+
+  // 사용할 요구사항 목록 (Notion 우선, 없으면 mock)
+  const requirements = notionRequirements || mission.requirements;
 
   // 방문 기록
   useEffect(() => {
@@ -40,9 +54,12 @@ export function MissionDetailClient({ mission, trackId }: MissionDetailClientPro
   const completedRequirements = progress?.completedRequirements || [];
   const progressPercent = calculateProgress(
     mission.id,
-    mission.requirements.length,
+    requirements.length,
     missionProgress
   );
+
+  // Notion 섹션 데이터가 있는지 확인
+  const hasNotionData = sections && Object.values(sections).some((arr) => arr.length > 0);
 
   return (
     <div className="py-6 md:py-8">
@@ -74,19 +91,13 @@ export function MissionDetailClient({ mission, trackId }: MissionDetailClientPro
           <h1 className="text-2xl md:text-3xl font-bold mb-2">{mission.title}</h1>
           <p className="text-muted-foreground">{mission.description}</p>
 
-          {/* 진행률 바 */}
-          <div className="mt-4">
-            <div className="flex items-center justify-between text-sm mb-1">
-              <span className="text-muted-foreground">진행률</span>
-              <span className="font-medium">{progressPercent}%</span>
-            </div>
-            <div className="h-2 bg-muted rounded-full overflow-hidden">
-              <div
-                className="h-full bg-primary transition-all duration-300"
-                style={{ width: `${progressPercent}%` }}
-              />
-            </div>
-          </div>
+          {/* 진행률 바 + 체크리스트 */}
+          <MissionProgressChecklist
+            requirements={requirements}
+            completedRequirements={completedRequirements}
+            progressPercent={progressPercent}
+            onToggle={(reqId) => toggleRequirement(mission.id, reqId)}
+          />
         </div>
 
         {/* 탭 콘텐츠 */}
@@ -94,7 +105,7 @@ export function MissionDetailClient({ mission, trackId }: MissionDetailClientPro
           <TabsList className="w-full justify-start overflow-x-auto h-auto gap-1 p-1 no-scrollbar">
             <TabsTrigger value="intro" className="text-xs md:text-sm px-2 md:px-3 shrink-0">미션 소개</TabsTrigger>
             <TabsTrigger value="objective" className="text-xs md:text-sm px-2 md:px-3 shrink-0">과제 목표</TabsTrigger>
-            <TabsTrigger value="requirements" className="text-xs md:text-sm px-2 md:px-3 shrink-0">요구 사항</TabsTrigger>
+            <TabsTrigger value="result" className="text-xs md:text-sm px-2 md:px-3 shrink-0">최종 결과물</TabsTrigger>
             <TabsTrigger value="guidelines" className="text-xs md:text-sm px-2 md:px-3 shrink-0">구현 지침</TabsTrigger>
             <TabsTrigger value="example" className="text-xs md:text-sm px-2 md:px-3 shrink-0">결과 예시</TabsTrigger>
             <TabsTrigger value="constraints" className="text-xs md:text-sm px-2 md:px-3 shrink-0">제약 사항</TabsTrigger>
@@ -108,13 +119,17 @@ export function MissionDetailClient({ mission, trackId }: MissionDetailClientPro
                 <CardTitle className="text-xl">미션 소개</CardTitle>
               </CardHeader>
               <CardContent>
-                <div className="prose prose-sm dark:prose-invert max-w-none">
-                  {mission.introduction.split("\n\n").map((para, idx) => (
-                    <p key={idx} className="mb-4 last:mb-0 whitespace-pre-line">
-                      {para}
-                    </p>
-                  ))}
-                </div>
+                {hasNotionData && sections?.introduction.length > 0 ? (
+                  <NotionBlockRenderer blocks={sections.introduction} />
+                ) : (
+                  <div className="prose prose-sm dark:prose-invert max-w-none">
+                    {mission.introduction.split("\n\n").map((para, idx) => (
+                      <p key={idx} className="mb-4 last:mb-0 whitespace-pre-line">
+                        {para}
+                      </p>
+                    ))}
+                  </div>
+                )}
               </CardContent>
             </Card>
           </TabsContent>
@@ -126,120 +141,94 @@ export function MissionDetailClient({ mission, trackId }: MissionDetailClientPro
                 <CardTitle className="text-xl">과제 목표</CardTitle>
               </CardHeader>
               <CardContent>
-                <div className="prose prose-sm dark:prose-invert max-w-none">
-                  {mission.objective.split("\n").map((line, idx) => (
-                    <p key={idx} className="mb-2 last:mb-0">
-                      {line}
-                    </p>
-                  ))}
-                </div>
-                {mission.timeGoal && (
+                {hasNotionData && sections?.objective.length > 0 ? (
+                  <NotionBlockRenderer blocks={sections.objective} />
+                ) : (
+                  <div className="prose prose-sm dark:prose-invert max-w-none">
+                    {mission.objective.split("\n").map((line, idx) => (
+                      <p key={idx} className="mb-2 last:mb-0">
+                        {line}
+                      </p>
+                    ))}
+                  </div>
+                )}
+                {/* 목표 수행 시간 */}
+                {(hasNotionData && sections?.timeGoal.length > 0) || mission.timeGoal ? (
                   <div className="mt-6 p-4 bg-muted rounded-lg">
                     <div className="flex items-center gap-2 text-sm font-medium mb-1">
                       <Clock className="h-4 w-4" />
                       목표 수행 시간
                     </div>
-                    <p className="text-sm text-muted-foreground">
-                      {mission.timeGoal}
-                    </p>
+                    {hasNotionData && sections?.timeGoal.length > 0 ? (
+                      <div className="text-sm text-muted-foreground">
+                        <NotionBlockRenderer blocks={sections.timeGoal} />
+                      </div>
+                    ) : (
+                      <p className="text-sm text-muted-foreground">
+                        {mission.timeGoal}
+                      </p>
+                    )}
                   </div>
+                ) : null}
+              </CardContent>
+            </Card>
+          </TabsContent>
+
+          {/* 3. 최종 결과물 (신규) */}
+          <TabsContent value="result">
+            <Card>
+              <CardHeader>
+                <CardTitle className="text-xl">최종 결과물</CardTitle>
+              </CardHeader>
+              <CardContent>
+                {hasNotionData && sections?.result.length > 0 ? (
+                  <NotionBlockRenderer blocks={sections.result} />
+                ) : mission.result ? (
+                  <div className="prose prose-sm dark:prose-invert max-w-none">
+                    {mission.result.split("\n").map((line, idx) => (
+                      <p key={idx} className="mb-2 last:mb-0">
+                        {line}
+                      </p>
+                    ))}
+                  </div>
+                ) : (
+                  <p className="text-muted-foreground">
+                    최종 결과물 정보가 아직 등록되지 않았습니다.
+                  </p>
                 )}
               </CardContent>
             </Card>
           </TabsContent>
 
-          {/* 3. 기능 요구 사항 */}
-          <TabsContent value="requirements">
-            <Card>
-              <CardHeader>
-                <CardTitle className="text-xl">기능 요구 사항</CardTitle>
-              </CardHeader>
-              <CardContent className="p-3 md:p-6">
-                <div className="space-y-2 md:space-y-4">
-                  {mission.requirements.map((req) => {
-                    const isCompleted = completedRequirements.includes(req.id);
-
-                    return (
-                      <div
-                        key={req.id}
-                        className={`flex gap-2 md:gap-3 p-3 md:p-4 rounded-lg border transition-colors ${
-                          isCompleted
-                            ? "bg-primary/5 border-primary/20"
-                            : "bg-card hover:bg-muted/50"
-                        }`}
-                      >
-                        <Checkbox
-                          id={req.id}
-                          checked={isCompleted}
-                          onCheckedChange={() =>
-                            toggleRequirement(mission.id, req.id)
-                          }
-                          className="mt-0.5"
-                        />
-                        <div className="flex-1 min-w-0">
-                          <label
-                            htmlFor={req.id}
-                            className={`text-sm md:text-base font-medium cursor-pointer ${
-                              isCompleted ? "line-through text-muted-foreground" : ""
-                            }`}
-                          >
-                            {req.title}
-                            {req.isRequired && (
-                              <Badge variant="outline" className="ml-1 md:ml-2 text-[10px] md:text-xs">
-                                필수
-                              </Badge>
-                            )}
-                          </label>
-                          {req.description && (
-                            <p className="text-xs md:text-sm text-muted-foreground mt-1">
-                              {req.description}
-                            </p>
-                          )}
-                        </div>
-                        {isCompleted && (
-                          <CheckCircle2 className="h-4 w-4 md:h-5 md:w-5 text-primary shrink-0" />
-                        )}
-                      </div>
-                    );
-                  })}
-                </div>
-              </CardContent>
-            </Card>
-          </TabsContent>
-
-          {/* 4. 구현 지침 */}
+          {/* 4. 구현 지침 (기능 요구 사항) */}
           <TabsContent value="guidelines">
             <Card>
               <CardHeader>
                 <CardTitle className="text-xl">구현 지침</CardTitle>
               </CardHeader>
               <CardContent>
-                <div className="prose prose-sm dark:prose-invert max-w-none">
-                  {mission.guidelines.split("\n").map((line, idx) => {
-                    // 헤딩 처리
-                    if (line.startsWith("### ")) {
+                {hasNotionData && sections?.guidelines.length > 0 ? (
+                  <NotionBlockRenderer blocks={sections.guidelines} />
+                ) : (
+                  <div className="prose prose-sm dark:prose-invert max-w-none">
+                    {mission.guidelines.split("\n").map((line, idx) => {
+                      if (line.startsWith("### ")) {
+                        return (
+                          <h3 key={idx} className="text-lg font-semibold mt-6 mb-3 first:mt-0">
+                            {line.replace("### ", "")}
+                          </h3>
+                        );
+                      }
+                      if (line.startsWith("```")) return null;
+                      if (line.trim() === "") return null;
                       return (
-                        <h3 key={idx} className="text-lg font-semibold mt-6 mb-3 first:mt-0">
-                          {line.replace("### ", "")}
-                        </h3>
+                        <p key={idx} className="mb-2 last:mb-0 font-mono text-sm bg-muted p-2 rounded">
+                          {line}
+                        </p>
                       );
-                    }
-                    // 코드 블록 시작/끝 무시
-                    if (line.startsWith("```")) {
-                      return null;
-                    }
-                    // 빈 줄 무시
-                    if (line.trim() === "") {
-                      return null;
-                    }
-                    // 일반 텍스트/코드
-                    return (
-                      <p key={idx} className="mb-2 last:mb-0 font-mono text-sm bg-muted p-2 rounded">
-                        {line}
-                      </p>
-                    );
-                  })}
-                </div>
+                    })}
+                  </div>
+                )}
               </CardContent>
             </Card>
           </TabsContent>
@@ -265,11 +254,24 @@ export function MissionDetailClient({ mission, trackId }: MissionDetailClientPro
                     </Button>
                   </div>
                 )}
-                {(!mission.exampleUrl && !mission.exampleImages?.length) && (
+                {hasNotionData && sections?.example.length > 0 ? (
+                  <NotionBlockRenderer blocks={sections.example} />
+                ) : mission.exampleImages && mission.exampleImages.length > 0 ? (
+                  <div className="grid gap-4">
+                    {mission.exampleImages.map((img, idx) => (
+                      <img
+                        key={idx}
+                        src={img}
+                        alt={`예시 이미지 ${idx + 1}`}
+                        className="rounded-lg border"
+                      />
+                    ))}
+                  </div>
+                ) : !mission.exampleUrl ? (
                   <p className="text-muted-foreground">
                     이 미션에는 결과 예시가 아직 등록되지 않았습니다.
                   </p>
-                )}
+                ) : null}
               </CardContent>
             </Card>
           </TabsContent>
@@ -281,14 +283,18 @@ export function MissionDetailClient({ mission, trackId }: MissionDetailClientPro
                 <CardTitle className="text-xl">제약 사항</CardTitle>
               </CardHeader>
               <CardContent>
-                <div className="prose prose-sm dark:prose-invert max-w-none">
-                  {mission.constraints.split("\n").map((line, idx) => (
-                    <p key={idx} className="mb-2 last:mb-0 flex items-start gap-2">
-                      <span className="text-destructive">•</span>
-                      {line.replace(/^- /, "")}
-                    </p>
-                  ))}
-                </div>
+                {hasNotionData && sections?.constraints.length > 0 ? (
+                  <NotionBlockRenderer blocks={sections.constraints} />
+                ) : (
+                  <div className="prose prose-sm dark:prose-invert max-w-none">
+                    {mission.constraints.split("\n").map((line, idx) => (
+                      <p key={idx} className="mb-2 last:mb-0 flex items-start gap-2">
+                        <span className="text-destructive">•</span>
+                        {line.replace(/^- /, "")}
+                      </p>
+                    ))}
+                  </div>
+                )}
               </CardContent>
             </Card>
           </TabsContent>
@@ -305,14 +311,18 @@ export function MissionDetailClient({ mission, trackId }: MissionDetailClientPro
                     보너스 과제는 필수가 아닙니다. 기본 요구사항을 모두 완료한 후 도전해보세요!
                   </p>
                 </div>
-                <div className="prose prose-sm dark:prose-invert max-w-none">
-                  {mission.bonusTask.split("\n").map((line, idx) => (
-                    <p key={idx} className="mb-2 last:mb-0 flex items-start gap-2">
-                      <span className="text-primary">★</span>
-                      {line.replace(/^- /, "")}
-                    </p>
-                  ))}
-                </div>
+                {hasNotionData && sections?.bonus.length > 0 ? (
+                  <NotionBlockRenderer blocks={sections.bonus} />
+                ) : (
+                  <div className="prose prose-sm dark:prose-invert max-w-none">
+                    {mission.bonusTask.split("\n").map((line, idx) => (
+                      <p key={idx} className="mb-2 last:mb-0 flex items-start gap-2">
+                        <span className="text-primary">★</span>
+                        {line.replace(/^- /, "")}
+                      </p>
+                    ))}
+                  </div>
+                )}
               </CardContent>
             </Card>
           </TabsContent>
