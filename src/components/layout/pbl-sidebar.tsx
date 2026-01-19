@@ -11,15 +11,17 @@ import type { TrackType } from "@/types/pbl";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 
-const trackIcons = {
-  frontend: Monitor,
-  backend: Server,
+const trackIcons: Record<TrackType, typeof Monitor> = {
+  react: Monitor,
+  springboot: Server,
+  django: Server,
   design: Palette,
 };
 
-const trackColors = {
-  frontend: "text-blue-500",
-  backend: "text-green-500",
+const trackColors: Record<TrackType, string> = {
+  react: "text-blue-500",
+  springboot: "text-green-500",
+  django: "text-yellow-500",
   design: "text-purple-500",
 };
 
@@ -36,7 +38,7 @@ export function PBLSidebar() {
 
   const missions = currentTrack ? getMissionsByTrackSync(currentTrack) : [];
 
-  const tracks: TrackType[] = ["frontend", "backend", "design"];
+  const tracks: TrackType[] = ["react", "springboot", "django", "design"];
 
   return (
     <aside

@@ -1,6 +1,9 @@
 import { notFound } from "next/navigation";
 import { getMissionById } from "@/lib/mock-data";
-import type { TrackType } from "@/types/pbl";
+import { isValidTrackId } from "@/data/tracks";
+import { fetchMissionSections, extractRequirements } from "@/lib/notion-blocks";
+import type { MissionSections } from "@/types/notion-blocks";
+import type { Requirement } from "@/types/pbl";
 import { MissionDetailClient } from "./mission-detail-client";
 
 interface MissionPageProps {
@@ -18,8 +21,7 @@ export default async function MissionPage({ params }: MissionPageProps) {
   const { trackId, missionId } = await params;
 
   // 유효한 트랙인지 확인
-  const validTracks: TrackType[] = ["frontend", "backend", "design"];
-  if (!validTracks.includes(trackId as TrackType)) {
+  if (!isValidTrackId(trackId)) {
     notFound();
   }
 
@@ -31,5 +33,38 @@ export default async function MissionPage({ params }: MissionPageProps) {
     notFound();
   }
 
-  return <MissionDetailClient mission={mission} trackId={trackId as TrackType} />;
+  // Notion 페이지 ID가 있으면 섹션 블록 데이터 가져오기
+  let sections: MissionSections | null = null;
+  let notionRequirements: Requirement[] = [];
+
+  if (mission.notionPageId) {
+    try {
+      // missionId를 전달하여 JSON 캐시 우선 사용
+      sections = await fetchMissionSections(mission.notionPageId, mission.id);
+
+      // guidelines 섹션에서 요구사항 추출
+      if (sections.guidelines.length > 0) {
+        const extracted = extractRequirements(sections.guidelines);
+        notionRequirements = extracted.map((req, index) => ({
+          id: req.id,
+          title: req.title,
+          description: req.description,
+          isRequired: req.isRequired,
+          order: index + 1,
+        }));
+      }
+    } catch (error) {
+      console.error("Notion 섹션 데이터 가져오기 실패:", error);
+      // 실패해도 계속 진행 (mock 데이터로 폴백)
+    }
+  }
+
+  return (
+    <MissionDetailClient
+      mission={mission}
+      trackId={trackId}
+      sections={sections}
+      notionRequirements={notionRequirements.length > 0 ? notionRequirements : undefined}
+    />
+  );
 }

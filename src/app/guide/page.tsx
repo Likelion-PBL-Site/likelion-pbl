@@ -51,8 +51,8 @@ const learningSteps = [
 
 const trackRoadmaps = [
   {
-    id: "frontend",
-    name: "프론트엔드",
+    id: "react",
+    name: "프론트엔드 (React)",
     icon: Monitor,
     color: "text-blue-500",
     bgColor: "bg-blue-500/10",
@@ -66,18 +66,33 @@ const trackRoadmaps = [
     ],
   },
   {
-    id: "backend",
-    name: "백엔드",
+    id: "springboot",
+    name: "백엔드 (Spring Boot)",
     icon: Server,
     color: "text-green-500",
     bgColor: "bg-green-500/10",
-    description: "서버 개발의 핵심 개념과 실무 패턴",
+    description: "Java와 Spring Boot 서버 개발",
     roadmap: [
-      "REST API 설계 원칙",
-      "데이터베이스 모델링",
+      "Java Fundamentals",
+      "Spring Core 기초",
+      "REST API 설계",
+      "JPA와 데이터베이스",
       "인증/인가 구현",
-      "에러 핸들링과 로깅",
-      "배포와 운영",
+    ],
+  },
+  {
+    id: "django",
+    name: "백엔드 (Django)",
+    icon: Server,
+    color: "text-yellow-500",
+    bgColor: "bg-yellow-500/10",
+    description: "Python과 Django 서버 개발",
+    roadmap: [
+      "Python 기초",
+      "Django 프로젝트 구조",
+      "REST API 설계",
+      "ORM과 데이터베이스",
+      "인증/인가 구현",
     ],
   },
   {

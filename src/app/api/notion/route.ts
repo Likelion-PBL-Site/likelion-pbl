@@ -5,6 +5,7 @@ import {
   fetchMissionsByTrackFromNotion,
   fetchMissionByIdFromNotion,
 } from "@/lib/notion";
+import { isValidTrackId } from "@/data/tracks";
 import type { TrackType } from "@/types/pbl";
 
 /**
@@ -12,7 +13,7 @@ import type { TrackType } from "@/types/pbl";
  * 노션에서 미션 데이터 조회
  *
  * Query Parameters:
- * - track: 트랙별 필터 (frontend, backend, design)
+ * - track: 트랙별 필터 (react, springboot, django, design)
  * - id: 특정 미션 ID
  */
 export async function GET(request: Request) {
@@ -49,8 +50,7 @@ export async function GET(request: Request) {
 
     // 트랙별 미션 목록 조회
     if (track) {
-      const validTracks: TrackType[] = ["frontend", "backend", "design"];
-      if (!validTracks.includes(track)) {
+      if (!isValidTrackId(track)) {
         return NextResponse.json(
           { error: "유효하지 않은 트랙입니다.", track },
           { status: 400 }

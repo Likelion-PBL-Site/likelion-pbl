@@ -1,0 +1,3 @@
+# Notion 캐시 폴더
+# JSON 캐시 파일들이 저장됩니다.
+# /api/notion/sync 를 호출하여 동기화하세요.

@@ -1,49 +1,25 @@
-import type { Mission, MissionSummary, TrackInfo, TrackType } from "@/types/pbl";
+import type { Mission, MissionSummary, TrackType } from "@/types/pbl";
 import {
   isNotionConfigured,
   fetchMissionsByTrackFromNotion,
   fetchMissionByIdFromNotion,
 } from "@/lib/notion";
+import { tracks } from "@/data/tracks";
+
+// tracks를 재 export (하위 호환성)
+export { tracks };
+export { tracks as mockTracks };
 
 /**
- * 목업 트랙 정보
+ * 목업 미션 데이터 - React (프론트엔드)
  */
-export const mockTracks: TrackInfo[] = [
-  {
-    id: "frontend",
-    name: "프론트엔드",
-    description: "React, Next.js를 활용한 웹 프론트엔드 개발을 학습합니다. 컴포넌트 설계부터 상태 관리, 배포까지 실무 역량을 키웁니다.",
-    icon: "Monitor",
-    color: "var(--track-frontend)",
-    missionCount: 3,
-  },
-  {
-    id: "backend",
-    name: "백엔드",
-    description: "Node.js, Python을 활용한 서버 개발을 학습합니다. API 설계, 데이터베이스, 인증/인가까지 백엔드 전반을 다룹니다.",
-    icon: "Server",
-    color: "var(--track-backend)",
-    missionCount: 3,
-  },
-  {
-    id: "design",
-    name: "기획/디자인",
-    description: "서비스 기획과 UI/UX 디자인을 학습합니다. 사용자 조사부터 와이어프레임, 프로토타입 제작까지 경험합니다.",
-    icon: "Palette",
-    color: "var(--track-design)",
-    missionCount: 3,
-  },
-];
-
-/**
- * 목업 미션 데이터 - 프론트엔드
- */
-export const mockFrontendMissions: Mission[] = [
+export const mockReactMissions: Mission[] = [
   {
     id: "fe-mission-1",
     title: "React 컴포넌트 기초",
     description: "React의 기본 개념을 이해하고 재사용 가능한 컴포넌트를 만들어봅니다.",
-    track: "frontend",
+    track: "react",
+    result: "",
     difficulty: "beginner",
     estimatedTime: 120,
     order: 1,
@@ -124,7 +100,8 @@ interface ButtonProps {
     id: "fe-mission-2",
     title: "상태 관리와 이벤트 처리",
     description: "useState와 이벤트 핸들러를 활용하여 인터랙티브한 UI를 만듭니다.",
-    track: "frontend",
+    track: "react",
+    result: "",
     difficulty: "beginner",
     estimatedTime: 150,
     order: 2,
@@ -179,7 +156,8 @@ const [count, setCount] = useState(0);
     id: "fe-mission-3",
     title: "API 연동과 데이터 페칭",
     description: "외부 API에서 데이터를 가져와 화면에 표시합니다.",
-    track: "frontend",
+    track: "react",
+    result: "",
     difficulty: "intermediate",
     estimatedTime: 180,
     order: 3,
@@ -236,18 +214,21 @@ useEffect(() => {
 ];
 
 /**
- * 목업 미션 데이터 - 백엔드
+ * 목업 미션 데이터 - Spring Boot (백엔드)
  */
-export const mockBackendMissions: Mission[] = [
+export const mockSpringbootMissions: Mission[] = [
   {
     id: "be-mission-1",
-    title: "REST API 기초",
-    description: "Express.js로 기본적인 CRUD API를 만들어봅니다.",
-    track: "backend",
+    title: "Java 기초 - 콘솔 입출력",
+    description: "Java의 기본 문법과 Scanner를 활용한 콘솔 입출력을 학습합니다.",
+    track: "springboot",
+    result: "",
     difficulty: "beginner",
-    estimatedTime: 150,
+    estimatedTime: 120,
     order: 1,
-    tags: ["Node.js", "Express", "REST API"],
+    tags: ["Java", "Scanner", "콘솔"],
+    // Notion 페이지 ID 연결 (SpringBoot 1주차)
+    notionPageId: "2edffd33-6b70-80d8-9c6a-c761b6f718f2",
     introduction: `REST API는 웹 서비스의 기본입니다. 이 미션에서는 Express.js를 사용하여 기본적인 CRUD(Create, Read, Update, Delete) API를 구현합니다.`,
     objective: `- Express.js 서버를 설정합니다
 - RESTful 엔드포인트를 설계합니다
@@ -298,6 +279,12 @@ app.use(express.json());
 ];
 
 /**
+ * 목업 미션 데이터 - Django (백엔드)
+ * TODO: Notion 연동 시 실제 데이터로 대체
+ */
+export const mockDjangoMissions: Mission[] = [];
+
+/**
  * 목업 미션 데이터 - 기획/디자인
  */
 export const mockDesignMissions: Mission[] = [
@@ -306,6 +293,7 @@ export const mockDesignMissions: Mission[] = [
     title: "사용자 페르소나 설계",
     description: "서비스의 타겟 사용자를 정의하고 페르소나를 만듭니다.",
     track: "design",
+    result: "",
     difficulty: "beginner",
     estimatedTime: 90,
     order: 1,
@@ -355,10 +343,12 @@ export const mockDesignMissions: Mission[] = [
  */
 export function getMissionsByTrackSync(track: string): MissionSummary[] {
   switch (track) {
-    case "frontend":
-      return mockFrontendMissions.map(missionToSummary);
-    case "backend":
-      return mockBackendMissions.map(missionToSummary);
+    case "react":
+      return mockReactMissions.map(missionToSummary);
+    case "springboot":
+      return mockSpringbootMissions.map(missionToSummary);
+    case "django":
+      return mockDjangoMissions.map(missionToSummary);
     case "design":
       return mockDesignMissions.map(missionToSummary);
     default:
@@ -371,8 +361,9 @@ export function getMissionsByTrackSync(track: string): MissionSummary[] {
  */
 export function getMissionByIdSync(missionId: string): Mission | undefined {
   const allMissions = [
-    ...mockFrontendMissions,
-    ...mockBackendMissions,
+    ...mockReactMissions,
+    ...mockSpringbootMissions,
+    ...mockDjangoMissions,
     ...mockDesignMissions,
   ];
   return allMissions.find((m) => m.id === missionId);

@@ -7,26 +7,30 @@ import { Badge } from "@/components/ui/badge";
 import { mockTracks } from "@/lib/mock-data";
 
 const trackIcons = {
-  frontend: Monitor,
-  backend: Server,
+  react: Monitor,
+  springboot: Server,
+  django: Server,
   design: Palette,
 };
 
 const trackGradients = {
-  frontend: "from-blue-500/10 to-blue-500/5",
-  backend: "from-green-500/10 to-green-500/5",
+  react: "from-blue-500/10 to-blue-500/5",
+  springboot: "from-green-500/10 to-green-500/5",
+  django: "from-yellow-500/10 to-yellow-500/5",
   design: "from-purple-500/10 to-purple-500/5",
 };
 
 const trackBorderColors = {
-  frontend: "hover:border-blue-500/50",
-  backend: "hover:border-green-500/50",
+  react: "hover:border-blue-500/50",
+  springboot: "hover:border-green-500/50",
+  django: "hover:border-yellow-500/50",
   design: "hover:border-purple-500/50",
 };
 
 const trackIconColors = {
-  frontend: "text-blue-500",
-  backend: "text-green-500",
+  react: "text-blue-500",
+  springboot: "text-green-500",
+  django: "text-yellow-500",
   design: "text-purple-500",
 };
 

@@ -14,14 +14,16 @@ import { Badge } from "@/components/ui/badge";
 import { mockTracks } from "@/lib/mock-data";
 
 const trackIcons = {
-  frontend: Monitor,
-  backend: Server,
+  react: Monitor,
+  springboot: Server,
+  django: Server,
   design: Palette,
 };
 
 const trackColors = {
-  frontend: "text-blue-500",
-  backend: "text-green-500",
+  react: "text-blue-500",
+  springboot: "text-green-500",
+  django: "text-yellow-500",
   design: "text-purple-500",
 };
 
@@ -95,7 +97,7 @@ export default function HomePage() {
         <Container>
           <div className="mb-12 text-center">
             <Badge variant="outline" className="mb-4">
-              3개 트랙
+              4개 트랙
             </Badge>
             <h2 className="mb-4 text-3xl font-bold">원하는 분야를 선택하세요</h2>
             <p className="text-muted-foreground max-w-2xl mx-auto">

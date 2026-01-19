@@ -139,14 +139,16 @@ function getCheckboxValue(property: unknown): boolean {
  */
 function parseTrackType(track: string | null): TrackType {
   const trackMap: Record<string, TrackType> = {
-    Frontend: "frontend",
-    frontend: "frontend",
-    Backend: "backend",
-    backend: "backend",
+    React: "react",
+    react: "react",
+    SpringBoot: "springboot",
+    springboot: "springboot",
+    Django: "django",
+    django: "django",
     Design: "design",
     design: "design",
   };
-  return trackMap[track || ""] || "frontend";
+  return trackMap[track || ""] || "react";
 }
 
 /**
@@ -210,6 +212,7 @@ function pageToMission(
     ...pageToMissionSummary(page),
     introduction: getRichTextValue(props.Introduction),
     objective: getRichTextValue(props.Objective),
+    result: getRichTextValue(props.Result),
     timeGoal: getRichTextValue(props.TimeGoal),
     requirements,
     guidelines: getRichTextValue(props.Guidelines),
@@ -217,6 +220,7 @@ function pageToMission(
     exampleImages: [], // 이미지는 별도 처리 필요
     constraints: getRichTextValue(props.Constraints),
     bonusTask: getRichTextValue(props.BonusTask),
+    notionPageId: page.id, // Notion 페이지 ID 저장
   };
 }
 

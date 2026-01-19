@@ -42,17 +42,24 @@ export const navConfig: NavConfig = {
  * 트랙 정보
  */
 export const trackConfig = {
-  frontend: {
-    id: "frontend",
-    name: "프론트엔드",
+  react: {
+    id: "react",
+    name: "프론트엔드 (React)",
     description: "React, Next.js를 활용한 웹 프론트엔드 개발",
     icon: "Monitor",
     color: "var(--track-frontend)",
   },
-  backend: {
-    id: "backend",
-    name: "백엔드",
-    description: "Node.js, Python을 활용한 서버 개발",
+  springboot: {
+    id: "springboot",
+    name: "백엔드 (Spring Boot)",
+    description: "Java와 Spring Boot를 활용한 서버 개발",
+    icon: "Server",
+    color: "var(--track-backend)",
+  },
+  django: {
+    id: "django",
+    name: "백엔드 (Django)",
+    description: "Python과 Django를 활용한 서버 개발",
     icon: "Server",
     color: "var(--track-backend)",
   },
@@ -74,8 +81,9 @@ export const footerLinks: FooterLinkGroup[] = [
   {
     title: "교육",
     links: [
-      { title: "프론트엔드", href: "/frontend" },
-      { title: "백엔드", href: "/backend" },
+      { title: "프론트엔드 (React)", href: "/react" },
+      { title: "백엔드 (Spring Boot)", href: "/springboot" },
+      { title: "백엔드 (Django)", href: "/django" },
       { title: "기획/디자인", href: "/design" },
     ],
   },

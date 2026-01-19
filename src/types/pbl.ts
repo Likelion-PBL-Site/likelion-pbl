@@ -3,7 +3,7 @@
  */
 
 /** 트랙 타입 */
-export type TrackType = "frontend" | "backend" | "design";
+export type TrackType = "react" | "springboot" | "django" | "design";
 
 /** 난이도 타입 */
 export type DifficultyType = "beginner" | "intermediate" | "advanced";
@@ -38,11 +38,13 @@ export interface Mission extends MissionSummary {
   introduction: string;
   /** 2. 과제 목표 */
   objective: string;
-  /** 3. 목표 수행 시간 설명 */
+  /** 3. 최종 결과물 */
+  result: string;
+  /** 4. 목표 수행 시간 설명 */
   timeGoal: string;
-  /** 4. 기능 요구 사항 */
+  /** 5. 기능 요구 사항 (구현 지침) */
   requirements: Requirement[];
-  /** 5. 구현 지침 */
+  /** 5. 구현 지침 (마크다운) */
   guidelines: string;
   /** 6. 결과 예시 URL */
   exampleUrl?: string;
@@ -52,6 +54,8 @@ export interface Mission extends MissionSummary {
   constraints: string;
   /** 8. 보너스 과제 */
   bonusTask: string;
+  /** Notion 페이지 ID (선택) */
+  notionPageId?: string;
 }
 
 /** 미션 진행 상태 (로컬 저장용) */
@@ -70,6 +74,8 @@ export interface TrackInfo {
   icon: string;
   color: string;
   missionCount?: number;
+  /** Notion 트랙 페이지 ID */
+  notionPageId?: string;
 }
 
 /** 난이도 라벨 매핑 */
@@ -81,7 +87,8 @@ export const difficultyLabels: Record<DifficultyType, string> = {
 
 /** 트랙 라벨 매핑 */
 export const trackLabels: Record<TrackType, string> = {
-  frontend: "프론트엔드",
-  backend: "백엔드",
+  react: "프론트엔드 (React)",
+  springboot: "백엔드 (Spring Boot)",
+  django: "백엔드 (Django)",
   design: "기획/디자인",
 };

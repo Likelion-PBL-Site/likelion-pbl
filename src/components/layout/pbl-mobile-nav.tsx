@@ -18,21 +18,24 @@ import {
   SheetTrigger,
 } from "@/components/ui/sheet";
 
-const trackIcons = {
-  frontend: Monitor,
-  backend: Server,
+const trackIcons: Record<TrackType, typeof Monitor> = {
+  react: Monitor,
+  springboot: Server,
+  django: Server,
   design: Palette,
 };
 
-const trackColors = {
-  frontend: "text-blue-500",
-  backend: "text-green-500",
+const trackColors: Record<TrackType, string> = {
+  react: "text-blue-500",
+  springboot: "text-green-500",
+  django: "text-yellow-500",
   design: "text-purple-500",
 };
 
-const trackBgColors = {
-  frontend: "bg-blue-500/10",
-  backend: "bg-green-500/10",
+const trackBgColors: Record<TrackType, string> = {
+  react: "bg-blue-500/10",
+  springboot: "bg-green-500/10",
+  django: "bg-yellow-500/10",
   design: "bg-purple-500/10",
 };
 
@@ -52,7 +55,7 @@ export function PBLMobileNav() {
     ? missions.find((m) => m.id === currentMissionId)
     : null;
 
-  const tracks: TrackType[] = ["frontend", "backend", "design"];
+  const tracks: TrackType[] = ["react", "springboot", "django", "design"];
 
   // 현재 트랙의 아이콘
   const CurrentTrackIcon = currentTrack ? trackIcons[currentTrack] : null;

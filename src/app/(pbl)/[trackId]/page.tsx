@@ -4,9 +4,9 @@ import { Clock, ArrowRight } from "lucide-react";
 import { Container } from "@/components/layout/container";
 import { Badge } from "@/components/ui/badge";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
-import { getMissionsByTrack, mockTracks } from "@/lib/mock-data";
+import { getMissionsByTrack } from "@/lib/mock-data";
 import { trackLabels, difficultyLabels } from "@/types/pbl";
-import type { TrackType } from "@/types/pbl";
+import { isValidTrackId, getTrackById } from "@/data/tracks";
 
 interface TrackPageProps {
   params: Promise<{
@@ -24,13 +24,12 @@ export default async function TrackPage({ params }: TrackPageProps) {
   const { trackId } = await params;
 
   // 유효한 트랙인지 확인
-  const validTracks: TrackType[] = ["frontend", "backend", "design"];
-  if (!validTracks.includes(trackId as TrackType)) {
+  if (!isValidTrackId(trackId)) {
     notFound();
   }
 
-  const track = mockTracks.find((t) => t.id === trackId);
-  const missions = await getMissionsByTrack(trackId as TrackType);
+  const track = getTrackById(trackId);
+  const missions = await getMissionsByTrack(trackId);
 
   if (!track) {
     notFound();
@@ -42,7 +41,7 @@ export default async function TrackPage({ params }: TrackPageProps) {
         {/* 트랙 헤더 */}
         <div className="mb-8">
           <Badge variant="outline" className="mb-3">
-            {trackLabels[trackId as TrackType]}
+            {trackLabels[trackId]}
           </Badge>
           <h1 className="text-3xl font-bold mb-2">{track.name} 트랙</h1>
           <p className="text-muted-foreground max-w-2xl">
