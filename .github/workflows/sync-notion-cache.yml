@@ -1,0 +1,59 @@
+name: Sync Notion Cache
+
+on:
+  schedule:
+    - cron: '0 21 * * *'  # KST 오전 6시 (UTC 21:00)
+    - cron: '0 9 * * *'   # KST 오후 6시 (UTC 09:00)
+  workflow_dispatch:
+    inputs:
+      mission_id:
+        description: '동기화할 미션 ID (비워두면 전체)'
+        required: false
+        type: string
+
+concurrency:
+  group: notion-sync
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Sync Notion cache
+        env:
+          NOTION_API_KEY: ${{ secrets.NOTION_API_KEY }}
+        run: |
+          if [ -n "${{ github.event.inputs.mission_id }}" ]; then
+            node scripts/sync-notion-cache.mjs ${{ github.event.inputs.mission_id }}
+          else
+            node scripts/sync-notion-cache.mjs
+          fi
+
+      - name: Check for changes
+        id: check
+        run: git diff --quiet src/data/notion-cache/ || echo "changed=true" >> $GITHUB_OUTPUT
+
+      - name: Commit and push
+        if: steps.check.outputs.changed == 'true'
+        run: |
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git config user.name "github-actions[bot]"
+          git add src/data/notion-cache/
+          TIMESTAMP=$(TZ='Asia/Seoul' date '+%Y-%m-%d %H:%M KST')
+          git commit -m "🔄 chore: Notion 캐시 자동 동기화 (${TIMESTAMP})"
+          git push
