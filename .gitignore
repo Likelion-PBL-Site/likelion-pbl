@@ -48,3 +48,6 @@ next-env.d.ts
 
 # Demo pages (development only)
 src/app/demo/
+
+# Documentation (internal)
+docs/
