@@ -22,8 +22,16 @@ export function NotionImage({ block }: ImageProps) {
 
   // 프록시 URL 생성 (Notion S3 이미지만)
   const isNotionS3 = originalUrl.includes("s3.us-west-2.amazonaws.com");
+
+  // S3 이미지 + file 타입일 때만 blockId 전달 (URL 만료 시 갱신용)
+  const shouldIncludeBlockId = isNotionS3 && image.type === "file";
+  const proxyParams = new URLSearchParams({ url: originalUrl });
+  if (shouldIncludeBlockId) {
+    proxyParams.set("blockId", block.id);
+  }
+
   const imageUrl = isNotionS3
-    ? `/api/notion/image?url=${encodeURIComponent(originalUrl)}`
+    ? `/api/notion/image?${proxyParams.toString()}`
     : originalUrl;
 
   // 캡션

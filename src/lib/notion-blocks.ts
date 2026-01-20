@@ -249,6 +249,44 @@ export function extractTimeGoalText(blocks: NotionBlock[]): string {
 }
 
 /**
+ * 블록 ID로 새로운 이미지 URL 획득
+ * Notion S3 이미지 URL이 만료되었을 때 호출
+ *
+ * @param blockId - Notion 블록 ID
+ * @returns 새로운 이미지 URL 또는 null (이미지 블록이 아닌 경우)
+ */
+export async function fetchFreshImageUrl(blockId: string): Promise<string | null> {
+  try {
+    const client = getNotionClient();
+    const block = await client.blocks.retrieve({ block_id: blockId });
+
+    // 이미지 블록인지 확인
+    if ("type" in block && block.type === "image") {
+      const imageBlock = block as BlockObjectResponse & {
+        image: {
+          type: "file" | "external";
+          file?: { url: string };
+          external?: { url: string };
+        };
+      };
+
+      if (imageBlock.image.type === "file" && imageBlock.image.file?.url) {
+        console.log(`[Image Refresh] 새 URL 획득 성공: ${blockId}`);
+        return imageBlock.image.file.url;
+      } else if (imageBlock.image.type === "external" && imageBlock.image.external?.url) {
+        return imageBlock.image.external.url;
+      }
+    }
+
+    console.warn(`[Image Refresh] 이미지 블록이 아님: ${blockId}`);
+    return null;
+  } catch (error) {
+    console.error(`[Image Refresh] 블록 조회 실패: ${blockId}`, error);
+    return null;
+  }
+}
+
+/**
  * 이미지 블록에서 URL 추출
  */
 export function extractImageUrls(blocks: NotionBlock[]): string[] {

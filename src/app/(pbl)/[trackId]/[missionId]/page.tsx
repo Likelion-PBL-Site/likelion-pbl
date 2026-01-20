@@ -1,7 +1,7 @@
 import { notFound } from "next/navigation";
 import { getMissionById } from "@/lib/mock-data";
 import { isValidTrackId } from "@/data/tracks";
-import { fetchMissionSections, extractRequirements } from "@/lib/notion-blocks";
+import { fetchMissionSections, extractRequirements, extractTimeGoalText } from "@/lib/notion-blocks";
 import type { MissionSections } from "@/types/notion-blocks";
 import type { Requirement } from "@/types/pbl";
 import { MissionDetailClient } from "./mission-detail-client";
@@ -36,6 +36,7 @@ export default async function MissionPage({ params }: MissionPageProps) {
   // Notion 페이지 ID가 있으면 섹션 블록 데이터 가져오기
   let sections: MissionSections | null = null;
   let notionRequirements: Requirement[] = [];
+  let timeGoalText: string | undefined;
 
   if (mission.notionPageId) {
     try {
@@ -53,6 +54,11 @@ export default async function MissionPage({ params }: MissionPageProps) {
           order: index + 1,
         }));
       }
+
+      // timeGoal 섹션에서 소요 시간 텍스트 추출
+      if (sections.timeGoal.length > 0) {
+        timeGoalText = extractTimeGoalText(sections.timeGoal);
+      }
     } catch (error) {
       console.error("Notion 섹션 데이터 가져오기 실패:", error);
       // 실패해도 계속 진행 (mock 데이터로 폴백)
@@ -65,6 +71,7 @@ export default async function MissionPage({ params }: MissionPageProps) {
       trackId={trackId}
       sections={sections}
       notionRequirements={notionRequirements.length > 0 ? notionRequirements : undefined}
+      timeGoalText={timeGoalText}
     />
   );
 }

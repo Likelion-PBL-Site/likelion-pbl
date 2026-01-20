@@ -1,4 +1,5 @@
 import { NextRequest, NextResponse } from "next/server";
+import { fetchFreshImageUrl } from "@/lib/notion-blocks";
 
 /**
  * 허용된 Notion 이미지 도메인
@@ -9,6 +10,17 @@ const ALLOWED_DOMAINS = [
 ];
 
 /**
+ * 이미지 URL로 페치 시도
+ */
+async function fetchImage(url: string): Promise<Response> {
+  return fetch(url, {
+    headers: {
+      "User-Agent": "Mozilla/5.0 (compatible; NotionImageProxy/1.0)",
+    },
+  });
+}
+
+/**
  * GET /api/notion/image
  * Notion 이미지 프록시 API
  *
@@ -17,14 +29,19 @@ const ALLOWED_DOMAINS = [
  *
  * Query Parameters:
  * - url: 인코딩된 Notion 이미지 URL
+ * - blockId: (선택) Notion 블록 ID - URL 만료 시 새 URL 획득에 사용
  *
  * 캐시 전략:
  * - 브라우저/CDN: 50분 캐시 (Notion URL 만료 전)
  * - stale-while-revalidate: 10분 허용
+ *
+ * 온디맨드 URL 갱신:
+ * - 403 에러 + blockId 존재 시 → Notion API로 새 URL 획득 후 재시도
  */
 export async function GET(request: NextRequest) {
   const { searchParams } = new URL(request.url);
   const imageUrl = searchParams.get("url");
+  const blockId = searchParams.get("blockId");
 
   // URL 유효성 검사
   if (!imageUrl) {
@@ -67,13 +84,25 @@ export async function GET(request: NextRequest) {
   }
 
   try {
-    // 원본 이미지 요청
-    const response = await fetch(decodedUrl, {
-      headers: {
-        // User-Agent를 설정하여 차단 방지
-        "User-Agent": "Mozilla/5.0 (compatible; NotionImageProxy/1.0)",
-      },
-    });
+    // 1차 이미지 페치 시도
+    let response = await fetchImage(decodedUrl);
+
+    // 403 에러 + blockId 존재 시 → 새 URL로 재시도
+    if (response.status === 403 && blockId) {
+      console.log(`[Image Proxy] URL 만료, 새 URL 획득 시도: ${blockId}`);
+
+      const freshUrl = await fetchFreshImageUrl(blockId);
+      if (freshUrl) {
+        console.log(`[Image Proxy] 새 URL로 재시도 중...`);
+        response = await fetchImage(freshUrl);
+
+        if (response.ok) {
+          console.log(`[Image Proxy] 새 URL로 성공!`);
+        }
+      } else {
+        console.warn(`[Image Proxy] 새 URL 획득 실패: ${blockId}`);
+      }
+    }
 
     if (!response.ok) {
       // S3 URL 만료 등의 오류

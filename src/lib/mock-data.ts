@@ -276,6 +276,63 @@ app.use(express.json());
 - 에러 핸들링 미들웨어 구현
 - Swagger 문서화`,
   },
+  {
+    id: "be-mission-2",
+    title: "객체지향 프로그래밍 I – 클래스와 캡슐화",
+    description: "Java의 객체지향 개념을 이해하고 클래스와 캡슐화를 학습합니다.",
+    track: "springboot",
+    result: "",
+    difficulty: "beginner",
+    estimatedTime: 150,
+    order: 2,
+    tags: ["Java", "OOP", "클래스", "캡슐화"],
+    // Notion 페이지 ID 연결 (SpringBoot 2주차)
+    notionPageId: "2edffd33-6b70-80db-b1af-f0ac2765fb21",
+    introduction: `이번 미션에서는 객체지향 프로그래밍의 핵심 개념인 클래스와 캡슐화를 학습합니다.`,
+    objective: `- 클래스와 객체의 개념을 이해합니다
+- 필드와 메서드를 정의합니다
+- 접근 제어자를 활용한 캡슐화를 구현합니다`,
+    timeGoal: "이 과제는 약 2시간 30분 내에 완료하는 것을 목표로 합니다.",
+    requirements: [
+      {
+        id: "req-1",
+        title: "클래스 정의",
+        description: "기본 클래스를 정의하고 필드와 메서드를 추가하세요.",
+        isRequired: true,
+        order: 1,
+      },
+      {
+        id: "req-2",
+        title: "생성자 구현",
+        description: "생성자를 통해 객체를 초기화하세요.",
+        isRequired: true,
+        order: 2,
+      },
+      {
+        id: "req-3",
+        title: "캡슐화 적용",
+        description: "private 필드와 getter/setter를 구현하세요.",
+        isRequired: true,
+        order: 3,
+      },
+    ],
+    guidelines: `### 클래스 기본 구조
+\`\`\`java
+public class Student {
+    private String name;
+    private int age;
+
+    public Student(String name, int age) {
+        this.name = name;
+        this.age = age;
+    }
+}
+\`\`\``,
+    constraints: `- Java 17 이상을 사용하세요
+- 모든 필드는 private으로 선언하세요`,
+    bonusTask: `- toString() 메서드 오버라이딩
+- equals()와 hashCode() 구현`,
+  },
 ];
 
 /**

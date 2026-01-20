@@ -22,6 +22,8 @@ interface MissionDetailClientProps {
   sections?: MissionSections | null;
   /** Notion에서 추출한 요구사항 (있으면 이걸 사용) */
   notionRequirements?: Requirement[];
+  /** Notion timeGoal 섹션에서 추출한 소요 시간 텍스트 */
+  timeGoalText?: string;
 }
 
 const difficultyColors = {
@@ -39,6 +41,7 @@ export function MissionDetailClient({
   trackId,
   sections,
   notionRequirements,
+  timeGoalText,
 }: MissionDetailClientProps) {
   const { missionProgress, toggleRequirement, visitMission } = usePBLStore();
 
@@ -83,8 +86,12 @@ export function MissionDetailClient({
             <div className="flex items-center gap-1 text-sm text-muted-foreground">
               <Clock className="h-4 w-4" />
               <span>
-                {Math.floor(mission.estimatedTime / 60)}시간{" "}
-                {mission.estimatedTime % 60 > 0 && `${mission.estimatedTime % 60}분`}
+                {timeGoalText || (
+                  <>
+                    {Math.floor(mission.estimatedTime / 60)}시간{" "}
+                    {mission.estimatedTime % 60 > 0 && `${mission.estimatedTime % 60}분`}
+                  </>
+                )}
               </span>
             </div>
           </div>

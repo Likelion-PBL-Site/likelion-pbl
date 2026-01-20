@@ -28,6 +28,10 @@ const MISSIONS_WITH_NOTION = [
     missionId: "be-mission-1",
     notionPageId: "2edffd33-6b70-80d8-9c6a-c761b6f718f2",
   },
+  {
+    missionId: "be-mission-2",
+    notionPageId: "2edffd33-6b70-80db-b1af-f0ac2765fb21",
+  },
   // 추가 미션은 여기에 등록
 ];
 
