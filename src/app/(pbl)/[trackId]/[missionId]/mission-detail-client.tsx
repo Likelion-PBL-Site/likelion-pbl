@@ -2,7 +2,7 @@
 
 import { useEffect } from "react";
 import Link from "next/link";
-import { ArrowLeft, Clock, ExternalLink } from "lucide-react";
+import { ArrowLeft, Clock, ExternalLink, Lightbulb, Target, FileCheck, Code, Image, AlertTriangle, Star } from "lucide-react";
 import { Container } from "@/components/layout/container";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
@@ -31,6 +31,30 @@ const difficultyColors = {
   intermediate: "bg-yellow-500/10 text-yellow-600 dark:text-yellow-400 border-yellow-500/20",
   advanced: "bg-red-500/10 text-red-600 dark:text-red-400 border-red-500/20",
 };
+
+/**
+ * 섹션 안내 문구 컴포넌트
+ */
+interface SectionGuideProps {
+  icon: React.ReactNode;
+  text: string;
+  variant?: "default" | "warning" | "bonus";
+}
+
+function SectionGuide({ icon, text, variant = "default" }: SectionGuideProps) {
+  const variantStyles = {
+    default: "bg-blue-50/50 dark:bg-blue-950/30 border-blue-200 dark:border-blue-800 text-blue-700 dark:text-blue-300",
+    warning: "bg-amber-50/50 dark:bg-amber-950/30 border-amber-200 dark:border-amber-800 text-amber-700 dark:text-amber-300",
+    bonus: "bg-primary/5 border-primary/20 text-primary",
+  };
+
+  return (
+    <div className={`flex items-center gap-2 p-3 rounded-lg border mb-4 ${variantStyles[variant]}`}>
+      {icon}
+      <p className="text-sm">{text}</p>
+    </div>
+  );
+}
 
 /**
  * 미션 상세 클라이언트 컴포넌트
@@ -126,8 +150,12 @@ export function MissionDetailClient({
                 <CardTitle className="text-xl">미션 소개</CardTitle>
               </CardHeader>
               <CardContent>
+                <SectionGuide
+                  icon={<Lightbulb className="h-4 w-4 flex-shrink-0" />}
+                  text="이 미션에서 무엇을 배우고 어떤 경험을 하게 되는지 확인하세요."
+                />
                 {hasNotionData && sections?.introduction.length > 0 ? (
-                  <NotionBlockRenderer blocks={sections.introduction} />
+                  <NotionBlockRenderer blocks={sections.introduction} sectionType="introduction" />
                 ) : (
                   <div className="prose prose-sm dark:prose-invert max-w-none">
                     {mission.introduction.split("\n\n").map((para, idx) => (
@@ -148,8 +176,12 @@ export function MissionDetailClient({
                 <CardTitle className="text-xl">과제 목표</CardTitle>
               </CardHeader>
               <CardContent>
+                <SectionGuide
+                  icon={<Target className="h-4 w-4 flex-shrink-0" />}
+                  text="이 미션을 통해 달성해야 할 학습 목표입니다."
+                />
                 {hasNotionData && sections?.objective.length > 0 ? (
-                  <NotionBlockRenderer blocks={sections.objective} />
+                  <NotionBlockRenderer blocks={sections.objective} sectionType="objective" />
                 ) : (
                   <div className="prose prose-sm dark:prose-invert max-w-none">
                     {mission.objective.split("\n").map((line, idx) => (
@@ -168,7 +200,7 @@ export function MissionDetailClient({
                     </div>
                     {hasNotionData && sections?.timeGoal.length > 0 ? (
                       <div className="text-sm text-muted-foreground">
-                        <NotionBlockRenderer blocks={sections.timeGoal} />
+                        <NotionBlockRenderer blocks={sections.timeGoal} sectionType="timeGoal" />
                       </div>
                     ) : (
                       <p className="text-sm text-muted-foreground">
@@ -188,8 +220,12 @@ export function MissionDetailClient({
                 <CardTitle className="text-xl">최종 결과물</CardTitle>
               </CardHeader>
               <CardContent>
+                <SectionGuide
+                  icon={<FileCheck className="h-4 w-4 flex-shrink-0" />}
+                  text="미션 완료 시 만들어야 할 결과물의 형태입니다."
+                />
                 {hasNotionData && sections?.result.length > 0 ? (
-                  <NotionBlockRenderer blocks={sections.result} />
+                  <NotionBlockRenderer blocks={sections.result} sectionType="result" />
                 ) : mission.result ? (
                   <div className="prose prose-sm dark:prose-invert max-w-none">
                     {mission.result.split("\n").map((line, idx) => (
@@ -214,8 +250,12 @@ export function MissionDetailClient({
                 <CardTitle className="text-xl">구현 지침</CardTitle>
               </CardHeader>
               <CardContent>
+                <SectionGuide
+                  icon={<Code className="h-4 w-4 flex-shrink-0" />}
+                  text="단계별 가이드를 따라 구현해보세요. 체크리스트와 함께 진행하면 좋습니다."
+                />
                 {hasNotionData && sections?.guidelines.length > 0 ? (
-                  <NotionBlockRenderer blocks={sections.guidelines} />
+                  <NotionBlockRenderer blocks={sections.guidelines} sectionType="guidelines" />
                 ) : (
                   <div className="prose prose-sm dark:prose-invert max-w-none">
                     {mission.guidelines.split("\n").map((line, idx) => {
@@ -247,6 +287,10 @@ export function MissionDetailClient({
                 <CardTitle className="text-xl">결과 예시</CardTitle>
               </CardHeader>
               <CardContent>
+                <SectionGuide
+                  icon={<Image className="h-4 w-4 flex-shrink-0" />}
+                  text="완성된 결과물의 예시입니다. 참고하여 구현해보세요."
+                />
                 {mission.exampleUrl && (
                   <div className="mb-6">
                     <Button variant="outline" asChild>
@@ -262,7 +306,7 @@ export function MissionDetailClient({
                   </div>
                 )}
                 {hasNotionData && sections?.example.length > 0 ? (
-                  <NotionBlockRenderer blocks={sections.example} />
+                  <NotionBlockRenderer blocks={sections.example} sectionType="example" />
                 ) : mission.exampleImages && mission.exampleImages.length > 0 ? (
                   <div className="grid gap-4">
                     {mission.exampleImages.map((img, idx) => (
@@ -290,8 +334,13 @@ export function MissionDetailClient({
                 <CardTitle className="text-xl">제약 사항</CardTitle>
               </CardHeader>
               <CardContent>
+                <SectionGuide
+                  icon={<AlertTriangle className="h-4 w-4 flex-shrink-0" />}
+                  text="미션 수행 시 반드시 지켜야 할 규칙입니다."
+                  variant="warning"
+                />
                 {hasNotionData && sections?.constraints.length > 0 ? (
-                  <NotionBlockRenderer blocks={sections.constraints} />
+                  <NotionBlockRenderer blocks={sections.constraints} sectionType="constraints" />
                 ) : (
                   <div className="prose prose-sm dark:prose-invert max-w-none">
                     {mission.constraints.split("\n").map((line, idx) => (
@@ -313,13 +362,13 @@ export function MissionDetailClient({
                 <CardTitle className="text-xl">보너스 과제</CardTitle>
               </CardHeader>
               <CardContent>
-                <div className="p-4 bg-primary/5 rounded-lg border border-primary/20 mb-4">
-                  <p className="text-sm text-muted-foreground">
-                    보너스 과제는 필수가 아닙니다. 기본 요구사항을 모두 완료한 후 도전해보세요!
-                  </p>
-                </div>
+                <SectionGuide
+                  icon={<Star className="h-4 w-4 flex-shrink-0" />}
+                  text="필수가 아닌 추가 도전 과제입니다. 기본 요구사항 완료 후 도전해보세요!"
+                  variant="bonus"
+                />
                 {hasNotionData && sections?.bonus.length > 0 ? (
-                  <NotionBlockRenderer blocks={sections.bonus} />
+                  <NotionBlockRenderer blocks={sections.bonus} sectionType="bonus" />
                 ) : (
                   <div className="prose prose-sm dark:prose-invert max-w-none">
                     {mission.bonusTask.split("\n").map((line, idx) => (

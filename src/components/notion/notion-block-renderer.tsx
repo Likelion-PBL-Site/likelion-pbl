@@ -3,7 +3,7 @@
 import type { NotionBlock } from "@/types/notion-blocks";
 import { Paragraph } from "./blocks/paragraph";
 import { Heading } from "./blocks/heading";
-import { ListItem, ListWrapper } from "./blocks/list-item";
+import { ListItem, ListWrapper, type SectionType } from "./blocks/list-item";
 import { Quote } from "./blocks/quote";
 import { Callout } from "./blocks/callout";
 import { Toggle } from "./blocks/toggle";
@@ -13,13 +13,16 @@ import { Divider } from "./blocks/divider";
 
 interface NotionBlockRendererProps {
   blocks: NotionBlock[];
+  /** 섹션 타입에 따라 리스트 스타일 통일 */
+  sectionType?: SectionType;
 }
 
 /**
  * Notion 블록 배열을 렌더링하는 메인 컴포넌트
  * 연속된 리스트 아이템을 그룹화하고 재귀적으로 children을 렌더링
+ * sectionType에 따라 리스트 스타일이 통일됨
  */
-export function NotionBlockRenderer({ blocks }: NotionBlockRendererProps) {
+export function NotionBlockRenderer({ blocks, sectionType }: NotionBlockRendererProps) {
   const groupedBlocks = groupListItems(blocks);
 
   return (
@@ -27,14 +30,14 @@ export function NotionBlockRenderer({ blocks }: NotionBlockRendererProps) {
       {groupedBlocks.map((item, index) => {
         if (item.type === "list-group") {
           return (
-            <ListWrapper key={index} type={item.listType}>
+            <ListWrapper key={index} type={item.listType} sectionType={sectionType}>
               {item.blocks.map((block) => (
-                <RenderBlock key={block.id} block={block} />
+                <RenderBlock key={block.id} block={block} sectionType={sectionType} />
               ))}
             </ListWrapper>
           );
         }
-        return <RenderBlock key={item.block.id} block={item.block} />;
+        return <RenderBlock key={item.block.id} block={item.block} sectionType={sectionType} />;
       })}
     </div>
   );
@@ -42,14 +45,15 @@ export function NotionBlockRenderer({ blocks }: NotionBlockRendererProps) {
 
 interface RenderBlockProps {
   block: NotionBlock;
+  sectionType?: SectionType;
 }
 
 /**
  * 단일 블록을 렌더링하고 children이 있으면 재귀 호출
  */
-function RenderBlock({ block }: RenderBlockProps) {
+function RenderBlock({ block, sectionType }: RenderBlockProps) {
   const children = hasChildren(block) ? (
-    <NotionBlockRenderer blocks={block.children} />
+    <NotionBlockRenderer blocks={block.children} sectionType={sectionType} />
   ) : null;
 
   switch (block.type) {
