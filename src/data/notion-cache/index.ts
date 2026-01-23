@@ -15,6 +15,13 @@ export interface CachedMissionData {
 }
 
 /**
+ * Notion 페이지 ID 정규화 (하이픈 제거)
+ */
+function normalizePageId(pageId: string): string {
+  return pageId.replace(/-/g, "");
+}
+
+/**
  * 캐시 파일 경로 생성
  */
 export function getCachePath(missionId: string): string {
@@ -23,16 +30,44 @@ export function getCachePath(missionId: string): string {
 
 /**
  * 캐시 파일 읽기
+ * missionId 또는 notionPageId로 조회 가능
  */
-export async function readCache(missionId: string): Promise<CachedMissionData | null> {
+export async function readCache(idOrPageId: string): Promise<CachedMissionData | null> {
+  // 1. 먼저 ID로 직접 조회 시도
   try {
-    const filePath = getCachePath(missionId);
+    const filePath = getCachePath(idOrPageId);
     const content = await fs.readFile(filePath, "utf-8");
     return JSON.parse(content) as CachedMissionData;
   } catch {
-    // 파일이 없거나 읽기 실패
-    return null;
+    // 파일이 없으면 계속 진행
   }
+
+  // 2. notionPageId로 모든 캐시 파일 검색
+  try {
+    const normalizedPageId = normalizePageId(idOrPageId);
+    const files = await fs.readdir(CACHE_DIR);
+
+    for (const file of files) {
+      if (!file.endsWith(".json")) continue;
+
+      try {
+        const filePath = path.join(CACHE_DIR, file);
+        const content = await fs.readFile(filePath, "utf-8");
+        const data = JSON.parse(content) as CachedMissionData;
+
+        // notionPageId가 일치하면 반환
+        if (normalizePageId(data.notionPageId) === normalizedPageId) {
+          return data;
+        }
+      } catch {
+        // 개별 파일 읽기 실패는 무시
+      }
+    }
+  } catch {
+    // 디렉토리 읽기 실패
+  }
+
+  return null;
 }
 
 /**

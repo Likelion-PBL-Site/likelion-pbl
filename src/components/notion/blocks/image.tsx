@@ -1,7 +1,7 @@
 "use client";
 
 import { useState, useEffect, useCallback } from "react";
-import { ImageOff, Info, ZoomIn, X } from "lucide-react";
+import { ImageOff, Info, ZoomIn, X, Loader2 } from "lucide-react";
 import type { ImageBlock } from "@/types/notion-blocks";
 
 interface ImageProps {
@@ -10,6 +10,7 @@ interface ImageProps {
 
 export function NotionImage({ block }: ImageProps) {
   const { image } = block;
+  const [isLoading, setIsLoading] = useState(true);
   const [error, setError] = useState(false);
   const [isLightboxOpen, setIsLightboxOpen] = useState(false);
 
@@ -49,22 +50,35 @@ export function NotionImage({ block }: ImageProps) {
           <button
             type="button"
             onClick={() => setIsLightboxOpen(true)}
-            className="relative w-full group cursor-zoom-in"
+            className="relative block w-full group cursor-zoom-in"
           >
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
               src={imageUrl}
               alt={caption || "Notion 이미지"}
-              className="w-full h-auto transition-transform duration-200 group-hover:scale-[1.02]"
+              className="block w-full h-auto transition-transform duration-200 group-hover:scale-[1.02]"
               loading="lazy"
-              onError={() => setError(true)}
+              onLoad={() => setIsLoading(false)}
+              onError={() => {
+                setIsLoading(false);
+                setError(true);
+              }}
             />
-            {/* Zoom 오버레이 */}
-            <div className="absolute inset-0 bg-black/0 group-hover:bg-black/20 transition-colors flex items-center justify-center">
-              <div className="opacity-0 group-hover:opacity-100 transition-opacity bg-white/90 dark:bg-gray-800/90 rounded-full p-2 shadow-lg">
-                <ZoomIn className="w-5 h-5 text-gray-700 dark:text-gray-200" />
+            {/* 로딩 오버레이 */}
+            {isLoading && (
+              <div className="absolute inset-0 flex flex-col items-center justify-center bg-muted/80 backdrop-blur-sm">
+                <Loader2 className="w-8 h-8 animate-spin text-primary mb-2" />
+                <span className="text-sm text-muted-foreground">이미지 로딩 중...</span>
               </div>
-            </div>
+            )}
+            {/* Zoom 오버레이 (로딩 완료 후에만 표시) */}
+            {!isLoading && (
+              <div className="absolute inset-0 bg-black/0 group-hover:bg-black/20 transition-colors flex items-center justify-center">
+                <div className="opacity-0 group-hover:opacity-100 transition-opacity bg-white/90 dark:bg-gray-800/90 rounded-full p-2 shadow-lg">
+                  <ZoomIn className="w-5 h-5 text-gray-700 dark:text-gray-200" />
+                </div>
+              </div>
+            )}
           </button>
           {caption && (
             <figcaption className="px-4 py-3 text-sm text-muted-foreground bg-muted/30 border-t border-border flex items-center gap-2">

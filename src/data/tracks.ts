@@ -8,7 +8,7 @@ export const tracks: TrackInfo[] = [
     id: "react",
     name: "프론트엔드 (React)",
     description:
-      "React, Next.js를 활용한 웹 프론트엔드 개발을 학습합니다. 컴포넌트 설계부터 상태 관리, 배포까지 실무 역량을 키웁니다.",
+      "HTML, CSS, JavaScript와 React를 활용한 웹 프론트엔드 개발을 학습합니다. 컴포넌트 설계부터 상태 관리, API 연동까지 실무 역량을 키웁니다.",
     icon: "Monitor",
     color: "var(--track-frontend)",
     missionCount: 10,

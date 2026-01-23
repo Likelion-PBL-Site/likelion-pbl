@@ -15,6 +15,10 @@ interface NotionBlockRendererProps {
   blocks: NotionBlock[];
   /** 섹션 타입에 따라 리스트 스타일 통일 */
   sectionType?: SectionType;
+  /** 체크된 블록 ID Set (guidelines 섹션용) */
+  checkedIds?: Set<string>;
+  /** 체크 토글 콜백 */
+  onToggleCheck?: (blockId: string) => void;
 }
 
 /**
@@ -22,7 +26,12 @@ interface NotionBlockRendererProps {
  * 연속된 리스트 아이템을 그룹화하고 재귀적으로 children을 렌더링
  * sectionType에 따라 리스트 스타일이 통일됨
  */
-export function NotionBlockRenderer({ blocks, sectionType }: NotionBlockRendererProps) {
+export function NotionBlockRenderer({
+  blocks,
+  sectionType,
+  checkedIds,
+  onToggleCheck,
+}: NotionBlockRendererProps) {
   const groupedBlocks = groupListItems(blocks);
 
   return (
@@ -32,12 +41,26 @@ export function NotionBlockRenderer({ blocks, sectionType }: NotionBlockRenderer
           return (
             <ListWrapper key={index} type={item.listType} sectionType={sectionType}>
               {item.blocks.map((block) => (
-                <RenderBlock key={block.id} block={block} sectionType={sectionType} />
+                <RenderBlock
+                  key={block.id}
+                  block={block}
+                  sectionType={sectionType}
+                  checkedIds={checkedIds}
+                  onToggleCheck={onToggleCheck}
+                />
               ))}
             </ListWrapper>
           );
         }
-        return <RenderBlock key={item.block.id} block={item.block} sectionType={sectionType} />;
+        return (
+          <RenderBlock
+            key={item.block.id}
+            block={item.block}
+            sectionType={sectionType}
+            checkedIds={checkedIds}
+            onToggleCheck={onToggleCheck}
+          />
+        );
       })}
     </div>
   );
@@ -46,14 +69,21 @@ export function NotionBlockRenderer({ blocks, sectionType }: NotionBlockRenderer
 interface RenderBlockProps {
   block: NotionBlock;
   sectionType?: SectionType;
+  checkedIds?: Set<string>;
+  onToggleCheck?: (blockId: string) => void;
 }
 
 /**
  * 단일 블록을 렌더링하고 children이 있으면 재귀 호출
  */
-function RenderBlock({ block, sectionType }: RenderBlockProps) {
+function RenderBlock({ block, sectionType, checkedIds, onToggleCheck }: RenderBlockProps) {
   const children = hasChildren(block) ? (
-    <NotionBlockRenderer blocks={block.children} sectionType={sectionType} />
+    <NotionBlockRenderer
+      blocks={block.children}
+      sectionType={sectionType}
+      checkedIds={checkedIds}
+      onToggleCheck={onToggleCheck}
+    />
   ) : null;
 
   switch (block.type) {
@@ -62,7 +92,20 @@ function RenderBlock({ block, sectionType }: RenderBlockProps) {
 
     case "heading_1":
     case "heading_2":
+      return <Heading block={block} />;
+
     case "heading_3":
+      // guidelines 섹션에서는 heading_3에 체크박스 추가
+      if (sectionType === "guidelines" && checkedIds && onToggleCheck) {
+        return (
+          <Heading
+            block={block}
+            isCheckable
+            isChecked={checkedIds.has(block.id)}
+            onToggle={onToggleCheck}
+          />
+        );
+      }
       return <Heading block={block} />;
 
     case "bulleted_list_item":

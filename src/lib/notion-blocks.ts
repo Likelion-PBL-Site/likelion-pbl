@@ -8,7 +8,7 @@ import type {
   MissionSections,
   SectionKey,
 } from "@/types/notion-blocks";
-import { readCache } from "@/data/notion-cache";
+import { readCache, writeCache } from "@/data/notion-cache";
 
 /**
  * Notion 클라이언트 생성
@@ -193,8 +193,9 @@ export function parseBlocksToSections(blocks: NotionBlock[]): MissionSections {
 /**
  * 미션 페이지에서 섹션별 블록 가져오기
  *
- * 1. JSON 캐시에서 먼저 읽기 시도
+ * 1. JSON 캐시에서 먼저 읽기 시도 (missionId 또는 pageId로)
  * 2. 캐시가 없으면 Notion API로 폴백
+ * 3. API에서 가져온 데이터는 자동으로 캐시에 저장
  *
  * @param pageId - Notion 페이지 ID
  * @param missionId - 미션 ID (캐시 조회용, 선택적)
@@ -203,23 +204,39 @@ export async function fetchMissionSections(
   pageId: string,
   missionId?: string
 ): Promise<MissionSections> {
-  // 1. JSON 캐시에서 읽기 시도
-  if (missionId) {
-    try {
-      const cached = await readCache(missionId);
-      if (cached && cached.sections) {
-        console.log(`[Notion] 캐시에서 로드: ${missionId}`);
-        return cached.sections;
-      }
-    } catch (error) {
-      console.warn(`[Notion] 캐시 읽기 실패: ${missionId}`, error);
+  // 1. JSON 캐시에서 읽기 시도 (missionId 또는 pageId로)
+  const cacheKey = missionId || pageId;
+  try {
+    const cached = await readCache(cacheKey);
+    if (cached && cached.sections) {
+      console.log(`[Notion] 캐시에서 로드: ${cacheKey}`);
+      return cached.sections;
     }
+  } catch (error) {
+    console.warn(`[Notion] 캐시 읽기 실패: ${cacheKey}`, error);
   }
 
   // 2. Notion API로 폴백
   console.log(`[Notion] API에서 로드: ${pageId}`);
   const blocks = await fetchPageBlocks(pageId);
-  return parseBlocksToSections(blocks);
+  const sections = parseBlocksToSections(blocks);
+
+  // 3. 캐시에 자동 저장 (on-demand caching)
+  const normalizedPageId = pageId.replace(/-/g, "");
+  const cacheId = missionId || normalizedPageId;
+  try {
+    await writeCache({
+      missionId: cacheId,
+      notionPageId: pageId,
+      sections,
+      syncedAt: new Date().toISOString(),
+    });
+    console.log(`[Notion] 캐시에 저장 완료: ${cacheId}`);
+  } catch (error) {
+    console.warn(`[Notion] 캐시 저장 실패: ${cacheId}`, error);
+  }
+
+  return sections;
 }
 
 /**
@@ -325,73 +342,39 @@ export interface ExtractedRequirement {
 
 /**
  * guidelines 섹션에서 체크리스트 요구사항 추출
- * bulleted_list_item을 체크 가능한 요구사항으로 변환
+ * heading_3만 주요 단계(체크포인트)로 추출
+ *
+ * 예: "1. Scanner 클래스 import" → { id: "heading-xxx", title: "Scanner 클래스 import", number: 1 }
  */
 export function extractRequirements(blocks: NotionBlock[]): ExtractedRequirement[] {
   const requirements: ExtractedRequirement[] = [];
-  let currentCategory: string | undefined;
-  let reqIndex = 0;
 
-  function processBlocks(blockList: NotionBlock[], depth = 0) {
+  function processBlocks(blockList: NotionBlock[]) {
     for (const block of blockList) {
-      // heading_3로 카테고리 분류
+      // heading_3만 체크포인트로 추출
       if (block.type === "heading_3") {
-        currentCategory = block.heading_3.rich_text
-          .map((t) => t.plain_text)
-          .join("");
-      }
-
-      // bulleted_list_item을 요구사항으로 변환
-      if (block.type === "bulleted_list_item") {
-        const text = block.bulleted_list_item.rich_text
+        const text = block.heading_3.rich_text
           .map((t) => t.plain_text)
           .join("");
 
         if (text.trim()) {
-          // [선택] 또는 (선택) 마커가 있으면 선택사항
-          const isOptional = /\[선택\]|\(선택\)|선택\s*:/i.test(text);
-          // 마커 제거한 깨끗한 제목
-          const cleanTitle = text
-            .replace(/\[선택\]|\(선택\)|선택\s*:/gi, "")
-            .trim();
+          // "1. 제목" 형식 파싱
+          const match = text.match(/^(\d+)\.\s*(.+)$/);
+          const title = match ? match[2].trim() : text.trim();
+          const number = match ? parseInt(match[1], 10) : undefined;
 
           requirements.push({
-            id: `req-${reqIndex++}`,
-            title: cleanTitle,
-            isRequired: !isOptional,
-            category: currentCategory,
+            id: block.id,
+            title,
+            isRequired: true, // heading_3는 모두 필수 단계
+            category: number ? `Step ${number}` : undefined,
           });
-
-          // 중첩된 리스트 아이템은 설명으로 처리하지 않음 (별도 요구사항으로)
-          if ("children" in block && block.children) {
-            processBlocks(block.children, depth + 1);
-          }
         }
       }
 
-      // numbered_list_item도 요구사항으로 처리
-      if (block.type === "numbered_list_item") {
-        const text = block.numbered_list_item.rich_text
-          .map((t) => t.plain_text)
-          .join("");
-
-        if (text.trim()) {
-          const isOptional = /\[선택\]|\(선택\)|선택\s*:/i.test(text);
-          const cleanTitle = text
-            .replace(/\[선택\]|\(선택\)|선택\s*:/gi, "")
-            .trim();
-
-          requirements.push({
-            id: `req-${reqIndex++}`,
-            title: cleanTitle,
-            isRequired: !isOptional,
-            category: currentCategory,
-          });
-
-          if ("children" in block && block.children) {
-            processBlocks(block.children, depth + 1);
-          }
-        }
+      // 자식 블록에서도 heading_3 찾기 (toggle 내부 등)
+      if ("children" in block && block.children) {
+        processBlocks(block.children);
       }
     }
   }

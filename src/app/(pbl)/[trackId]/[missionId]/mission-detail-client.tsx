@@ -1,13 +1,13 @@
 "use client";
 
-import { useEffect } from "react";
+import { useEffect, useMemo } from "react";
 import Link from "next/link";
-import { ArrowLeft, Clock, ExternalLink, Lightbulb, Target, FileCheck, Code, Image, AlertTriangle, Star } from "lucide-react";
+import { ArrowLeft, Clock, ExternalLink, Lightbulb, Target, FileCheck, Code, Image, AlertTriangle, Star, Construction } from "lucide-react";
 import { Container } from "@/components/layout/container";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "@/components/ui/card";
 import { difficultyLabels, trackLabels } from "@/types/pbl";
 import type { Mission, TrackType, Requirement } from "@/types/pbl";
 import type { MissionSections } from "@/types/notion-blocks";
@@ -57,6 +57,70 @@ function SectionGuide({ icon, text, variant = "default" }: SectionGuideProps) {
 }
 
 /**
+ * 제작 중 UI 컴포넌트
+ */
+interface UnderConstructionProps {
+  mission: Mission;
+  trackId: TrackType;
+}
+
+function UnderConstruction({ mission, trackId }: UnderConstructionProps) {
+  return (
+    <div className="py-6 md:py-8">
+      <Container>
+        {/* 뒤로가기 */}
+        <Link
+          href={`/${trackId}`}
+          className="inline-flex items-center gap-1 text-sm text-muted-foreground hover:text-foreground mb-6"
+        >
+          <ArrowLeft className="h-4 w-4" />
+          {trackLabels[trackId]} 트랙으로 돌아가기
+        </Link>
+
+        {/* 미션 헤더 */}
+        <div className="mb-8">
+          <div className="flex flex-wrap items-center gap-2 mb-3">
+            <Badge variant="outline">{trackLabels[mission.track]}</Badge>
+            <Badge variant="secondary" className="bg-amber-500/10 text-amber-600 dark:text-amber-400">
+              준비 중
+            </Badge>
+          </div>
+          <h1 className="text-2xl md:text-3xl font-bold mb-2">{mission.title}</h1>
+          {mission.description && (
+            <p className="text-muted-foreground">{mission.description}</p>
+          )}
+        </div>
+
+        {/* 제작 중 카드 */}
+        <Card className="border-dashed border-2 bg-muted/30">
+          <CardHeader className="text-center pb-2">
+            <div className="mx-auto mb-4 p-4 rounded-full bg-amber-500/10">
+              <Construction className="h-12 w-12 text-amber-500" />
+            </div>
+            <CardTitle className="text-xl">콘텐츠 제작 중</CardTitle>
+            <CardDescription className="text-base">
+              이 미션의 상세 내용을 열심히 준비하고 있습니다.
+            </CardDescription>
+          </CardHeader>
+          <CardContent className="text-center space-y-4">
+            <p className="text-sm text-muted-foreground">
+              곧 완성된 미션 가이드를 만나보실 수 있습니다.<br />
+              조금만 기다려 주세요!
+            </p>
+            <Button variant="outline" asChild>
+              <Link href={`/${trackId}`}>
+                <ArrowLeft className="h-4 w-4 mr-2" />
+                트랙 목록으로 돌아가기
+              </Link>
+            </Button>
+          </CardContent>
+        </Card>
+      </Container>
+    </div>
+  );
+}
+
+/**
  * 미션 상세 클라이언트 컴포넌트
  * 체크리스트 인터랙션 및 진행률 관리를 담당
  */
@@ -79,6 +143,18 @@ export function MissionDetailClient({
 
   const progress = missionProgress[mission.id];
   const completedRequirements = progress?.completedRequirements || [];
+
+  // 체크된 블록 ID Set (guidelines 섹션용)
+  const checkedIds = useMemo(
+    () => new Set(completedRequirements),
+    [completedRequirements]
+  );
+
+  // 체크 토글 핸들러
+  const handleToggleCheck = (blockId: string) => {
+    toggleRequirement(mission.id, blockId);
+  };
+
   const progressPercent = calculateProgress(
     mission.id,
     requirements.length,
@@ -87,6 +163,17 @@ export function MissionDetailClient({
 
   // Notion 섹션 데이터가 있는지 확인
   const hasNotionData = sections && Object.values(sections).some((arr) => arr.length > 0);
+
+  // 콘텐츠가 없는지 확인
+  // Notion 페이지 ID가 있는데 블록 콘텐츠가 없으면 = 제작 중
+  // (mock 데이터만 있는 미션은 notionPageId가 없거나, mock에 introduction이 있음)
+  const hasValidMockContent = !mission.notionPageId || (mission.introduction && mission.introduction.trim().length > 50);
+  const isUnderConstruction = !hasNotionData && !hasValidMockContent;
+
+  // 제작 중이면 제작 중 UI 표시
+  if (isUnderConstruction) {
+    return <UnderConstruction mission={mission} trackId={trackId} />;
+  }
 
   return (
     <div className="py-6 md:py-8">
@@ -255,7 +342,12 @@ export function MissionDetailClient({
                   text="단계별 가이드를 따라 구현해보세요. 체크리스트와 함께 진행하면 좋습니다."
                 />
                 {hasNotionData && sections?.guidelines.length > 0 ? (
-                  <NotionBlockRenderer blocks={sections.guidelines} sectionType="guidelines" />
+                  <NotionBlockRenderer
+                    blocks={sections.guidelines}
+                    sectionType="guidelines"
+                    checkedIds={checkedIds}
+                    onToggleCheck={handleToggleCheck}
+                  />
                 ) : (
                   <div className="prose prose-sm dark:prose-invert max-w-none">
                     {mission.guidelines.split("\n").map((line, idx) => {

@@ -1,0 +1,18 @@
+{
+  "env": {
+    "CLAUDE_AUTOCOMPACT_PCT_OVERRIDE": "60"
+  },
+  "hooks": {
+    "PreCompact": [
+      {
+        "matcher": "auto",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "echo '[$(date +\"%Y-%m-%d %H:%M:%S\")] Auto compact triggered' >> /Users/haeseung/2026/PBL_MVP/likelion-pbl/.claude/compact.log"
+          }
+        ]
+      }
+    ]
+  }
+}

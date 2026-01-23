@@ -1,4 +1,5 @@
 import { Client } from "@notionhq/client";
+import { unstable_cache } from "next/cache";
 import type {
   PageObjectResponse,
   RichTextItemResponse,
@@ -32,7 +33,20 @@ function getNotionClient(): Client {
  * 노션 연동 여부 확인
  */
 export function isNotionConfigured(): boolean {
-  return !!(process.env.NOTION_API_KEY && process.env.NOTION_DATABASE_ID);
+  return !!process.env.NOTION_API_KEY;
+}
+
+/**
+ * 트랙별 데이터베이스 ID 가져오기
+ */
+function getTrackDatabaseId(track: TrackType): string | null {
+  const dbIds: Record<TrackType, string | undefined> = {
+    react: process.env.NOTION_DB_REACT,
+    springboot: process.env.NOTION_DB_SPRINGBOOT,
+    django: process.env.NOTION_DB_DJANGO,
+    design: process.env.NOTION_DB_DESIGN,
+  };
+  return dbIds[track] || null;
 }
 
 /**
@@ -135,38 +149,6 @@ function getCheckboxValue(property: unknown): boolean {
 }
 
 /**
- * 트랙 문자열을 TrackType으로 변환
- */
-function parseTrackType(track: string | null): TrackType {
-  const trackMap: Record<string, TrackType> = {
-    React: "react",
-    react: "react",
-    SpringBoot: "springboot",
-    springboot: "springboot",
-    Django: "django",
-    django: "django",
-    Design: "design",
-    design: "design",
-  };
-  return trackMap[track || ""] || "react";
-}
-
-/**
- * 난이도 문자열을 DifficultyType으로 변환
- */
-function parseDifficultyType(difficulty: string | null): DifficultyType {
-  const difficultyMap: Record<string, DifficultyType> = {
-    Beginner: "beginner",
-    beginner: "beginner",
-    Intermediate: "intermediate",
-    intermediate: "intermediate",
-    Advanced: "advanced",
-    advanced: "advanced",
-  };
-  return difficultyMap[difficulty || ""] || "beginner";
-}
-
-/**
  * 노션 Multi-select 속성에서 값들 추출 (태그용)
  */
 function getMultiSelectValues(property: unknown): string[] {
@@ -182,20 +164,54 @@ function getMultiSelectValues(property: unknown): string[] {
 }
 
 /**
- * 노션 페이지를 MissionSummary로 변환
+ * 주차 문자열에서 숫자 추출 (예: "05주", "[1주차]" → 5, 1)
  */
-function pageToMissionSummary(page: PageObjectResponse): MissionSummary {
+function parseWeekNumber(weekStr: string): number {
+  const match = weekStr.match(/(\d+)/);
+  return match ? parseInt(match[1], 10) : 0;
+}
+
+/**
+ * 단계를 난이도로 매핑
+ */
+function stageToDifficulty(stage: string | null): DifficultyType {
+  const stageMap: Record<string, DifficultyType> = {
+    Java: "beginner",
+    "Spring Core": "intermediate",
+    JPA: "intermediate",
+    Project: "advanced",
+  };
+  return stageMap[stage || ""] || "beginner";
+}
+
+/**
+ * 노션 페이지를 MissionSummary로 변환 (트랙별 커리큘럼 DB용)
+ */
+function pageToMissionSummary(page: PageObjectResponse, track: TrackType): MissionSummary {
   const props = page.properties;
+
+  // 새 DB 컬럼 매핑
+  // - 콘텐츠 제작물 (title) → 주차 정보
+  // - 주제 (rich_text) → 미션 제목
+  // - 주요 학습 내용 (rich_text) → 설명
+  // - 단계 (select) → 난이도 매핑
+  // - 핵심 기술 키워드 (multi_select) → 태그
+
+  const weekStr = getTitleValue(props["콘텐츠 제작물"]);
+  const topic = getRichTextValue(props["주제"]);
+  const description = getRichTextValue(props["주요 학습 내용"]);
+  const stage = getSelectValue(props["단계"]);
+  const tags = getMultiSelectValues(props["핵심 기술 키워드"]);
 
   return {
     id: page.id.replace(/-/g, ""),
-    title: getTitleValue(props.Title),
-    description: getRichTextValue(props.Description),
-    track: parseTrackType(getSelectValue(props.Track)),
-    difficulty: parseDifficultyType(getSelectValue(props.Difficulty)),
-    estimatedTime: getNumberValue(props.EstimatedTime),
-    order: getNumberValue(props.Order),
-    tags: getMultiSelectValues(props.Tags),
+    title: topic || weekStr, // 주제가 없으면 주차 정보 사용
+    description: description,
+    track: track,
+    difficulty: stageToDifficulty(stage),
+    estimatedTime: 120, // 기본 2시간
+    order: parseWeekNumber(weekStr),
+    tags: tags,
   };
 }
 
@@ -204,12 +220,13 @@ function pageToMissionSummary(page: PageObjectResponse): MissionSummary {
  */
 function pageToMission(
   page: PageObjectResponse,
-  requirements: Requirement[]
+  requirements: Requirement[],
+  track: TrackType = "springboot"
 ): Mission {
   const props = page.properties;
 
   return {
-    ...pageToMissionSummary(page),
+    ...pageToMissionSummary(page, track),
     introduction: getRichTextValue(props.Introduction),
     objective: getRichTextValue(props.Objective),
     result: getRichTextValue(props.Result),
@@ -225,77 +242,72 @@ function pageToMission(
 }
 
 /**
- * 노션에서 모든 미션 목록 조회
+ * 노션에서 모든 미션 목록 조회 (모든 트랙 합침)
  */
 export async function fetchMissionsFromNotion(): Promise<MissionSummary[]> {
   if (!isNotionConfigured()) {
     return [];
   }
 
-  try {
-    const client = getNotionClient();
-    const response = await client.databases.query({
-      database_id: process.env.NOTION_DATABASE_ID!,
-      filter: {
-        property: "Status",
-        select: {
-          equals: "Published",
-        },
-      },
-      sorts: [
-        { property: "Track", direction: "ascending" },
-        { property: "Order", direction: "ascending" },
-      ],
-    });
+  const tracks: TrackType[] = ["react", "springboot", "django", "design"];
+  const allMissions: MissionSummary[] = [];
 
-    return response.results
-      .filter((page): page is PageObjectResponse => "properties" in page)
-      .map(pageToMissionSummary);
-  } catch (error) {
-    console.error("노션 미션 목록 조회 실패:", error);
-    return [];
+  for (const track of tracks) {
+    const missions = await fetchMissionsByTrackFromNotion(track);
+    allMissions.push(...missions);
   }
+
+  return allMissions;
 }
 
 /**
- * 노션에서 트랙별 미션 목록 조회
+ * 노션에서 트랙별 미션 목록 조회 (내부 함수)
  */
-export async function fetchMissionsByTrackFromNotion(
+async function fetchMissionsByTrackFromNotionInternal(
   track: TrackType
 ): Promise<MissionSummary[]> {
   if (!isNotionConfigured()) {
     return [];
   }
 
-  const trackName = track.charAt(0).toUpperCase() + track.slice(1);
+  // 트랙별 데이터베이스 ID 가져오기
+  const databaseId = getTrackDatabaseId(track);
+  if (!databaseId) {
+    console.warn(`[Notion] ${track} 트랙의 데이터베이스 ID가 설정되지 않았습니다.`);
+    return [];
+  }
 
   try {
     const client = getNotionClient();
     const response = await client.databases.query({
-      database_id: process.env.NOTION_DATABASE_ID!,
-      filter: {
-        and: [
-          {
-            property: "Status",
-            select: { equals: "Published" },
-          },
-          {
-            property: "Track",
-            select: { equals: trackName },
-          },
-        ],
-      },
-      sorts: [{ property: "Order", direction: "ascending" }],
+      database_id: databaseId,
     });
 
-    return response.results
+    console.log(`[Notion] ${track} 트랙에서 ${response.results.length}개 미션 로드 (API 호출)`);
+
+    // 페이지를 MissionSummary로 변환 후 order로 정렬
+    const missions = response.results
       .filter((page): page is PageObjectResponse => "properties" in page)
-      .map(pageToMissionSummary);
+      .map((page) => pageToMissionSummary(page, track))
+      .sort((a, b) => a.order - b.order);
+
+    return missions;
   } catch (error) {
-    console.error(`노션 ${track} 트랙 미션 조회 실패:`, error);
+    console.error(`[Notion] ${track} 트랙 미션 조회 실패:`, error);
     return [];
   }
 }
+
+/**
+ * 노션에서 트랙별 미션 목록 조회 (캐시 적용)
+ * - 1시간(3600초) 동안 캐시 유지
+ * - 트랙별로 별도 캐시 키 사용
+ */
+export const fetchMissionsByTrackFromNotion = unstable_cache(
+  fetchMissionsByTrackFromNotionInternal,
+  ["notion-missions-by-track"],
+  { revalidate: 3600 } // 1시간
+);
 
 /**
  * 노션에서 요구사항 목록 조회
@@ -345,6 +357,13 @@ export async function fetchMissionByIdFromNotion(
   missionId: string
 ): Promise<Mission | null> {
   if (!process.env.NOTION_API_KEY) {
+    return null;
+  }
+
+  // UUID 형식이 아니면 바로 null 반환 (be-mission-1 같은 앱 내부 ID 처리)
+  // UUID: 32자 hex (하이픈 없음) 또는 36자 (하이픈 포함)
+  const uuidWithoutHyphens = missionId.replace(/-/g, "");
+  if (!/^[0-9a-f]{32}$/i.test(uuidWithoutHyphens)) {
     return null;
   }
 

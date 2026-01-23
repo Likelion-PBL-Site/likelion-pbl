@@ -2,12 +2,19 @@
 /**
  * Notion 캐시 동기화 스크립트
  *
+ * Notion DB에서 모든 미션을 자동으로 조회하여 캐시에 저장합니다.
+ * GitHub Actions에서 주기적으로 실행되어 모든 미션을 미리 캐싱합니다.
+ *
  * 사용법:
- *   node scripts/sync-notion-cache.mjs              # 모든 미션 동기화
- *   node scripts/sync-notion-cache.mjs be-mission-1 # 특정 미션만 동기화
+ *   node scripts/sync-notion-cache.mjs                    # 모든 미션 동기화
+ *   node scripts/sync-notion-cache.mjs <미션ID 또는 페이지ID>  # 특정 미션만 동기화
  *
  * 환경 변수:
- *   NOTION_API_KEY - Notion API 키 (필수)
+ *   NOTION_API_KEY       - Notion API 키 (필수)
+ *   NOTION_DB_SPRINGBOOT - SpringBoot 트랙 DB ID
+ *   NOTION_DB_REACT      - React 트랙 DB ID
+ *   NOTION_DB_DJANGO     - Django 트랙 DB ID
+ *   NOTION_DB_DESIGN     - Design 트랙 DB ID
  */
 
 import { config } from "dotenv";
@@ -22,18 +29,13 @@ config();
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const CACHE_DIR = path.join(__dirname, "../src/data/notion-cache");
 
-// 동기화할 미션 목록 (notionPageId가 있는 것만)
-const MISSIONS_WITH_NOTION = [
-  {
-    missionId: "be-mission-1",
-    notionPageId: "2edffd33-6b70-80d8-9c6a-c761b6f718f2",
-  },
-  {
-    missionId: "be-mission-2",
-    notionPageId: "2edffd33-6b70-80db-b1af-f0ac2765fb21",
-  },
-  // 추가 미션은 여기에 등록
-];
+// 트랙별 Notion 데이터베이스 ID
+const TRACK_DATABASES = {
+  springboot: process.env.NOTION_DB_SPRINGBOOT,
+  react: process.env.NOTION_DB_REACT,
+  django: process.env.NOTION_DB_DJANGO,
+  design: process.env.NOTION_DB_DESIGN,
+};
 
 /**
  * 섹션 매핑 (Notion 헤딩 텍스트 → 섹션 키)
@@ -57,6 +59,70 @@ function getNotionClient() {
     throw new Error("NOTION_API_KEY 환경 변수가 설정되지 않았습니다.");
   }
   return new Client({ auth: process.env.NOTION_API_KEY });
+}
+
+/**
+ * Notion DB에서 모든 미션 페이지 목록 조회
+ */
+async function fetchMissionsFromDatabase(client, databaseId, trackName) {
+  const missions = [];
+
+  try {
+    const response = await client.databases.query({
+      database_id: databaseId,
+    });
+
+    for (const page of response.results) {
+      if (!("properties" in page)) continue;
+
+      // 페이지 ID (하이픈 제거)
+      const pageId = page.id;
+      const normalizedId = pageId.replace(/-/g, "");
+
+      // 제목 추출 (콘텐츠 제작물 or Title)
+      let title = "";
+      const props = page.properties;
+      if (props["콘텐츠 제작물"]?.title) {
+        title = props["콘텐츠 제작물"].title
+          .map((t) => t.plain_text)
+          .join("");
+      } else if (props["주제"]?.rich_text) {
+        title = props["주제"].rich_text.map((t) => t.plain_text).join("");
+      }
+
+      missions.push({
+        missionId: normalizedId,
+        notionPageId: pageId,
+        title: title || `${trackName}-${normalizedId.slice(0, 8)}`,
+        track: trackName,
+      });
+    }
+  } catch (error) {
+    console.error(`   ⚠️ ${trackName} DB 조회 실패:`, error.message);
+  }
+
+  return missions;
+}
+
+/**
+ * 설정된 모든 트랙에서 미션 목록 가져오기
+ */
+async function fetchAllMissions(client) {
+  const allMissions = [];
+
+  for (const [track, dbId] of Object.entries(TRACK_DATABASES)) {
+    if (!dbId) {
+      console.log(`   ⏭️ ${track}: DB ID 미설정, 건너뜀`);
+      continue;
+    }
+
+    console.log(`   📂 ${track}: 미션 목록 조회 중...`);
+    const missions = await fetchMissionsFromDatabase(client, dbId, track);
+    console.log(`      → ${missions.length}개 미션 발견`);
+    allMissions.push(...missions);
+  }
+
+  return allMissions;
 }
 
 /**
@@ -250,13 +316,27 @@ async function main() {
 
   const client = getNotionClient();
 
-  // 동기화 대상 필터링
+  // 🆕 Notion DB에서 모든 미션 동적 조회
+  console.log("\n📡 Notion 데이터베이스에서 미션 목록 조회 중...");
+  const allMissions = await fetchAllMissions(client);
+
+  if (allMissions.length === 0) {
+    console.error("❌ 동기화할 미션이 없습니다. DB ID 설정을 확인하세요.");
+    process.exit(1);
+  }
+
+  // 동기화 대상 필터링 (특정 미션 ID 지정 시)
   const targets = targetMissionId
-    ? MISSIONS_WITH_NOTION.filter((m) => m.missionId === targetMissionId)
-    : MISSIONS_WITH_NOTION;
+    ? allMissions.filter((m) =>
+        m.missionId === targetMissionId ||
+        m.notionPageId.replace(/-/g, "") === targetMissionId.replace(/-/g, "")
+      )
+    : allMissions;
 
   if (targets.length === 0) {
     console.error(`❌ 미션을 찾을 수 없습니다: ${targetMissionId}`);
+    console.log("   사용 가능한 미션 ID:");
+    allMissions.forEach((m) => console.log(`   - ${m.missionId} (${m.title})`));
     process.exit(1);
   }
 
@@ -289,6 +369,18 @@ async function main() {
   if (failed.length > 0) {
     console.log(`❌ 실패: ${failed.length}개`);
     failed.forEach((f) => console.log(`   - ${f.missionId}: ${f.error}`));
+  }
+
+  // 트랙별 통계
+  const byTrack = {};
+  for (const r of success) {
+    byTrack[r.track] = (byTrack[r.track] || 0) + 1;
+  }
+  if (Object.keys(byTrack).length > 0) {
+    console.log("\n📊 트랙별 동기화:");
+    for (const [track, count] of Object.entries(byTrack)) {
+      console.log(`   - ${track}: ${count}개`);
+    }
   }
 
   console.log("\n🎉 동기화 완료!");
