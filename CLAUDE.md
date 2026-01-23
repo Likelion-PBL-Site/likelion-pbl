@@ -20,23 +20,26 @@ Next.js 16 App Router 기반. React 19, TypeScript strict, Tailwind CSS v4.
 src/
 ├── app/
 │   ├── (pbl)/[trackId]/[missionId]/  # 미션 상세 페이지
-│   ├── demo/                          # UI 데모 페이지
+│   ├── (pbl)/[trackId]/              # 트랙 페이지 (커리큘럼 표)
+│   ├── demo/                          # UI 데모 페이지 (curriculum, notion-ui)
 │   └── api/notion/                    # Notion API (데이터, 이미지, 동기화)
 ├── components/
 │   ├── ui/           # shadcn/ui 컴포넌트
+│   ├── curriculum/   # 커리큘럼 표 (CurriculumTable)
 │   ├── mission/      # 체크리스트, 진행률 컴포넌트
 │   └── notion/       # Notion 블록 렌더러
 │       └── blocks/   # 개별 블록 (heading, callout, code, image, toggle 등)
 ├── lib/
-│   ├── notion.ts         # Notion API
-│   ├── notion-blocks.ts  # 블록 파싱 + 캐시 로드
-│   └── mock-data.ts      # Mock 데이터
+│   ├── notion.ts         # Notion API + unstable_cache
+│   ├── notion-blocks.ts  # 블록 파싱 + JSON 캐시 로드
+│   └── mock-data.ts      # Mock 데이터 + 데이터 접근 함수
 ├── store/            # Zustand (pbl-store, ui-store)
-└── data/notion-cache/  # JSON 캐시 파일
+└── data/notion-cache/  # JSON 캐시 파일 (자동 생성)
 
 scripts/              # Notion 캐시 동기화 스크립트
 docs/troubleshooting/ # 트러블슈팅 + AI 협업 기록
 
+.github/workflows/    # GitHub Actions (Notion 캐시 자동 동기화)
 .claude/
 ├── agents/           # 커스텀 에이전트
 └── commands/         # 슬래시 명령어 (/commit, /troubleshoot 등)
@@ -53,32 +56,45 @@ docs/troubleshooting/ # 트러블슈팅 + AI 협업 기록
 
 ## Notion 연동
 
+### 캐싱 구조
+
+| 대상 | 캐시 방식 | 유효 기간 | 위치 |
+|------|----------|----------|------|
+| 트랙 페이지 미션 목록 | `unstable_cache` | 1시간 | 서버 메모리 |
+| 미션 상세 콘텐츠 | JSON 파일 캐시 | GitHub Actions로 갱신 | `src/data/notion-cache/` |
+
 ### 데이터 흐름
 
+**트랙 페이지 (미션 목록):**
 ```
-페이지 요청 → JSON 캐시 확인 → (없으면) Notion API → 블록 렌더링
+요청 → unstable_cache 확인 → (없으면) Notion DB 쿼리 → 캐시 저장
+```
+
+**미션 상세 페이지:**
+```
+요청 → JSON 캐시 확인 → (없으면) Notion API → 블록 렌더링 + 캐시 저장
 ```
 
 ### 캐시 동기화
 
+**수동 동기화:**
 ```bash
-node scripts/sync-notion-cache.mjs           # 전체 동기화
-node scripts/sync-notion-cache.mjs be-mission-1  # 특정 미션만
+node scripts/sync-notion-cache.mjs                    # 전체 동기화 (Notion DB에서 자동 조회)
+node scripts/sync-notion-cache.mjs <미션ID 또는 페이지ID>  # 특정 미션만
 ```
 
-### 등록된 미션
-
-| 미션 ID | 제목 |
-|---------|------|
-| be-mission-1 | Java 기초 - 콘솔 입출력 |
-| be-mission-2 | 객체지향 프로그래밍 I |
+**자동 동기화 (GitHub Actions):**
+- 매일 오전 6시, 오후 6시 (KST) 자동 실행
+- Notion DB에서 모든 미션을 자동으로 조회
+- 변경사항 있으면 자동 커밋 → Vercel 배포
+- GitHub Actions UI에서 수동 트리거 가능
 
 ### 새 미션 추가
 
-1. `src/lib/mock-data.ts` - 미션 객체 추가
-2. `scripts/sync-notion-cache.mjs` - MISSIONS_WITH_NOTION 배열에 추가
-3. `src/app/api/notion/sync/route.ts` - 동일하게 추가
-4. `node scripts/sync-notion-cache.mjs [미션ID]` 실행
+Notion DB에 페이지를 추가하면 자동으로 동기화됩니다:
+1. Notion에서 해당 트랙 DB에 새 페이지 생성
+2. GitHub Actions가 다음 실행 시 자동 감지 및 캐싱
+3. 즉시 반영이 필요하면: `node scripts/sync-notion-cache.mjs` 실행
 
 ---
 
@@ -87,10 +103,18 @@ node scripts/sync-notion-cache.mjs be-mission-1  # 특정 미션만
 ```tsx
 import { NotionBlockRenderer } from "@/components/notion";
 
+// 기본 사용
 <NotionBlockRenderer blocks={sections.introduction} />
+
+// 섹션별 리스트 스타일 적용 (sectionType prop)
+<NotionBlockRenderer blocks={sections.guidelines} sectionType="guidelines" />
 ```
 
 **지원 블록:** paragraph, heading, list, quote, callout, toggle, code, image, divider
+
+**섹션별 리스트 스타일:**
+- `guidelines`, `example` → 번호 리스트 (1. 2. 3.)
+- 나머지 → 불릿 리스트 (●)
 
 **UI 개선 사항:**
 | 블록 | 스타일 |
@@ -103,6 +127,24 @@ import { NotionBlockRenderer } from "@/components/notion";
 
 ---
 
+## 커리큘럼 표
+
+트랙 페이지에 접이식 커리큘럼 표 표시:
+
+```tsx
+import { CurriculumTable } from "@/components/curriculum/curriculum-table";
+
+<CurriculumTable
+  trackId={trackId}
+  missions={missions}
+  defaultOpen={true}  // 기본 펼침 상태
+/>
+```
+
+**표 컬럼:** 주차 | 미션 | 핵심 키워드 | 난이도
+
+---
+
 ## Claude Code 명령어
 
 | 명령어 | 설명 |
@@ -111,6 +153,18 @@ import { NotionBlockRenderer } from "@/components/notion";
 | `/troubleshoot` | 트러블슈팅 문서 작성 |
 | `/checkpoint` | 세션 진행 상황 저장 |
 | `/update-claude-md` | CLAUDE.md 업데이트 |
+| `/compact` | 수동 컨텍스트 요약 |
+
+### 컨텍스트 관리 워크플로우
+
+Auto compact가 60%에서 트리거되도록 설정됨 (`.claude/settings.json`).
+
+```
+작업 시작 → 기능 완료 → /checkpoint → 다음 기능 → /compact "요약 메시지"
+```
+
+- **주요 작업 완료 시**: `/checkpoint`로 진행 상황 저장
+- **문맥 전환 시**: `/compact "완료 내용, 다음 작업"`으로 수동 요약
 
 ---
 
@@ -133,10 +187,44 @@ import { NotionBlockRenderer } from "@/components/notion";
 
 ## 환경 변수
 
+**로컬 (.env.local):**
 ```env
 NOTION_API_KEY=         # Notion Integration 키 (필수)
+NOTION_DB_SPRINGBOOT=   # SpringBoot 트랙 DB ID
+NOTION_DB_REACT=        # React 트랙 DB ID
+NOTION_DB_DJANGO=       # Django 트랙 DB ID
+NOTION_DB_DESIGN=       # Design 트랙 DB ID
 NOTION_SYNC_SECRET=     # 동기화 API 시크릿
 ```
+
+**GitHub Secrets (Actions용):**
+| Secret | 용도 |
+|--------|------|
+| `NOTION_API_KEY` | GitHub Actions에서 Notion API 호출 |
+| `NOTION_DB_*` | 트랙별 데이터베이스 ID |
+
+---
+
+## 프롬프팅 코칭
+
+사용자의 프롬프트를 분석하여 더 효과적인 표현이 있으면 짧게 제안합니다.
+
+### 제안 조건
+- 더 구체적으로 요청할 수 있을 때
+- 검증/테스트 단계가 빠졌을 때
+- 제약조건 명시가 도움될 때
+- 원인 파악 요청이 누락됐을 때
+
+### 제안 형식
+```
+💡 Prompt Tip: "개선된 프롬프트 예시"
+→ [왜 더 효과적인지 한 줄 설명]
+```
+
+### 제안하지 않는 경우
+- 이미 충분히 구체적인 프롬프트
+- 단순 확인/승인 응답 ("좋아", "ㅇㅋ")
+- 긴급하거나 반복적인 작업 중
 
 ---
 
@@ -150,6 +238,9 @@ NOTION_SYNC_SECRET=     # 동기화 API 시크릿
 | 004 | 이미지 URL 온디맨드 갱신 |
 | 005 | 세션 체크포인트 기능 |
 | 006 | Notion 블록 UI 리팩토링 |
+| 007 | 트랙 페이지 UX 개선 |
+| 008 | 이미지 로딩 스피너 + 여백 수정 |
+| 009 | 트랙 페이지 Notion API 캐싱 |
 
 상세: `docs/troubleshooting/` 폴더 참조
 
