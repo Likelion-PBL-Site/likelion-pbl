@@ -1,13 +1,14 @@
 "use client";
 
+import { useEffect, useState } from "react";
 import Link from "next/link";
 import { useParams } from "next/navigation";
-import { Monitor, Server, Palette, ChevronLeft, ChevronRight, BookOpen } from "lucide-react";
+import { Monitor, Server, Palette, ChevronLeft, ChevronRight, BookOpen, Loader2 } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { usePBLStore } from "@/store/pbl-store";
 import { getMissionsByTrackSync } from "@/lib/mock-data";
-import { trackLabels, difficultyLabels } from "@/types/pbl";
-import type { TrackType } from "@/types/pbl";
+import { trackLabels } from "@/types/pbl";
+import type { TrackType, MissionSummary } from "@/types/pbl";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 
@@ -36,9 +37,42 @@ export function PBLSidebar() {
   const currentTrack = params.trackId as TrackType | undefined;
   const currentMissionId = params.missionId as string | undefined;
 
-  const missions = currentTrack ? getMissionsByTrackSync(currentTrack) : [];
+  const [missions, setMissions] = useState<MissionSummary[]>([]);
+  const [isLoading, setIsLoading] = useState(false);
 
-  const tracks: TrackType[] = ["react", "springboot", "django", "design"];
+  // 트랙 변경 시 API로 미션 목록 가져오기
+  useEffect(() => {
+    if (!currentTrack) {
+      setMissions([]);
+      return;
+    }
+
+    const fetchMissions = async () => {
+      setIsLoading(true);
+      try {
+        // API로 미션 목록 가져오기
+        const res = await fetch(`/api/notion?track=${currentTrack}`);
+        if (res.ok) {
+          const data = await res.json();
+          if (data.missions && data.missions.length > 0) {
+            setMissions(data.missions);
+            return;
+          }
+        }
+        // API 실패 시 목업 데이터 사용
+        setMissions(getMissionsByTrackSync(currentTrack));
+      } catch {
+        // 에러 시 목업 데이터 사용
+        setMissions(getMissionsByTrackSync(currentTrack));
+      } finally {
+        setIsLoading(false);
+      }
+    };
+
+    fetchMissions();
+  }, [currentTrack]);
+
+  const tracks: TrackType[] = ["design", "react", "django", "springboot"];
 
   return (
     <aside
@@ -100,6 +134,15 @@ export function PBLSidebar() {
             <h3 className="mb-3 text-xs font-semibold uppercase text-muted-foreground">
               미션 목록
             </h3>
+            {isLoading ? (
+              <div className="flex items-center justify-center py-8">
+                <Loader2 className="h-5 w-5 animate-spin text-muted-foreground" />
+              </div>
+            ) : missions.length === 0 ? (
+              <p className="text-sm text-muted-foreground py-4">
+                등록된 미션이 없습니다.
+              </p>
+            ) : (
             <nav className="space-y-1">
               {missions.map((mission) => {
                 const isActive = currentMissionId === mission.id;
@@ -130,12 +173,14 @@ export function PBLSidebar() {
                       </span>
                     </div>
                     <div className="flex items-center gap-2 pl-6">
-                      <Badge
-                        variant="outline"
-                        className="text-[10px] px-1.5 py-0"
-                      >
-                        {difficultyLabels[mission.difficulty]}
-                      </Badge>
+                      {mission.stage && (
+                        <Badge
+                          variant="outline"
+                          className="text-[10px] px-1.5 py-0"
+                        >
+                          {mission.stage}
+                        </Badge>
+                      )}
                       {completedCount > 0 && (
                         <span className="text-[10px] text-muted-foreground">
                           {completedCount}개 완료
@@ -146,6 +191,7 @@ export function PBLSidebar() {
                 );
               })}
             </nav>
+            )}
           </div>
         </>
       )}

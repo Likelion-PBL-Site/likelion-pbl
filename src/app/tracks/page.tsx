@@ -58,7 +58,7 @@ export default function TracksPage() {
         </div>
 
         {/* 트랙 카드 목록 */}
-        <div className="grid gap-6 md:grid-cols-3">
+        <div className="grid gap-6 sm:grid-cols-2 max-w-4xl mx-auto">
           {mockTracks.map((track) => {
             const Icon = trackIcons[track.id as keyof typeof trackIcons];
             const gradient = trackGradients[track.id as keyof typeof trackGradients];

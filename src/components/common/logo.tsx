@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import { cn } from "@/lib/utils";
 
 interface LogoProps {
@@ -7,8 +8,6 @@ interface LogoProps {
   size?: "sm" | "md" | "lg";
   /** 링크 비활성화 */
   asLink?: boolean;
-  /** 아이콘만 표시 */
-  iconOnly?: boolean;
 }
 
 /**
@@ -18,29 +17,24 @@ export function Logo({
   className,
   size = "md",
   asLink = true,
-  iconOnly = false,
 }: LogoProps) {
   const sizeConfig = {
-    sm: { emoji: "text-xl", text: "text-base font-semibold" },
-    md: { emoji: "text-2xl", text: "text-lg font-bold" },
-    lg: { emoji: "text-3xl", text: "text-xl font-bold" },
+    sm: { width: 120, height: 30 },
+    md: { width: 150, height: 38 },
+    lg: { width: 180, height: 45 },
   };
 
   const config = sizeConfig[size];
 
   const logoContent = (
-    <div className={cn("flex items-center gap-2", className)}>
-      {/* 사자 이모지 */}
-      <span className={config.emoji} role="img" aria-label="lion">
-        🦁
-      </span>
-      {!iconOnly && (
-        <div className="flex flex-col">
-          <span className={cn(config.text, "text-primary leading-tight")}>
-            LIKELION UNIV.
-          </span>
-        </div>
-      )}
+    <div className={cn("flex items-center", className)}>
+      <Image
+        src="/likelion_logo.svg"
+        alt="LIKELION"
+        width={config.width}
+        height={config.height}
+        priority
+      />
     </div>
   );
 

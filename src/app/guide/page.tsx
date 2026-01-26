@@ -32,7 +32,7 @@ const learningSteps = [
   {
     step: 2,
     title: "미션 확인하기",
-    description: "선택한 트랙의 미션 목록을 확인하세요. 미션은 난이도순으로 정렬되어 있어 순서대로 진행하는 것을 권장합니다.",
+    description: "선택한 트랙의 미션 목록을 확인하세요. 미션은 주차별로 구성되어 있어 순서대로 진행하는 것을 권장합니다.",
     icon: BookOpen,
   },
   {
@@ -51,63 +51,61 @@ const learningSteps = [
 
 const trackRoadmaps = [
   {
-    id: "react",
-    name: "프론트엔드 (React)",
-    icon: Monitor,
-    color: "text-blue-500",
-    bgColor: "bg-blue-500/10",
-    description: "웹 프론트엔드 개발의 기초부터 심화까지",
-    roadmap: [
-      "React 컴포넌트 기초 이해",
-      "상태 관리와 이벤트 처리",
-      "API 연동과 데이터 페칭",
-      "라우팅과 페이지 구성",
-      "스타일링과 반응형 디자인",
+    id: "design",
+    name: "기획/디자인",
+    icon: Palette,
+    color: "text-violet-500",
+    bgColor: "bg-violet-500/10",
+    description: "서비스 기획과 UI/UX 디자인",
+    stages: [
+      { name: "문제 정의", weeks: "1-2주", topics: "사용자 조사와 페르소나" },
+      { name: "설계", weeks: "3-5주", topics: "정보 구조와 와이어프레임" },
+      { name: "디자인", weeks: "6-8주", topics: "UI 디자인과 프로토타입" },
+      { name: "Project", weeks: "9-10주", topics: "최종 프로젝트" },
     ],
   },
   {
-    id: "springboot",
-    name: "백엔드 (Spring Boot)",
-    icon: Server,
-    color: "text-green-500",
-    bgColor: "bg-green-500/10",
-    description: "Java와 Spring Boot 서버 개발",
-    roadmap: [
-      "Java Fundamentals",
-      "Spring Core 기초",
-      "REST API 설계",
-      "JPA와 데이터베이스",
-      "인증/인가 구현",
+    id: "react",
+    name: "프론트엔드 (React)",
+    icon: Monitor,
+    color: "text-sky-500",
+    bgColor: "bg-sky-500/10",
+    description: "웹 기초부터 React, TypeScript까지",
+    stages: [
+      { name: "Web", weeks: "1-2주", topics: "HTML/CSS 기초" },
+      { name: "JS", weeks: "3-4주", topics: "JavaScript 핵심" },
+      { name: "React", weeks: "5-7주", topics: "React 컴포넌트와 상태 관리" },
+      { name: "TypeScript", weeks: "8주", topics: "타입 안전한 개발" },
+      { name: "BaaS", weeks: "9주", topics: "백엔드 서비스 연동" },
+      { name: "Project", weeks: "10주", topics: "최종 프로젝트" },
     ],
   },
   {
     id: "django",
     name: "백엔드 (Django)",
     icon: Server,
-    color: "text-yellow-500",
-    bgColor: "bg-yellow-500/10",
+    color: "text-green-500",
+    bgColor: "bg-green-500/10",
     description: "Python과 Django 서버 개발",
-    roadmap: [
-      "Python 기초",
-      "Django 프로젝트 구조",
-      "REST API 설계",
-      "ORM과 데이터베이스",
-      "인증/인가 구현",
+    stages: [
+      { name: "Python", weeks: "1-2주", topics: "Python 기초 문법" },
+      { name: "Django", weeks: "3-5주", topics: "Django 프로젝트 구조" },
+      { name: "DRF", weeks: "6-8주", topics: "REST API 설계" },
+      { name: "Project", weeks: "9-10주", topics: "최종 프로젝트" },
     ],
   },
   {
-    id: "design",
-    name: "기획/디자인",
-    icon: Palette,
-    color: "text-purple-500",
-    bgColor: "bg-purple-500/10",
-    description: "사용자 중심의 서비스 기획과 디자인",
-    roadmap: [
-      "사용자 조사와 페르소나",
-      "정보 구조 설계",
-      "와이어프레임 제작",
-      "프로토타입 제작",
-      "UI 디자인 시스템",
+    id: "springboot",
+    name: "백엔드 (Spring Boot)",
+    icon: Server,
+    color: "text-emerald-500",
+    bgColor: "bg-emerald-500/10",
+    description: "Java부터 Spring Boot, JPA까지",
+    stages: [
+      { name: "Java", weeks: "1-2주", topics: "Java 기초 문법" },
+      { name: "Spring Core", weeks: "3-4주", topics: "Spring 핵심 개념" },
+      { name: "JPA", weeks: "5-7주", topics: "데이터베이스와 ORM" },
+      { name: "Project", weeks: "8-10주", topics: "REST API 프로젝트" },
     ],
   },
 ];
@@ -215,9 +213,9 @@ export default function GuidePage() {
               각 트랙에서 배우게 될 핵심 주제들입니다.
             </p>
           </div>
-          <div className="grid gap-6 md:grid-cols-3">
+          <div className="grid gap-6 md:grid-cols-2">
             {trackRoadmaps.map((track) => (
-              <Card key={track.id} className="h-full">
+              <Card key={track.id} className="h-full flex flex-col">
                 <CardHeader>
                   <div className={`w-12 h-12 rounded-xl ${track.bgColor} flex items-center justify-center mb-3`}>
                     <track.icon className={`h-6 w-6 ${track.color}`} />
@@ -225,15 +223,21 @@ export default function GuidePage() {
                   <CardTitle>{track.name}</CardTitle>
                   <CardDescription>{track.description}</CardDescription>
                 </CardHeader>
-                <CardContent>
-                  <ul className="space-y-2">
-                    {track.roadmap.map((item, idx) => (
-                      <li key={idx} className="flex items-start gap-2 text-sm">
-                        <CheckCircle2 className="h-4 w-4 text-primary mt-0.5 shrink-0" />
-                        <span>{item}</span>
-                      </li>
+                <CardContent className="flex flex-col flex-1">
+                  <div className="space-y-3 flex-1">
+                    {track.stages.map((stage, idx) => (
+                      <div key={idx} className="flex items-start gap-3 text-sm">
+                        <Badge variant="outline" className={`shrink-0 ${track.bgColor} ${track.color} border-current/30`}>
+                          {stage.name}
+                        </Badge>
+                        <div className="flex-1">
+                          <span className="text-muted-foreground">{stage.weeks}</span>
+                          <span className="mx-1.5 text-muted-foreground">·</span>
+                          <span>{stage.topics}</span>
+                        </div>
+                      </div>
                     ))}
-                  </ul>
+                  </div>
                   <Button variant="outline" className="w-full mt-4" asChild>
                     <Link href={`/${track.id}`}>
                       {track.name} 시작하기

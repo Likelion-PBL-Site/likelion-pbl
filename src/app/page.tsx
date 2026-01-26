@@ -84,7 +84,7 @@ export default function HomePage() {
               </Button>
               <Button size="lg" variant="outline" asChild>
                 <Link href="https://likelion.net" target="_blank" rel="noopener noreferrer">
-                  멋쟁이사자처럼 알아보기
+                  멋쟁이사자처럼 교육 더보기
                 </Link>
               </Button>
             </div>
@@ -105,7 +105,7 @@ export default function HomePage() {
               관심 있는 분야를 선택하고 프로젝트를 완성해보세요.
             </p>
           </div>
-          <div className="grid gap-6 md:grid-cols-3">
+          <div className="grid gap-6 sm:grid-cols-2 max-w-4xl mx-auto">
             {mockTracks.map((track) => {
               const Icon = trackIcons[track.id as keyof typeof trackIcons];
               const colorClass = trackColors[track.id as keyof typeof trackColors];
