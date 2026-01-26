@@ -1,9 +1,31 @@
+import { ArrowRight, Globe, Github, Youtube, FileText, BookOpen, Code } from "lucide-react";
 import { cn } from "@/lib/utils";
 import type { RichTextItem } from "@/types/notion-blocks";
 
 interface NotionRichTextProps {
   richText: RichTextItem[];
   className?: string;
+}
+
+/**
+ * URL 형태인지 확인
+ */
+function isUrlText(text: string): boolean {
+  return /^https?:\/\//i.test(text.trim());
+}
+
+/**
+ * 도메인별 아이콘 매핑
+ */
+function getIconForDomain(domain: string) {
+  if (domain.includes("github.com")) return Github;
+  if (domain.includes("youtube.com") || domain.includes("youtu.be")) return Youtube;
+  if (domain.includes("notion.so") || domain.includes("notion.site")) return FileText;
+  if (domain.includes("developer.mozilla.org") || domain.includes("mdn")) return BookOpen;
+  if (domain.includes("stackoverflow.com")) return Code;
+  if (domain.includes("docs.") || domain.includes("documentation")) return BookOpen;
+  if (domain.includes("figma.com")) return FileText;
+  return Globe;
 }
 
 /**
@@ -46,6 +68,12 @@ function RichTextSegment({ item }: RichTextSegmentProps) {
 
   // 링크 처리
   if (href) {
+    // URL이 텍스트로 그대로 표시된 경우 → 컴팩트 카드로 렌더링
+    if (isUrlText(plain_text)) {
+      return <InlineCompactLink url={href} />;
+    }
+
+    // 일반 텍스트 링크
     content = (
       <a
         href={href}
@@ -64,6 +92,39 @@ function RichTextSegment({ item }: RichTextSegmentProps) {
   }
 
   return <>{content}</>;
+}
+
+/**
+ * 인라인 컴팩트 링크 카드
+ * paragraph 내 URL 텍스트를 카드 형태로 표시
+ * 주의: <p> 안에서 사용되므로 <div> 대신 <span>만 사용
+ */
+function InlineCompactLink({ url }: { url: string }) {
+  let domain = "";
+  try {
+    domain = new URL(url).hostname.replace("www.", "");
+  } catch {
+    domain = url;
+  }
+
+  const Icon = getIconForDomain(domain);
+
+  return (
+    <a
+      href={url}
+      target="_blank"
+      rel="noopener noreferrer"
+      className="inline-flex items-center gap-2 px-3 py-1.5 rounded-lg border bg-card hover:bg-muted/50 hover:border-primary/50 transition-all group my-1 mx-0.5"
+    >
+      <span className="flex h-6 w-6 shrink-0 items-center justify-center rounded bg-muted group-hover:bg-primary/10 transition-colors">
+        <Icon className="h-3.5 w-3.5 text-muted-foreground group-hover:text-primary transition-colors" />
+      </span>
+      <span className="text-sm font-medium text-foreground group-hover:text-primary transition-colors truncate max-w-[200px]">
+        {domain}
+      </span>
+      <ArrowRight className="h-3 w-3 text-muted-foreground group-hover:text-primary group-hover:translate-x-0.5 transition-all shrink-0" />
+    </a>
+  );
 }
 
 /**
