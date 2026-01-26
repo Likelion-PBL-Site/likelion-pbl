@@ -21,12 +21,16 @@ src/
 ├── app/
 │   ├── (pbl)/[trackId]/[missionId]/  # 미션 상세 페이지
 │   ├── (pbl)/[trackId]/              # 트랙 페이지 (커리큘럼 표)
-│   ├── demo/                          # UI 데모 페이지 (curriculum, notion-ui)
+│   ├── guide/                         # 학습 가이드 페이지
+│   ├── tracks/                        # 트랙 목록 페이지
+│   ├── faq/                           # FAQ 페이지
+│   ├── demo/                          # UI 데모 페이지 (curriculum, notion-ui 등)
 │   └── api/notion/                    # Notion API (데이터, 이미지, 동기화)
 ├── components/
 │   ├── ui/           # shadcn/ui 컴포넌트
 │   ├── curriculum/   # 커리큘럼 표 (CurriculumTable)
 │   ├── mission/      # 체크리스트, 진행률 컴포넌트
+│   ├── layout/       # 레이아웃 컴포넌트 (사이드바, 네비게이션)
 │   └── notion/       # Notion 블록 렌더러
 │       └── blocks/   # 개별 블록 (heading, callout, code, image, toggle 등)
 ├── lib/
@@ -34,7 +38,9 @@ src/
 │   ├── notion-blocks.ts  # 블록 파싱 + JSON 캐시 로드
 │   └── mock-data.ts      # Mock 데이터 + 데이터 접근 함수
 ├── store/            # Zustand (pbl-store, ui-store)
-└── data/notion-cache/  # JSON 캐시 파일 (자동 생성)
+└── data/
+    ├── tracks.ts        # 트랙 설정 + 단계별 색상
+    └── notion-cache/    # JSON 캐시 파일 (자동 생성)
 
 scripts/              # Notion 캐시 동기화 스크립트
 docs/troubleshooting/ # 트러블슈팅 + AI 협업 기록
@@ -141,7 +147,32 @@ import { CurriculumTable } from "@/components/curriculum/curriculum-table";
 />
 ```
 
-**표 컬럼:** 주차 | 미션 | 핵심 키워드 | 난이도
+**표 컬럼:** 주차 | 미션 | 핵심 키워드 | 단계
+
+---
+
+## 트랙 및 단계 시스템
+
+### 트랙 설정 (`src/data/tracks.ts`)
+
+```tsx
+import { trackStageColors, getTrackById, isValidTrackId } from "@/data/tracks";
+
+// 트랙별 단계 배지 색상
+<Badge className={trackStageColors[trackId]}>{mission.stage}</Badge>
+```
+
+### 단계(Stage) 필드
+- Notion DB의 원본값을 그대로 사용 (예: Java, Spring Core, Web, React 등)
+- 기존 `difficulty` 필드 대신 `stage: string` 사용
+- 트랙별 고유 색상으로 배지 표시
+
+| 트랙 | 색상 | 단계 예시 |
+|------|------|----------|
+| React | Sky | Web, JS, React, TypeScript, BaaS, Project |
+| Spring Boot | Emerald | Java, Spring Core, JPA, Project |
+| Django | Green | Python, Django, DRF, Project |
+| Design | Violet | 문제 정의, 설계, 디자인, Project |
 
 ---
 
@@ -153,18 +184,12 @@ import { CurriculumTable } from "@/components/curriculum/curriculum-table";
 | `/troubleshoot` | 트러블슈팅 문서 작성 |
 | `/checkpoint` | 세션 진행 상황 저장 |
 | `/update-claude-md` | CLAUDE.md 업데이트 |
-| `/compact` | 수동 컨텍스트 요약 |
 
 ### 컨텍스트 관리 워크플로우
 
 Auto compact가 60%에서 트리거되도록 설정됨 (`.claude/settings.json`).
 
-```
-작업 시작 → 기능 완료 → /checkpoint → 다음 기능 → /compact "요약 메시지"
-```
-
 - **주요 작업 완료 시**: `/checkpoint`로 진행 상황 저장
-- **문맥 전환 시**: `/compact "완료 내용, 다음 작업"`으로 수동 요약
 
 ---
 
@@ -202,29 +227,6 @@ NOTION_SYNC_SECRET=     # 동기화 API 시크릿
 |--------|------|
 | `NOTION_API_KEY` | GitHub Actions에서 Notion API 호출 |
 | `NOTION_DB_*` | 트랙별 데이터베이스 ID |
-
----
-
-## 프롬프팅 코칭
-
-사용자의 프롬프트를 분석하여 더 효과적인 표현이 있으면 짧게 제안합니다.
-
-### 제안 조건
-- 더 구체적으로 요청할 수 있을 때
-- 검증/테스트 단계가 빠졌을 때
-- 제약조건 명시가 도움될 때
-- 원인 파악 요청이 누락됐을 때
-
-### 제안 형식
-```
-💡 Prompt Tip: "개선된 프롬프트 예시"
-→ [왜 더 효과적인지 한 줄 설명]
-```
-
-### 제안하지 않는 경우
-- 이미 충분히 구체적인 프롬프트
-- 단순 확인/승인 응답 ("좋아", "ㅇㅋ")
-- 긴급하거나 반복적인 작업 중
 
 ---
 
