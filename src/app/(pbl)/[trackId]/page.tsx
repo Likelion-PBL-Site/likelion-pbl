@@ -1,25 +1,19 @@
 import { notFound } from "next/navigation";
 import Link from "next/link";
-import { Clock, ArrowRight } from "lucide-react";
+import { ArrowRight } from "lucide-react";
 import { Container } from "@/components/layout/container";
 import { Badge } from "@/components/ui/badge";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { CurriculumTable } from "@/components/curriculum/curriculum-table";
 import { getMissionsByTrack } from "@/lib/mock-data";
-import { trackLabels, difficultyLabels, type TrackType } from "@/types/pbl";
-import { isValidTrackId, getTrackById } from "@/data/tracks";
+import { trackLabels, type TrackType } from "@/types/pbl";
+import { isValidTrackId, getTrackById, trackStageColors } from "@/data/tracks";
 
 interface TrackPageProps {
   params: Promise<{
     trackId: string;
   }>;
 }
-
-const difficultyColors = {
-  beginner: "bg-green-500/10 text-green-600 dark:text-green-400",
-  intermediate: "bg-yellow-500/10 text-yellow-600 dark:text-yellow-400",
-  advanced: "bg-red-500/10 text-red-600 dark:text-red-400",
-};
 
 export default async function TrackPage({ params }: TrackPageProps) {
   const { trackId } = await params;
@@ -69,12 +63,14 @@ export default async function TrackPage({ params }: TrackPageProps) {
                         <span className="text-sm font-medium text-muted-foreground">
                           미션 {index + 1}
                         </span>
-                        <Badge
-                          variant="secondary"
-                          className={difficultyColors[mission.difficulty]}
-                        >
-                          {difficultyLabels[mission.difficulty]}
-                        </Badge>
+                        {mission.stage && (
+                          <Badge
+                            variant="outline"
+                            className={trackStageColors[trackId]}
+                          >
+                            {mission.stage}
+                          </Badge>
+                        )}
                       </div>
                       <CardTitle className="text-lg group-hover:text-primary transition-colors">
                         {mission.title}
@@ -84,11 +80,7 @@ export default async function TrackPage({ params }: TrackPageProps) {
                       </CardDescription>
                     </CardHeader>
                     <CardContent>
-                      <div className="flex items-center justify-between">
-                        <div className="flex items-center gap-1 text-sm text-muted-foreground">
-                          <Clock className="h-4 w-4" />
-                          <span>{Math.floor(mission.estimatedTime / 60)}시간 {mission.estimatedTime % 60}분</span>
-                        </div>
+                      <div className="flex items-center justify-end">
                         <ArrowRight className="h-4 w-4 text-muted-foreground group-hover:text-primary group-hover:translate-x-1 transition-all" />
                       </div>
                       {mission.tags.length > 0 && (

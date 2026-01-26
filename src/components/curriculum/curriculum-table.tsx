@@ -17,8 +17,8 @@ import {
   TableHeader,
   TableRow,
 } from "@/components/ui/table";
-import type { MissionSummary, TrackType, DifficultyType } from "@/types/pbl";
-import { difficultyLabels } from "@/types/pbl";
+import type { MissionSummary, TrackType } from "@/types/pbl";
+import { trackStageColors } from "@/data/tracks";
 
 interface CurriculumTableProps {
   trackId: TrackType;
@@ -26,13 +26,6 @@ interface CurriculumTableProps {
   /** 기본 펼침 상태 (기본값: true) */
   defaultOpen?: boolean;
 }
-
-// 미션 카드와 동일한 난이도 스타일
-const difficultyColors: Record<DifficultyType, string> = {
-  beginner: "bg-green-500/10 text-green-600 dark:text-green-400",
-  intermediate: "bg-yellow-500/10 text-yellow-600 dark:text-yellow-400",
-  advanced: "bg-red-500/10 text-red-600 dark:text-red-400",
-};
 
 /**
  * 접이식 커리큘럼 표 컴포넌트
@@ -84,7 +77,7 @@ export function CurriculumTable({
                 <TableHead className="w-[80px] text-center">주차</TableHead>
                 <TableHead>미션</TableHead>
                 <TableHead className="hidden md:table-cell">핵심 키워드</TableHead>
-                <TableHead className="w-[100px] text-center">난이도</TableHead>
+                <TableHead className="w-[120px] text-center">단계</TableHead>
               </TableRow>
             </TableHeader>
             <TableBody>
@@ -118,12 +111,14 @@ export function CurriculumTable({
                     </div>
                   </TableCell>
                   <TableCell className="text-center">
-                    <Badge
-                      variant="secondary"
-                      className={difficultyColors[mission.difficulty]}
-                    >
-                      {difficultyLabels[mission.difficulty]}
-                    </Badge>
+                    {mission.stage && (
+                      <Badge
+                        variant="outline"
+                        className={trackStageColors[trackId]}
+                      >
+                        {mission.stage}
+                      </Badge>
+                    )}
                   </TableCell>
                 </TableRow>
               ))}

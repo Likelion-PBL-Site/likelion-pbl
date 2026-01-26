@@ -10,6 +10,7 @@ import { Toggle } from "./blocks/toggle";
 import { Code } from "./blocks/code";
 import { NotionImage } from "./blocks/image";
 import { Divider } from "./blocks/divider";
+import { Bookmark } from "./blocks/bookmark";
 
 interface NotionBlockRendererProps {
   blocks: NotionBlock[];
@@ -88,7 +89,7 @@ function RenderBlock({ block, sectionType, checkedIds, onToggleCheck }: RenderBl
 
   switch (block.type) {
     case "paragraph":
-      return <Paragraph block={block} />;
+      return <Paragraph block={block}>{children}</Paragraph>;
 
     case "heading_1":
     case "heading_2":
@@ -129,6 +130,9 @@ function RenderBlock({ block, sectionType, checkedIds, onToggleCheck }: RenderBl
 
     case "divider":
       return <Divider />;
+
+    case "bookmark":
+      return <Bookmark block={block} />;
 
     case "table_of_contents":
       // 목차는 앱에서 별도로 처리하므로 무시

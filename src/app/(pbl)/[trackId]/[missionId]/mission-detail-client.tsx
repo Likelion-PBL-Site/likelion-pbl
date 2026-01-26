@@ -8,12 +8,13 @@ import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "@/components/ui/card";
-import { difficultyLabels, trackLabels } from "@/types/pbl";
+import { trackLabels } from "@/types/pbl";
 import type { Mission, TrackType, Requirement } from "@/types/pbl";
 import type { MissionSections } from "@/types/notion-blocks";
 import { usePBLStore, calculateProgress } from "@/store/pbl-store";
 import { NotionBlockRenderer } from "@/components/notion/notion-block-renderer";
 import { MissionProgressChecklist } from "@/components/mission";
+import { trackStageColors } from "@/data/tracks";
 
 interface MissionDetailClientProps {
   mission: Mission;
@@ -25,12 +26,6 @@ interface MissionDetailClientProps {
   /** Notion timeGoal 섹션에서 추출한 소요 시간 텍스트 */
   timeGoalText?: string;
 }
-
-const difficultyColors = {
-  beginner: "bg-green-500/10 text-green-600 dark:text-green-400 border-green-500/20",
-  intermediate: "bg-yellow-500/10 text-yellow-600 dark:text-yellow-400 border-yellow-500/20",
-  advanced: "bg-red-500/10 text-red-600 dark:text-red-400 border-red-500/20",
-};
 
 /**
  * 섹션 안내 문구 컴포넌트
@@ -191,9 +186,11 @@ export function MissionDetailClient({
         <div className="mb-8">
           <div className="flex flex-wrap items-center gap-2 mb-3">
             <Badge variant="outline">{trackLabels[mission.track]}</Badge>
-            <Badge className={difficultyColors[mission.difficulty]}>
-              {difficultyLabels[mission.difficulty]}
-            </Badge>
+            {mission.stage && (
+              <Badge variant="outline" className={trackStageColors[trackId]}>
+                {mission.stage}
+              </Badge>
+            )}
             <div className="flex items-center gap-1 text-sm text-muted-foreground">
               <Clock className="h-4 w-4" />
               <span>

@@ -4,7 +4,7 @@ import type {
   PageObjectResponse,
   RichTextItemResponse,
 } from "@notionhq/client/build/src/api-endpoints";
-import type { Mission, MissionSummary, Requirement, TrackType, DifficultyType } from "@/types/pbl";
+import type { Mission, MissionSummary, Requirement, TrackType } from "@/types/pbl";
 
 /**
  * 노션 클라이언트 인스턴스 생성
@@ -171,18 +171,6 @@ function parseWeekNumber(weekStr: string): number {
   return match ? parseInt(match[1], 10) : 0;
 }
 
-/**
- * 단계를 난이도로 매핑
- */
-function stageToDifficulty(stage: string | null): DifficultyType {
-  const stageMap: Record<string, DifficultyType> = {
-    Java: "beginner",
-    "Spring Core": "intermediate",
-    JPA: "intermediate",
-    Project: "advanced",
-  };
-  return stageMap[stage || ""] || "beginner";
-}
 
 /**
  * 노션 페이지를 MissionSummary로 변환 (트랙별 커리큘럼 DB용)
@@ -208,7 +196,7 @@ function pageToMissionSummary(page: PageObjectResponse, track: TrackType): Missi
     title: topic || weekStr, // 주제가 없으면 주차 정보 사용
     description: description,
     track: track,
-    difficulty: stageToDifficulty(stage),
+    stage: stage || "", // Notion DB의 원본 단계값 사용
     estimatedTime: 120, // 기본 2시간
     order: parseWeekNumber(weekStr),
     tags: tags,
@@ -352,9 +340,12 @@ async function fetchRequirementsFromNotion(
 
 /**
  * 노션에서 미션 상세 조회
+ * @param missionId 미션 ID (UUID 형식)
+ * @param track 트랙 정보 (알고 있는 경우 전달, 없으면 모든 트랙 검색)
  */
 export async function fetchMissionByIdFromNotion(
-  missionId: string
+  missionId: string,
+  track?: TrackType
 ): Promise<Mission | null> {
   if (!process.env.NOTION_API_KEY) {
     return null;
@@ -384,10 +375,29 @@ export async function fetchMissionByIdFromNotion(
       return null;
     }
 
+    // 트랙 정보가 없으면 부모 DB에서 트랙 결정
+    let resolvedTrack = track;
+    if (!resolvedTrack) {
+      // 페이지의 부모 DB ID로 트랙 결정
+      const pageObj = page as PageObjectResponse;
+      if (pageObj.parent.type === "database_id") {
+        const parentDbId = pageObj.parent.database_id;
+        const trackDbMap: Record<string, TrackType> = {
+          [process.env.NOTION_DB_REACT || ""]: "react",
+          [process.env.NOTION_DB_SPRINGBOOT || ""]: "springboot",
+          [process.env.NOTION_DB_DJANGO || ""]: "django",
+          [process.env.NOTION_DB_DESIGN || ""]: "design",
+        };
+        resolvedTrack = trackDbMap[parentDbId] || "springboot";
+      } else {
+        resolvedTrack = "springboot";
+      }
+    }
+
     // 요구사항 조회
     const requirements = await fetchRequirementsFromNotion(formattedId);
 
-    return pageToMission(page as PageObjectResponse, requirements);
+    return pageToMission(page as PageObjectResponse, requirements, resolvedTrack);
   } catch (error) {
     console.error(`노션 미션 상세 조회 실패 (ID: ${missionId}):`, error);
     return null;

@@ -25,8 +25,8 @@ export default async function MissionPage({ params }: MissionPageProps) {
     notFound();
   }
 
-  // 미션 데이터 가져오기
-  const mission = await getMissionById(missionId);
+  // 미션 데이터 가져오기 (trackId 전달로 정확한 트랙 정보 사용)
+  const mission = await getMissionById(missionId, trackId);
 
   // 미션이 없거나 트랙이 일치하지 않으면 404
   if (!mission || mission.track !== trackId) {

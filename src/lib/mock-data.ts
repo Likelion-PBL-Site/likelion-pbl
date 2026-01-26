@@ -26,7 +26,7 @@ export const mockSpringbootMissions: Mission[] = [
     description: "Java의 기본 문법과 Scanner를 활용한 콘솔 입출력을 학습합니다.",
     track: "springboot",
     result: "",
-    difficulty: "beginner",
+    stage: "Java",
     estimatedTime: 120,
     order: 1,
     tags: ["Java", "Scanner", "콘솔"],
@@ -85,7 +85,7 @@ app.use(express.json());
     description: "Java의 객체지향 개념을 이해하고 클래스와 캡슐화를 학습합니다.",
     track: "springboot",
     result: "",
-    difficulty: "beginner",
+    stage: "Java",
     estimatedTime: 150,
     order: 2,
     tags: ["Java", "OOP", "클래스", "캡슐화"],
@@ -208,11 +208,13 @@ export async function getMissionsByTrack(track: TrackType): Promise<MissionSumma
 /**
  * 미션 상세 정보 가져오기 (노션 연동 지원)
  * 노션이 설정되어 있으면 노션에서, 아니면 목업 데이터에서 가져옴
+ * @param missionId 미션 ID
+ * @param track 트랙 정보 (알고 있는 경우 전달하면 더 정확한 결과)
  */
-export async function getMissionById(missionId: string): Promise<Mission | undefined> {
+export async function getMissionById(missionId: string, track?: TrackType): Promise<Mission | undefined> {
   // 노션이 설정되어 있으면 노션에서 데이터 가져오기
   if (isNotionConfigured()) {
-    const notionMission = await fetchMissionByIdFromNotion(missionId);
+    const notionMission = await fetchMissionByIdFromNotion(missionId, track);
     if (notionMission) {
       return notionMission;
     }
@@ -233,7 +235,7 @@ function missionToSummary(mission: Mission): MissionSummary {
     title: mission.title,
     description: mission.description,
     track: mission.track,
-    difficulty: mission.difficulty,
+    stage: mission.stage,
     estimatedTime: mission.estimatedTime,
     order: mission.order,
     tags: mission.tags,

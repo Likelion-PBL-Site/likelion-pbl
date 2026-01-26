@@ -26,7 +26,8 @@ export interface MissionSummary {
   title: string;
   description: string;
   track: TrackType;
-  difficulty: DifficultyType;
+  /** 단계 (Notion DB의 원본값: Java, Spring Core, 기초, 문제 정의 등) */
+  stage: string;
   estimatedTime: number; // 분 단위
   order: number;
   tags: string[];
