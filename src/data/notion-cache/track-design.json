@@ -1,0 +1,144 @@
+{
+  "trackId": "design",
+  "missions": [
+    {
+      "id": "2f044860a4f481e1a985c48dcf850399",
+      "title": "IT 서비스 협업 구조 이해",
+      "description": "- 기획/디자인/프론트/백엔드 역할 구분\n- 신규 서비스 주제 선정\n- 핵심 사용자와 주요 문제 정의\n- 타겟 사용자 페르소나 작성",
+      "track": "design",
+      "stage": "문제 정의",
+      "estimatedTime": 120,
+      "order": 1,
+      "tags": [
+        "FE/BE/Design/PM 역할",
+        "문제 정의",
+        "서비스 구조",
+        "페르소나"
+      ]
+    },
+    {
+      "id": "2f044860a4f4817c9d2ee5fe4bdbaf1a",
+      "title": "Figma 입문 & 사용자 시나리오 보드 제작",
+      "description": "- Figma 파일 구조 세팅 (Page/Frame)\n- 사용자 시나리오 작성\n- 문제 상황 → 행동 → 목표 흐름 정리",
+      "track": "design",
+      "stage": "사용자 이해",
+      "estimatedTime": 120,
+      "order": 2,
+      "tags": [
+        "Figma 기본",
+        "사용자 시나리오(스토리보드)"
+      ]
+    },
+    {
+      "id": "2f044860a4f4814082dce3e329232d90",
+      "title": "IA(정보 구조) 제작",
+      "description": "- 전체 페이지 목록 도출\n- 기능 기준 vs 페이지 기준 비교\n- 개발자가 이해할 수 있는 IA 구조 설계",
+      "track": "design",
+      "stage": "구조 설계",
+      "estimatedTime": 120,
+      "order": 3,
+      "tags": [
+        "IA",
+        "기능 분해"
+      ]
+    },
+    {
+      "id": "2f044860a4f481ccb0a9f0df191f2558",
+      "title": "사용자 플로우 설계",
+      "description": "- 핵심 시나리오 정의\n- 성공/실패/예외 플로우 설계\n- IA → 사용자 플로우 연결",
+      "track": "design",
+      "stage": "흐름 설계",
+      "estimatedTime": 120,
+      "order": 4,
+      "tags": [
+        "User Flow",
+        "Scenario",
+        "예외 처리"
+      ]
+    },
+    {
+      "id": "2f044860a4f48112a7c5f9bd85c491b4",
+      "title": "컴포넌트 & Auto Layout",
+      "description": "- 버튼/입력창 컴포넌트 설계\n- 상태값 Variant 구성\n- 반복되는 UI를 컴포넌트화",
+      "track": "design",
+      "stage": "UI 구조화",
+      "estimatedTime": 120,
+      "order": 5,
+      "tags": [
+        "Component",
+        "Variant",
+        "Auto Layout"
+      ]
+    },
+    {
+      "id": "2f044860a4f4810ab343fcd153cec06d",
+      "title": "와이어프레임 제작",
+      "description": "- 핵심 화면 3~5개 선정\n- 기능 단위 와이어프레임 제작\n- UX 사용자 테스트(1차) 진행 및 피드백 정리",
+      "track": "design",
+      "stage": "화면 설계",
+      "estimatedTime": 120,
+      "order": 6,
+      "tags": [
+        "Wireframe",
+        "UX Test",
+        "피드백"
+      ]
+    },
+    {
+      "id": "2f044860a4f481e28731d0db8a993fab",
+      "title": "기능 명세서 작성",
+      "description": "- 와이어프레임 기준 기능 목록 정리\n- 화면-기능 매핑\n- 개발자 전달을 위한 기능 명세 작성",
+      "track": "design",
+      "stage": "명세화",
+      "estimatedTime": 120,
+      "order": 7,
+      "tags": [
+        "Functional Spec",
+        "화면-기능 매핑"
+      ]
+    },
+    {
+      "id": "2f044860a4f481ab9cbbe80c0d3375d7",
+      "title": "디자인 시스템 기초",
+      "description": "- Color / Typography 정의\n- Spacing 규칙 설정\n- 디자인 토큰 개념으로 정리",
+      "track": "design",
+      "stage": "디자인 시스템",
+      "estimatedTime": 120,
+      "order": 8,
+      "tags": [
+        "Design System",
+        "Token"
+      ]
+    },
+    {
+      "id": "2f044860a4f481b2b527cb2998d88199",
+      "title": "High-Fi UI 디자인",
+      "description": "- 와이어프레임 → High-Fi 전환\n- 상태값 반영 (default/disabled 등)\n- UX 사용자 테스트(2차) 및 개선 반영",
+      "track": "design",
+      "stage": "시각 설계",
+      "estimatedTime": 120,
+      "order": 9,
+      "tags": [
+        "High-Fi UI",
+        "상태 설계",
+        "UX 개선",
+        "UX Test"
+      ]
+    },
+    {
+      "id": "2f044860a4f481929b68daf2eb32f25f",
+      "title": "개발 협업을 위한 정리",
+      "description": "- Figma Dev Mode / Inspect 활용\n- 개발 전달 시 주의사항 정리\n- 기획·디자인 산출물 최종 정리",
+      "track": "design",
+      "stage": "협업 마무리",
+      "estimatedTime": 120,
+      "order": 10,
+      "tags": [
+        "Dev Mode",
+        "Inspect",
+        "협업"
+      ]
+    }
+  ],
+  "syncedAt": "2026-01-27T04:57:30.138Z"
+}

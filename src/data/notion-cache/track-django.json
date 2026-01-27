@@ -1,0 +1,143 @@
+{
+  "trackId": "django",
+  "missions": [
+    {
+      "id": "2f044860a4f481c786bdce0fc9a55688",
+      "title": "Python 핵심 문법",
+      "description": "변수, 조건문, 반복문, 함수, 콘솔 입출력",
+      "track": "django",
+      "stage": "기초",
+      "estimatedTime": 120,
+      "order": 1,
+      "tags": [
+        "Python",
+        "function",
+        "control flow"
+      ]
+    },
+    {
+      "id": "2f044860a4f481ed9fced95cf94b2286",
+      "title": "자료구조 & 로직 분리",
+      "description": "list/dict, 함수 분리, 검색/필터링",
+      "track": "django",
+      "stage": "기초",
+      "estimatedTime": 120,
+      "order": 2,
+      "tags": [
+        "list",
+        "dict",
+        "logic separation"
+      ]
+    },
+    {
+      "id": "2f044860a4f48113957dcd406e51e8ae",
+      "title": "Python 객체지향(OOP)",
+      "description": "클래스, 캡슐화, 상속, 추상화",
+      "track": "django",
+      "stage": "기초",
+      "estimatedTime": 120,
+      "order": 3,
+      "tags": [
+        "OOP",
+        "class",
+        "inheritance"
+      ]
+    },
+    {
+      "id": "2f044860a4f48111b49cc2876c19d281",
+      "title": "Django & MTV",
+      "description": "Django 개요, MTV 패턴, 요청/응답",
+      "track": "django",
+      "stage": "웹 입문",
+      "estimatedTime": 120,
+      "order": 4,
+      "tags": [
+        "Django",
+        "MTV",
+        "Request/Response"
+      ]
+    },
+    {
+      "id": "2f044860a4f481109ce6fd2674c6e94c",
+      "title": "Template & Form",
+      "description": "템플릿 문법, 폼 처리, POST/Redirect",
+      "track": "django",
+      "stage": "웹 구조",
+      "estimatedTime": 120,
+      "order": 5,
+      "tags": [
+        "Template",
+        "Form",
+        "POST"
+      ]
+    },
+    {
+      "id": "2f044860a4f481be84c0f61e82f6d6a2",
+      "title": "CRUD 구현",
+      "description": "등록/조회/수정/삭제, URL 설계",
+      "track": "django",
+      "stage": "웹 구현",
+      "estimatedTime": 120,
+      "order": 6,
+      "tags": [
+        "CRUD",
+        "URL",
+        "View"
+      ]
+    },
+    {
+      "id": "2f044860a4f4814aa926cb0196ffab8e",
+      "title": "Admin & 구조 정리",
+      "description": "Model 정의, Admin, 공통 템플릿",
+      "track": "django",
+      "stage": "웹 확장",
+      "estimatedTime": 120,
+      "order": 7,
+      "tags": [
+        "Model",
+        "Admin",
+        "migration"
+      ]
+    },
+    {
+      "id": "2f044860a4f481a7be34e0a67c282090",
+      "title": "Django ORM 기초",
+      "description": "ORM 개념, QuerySet, 영속성",
+      "track": "django",
+      "stage": "ORM",
+      "estimatedTime": 120,
+      "order": 8,
+      "tags": [
+        "ORM",
+        "QuerySet"
+      ]
+    },
+    {
+      "id": "2f044860a4f4812b91f5f192355b9d9b",
+      "title": "연관관계 & 트랜잭션",
+      "description": "1:N 관계, 데이터 일관성",
+      "track": "django",
+      "stage": "ORM",
+      "estimatedTime": 120,
+      "order": 9,
+      "tags": [
+        "ForeignKey",
+        "transaction"
+      ]
+    },
+    {
+      "id": "2f044860a4f48190af97d846f046c8dc",
+      "title": "미니 프로젝트 완성",
+      "description": "리팩토링, README, 구조 설명",
+      "track": "django",
+      "stage": "Project",
+      "estimatedTime": 120,
+      "order": 10,
+      "tags": [
+        "Refactoring",
+        "Documentation"
+      ]
+    }
+  ],
+  "syncedAt": "2026-01-27T04:57:30.138Z"
+}

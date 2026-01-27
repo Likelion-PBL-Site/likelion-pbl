@@ -1,0 +1,144 @@
+{
+  "trackId": "react",
+  "missions": [
+    {
+      "id": "2f044860a4f4819890dfced14fd7097b",
+      "title": "HTML/CSS 기초",
+      "description": "아기 사자 자기소개 페이지(정적) 만들기",
+      "track": "react",
+      "stage": "Web",
+      "estimatedTime": 120,
+      "order": 1,
+      "tags": [
+        "Tag",
+        "Semantic",
+        "Box Model"
+      ]
+    },
+    {
+      "id": "2f044860a4f481fe943ef27144a26fd7",
+      "title": "CSS 레이아웃 & 반응형",
+      "description": "LION-TRACK 메인 대시보드 레이아웃 설계",
+      "track": "react",
+      "stage": "Web",
+      "estimatedTime": 120,
+      "order": 2,
+      "tags": [
+        "Grid",
+        "Position",
+        "Media Query",
+        "CSS 우선순위"
+      ]
+    },
+    {
+      "id": "2f044860a4f481fa8a52eec6ae08b4d9",
+      "title": "JavaScript 기초",
+      "description": "버튼 클릭 시 사자 명단이 추가되는 동적 효과",
+      "track": "react",
+      "stage": "JS",
+      "estimatedTime": 120,
+      "order": 3,
+      "tags": [
+        "DOM",
+        "Event",
+        "Variable"
+      ]
+    },
+    {
+      "id": "2f044860a4f481ebacbdd5cdbf060f6e",
+      "title": "JS 비동기와 데이터",
+      "description": "가짜 API 데이터를 불러와 명단 렌더링",
+      "track": "react",
+      "stage": "JS",
+      "estimatedTime": 120,
+      "order": 4,
+      "tags": [
+        "Fetch",
+        "Promise",
+        "Async/Await"
+      ]
+    },
+    {
+      "id": "2f044860a4f48140a95dc73343b00434",
+      "title": "React 시작하기",
+      "description": "HTML 구조를 컴포넌트 단위로 쪼개기",
+      "track": "react",
+      "stage": "React",
+      "estimatedTime": 120,
+      "order": 5,
+      "tags": [
+        "Component",
+        "JSX",
+        "Props"
+      ]
+    },
+    {
+      "id": "2f044860a4f4819089c9f2230641f701",
+      "title": "상태와 Effect",
+      "description": "상태 기반 UI 업데이트 및 데이터 로딩",
+      "track": "react",
+      "stage": "React",
+      "estimatedTime": 120,
+      "order": 6,
+      "tags": [
+        "useState",
+        "useEffect"
+      ]
+    },
+    {
+      "id": "2f044860a4f481ddac76e92fdef2fee2",
+      "title": "React Router",
+      "description": "상세 프로필 및 과제 제출 페이지 나누기",
+      "track": "react",
+      "stage": "React",
+      "estimatedTime": 120,
+      "order": 7,
+      "tags": [
+        "Link",
+        "useParams",
+        "Route"
+      ]
+    },
+    {
+      "id": "2f044860a4f481c0b69bce5e8eebfadb",
+      "title": "TypeScript 기초",
+      "description": "React 컴포넌트에 타입 적용하기",
+      "track": "react",
+      "stage": "TypeScript",
+      "estimatedTime": 120,
+      "order": 8,
+      "tags": [
+        "Type",
+        "Interface",
+        "Props Type"
+      ]
+    },
+    {
+      "id": "2f044860a4f4817f8622f527d0fe5e10",
+      "title": "Supabase 연동",
+      "description": "실제 DB에서 명단 불러오기/저장하기",
+      "track": "react",
+      "stage": "BaaS",
+      "estimatedTime": 120,
+      "order": 9,
+      "tags": [
+        "Supabase Client",
+        "CRUD"
+      ]
+    },
+    {
+      "id": "2f044860a4f4813c8187dc6a1d0082d9",
+      "title": "최종 서비스 완성",
+      "description": "UI 디테일 개선 및 서비스 배포(선택)",
+      "track": "react",
+      "stage": "Project",
+      "estimatedTime": 120,
+      "order": 10,
+      "tags": [
+        "Vercel/Netlify",
+        "Refactoring"
+      ]
+    }
+  ],
+  "syncedAt": "2026-01-27T04:57:30.138Z"
+}

@@ -1,0 +1,149 @@
+{
+  "trackId": "springboot",
+  "missions": [
+    {
+      "id": "2f044860a4f481878cbdd66f54b19ce9",
+      "title": "Java 핵심 문법 & 흐름",
+      "description": "콘솔 기반 아기 사자 명단 관리 프로그램\n데이터 타입, 입출력, 조건, 반복",
+      "track": "springboot",
+      "stage": "Java",
+      "estimatedTime": 120,
+      "order": 1,
+      "tags": [
+        "변수",
+        "조건문",
+        "반복문"
+      ]
+    },
+    {
+      "id": "2f044860a4f481869998cc607120d4c4",
+      "title": "객체지향 I - 클래스와 캡슐화",
+      "description": "Lion 클래스 설계\n필드 은닉, 생성자 검증, 책임 분리, 함수",
+      "track": "springboot",
+      "stage": "Java",
+      "estimatedTime": 120,
+      "order": 2,
+      "tags": [
+        "Class",
+        "Field",
+        "Method",
+        "Encapsulation"
+      ]
+    },
+    {
+      "id": "2f044860a4f481638d0cf4aad3314d98",
+      "title": "객체지향 II - 상속/다형성/추상화",
+      "description": "역할(Lion/Staff) 분리\n정책을 인터페이스로 추상화",
+      "track": "springboot",
+      "stage": "Java",
+      "estimatedTime": 120,
+      "order": 3,
+      "tags": [
+        "Inheritance",
+        "Polymorphism",
+        "Interface",
+        "Abstract"
+      ]
+    },
+    {
+      "id": "2f044860a4f48151a4cac98414514b2b",
+      "title": "Java Collections & 설계 확장",
+      "description": "명단, 과제, 제출물 저장 구조 개선\n검색, 정렬, 필터링 기능 추가",
+      "track": "springboot",
+      "stage": "Java",
+      "estimatedTime": 120,
+      "order": 4,
+      "tags": [
+        "List",
+        "Map",
+        "Set",
+        "Generics"
+      ]
+    },
+    {
+      "id": "2f044860a4f48110b935cf9dc900b42b",
+      "title": "자바로 배우는 IoC/DI",
+      "description": "Service가 Repository를 직접 생성하지 않도록 리팩토링",
+      "track": "springboot",
+      "stage": "Spring Core",
+      "estimatedTime": 120,
+      "order": 5,
+      "tags": [
+        "IoC",
+        "DI",
+        "Constructor Injection"
+      ]
+    },
+    {
+      "id": "2f044860a4f481cfb0fad0418e9c04a5",
+      "title": "Spring Boot 전환",
+      "description": "기존 Java 로직을 Spring Boot로 이전\n첫 REST API 구현",
+      "track": "springboot",
+      "stage": "Spring Core",
+      "estimatedTime": 120,
+      "order": 6,
+      "tags": [
+        "Spring Boot",
+        "Bean",
+        "Annotation"
+      ]
+    },
+    {
+      "id": "2f044860a4f4818ea0e6ebeb22ef09ad",
+      "title": "REST API 설계(CRUD)",
+      "description": "아기 사자 등록/조회/수정/삭제 API 구현",
+      "track": "springboot",
+      "stage": "Spring Core",
+      "estimatedTime": 120,
+      "order": 7,
+      "tags": [
+        "REST",
+        "HTTP",
+        "DTO"
+      ]
+    },
+    {
+      "id": "2f044860a4f481fb9dd3ea247d83d657",
+      "title": "JPA 기초 & 영속성 컨텍스트",
+      "description": "Lion 엔티티 영속화\n객체 저장/조회 흐름 이해",
+      "track": "springboot",
+      "stage": "JPA",
+      "estimatedTime": 120,
+      "order": 8,
+      "tags": [
+        "JPA",
+        "Entity",
+        "Repository",
+        "Persistence"
+      ]
+    },
+    {
+      "id": "2f044860a4f48108b793f72c8a7146e7",
+      "title": "연관관계 & 트랜잭션",
+      "description": "Lion Assignment(1:N) 관계 설계\n트랜잭션으로 데이터 안정성 확보",
+      "track": "springboot",
+      "stage": "JPA",
+      "estimatedTime": 120,
+      "order": 9,
+      "tags": [
+        "@OneToMany",
+        "@ManyToOne",
+        "Transactional"
+      ]
+    },
+    {
+      "id": "2f044860a4f481e6a824ca2a9f06099b",
+      "title": "개인 미니 프로젝트",
+      "description": "성장 기록 시스템 기능 통합\n리팩토링 + README 문서화",
+      "track": "springboot",
+      "stage": "Project",
+      "estimatedTime": 120,
+      "order": 10,
+      "tags": [
+        "Architecture",
+        "Refactoring"
+      ]
+    }
+  ],
+  "syncedAt": "2026-01-27T04:57:30.132Z"
+}
