@@ -24,23 +24,29 @@ src/
 │   ├── guide/                         # 학습 가이드 페이지
 │   ├── tracks/                        # 트랙 목록 페이지
 │   ├── faq/                           # FAQ 페이지
-│   ├── demo/                          # UI 데모 페이지 (curriculum, notion-ui 등)
-│   └── api/notion/                    # Notion API (데이터, 이미지, 동기화)
+│   ├── demo/                          # UI 데모 페이지
+│   └── api/notion/                    # Notion API 라우트
+│       ├── route.ts                   # 미션 데이터 조회
+│       ├── image/route.ts             # 이미지 URL 갱신
+│       ├── video/route.ts             # 비디오 URL 갱신
+│       └── sync/route.ts              # 캐시 동기화 웹훅
 ├── components/
 │   ├── ui/           # shadcn/ui 컴포넌트
 │   ├── curriculum/   # 커리큘럼 표 (CurriculumTable)
 │   ├── mission/      # 체크리스트, 진행률 컴포넌트
 │   ├── layout/       # 레이아웃 컴포넌트 (사이드바, 네비게이션)
 │   └── notion/       # Notion 블록 렌더러
-│       └── blocks/   # 개별 블록 (heading, callout, code, image, toggle 등)
+│       └── blocks/   # 개별 블록 컴포넌트
 ├── lib/
-│   ├── notion.ts         # Notion API + unstable_cache
+│   ├── notion.ts         # Notion API 클라이언트
 │   ├── notion-blocks.ts  # 블록 파싱 + JSON 캐시 로드
 │   └── mock-data.ts      # Mock 데이터 + 데이터 접근 함수
 ├── store/            # Zustand (pbl-store, ui-store)
 └── data/
     ├── tracks.ts        # 트랙 설정 + 단계별 색상
     └── notion-cache/    # JSON 캐시 파일 (자동 생성)
+        ├── track-{trackId}.json  # 트랙별 미션 목록
+        └── {missionId}.json      # 미션 상세 블록 데이터
 
 scripts/              # Notion 캐시 동기화 스크립트
 docs/troubleshooting/ # 트러블슈팅 + AI 협업 기록
@@ -64,28 +70,34 @@ docs/troubleshooting/ # 트러블슈팅 + AI 협업 기록
 
 ### 캐싱 구조
 
-| 대상 | 캐시 방식 | 유효 기간 | 위치 |
+| 대상 | 캐시 방식 | 갱신 주기 | 위치 |
 |------|----------|----------|------|
-| 트랙 페이지 미션 목록 | `unstable_cache` | 1시간 | 서버 메모리 |
-| 미션 상세 콘텐츠 | JSON 파일 캐시 | GitHub Actions로 갱신 | `src/data/notion-cache/` |
+| 트랙별 미션 목록 | JSON 파일 캐시 | GitHub Actions | `track-{trackId}.json` |
+| 미션 상세 콘텐츠 | JSON 파일 캐시 | GitHub Actions | `{missionId}.json` |
+| 이미지/비디오 URL | 온디맨드 갱신 | 만료 시 API 호출 | - |
 
 ### 데이터 흐름
 
 **트랙 페이지 (미션 목록):**
 ```
-요청 → unstable_cache 확인 → (없으면) Notion DB 쿼리 → 캐시 저장
+요청 → track-{trackId}.json 로드 → 미션 목록 렌더링
 ```
 
 **미션 상세 페이지:**
 ```
-요청 → JSON 캐시 확인 → (없으면) Notion API → 블록 렌더링 + 캐시 저장
+요청 → {missionId}.json 확인 → (없으면) Notion API → 블록 렌더링 + 캐시 저장
+```
+
+**미디어 URL 갱신:**
+```
+이미지/비디오 만료 → /api/notion/image 또는 /api/notion/video 호출 → 새 URL 반환
 ```
 
 ### 캐시 동기화
 
 **수동 동기화:**
 ```bash
-node scripts/sync-notion-cache.mjs                    # 전체 동기화 (Notion DB에서 자동 조회)
+node scripts/sync-notion-cache.mjs                    # 전체 동기화 (모든 트랙 + 미션)
 node scripts/sync-notion-cache.mjs <미션ID 또는 페이지ID>  # 특정 미션만
 ```
 
@@ -95,12 +107,18 @@ node scripts/sync-notion-cache.mjs <미션ID 또는 페이지ID>  # 특정 미�
 - 변경사항 있으면 자동 커밋 → Vercel 배포
 - GitHub Actions UI에서 수동 트리거 가능
 
+**동기화 스크립트 동작:**
+1. 4개 트랙 DB에서 미션 목록 조회
+2. `track-{trackId}.json`에 미션 목록 저장 (주차순 정렬)
+3. 각 미션의 상세 블록을 `{missionId}.json`에 저장
+
 ### 새 미션 추가
 
 Notion DB에 페이지를 추가하면 자동으로 동기화됩니다:
 1. Notion에서 해당 트랙 DB에 새 페이지 생성
-2. GitHub Actions가 다음 실행 시 자동 감지 및 캐싱
-3. 즉시 반영이 필요하면: `node scripts/sync-notion-cache.mjs` 실행
+2. `주차` (number) 컬럼에 주차 번호 입력 (정렬 기준)
+3. GitHub Actions가 다음 실행 시 자동 감지 및 캐싱
+4. 즉시 반영이 필요하면: `node scripts/sync-notion-cache.mjs` 실행
 
 ---
 
@@ -116,7 +134,7 @@ import { NotionBlockRenderer } from "@/components/notion";
 <NotionBlockRenderer blocks={sections.guidelines} sectionType="guidelines" />
 ```
 
-**지원 블록:** paragraph, heading, list, quote, callout, toggle, code, image, divider
+**지원 블록:** paragraph, heading, list, quote, callout, toggle, code, image, video, bookmark, divider
 
 **섹션별 리스트 스타일:**
 - `guidelines`, `example` → 번호 리스트 (1. 2. 3.)
@@ -128,7 +146,9 @@ import { NotionBlockRenderer } from "@/components/notion";
 | heading_3 | "1. 제목" → 원형 번호 뱃지 |
 | callout | 이모지 기반 (💡=Tip, ⚠️=주의, ⭐=보너스) |
 | code | 파일명 헤더 + 라인 넘버 |
-| image | 클릭 시 라이트박스 확대 |
+| image | 클릭 시 라이트박스 확대, URL 만료 시 자동 갱신 |
+| video | file/external 타입 지원, URL 만료 시 자동 갱신 |
+| bookmark | 링크 카드 스타일 |
 | toggle | 카드 스타일 + 애니메이션 |
 
 ---
@@ -171,8 +191,8 @@ import { trackStageColors, getTrackById, isValidTrackId } from "@/data/tracks";
 |------|------|----------|
 | React | Sky | Web, JS, React, TypeScript, BaaS, Project |
 | Spring Boot | Emerald | Java, Spring Core, JPA, Project |
-| Django | Green | Python, Django, DRF, Project |
-| Design | Violet | 문제 정의, 설계, 디자인, Project |
+| Django | Green | 기초, 웹 입문, 웹 구조, 웹 구현, 웹 확장, ORM, Project |
+| Design | Violet | 문제 정의, 사용자 이해, 구조 설계, 흐름 설계, UI 구조화, 화면 설계, 명세화, 디자인 시스템, 시각 설계, 협업 마무리 |
 
 ---
 
@@ -254,3 +274,18 @@ NOTION_SYNC_SECRET=     # 동기화 API 시크릿
 - `shiki`: 코드 하이라이팅
 - `zustand`: 상태 관리
 - `next-themes`: 테마 전환
+
+---
+
+## Notion DB 컬럼 매핑
+
+트랙 DB에서 미션 데이터 추출 시 사용하는 컬럼:
+
+| Notion 컬럼 | 타입 | 용도 |
+|------------|------|------|
+| `콘텐츠 제작물` | title | 미션 제목 (fallback) |
+| `주제` | rich_text | 미션 제목 |
+| `주요 학습 내용` | rich_text | 설명 |
+| `단계` | select | 학습 단계 (배지 표시) |
+| `핵심 기술 키워드` | multi_select | 태그 |
+| `주차` | number | 정렬 순서 (필수) |
