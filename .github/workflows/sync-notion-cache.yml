@@ -37,6 +37,10 @@ jobs:
       - name: Sync Notion cache
         env:
           NOTION_API_KEY: ${{ secrets.NOTION_API_KEY }}
+          NOTION_DB_SPRINGBOOT: ${{ secrets.NOTION_DB_SPRINGBOOT }}
+          NOTION_DB_REACT: ${{ secrets.NOTION_DB_REACT }}
+          NOTION_DB_DJANGO: ${{ secrets.NOTION_DB_DJANGO }}
+          NOTION_DB_DESIGN: ${{ secrets.NOTION_DB_DESIGN }}
         run: |
           if [ -n "${{ github.event.inputs.mission_id }}" ]; then
             node scripts/sync-notion-cache.mjs ${{ github.event.inputs.mission_id }}

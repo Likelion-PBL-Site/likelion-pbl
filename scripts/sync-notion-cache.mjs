@@ -62,6 +62,64 @@ function getNotionClient() {
 }
 
 /**
+ * 주차 문자열에서 숫자 추출 (예: "05주", "[1주차]" → 5, 1)
+ */
+function parseWeekNumber(weekStr) {
+  const match = weekStr.match(/(\d+)/);
+  return match ? parseInt(match[1], 10) : 0;
+}
+
+/**
+ * Number 속성에서 값 추출
+ */
+function getNumberValue(property) {
+  if (property?.number !== undefined && property?.number !== null) {
+    return property.number;
+  }
+  return null;
+}
+
+/**
+ * Select 속성에서 값 추출
+ */
+function getSelectValue(property) {
+  if (property?.select?.name) {
+    return property.select.name;
+  }
+  return null;
+}
+
+/**
+ * Multi-select 속성에서 값들 추출
+ */
+function getMultiSelectValues(property) {
+  if (property?.multi_select && Array.isArray(property.multi_select)) {
+    return property.multi_select.map((item) => item.name);
+  }
+  return [];
+}
+
+/**
+ * Rich Text 속성에서 문자열 추출
+ */
+function getRichTextValue(property) {
+  if (property?.rich_text && Array.isArray(property.rich_text)) {
+    return property.rich_text.map((t) => t.plain_text).join("");
+  }
+  return "";
+}
+
+/**
+ * Title 속성에서 문자열 추출
+ */
+function getTitleValue(property) {
+  if (property?.title && Array.isArray(property.title)) {
+    return property.title.map((t) => t.plain_text).join("");
+  }
+  return "";
+}
+
+/**
  * Notion DB에서 모든 미션 페이지 목록 조회
  */
 async function fetchMissionsFromDatabase(client, databaseId, trackName) {
@@ -75,26 +133,36 @@ async function fetchMissionsFromDatabase(client, databaseId, trackName) {
     for (const page of response.results) {
       if (!("properties" in page)) continue;
 
-      // 페이지 ID (하이픈 제거)
       const pageId = page.id;
       const normalizedId = pageId.replace(/-/g, "");
-
-      // 제목 추출 (콘텐츠 제작물 or Title)
-      let title = "";
       const props = page.properties;
-      if (props["콘텐츠 제작물"]?.title) {
-        title = props["콘텐츠 제작물"].title
-          .map((t) => t.plain_text)
-          .join("");
-      } else if (props["주제"]?.rich_text) {
-        title = props["주제"].rich_text.map((t) => t.plain_text).join("");
-      }
+
+      // 새 DB 컬럼 매핑
+      const weekStr = getTitleValue(props["콘텐츠 제작물"]);
+      const topic = getRichTextValue(props["주제"]);
+      const description = getRichTextValue(props["주요 학습 내용"]);
+      const stage = getSelectValue(props["단계"]);
+      const tags = getMultiSelectValues(props["핵심 기술 키워드"]);
+
+      // 주차 번호: number 타입 '주차' 컬럼 우선, 없으면 '콘텐츠 제작물'에서 파싱
+      const weekNumber = getNumberValue(props["주차"]) ?? parseWeekNumber(weekStr);
 
       missions.push({
         missionId: normalizedId,
         notionPageId: pageId,
-        title: title || `${trackName}-${normalizedId.slice(0, 8)}`,
+        title: topic || weekStr,
         track: trackName,
+        // MissionSummary 형식에 맞게 추가
+        summary: {
+          id: normalizedId,
+          title: topic || weekStr,
+          description: description,
+          track: trackName,
+          stage: stage || "",
+          estimatedTime: 120,
+          order: weekNumber,
+          tags: tags,
+        },
       });
     }
   } catch (error) {
@@ -297,6 +365,24 @@ async function syncMission(client, missionId, notionPageId) {
 }
 
 /**
+ * 트랙별 미션 목록 캐시 저장
+ */
+async function saveTrackCache(trackName, missions) {
+  const trackCacheData = {
+    trackId: trackName,
+    missions: missions
+      .filter((m) => m.track === trackName)
+      .map((m) => m.summary)
+      .sort((a, b) => a.order - b.order),
+    syncedAt: new Date().toISOString(),
+  };
+
+  const cachePath = path.join(CACHE_DIR, `track-${trackName}.json`);
+  await fs.writeFile(cachePath, JSON.stringify(trackCacheData, null, 2), "utf-8");
+  console.log(`   📁 트랙 캐시 저장: ${cachePath} (${trackCacheData.missions.length}개 미션)`);
+}
+
+/**
  * 메인 함수
  */
 async function main() {
@@ -325,6 +411,13 @@ async function main() {
     process.exit(1);
   }
 
+  // 🆕 트랙별 미션 목록 캐시 저장
+  console.log("\n📦 트랙별 미션 목록 캐시 저장 중...");
+  const tracks = [...new Set(allMissions.map((m) => m.track))];
+  for (const track of tracks) {
+    await saveTrackCache(track, allMissions);
+  }
+
   // 동기화 대상 필터링 (특정 미션 ID 지정 시)
   const targets = targetMissionId
     ? allMissions.filter((m) =>
@@ -340,7 +433,7 @@ async function main() {
     process.exit(1);
   }
 
-  console.log(`\n📋 동기화 대상: ${targets.length}개 미션`);
+  console.log(`\n📋 미션 상세 동기화 대상: ${targets.length}개 미션`);
 
   const results = [];
   for (const mission of targets) {
