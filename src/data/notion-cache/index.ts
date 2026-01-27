@@ -4,6 +4,7 @@
 import fs from "fs/promises";
 import path from "path";
 import type { MissionSections } from "@/types/notion-blocks";
+import type { MissionSummary, TrackType } from "@/types/pbl";
 
 const CACHE_DIR = path.join(process.cwd(), "src/data/notion-cache");
 
@@ -11,6 +12,12 @@ export interface CachedMissionData {
   missionId: string;
   notionPageId: string;
   sections: MissionSections;
+  syncedAt: string; // ISO date string
+}
+
+export interface CachedTrackData {
+  trackId: TrackType;
+  missions: MissionSummary[];
   syncedAt: string; // ISO date string
 }
 
@@ -103,4 +110,32 @@ export async function listCacheFiles(): Promise<string[]> {
   } catch {
     return [];
   }
+}
+
+/**
+ * 트랙 캐시 파일 경로 생성
+ */
+export function getTrackCachePath(trackId: TrackType): string {
+  return path.join(CACHE_DIR, `track-${trackId}.json`);
+}
+
+/**
+ * 트랙 캐시 파일 읽기
+ */
+export async function readTrackCache(trackId: TrackType): Promise<CachedTrackData | null> {
+  try {
+    const filePath = getTrackCachePath(trackId);
+    const content = await fs.readFile(filePath, "utf-8");
+    return JSON.parse(content) as CachedTrackData;
+  } catch {
+    return null;
+  }
+}
+
+/**
+ * 트랙 캐시 파일 쓰기
+ */
+export async function writeTrackCache(data: CachedTrackData): Promise<void> {
+  const filePath = getTrackCachePath(data.trackId);
+  await fs.writeFile(filePath, JSON.stringify(data, null, 2), "utf-8");
 }

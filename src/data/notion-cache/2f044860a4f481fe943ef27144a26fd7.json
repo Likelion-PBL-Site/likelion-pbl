@@ -348,76 +348,6 @@
       },
       {
         "object": "block",
-        "id": "2f144860-a4f4-8084-97a3-e65f5b7bbee5",
-        "parent": {
-          "type": "block_id",
-          "block_id": "2f144860-a4f4-80e5-b88f-c237cc5f7572"
-        },
-        "created_time": "2026-01-23T10:14:00.000Z",
-        "last_edited_time": "2026-01-23T10:14:00.000Z",
-        "created_by": {
-          "object": "user",
-          "id": "2aed872b-594c-81eb-bc82-000291164988"
-        },
-        "last_edited_by": {
-          "object": "user",
-          "id": "2aed872b-594c-81eb-bc82-000291164988"
-        },
-        "has_children": false,
-        "archived": false,
-        "in_trash": false,
-        "type": "quote",
-        "quote": {
-          "rich_text": [
-            {
-              "type": "text",
-              "text": {
-                "content": "이 과제를 마친 후, 학습자는 아래를 스스로 설명할 수 있어야 한다.",
-                "link": null
-              },
-              "annotations": {
-                "bold": false,
-                "italic": false,
-                "strikethrough": false,
-                "underline": false,
-                "code": false,
-                "color": "default"
-              },
-              "plain_text": "이 과제를 마친 후, 학습자는 아래를 스스로 설명할 수 있어야 한다.",
-              "href": null
-            }
-          ],
-          "color": "default"
-        }
-      },
-      {
-        "object": "block",
-        "id": "2f144860-a4f4-8085-b1f9-c92e54c862d3",
-        "parent": {
-          "type": "block_id",
-          "block_id": "2f144860-a4f4-80e5-b88f-c237cc5f7572"
-        },
-        "created_time": "2026-01-23T10:14:00.000Z",
-        "last_edited_time": "2026-01-23T10:14:00.000Z",
-        "created_by": {
-          "object": "user",
-          "id": "2aed872b-594c-81eb-bc82-000291164988"
-        },
-        "last_edited_by": {
-          "object": "user",
-          "id": "2aed872b-594c-81eb-bc82-000291164988"
-        },
-        "has_children": false,
-        "archived": false,
-        "in_trash": false,
-        "type": "paragraph",
-        "paragraph": {
-          "rich_text": [],
-          "color": "default"
-        }
-      },
-      {
-        "object": "block",
         "id": "2f144860-a4f4-8032-9d6f-f2a8f83ab8c5",
         "parent": {
           "type": "block_id",
@@ -736,7 +666,7 @@
           "block_id": "2f144860-a4f4-80a5-be45-c7fcc7614306"
         },
         "created_time": "2026-01-23T10:14:00.000Z",
-        "last_edited_time": "2026-01-23T10:14:00.000Z",
+        "last_edited_time": "2026-01-27T04:52:00.000Z",
         "created_by": {
           "object": "user",
           "id": "2aed872b-594c-81eb-bc82-000291164988"
@@ -748,8 +678,8 @@
         "has_children": false,
         "archived": false,
         "in_trash": false,
-        "type": "quote",
-        "quote": {
+        "type": "paragraph",
+        "paragraph": {
           "rich_text": [
             {
               "type": "text",
@@ -758,7 +688,7 @@
                 "link": null
               },
               "annotations": {
-                "bold": false,
+                "bold": true,
                 "italic": false,
                 "strikethrough": false,
                 "underline": false,
@@ -774,83 +704,13 @@
       },
       {
         "object": "block",
-        "id": "2f144860-a4f4-80e4-ae95-e3d36ae17262",
+        "id": "2f544860-a4f4-80bf-a326-fbd2cf984989",
         "parent": {
           "type": "block_id",
           "block_id": "2f144860-a4f4-80a5-be45-c7fcc7614306"
         },
-        "created_time": "2026-01-23T10:14:00.000Z",
-        "last_edited_time": "2026-01-23T10:14:00.000Z",
-        "created_by": {
-          "object": "user",
-          "id": "2aed872b-594c-81eb-bc82-000291164988"
-        },
-        "last_edited_by": {
-          "object": "user",
-          "id": "2aed872b-594c-81eb-bc82-000291164988"
-        },
-        "has_children": false,
-        "archived": false,
-        "in_trash": false,
-        "type": "paragraph",
-        "paragraph": {
-          "rich_text": [],
-          "color": "default"
-        }
-      },
-      {
-        "object": "block",
-        "id": "2f144860-a4f4-80ef-aded-d69972e2c02b",
-        "parent": {
-          "type": "block_id",
-          "block_id": "2f144860-a4f4-80a5-be45-c7fcc7614306"
-        },
-        "created_time": "2026-01-23T10:14:00.000Z",
-        "last_edited_time": "2026-01-23T10:14:00.000Z",
-        "created_by": {
-          "object": "user",
-          "id": "2aed872b-594c-81eb-bc82-000291164988"
-        },
-        "last_edited_by": {
-          "object": "user",
-          "id": "2aed872b-594c-81eb-bc82-000291164988"
-        },
-        "has_children": false,
-        "archived": false,
-        "in_trash": false,
-        "type": "paragraph",
-        "paragraph": {
-          "rich_text": [
-            {
-              "type": "text",
-              "text": {
-                "content": "다음 요구사항을 모두 만족하는 정적 웹페이지 하나를 완성한다.",
-                "link": null
-              },
-              "annotations": {
-                "bold": false,
-                "italic": false,
-                "strikethrough": false,
-                "underline": false,
-                "code": false,
-                "color": "default"
-              },
-              "plain_text": "다음 요구사항을 모두 만족하는 정적 웹페이지 하나를 완성한다.",
-              "href": null
-            }
-          ],
-          "color": "default"
-        }
-      },
-      {
-        "object": "block",
-        "id": "2f144860-a4f4-8074-8ea6-e64c42ba782c",
-        "parent": {
-          "type": "block_id",
-          "block_id": "2f144860-a4f4-80a5-be45-c7fcc7614306"
-        },
-        "created_time": "2026-01-23T10:14:00.000Z",
-        "last_edited_time": "2026-01-23T10:14:00.000Z",
+        "created_time": "2026-01-27T04:52:00.000Z",
+        "last_edited_time": "2026-01-27T04:52:00.000Z",
         "created_by": {
           "object": "user",
           "id": "2aed872b-594c-81eb-bc82-000291164988"
@@ -876,7 +736,7 @@
           "block_id": "2f144860-a4f4-80a5-be45-c7fcc7614306"
         },
         "created_time": "2026-01-23T10:14:00.000Z",
-        "last_edited_time": "2026-01-23T10:14:00.000Z",
+        "last_edited_time": "2026-01-27T04:52:00.000Z",
         "created_by": {
           "object": "user",
           "id": "2aed872b-594c-81eb-bc82-000291164988"
@@ -888,13 +748,13 @@
         "has_children": false,
         "archived": false,
         "in_trash": false,
-        "type": "numbered_list_item",
-        "numbered_list_item": {
+        "type": "heading_3",
+        "heading_3": {
           "rich_text": [
             {
               "type": "text",
               "text": {
-                "content": "전체 화면 구성",
+                "content": "1. 전체 화면 구성",
                 "link": null
               },
               "annotations": {
@@ -905,10 +765,11 @@
                 "code": false,
                 "color": "default"
               },
-              "plain_text": "전체 화면 구성",
+              "plain_text": "1. 전체 화면 구성",
               "href": null
             }
           ],
+          "is_toggleable": false,
           "color": "default"
         }
       },
@@ -964,7 +825,7 @@
           "block_id": "2f144860-a4f4-80a5-be45-c7fcc7614306"
         },
         "created_time": "2026-01-23T10:14:00.000Z",
-        "last_edited_time": "2026-01-23T10:14:00.000Z",
+        "last_edited_time": "2026-01-27T04:52:00.000Z",
         "created_by": {
           "object": "user",
           "id": "2aed872b-594c-81eb-bc82-000291164988"
@@ -1087,44 +948,18 @@
               ],
               "color": "default"
             }
-          },
-          {
-            "object": "block",
-            "id": "2f144860-a4f4-8017-8851-f59234b6cb9d",
-            "parent": {
-              "type": "block_id",
-              "block_id": "2f144860-a4f4-804a-8879-dd7cabd52459"
-            },
-            "created_time": "2026-01-23T10:14:00.000Z",
-            "last_edited_time": "2026-01-23T10:14:00.000Z",
-            "created_by": {
-              "object": "user",
-              "id": "2aed872b-594c-81eb-bc82-000291164988"
-            },
-            "last_edited_by": {
-              "object": "user",
-              "id": "2aed872b-594c-81eb-bc82-000291164988"
-            },
-            "has_children": false,
-            "archived": false,
-            "in_trash": false,
-            "type": "paragraph",
-            "paragraph": {
-              "rich_text": [],
-              "color": "default"
-            }
           }
         ]
       },
       {
         "object": "block",
-        "id": "2f144860-a4f4-80b6-b3f6-f0d447ddc09d",
+        "id": "2f144860-a4f4-8017-8851-f59234b6cb9d",
         "parent": {
           "type": "block_id",
           "block_id": "2f144860-a4f4-80a5-be45-c7fcc7614306"
         },
         "created_time": "2026-01-23T10:14:00.000Z",
-        "last_edited_time": "2026-01-23T10:14:00.000Z",
+        "last_edited_time": "2026-01-27T04:52:00.000Z",
         "created_by": {
           "object": "user",
           "id": "2aed872b-594c-81eb-bc82-000291164988"
@@ -1136,8 +971,31 @@
         "has_children": false,
         "archived": false,
         "in_trash": false,
-        "type": "paragraph",
-        "paragraph": {
+        "type": "divider",
+        "divider": {}
+      },
+      {
+        "object": "block",
+        "id": "2f144860-a4f4-80b6-b3f6-f0d447ddc09d",
+        "parent": {
+          "type": "block_id",
+          "block_id": "2f144860-a4f4-80a5-be45-c7fcc7614306"
+        },
+        "created_time": "2026-01-23T10:14:00.000Z",
+        "last_edited_time": "2026-01-27T04:52:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "has_children": false,
+        "archived": false,
+        "in_trash": false,
+        "type": "heading_3",
+        "heading_3": {
           "rich_text": [
             {
               "type": "text",
@@ -1157,6 +1015,7 @@
               "href": null
             }
           ],
+          "is_toggleable": false,
           "color": "default"
         }
       },
@@ -1522,7 +1381,7 @@
           "block_id": "2f144860-a4f4-80a5-be45-c7fcc7614306"
         },
         "created_time": "2026-01-23T10:14:00.000Z",
-        "last_edited_time": "2026-01-23T10:14:00.000Z",
+        "last_edited_time": "2026-01-27T04:52:00.000Z",
         "created_by": {
           "object": "user",
           "id": "2aed872b-594c-81eb-bc82-000291164988"
@@ -1601,44 +1460,18 @@
               ],
               "color": "default"
             }
-          },
-          {
-            "object": "block",
-            "id": "2f144860-a4f4-8024-850a-dbb2593aeae4",
-            "parent": {
-              "type": "block_id",
-              "block_id": "2f144860-a4f4-80a8-b98c-e921dbeeb3de"
-            },
-            "created_time": "2026-01-23T10:14:00.000Z",
-            "last_edited_time": "2026-01-23T10:14:00.000Z",
-            "created_by": {
-              "object": "user",
-              "id": "2aed872b-594c-81eb-bc82-000291164988"
-            },
-            "last_edited_by": {
-              "object": "user",
-              "id": "2aed872b-594c-81eb-bc82-000291164988"
-            },
-            "has_children": false,
-            "archived": false,
-            "in_trash": false,
-            "type": "paragraph",
-            "paragraph": {
-              "rich_text": [],
-              "color": "default"
-            }
           }
         ]
       },
       {
         "object": "block",
-        "id": "2f144860-a4f4-8007-bc74-d1c4a8c75909",
+        "id": "2f144860-a4f4-8024-850a-dbb2593aeae4",
         "parent": {
           "type": "block_id",
           "block_id": "2f144860-a4f4-80a5-be45-c7fcc7614306"
         },
         "created_time": "2026-01-23T10:14:00.000Z",
-        "last_edited_time": "2026-01-23T10:14:00.000Z",
+        "last_edited_time": "2026-01-27T04:52:00.000Z",
         "created_by": {
           "object": "user",
           "id": "2aed872b-594c-81eb-bc82-000291164988"
@@ -1650,8 +1483,31 @@
         "has_children": false,
         "archived": false,
         "in_trash": false,
-        "type": "paragraph",
-        "paragraph": {
+        "type": "divider",
+        "divider": {}
+      },
+      {
+        "object": "block",
+        "id": "2f144860-a4f4-8007-bc74-d1c4a8c75909",
+        "parent": {
+          "type": "block_id",
+          "block_id": "2f144860-a4f4-80a5-be45-c7fcc7614306"
+        },
+        "created_time": "2026-01-23T10:14:00.000Z",
+        "last_edited_time": "2026-01-27T04:52:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "has_children": false,
+        "archived": false,
+        "in_trash": false,
+        "type": "heading_3",
+        "heading_3": {
           "rich_text": [
             {
               "type": "text",
@@ -1671,6 +1527,7 @@
               "href": null
             }
           ],
+          "is_toggleable": false,
           "color": "default"
         }
       },
@@ -1770,7 +1627,7 @@
           "block_id": "2f144860-a4f4-80a5-be45-c7fcc7614306"
         },
         "created_time": "2026-01-23T10:14:00.000Z",
-        "last_edited_time": "2026-01-23T10:14:00.000Z",
+        "last_edited_time": "2026-01-27T04:52:00.000Z",
         "created_by": {
           "object": "user",
           "id": "2aed872b-594c-81eb-bc82-000291164988"
@@ -1900,44 +1757,18 @@
               ],
               "color": "default"
             }
-          },
-          {
-            "object": "block",
-            "id": "2f144860-a4f4-8057-a1eb-ebc4ed827959",
-            "parent": {
-              "type": "block_id",
-              "block_id": "2f144860-a4f4-8022-981b-f0d14616ff52"
-            },
-            "created_time": "2026-01-23T10:14:00.000Z",
-            "last_edited_time": "2026-01-23T10:14:00.000Z",
-            "created_by": {
-              "object": "user",
-              "id": "2aed872b-594c-81eb-bc82-000291164988"
-            },
-            "last_edited_by": {
-              "object": "user",
-              "id": "2aed872b-594c-81eb-bc82-000291164988"
-            },
-            "has_children": false,
-            "archived": false,
-            "in_trash": false,
-            "type": "paragraph",
-            "paragraph": {
-              "rich_text": [],
-              "color": "default"
-            }
           }
         ]
       },
       {
         "object": "block",
-        "id": "2f144860-a4f4-8087-8c0e-e437cca6d156",
+        "id": "2f144860-a4f4-8057-a1eb-ebc4ed827959",
         "parent": {
           "type": "block_id",
           "block_id": "2f144860-a4f4-80a5-be45-c7fcc7614306"
         },
         "created_time": "2026-01-23T10:14:00.000Z",
-        "last_edited_time": "2026-01-23T10:14:00.000Z",
+        "last_edited_time": "2026-01-27T04:52:00.000Z",
         "created_by": {
           "object": "user",
           "id": "2aed872b-594c-81eb-bc82-000291164988"
@@ -1949,8 +1780,31 @@
         "has_children": false,
         "archived": false,
         "in_trash": false,
-        "type": "paragraph",
-        "paragraph": {
+        "type": "divider",
+        "divider": {}
+      },
+      {
+        "object": "block",
+        "id": "2f144860-a4f4-8087-8c0e-e437cca6d156",
+        "parent": {
+          "type": "block_id",
+          "block_id": "2f144860-a4f4-80a5-be45-c7fcc7614306"
+        },
+        "created_time": "2026-01-23T10:14:00.000Z",
+        "last_edited_time": "2026-01-27T04:52:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "has_children": false,
+        "archived": false,
+        "in_trash": false,
+        "type": "heading_3",
+        "heading_3": {
           "rich_text": [
             {
               "type": "text",
@@ -1970,6 +1824,7 @@
               "href": null
             }
           ],
+          "is_toggleable": false,
           "color": "default"
         }
       },
@@ -1981,7 +1836,7 @@
           "block_id": "2f144860-a4f4-80a5-be45-c7fcc7614306"
         },
         "created_time": "2026-01-23T10:14:00.000Z",
-        "last_edited_time": "2026-01-23T10:14:00.000Z",
+        "last_edited_time": "2026-01-27T04:52:00.000Z",
         "created_by": {
           "object": "user",
           "id": "2aed872b-594c-81eb-bc82-000291164988"
@@ -2148,44 +2003,18 @@
               ],
               "color": "default"
             }
-          },
-          {
-            "object": "block",
-            "id": "2f144860-a4f4-801a-a9a3-cf1d2022b998",
-            "parent": {
-              "type": "block_id",
-              "block_id": "2f144860-a4f4-80f0-8377-d7a2e278fa4d"
-            },
-            "created_time": "2026-01-23T10:14:00.000Z",
-            "last_edited_time": "2026-01-23T10:14:00.000Z",
-            "created_by": {
-              "object": "user",
-              "id": "2aed872b-594c-81eb-bc82-000291164988"
-            },
-            "last_edited_by": {
-              "object": "user",
-              "id": "2aed872b-594c-81eb-bc82-000291164988"
-            },
-            "has_children": false,
-            "archived": false,
-            "in_trash": false,
-            "type": "paragraph",
-            "paragraph": {
-              "rich_text": [],
-              "color": "default"
-            }
           }
         ]
       },
       {
         "object": "block",
-        "id": "2f144860-a4f4-800e-b8a6-d1d57ed54567",
+        "id": "2f144860-a4f4-801a-a9a3-cf1d2022b998",
         "parent": {
           "type": "block_id",
           "block_id": "2f144860-a4f4-80a5-be45-c7fcc7614306"
         },
         "created_time": "2026-01-23T10:14:00.000Z",
-        "last_edited_time": "2026-01-23T10:14:00.000Z",
+        "last_edited_time": "2026-01-27T04:52:00.000Z",
         "created_by": {
           "object": "user",
           "id": "2aed872b-594c-81eb-bc82-000291164988"
@@ -2197,8 +2026,31 @@
         "has_children": false,
         "archived": false,
         "in_trash": false,
-        "type": "paragraph",
-        "paragraph": {
+        "type": "divider",
+        "divider": {}
+      },
+      {
+        "object": "block",
+        "id": "2f144860-a4f4-800e-b8a6-d1d57ed54567",
+        "parent": {
+          "type": "block_id",
+          "block_id": "2f144860-a4f4-80a5-be45-c7fcc7614306"
+        },
+        "created_time": "2026-01-23T10:14:00.000Z",
+        "last_edited_time": "2026-01-27T04:52:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "has_children": false,
+        "archived": false,
+        "in_trash": false,
+        "type": "heading_3",
+        "heading_3": {
           "rich_text": [
             {
               "type": "text",
@@ -2218,6 +2070,7 @@
               "href": null
             }
           ],
+          "is_toggleable": false,
           "color": "default"
         }
       },
@@ -2694,7 +2547,7 @@
           "block_id": "2f144860-a4f4-80a5-be45-c7fcc7614306"
         },
         "created_time": "2026-01-23T10:14:00.000Z",
-        "last_edited_time": "2026-01-23T10:14:00.000Z",
+        "last_edited_time": "2026-01-27T04:52:00.000Z",
         "created_by": {
           "object": "user",
           "id": "2aed872b-594c-81eb-bc82-000291164988"
@@ -2706,8 +2559,8 @@
         "has_children": false,
         "archived": false,
         "in_trash": false,
-        "type": "paragraph",
-        "paragraph": {
+        "type": "heading_3",
+        "heading_3": {
           "rich_text": [
             {
               "type": "text",
@@ -2727,6 +2580,7 @@
               "href": null
             }
           ],
+          "is_toggleable": false,
           "color": "default"
         }
       },
@@ -3004,76 +2858,6 @@
       },
       {
         "object": "block",
-        "id": "2f144860-a4f4-80f7-95b8-d5d3bb6bf5d4",
-        "parent": {
-          "type": "block_id",
-          "block_id": "2f144860-a4f4-805e-b9b7-d1ea8293f178"
-        },
-        "created_time": "2026-01-23T10:14:00.000Z",
-        "last_edited_time": "2026-01-23T10:14:00.000Z",
-        "created_by": {
-          "object": "user",
-          "id": "2aed872b-594c-81eb-bc82-000291164988"
-        },
-        "last_edited_by": {
-          "object": "user",
-          "id": "2aed872b-594c-81eb-bc82-000291164988"
-        },
-        "has_children": false,
-        "archived": false,
-        "in_trash": false,
-        "type": "quote",
-        "quote": {
-          "rich_text": [
-            {
-              "type": "text",
-              "text": {
-                "content": "다음 요구사항을 모두 만족해야 한다.",
-                "link": null
-              },
-              "annotations": {
-                "bold": false,
-                "italic": false,
-                "strikethrough": false,
-                "underline": false,
-                "code": false,
-                "color": "default"
-              },
-              "plain_text": "다음 요구사항을 모두 만족해야 한다.",
-              "href": null
-            }
-          ],
-          "color": "default"
-        }
-      },
-      {
-        "object": "block",
-        "id": "2f144860-a4f4-80a2-a885-f49f91a753b6",
-        "parent": {
-          "type": "block_id",
-          "block_id": "2f144860-a4f4-805e-b9b7-d1ea8293f178"
-        },
-        "created_time": "2026-01-23T10:14:00.000Z",
-        "last_edited_time": "2026-01-23T10:14:00.000Z",
-        "created_by": {
-          "object": "user",
-          "id": "2aed872b-594c-81eb-bc82-000291164988"
-        },
-        "last_edited_by": {
-          "object": "user",
-          "id": "2aed872b-594c-81eb-bc82-000291164988"
-        },
-        "has_children": false,
-        "archived": false,
-        "in_trash": false,
-        "type": "paragraph",
-        "paragraph": {
-          "rich_text": [],
-          "color": "default"
-        }
-      },
-      {
-        "object": "block",
         "id": "2f144860-a4f4-8098-b785-c2cf4b63cfa6",
         "parent": {
           "type": "block_id",
@@ -3325,7 +3109,7 @@
           "block_id": "2f144860-a4f4-805e-b9b7-d1ea8293f178"
         },
         "created_time": "2026-01-23T10:48:00.000Z",
-        "last_edited_time": "2026-01-23T10:48:00.000Z",
+        "last_edited_time": "2026-01-27T04:13:00.000Z",
         "created_by": {
           "object": "user",
           "id": "2aed872b-594c-81eb-bc82-000291164988"
@@ -3337,11 +3121,8 @@
         "has_children": false,
         "archived": false,
         "in_trash": false,
-        "type": "paragraph",
-        "paragraph": {
-          "rich_text": [],
-          "color": "default"
-        }
+        "type": "divider",
+        "divider": {}
       },
       {
         "object": "block",
@@ -3562,7 +3343,7 @@
           "block_id": "2f144860-a4f4-805e-b9b7-d1ea8293f178"
         },
         "created_time": "2026-01-23T10:50:00.000Z",
-        "last_edited_time": "2026-01-23T10:50:00.000Z",
+        "last_edited_time": "2026-01-27T04:14:00.000Z",
         "created_by": {
           "object": "user",
           "id": "2aed872b-594c-81eb-bc82-000291164988"
@@ -3574,11 +3355,8 @@
         "has_children": false,
         "archived": false,
         "in_trash": false,
-        "type": "paragraph",
-        "paragraph": {
-          "rich_text": [],
-          "color": "default"
-        }
+        "type": "divider",
+        "divider": {}
       },
       {
         "object": "block",
@@ -3809,7 +3587,7 @@
           "block_id": "2f144860-a4f4-805e-b9b7-d1ea8293f178"
         },
         "created_time": "2026-01-23T10:50:00.000Z",
-        "last_edited_time": "2026-01-23T10:50:00.000Z",
+        "last_edited_time": "2026-01-27T04:14:00.000Z",
         "created_by": {
           "object": "user",
           "id": "2aed872b-594c-81eb-bc82-000291164988"
@@ -3821,11 +3599,8 @@
         "has_children": false,
         "archived": false,
         "in_trash": false,
-        "type": "paragraph",
-        "paragraph": {
-          "rich_text": [],
-          "color": "default"
-        }
+        "type": "divider",
+        "divider": {}
       },
       {
         "object": "block",
@@ -4012,7 +3787,7 @@
           "block_id": "2f144860-a4f4-805e-b9b7-d1ea8293f178"
         },
         "created_time": "2026-01-23T10:50:00.000Z",
-        "last_edited_time": "2026-01-23T10:50:00.000Z",
+        "last_edited_time": "2026-01-27T04:14:00.000Z",
         "created_by": {
           "object": "user",
           "id": "2aed872b-594c-81eb-bc82-000291164988"
@@ -4024,11 +3799,8 @@
         "has_children": false,
         "archived": false,
         "in_trash": false,
-        "type": "paragraph",
-        "paragraph": {
-          "rich_text": [],
-          "color": "default"
-        }
+        "type": "divider",
+        "divider": {}
       },
       {
         "object": "block",
@@ -4206,6 +3978,29 @@
           ],
           "color": "default"
         }
+      },
+      {
+        "object": "block",
+        "id": "2f544860-a4f4-8044-a028-c3cfa377ce61",
+        "parent": {
+          "type": "block_id",
+          "block_id": "2f144860-a4f4-805e-b9b7-d1ea8293f178"
+        },
+        "created_time": "2026-01-27T04:14:00.000Z",
+        "last_edited_time": "2026-01-27T04:14:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "has_children": false,
+        "archived": false,
+        "in_trash": false,
+        "type": "divider",
+        "divider": {}
       },
       {
         "object": "block",
@@ -4474,6 +4269,29 @@
       },
       {
         "object": "block",
+        "id": "2f544860-a4f4-8013-a1bb-e66132ebaede",
+        "parent": {
+          "type": "block_id",
+          "block_id": "2f144860-a4f4-805e-b9b7-d1ea8293f178"
+        },
+        "created_time": "2026-01-27T04:14:00.000Z",
+        "last_edited_time": "2026-01-27T04:14:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "has_children": false,
+        "archived": false,
+        "in_trash": false,
+        "type": "divider",
+        "divider": {}
+      },
+      {
+        "object": "block",
         "id": "2f144860-a4f4-807d-9a16-c89290056475",
         "parent": {
           "type": "block_id",
@@ -4692,6 +4510,29 @@
           ],
           "color": "default"
         }
+      },
+      {
+        "object": "block",
+        "id": "2f544860-a4f4-8090-a22f-e01d3f32c314",
+        "parent": {
+          "type": "block_id",
+          "block_id": "2f144860-a4f4-805e-b9b7-d1ea8293f178"
+        },
+        "created_time": "2026-01-27T04:15:00.000Z",
+        "last_edited_time": "2026-01-27T04:15:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "has_children": false,
+        "archived": false,
+        "in_trash": false,
+        "type": "divider",
+        "divider": {}
       },
       {
         "object": "block",
@@ -5006,6 +4847,29 @@
       },
       {
         "object": "block",
+        "id": "2f544860-a4f4-801a-9f65-f8c3da99e847",
+        "parent": {
+          "type": "block_id",
+          "block_id": "2f144860-a4f4-805e-b9b7-d1ea8293f178"
+        },
+        "created_time": "2026-01-27T04:15:00.000Z",
+        "last_edited_time": "2026-01-27T04:15:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "has_children": false,
+        "archived": false,
+        "in_trash": false,
+        "type": "divider",
+        "divider": {}
+      },
+      {
+        "object": "block",
         "id": "2f144860-a4f4-80f4-a522-e3430891e1fe",
         "parent": {
           "type": "block_id",
@@ -5136,6 +5000,29 @@
           ],
           "color": "default"
         }
+      },
+      {
+        "object": "block",
+        "id": "2f544860-a4f4-809b-8493-ea2b9d588c07",
+        "parent": {
+          "type": "block_id",
+          "block_id": "2f144860-a4f4-805e-b9b7-d1ea8293f178"
+        },
+        "created_time": "2026-01-27T04:15:00.000Z",
+        "last_edited_time": "2026-01-27T04:15:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "has_children": false,
+        "archived": false,
+        "in_trash": false,
+        "type": "divider",
+        "divider": {}
       },
       {
         "object": "block",
@@ -5554,76 +5441,6 @@
       },
       {
         "object": "block",
-        "id": "2f144860-a4f4-805e-bdf6-fbf529e738d0",
-        "parent": {
-          "type": "block_id",
-          "block_id": "2f144860-a4f4-8015-bde2-dba4c607159f"
-        },
-        "created_time": "2026-01-23T10:14:00.000Z",
-        "last_edited_time": "2026-01-23T10:14:00.000Z",
-        "created_by": {
-          "object": "user",
-          "id": "2aed872b-594c-81eb-bc82-000291164988"
-        },
-        "last_edited_by": {
-          "object": "user",
-          "id": "2aed872b-594c-81eb-bc82-000291164988"
-        },
-        "has_children": false,
-        "archived": false,
-        "in_trash": false,
-        "type": "quote",
-        "quote": {
-          "rich_text": [
-            {
-              "type": "text",
-              "text": {
-                "content": "아래는 정답이 아니라 참고 예시다. 실제 문구와 화면 구성은 달라도 된다.",
-                "link": null
-              },
-              "annotations": {
-                "bold": false,
-                "italic": false,
-                "strikethrough": false,
-                "underline": false,
-                "code": false,
-                "color": "default"
-              },
-              "plain_text": "아래는 정답이 아니라 참고 예시다. 실제 문구와 화면 구성은 달라도 된다.",
-              "href": null
-            }
-          ],
-          "color": "default"
-        }
-      },
-      {
-        "object": "block",
-        "id": "2f144860-a4f4-800e-b2fd-f9fcfad10328",
-        "parent": {
-          "type": "block_id",
-          "block_id": "2f144860-a4f4-8015-bde2-dba4c607159f"
-        },
-        "created_time": "2026-01-23T10:14:00.000Z",
-        "last_edited_time": "2026-01-23T10:14:00.000Z",
-        "created_by": {
-          "object": "user",
-          "id": "2aed872b-594c-81eb-bc82-000291164988"
-        },
-        "last_edited_by": {
-          "object": "user",
-          "id": "2aed872b-594c-81eb-bc82-000291164988"
-        },
-        "has_children": false,
-        "archived": false,
-        "in_trash": false,
-        "type": "paragraph",
-        "paragraph": {
-          "rich_text": [],
-          "color": "default"
-        }
-      },
-      {
-        "object": "block",
         "id": "2f144860-a4f4-8035-aa53-d204b6dab980",
         "parent": {
           "type": "block_id",
@@ -5719,7 +5536,7 @@
           "block_id": "2f144860-a4f4-8015-bde2-dba4c607159f"
         },
         "created_time": "2026-01-23T10:14:00.000Z",
-        "last_edited_time": "2026-01-23T10:14:00.000Z",
+        "last_edited_time": "2026-01-27T04:15:00.000Z",
         "created_by": {
           "object": "user",
           "id": "2aed872b-594c-81eb-bc82-000291164988"
@@ -5737,7 +5554,7 @@
             {
               "type": "text",
               "text": {
-                "content": "데스크톱 화면",
+                "content": "1. 데스크톱 화면",
                 "link": null
               },
               "annotations": {
@@ -5748,7 +5565,7 @@
                 "code": false,
                 "color": "default"
               },
-              "plain_text": "데스크톱 화면",
+              "plain_text": "1. 데스크톱 화면",
               "href": null
             }
           ],
@@ -5781,8 +5598,8 @@
           "caption": [],
           "type": "file",
           "file": {
-            "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/c69962b0-3951-485b-b10a-5bb29576bba8/3d9606b8-4fb2-414c-a556-91fc5ad41ef5/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA_2026-01-18_%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE_4.33.00.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466TVHFYMFY%2F20260123%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260123T110016Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjECsaCXVzLXdlc3QtMiJGMEQCIE%2FxJPo60jFSFNo%2Ba2BKGog0e6cxiioiZdq6zalBaeClAiAXSfSOanye6vzGal5fbkKtBjF%2F4Eiawi7uXKiy96VZwCqIBAjz%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAAaDDYzNzQyMzE4MzgwNSIMYjGVoxUyneQUCCRBKtwDfdP8WmzfJS9Qr%2B4KyRSshcaweWgMW7%2FkxsvDrzbTPUJ2qIo8FnL%2Bnt4l1Ao3s65NHx79%2B%2FhdyHchXYAFY2nlMgdtd8ZcVYSfDVrRhbCpTrdtvU%2BWiyS4sxBuS6EVoI9Cb%2Fg3rPMSxNCnfzUee0g0LxQpaN0tfPtbmplmkRvmRpEmMd8%2Fj9ejnweC2WM7P9qmI96tG4Skw1dtkDnY83kZBa%2BOe2Igp2EzLamBo1IIge9RzaU%2BinTt7W%2FxnThO5WCLXuob4mlAq54mcDGcKiU1d%2FYMzCckZUv%2FDAMpR09lYlmlA7R3SNGT0%2F1eyNtq7dI9l1kZT%2FUyl2Z3GP5EbZgZjhupzJDJARAQUiu0LGdU%2FqdTEY7vPoUIfzXZhCWvIs3tbxtiK7mqo8CYiWYjghCtoyoeCfykBYKvLzkNy7Go%2BkEEuLEDzJLcWHL27MavL1eDF4hIjWvcT4tBYb0F6ryVlhZu4bCKpt3OkQ4hWyVREXgjYXHj8%2FPxlH7PVuS%2FiS1BeebzXk4IgrjM9GNBBeYiki1MUsiD3wUP1NxYA%2BelQ%2FKj6NOx1YVPbEV5cwVzyJIqdjJ4W6qh6D4w0Z24Y%2F83oOibwJZGN6BCtLXuMF2NfISyjDU6aYiSIvm%2BeyAwgJjNywY6pgEDSxYnKN96a8yOb6ij%2F87BiIccDZLiet14IOQX%2FiUBAiqw7E9S6R76lmlzs1NnztApvbqdlW72MgflzHDuq0apEQ4Do%2BjT2iTLYhYutkFQXmfvgwhcgVr64P7BP%2FNEudqajqau%2F0z47XVLkXwoyXVyChsDq5VPfg%2FGQCsZSyYOc9i%2BsflayZdIJFTj2QtJKJn32w0ZW4CZpEVPYVsh%2FxTEJ%2FoIEPFl&X-Amz-Signature=1d3f5fd0b68df27ca68a70bdb7cc077c45e0a0c24e0578828532ade0760aab7c&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
-            "expiry_time": "2026-01-23T12:00:16.069Z"
+            "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/c69962b0-3951-485b-b10a-5bb29576bba8/3d9606b8-4fb2-414c-a556-91fc5ad41ef5/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA_2026-01-18_%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE_4.33.00.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4665JRSBVOL%2F20260127%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260127T045902Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEIT%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJIMEYCIQDqbfpmDzWxgnezsn6ACpFenj3DQYTnZ3ajb%2F0%2Bac2mlAIhANZ9zlgQjzcNkRqoXHnBcZX3ZwJAy0%2FOFt1zSrsgnvaoKv8DCE0QABoMNjM3NDIzMTgzODA1IgyXTZGKfz68QxvmzhMq3ANYrcHrdfZH3Z9Q94y7HeQMTbH5CvigLUNgzrEHoFOcJgFcLzCh3w6%2BQFxUcmMtJh27pUkD%2FOCRSR2keF8yq5%2F9Tv48PwoslAxaaHnLtbNiZsVQxduHhm68CjscD2ZdqWd41plvHRx%2FYdjL9lbYHHbYnrU9ccdnLJa00o9S%2FH8o%2B9Yqeq2pdVdNikb0CrI1iji9tS7exWob6YuKriqgzaifnCtKp1%2FAQnk6vZxvnSg%2BmjePfvpBCLdfVdYpwy%2BhmR%2FmkxWPId%2BPnduu0TzIqGqqR7VoO6tsnw89ubGcfP59%2FN548F8CaAKvNJz%2BcQJ%2FP7WZTgDeIdblmzDwT9ad4Ys2D1IgtOHLVa6BAAp9AJKM5NrKKVklAnnGO9bhup8wzMOvTScg3dnYXWh8S58nVdTk%2BSo90zPQJijbHd%2FZnNRMZv4BhzOUT1Kj1A7N9nX3rEEHugprDHhK4fPYPGj1r8KGrShUthsdYFi60ZOAxbWG%2Bsdp449NyBfAX9OssVv0dOctwDYcun%2FRUlJ6YlFe%2FKXnk3kYptP8Mz4%2FbnaqsXcnWwuBChKt9sAfUN1JIyFPfWqKe01tZW0628qvW9l4fParhq5zU1C2A4XQ2m85D8abjsyeY6bWkdENiQDTHjCp9uDLBjqkARrZznRDoCJcW3zHDZ5FuVN96VPZWnBAtHTqh68Zf1JM%2B%2BEUe8W%2B17QC6SapgrIrr79tzT%2BUqrTSFxSGXkKwa2p1FS9iEENXmXxIzCkrtGU8XL2nh8XFUM3GBGkC4kv6eYV0LHG23eK8b47PB9HnV08dgXfB4XNVQwBugA%2Fy7ZUSzhJ38hxpRKqaUk3M3g6YfF%2BMbToJfqUJSNuXGh0Zrte54PRV&X-Amz-Signature=8dd6d9abf9d34e52760a8c71eab43a258a16e6267df9c9b50a3886772c3034a1&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+            "expiry_time": "2026-01-27T05:59:02.358Z"
           }
         }
       },
@@ -5820,7 +5637,7 @@
           "block_id": "2f144860-a4f4-8015-bde2-dba4c607159f"
         },
         "created_time": "2026-01-23T10:14:00.000Z",
-        "last_edited_time": "2026-01-23T10:14:00.000Z",
+        "last_edited_time": "2026-01-27T04:15:00.000Z",
         "created_by": {
           "object": "user",
           "id": "2aed872b-594c-81eb-bc82-000291164988"
@@ -5838,7 +5655,7 @@
             {
               "type": "text",
               "text": {
-                "content": "태블릿/중간 화면",
+                "content": "2. 태블릿/중간 화면",
                 "link": null
               },
               "annotations": {
@@ -5849,7 +5666,7 @@
                 "code": false,
                 "color": "default"
               },
-              "plain_text": "태블릿/중간 화면",
+              "plain_text": "2. 태블릿/중간 화면",
               "href": null
             }
           ],
@@ -5882,8 +5699,8 @@
           "caption": [],
           "type": "file",
           "file": {
-            "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/c69962b0-3951-485b-b10a-5bb29576bba8/6b4fe87d-f017-46f5-a495-96d55639b225/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA_2026-01-18_%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE_4.38.02.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466TVHFYMFY%2F20260123%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260123T110016Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjECsaCXVzLXdlc3QtMiJGMEQCIE%2FxJPo60jFSFNo%2Ba2BKGog0e6cxiioiZdq6zalBaeClAiAXSfSOanye6vzGal5fbkKtBjF%2F4Eiawi7uXKiy96VZwCqIBAjz%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAAaDDYzNzQyMzE4MzgwNSIMYjGVoxUyneQUCCRBKtwDfdP8WmzfJS9Qr%2B4KyRSshcaweWgMW7%2FkxsvDrzbTPUJ2qIo8FnL%2Bnt4l1Ao3s65NHx79%2B%2FhdyHchXYAFY2nlMgdtd8ZcVYSfDVrRhbCpTrdtvU%2BWiyS4sxBuS6EVoI9Cb%2Fg3rPMSxNCnfzUee0g0LxQpaN0tfPtbmplmkRvmRpEmMd8%2Fj9ejnweC2WM7P9qmI96tG4Skw1dtkDnY83kZBa%2BOe2Igp2EzLamBo1IIge9RzaU%2BinTt7W%2FxnThO5WCLXuob4mlAq54mcDGcKiU1d%2FYMzCckZUv%2FDAMpR09lYlmlA7R3SNGT0%2F1eyNtq7dI9l1kZT%2FUyl2Z3GP5EbZgZjhupzJDJARAQUiu0LGdU%2FqdTEY7vPoUIfzXZhCWvIs3tbxtiK7mqo8CYiWYjghCtoyoeCfykBYKvLzkNy7Go%2BkEEuLEDzJLcWHL27MavL1eDF4hIjWvcT4tBYb0F6ryVlhZu4bCKpt3OkQ4hWyVREXgjYXHj8%2FPxlH7PVuS%2FiS1BeebzXk4IgrjM9GNBBeYiki1MUsiD3wUP1NxYA%2BelQ%2FKj6NOx1YVPbEV5cwVzyJIqdjJ4W6qh6D4w0Z24Y%2F83oOibwJZGN6BCtLXuMF2NfISyjDU6aYiSIvm%2BeyAwgJjNywY6pgEDSxYnKN96a8yOb6ij%2F87BiIccDZLiet14IOQX%2FiUBAiqw7E9S6R76lmlzs1NnztApvbqdlW72MgflzHDuq0apEQ4Do%2BjT2iTLYhYutkFQXmfvgwhcgVr64P7BP%2FNEudqajqau%2F0z47XVLkXwoyXVyChsDq5VPfg%2FGQCsZSyYOc9i%2BsflayZdIJFTj2QtJKJn32w0ZW4CZpEVPYVsh%2FxTEJ%2FoIEPFl&X-Amz-Signature=5cc88bf7f60b4ffba20df7c4b1b35a2270797177d7713b929fc7d2a6933e1983&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
-            "expiry_time": "2026-01-23T12:00:16.070Z"
+            "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/c69962b0-3951-485b-b10a-5bb29576bba8/6b4fe87d-f017-46f5-a495-96d55639b225/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA_2026-01-18_%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE_4.38.02.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4665JRSBVOL%2F20260127%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260127T045902Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEIT%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJIMEYCIQDqbfpmDzWxgnezsn6ACpFenj3DQYTnZ3ajb%2F0%2Bac2mlAIhANZ9zlgQjzcNkRqoXHnBcZX3ZwJAy0%2FOFt1zSrsgnvaoKv8DCE0QABoMNjM3NDIzMTgzODA1IgyXTZGKfz68QxvmzhMq3ANYrcHrdfZH3Z9Q94y7HeQMTbH5CvigLUNgzrEHoFOcJgFcLzCh3w6%2BQFxUcmMtJh27pUkD%2FOCRSR2keF8yq5%2F9Tv48PwoslAxaaHnLtbNiZsVQxduHhm68CjscD2ZdqWd41plvHRx%2FYdjL9lbYHHbYnrU9ccdnLJa00o9S%2FH8o%2B9Yqeq2pdVdNikb0CrI1iji9tS7exWob6YuKriqgzaifnCtKp1%2FAQnk6vZxvnSg%2BmjePfvpBCLdfVdYpwy%2BhmR%2FmkxWPId%2BPnduu0TzIqGqqR7VoO6tsnw89ubGcfP59%2FN548F8CaAKvNJz%2BcQJ%2FP7WZTgDeIdblmzDwT9ad4Ys2D1IgtOHLVa6BAAp9AJKM5NrKKVklAnnGO9bhup8wzMOvTScg3dnYXWh8S58nVdTk%2BSo90zPQJijbHd%2FZnNRMZv4BhzOUT1Kj1A7N9nX3rEEHugprDHhK4fPYPGj1r8KGrShUthsdYFi60ZOAxbWG%2Bsdp449NyBfAX9OssVv0dOctwDYcun%2FRUlJ6YlFe%2FKXnk3kYptP8Mz4%2FbnaqsXcnWwuBChKt9sAfUN1JIyFPfWqKe01tZW0628qvW9l4fParhq5zU1C2A4XQ2m85D8abjsyeY6bWkdENiQDTHjCp9uDLBjqkARrZznRDoCJcW3zHDZ5FuVN96VPZWnBAtHTqh68Zf1JM%2B%2BEUe8W%2B17QC6SapgrIrr79tzT%2BUqrTSFxSGXkKwa2p1FS9iEENXmXxIzCkrtGU8XL2nh8XFUM3GBGkC4kv6eYV0LHG23eK8b47PB9HnV08dgXfB4XNVQwBugA%2Fy7ZUSzhJ38hxpRKqaUk3M3g6YfF%2BMbToJfqUJSNuXGh0Zrte54PRV&X-Amz-Signature=05544b93b06b0dac7599dc543820fd7a1a9886a7a82172799ddf88242717f72a&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+            "expiry_time": "2026-01-27T05:59:02.358Z"
           }
         }
       },
@@ -5895,7 +5712,7 @@
           "block_id": "2f144860-a4f4-8015-bde2-dba4c607159f"
         },
         "created_time": "2026-01-23T10:14:00.000Z",
-        "last_edited_time": "2026-01-23T10:14:00.000Z",
+        "last_edited_time": "2026-01-27T04:15:00.000Z",
         "created_by": {
           "object": "user",
           "id": "2aed872b-594c-81eb-bc82-000291164988"
@@ -5913,7 +5730,7 @@
             {
               "type": "text",
               "text": {
-                "content": "모바일 화면",
+                "content": "3. 모바일 화면",
                 "link": null
               },
               "annotations": {
@@ -5924,7 +5741,7 @@
                 "code": false,
                 "color": "default"
               },
-              "plain_text": "모바일 화면",
+              "plain_text": "3. 모바일 화면",
               "href": null
             }
           ],
@@ -5940,7 +5757,7 @@
           "block_id": "2f144860-a4f4-8015-bde2-dba4c607159f"
         },
         "created_time": "2026-01-23T10:14:00.000Z",
-        "last_edited_time": "2026-01-23T10:14:00.000Z",
+        "last_edited_time": "2026-01-27T03:21:00.000Z",
         "created_by": {
           "object": "user",
           "id": "2aed872b-594c-81eb-bc82-000291164988"
@@ -5957,8 +5774,8 @@
           "caption": [],
           "type": "file",
           "file": {
-            "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/c69962b0-3951-485b-b10a-5bb29576bba8/306c1ca2-6a30-4b87-bd13-ecab812ed3eb/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA_2026-01-18_%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE_4.39.33.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466TVHFYMFY%2F20260123%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260123T110016Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjECsaCXVzLXdlc3QtMiJGMEQCIE%2FxJPo60jFSFNo%2Ba2BKGog0e6cxiioiZdq6zalBaeClAiAXSfSOanye6vzGal5fbkKtBjF%2F4Eiawi7uXKiy96VZwCqIBAjz%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAAaDDYzNzQyMzE4MzgwNSIMYjGVoxUyneQUCCRBKtwDfdP8WmzfJS9Qr%2B4KyRSshcaweWgMW7%2FkxsvDrzbTPUJ2qIo8FnL%2Bnt4l1Ao3s65NHx79%2B%2FhdyHchXYAFY2nlMgdtd8ZcVYSfDVrRhbCpTrdtvU%2BWiyS4sxBuS6EVoI9Cb%2Fg3rPMSxNCnfzUee0g0LxQpaN0tfPtbmplmkRvmRpEmMd8%2Fj9ejnweC2WM7P9qmI96tG4Skw1dtkDnY83kZBa%2BOe2Igp2EzLamBo1IIge9RzaU%2BinTt7W%2FxnThO5WCLXuob4mlAq54mcDGcKiU1d%2FYMzCckZUv%2FDAMpR09lYlmlA7R3SNGT0%2F1eyNtq7dI9l1kZT%2FUyl2Z3GP5EbZgZjhupzJDJARAQUiu0LGdU%2FqdTEY7vPoUIfzXZhCWvIs3tbxtiK7mqo8CYiWYjghCtoyoeCfykBYKvLzkNy7Go%2BkEEuLEDzJLcWHL27MavL1eDF4hIjWvcT4tBYb0F6ryVlhZu4bCKpt3OkQ4hWyVREXgjYXHj8%2FPxlH7PVuS%2FiS1BeebzXk4IgrjM9GNBBeYiki1MUsiD3wUP1NxYA%2BelQ%2FKj6NOx1YVPbEV5cwVzyJIqdjJ4W6qh6D4w0Z24Y%2F83oOibwJZGN6BCtLXuMF2NfISyjDU6aYiSIvm%2BeyAwgJjNywY6pgEDSxYnKN96a8yOb6ij%2F87BiIccDZLiet14IOQX%2FiUBAiqw7E9S6R76lmlzs1NnztApvbqdlW72MgflzHDuq0apEQ4Do%2BjT2iTLYhYutkFQXmfvgwhcgVr64P7BP%2FNEudqajqau%2F0z47XVLkXwoyXVyChsDq5VPfg%2FGQCsZSyYOc9i%2BsflayZdIJFTj2QtJKJn32w0ZW4CZpEVPYVsh%2FxTEJ%2FoIEPFl&X-Amz-Signature=09166ca5a4f0d3a8570684d4f75d92ec54477e7e5edee16c3a75da9b53235f8f&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
-            "expiry_time": "2026-01-23T12:00:16.083Z"
+            "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/c69962b0-3951-485b-b10a-5bb29576bba8/306c1ca2-6a30-4b87-bd13-ecab812ed3eb/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA_2026-01-18_%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE_4.39.33.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4665JRSBVOL%2F20260127%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260127T045902Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEIT%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJIMEYCIQDqbfpmDzWxgnezsn6ACpFenj3DQYTnZ3ajb%2F0%2Bac2mlAIhANZ9zlgQjzcNkRqoXHnBcZX3ZwJAy0%2FOFt1zSrsgnvaoKv8DCE0QABoMNjM3NDIzMTgzODA1IgyXTZGKfz68QxvmzhMq3ANYrcHrdfZH3Z9Q94y7HeQMTbH5CvigLUNgzrEHoFOcJgFcLzCh3w6%2BQFxUcmMtJh27pUkD%2FOCRSR2keF8yq5%2F9Tv48PwoslAxaaHnLtbNiZsVQxduHhm68CjscD2ZdqWd41plvHRx%2FYdjL9lbYHHbYnrU9ccdnLJa00o9S%2FH8o%2B9Yqeq2pdVdNikb0CrI1iji9tS7exWob6YuKriqgzaifnCtKp1%2FAQnk6vZxvnSg%2BmjePfvpBCLdfVdYpwy%2BhmR%2FmkxWPId%2BPnduu0TzIqGqqR7VoO6tsnw89ubGcfP59%2FN548F8CaAKvNJz%2BcQJ%2FP7WZTgDeIdblmzDwT9ad4Ys2D1IgtOHLVa6BAAp9AJKM5NrKKVklAnnGO9bhup8wzMOvTScg3dnYXWh8S58nVdTk%2BSo90zPQJijbHd%2FZnNRMZv4BhzOUT1Kj1A7N9nX3rEEHugprDHhK4fPYPGj1r8KGrShUthsdYFi60ZOAxbWG%2Bsdp449NyBfAX9OssVv0dOctwDYcun%2FRUlJ6YlFe%2FKXnk3kYptP8Mz4%2FbnaqsXcnWwuBChKt9sAfUN1JIyFPfWqKe01tZW0628qvW9l4fParhq5zU1C2A4XQ2m85D8abjsyeY6bWkdENiQDTHjCp9uDLBjqkARrZznRDoCJcW3zHDZ5FuVN96VPZWnBAtHTqh68Zf1JM%2B%2BEUe8W%2B17QC6SapgrIrr79tzT%2BUqrTSFxSGXkKwa2p1FS9iEENXmXxIzCkrtGU8XL2nh8XFUM3GBGkC4kv6eYV0LHG23eK8b47PB9HnV08dgXfB4XNVQwBugA%2Fy7ZUSzhJ38hxpRKqaUk3M3g6YfF%2BMbToJfqUJSNuXGh0Zrte54PRV&X-Amz-Signature=9f38de7167750a7ea874d218c26456a806412fb6fd4e7b246ae9f4d1ccec3caa&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+            "expiry_time": "2026-01-27T05:59:02.358Z"
           }
         }
       },
@@ -6058,8 +5875,8 @@
           "caption": [],
           "type": "file",
           "file": {
-            "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/c69962b0-3951-485b-b10a-5bb29576bba8/700752b1-6f06-4c37-9589-f353f353cee1/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA_2026-01-18_%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE_4.33.51.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466TVHFYMFY%2F20260123%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260123T110016Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjECsaCXVzLXdlc3QtMiJGMEQCIE%2FxJPo60jFSFNo%2Ba2BKGog0e6cxiioiZdq6zalBaeClAiAXSfSOanye6vzGal5fbkKtBjF%2F4Eiawi7uXKiy96VZwCqIBAjz%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAAaDDYzNzQyMzE4MzgwNSIMYjGVoxUyneQUCCRBKtwDfdP8WmzfJS9Qr%2B4KyRSshcaweWgMW7%2FkxsvDrzbTPUJ2qIo8FnL%2Bnt4l1Ao3s65NHx79%2B%2FhdyHchXYAFY2nlMgdtd8ZcVYSfDVrRhbCpTrdtvU%2BWiyS4sxBuS6EVoI9Cb%2Fg3rPMSxNCnfzUee0g0LxQpaN0tfPtbmplmkRvmRpEmMd8%2Fj9ejnweC2WM7P9qmI96tG4Skw1dtkDnY83kZBa%2BOe2Igp2EzLamBo1IIge9RzaU%2BinTt7W%2FxnThO5WCLXuob4mlAq54mcDGcKiU1d%2FYMzCckZUv%2FDAMpR09lYlmlA7R3SNGT0%2F1eyNtq7dI9l1kZT%2FUyl2Z3GP5EbZgZjhupzJDJARAQUiu0LGdU%2FqdTEY7vPoUIfzXZhCWvIs3tbxtiK7mqo8CYiWYjghCtoyoeCfykBYKvLzkNy7Go%2BkEEuLEDzJLcWHL27MavL1eDF4hIjWvcT4tBYb0F6ryVlhZu4bCKpt3OkQ4hWyVREXgjYXHj8%2FPxlH7PVuS%2FiS1BeebzXk4IgrjM9GNBBeYiki1MUsiD3wUP1NxYA%2BelQ%2FKj6NOx1YVPbEV5cwVzyJIqdjJ4W6qh6D4w0Z24Y%2F83oOibwJZGN6BCtLXuMF2NfISyjDU6aYiSIvm%2BeyAwgJjNywY6pgEDSxYnKN96a8yOb6ij%2F87BiIccDZLiet14IOQX%2FiUBAiqw7E9S6R76lmlzs1NnztApvbqdlW72MgflzHDuq0apEQ4Do%2BjT2iTLYhYutkFQXmfvgwhcgVr64P7BP%2FNEudqajqau%2F0z47XVLkXwoyXVyChsDq5VPfg%2FGQCsZSyYOc9i%2BsflayZdIJFTj2QtJKJn32w0ZW4CZpEVPYVsh%2FxTEJ%2FoIEPFl&X-Amz-Signature=5e251cf9eb3930a6cb8439b48e9b2dcd0e06ce4ea43bc7af65fabfef80e615f4&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
-            "expiry_time": "2026-01-23T12:00:16.070Z"
+            "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/c69962b0-3951-485b-b10a-5bb29576bba8/700752b1-6f06-4c37-9589-f353f353cee1/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA_2026-01-18_%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE_4.33.51.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4665JRSBVOL%2F20260127%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260127T045902Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEIT%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJIMEYCIQDqbfpmDzWxgnezsn6ACpFenj3DQYTnZ3ajb%2F0%2Bac2mlAIhANZ9zlgQjzcNkRqoXHnBcZX3ZwJAy0%2FOFt1zSrsgnvaoKv8DCE0QABoMNjM3NDIzMTgzODA1IgyXTZGKfz68QxvmzhMq3ANYrcHrdfZH3Z9Q94y7HeQMTbH5CvigLUNgzrEHoFOcJgFcLzCh3w6%2BQFxUcmMtJh27pUkD%2FOCRSR2keF8yq5%2F9Tv48PwoslAxaaHnLtbNiZsVQxduHhm68CjscD2ZdqWd41plvHRx%2FYdjL9lbYHHbYnrU9ccdnLJa00o9S%2FH8o%2B9Yqeq2pdVdNikb0CrI1iji9tS7exWob6YuKriqgzaifnCtKp1%2FAQnk6vZxvnSg%2BmjePfvpBCLdfVdYpwy%2BhmR%2FmkxWPId%2BPnduu0TzIqGqqR7VoO6tsnw89ubGcfP59%2FN548F8CaAKvNJz%2BcQJ%2FP7WZTgDeIdblmzDwT9ad4Ys2D1IgtOHLVa6BAAp9AJKM5NrKKVklAnnGO9bhup8wzMOvTScg3dnYXWh8S58nVdTk%2BSo90zPQJijbHd%2FZnNRMZv4BhzOUT1Kj1A7N9nX3rEEHugprDHhK4fPYPGj1r8KGrShUthsdYFi60ZOAxbWG%2Bsdp449NyBfAX9OssVv0dOctwDYcun%2FRUlJ6YlFe%2FKXnk3kYptP8Mz4%2FbnaqsXcnWwuBChKt9sAfUN1JIyFPfWqKe01tZW0628qvW9l4fParhq5zU1C2A4XQ2m85D8abjsyeY6bWkdENiQDTHjCp9uDLBjqkARrZznRDoCJcW3zHDZ5FuVN96VPZWnBAtHTqh68Zf1JM%2B%2BEUe8W%2B17QC6SapgrIrr79tzT%2BUqrTSFxSGXkKwa2p1FS9iEENXmXxIzCkrtGU8XL2nh8XFUM3GBGkC4kv6eYV0LHG23eK8b47PB9HnV08dgXfB4XNVQwBugA%2Fy7ZUSzhJ38hxpRKqaUk3M3g6YfF%2BMbToJfqUJSNuXGh0Zrte54PRV&X-Amz-Signature=f39c80e2771ad94619e60cdd3cf4a98a453f80143f9dd90c5e6d6e866b85e7e0&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+            "expiry_time": "2026-01-27T05:59:02.358Z"
           }
         }
       },
@@ -7091,7 +6908,7 @@
           "block_id": "2f144860-a4f4-803e-a2e1-f26db68ebb1d"
         },
         "created_time": "2026-01-23T10:14:00.000Z",
-        "last_edited_time": "2026-01-23T10:14:00.000Z",
+        "last_edited_time": "2026-01-27T04:16:00.000Z",
         "created_by": {
           "object": "user",
           "id": "2aed872b-594c-81eb-bc82-000291164988"
@@ -7103,13 +6920,13 @@
         "has_children": false,
         "archived": false,
         "in_trash": false,
-        "type": "paragraph",
-        "paragraph": {
+        "type": "heading_3",
+        "heading_3": {
           "rich_text": [
             {
               "type": "text",
               "text": {
-                "content": "보너스 1 - 가변 크기 카드가 섞인 그리드",
+                "content": "1.  가변 크기 카드가 섞인 그리드",
                 "link": null
               },
               "annotations": {
@@ -7120,10 +6937,11 @@
                 "code": false,
                 "color": "default"
               },
-              "plain_text": "보너스 1 - 가변 크기 카드가 섞인 그리드",
+              "plain_text": "1.  가변 크기 카드가 섞인 그리드",
               "href": null
             }
           ],
+          "is_toggleable": false,
           "color": "default"
         }
       },
@@ -7152,8 +6970,8 @@
           "caption": [],
           "type": "file",
           "file": {
-            "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/c69962b0-3951-485b-b10a-5bb29576bba8/f841e565-829a-4956-8bbd-301ff4185839/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA_2026-01-18_%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE_5.27.19.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466S4D6Q5MR%2F20260123%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260123T110025Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjECsaCXVzLXdlc3QtMiJIMEYCIQDRorFMS460MLrNsnxf2XwMkGz4LCk1OrAwHr7KArVwMwIhAJY%2Bmjh40ppuBFo%2BUoaZiGIrbMLSyqa%2B5uzuHh7oEYhtKogECPP%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMNjM3NDIzMTgzODA1IgxBJ9fY%2FhDHopKJxyoq3AO8s5VhXHn3%2FfO8ZsX%2BM3zdk6HNcwQvMh328eIt%2BgwRn6K%2BgtL9lSQ%2FWwdkCzLeMcB%2Bcu6TvLIt4oDLkoYN5OqTNEo7SAp0JT6BbZ4%2FHgOLSHlJGEsI3lEnVWE5f0I%2B2dqFTk5vGyKh4UnExzoT%2FPzjpHK2BW329LX8tjjoA7FCIrwgoxkqtO1duAsHrs0hTSRlfUxsqH1AmmQW6NKjGgEOa%2FmqG3TrykQ%2F78p%2FjWm2SeGtPzKyQvoDzB3ihefj54whA%2FwQoCaJqpCrU%2FwwzjhBGEVgBY3j%2F2EYV7kZZE1hX6U%2Frftq3hctgId1990v8sl6TwskaALHhQju1NbVjDic6aBKSOLVjGPYtW97BMsYc%2FZzX0SxcnWBONWDByC5encNK2xVA19BYDOaVkBXUc6RcQqmYQefgb5VZ2F91Vf%2F5AaLAKRDOgq%2BLPBXjFWuGXM1bV7kdzrijHijh7M9%2BBkRuGErV%2B70adoYDAHPJ1yiJPofCv4WR4WBb0%2B7Xc9yZK%2BG2uYcL1wAxqivDiFGlYO%2BL7BX8Msvqrs3ON7BglVTGxmuHFOay7J8ekIj3KP2C2vzfxLgRPIYnQ1KYkUycQaDY1gDBtPeSwmiIRyogE2TjSBvniHy0d2KZXo2sDCzmM3LBjqkAWe1YStvDXzaFQOGIzLeJQ56ipYbcWtCzCiQPTz4WUGjdxmpcaYl9GGzc2xDp%2B%2F%2BI3F15yQKL6fzDQbUhod1BtUtCyFW2wm%2FCp1ycjpHLvxlET4xih%2Bpbg5Zv%2BWcnU9FfOuObaOSqekTS7JrM7zPHtVoMqJORnneLQWVQKPY4malZjkcoGLaAWAWDevBQEVH2IoV3PHat6Meo19WIzv4%2F3yhvtS8&X-Amz-Signature=a18cbd97cdcee5db01ff04a5f2fe95442f03eed7aa12bfee251de3f0935360a0&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
-            "expiry_time": "2026-01-23T12:00:24.848Z"
+            "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/c69962b0-3951-485b-b10a-5bb29576bba8/f841e565-829a-4956-8bbd-301ff4185839/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA_2026-01-18_%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE_5.27.19.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466YI26YRDB%2F20260127%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260127T045929Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEIT%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJIMEYCIQDvZTSvBjbWm28qX6xafhZGwRIv%2FEIkGz6K42p%2FWJxSFQIhAI1QN9ongTqMtXTHo4t8jPnQytHttAayWPcpu%2F%2B4nrkEKv8DCE0QABoMNjM3NDIzMTgzODA1Igyu0i8XrMdgbZ82P0cq3AO1UXr0TT3JEDPxzKTNFR1u%2FZw0GdLPgcGGBaob2cJZDa%2Fk01IRyOgKbH31HuayoP5zlnHSShVZovh%2F8sD5uW%2Fy3aFh0vcqhF8LR93wFqy8ja3qAUwNAw%2FrONztYJ9me%2FbCWJDiLLhgfw3lIoZEi%2B2Q6In7Gz0mwqlmGhUmDGAlj%2FShirPcKGMwUrl6Gashr8K5ghfRC2MBU72EcjIF5kjHdDyvWGJChQt2Gv4fnEvDii2n%2Bva%2BBNDbi1vKTjgczdKgwU4pl%2BAjKvtnaRdxWOYPrzmK1RsESBRw2JXCr%2F%2BFY7M0j4HXOGaiB3XgmpuUFwAYQppWHdsQXu7hKne1NYIWINKlopsKxvnc%2FxEujosNiKEGCniWAyPEwa42ZmwWhhF6ZyNavSN19o4LDKiAKByBCTyI6ulp0%2BznZcjOPbfwsT816ZjKK34QVzcBnPob%2FQKjus8hlHsdM9jbQots3s3jSj9oombPjBjEICR5XrvLBHxdX83ETPJBBdXDJOFLbqH0ZModNG8kvWHYHK9VXRQDibqAAIjzW7%2FpSubVztAhuMYbYl%2BRcFHGar7fiUE8G%2B3aqxe1lFbBnAajp7l7KbNtYg%2BcPjPNnvkeLK5zzYq0xEaP6ZHiTaZGieV0tTCS9%2BDLBjqkAd0%2BYBwNFEaYNZELsWkWYILD897ARPWA%2F%2BGbV8nZfdKjr3lee7ctzpGhejrfI2pImHNhUcVNTsaPKplI0aYhdpB%2ByFGrGISUs9nzV7S%2FE2IR02RdCj3b%2FyFhGl7m9L6B%2Bg40362SnlI5eDpYSztPEM8sVgr%2FCJOJz4hTpHCDWPH1Uu4gQY4C3pPpdsq21LlLppjcuAZBJTYF%2Bd7nXaE%2F5hIgA9mA&X-Amz-Signature=e0dc64bfac8b9816a955f136a529598edaef5aaa848b34ba19c1dfbb56ea9e25&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+            "expiry_time": "2026-01-27T05:59:29.230Z"
           }
         }
       },
@@ -7385,7 +7203,30 @@
           "block_id": "2f144860-a4f4-803e-a2e1-f26db68ebb1d"
         },
         "created_time": "2026-01-23T10:14:00.000Z",
-        "last_edited_time": "2026-01-23T10:14:00.000Z",
+        "last_edited_time": "2026-01-27T04:16:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "has_children": false,
+        "archived": false,
+        "in_trash": false,
+        "type": "divider",
+        "divider": {}
+      },
+      {
+        "object": "block",
+        "id": "2f544860-a4f4-8059-981b-d904567cfaf3",
+        "parent": {
+          "type": "block_id",
+          "block_id": "2f144860-a4f4-803e-a2e1-f26db68ebb1d"
+        },
+        "created_time": "2026-01-27T04:16:00.000Z",
+        "last_edited_time": "2026-01-27T04:16:00.000Z",
         "created_by": {
           "object": "user",
           "id": "2aed872b-594c-81eb-bc82-000291164988"
@@ -7411,7 +7252,7 @@
           "block_id": "2f144860-a4f4-803e-a2e1-f26db68ebb1d"
         },
         "created_time": "2026-01-23T10:14:00.000Z",
-        "last_edited_time": "2026-01-23T10:14:00.000Z",
+        "last_edited_time": "2026-01-27T04:16:00.000Z",
         "created_by": {
           "object": "user",
           "id": "2aed872b-594c-81eb-bc82-000291164988"
@@ -7423,13 +7264,13 @@
         "has_children": false,
         "archived": false,
         "in_trash": false,
-        "type": "paragraph",
-        "paragraph": {
+        "type": "heading_3",
+        "heading_3": {
           "rich_text": [
             {
               "type": "text",
               "text": {
-                "content": "보너스 2 - 복수 배지 오버레이",
+                "content": "2. 복수 배지 오버레이",
                 "link": null
               },
               "annotations": {
@@ -7440,10 +7281,11 @@
                 "code": false,
                 "color": "default"
               },
-              "plain_text": "보너스 2 - 복수 배지 오버레이",
+              "plain_text": "2. 복수 배지 오버레이",
               "href": null
             }
           ],
+          "is_toggleable": false,
           "color": "default"
         }
       },
@@ -7472,8 +7314,8 @@
           "caption": [],
           "type": "file",
           "file": {
-            "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/c69962b0-3951-485b-b10a-5bb29576bba8/91839a25-881e-42f9-b073-e366ab3b6657/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA_2026-01-18_%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE_5.43.35.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466S4D6Q5MR%2F20260123%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260123T110025Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjECsaCXVzLXdlc3QtMiJIMEYCIQDRorFMS460MLrNsnxf2XwMkGz4LCk1OrAwHr7KArVwMwIhAJY%2Bmjh40ppuBFo%2BUoaZiGIrbMLSyqa%2B5uzuHh7oEYhtKogECPP%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMNjM3NDIzMTgzODA1IgxBJ9fY%2FhDHopKJxyoq3AO8s5VhXHn3%2FfO8ZsX%2BM3zdk6HNcwQvMh328eIt%2BgwRn6K%2BgtL9lSQ%2FWwdkCzLeMcB%2Bcu6TvLIt4oDLkoYN5OqTNEo7SAp0JT6BbZ4%2FHgOLSHlJGEsI3lEnVWE5f0I%2B2dqFTk5vGyKh4UnExzoT%2FPzjpHK2BW329LX8tjjoA7FCIrwgoxkqtO1duAsHrs0hTSRlfUxsqH1AmmQW6NKjGgEOa%2FmqG3TrykQ%2F78p%2FjWm2SeGtPzKyQvoDzB3ihefj54whA%2FwQoCaJqpCrU%2FwwzjhBGEVgBY3j%2F2EYV7kZZE1hX6U%2Frftq3hctgId1990v8sl6TwskaALHhQju1NbVjDic6aBKSOLVjGPYtW97BMsYc%2FZzX0SxcnWBONWDByC5encNK2xVA19BYDOaVkBXUc6RcQqmYQefgb5VZ2F91Vf%2F5AaLAKRDOgq%2BLPBXjFWuGXM1bV7kdzrijHijh7M9%2BBkRuGErV%2B70adoYDAHPJ1yiJPofCv4WR4WBb0%2B7Xc9yZK%2BG2uYcL1wAxqivDiFGlYO%2BL7BX8Msvqrs3ON7BglVTGxmuHFOay7J8ekIj3KP2C2vzfxLgRPIYnQ1KYkUycQaDY1gDBtPeSwmiIRyogE2TjSBvniHy0d2KZXo2sDCzmM3LBjqkAWe1YStvDXzaFQOGIzLeJQ56ipYbcWtCzCiQPTz4WUGjdxmpcaYl9GGzc2xDp%2B%2F%2BI3F15yQKL6fzDQbUhod1BtUtCyFW2wm%2FCp1ycjpHLvxlET4xih%2Bpbg5Zv%2BWcnU9FfOuObaOSqekTS7JrM7zPHtVoMqJORnneLQWVQKPY4malZjkcoGLaAWAWDevBQEVH2IoV3PHat6Meo19WIzv4%2F3yhvtS8&X-Amz-Signature=a4d062f54956ec000283c47aa3aea13978bdaad081b686a1d0a273d4b03f0802&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
-            "expiry_time": "2026-01-23T12:00:24.848Z"
+            "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/c69962b0-3951-485b-b10a-5bb29576bba8/91839a25-881e-42f9-b073-e366ab3b6657/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA_2026-01-18_%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE_5.43.35.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466YI26YRDB%2F20260127%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260127T045929Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEIT%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJIMEYCIQDvZTSvBjbWm28qX6xafhZGwRIv%2FEIkGz6K42p%2FWJxSFQIhAI1QN9ongTqMtXTHo4t8jPnQytHttAayWPcpu%2F%2B4nrkEKv8DCE0QABoMNjM3NDIzMTgzODA1Igyu0i8XrMdgbZ82P0cq3AO1UXr0TT3JEDPxzKTNFR1u%2FZw0GdLPgcGGBaob2cJZDa%2Fk01IRyOgKbH31HuayoP5zlnHSShVZovh%2F8sD5uW%2Fy3aFh0vcqhF8LR93wFqy8ja3qAUwNAw%2FrONztYJ9me%2FbCWJDiLLhgfw3lIoZEi%2B2Q6In7Gz0mwqlmGhUmDGAlj%2FShirPcKGMwUrl6Gashr8K5ghfRC2MBU72EcjIF5kjHdDyvWGJChQt2Gv4fnEvDii2n%2Bva%2BBNDbi1vKTjgczdKgwU4pl%2BAjKvtnaRdxWOYPrzmK1RsESBRw2JXCr%2F%2BFY7M0j4HXOGaiB3XgmpuUFwAYQppWHdsQXu7hKne1NYIWINKlopsKxvnc%2FxEujosNiKEGCniWAyPEwa42ZmwWhhF6ZyNavSN19o4LDKiAKByBCTyI6ulp0%2BznZcjOPbfwsT816ZjKK34QVzcBnPob%2FQKjus8hlHsdM9jbQots3s3jSj9oombPjBjEICR5XrvLBHxdX83ETPJBBdXDJOFLbqH0ZModNG8kvWHYHK9VXRQDibqAAIjzW7%2FpSubVztAhuMYbYl%2BRcFHGar7fiUE8G%2B3aqxe1lFbBnAajp7l7KbNtYg%2BcPjPNnvkeLK5zzYq0xEaP6ZHiTaZGieV0tTCS9%2BDLBjqkAd0%2BYBwNFEaYNZELsWkWYILD897ARPWA%2F%2BGbV8nZfdKjr3lee7ctzpGhejrfI2pImHNhUcVNTsaPKplI0aYhdpB%2ByFGrGISUs9nzV7S%2FE2IR02RdCj3b%2FyFhGl7m9L6B%2Bg40362SnlI5eDpYSztPEM8sVgr%2FCJOJz4hTpHCDWPH1Uu4gQY4C3pPpdsq21LlLppjcuAZBJTYF%2Bd7nXaE%2F5hIgA9mA&X-Amz-Signature=10174fb55da34102179c162f4d670dcfff97b64d3287caa1bf91c2845ff9423b&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+            "expiry_time": "2026-01-27T05:59:29.229Z"
           }
         }
       },
@@ -7749,7 +7591,30 @@
           "block_id": "2f144860-a4f4-803e-a2e1-f26db68ebb1d"
         },
         "created_time": "2026-01-23T10:14:00.000Z",
-        "last_edited_time": "2026-01-23T10:14:00.000Z",
+        "last_edited_time": "2026-01-27T04:16:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "has_children": false,
+        "archived": false,
+        "in_trash": false,
+        "type": "divider",
+        "divider": {}
+      },
+      {
+        "object": "block",
+        "id": "2f544860-a4f4-809a-977d-c56492b7ff8e",
+        "parent": {
+          "type": "block_id",
+          "block_id": "2f144860-a4f4-803e-a2e1-f26db68ebb1d"
+        },
+        "created_time": "2026-01-27T04:16:00.000Z",
+        "last_edited_time": "2026-01-27T04:16:00.000Z",
         "created_by": {
           "object": "user",
           "id": "2aed872b-594c-81eb-bc82-000291164988"
@@ -7775,7 +7640,7 @@
           "block_id": "2f144860-a4f4-803e-a2e1-f26db68ebb1d"
         },
         "created_time": "2026-01-23T10:14:00.000Z",
-        "last_edited_time": "2026-01-23T10:14:00.000Z",
+        "last_edited_time": "2026-01-27T04:16:00.000Z",
         "created_by": {
           "object": "user",
           "id": "2aed872b-594c-81eb-bc82-000291164988"
@@ -7787,13 +7652,13 @@
         "has_children": false,
         "archived": false,
         "in_trash": false,
-        "type": "paragraph",
-        "paragraph": {
+        "type": "heading_3",
+        "heading_3": {
           "rich_text": [
             {
               "type": "text",
               "text": {
-                "content": "보너스 3 - 요약 카드 내부 레이아웃 반응형 전환",
+                "content": "3. 요약 카드 내부 레이아웃 반응형 전환",
                 "link": null
               },
               "annotations": {
@@ -7804,10 +7669,11 @@
                 "code": false,
                 "color": "default"
               },
-              "plain_text": "보너스 3 - 요약 카드 내부 레이아웃 반응형 전환",
+              "plain_text": "3. 요약 카드 내부 레이아웃 반응형 전환",
               "href": null
             }
           ],
+          "is_toggleable": false,
           "color": "default"
         }
       },
@@ -7836,8 +7702,8 @@
           "caption": [],
           "type": "file",
           "file": {
-            "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/c69962b0-3951-485b-b10a-5bb29576bba8/23e2ca20-0523-4800-97aa-308c8dfc7b60/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA_2026-01-18_%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE_5.53.53.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466S4D6Q5MR%2F20260123%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260123T110025Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjECsaCXVzLXdlc3QtMiJIMEYCIQDRorFMS460MLrNsnxf2XwMkGz4LCk1OrAwHr7KArVwMwIhAJY%2Bmjh40ppuBFo%2BUoaZiGIrbMLSyqa%2B5uzuHh7oEYhtKogECPP%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMNjM3NDIzMTgzODA1IgxBJ9fY%2FhDHopKJxyoq3AO8s5VhXHn3%2FfO8ZsX%2BM3zdk6HNcwQvMh328eIt%2BgwRn6K%2BgtL9lSQ%2FWwdkCzLeMcB%2Bcu6TvLIt4oDLkoYN5OqTNEo7SAp0JT6BbZ4%2FHgOLSHlJGEsI3lEnVWE5f0I%2B2dqFTk5vGyKh4UnExzoT%2FPzjpHK2BW329LX8tjjoA7FCIrwgoxkqtO1duAsHrs0hTSRlfUxsqH1AmmQW6NKjGgEOa%2FmqG3TrykQ%2F78p%2FjWm2SeGtPzKyQvoDzB3ihefj54whA%2FwQoCaJqpCrU%2FwwzjhBGEVgBY3j%2F2EYV7kZZE1hX6U%2Frftq3hctgId1990v8sl6TwskaALHhQju1NbVjDic6aBKSOLVjGPYtW97BMsYc%2FZzX0SxcnWBONWDByC5encNK2xVA19BYDOaVkBXUc6RcQqmYQefgb5VZ2F91Vf%2F5AaLAKRDOgq%2BLPBXjFWuGXM1bV7kdzrijHijh7M9%2BBkRuGErV%2B70adoYDAHPJ1yiJPofCv4WR4WBb0%2B7Xc9yZK%2BG2uYcL1wAxqivDiFGlYO%2BL7BX8Msvqrs3ON7BglVTGxmuHFOay7J8ekIj3KP2C2vzfxLgRPIYnQ1KYkUycQaDY1gDBtPeSwmiIRyogE2TjSBvniHy0d2KZXo2sDCzmM3LBjqkAWe1YStvDXzaFQOGIzLeJQ56ipYbcWtCzCiQPTz4WUGjdxmpcaYl9GGzc2xDp%2B%2F%2BI3F15yQKL6fzDQbUhod1BtUtCyFW2wm%2FCp1ycjpHLvxlET4xih%2Bpbg5Zv%2BWcnU9FfOuObaOSqekTS7JrM7zPHtVoMqJORnneLQWVQKPY4malZjkcoGLaAWAWDevBQEVH2IoV3PHat6Meo19WIzv4%2F3yhvtS8&X-Amz-Signature=0e1f9cfa2cbfbbee4c19a5e515acdee8b676e2aa4e324f93eb915d58abf1006c&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
-            "expiry_time": "2026-01-23T12:00:24.848Z"
+            "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/c69962b0-3951-485b-b10a-5bb29576bba8/23e2ca20-0523-4800-97aa-308c8dfc7b60/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA_2026-01-18_%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE_5.53.53.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466YI26YRDB%2F20260127%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260127T045929Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEIT%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJIMEYCIQDvZTSvBjbWm28qX6xafhZGwRIv%2FEIkGz6K42p%2FWJxSFQIhAI1QN9ongTqMtXTHo4t8jPnQytHttAayWPcpu%2F%2B4nrkEKv8DCE0QABoMNjM3NDIzMTgzODA1Igyu0i8XrMdgbZ82P0cq3AO1UXr0TT3JEDPxzKTNFR1u%2FZw0GdLPgcGGBaob2cJZDa%2Fk01IRyOgKbH31HuayoP5zlnHSShVZovh%2F8sD5uW%2Fy3aFh0vcqhF8LR93wFqy8ja3qAUwNAw%2FrONztYJ9me%2FbCWJDiLLhgfw3lIoZEi%2B2Q6In7Gz0mwqlmGhUmDGAlj%2FShirPcKGMwUrl6Gashr8K5ghfRC2MBU72EcjIF5kjHdDyvWGJChQt2Gv4fnEvDii2n%2Bva%2BBNDbi1vKTjgczdKgwU4pl%2BAjKvtnaRdxWOYPrzmK1RsESBRw2JXCr%2F%2BFY7M0j4HXOGaiB3XgmpuUFwAYQppWHdsQXu7hKne1NYIWINKlopsKxvnc%2FxEujosNiKEGCniWAyPEwa42ZmwWhhF6ZyNavSN19o4LDKiAKByBCTyI6ulp0%2BznZcjOPbfwsT816ZjKK34QVzcBnPob%2FQKjus8hlHsdM9jbQots3s3jSj9oombPjBjEICR5XrvLBHxdX83ETPJBBdXDJOFLbqH0ZModNG8kvWHYHK9VXRQDibqAAIjzW7%2FpSubVztAhuMYbYl%2BRcFHGar7fiUE8G%2B3aqxe1lFbBnAajp7l7KbNtYg%2BcPjPNnvkeLK5zzYq0xEaP6ZHiTaZGieV0tTCS9%2BDLBjqkAd0%2BYBwNFEaYNZELsWkWYILD897ARPWA%2F%2BGbV8nZfdKjr3lee7ctzpGhejrfI2pImHNhUcVNTsaPKplI0aYhdpB%2ByFGrGISUs9nzV7S%2FE2IR02RdCj3b%2FyFhGl7m9L6B%2Bg40362SnlI5eDpYSztPEM8sVgr%2FCJOJz4hTpHCDWPH1Uu4gQY4C3pPpdsq21LlLppjcuAZBJTYF%2Bd7nXaE%2F5hIgA9mA&X-Amz-Signature=92e6c7a64acdaf7893b692c8c4b729ebd21a02d29eb054422a8ff3d9e8326883&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+            "expiry_time": "2026-01-27T05:59:29.229Z"
           }
         }
       },
@@ -8190,5 +8056,5 @@
       }
     ]
   },
-  "syncedAt": "2026-01-23T11:00:27.785Z"
+  "syncedAt": "2026-01-27T04:59:29.586Z"
 }

@@ -716,50 +716,6 @@
       },
       {
         "object": "block",
-        "id": "2f144860-a4f4-80a9-93ae-c0c37a9ce56f",
-        "parent": {
-          "type": "block_id",
-          "block_id": "2f144860-a4f4-808a-b6a0-e6a823bd5719"
-        },
-        "created_time": "2026-01-23T10:13:00.000Z",
-        "last_edited_time": "2026-01-23T10:13:00.000Z",
-        "created_by": {
-          "object": "user",
-          "id": "2aed872b-594c-81eb-bc82-000291164988"
-        },
-        "last_edited_by": {
-          "object": "user",
-          "id": "2aed872b-594c-81eb-bc82-000291164988"
-        },
-        "has_children": false,
-        "archived": false,
-        "in_trash": false,
-        "type": "quote",
-        "quote": {
-          "rich_text": [
-            {
-              "type": "text",
-              "text": {
-                "content": "이 과제를 마친 후, 학습자는 아래를 스스로 설명할 수 있어야 한다.",
-                "link": null
-              },
-              "annotations": {
-                "bold": false,
-                "italic": false,
-                "strikethrough": false,
-                "underline": false,
-                "code": false,
-                "color": "default"
-              },
-              "plain_text": "이 과제를 마친 후, 학습자는 아래를 스스로 설명할 수 있어야 한다.",
-              "href": null
-            }
-          ],
-          "color": "default"
-        }
-      },
-      {
-        "object": "block",
         "id": "2f144860-a4f4-8014-aa9b-da1eafe455f8",
         "parent": {
           "type": "block_id",
@@ -1213,7 +1169,7 @@
           "block_id": "2f144860-a4f4-8039-afe0-df73916c406b"
         },
         "created_time": "2026-01-23T10:13:00.000Z",
-        "last_edited_time": "2026-01-23T10:13:00.000Z",
+        "last_edited_time": "2026-01-27T03:15:00.000Z",
         "created_by": {
           "object": "user",
           "id": "2aed872b-594c-81eb-bc82-000291164988"
@@ -1225,8 +1181,8 @@
         "has_children": false,
         "archived": false,
         "in_trash": false,
-        "type": "quote",
-        "quote": {
+        "type": "paragraph",
+        "paragraph": {
           "rich_text": [
             {
               "type": "text",
@@ -1235,7 +1191,7 @@
                 "link": null
               },
               "annotations": {
-                "bold": false,
+                "bold": true,
                 "italic": false,
                 "strikethrough": false,
                 "underline": false,
@@ -1353,7 +1309,96 @@
           "block_id": "2f144860-a4f4-8039-afe0-df73916c406b"
         },
         "created_time": "2026-01-23T10:13:00.000Z",
-        "last_edited_time": "2026-01-23T10:13:00.000Z",
+        "last_edited_time": "2026-01-27T03:17:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "has_children": false,
+        "archived": false,
+        "in_trash": false,
+        "type": "heading_3",
+        "heading_3": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "1. 전체 화면 구성",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "1. 전체 화면 구성",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        }
+      },
+      {
+        "object": "block",
+        "id": "2f144860-a4f4-80cf-9fdc-d2ee82f53bae",
+        "parent": {
+          "type": "block_id",
+          "block_id": "2f144860-a4f4-8039-afe0-df73916c406b"
+        },
+        "created_time": "2026-01-23T10:13:00.000Z",
+        "last_edited_time": "2026-01-27T03:17:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "has_children": false,
+        "archived": false,
+        "in_trash": false,
+        "type": "bulleted_list_item",
+        "bulleted_list_item": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "웹 페이지는 하나의 화면으로 구성되어 있으며, 페이지 이동 없이 모든 내용을 확인할 수 있어야 한다.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "웹 페이지는 하나의 화면으로 구성되어 있으며, 페이지 이동 없이 모든 내용을 확인할 수 있어야 한다.",
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "object": "block",
+        "id": "2f144860-a4f4-80d3-83d2-cab4eafd9cfe",
+        "parent": {
+          "type": "block_id",
+          "block_id": "2f144860-a4f4-8039-afe0-df73916c406b"
+        },
+        "created_time": "2026-01-23T10:13:00.000Z",
+        "last_edited_time": "2026-01-27T03:17:00.000Z",
         "created_by": {
           "object": "user",
           "id": "2aed872b-594c-81eb-bc82-000291164988"
@@ -1365,13 +1410,13 @@
         "has_children": true,
         "archived": false,
         "in_trash": false,
-        "type": "numbered_list_item",
-        "numbered_list_item": {
+        "type": "bulleted_list_item",
+        "bulleted_list_item": {
           "rich_text": [
             {
               "type": "text",
               "text": {
-                "content": "전체 화면 구성",
+                "content": "화면 안에는 다음 두 영역이 상, 하로 배치되어 있어야 한다.",
                 "link": null
               },
               "annotations": {
@@ -1382,7 +1427,7 @@
                 "code": false,
                 "color": "default"
               },
-              "plain_text": "전체 화면 구성",
+              "plain_text": "화면 안에는 다음 두 영역이 상, 하로 배치되어 있어야 한다.",
               "href": null
             }
           ],
@@ -1391,10 +1436,10 @@
         "children": [
           {
             "object": "block",
-            "id": "2f144860-a4f4-80cf-9fdc-d2ee82f53bae",
+            "id": "2f144860-a4f4-80a5-b0b3-dcdf90f9e549",
             "parent": {
               "type": "block_id",
-              "block_id": "2f144860-a4f4-804c-9f30-eb065ae6b898"
+              "block_id": "2f144860-a4f4-80d3-83d2-cab4eafd9cfe"
             },
             "created_time": "2026-01-23T10:13:00.000Z",
             "last_edited_time": "2026-01-23T10:13:00.000Z",
@@ -1415,7 +1460,7 @@
                 {
                   "type": "text",
                   "text": {
-                    "content": "웹 페이지는 하나의 화면으로 구성되어 있으며, 페이지 이동 없이 모든 내용을 확인할 수 있어야 한다.",
+                    "content": "자기소개 요약 카드 영역",
                     "link": null
                   },
                   "annotations": {
@@ -1426,7 +1471,7 @@
                     "code": false,
                     "color": "default"
                   },
-                  "plain_text": "웹 페이지는 하나의 화면으로 구성되어 있으며, 페이지 이동 없이 모든 내용을 확인할 수 있어야 한다.",
+                  "plain_text": "자기소개 요약 카드 영역",
                   "href": null
                 }
               ],
@@ -1435,144 +1480,10 @@
           },
           {
             "object": "block",
-            "id": "2f144860-a4f4-80d3-83d2-cab4eafd9cfe",
+            "id": "2f144860-a4f4-8005-8715-fd35213426d9",
             "parent": {
               "type": "block_id",
-              "block_id": "2f144860-a4f4-804c-9f30-eb065ae6b898"
-            },
-            "created_time": "2026-01-23T10:13:00.000Z",
-            "last_edited_time": "2026-01-23T10:13:00.000Z",
-            "created_by": {
-              "object": "user",
-              "id": "2aed872b-594c-81eb-bc82-000291164988"
-            },
-            "last_edited_by": {
-              "object": "user",
-              "id": "2aed872b-594c-81eb-bc82-000291164988"
-            },
-            "has_children": true,
-            "archived": false,
-            "in_trash": false,
-            "type": "bulleted_list_item",
-            "bulleted_list_item": {
-              "rich_text": [
-                {
-                  "type": "text",
-                  "text": {
-                    "content": "화면 안에는 다음 두 영역이 상, 하로 배치되어 있어야 한다.",
-                    "link": null
-                  },
-                  "annotations": {
-                    "bold": false,
-                    "italic": false,
-                    "strikethrough": false,
-                    "underline": false,
-                    "code": false,
-                    "color": "default"
-                  },
-                  "plain_text": "화면 안에는 다음 두 영역이 상, 하로 배치되어 있어야 한다.",
-                  "href": null
-                }
-              ],
-              "color": "default"
-            },
-            "children": [
-              {
-                "object": "block",
-                "id": "2f144860-a4f4-80a5-b0b3-dcdf90f9e549",
-                "parent": {
-                  "type": "block_id",
-                  "block_id": "2f144860-a4f4-80d3-83d2-cab4eafd9cfe"
-                },
-                "created_time": "2026-01-23T10:13:00.000Z",
-                "last_edited_time": "2026-01-23T10:13:00.000Z",
-                "created_by": {
-                  "object": "user",
-                  "id": "2aed872b-594c-81eb-bc82-000291164988"
-                },
-                "last_edited_by": {
-                  "object": "user",
-                  "id": "2aed872b-594c-81eb-bc82-000291164988"
-                },
-                "has_children": false,
-                "archived": false,
-                "in_trash": false,
-                "type": "bulleted_list_item",
-                "bulleted_list_item": {
-                  "rich_text": [
-                    {
-                      "type": "text",
-                      "text": {
-                        "content": "자기소개 요약 카드 영역",
-                        "link": null
-                      },
-                      "annotations": {
-                        "bold": false,
-                        "italic": false,
-                        "strikethrough": false,
-                        "underline": false,
-                        "code": false,
-                        "color": "default"
-                      },
-                      "plain_text": "자기소개 요약 카드 영역",
-                      "href": null
-                    }
-                  ],
-                  "color": "default"
-                }
-              },
-              {
-                "object": "block",
-                "id": "2f144860-a4f4-8005-8715-fd35213426d9",
-                "parent": {
-                  "type": "block_id",
-                  "block_id": "2f144860-a4f4-80d3-83d2-cab4eafd9cfe"
-                },
-                "created_time": "2026-01-23T10:13:00.000Z",
-                "last_edited_time": "2026-01-23T10:13:00.000Z",
-                "created_by": {
-                  "object": "user",
-                  "id": "2aed872b-594c-81eb-bc82-000291164988"
-                },
-                "last_edited_by": {
-                  "object": "user",
-                  "id": "2aed872b-594c-81eb-bc82-000291164988"
-                },
-                "has_children": false,
-                "archived": false,
-                "in_trash": false,
-                "type": "bulleted_list_item",
-                "bulleted_list_item": {
-                  "rich_text": [
-                    {
-                      "type": "text",
-                      "text": {
-                        "content": "상세 자기소개 정보 영역",
-                        "link": null
-                      },
-                      "annotations": {
-                        "bold": false,
-                        "italic": false,
-                        "strikethrough": false,
-                        "underline": false,
-                        "code": false,
-                        "color": "default"
-                      },
-                      "plain_text": "상세 자기소개 정보 영역",
-                      "href": null
-                    }
-                  ],
-                  "color": "default"
-                }
-              }
-            ]
-          },
-          {
-            "object": "block",
-            "id": "2f144860-a4f4-809d-9230-d052cfa37526",
-            "parent": {
-              "type": "block_id",
-              "block_id": "2f144860-a4f4-804c-9f30-eb065ae6b898"
+              "block_id": "2f144860-a4f4-80d3-83d2-cab4eafd9cfe"
             },
             "created_time": "2026-01-23T10:13:00.000Z",
             "last_edited_time": "2026-01-23T10:13:00.000Z",
@@ -1593,7 +1504,7 @@
                 {
                   "type": "text",
                   "text": {
-                    "content": "자기소개 요약 카드, 상세 자기소개 정보는 모두 위에서 아래로 읽는 흐름을 가지고 있어야 한다.",
+                    "content": "상세 자기소개 정보 영역",
                     "link": null
                   },
                   "annotations": {
@@ -1604,7 +1515,7 @@
                     "code": false,
                     "color": "default"
                   },
-                  "plain_text": "자기소개 요약 카드, 상세 자기소개 정보는 모두 위에서 아래로 읽는 흐름을 가지고 있어야 한다.",
+                  "plain_text": "상세 자기소개 정보 영역",
                   "href": null
                 }
               ],
@@ -1612,6 +1523,73 @@
             }
           }
         ]
+      },
+      {
+        "object": "block",
+        "id": "2f144860-a4f4-809d-9230-d052cfa37526",
+        "parent": {
+          "type": "block_id",
+          "block_id": "2f144860-a4f4-8039-afe0-df73916c406b"
+        },
+        "created_time": "2026-01-23T10:13:00.000Z",
+        "last_edited_time": "2026-01-27T03:18:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "has_children": false,
+        "archived": false,
+        "in_trash": false,
+        "type": "bulleted_list_item",
+        "bulleted_list_item": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "자기소개 요약 카드, 상세 자기소개 정보는 모두 위에서 아래로 읽는 흐름을 가지고 있어야 한다.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "자기소개 요약 카드, 상세 자기소개 정보는 모두 위에서 아래로 읽는 흐름을 가지고 있어야 한다.",
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "object": "block",
+        "id": "2f544860-a4f4-8079-b7ce-ea3f31237234",
+        "parent": {
+          "type": "block_id",
+          "block_id": "2f144860-a4f4-8039-afe0-df73916c406b"
+        },
+        "created_time": "2026-01-27T03:18:00.000Z",
+        "last_edited_time": "2026-01-27T03:18:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "has_children": false,
+        "archived": false,
+        "in_trash": false,
+        "type": "divider",
+        "divider": {}
       },
       {
         "object": "block",
@@ -1621,7 +1599,52 @@
           "block_id": "2f144860-a4f4-8039-afe0-df73916c406b"
         },
         "created_time": "2026-01-23T10:13:00.000Z",
-        "last_edited_time": "2026-01-23T10:13:00.000Z",
+        "last_edited_time": "2026-01-27T03:17:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "has_children": false,
+        "archived": false,
+        "in_trash": false,
+        "type": "heading_3",
+        "heading_3": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "2. 자기소개 요약 카드 영역",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "2. 자기소개 요약 카드 영역",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        }
+      },
+      {
+        "object": "block",
+        "id": "2f144860-a4f4-80c6-a0b6-e43269bd4833",
+        "parent": {
+          "type": "block_id",
+          "block_id": "2f144860-a4f4-8039-afe0-df73916c406b"
+        },
+        "created_time": "2026-01-23T10:13:00.000Z",
+        "last_edited_time": "2026-01-27T03:17:00.000Z",
         "created_by": {
           "object": "user",
           "id": "2aed872b-594c-81eb-bc82-000291164988"
@@ -1633,13 +1656,13 @@
         "has_children": true,
         "archived": false,
         "in_trash": false,
-        "type": "numbered_list_item",
-        "numbered_list_item": {
+        "type": "bulleted_list_item",
+        "bulleted_list_item": {
           "rich_text": [
             {
               "type": "text",
               "text": {
-                "content": "자기소개 요약 카드 영역",
+                "content": "카드에는 최소 다음 정보가 포함되어야 한다.",
                 "link": null
               },
               "annotations": {
@@ -1650,7 +1673,7 @@
                 "code": false,
                 "color": "default"
               },
-              "plain_text": "자기소개 요약 카드 영역",
+              "plain_text": "카드에는 최소 다음 정보가 포함되어야 한다.",
               "href": null
             }
           ],
@@ -1659,232 +1682,10 @@
         "children": [
           {
             "object": "block",
-            "id": "2f144860-a4f4-80c6-a0b6-e43269bd4833",
+            "id": "2f144860-a4f4-805b-9c4e-efdd87ef17ea",
             "parent": {
               "type": "block_id",
-              "block_id": "2f144860-a4f4-80a1-9cff-fe5e071f2aca"
-            },
-            "created_time": "2026-01-23T10:13:00.000Z",
-            "last_edited_time": "2026-01-23T10:13:00.000Z",
-            "created_by": {
-              "object": "user",
-              "id": "2aed872b-594c-81eb-bc82-000291164988"
-            },
-            "last_edited_by": {
-              "object": "user",
-              "id": "2aed872b-594c-81eb-bc82-000291164988"
-            },
-            "has_children": true,
-            "archived": false,
-            "in_trash": false,
-            "type": "bulleted_list_item",
-            "bulleted_list_item": {
-              "rich_text": [
-                {
-                  "type": "text",
-                  "text": {
-                    "content": "카드에는 최소 다음 정보가 포함되어야 한다.",
-                    "link": null
-                  },
-                  "annotations": {
-                    "bold": false,
-                    "italic": false,
-                    "strikethrough": false,
-                    "underline": false,
-                    "code": false,
-                    "color": "default"
-                  },
-                  "plain_text": "카드에는 최소 다음 정보가 포함되어야 한다.",
-                  "href": null
-                }
-              ],
-              "color": "default"
-            },
-            "children": [
-              {
-                "object": "block",
-                "id": "2f144860-a4f4-805b-9c4e-efdd87ef17ea",
-                "parent": {
-                  "type": "block_id",
-                  "block_id": "2f144860-a4f4-80c6-a0b6-e43269bd4833"
-                },
-                "created_time": "2026-01-23T10:13:00.000Z",
-                "last_edited_time": "2026-01-23T10:13:00.000Z",
-                "created_by": {
-                  "object": "user",
-                  "id": "2aed872b-594c-81eb-bc82-000291164988"
-                },
-                "last_edited_by": {
-                  "object": "user",
-                  "id": "2aed872b-594c-81eb-bc82-000291164988"
-                },
-                "has_children": false,
-                "archived": false,
-                "in_trash": false,
-                "type": "bulleted_list_item",
-                "bulleted_list_item": {
-                  "rich_text": [
-                    {
-                      "type": "text",
-                      "text": {
-                        "content": "프로필 이미지",
-                        "link": null
-                      },
-                      "annotations": {
-                        "bold": false,
-                        "italic": false,
-                        "strikethrough": false,
-                        "underline": false,
-                        "code": false,
-                        "color": "default"
-                      },
-                      "plain_text": "프로필 이미지",
-                      "href": null
-                    }
-                  ],
-                  "color": "default"
-                }
-              },
-              {
-                "object": "block",
-                "id": "2f144860-a4f4-807c-bb22-dac93c6fe753",
-                "parent": {
-                  "type": "block_id",
-                  "block_id": "2f144860-a4f4-80c6-a0b6-e43269bd4833"
-                },
-                "created_time": "2026-01-23T10:13:00.000Z",
-                "last_edited_time": "2026-01-23T10:13:00.000Z",
-                "created_by": {
-                  "object": "user",
-                  "id": "2aed872b-594c-81eb-bc82-000291164988"
-                },
-                "last_edited_by": {
-                  "object": "user",
-                  "id": "2aed872b-594c-81eb-bc82-000291164988"
-                },
-                "has_children": false,
-                "archived": false,
-                "in_trash": false,
-                "type": "bulleted_list_item",
-                "bulleted_list_item": {
-                  "rich_text": [
-                    {
-                      "type": "text",
-                      "text": {
-                        "content": "이름",
-                        "link": null
-                      },
-                      "annotations": {
-                        "bold": false,
-                        "italic": false,
-                        "strikethrough": false,
-                        "underline": false,
-                        "code": false,
-                        "color": "default"
-                      },
-                      "plain_text": "이름",
-                      "href": null
-                    }
-                  ],
-                  "color": "default"
-                }
-              },
-              {
-                "object": "block",
-                "id": "2f144860-a4f4-803c-b4e2-f3c1bbc639d8",
-                "parent": {
-                  "type": "block_id",
-                  "block_id": "2f144860-a4f4-80c6-a0b6-e43269bd4833"
-                },
-                "created_time": "2026-01-23T10:13:00.000Z",
-                "last_edited_time": "2026-01-23T10:13:00.000Z",
-                "created_by": {
-                  "object": "user",
-                  "id": "2aed872b-594c-81eb-bc82-000291164988"
-                },
-                "last_edited_by": {
-                  "object": "user",
-                  "id": "2aed872b-594c-81eb-bc82-000291164988"
-                },
-                "has_children": false,
-                "archived": false,
-                "in_trash": false,
-                "type": "bulleted_list_item",
-                "bulleted_list_item": {
-                  "rich_text": [
-                    {
-                      "type": "text",
-                      "text": {
-                        "content": "소속 파트 (Frontend / Backend / Design / Product Manager)",
-                        "link": null
-                      },
-                      "annotations": {
-                        "bold": false,
-                        "italic": false,
-                        "strikethrough": false,
-                        "underline": false,
-                        "code": false,
-                        "color": "default"
-                      },
-                      "plain_text": "소속 파트 (Frontend / Backend / Design / Product Manager)",
-                      "href": null
-                    }
-                  ],
-                  "color": "default"
-                }
-              },
-              {
-                "object": "block",
-                "id": "2f144860-a4f4-8031-9e51-df90bc6e43d3",
-                "parent": {
-                  "type": "block_id",
-                  "block_id": "2f144860-a4f4-80c6-a0b6-e43269bd4833"
-                },
-                "created_time": "2026-01-23T10:13:00.000Z",
-                "last_edited_time": "2026-01-23T10:13:00.000Z",
-                "created_by": {
-                  "object": "user",
-                  "id": "2aed872b-594c-81eb-bc82-000291164988"
-                },
-                "last_edited_by": {
-                  "object": "user",
-                  "id": "2aed872b-594c-81eb-bc82-000291164988"
-                },
-                "has_children": false,
-                "archived": false,
-                "in_trash": false,
-                "type": "bulleted_list_item",
-                "bulleted_list_item": {
-                  "rich_text": [
-                    {
-                      "type": "text",
-                      "text": {
-                        "content": "한 줄 자기소개",
-                        "link": null
-                      },
-                      "annotations": {
-                        "bold": false,
-                        "italic": false,
-                        "strikethrough": false,
-                        "underline": false,
-                        "code": false,
-                        "color": "default"
-                      },
-                      "plain_text": "한 줄 자기소개",
-                      "href": null
-                    }
-                  ],
-                  "color": "default"
-                }
-              }
-            ]
-          },
-          {
-            "object": "block",
-            "id": "2f144860-a4f4-80a2-8db7-cdfa89d626b3",
-            "parent": {
-              "type": "block_id",
-              "block_id": "2f144860-a4f4-80a1-9cff-fe5e071f2aca"
+              "block_id": "2f144860-a4f4-80c6-a0b6-e43269bd4833"
             },
             "created_time": "2026-01-23T10:13:00.000Z",
             "last_edited_time": "2026-01-23T10:13:00.000Z",
@@ -1905,7 +1706,7 @@
                 {
                   "type": "text",
                   "text": {
-                    "content": "카드 내부의 요소들은 시각적으로 하나의 묶음으로 인식될 수 있도록 정렬되어 있어야 한다.",
+                    "content": "프로필 이미지",
                     "link": null
                   },
                   "annotations": {
@@ -1916,7 +1717,139 @@
                     "code": false,
                     "color": "default"
                   },
-                  "plain_text": "카드 내부의 요소들은 시각적으로 하나의 묶음으로 인식될 수 있도록 정렬되어 있어야 한다.",
+                  "plain_text": "프로필 이미지",
+                  "href": null
+                }
+              ],
+              "color": "default"
+            }
+          },
+          {
+            "object": "block",
+            "id": "2f144860-a4f4-807c-bb22-dac93c6fe753",
+            "parent": {
+              "type": "block_id",
+              "block_id": "2f144860-a4f4-80c6-a0b6-e43269bd4833"
+            },
+            "created_time": "2026-01-23T10:13:00.000Z",
+            "last_edited_time": "2026-01-23T10:13:00.000Z",
+            "created_by": {
+              "object": "user",
+              "id": "2aed872b-594c-81eb-bc82-000291164988"
+            },
+            "last_edited_by": {
+              "object": "user",
+              "id": "2aed872b-594c-81eb-bc82-000291164988"
+            },
+            "has_children": false,
+            "archived": false,
+            "in_trash": false,
+            "type": "bulleted_list_item",
+            "bulleted_list_item": {
+              "rich_text": [
+                {
+                  "type": "text",
+                  "text": {
+                    "content": "이름",
+                    "link": null
+                  },
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  },
+                  "plain_text": "이름",
+                  "href": null
+                }
+              ],
+              "color": "default"
+            }
+          },
+          {
+            "object": "block",
+            "id": "2f144860-a4f4-803c-b4e2-f3c1bbc639d8",
+            "parent": {
+              "type": "block_id",
+              "block_id": "2f144860-a4f4-80c6-a0b6-e43269bd4833"
+            },
+            "created_time": "2026-01-23T10:13:00.000Z",
+            "last_edited_time": "2026-01-23T10:13:00.000Z",
+            "created_by": {
+              "object": "user",
+              "id": "2aed872b-594c-81eb-bc82-000291164988"
+            },
+            "last_edited_by": {
+              "object": "user",
+              "id": "2aed872b-594c-81eb-bc82-000291164988"
+            },
+            "has_children": false,
+            "archived": false,
+            "in_trash": false,
+            "type": "bulleted_list_item",
+            "bulleted_list_item": {
+              "rich_text": [
+                {
+                  "type": "text",
+                  "text": {
+                    "content": "소속 파트 (Frontend / Backend / Design / Product Manager)",
+                    "link": null
+                  },
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  },
+                  "plain_text": "소속 파트 (Frontend / Backend / Design / Product Manager)",
+                  "href": null
+                }
+              ],
+              "color": "default"
+            }
+          },
+          {
+            "object": "block",
+            "id": "2f144860-a4f4-8031-9e51-df90bc6e43d3",
+            "parent": {
+              "type": "block_id",
+              "block_id": "2f144860-a4f4-80c6-a0b6-e43269bd4833"
+            },
+            "created_time": "2026-01-23T10:13:00.000Z",
+            "last_edited_time": "2026-01-23T10:13:00.000Z",
+            "created_by": {
+              "object": "user",
+              "id": "2aed872b-594c-81eb-bc82-000291164988"
+            },
+            "last_edited_by": {
+              "object": "user",
+              "id": "2aed872b-594c-81eb-bc82-000291164988"
+            },
+            "has_children": false,
+            "archived": false,
+            "in_trash": false,
+            "type": "bulleted_list_item",
+            "bulleted_list_item": {
+              "rich_text": [
+                {
+                  "type": "text",
+                  "text": {
+                    "content": "한 줄 자기소개",
+                    "link": null
+                  },
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  },
+                  "plain_text": "한 줄 자기소개",
                   "href": null
                 }
               ],
@@ -1927,13 +1860,169 @@
       },
       {
         "object": "block",
+        "id": "2f144860-a4f4-80a2-8db7-cdfa89d626b3",
+        "parent": {
+          "type": "block_id",
+          "block_id": "2f144860-a4f4-8039-afe0-df73916c406b"
+        },
+        "created_time": "2026-01-23T10:13:00.000Z",
+        "last_edited_time": "2026-01-27T03:17:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "has_children": false,
+        "archived": false,
+        "in_trash": false,
+        "type": "bulleted_list_item",
+        "bulleted_list_item": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "카드 내부의 요소들은 시각적으로 하나의 묶음으로 인식될 수 있도록 정렬되어 있어야 한다.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "카드 내부의 요소들은 시각적으로 하나의 묶음으로 인식될 수 있도록 정렬되어 있어야 한다.",
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "object": "block",
+        "id": "2f544860-a4f4-8093-88a7-fdd5461152b6",
+        "parent": {
+          "type": "block_id",
+          "block_id": "2f144860-a4f4-8039-afe0-df73916c406b"
+        },
+        "created_time": "2026-01-27T03:18:00.000Z",
+        "last_edited_time": "2026-01-27T03:18:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "has_children": false,
+        "archived": false,
+        "in_trash": false,
+        "type": "divider",
+        "divider": {}
+      },
+      {
+        "object": "block",
         "id": "2f144860-a4f4-80d0-9b92-d54c669911c4",
         "parent": {
           "type": "block_id",
           "block_id": "2f144860-a4f4-8039-afe0-df73916c406b"
         },
         "created_time": "2026-01-23T10:13:00.000Z",
-        "last_edited_time": "2026-01-23T10:13:00.000Z",
+        "last_edited_time": "2026-01-27T03:18:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "has_children": false,
+        "archived": false,
+        "in_trash": false,
+        "type": "heading_3",
+        "heading_3": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "3. 상세 자기소개 정보 영역",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "3. 상세 자기소개 정보 영역",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        }
+      },
+      {
+        "object": "block",
+        "id": "2f144860-a4f4-804a-a4bd-e411c3eb974a",
+        "parent": {
+          "type": "block_id",
+          "block_id": "2f144860-a4f4-8039-afe0-df73916c406b"
+        },
+        "created_time": "2026-01-23T10:13:00.000Z",
+        "last_edited_time": "2026-01-27T03:18:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "has_children": false,
+        "archived": false,
+        "in_trash": false,
+        "type": "bulleted_list_item",
+        "bulleted_list_item": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "요약 카드와 별개로, 상세 자기소개 정보를 보여주는 영역이 자기소개 요약 카드 영역 하단에 존재한다.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "요약 카드와 별개로, 상세 자기소개 정보를 보여주는 영역이 자기소개 요약 카드 영역 하단에 존재한다.",
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "object": "block",
+        "id": "2f144860-a4f4-808e-90af-e51a6f203b00",
+        "parent": {
+          "type": "block_id",
+          "block_id": "2f144860-a4f4-8039-afe0-df73916c406b"
+        },
+        "created_time": "2026-01-23T10:13:00.000Z",
+        "last_edited_time": "2026-01-27T03:18:00.000Z",
         "created_by": {
           "object": "user",
           "id": "2aed872b-594c-81eb-bc82-000291164988"
@@ -1945,13 +2034,13 @@
         "has_children": true,
         "archived": false,
         "in_trash": false,
-        "type": "numbered_list_item",
-        "numbered_list_item": {
+        "type": "bulleted_list_item",
+        "bulleted_list_item": {
           "rich_text": [
             {
               "type": "text",
               "text": {
-                "content": "상세 자기소개 정보 영역",
+                "content": "상세 영역에는 최소 다음 내용이 포함되어야 한다.",
                 "link": null
               },
               "annotations": {
@@ -1962,7 +2051,7 @@
                 "code": false,
                 "color": "default"
               },
-              "plain_text": "상세 자기소개 정보 영역",
+              "plain_text": "상세 영역에는 최소 다음 내용이 포함되어야 한다.",
               "href": null
             }
           ],
@@ -1971,10 +2060,10 @@
         "children": [
           {
             "object": "block",
-            "id": "2f144860-a4f4-804a-a4bd-e411c3eb974a",
+            "id": "2f144860-a4f4-8036-93af-fdfdf0b71b92",
             "parent": {
               "type": "block_id",
-              "block_id": "2f144860-a4f4-80d0-9b92-d54c669911c4"
+              "block_id": "2f144860-a4f4-808e-90af-e51a6f203b00"
             },
             "created_time": "2026-01-23T10:13:00.000Z",
             "last_edited_time": "2026-01-23T10:13:00.000Z",
@@ -1995,7 +2084,7 @@
                 {
                   "type": "text",
                   "text": {
-                    "content": "요약 카드와 별개로, 상세 자기소개 정보를 보여주는 영역이 자기소개 요약 카드 영역 하단에 존재한다.",
+                    "content": "이름",
                     "link": null
                   },
                   "annotations": {
@@ -2006,7 +2095,7 @@
                     "code": false,
                     "color": "default"
                   },
-                  "plain_text": "요약 카드와 별개로, 상세 자기소개 정보를 보여주는 영역이 자기소개 요약 카드 영역 하단에 존재한다.",
+                  "plain_text": "이름",
                   "href": null
                 }
               ],
@@ -2015,10 +2104,186 @@
           },
           {
             "object": "block",
-            "id": "2f144860-a4f4-808e-90af-e51a6f203b00",
+            "id": "2f144860-a4f4-80ea-8bec-c31194d8aac8",
             "parent": {
               "type": "block_id",
-              "block_id": "2f144860-a4f4-80d0-9b92-d54c669911c4"
+              "block_id": "2f144860-a4f4-808e-90af-e51a6f203b00"
+            },
+            "created_time": "2026-01-23T10:13:00.000Z",
+            "last_edited_time": "2026-01-23T10:13:00.000Z",
+            "created_by": {
+              "object": "user",
+              "id": "2aed872b-594c-81eb-bc82-000291164988"
+            },
+            "last_edited_by": {
+              "object": "user",
+              "id": "2aed872b-594c-81eb-bc82-000291164988"
+            },
+            "has_children": false,
+            "archived": false,
+            "in_trash": false,
+            "type": "bulleted_list_item",
+            "bulleted_list_item": {
+              "rich_text": [
+                {
+                  "type": "text",
+                  "text": {
+                    "content": "소속 파트 (Frontend / Backend / Design / Product Manager)",
+                    "link": null
+                  },
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  },
+                  "plain_text": "소속 파트 (Frontend / Backend / Design / Product Manager)",
+                  "href": null
+                }
+              ],
+              "color": "default"
+            }
+          },
+          {
+            "object": "block",
+            "id": "2f144860-a4f4-808b-9ce4-f0b149624c15",
+            "parent": {
+              "type": "block_id",
+              "block_id": "2f144860-a4f4-808e-90af-e51a6f203b00"
+            },
+            "created_time": "2026-01-23T10:13:00.000Z",
+            "last_edited_time": "2026-01-23T10:13:00.000Z",
+            "created_by": {
+              "object": "user",
+              "id": "2aed872b-594c-81eb-bc82-000291164988"
+            },
+            "last_edited_by": {
+              "object": "user",
+              "id": "2aed872b-594c-81eb-bc82-000291164988"
+            },
+            "has_children": false,
+            "archived": false,
+            "in_trash": false,
+            "type": "bulleted_list_item",
+            "bulleted_list_item": {
+              "rich_text": [
+                {
+                  "type": "text",
+                  "text": {
+                    "content": "동아리명",
+                    "link": null
+                  },
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  },
+                  "plain_text": "동아리명",
+                  "href": null
+                }
+              ],
+              "color": "default"
+            }
+          },
+          {
+            "object": "block",
+            "id": "2f144860-a4f4-809b-8707-f73687c26d23",
+            "parent": {
+              "type": "block_id",
+              "block_id": "2f144860-a4f4-808e-90af-e51a6f203b00"
+            },
+            "created_time": "2026-01-23T10:13:00.000Z",
+            "last_edited_time": "2026-01-23T10:13:00.000Z",
+            "created_by": {
+              "object": "user",
+              "id": "2aed872b-594c-81eb-bc82-000291164988"
+            },
+            "last_edited_by": {
+              "object": "user",
+              "id": "2aed872b-594c-81eb-bc82-000291164988"
+            },
+            "has_children": false,
+            "archived": false,
+            "in_trash": false,
+            "type": "bulleted_list_item",
+            "bulleted_list_item": {
+              "rich_text": [
+                {
+                  "type": "text",
+                  "text": {
+                    "content": "자기소개 한 문단",
+                    "link": null
+                  },
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  },
+                  "plain_text": "자기소개 한 문단",
+                  "href": null
+                }
+              ],
+              "color": "default"
+            }
+          },
+          {
+            "object": "block",
+            "id": "2f144860-a4f4-8072-8aee-f372a045ef93",
+            "parent": {
+              "type": "block_id",
+              "block_id": "2f144860-a4f4-808e-90af-e51a6f203b00"
+            },
+            "created_time": "2026-01-23T10:13:00.000Z",
+            "last_edited_time": "2026-01-23T10:13:00.000Z",
+            "created_by": {
+              "object": "user",
+              "id": "2aed872b-594c-81eb-bc82-000291164988"
+            },
+            "last_edited_by": {
+              "object": "user",
+              "id": "2aed872b-594c-81eb-bc82-000291164988"
+            },
+            "has_children": false,
+            "archived": false,
+            "in_trash": false,
+            "type": "bulleted_list_item",
+            "bulleted_list_item": {
+              "rich_text": [
+                {
+                  "type": "text",
+                  "text": {
+                    "content": "관심 기술 불렛 포인트 목록 (최소 3개 이상)",
+                    "link": null
+                  },
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  },
+                  "plain_text": "관심 기술 불렛 포인트 목록 (최소 3개 이상)",
+                  "href": null
+                }
+              ],
+              "color": "default"
+            }
+          },
+          {
+            "object": "block",
+            "id": "2f144860-a4f4-802e-a144-ebdcc003dcb4",
+            "parent": {
+              "type": "block_id",
+              "block_id": "2f144860-a4f4-808e-90af-e51a6f203b00"
             },
             "created_time": "2026-01-23T10:13:00.000Z",
             "last_edited_time": "2026-01-23T10:13:00.000Z",
@@ -2039,7 +2304,7 @@
                 {
                   "type": "text",
                   "text": {
-                    "content": "상세 영역에는 최소 다음 내용이 포함되어야 한다.",
+                    "content": "연락처",
                     "link": null
                   },
                   "annotations": {
@@ -2050,7 +2315,7 @@
                     "code": false,
                     "color": "default"
                   },
-                  "plain_text": "상세 영역에는 최소 다음 내용이 포함되어야 한다.",
+                  "plain_text": "연락처",
                   "href": null
                 }
               ],
@@ -2059,10 +2324,10 @@
             "children": [
               {
                 "object": "block",
-                "id": "2f144860-a4f4-8036-93af-fdfdf0b71b92",
+                "id": "2f144860-a4f4-8024-8b4f-d7b1cab97bf4",
                 "parent": {
                   "type": "block_id",
-                  "block_id": "2f144860-a4f4-808e-90af-e51a6f203b00"
+                  "block_id": "2f144860-a4f4-802e-a144-ebdcc003dcb4"
                 },
                 "created_time": "2026-01-23T10:13:00.000Z",
                 "last_edited_time": "2026-01-23T10:13:00.000Z",
@@ -2083,7 +2348,7 @@
                     {
                       "type": "text",
                       "text": {
-                        "content": "이름",
+                        "content": "이메일",
                         "link": null
                       },
                       "annotations": {
@@ -2094,7 +2359,7 @@
                         "code": false,
                         "color": "default"
                       },
-                      "plain_text": "이름",
+                      "plain_text": "이메일",
                       "href": null
                     }
                   ],
@@ -2103,10 +2368,10 @@
               },
               {
                 "object": "block",
-                "id": "2f144860-a4f4-80ea-8bec-c31194d8aac8",
+                "id": "2f144860-a4f4-8087-bdc1-cfed6bab81ba",
                 "parent": {
                   "type": "block_id",
-                  "block_id": "2f144860-a4f4-808e-90af-e51a6f203b00"
+                  "block_id": "2f144860-a4f4-802e-a144-ebdcc003dcb4"
                 },
                 "created_time": "2026-01-23T10:13:00.000Z",
                 "last_edited_time": "2026-01-23T10:13:00.000Z",
@@ -2127,7 +2392,7 @@
                     {
                       "type": "text",
                       "text": {
-                        "content": "소속 파트 (Frontend / Backend / Design / Product Manager)",
+                        "content": "웹사이트 (개인 웹사이트가 아닌 임의의 사이트여도 괜찮음)",
                         "link": null
                       },
                       "annotations": {
@@ -2138,7 +2403,7 @@
                         "code": false,
                         "color": "default"
                       },
-                      "plain_text": "소속 파트 (Frontend / Backend / Design / Product Manager)",
+                      "plain_text": "웹사이트 (개인 웹사이트가 아닌 임의의 사이트여도 괜찮음)",
                       "href": null
                     }
                   ],
@@ -2147,10 +2412,10 @@
               },
               {
                 "object": "block",
-                "id": "2f144860-a4f4-808b-9ce4-f0b149624c15",
+                "id": "2f144860-a4f4-8026-b9e0-c01866979939",
                 "parent": {
                   "type": "block_id",
-                  "block_id": "2f144860-a4f4-808e-90af-e51a6f203b00"
+                  "block_id": "2f144860-a4f4-802e-a144-ebdcc003dcb4"
                 },
                 "created_time": "2026-01-23T10:13:00.000Z",
                 "last_edited_time": "2026-01-23T10:13:00.000Z",
@@ -2171,7 +2436,7 @@
                     {
                       "type": "text",
                       "text": {
-                        "content": "동아리명",
+                        "content": "휴대전화 번호",
                         "link": null
                       },
                       "annotations": {
@@ -2182,317 +2447,7 @@
                         "code": false,
                         "color": "default"
                       },
-                      "plain_text": "동아리명",
-                      "href": null
-                    }
-                  ],
-                  "color": "default"
-                }
-              },
-              {
-                "object": "block",
-                "id": "2f144860-a4f4-809b-8707-f73687c26d23",
-                "parent": {
-                  "type": "block_id",
-                  "block_id": "2f144860-a4f4-808e-90af-e51a6f203b00"
-                },
-                "created_time": "2026-01-23T10:13:00.000Z",
-                "last_edited_time": "2026-01-23T10:13:00.000Z",
-                "created_by": {
-                  "object": "user",
-                  "id": "2aed872b-594c-81eb-bc82-000291164988"
-                },
-                "last_edited_by": {
-                  "object": "user",
-                  "id": "2aed872b-594c-81eb-bc82-000291164988"
-                },
-                "has_children": false,
-                "archived": false,
-                "in_trash": false,
-                "type": "bulleted_list_item",
-                "bulleted_list_item": {
-                  "rich_text": [
-                    {
-                      "type": "text",
-                      "text": {
-                        "content": "자기소개 한 문단",
-                        "link": null
-                      },
-                      "annotations": {
-                        "bold": false,
-                        "italic": false,
-                        "strikethrough": false,
-                        "underline": false,
-                        "code": false,
-                        "color": "default"
-                      },
-                      "plain_text": "자기소개 한 문단",
-                      "href": null
-                    }
-                  ],
-                  "color": "default"
-                }
-              },
-              {
-                "object": "block",
-                "id": "2f144860-a4f4-8072-8aee-f372a045ef93",
-                "parent": {
-                  "type": "block_id",
-                  "block_id": "2f144860-a4f4-808e-90af-e51a6f203b00"
-                },
-                "created_time": "2026-01-23T10:13:00.000Z",
-                "last_edited_time": "2026-01-23T10:13:00.000Z",
-                "created_by": {
-                  "object": "user",
-                  "id": "2aed872b-594c-81eb-bc82-000291164988"
-                },
-                "last_edited_by": {
-                  "object": "user",
-                  "id": "2aed872b-594c-81eb-bc82-000291164988"
-                },
-                "has_children": false,
-                "archived": false,
-                "in_trash": false,
-                "type": "bulleted_list_item",
-                "bulleted_list_item": {
-                  "rich_text": [
-                    {
-                      "type": "text",
-                      "text": {
-                        "content": "관심 기술 불렛 포인트 목록 (최소 3개 이상)",
-                        "link": null
-                      },
-                      "annotations": {
-                        "bold": false,
-                        "italic": false,
-                        "strikethrough": false,
-                        "underline": false,
-                        "code": false,
-                        "color": "default"
-                      },
-                      "plain_text": "관심 기술 불렛 포인트 목록 (최소 3개 이상)",
-                      "href": null
-                    }
-                  ],
-                  "color": "default"
-                }
-              },
-              {
-                "object": "block",
-                "id": "2f144860-a4f4-802e-a144-ebdcc003dcb4",
-                "parent": {
-                  "type": "block_id",
-                  "block_id": "2f144860-a4f4-808e-90af-e51a6f203b00"
-                },
-                "created_time": "2026-01-23T10:13:00.000Z",
-                "last_edited_time": "2026-01-23T10:13:00.000Z",
-                "created_by": {
-                  "object": "user",
-                  "id": "2aed872b-594c-81eb-bc82-000291164988"
-                },
-                "last_edited_by": {
-                  "object": "user",
-                  "id": "2aed872b-594c-81eb-bc82-000291164988"
-                },
-                "has_children": true,
-                "archived": false,
-                "in_trash": false,
-                "type": "bulleted_list_item",
-                "bulleted_list_item": {
-                  "rich_text": [
-                    {
-                      "type": "text",
-                      "text": {
-                        "content": "연락처",
-                        "link": null
-                      },
-                      "annotations": {
-                        "bold": false,
-                        "italic": false,
-                        "strikethrough": false,
-                        "underline": false,
-                        "code": false,
-                        "color": "default"
-                      },
-                      "plain_text": "연락처",
-                      "href": null
-                    }
-                  ],
-                  "color": "default"
-                },
-                "children": [
-                  {
-                    "object": "block",
-                    "id": "2f144860-a4f4-8024-8b4f-d7b1cab97bf4",
-                    "parent": {
-                      "type": "block_id",
-                      "block_id": "2f144860-a4f4-802e-a144-ebdcc003dcb4"
-                    },
-                    "created_time": "2026-01-23T10:13:00.000Z",
-                    "last_edited_time": "2026-01-23T10:13:00.000Z",
-                    "created_by": {
-                      "object": "user",
-                      "id": "2aed872b-594c-81eb-bc82-000291164988"
-                    },
-                    "last_edited_by": {
-                      "object": "user",
-                      "id": "2aed872b-594c-81eb-bc82-000291164988"
-                    },
-                    "has_children": false,
-                    "archived": false,
-                    "in_trash": false,
-                    "type": "bulleted_list_item",
-                    "bulleted_list_item": {
-                      "rich_text": [
-                        {
-                          "type": "text",
-                          "text": {
-                            "content": "이메일",
-                            "link": null
-                          },
-                          "annotations": {
-                            "bold": false,
-                            "italic": false,
-                            "strikethrough": false,
-                            "underline": false,
-                            "code": false,
-                            "color": "default"
-                          },
-                          "plain_text": "이메일",
-                          "href": null
-                        }
-                      ],
-                      "color": "default"
-                    }
-                  },
-                  {
-                    "object": "block",
-                    "id": "2f144860-a4f4-8087-bdc1-cfed6bab81ba",
-                    "parent": {
-                      "type": "block_id",
-                      "block_id": "2f144860-a4f4-802e-a144-ebdcc003dcb4"
-                    },
-                    "created_time": "2026-01-23T10:13:00.000Z",
-                    "last_edited_time": "2026-01-23T10:13:00.000Z",
-                    "created_by": {
-                      "object": "user",
-                      "id": "2aed872b-594c-81eb-bc82-000291164988"
-                    },
-                    "last_edited_by": {
-                      "object": "user",
-                      "id": "2aed872b-594c-81eb-bc82-000291164988"
-                    },
-                    "has_children": false,
-                    "archived": false,
-                    "in_trash": false,
-                    "type": "bulleted_list_item",
-                    "bulleted_list_item": {
-                      "rich_text": [
-                        {
-                          "type": "text",
-                          "text": {
-                            "content": "웹사이트 (개인 웹사이트가 아닌 임의의 사이트여도 괜찮음)",
-                            "link": null
-                          },
-                          "annotations": {
-                            "bold": false,
-                            "italic": false,
-                            "strikethrough": false,
-                            "underline": false,
-                            "code": false,
-                            "color": "default"
-                          },
-                          "plain_text": "웹사이트 (개인 웹사이트가 아닌 임의의 사이트여도 괜찮음)",
-                          "href": null
-                        }
-                      ],
-                      "color": "default"
-                    }
-                  },
-                  {
-                    "object": "block",
-                    "id": "2f144860-a4f4-8026-b9e0-c01866979939",
-                    "parent": {
-                      "type": "block_id",
-                      "block_id": "2f144860-a4f4-802e-a144-ebdcc003dcb4"
-                    },
-                    "created_time": "2026-01-23T10:13:00.000Z",
-                    "last_edited_time": "2026-01-23T10:13:00.000Z",
-                    "created_by": {
-                      "object": "user",
-                      "id": "2aed872b-594c-81eb-bc82-000291164988"
-                    },
-                    "last_edited_by": {
-                      "object": "user",
-                      "id": "2aed872b-594c-81eb-bc82-000291164988"
-                    },
-                    "has_children": false,
-                    "archived": false,
-                    "in_trash": false,
-                    "type": "bulleted_list_item",
-                    "bulleted_list_item": {
-                      "rich_text": [
-                        {
-                          "type": "text",
-                          "text": {
-                            "content": "휴대전화 번호",
-                            "link": null
-                          },
-                          "annotations": {
-                            "bold": false,
-                            "italic": false,
-                            "strikethrough": false,
-                            "underline": false,
-                            "code": false,
-                            "color": "default"
-                          },
-                          "plain_text": "휴대전화 번호",
-                          "href": null
-                        }
-                      ],
-                      "color": "default"
-                    }
-                  }
-                ]
-              },
-              {
-                "object": "block",
-                "id": "2f144860-a4f4-8034-b910-d82edb7e611a",
-                "parent": {
-                  "type": "block_id",
-                  "block_id": "2f144860-a4f4-808e-90af-e51a6f203b00"
-                },
-                "created_time": "2026-01-23T10:13:00.000Z",
-                "last_edited_time": "2026-01-23T10:13:00.000Z",
-                "created_by": {
-                  "object": "user",
-                  "id": "2aed872b-594c-81eb-bc82-000291164988"
-                },
-                "last_edited_by": {
-                  "object": "user",
-                  "id": "2aed872b-594c-81eb-bc82-000291164988"
-                },
-                "has_children": false,
-                "archived": false,
-                "in_trash": false,
-                "type": "bulleted_list_item",
-                "bulleted_list_item": {
-                  "rich_text": [
-                    {
-                      "type": "text",
-                      "text": {
-                        "content": "각오 한 마디",
-                        "link": null
-                      },
-                      "annotations": {
-                        "bold": false,
-                        "italic": false,
-                        "strikethrough": false,
-                        "underline": false,
-                        "code": false,
-                        "color": "default"
-                      },
-                      "plain_text": "각오 한 마디",
+                      "plain_text": "휴대전화 번호",
                       "href": null
                     }
                   ],
@@ -2503,10 +2458,10 @@
           },
           {
             "object": "block",
-            "id": "2f144860-a4f4-808b-897a-d598be0b848a",
+            "id": "2f144860-a4f4-8034-b910-d82edb7e611a",
             "parent": {
               "type": "block_id",
-              "block_id": "2f144860-a4f4-80d0-9b92-d54c669911c4"
+              "block_id": "2f144860-a4f4-808e-90af-e51a6f203b00"
             },
             "created_time": "2026-01-23T10:13:00.000Z",
             "last_edited_time": "2026-01-23T10:13:00.000Z",
@@ -2527,7 +2482,7 @@
                 {
                   "type": "text",
                   "text": {
-                    "content": "자기소개, 관심 기술, 각오는 제목과 내용이 구분된 구조로 구성되어 있어야 하며, 읽기 쉬운 간격을 유지해야 한다.",
+                    "content": "각오 한 마디",
                     "link": null
                   },
                   "annotations": {
@@ -2538,7 +2493,7 @@
                     "code": false,
                     "color": "default"
                   },
-                  "plain_text": "자기소개, 관심 기술, 각오는 제목과 내용이 구분된 구조로 구성되어 있어야 하며, 읽기 쉬운 간격을 유지해야 한다.",
+                  "plain_text": "각오 한 마디",
                   "href": null
                 }
               ],
@@ -2546,6 +2501,50 @@
             }
           }
         ]
+      },
+      {
+        "object": "block",
+        "id": "2f144860-a4f4-808b-897a-d598be0b848a",
+        "parent": {
+          "type": "block_id",
+          "block_id": "2f144860-a4f4-8039-afe0-df73916c406b"
+        },
+        "created_time": "2026-01-23T10:13:00.000Z",
+        "last_edited_time": "2026-01-27T03:18:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "has_children": false,
+        "archived": false,
+        "in_trash": false,
+        "type": "bulleted_list_item",
+        "bulleted_list_item": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "자기소개, 관심 기술, 각오는 제목과 내용이 구분된 구조로 구성되어 있어야 하며, 읽기 쉬운 간격을 유지해야 한다.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "자기소개, 관심 기술, 각오는 제목과 내용이 구분된 구조로 구성되어 있어야 하며, 읽기 쉬운 간격을 유지해야 한다.",
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
       },
       {
         "object": "block",
@@ -2630,7 +2629,7 @@
           "block_id": "2f144860-a4f4-8039-afe0-df73916c406b"
         },
         "created_time": "2026-01-23T10:13:00.000Z",
-        "last_edited_time": "2026-01-23T10:13:00.000Z",
+        "last_edited_time": "2026-01-27T03:18:00.000Z",
         "created_by": {
           "object": "user",
           "id": "2aed872b-594c-81eb-bc82-000291164988"
@@ -2642,8 +2641,8 @@
         "has_children": false,
         "archived": false,
         "in_trash": false,
-        "type": "paragraph",
-        "paragraph": {
+        "type": "heading_3",
+        "heading_3": {
           "rich_text": [
             {
               "type": "text",
@@ -2663,6 +2662,7 @@
               "href": null
             }
           ],
+          "is_toggleable": false,
           "color": "default"
         }
       },
@@ -3330,6 +3330,29 @@
       },
       {
         "object": "block",
+        "id": "2f544860-a4f4-8032-ae73-d920b0990057",
+        "parent": {
+          "type": "block_id",
+          "block_id": "2f144860-a4f4-80dd-8e53-d3f27b94969f"
+        },
+        "created_time": "2026-01-27T03:18:00.000Z",
+        "last_edited_time": "2026-01-27T03:18:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "has_children": false,
+        "archived": false,
+        "in_trash": false,
+        "type": "divider",
+        "divider": {}
+      },
+      {
+        "object": "block",
         "id": "2f144860-a4f4-8084-bb31-ca14f7e098c4",
         "parent": {
           "type": "block_id",
@@ -3547,7 +3570,7 @@
           "block_id": "2f144860-a4f4-80dd-8e53-d3f27b94969f"
         },
         "created_time": "2026-01-23T10:46:00.000Z",
-        "last_edited_time": "2026-01-23T10:46:00.000Z",
+        "last_edited_time": "2026-01-27T03:18:00.000Z",
         "created_by": {
           "object": "user",
           "id": "2aed872b-594c-81eb-bc82-000291164988"
@@ -3559,11 +3582,8 @@
         "has_children": false,
         "archived": false,
         "in_trash": false,
-        "type": "paragraph",
-        "paragraph": {
-          "rich_text": [],
-          "color": "default"
-        }
+        "type": "divider",
+        "divider": {}
       },
       {
         "object": "block",
@@ -3794,7 +3814,7 @@
           "block_id": "2f144860-a4f4-80dd-8e53-d3f27b94969f"
         },
         "created_time": "2026-01-23T10:47:00.000Z",
-        "last_edited_time": "2026-01-23T10:47:00.000Z",
+        "last_edited_time": "2026-01-27T03:18:00.000Z",
         "created_by": {
           "object": "user",
           "id": "2aed872b-594c-81eb-bc82-000291164988"
@@ -3806,11 +3826,8 @@
         "has_children": false,
         "archived": false,
         "in_trash": false,
-        "type": "paragraph",
-        "paragraph": {
-          "rich_text": [],
-          "color": "default"
-        }
+        "type": "divider",
+        "divider": {}
       },
       {
         "object": "block",
@@ -3997,7 +4014,7 @@
           "block_id": "2f144860-a4f4-80dd-8e53-d3f27b94969f"
         },
         "created_time": "2026-01-23T10:48:00.000Z",
-        "last_edited_time": "2026-01-23T10:48:00.000Z",
+        "last_edited_time": "2026-01-27T03:21:00.000Z",
         "created_by": {
           "object": "user",
           "id": "2aed872b-594c-81eb-bc82-000291164988"
@@ -4009,11 +4026,8 @@
         "has_children": false,
         "archived": false,
         "in_trash": false,
-        "type": "paragraph",
-        "paragraph": {
-          "rich_text": [],
-          "color": "default"
-        }
+        "type": "divider",
+        "divider": {}
       },
       {
         "object": "block",
@@ -4244,7 +4258,7 @@
           "block_id": "2f144860-a4f4-80dd-8e53-d3f27b94969f"
         },
         "created_time": "2026-01-23T10:48:00.000Z",
-        "last_edited_time": "2026-01-23T10:48:00.000Z",
+        "last_edited_time": "2026-01-27T03:21:00.000Z",
         "created_by": {
           "object": "user",
           "id": "2aed872b-594c-81eb-bc82-000291164988"
@@ -4256,11 +4270,8 @@
         "has_children": false,
         "archived": false,
         "in_trash": false,
-        "type": "paragraph",
-        "paragraph": {
-          "rich_text": [],
-          "color": "default"
-        }
+        "type": "divider",
+        "divider": {}
       },
       {
         "object": "block",
@@ -4869,8 +4880,8 @@
           "caption": [],
           "type": "file",
           "file": {
-            "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/c69962b0-3951-485b-b10a-5bb29576bba8/cb2283d8-d539-4d79-9c66-383e8e824c66/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA_2026-01-14_%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE_10.11.24.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466ZFTBZNJ4%2F20260123%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260123T105719Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjECsaCXVzLXdlc3QtMiJHMEUCIA69d273R6MtPkcRluQ%2ByULsfxPICqFMp2fklv%2BkUXg%2FAiEAxKnVdZ5uwi5IGJwSjaL9%2F73gqos6r8vR5kmXBs%2FSMYMqiAQI9P%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDEhCEfV5RdiOB8mW8SrcA7x0uGsRR5RKJNAtKFYRIwiAKwXnO6ayoVU%2BOphm%2FTJhSsZ%2BFtj4mdZDgrMcwdt9ydwIrS5SQRORzlzrTOUqdLIUuPSKZbAQzFv5C%2Fgw0iCTbA2u%2FaKBr2Tk4U%2F4ybk27fCFRdu7VSBk79aZ1j0ZovDxsYaiQjraX27qGMDJ1rHE8l8duH62IzpThc0yPNEFFBAgqbf%2B6igBUfdbtemkwa5zkHNni%2BsgOWTLUTrhKA%2Bok2Q8U3p%2FEyWgyl0dU5MoQM2z0OmxSdu4yTCq7xbaGCXfZDOlUe%2BHoC%2Fdz5XLgfqGECKUdMsv%2BdkkOsuQdC4Bx8kNdGTET4Ly%2FWm6W6VwnlKP%2BUK8lhO2ODmBrCKgd%2FYbVYF%2F8K5d27h4w1kzQOY0voBr6diFmGKbnf4KvwaALhO4EzU8e4InJk0WYr3cw5RjGlFUTxJ9ACvnSWW%2FyySO4ld7ZXrEzKwKwFaZgdhICMJZGMp0%2F%2FgV655J17g%2BRSGWWqyFDAP5CPLbNg44hX%2BT%2FSV6QBfnBP7N2tJ2YNQ2HcKYD%2BeQdnQS9JuDMNYn7Ga%2FHG5JXYf2qPhz7PBQY3Rh60piyhukNqNQtpLO%2B%2BK29u76py4n%2BjgY7jSA480VQhKBdN57OVlP3kDBYhQzMNWYzcsGOqUBq6fIQqCLs72AMHyQLBARlGq%2BLxMQmFAdbyw1wE4wrll%2BxxKeQz45UUfsTVq2jESuOCeVxtLFryfElbqBRrpFYM50KxMOOL5MaAxtnBbo8mrpnsrMknkYUYlw50DkemP6SJ6mfssL%2B01yvnoOn%2B3KRK%2FC5Gc%2Fj3KCDZvKCtdQlUIZiVMKv9j%2BUYL%2FhT62G0FD8r0l0CX6gnLVix6c01cJGVaEaN5O&X-Amz-Signature=a63a6a822d9de03d3851fd8414452b578502435be566675070452889bab7c0f8&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
-            "expiry_time": "2026-01-23T11:57:19.440Z"
+            "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/c69962b0-3951-485b-b10a-5bb29576bba8/cb2283d8-d539-4d79-9c66-383e8e824c66/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA_2026-01-14_%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE_10.11.24.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB46644FPARLA%2F20260127%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260127T045833Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEIT%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIGIn2fbNCwWQtKOSv4nWIVa8ZlnEFXLKX3T5%2FansJsPUAiEAlzaWAZsporfuVKTEdIxaSO8IZUN5QeDPTNeBnlwTImwq%2FwMITRAAGgw2Mzc0MjMxODM4MDUiDOyRamBiL%2FxWz2mwFyrcA4hLx%2BH75A5U61d8R5O%2FLni2c4ol7U8ONawFeNfB%2BAj6b173%2ByM46cje0v4ZjkRIm0o4i8cQ5qcREXfYp0yLrhuNTPYJhkFxJVmNX1lvdgkSo1pfAW%2FRbwZc9ka8t2ohFfzaiXBywviAoA4KIVBAREZQRj%2FAXsLmp6rO7C3EWtWXI%2BY6z7x%2FgfafZM6tk98FXMYQ%2BKIOVI35ODBdqzTQo6MUe9wt%2F1J8Nru1xdIblfz3wJh8PlQwb8bI98gfsdVJ7S3nqc%2BKhm12T4pvB2ZKdtLFLd2MO04ZUOAe6J0m6%2BTfKCS1Zum6gdXFMsuZR9sxl1xHLQmyR042OcqGT1%2BiWn8xCo6ANo0cXIJZVaq7fcgr4hFJvIORyOrIFrvdFahBdCej0AZzDvc9Xz3Rjjq2%2BnQp8hvRyOxCBqJr98IARWYkdqbt7wVFro7uzDcfl78VpyLpZJjQArTgagNSxqvXeTNeO7Fsbo%2FdtpGaHyE1CepeDXPqY5uMvOu9lTSz84pj3n9kimbEVEUZ07rdbG9EFCyHWS1UG0jrvJNHnfp5mDktKQmgEPBgVnpboYoSVTvziUD9SFIHRhPk8LeIbPcXeHJi4kQ%2FI7EV3Y5v2ghInXd7fLSCk1emeaIyHP19MMf24MsGOqUBQovu9AKh68TYHEA0XqoYbZ6VGXBQqADEzJWjqIU11mLUAOnRJ1BPF%2BJDn3NWI6UwVEi%2F4cjFWkyYq6tiTCkVmQNyrBMAmuD62nVrLo5TukDVq3%2FUHLWrL35oEipojLiLCU%2FxZ9%2Fn21nb0tATi8Dbzz5wAJCWl62hfHDeFu%2B4dwK3b1Tc0rX0cAjYny%2Frjf3L0XsYY5F9vh30ciQycnc92306NjYS&X-Amz-Signature=9128f7de048814717879f6218afdd6dbcb30c7dc1ab271a668c2778e19d02dac&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+            "expiry_time": "2026-01-27T05:58:33.641Z"
           }
         }
       },
@@ -4996,8 +5007,8 @@
           "caption": [],
           "type": "file",
           "file": {
-            "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/c69962b0-3951-485b-b10a-5bb29576bba8/d8534cb8-e568-4b1b-bfc2-579bf9e51af5/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA_2026-01-14_%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE_8.13.52.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466ZFTBZNJ4%2F20260123%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260123T105719Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjECsaCXVzLXdlc3QtMiJHMEUCIA69d273R6MtPkcRluQ%2ByULsfxPICqFMp2fklv%2BkUXg%2FAiEAxKnVdZ5uwi5IGJwSjaL9%2F73gqos6r8vR5kmXBs%2FSMYMqiAQI9P%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDEhCEfV5RdiOB8mW8SrcA7x0uGsRR5RKJNAtKFYRIwiAKwXnO6ayoVU%2BOphm%2FTJhSsZ%2BFtj4mdZDgrMcwdt9ydwIrS5SQRORzlzrTOUqdLIUuPSKZbAQzFv5C%2Fgw0iCTbA2u%2FaKBr2Tk4U%2F4ybk27fCFRdu7VSBk79aZ1j0ZovDxsYaiQjraX27qGMDJ1rHE8l8duH62IzpThc0yPNEFFBAgqbf%2B6igBUfdbtemkwa5zkHNni%2BsgOWTLUTrhKA%2Bok2Q8U3p%2FEyWgyl0dU5MoQM2z0OmxSdu4yTCq7xbaGCXfZDOlUe%2BHoC%2Fdz5XLgfqGECKUdMsv%2BdkkOsuQdC4Bx8kNdGTET4Ly%2FWm6W6VwnlKP%2BUK8lhO2ODmBrCKgd%2FYbVYF%2F8K5d27h4w1kzQOY0voBr6diFmGKbnf4KvwaALhO4EzU8e4InJk0WYr3cw5RjGlFUTxJ9ACvnSWW%2FyySO4ld7ZXrEzKwKwFaZgdhICMJZGMp0%2F%2FgV655J17g%2BRSGWWqyFDAP5CPLbNg44hX%2BT%2FSV6QBfnBP7N2tJ2YNQ2HcKYD%2BeQdnQS9JuDMNYn7Ga%2FHG5JXYf2qPhz7PBQY3Rh60piyhukNqNQtpLO%2B%2BK29u76py4n%2BjgY7jSA480VQhKBdN57OVlP3kDBYhQzMNWYzcsGOqUBq6fIQqCLs72AMHyQLBARlGq%2BLxMQmFAdbyw1wE4wrll%2BxxKeQz45UUfsTVq2jESuOCeVxtLFryfElbqBRrpFYM50KxMOOL5MaAxtnBbo8mrpnsrMknkYUYlw50DkemP6SJ6mfssL%2B01yvnoOn%2B3KRK%2FC5Gc%2Fj3KCDZvKCtdQlUIZiVMKv9j%2BUYL%2FhT62G0FD8r0l0CX6gnLVix6c01cJGVaEaN5O&X-Amz-Signature=ed9b3b7faace68fba3b6b923099bd408a5e1bc56e8ef7328da6b69068e3b41ff&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
-            "expiry_time": "2026-01-23T11:57:19.441Z"
+            "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/c69962b0-3951-485b-b10a-5bb29576bba8/d8534cb8-e568-4b1b-bfc2-579bf9e51af5/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA_2026-01-14_%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE_8.13.52.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB46644FPARLA%2F20260127%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260127T045833Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEIT%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIGIn2fbNCwWQtKOSv4nWIVa8ZlnEFXLKX3T5%2FansJsPUAiEAlzaWAZsporfuVKTEdIxaSO8IZUN5QeDPTNeBnlwTImwq%2FwMITRAAGgw2Mzc0MjMxODM4MDUiDOyRamBiL%2FxWz2mwFyrcA4hLx%2BH75A5U61d8R5O%2FLni2c4ol7U8ONawFeNfB%2BAj6b173%2ByM46cje0v4ZjkRIm0o4i8cQ5qcREXfYp0yLrhuNTPYJhkFxJVmNX1lvdgkSo1pfAW%2FRbwZc9ka8t2ohFfzaiXBywviAoA4KIVBAREZQRj%2FAXsLmp6rO7C3EWtWXI%2BY6z7x%2FgfafZM6tk98FXMYQ%2BKIOVI35ODBdqzTQo6MUe9wt%2F1J8Nru1xdIblfz3wJh8PlQwb8bI98gfsdVJ7S3nqc%2BKhm12T4pvB2ZKdtLFLd2MO04ZUOAe6J0m6%2BTfKCS1Zum6gdXFMsuZR9sxl1xHLQmyR042OcqGT1%2BiWn8xCo6ANo0cXIJZVaq7fcgr4hFJvIORyOrIFrvdFahBdCej0AZzDvc9Xz3Rjjq2%2BnQp8hvRyOxCBqJr98IARWYkdqbt7wVFro7uzDcfl78VpyLpZJjQArTgagNSxqvXeTNeO7Fsbo%2FdtpGaHyE1CepeDXPqY5uMvOu9lTSz84pj3n9kimbEVEUZ07rdbG9EFCyHWS1UG0jrvJNHnfp5mDktKQmgEPBgVnpboYoSVTvziUD9SFIHRhPk8LeIbPcXeHJi4kQ%2FI7EV3Y5v2ghInXd7fLSCk1emeaIyHP19MMf24MsGOqUBQovu9AKh68TYHEA0XqoYbZ6VGXBQqADEzJWjqIU11mLUAOnRJ1BPF%2BJDn3NWI6UwVEi%2F4cjFWkyYq6tiTCkVmQNyrBMAmuD62nVrLo5TukDVq3%2FUHLWrL35oEipojLiLCU%2FxZ9%2Fn21nb0tATi8Dbzz5wAJCWl62hfHDeFu%2B4dwK3b1Tc0rX0cAjYny%2Frjf3L0XsYY5F9vh30ciQycnc92306NjYS&X-Amz-Signature=3fdca735fa003b0f1ff4cab031dbb6838a4d6fde8ee380b18da04287057c534d&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+            "expiry_time": "2026-01-27T05:58:33.663Z"
           }
         }
       },
@@ -5123,8 +5134,8 @@
           "caption": [],
           "type": "file",
           "file": {
-            "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/c69962b0-3951-485b-b10a-5bb29576bba8/e808331a-4d32-4632-8340-fc983d04bb07/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA_2026-01-14_%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE_10.09.16.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466ZFTBZNJ4%2F20260123%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260123T105719Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjECsaCXVzLXdlc3QtMiJHMEUCIA69d273R6MtPkcRluQ%2ByULsfxPICqFMp2fklv%2BkUXg%2FAiEAxKnVdZ5uwi5IGJwSjaL9%2F73gqos6r8vR5kmXBs%2FSMYMqiAQI9P%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDEhCEfV5RdiOB8mW8SrcA7x0uGsRR5RKJNAtKFYRIwiAKwXnO6ayoVU%2BOphm%2FTJhSsZ%2BFtj4mdZDgrMcwdt9ydwIrS5SQRORzlzrTOUqdLIUuPSKZbAQzFv5C%2Fgw0iCTbA2u%2FaKBr2Tk4U%2F4ybk27fCFRdu7VSBk79aZ1j0ZovDxsYaiQjraX27qGMDJ1rHE8l8duH62IzpThc0yPNEFFBAgqbf%2B6igBUfdbtemkwa5zkHNni%2BsgOWTLUTrhKA%2Bok2Q8U3p%2FEyWgyl0dU5MoQM2z0OmxSdu4yTCq7xbaGCXfZDOlUe%2BHoC%2Fdz5XLgfqGECKUdMsv%2BdkkOsuQdC4Bx8kNdGTET4Ly%2FWm6W6VwnlKP%2BUK8lhO2ODmBrCKgd%2FYbVYF%2F8K5d27h4w1kzQOY0voBr6diFmGKbnf4KvwaALhO4EzU8e4InJk0WYr3cw5RjGlFUTxJ9ACvnSWW%2FyySO4ld7ZXrEzKwKwFaZgdhICMJZGMp0%2F%2FgV655J17g%2BRSGWWqyFDAP5CPLbNg44hX%2BT%2FSV6QBfnBP7N2tJ2YNQ2HcKYD%2BeQdnQS9JuDMNYn7Ga%2FHG5JXYf2qPhz7PBQY3Rh60piyhukNqNQtpLO%2B%2BK29u76py4n%2BjgY7jSA480VQhKBdN57OVlP3kDBYhQzMNWYzcsGOqUBq6fIQqCLs72AMHyQLBARlGq%2BLxMQmFAdbyw1wE4wrll%2BxxKeQz45UUfsTVq2jESuOCeVxtLFryfElbqBRrpFYM50KxMOOL5MaAxtnBbo8mrpnsrMknkYUYlw50DkemP6SJ6mfssL%2B01yvnoOn%2B3KRK%2FC5Gc%2Fj3KCDZvKCtdQlUIZiVMKv9j%2BUYL%2FhT62G0FD8r0l0CX6gnLVix6c01cJGVaEaN5O&X-Amz-Signature=a7fff516d1b4ceaf736a01d1771f6ba1712a3dde21b1d5f1f7682ae1483f8597&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
-            "expiry_time": "2026-01-23T11:57:19.441Z"
+            "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/c69962b0-3951-485b-b10a-5bb29576bba8/e808331a-4d32-4632-8340-fc983d04bb07/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA_2026-01-14_%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE_10.09.16.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB46644FPARLA%2F20260127%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260127T045833Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEIT%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIGIn2fbNCwWQtKOSv4nWIVa8ZlnEFXLKX3T5%2FansJsPUAiEAlzaWAZsporfuVKTEdIxaSO8IZUN5QeDPTNeBnlwTImwq%2FwMITRAAGgw2Mzc0MjMxODM4MDUiDOyRamBiL%2FxWz2mwFyrcA4hLx%2BH75A5U61d8R5O%2FLni2c4ol7U8ONawFeNfB%2BAj6b173%2ByM46cje0v4ZjkRIm0o4i8cQ5qcREXfYp0yLrhuNTPYJhkFxJVmNX1lvdgkSo1pfAW%2FRbwZc9ka8t2ohFfzaiXBywviAoA4KIVBAREZQRj%2FAXsLmp6rO7C3EWtWXI%2BY6z7x%2FgfafZM6tk98FXMYQ%2BKIOVI35ODBdqzTQo6MUe9wt%2F1J8Nru1xdIblfz3wJh8PlQwb8bI98gfsdVJ7S3nqc%2BKhm12T4pvB2ZKdtLFLd2MO04ZUOAe6J0m6%2BTfKCS1Zum6gdXFMsuZR9sxl1xHLQmyR042OcqGT1%2BiWn8xCo6ANo0cXIJZVaq7fcgr4hFJvIORyOrIFrvdFahBdCej0AZzDvc9Xz3Rjjq2%2BnQp8hvRyOxCBqJr98IARWYkdqbt7wVFro7uzDcfl78VpyLpZJjQArTgagNSxqvXeTNeO7Fsbo%2FdtpGaHyE1CepeDXPqY5uMvOu9lTSz84pj3n9kimbEVEUZ07rdbG9EFCyHWS1UG0jrvJNHnfp5mDktKQmgEPBgVnpboYoSVTvziUD9SFIHRhPk8LeIbPcXeHJi4kQ%2FI7EV3Y5v2ghInXd7fLSCk1emeaIyHP19MMf24MsGOqUBQovu9AKh68TYHEA0XqoYbZ6VGXBQqADEzJWjqIU11mLUAOnRJ1BPF%2BJDn3NWI6UwVEi%2F4cjFWkyYq6tiTCkVmQNyrBMAmuD62nVrLo5TukDVq3%2FUHLWrL35oEipojLiLCU%2FxZ9%2Fn21nb0tATi8Dbzz5wAJCWl62hfHDeFu%2B4dwK3b1Tc0rX0cAjYny%2Frjf3L0XsYY5F9vh30ciQycnc92306NjYS&X-Amz-Signature=d747983f6ba0e3f6d4e83d45afc66a765abb7ff92cad98bde19f1886f754fdfd&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+            "expiry_time": "2026-01-27T05:58:33.669Z"
           }
         }
       },
@@ -6208,7 +6219,7 @@
           "block_id": "2f144860-a4f4-80cd-a42c-f4fd534a9c9f"
         },
         "created_time": "2026-01-23T10:13:00.000Z",
-        "last_edited_time": "2026-01-23T10:13:00.000Z",
+        "last_edited_time": "2026-01-27T03:21:00.000Z",
         "created_by": {
           "object": "user",
           "id": "2aed872b-594c-81eb-bc82-000291164988"
@@ -6220,13 +6231,13 @@
         "has_children": false,
         "archived": false,
         "in_trash": false,
-        "type": "paragraph",
-        "paragraph": {
+        "type": "heading_3",
+        "heading_3": {
           "rich_text": [
             {
               "type": "text",
               "text": {
-                "content": "보너스 1 - 마우스를 올렸을 때 스타일 변화 주기",
+                "content": "1. 마우스를 올렸을 때 스타일 변화 주기",
                 "link": null
               },
               "annotations": {
@@ -6237,10 +6248,11 @@
                 "code": false,
                 "color": "default"
               },
-              "plain_text": "보너스 1 - 마우스를 올렸을 때 스타일 변화 주기",
+              "plain_text": "1. 마우스를 올렸을 때 스타일 변화 주기",
               "href": null
             }
           ],
+          "is_toggleable": false,
           "color": "default"
         }
       },
@@ -6269,8 +6281,8 @@
           "caption": [],
           "type": "file",
           "file": {
-            "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/c69962b0-3951-485b-b10a-5bb29576bba8/23af86ad-b507-49e9-ad49-1d7483952e44/%E1%84%86%E1%85%AE%E1%84%8C%E1%85%A6.mov?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466TLA55UBE%2F20260123%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260123T105724Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjECsaCXVzLXdlc3QtMiJHMEUCIQCSf7qtHGjWbmzlEatZs4YUyLcCHbHnhPLZm0QRQUBWpgIgaoxKtHvjNYRREDuTgEe6O1Y%2B7SLxzsKu4eGw3uL0TXAqiAQI8%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDApzEqTZfhf4rf2xICrcA%2BJrVIYuyiKr8h9%2FI2B3STM3aU3aQmlRWEty0eElvZv8LI9jUU7C%2FsMTr1kaEquYbzYfi36q0Zu%2BzfBnjRq6n22oifVqwbyKZ35gNbQjpWr3MxVh8cHFLDZt7mZkbrtbzi%2F%2FIp3UsWRH%2BPDHHHIZzs0o6581qKNWuJS7RgAYa4hQ1jmQ2LcoQ1r5MpiF24aP%2B7rY6by078RB3C5dz1JR8SaR0TlVKkP179eiQvk%2BhUICuIKan7DzObNyrKLJL4H6Qvst0rb2c4Fg46GYObr6dbFn4ExOd76RU5532f%2B4l%2FgwFRjp%2Ba%2FaaEpQDF9YsxDVzRPLwVQ0fNIylT%2F8Nu%2B6592My1CYRr0t1D0pewei6LAUvfY50ZPaYrVfd%2F4BuGECq3BXIfaehx6SGnf53rEvWmhflliRBNEhyP1SNTLd6eE%2FDU%2FamcsGPfIMpvi3bi3Hod8LTu0qwrhw1i4HQAVW2E5XXEUJNtaNDDn0%2FjdV%2FLC8v0kuJIn8jCk6tP1Fi1EVM4xgAwCGnCQ3LoRAOz0l1OMQNitMFjGiixZaurQLqBGoFDJ7P0LZNV1HoMg5Vi8ltBNGSu0kr1%2FXt9yejPmGdUlBpbhEWFXdSDrthXJdXwc7%2FXB9aRiz3IW3VybBMOCYzcsGOqUB7izco6HsOh5HXDv5XU4mty8L1muGQUaBaca6wvulehaAtzeCPUaHHQFxTmhXgfNqyPWyWE%2B%2BVxEOqUXPnzC9kkLzqmi2z6CXTeprq71uhhdwg2YPLfr9T89Pa3CYbS8EnfOVw2JCgXzN7K5NElnF8bB9ugPKU9BdFTyW%2BMVhA3ZMyBxuQ19oY6OpgS9RbhTddNLelQywkwNDhIUYgLMXXdIXqh2R&X-Amz-Signature=f240f4a6855107720589c4d103dabb76c60a447ff399618e013d16c5b4c08ecc&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
-            "expiry_time": "2026-01-23T11:57:24.503Z"
+            "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/c69962b0-3951-485b-b10a-5bb29576bba8/23af86ad-b507-49e9-ad49-1d7483952e44/%E1%84%86%E1%85%AE%E1%84%8C%E1%85%A6.mov?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4662FSTZHVY%2F20260127%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260127T045841Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEIT%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJGMEQCIC362iuWrQzTiPd%2FFF%2Boofe9Y3wm2n3PO4nAZTzl1Z77AiBsQKpmtQoIGMlrG9GCzgOVM%2BE0gp02q5JTOBUtjqz92ir%2FAwhNEAAaDDYzNzQyMzE4MzgwNSIMbYPLpKVPifoQ308UKtwDxgHReagxwPBpVOyokXg5DknrzFZUGEXljRH1Q%2FJ4ZlFImSInuRdgk0Y%2FMKo6zD7p3%2FnjkN3oit2cbevFyZmXUB3yECg0IxsSDFV%2FrLqI6D%2Blwuop%2FWYXxMBVpPrw4F9bz0d22vmrBTy7WFgD0gCgrWBNU2HdeYBD6l%2BuJ4MsUXnKm0qmoih%2BD5cFCbT27r2flXc%2BSr7ysXMl3cqr3SDc5LGtMgJWUwz8P9tN28gIg9c4uYsJsMMOjn4Tt%2FM1tK8L%2Bfshp%2BV29mjFpLWP86UFed8RLGNDumIctt8rt1wXtcpu1biXsLuV801l1lhR3faw1lZAKve%2BAxas2xoUsl7RstoZZSKnEYyZGHcnpAiNnx3fSrIMCgkOGYsdBUX9y%2FwrSeQD1JwD5L9nX%2Fx7ChZ0hGcUcjuCAD7ha9T7VkmPF3%2FrxI2vz8nyff1YNca7schJ8ubB4qm2RGiz5bhduOmiwhWTXy0LCNZk%2FmIMaw5tS1LsopZ9DdA0VFgEaV%2BkznIbG9VOTSxfHK2uwacTqYxRfV5gJxN72y5zspOaLd3R8G0Q8Y%2B7FavkjRDwFmt6s22Gl%2F2Sofr1%2BLvVi8ZgIrlRqSHVpjIauPPNsQ6nBUA560TuKJICQYHG3as3v%2F0w4vbgywY6pgHV52O4pERLxTZJbXuJ0J0iX7eisUWovga6ZzZFpGgz10r6cTzyhn48OhtptWz3MZnmgL3GvQcA%2FSo7ZrLSvS9Mq2Dul7x4iz19X0VTAC%2F2yHAXuXah3JVxYXzd6s8ORRgf2naQJZXJbin1b5nbvfg5hcp6T27ft8GbOW1%2BijGpXqLvRAQMv2ZOJOW1DrbAjPeS59tmChCItS1ATyqd3b1wkBfH7f5%2B&X-Amz-Signature=74713a757fd86cac7adc83922369f0b216ffe1eef738740985706b1e790d9af5&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+            "expiry_time": "2026-01-27T05:58:41.505Z"
           }
         }
       },
@@ -6352,7 +6364,7 @@
           "block_id": "2f144860-a4f4-80cd-a42c-f4fd534a9c9f"
         },
         "created_time": "2026-01-23T10:13:00.000Z",
-        "last_edited_time": "2026-01-23T10:13:00.000Z",
+        "last_edited_time": "2026-01-27T03:21:00.000Z",
         "created_by": {
           "object": "user",
           "id": "2aed872b-594c-81eb-bc82-000291164988"
@@ -6364,13 +6376,13 @@
         "has_children": false,
         "archived": false,
         "in_trash": false,
-        "type": "paragraph",
-        "paragraph": {
+        "type": "heading_3",
+        "heading_3": {
           "rich_text": [
             {
               "type": "text",
               "text": {
-                "content": "보너스 2 - 텍스트 꾸밈 추가하기",
+                "content": "2. 텍스트 꾸밈 추가하기",
                 "link": null
               },
               "annotations": {
@@ -6381,10 +6393,11 @@
                 "code": false,
                 "color": "default"
               },
-              "plain_text": "보너스 2 - 텍스트 꾸밈 추가하기",
+              "plain_text": "2. 텍스트 꾸밈 추가하기",
               "href": null
             }
           ],
+          "is_toggleable": false,
           "color": "default"
         }
       },
@@ -6413,8 +6426,8 @@
           "caption": [],
           "type": "file",
           "file": {
-            "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/c69962b0-3951-485b-b10a-5bb29576bba8/34aec182-8223-40a1-ba55-fcff5cb1d332/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA_2026-01-14_%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE_10.17.44.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466TLA55UBE%2F20260123%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260123T105724Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjECsaCXVzLXdlc3QtMiJHMEUCIQCSf7qtHGjWbmzlEatZs4YUyLcCHbHnhPLZm0QRQUBWpgIgaoxKtHvjNYRREDuTgEe6O1Y%2B7SLxzsKu4eGw3uL0TXAqiAQI8%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDApzEqTZfhf4rf2xICrcA%2BJrVIYuyiKr8h9%2FI2B3STM3aU3aQmlRWEty0eElvZv8LI9jUU7C%2FsMTr1kaEquYbzYfi36q0Zu%2BzfBnjRq6n22oifVqwbyKZ35gNbQjpWr3MxVh8cHFLDZt7mZkbrtbzi%2F%2FIp3UsWRH%2BPDHHHIZzs0o6581qKNWuJS7RgAYa4hQ1jmQ2LcoQ1r5MpiF24aP%2B7rY6by078RB3C5dz1JR8SaR0TlVKkP179eiQvk%2BhUICuIKan7DzObNyrKLJL4H6Qvst0rb2c4Fg46GYObr6dbFn4ExOd76RU5532f%2B4l%2FgwFRjp%2Ba%2FaaEpQDF9YsxDVzRPLwVQ0fNIylT%2F8Nu%2B6592My1CYRr0t1D0pewei6LAUvfY50ZPaYrVfd%2F4BuGECq3BXIfaehx6SGnf53rEvWmhflliRBNEhyP1SNTLd6eE%2FDU%2FamcsGPfIMpvi3bi3Hod8LTu0qwrhw1i4HQAVW2E5XXEUJNtaNDDn0%2FjdV%2FLC8v0kuJIn8jCk6tP1Fi1EVM4xgAwCGnCQ3LoRAOz0l1OMQNitMFjGiixZaurQLqBGoFDJ7P0LZNV1HoMg5Vi8ltBNGSu0kr1%2FXt9yejPmGdUlBpbhEWFXdSDrthXJdXwc7%2FXB9aRiz3IW3VybBMOCYzcsGOqUB7izco6HsOh5HXDv5XU4mty8L1muGQUaBaca6wvulehaAtzeCPUaHHQFxTmhXgfNqyPWyWE%2B%2BVxEOqUXPnzC9kkLzqmi2z6CXTeprq71uhhdwg2YPLfr9T89Pa3CYbS8EnfOVw2JCgXzN7K5NElnF8bB9ugPKU9BdFTyW%2BMVhA3ZMyBxuQ19oY6OpgS9RbhTddNLelQywkwNDhIUYgLMXXdIXqh2R&X-Amz-Signature=59b4cded7fd8836625ff8fa8eeb5a7474aec595cd7049479db1dc1d7fecbccaf&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
-            "expiry_time": "2026-01-23T11:57:24.519Z"
+            "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/c69962b0-3951-485b-b10a-5bb29576bba8/34aec182-8223-40a1-ba55-fcff5cb1d332/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA_2026-01-14_%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE_10.17.44.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4662FSTZHVY%2F20260127%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260127T045841Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEIT%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJGMEQCIC362iuWrQzTiPd%2FFF%2Boofe9Y3wm2n3PO4nAZTzl1Z77AiBsQKpmtQoIGMlrG9GCzgOVM%2BE0gp02q5JTOBUtjqz92ir%2FAwhNEAAaDDYzNzQyMzE4MzgwNSIMbYPLpKVPifoQ308UKtwDxgHReagxwPBpVOyokXg5DknrzFZUGEXljRH1Q%2FJ4ZlFImSInuRdgk0Y%2FMKo6zD7p3%2FnjkN3oit2cbevFyZmXUB3yECg0IxsSDFV%2FrLqI6D%2Blwuop%2FWYXxMBVpPrw4F9bz0d22vmrBTy7WFgD0gCgrWBNU2HdeYBD6l%2BuJ4MsUXnKm0qmoih%2BD5cFCbT27r2flXc%2BSr7ysXMl3cqr3SDc5LGtMgJWUwz8P9tN28gIg9c4uYsJsMMOjn4Tt%2FM1tK8L%2Bfshp%2BV29mjFpLWP86UFed8RLGNDumIctt8rt1wXtcpu1biXsLuV801l1lhR3faw1lZAKve%2BAxas2xoUsl7RstoZZSKnEYyZGHcnpAiNnx3fSrIMCgkOGYsdBUX9y%2FwrSeQD1JwD5L9nX%2Fx7ChZ0hGcUcjuCAD7ha9T7VkmPF3%2FrxI2vz8nyff1YNca7schJ8ubB4qm2RGiz5bhduOmiwhWTXy0LCNZk%2FmIMaw5tS1LsopZ9DdA0VFgEaV%2BkznIbG9VOTSxfHK2uwacTqYxRfV5gJxN72y5zspOaLd3R8G0Q8Y%2B7FavkjRDwFmt6s22Gl%2F2Sofr1%2BLvVi8ZgIrlRqSHVpjIauPPNsQ6nBUA560TuKJICQYHG3as3v%2F0w4vbgywY6pgHV52O4pERLxTZJbXuJ0J0iX7eisUWovga6ZzZFpGgz10r6cTzyhn48OhtptWz3MZnmgL3GvQcA%2FSo7ZrLSvS9Mq2Dul7x4iz19X0VTAC%2F2yHAXuXah3JVxYXzd6s8ORRgf2naQJZXJbin1b5nbvfg5hcp6T27ft8GbOW1%2BijGpXqLvRAQMv2ZOJOW1DrbAjPeS59tmChCItS1ATyqd3b1wkBfH7f5%2B&X-Amz-Signature=2796c95225686bba6e1aa7d6dc83f2ad444ee17abae2e59cfdcb0d478abcdd23&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+            "expiry_time": "2026-01-27T05:58:41.504Z"
           }
         }
       },
@@ -6732,8 +6745,34 @@
         "in_trash": false,
         "type": "divider",
         "divider": {}
+      },
+      {
+        "object": "block",
+        "id": "2f544860-a4f4-80ab-8f7e-f57e9ae8f5a3",
+        "parent": {
+          "type": "page_id",
+          "page_id": "2f044860-a4f4-8198-90df-ced14fd7097b"
+        },
+        "created_time": "2026-01-27T03:21:00.000Z",
+        "last_edited_time": "2026-01-27T03:21:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "has_children": false,
+        "archived": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "color": "default"
+        }
       }
     ]
   },
-  "syncedAt": "2026-01-23T10:57:25.597Z"
+  "syncedAt": "2026-01-27T04:58:41.987Z"
 }

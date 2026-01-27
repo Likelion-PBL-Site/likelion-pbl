@@ -276,13 +276,13 @@
       },
       {
         "object": "block",
-        "id": "2f144860-a4f4-802d-8589-cc72c92a74ba",
+        "id": "2f144860-a4f4-8096-ba64-e04c6004176d",
         "parent": {
           "type": "block_id",
           "block_id": "2f144860-a4f4-80ae-9b8d-cf6acc38f973"
         },
         "created_time": "2026-01-23T11:12:00.000Z",
-        "last_edited_time": "2026-01-23T11:12:00.000Z",
+        "last_edited_time": "2026-01-27T04:28:00.000Z",
         "created_by": {
           "object": "user",
           "id": "2aed872b-594c-81eb-bc82-000291164988"
@@ -294,13 +294,13 @@
         "has_children": false,
         "archived": false,
         "in_trash": false,
-        "type": "quote",
-        "quote": {
+        "type": "bulleted_list_item",
+        "bulleted_list_item": {
           "rich_text": [
             {
               "type": "text",
               "text": {
-                "content": "이 과제를 마친 후, 학습자는 아래를 스스로 설명할 수 있어야 합니다.",
+                "content": "Figma의 기본 인터페이스와 핵심 기능을 능숙하게 다룰 수 있다.",
                 "link": null
               },
               "annotations": {
@@ -311,7 +311,7 @@
                 "code": false,
                 "color": "default"
               },
-              "plain_text": "이 과제를 마친 후, 학습자는 아래를 스스로 설명할 수 있어야 합니다.",
+              "plain_text": "Figma의 기본 인터페이스와 핵심 기능을 능숙하게 다룰 수 있다.",
               "href": null
             }
           ],
@@ -320,13 +320,13 @@
       },
       {
         "object": "block",
-        "id": "2f144860-a4f4-80e4-b0e4-c888e43e0639",
+        "id": "2f144860-a4f4-80c9-8958-ebfc0edec299",
         "parent": {
           "type": "block_id",
           "block_id": "2f144860-a4f4-80ae-9b8d-cf6acc38f973"
         },
         "created_time": "2026-01-23T11:12:00.000Z",
-        "last_edited_time": "2026-01-23T11:12:00.000Z",
+        "last_edited_time": "2026-01-27T04:28:00.000Z",
         "created_by": {
           "object": "user",
           "id": "2aed872b-594c-81eb-bc82-000291164988"
@@ -335,226 +335,154 @@
           "object": "user",
           "id": "2aed872b-594c-81eb-bc82-000291164988"
         },
-        "has_children": true,
+        "has_children": false,
         "archived": false,
         "in_trash": false,
-        "type": "paragraph",
-        "paragraph": {
-          "rich_text": [],
+        "type": "bulleted_list_item",
+        "bulleted_list_item": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "디자인 툴을 활용해 텍스트 기반의 아이디어를 시각적 구조로 변환할 수 있다.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "디자인 툴을 활용해 텍스트 기반의 아이디어를 시각적 구조로 변환할 수 있다.",
+              "href": null
+            }
+          ],
           "color": "default"
+        }
+      },
+      {
+        "object": "block",
+        "id": "2f144860-a4f4-80ea-ba48-dee195bfdb9c",
+        "parent": {
+          "type": "block_id",
+          "block_id": "2f144860-a4f4-80ae-9b8d-cf6acc38f973"
         },
-        "children": [
-          {
-            "object": "block",
-            "id": "2f144860-a4f4-8096-ba64-e04c6004176d",
-            "parent": {
-              "type": "block_id",
-              "block_id": "2f144860-a4f4-80e4-b0e4-c888e43e0639"
-            },
-            "created_time": "2026-01-23T11:12:00.000Z",
-            "last_edited_time": "2026-01-23T11:12:00.000Z",
-            "created_by": {
-              "object": "user",
-              "id": "2aed872b-594c-81eb-bc82-000291164988"
-            },
-            "last_edited_by": {
-              "object": "user",
-              "id": "2aed872b-594c-81eb-bc82-000291164988"
-            },
-            "has_children": false,
-            "archived": false,
-            "in_trash": false,
-            "type": "bulleted_list_item",
-            "bulleted_list_item": {
-              "rich_text": [
-                {
-                  "type": "text",
-                  "text": {
-                    "content": "Figma의 기본 인터페이스와 핵심 기능을 능숙하게 다룰 수 있다.",
-                    "link": null
-                  },
-                  "annotations": {
-                    "bold": false,
-                    "italic": false,
-                    "strikethrough": false,
-                    "underline": false,
-                    "code": false,
-                    "color": "default"
-                  },
-                  "plain_text": "Figma의 기본 인터페이스와 핵심 기능을 능숙하게 다룰 수 있다.",
-                  "href": null
-                }
-              ],
-              "color": "default"
+        "created_time": "2026-01-23T11:12:00.000Z",
+        "last_edited_time": "2026-01-27T04:28:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "has_children": false,
+        "archived": false,
+        "in_trash": false,
+        "type": "bulleted_list_item",
+        "bulleted_list_item": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "사용자 시나리오의 구조 (배경 → 발단 → 전개/행동 → 결말/목표 달성)를 이해한다.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "사용자 시나리오의 구조 (배경 → 발단 → 전개/행동 → 결말/목표 달성)를 이해한다.",
+              "href": null
             }
-          },
-          {
-            "object": "block",
-            "id": "2f144860-a4f4-80c9-8958-ebfc0edec299",
-            "parent": {
-              "type": "block_id",
-              "block_id": "2f144860-a4f4-80e4-b0e4-c888e43e0639"
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "object": "block",
+        "id": "2f144860-a4f4-80ad-a13e-ce53e27bd6ed",
+        "parent": {
+          "type": "block_id",
+          "block_id": "2f144860-a4f4-80ae-9b8d-cf6acc38f973"
+        },
+        "created_time": "2026-01-23T11:12:00.000Z",
+        "last_edited_time": "2026-01-27T04:28:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "has_children": false,
+        "archived": false,
+        "in_trash": false,
+        "type": "bulleted_list_item",
+        "bulleted_list_item": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "화면 단위가 아닌 ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "화면 단위가 아닌 ",
+              "href": null
             },
-            "created_time": "2026-01-23T11:12:00.000Z",
-            "last_edited_time": "2026-01-23T11:12:00.000Z",
-            "created_by": {
-              "object": "user",
-              "id": "2aed872b-594c-81eb-bc82-000291164988"
+            {
+              "type": "text",
+              "text": {
+                "content": "사용자 경험(User Experience)의 흐름",
+                "link": null
+              },
+              "annotations": {
+                "bold": true,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "사용자 경험(User Experience)의 흐름",
+              "href": null
             },
-            "last_edited_by": {
-              "object": "user",
-              "id": "2aed872b-594c-81eb-bc82-000291164988"
-            },
-            "has_children": false,
-            "archived": false,
-            "in_trash": false,
-            "type": "bulleted_list_item",
-            "bulleted_list_item": {
-              "rich_text": [
-                {
-                  "type": "text",
-                  "text": {
-                    "content": "디자인 툴을 활용해 텍스트 기반의 아이디어를 시각적 구조로 변환할 수 있다.",
-                    "link": null
-                  },
-                  "annotations": {
-                    "bold": false,
-                    "italic": false,
-                    "strikethrough": false,
-                    "underline": false,
-                    "code": false,
-                    "color": "default"
-                  },
-                  "plain_text": "디자인 툴을 활용해 텍스트 기반의 아이디어를 시각적 구조로 변환할 수 있다.",
-                  "href": null
-                }
-              ],
-              "color": "default"
+            {
+              "type": "text",
+              "text": {
+                "content": " 단위로 서비스를 설계하는 중요성을 깨닫는다.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": " 단위로 서비스를 설계하는 중요성을 깨닫는다.",
+              "href": null
             }
-          },
-          {
-            "object": "block",
-            "id": "2f144860-a4f4-80ea-ba48-dee195bfdb9c",
-            "parent": {
-              "type": "block_id",
-              "block_id": "2f144860-a4f4-80e4-b0e4-c888e43e0639"
-            },
-            "created_time": "2026-01-23T11:12:00.000Z",
-            "last_edited_time": "2026-01-23T11:12:00.000Z",
-            "created_by": {
-              "object": "user",
-              "id": "2aed872b-594c-81eb-bc82-000291164988"
-            },
-            "last_edited_by": {
-              "object": "user",
-              "id": "2aed872b-594c-81eb-bc82-000291164988"
-            },
-            "has_children": false,
-            "archived": false,
-            "in_trash": false,
-            "type": "bulleted_list_item",
-            "bulleted_list_item": {
-              "rich_text": [
-                {
-                  "type": "text",
-                  "text": {
-                    "content": "사용자 시나리오의 구조 (배경 → 발단 → 전개/행동 → 결말/목표 달성)를 이해한다.",
-                    "link": null
-                  },
-                  "annotations": {
-                    "bold": false,
-                    "italic": false,
-                    "strikethrough": false,
-                    "underline": false,
-                    "code": false,
-                    "color": "default"
-                  },
-                  "plain_text": "사용자 시나리오의 구조 (배경 → 발단 → 전개/행동 → 결말/목표 달성)를 이해한다.",
-                  "href": null
-                }
-              ],
-              "color": "default"
-            }
-          },
-          {
-            "object": "block",
-            "id": "2f144860-a4f4-80ad-a13e-ce53e27bd6ed",
-            "parent": {
-              "type": "block_id",
-              "block_id": "2f144860-a4f4-80e4-b0e4-c888e43e0639"
-            },
-            "created_time": "2026-01-23T11:12:00.000Z",
-            "last_edited_time": "2026-01-23T11:12:00.000Z",
-            "created_by": {
-              "object": "user",
-              "id": "2aed872b-594c-81eb-bc82-000291164988"
-            },
-            "last_edited_by": {
-              "object": "user",
-              "id": "2aed872b-594c-81eb-bc82-000291164988"
-            },
-            "has_children": false,
-            "archived": false,
-            "in_trash": false,
-            "type": "bulleted_list_item",
-            "bulleted_list_item": {
-              "rich_text": [
-                {
-                  "type": "text",
-                  "text": {
-                    "content": "화면 단위가 아닌 ",
-                    "link": null
-                  },
-                  "annotations": {
-                    "bold": false,
-                    "italic": false,
-                    "strikethrough": false,
-                    "underline": false,
-                    "code": false,
-                    "color": "default"
-                  },
-                  "plain_text": "화면 단위가 아닌 ",
-                  "href": null
-                },
-                {
-                  "type": "text",
-                  "text": {
-                    "content": "사용자 경험(User Experience)의 흐름",
-                    "link": null
-                  },
-                  "annotations": {
-                    "bold": true,
-                    "italic": false,
-                    "strikethrough": false,
-                    "underline": false,
-                    "code": false,
-                    "color": "default"
-                  },
-                  "plain_text": "사용자 경험(User Experience)의 흐름",
-                  "href": null
-                },
-                {
-                  "type": "text",
-                  "text": {
-                    "content": " 단위로 서비스를 설계하는 중요성을 깨닫는다.",
-                    "link": null
-                  },
-                  "annotations": {
-                    "bold": false,
-                    "italic": false,
-                    "strikethrough": false,
-                    "underline": false,
-                    "code": false,
-                    "color": "default"
-                  },
-                  "plain_text": " 단위로 서비스를 설계하는 중요성을 깨닫는다.",
-                  "href": null
-                }
-              ],
-              "color": "default"
-            }
-          }
-        ]
+          ],
+          "color": "default"
+        }
       },
       {
         "object": "block",
@@ -638,7 +566,7 @@
           "block_id": "2f144860-a4f4-8010-85c5-ca4932d96462"
         },
         "created_time": "2026-01-23T11:12:00.000Z",
-        "last_edited_time": "2026-01-23T11:12:00.000Z",
+        "last_edited_time": "2026-01-27T04:28:00.000Z",
         "created_by": {
           "object": "user",
           "id": "2aed872b-594c-81eb-bc82-000291164988"
@@ -650,8 +578,8 @@
         "has_children": false,
         "archived": false,
         "in_trash": false,
-        "type": "quote",
-        "quote": {
+        "type": "paragraph",
+        "paragraph": {
           "rich_text": [
             {
               "type": "text",
@@ -660,7 +588,7 @@
                 "link": null
               },
               "annotations": {
-                "bold": false,
+                "bold": true,
                 "italic": false,
                 "strikethrough": false,
                 "underline": false,
@@ -676,13 +604,13 @@
       },
       {
         "object": "block",
-        "id": "2f144860-a4f4-8087-8289-d998caddcbb4",
+        "id": "2f144860-a4f4-80a7-9a35-dd1da257651d",
         "parent": {
           "type": "block_id",
           "block_id": "2f144860-a4f4-8010-85c5-ca4932d96462"
         },
         "created_time": "2026-01-23T11:12:00.000Z",
-        "last_edited_time": "2026-01-23T11:12:00.000Z",
+        "last_edited_time": "2026-01-27T04:28:00.000Z",
         "created_by": {
           "object": "user",
           "id": "2aed872b-594c-81eb-bc82-000291164988"
@@ -691,381 +619,357 @@
           "object": "user",
           "id": "2aed872b-594c-81eb-bc82-000291164988"
         },
-        "has_children": true,
+        "has_children": false,
         "archived": false,
         "in_trash": false,
-        "type": "paragraph",
-        "paragraph": {
-          "rich_text": [],
+        "type": "heading_3",
+        "heading_3": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "1. Figma 기초 실습 예제",
+                "link": null
+              },
+              "annotations": {
+                "bold": true,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "1. Figma 기초 실습 예제",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
           "color": "default"
+        }
+      },
+      {
+        "object": "block",
+        "id": "2f144860-a4f4-80c5-8821-dea978c3bbba",
+        "parent": {
+          "type": "block_id",
+          "block_id": "2f144860-a4f4-8010-85c5-ca4932d96462"
         },
-        "children": [
-          {
-            "object": "block",
-            "id": "2f144860-a4f4-80a7-9a35-dd1da257651d",
-            "parent": {
-              "type": "block_id",
-              "block_id": "2f144860-a4f4-8087-8289-d998caddcbb4"
+        "created_time": "2026-01-23T11:12:00.000Z",
+        "last_edited_time": "2026-01-27T04:31:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "has_children": false,
+        "archived": false,
+        "in_trash": false,
+        "type": "bulleted_list_item",
+        "bulleted_list_item": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "도형과 텍스트를 활용해 간단한 자기소개 카드나 명함을 제작해봅니다. (툴 적응용)\n\n",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "도형과 텍스트를 활용해 간단한 자기소개 카드나 명함을 제작해봅니다. (툴 적응용)\n\n",
+              "href": null
             },
-            "created_time": "2026-01-23T11:12:00.000Z",
-            "last_edited_time": "2026-01-23T11:12:00.000Z",
-            "created_by": {
-              "object": "user",
-              "id": "2aed872b-594c-81eb-bc82-000291164988"
-            },
-            "last_edited_by": {
-              "object": "user",
-              "id": "2aed872b-594c-81eb-bc82-000291164988"
-            },
-            "has_children": true,
-            "archived": false,
-            "in_trash": false,
-            "type": "numbered_list_item",
-            "numbered_list_item": {
-              "rich_text": [
-                {
-                  "type": "text",
-                  "text": {
-                    "content": "Figma 기초 실습 예제",
-                    "link": null
-                  },
-                  "annotations": {
-                    "bold": true,
-                    "italic": false,
-                    "strikethrough": false,
-                    "underline": false,
-                    "code": false,
-                    "color": "default"
-                  },
-                  "plain_text": "Figma 기초 실습 예제",
-                  "href": null
-                }
-              ],
-              "color": "default"
-            },
-            "children": [
-              {
-                "object": "block",
-                "id": "2f144860-a4f4-80c5-8821-dea978c3bbba",
-                "parent": {
-                  "type": "block_id",
-                  "block_id": "2f144860-a4f4-80a7-9a35-dd1da257651d"
-                },
-                "created_time": "2026-01-23T11:12:00.000Z",
-                "last_edited_time": "2026-01-23T11:12:00.000Z",
-                "created_by": {
-                  "object": "user",
-                  "id": "2aed872b-594c-81eb-bc82-000291164988"
-                },
-                "last_edited_by": {
-                  "object": "user",
-                  "id": "2aed872b-594c-81eb-bc82-000291164988"
-                },
-                "has_children": false,
-                "archived": false,
-                "in_trash": false,
-                "type": "bulleted_list_item",
-                "bulleted_list_item": {
-                  "rich_text": [
-                    {
-                      "type": "text",
-                      "text": {
-                        "content": "도형과 텍스트를 활용해 간단한 자기소개 카드나 명함을 제작해봅니다. (툴 적응용)\n\n",
-                        "link": null
-                      },
-                      "annotations": {
-                        "bold": false,
-                        "italic": false,
-                        "strikethrough": false,
-                        "underline": false,
-                        "code": false,
-                        "color": "default"
-                      },
-                      "plain_text": "도형과 텍스트를 활용해 간단한 자기소개 카드나 명함을 제작해봅니다. (툴 적응용)\n\n",
-                      "href": null
-                    },
-                    {
-                      "type": "mention",
-                      "mention": {
-                        "type": "link_mention",
-                        "link_mention": {
-                          "href": "https://www.youtube.com/watch?v=OHZC19qtqUo&list=PLkbzizJk4Ae-jfAQ7mlGzyWnHz98gBPQh",
-                          "title": "피그마 기초부터 마스터까지  - 피그마 강좌 1-1",
-                          "padding": 56,
-                          "icon_url": "https://www.youtube.com/s/desktop/e2b70753/img/favicon_144x144.png",
-                          "iframe_url": "https://www.youtube.com/embed/OHZC19qtqUo?rel=0",
-                          "description": "제가 작년에 피그마(Figma) 강의를 새롭게 올린지 얼마 안지나 UI가 달라지고, 피그마가 많은 업데이트가 있어서 더욱 좋아졌습니다. 다양한 좋은 기능들이 생겨서 하나하나 자세하게 소개해드릴게요. 해당 강의를 통해 피그마 최신 기능을 배워보세요~!\n\n❤️‍🔥 피그마 APP UI 템플릿 : https://buly.kr/90Zu8sc\n❤️‍🔥 피그마 WEB UI 템플릿 : https://buly.kr/uTa8kx\n❤️‍🔥 피그마 상세페이지 템플릿 : https://buly.kr/6Xmc5ad\n\n🚀 멤버십 가입 : https://www.youtube.com/channel/UCvYnDMeL-PFZhfIz6oc_U-Q/join\n\n🔥 디자인베이스 웹사이트 : http://designbase.co.kr/\n🔥 인스타그램 : https://www.instagram.com/designbasekorea/\n🔥 이메일 문의 : designbasekorea@gmail.com\n🔥 카카오 오픈채팅방 : https://open.kakao.com/o/gmwngljb  (참여코드 : dgoing12)",
-                          "link_author": "디자인베이스",
-                          "link_provider": "YouTube",
-                          "thumbnail_url": "https://i.ytimg.com/vi/OHZC19qtqUo/maxresdefault.jpg"
-                        }
-                      },
-                      "annotations": {
-                        "bold": false,
-                        "italic": false,
-                        "strikethrough": false,
-                        "underline": false,
-                        "code": false,
-                        "color": "default"
-                      },
-                      "plain_text": "https://www.youtube.com/watch?v=OHZC19qtqUo&list=PLkbzizJk4Ae-jfAQ7mlGzyWnHz98gBPQh",
-                      "href": "https://www.youtube.com/watch?v=OHZC19qtqUo&list=PLkbzizJk4Ae-jfAQ7mlGzyWnHz98gBPQh"
-                    },
-                    {
-                      "type": "mention",
-                      "mention": {
-                        "type": "link_mention",
-                        "link_mention": {
-                          "href": "https://youtu.be/c6yCZecrMpQ?si=nRgjZ3sYKvh382CK",
-                          "title": "🔥전 세계 기업들이 선택한 피그마 강좌 PS.이제는 마스터하셔야죠? (4K)",
-                          "padding": 56,
-                          "icon_url": "https://www.youtube.com/s/desktop/e2b70753/img/favicon_144x144.png",
-                          "iframe_url": "https://www.youtube.com/embed/c6yCZecrMpQ?rel=0",
-                          "description": "피그마 강의를 통해 여러분들만의 멋진 UXUI 디자인을 해보세요! \n\n좋아요, 구독, 알림, 댓글은 큰 힘이 됩니다.\n마디아채널 멤버십을 가입하시고 매월 제작되는 원본 파일을 받아보세요 \n(가입 이전 파일을 받으실 수 없습니다.)\n\n━━━━━━━━━━━━━\n\n▶ 프로젝트 의뢰 및 비지니스 문의 : madia_designer@naver.com\n► 인스타그램 : https://www.instagram.com/madia_designer\n\n━━━━━━━━━━━━━\n\n4:22 타임라인 정리\n5:06 초기 화면 구성\n14:25 피그마 기초 툴 개념\n15:08 세이브 / 버전 히스토리\n17:17 공유 초대하기\n19:40 페이지 / 파일명\n21:31 기초 툴 기능\n35:58 Matching layer \n39:33 Use as mask\n41:36 Union selection\n44:32 Align\n47:17 Size / Angle\n50:18 *Auto layout\n01:02:21 Hoizontal resizing\n01:11:06 Constratints\n01:28:48 Layout Grid\n01:36:02 Font / Fill / Stroke\n02:05:00 Effects\n02:16:17 Export\n02:18:20 Style\n02:35:50 *Component\n\n━━━━━━━━━━━━━\n\n► 마디아 사이트 \nhttps://www.madia.co.kr\n\n━━━━━━━━━━━━━\n\n► 아래 재생목록에서 수 백개의 디자인 팁을 배워가세요\n\n1. UXUI 디자인\nhttps://tinyurl.com/2ahldj8g\n\n2. 포토샵 팁\nhttps://url.kr/qo19er\n\n3. 그래픽 디자인 팁\nhttps://tinyurl.com/2alqf6k6\n\n4. 시청자 컨펌\nhttps://tinyurl.com/23dluwod\n\n5. UI 디자인 무작정 따라하기\nhttps://tinyurl.com/2ammyfnb\n\n6. 디자인 정보\nhttps://tinyurl.com/293gmjdm\n\n7. 디자인 툴\nhttps://tinyurl.com/2cg88eew\n\n━━━━━━━━━━━━━\n\n► 1.단톡방 : https://open.kakao.com/o/gakaJCvb\n► 2.단톡방 : https://open.kakao.com/o/g5bBXBvb\n\n━━━━━━━━━━━━━\n\n► 이미지 정보\nhttps://pixabay.com\nhttps://unsplash.com\n\n► 그래픽소스\nhttps://www.freepik.com\n\n━━━━━━━━━━━━━\n\n본 디자인은 다양한 해외 벤치마킹을 통해 고민 없이\n비주얼 적으로만 디자인되었음을 알립니다.\n\n━━━━━━━━━━━━━\n\n#마디아디자인 #피그마 #Figma #피그마강의 #피그마기초 #uxui #디자인독학 #UX기획 #디자인실무\n#웹디자인 #디자인피드백 #UIUX디자인 #웹디자이너 #디자인공부 #포트폴리오 #프로덕트디자인",
-                          "link_author": "Madia Designer",
-                          "link_provider": "YouTube",
-                          "thumbnail_url": "https://i.ytimg.com/vi/c6yCZecrMpQ/maxresdefault.jpg"
-                        }
-                      },
-                      "annotations": {
-                        "bold": false,
-                        "italic": false,
-                        "strikethrough": false,
-                        "underline": false,
-                        "code": false,
-                        "color": "default"
-                      },
-                      "plain_text": "https://youtu.be/c6yCZecrMpQ?si=nRgjZ3sYKvh382CK",
-                      "href": "https://youtu.be/c6yCZecrMpQ?si=nRgjZ3sYKvh382CK"
-                    },
-                    {
-                      "type": "text",
-                      "text": {
-                        "content": "\n",
-                        "link": null
-                      },
-                      "annotations": {
-                        "bold": false,
-                        "italic": false,
-                        "strikethrough": false,
-                        "underline": false,
-                        "code": false,
-                        "color": "default"
-                      },
-                      "plain_text": "\n",
-                      "href": null
-                    }
-                  ],
-                  "color": "default"
-                }
-              }
-            ]
-          },
-          {
-            "object": "block",
-            "id": "2f144860-a4f4-806e-9c38-fa9d0be667eb",
-            "parent": {
-              "type": "block_id",
-              "block_id": "2f144860-a4f4-8087-8289-d998caddcbb4"
-            },
-            "created_time": "2026-01-23T11:12:00.000Z",
-            "last_edited_time": "2026-01-23T11:12:00.000Z",
-            "created_by": {
-              "object": "user",
-              "id": "2aed872b-594c-81eb-bc82-000291164988"
-            },
-            "last_edited_by": {
-              "object": "user",
-              "id": "2aed872b-594c-81eb-bc82-000291164988"
-            },
-            "has_children": true,
-            "archived": false,
-            "in_trash": false,
-            "type": "numbered_list_item",
-            "numbered_list_item": {
-              "rich_text": [
-                {
-                  "type": "text",
-                  "text": {
-                    "content": "스토리보드",
-                    "link": null
-                  },
-                  "annotations": {
-                    "bold": false,
-                    "italic": false,
-                    "strikethrough": false,
-                    "underline": false,
-                    "code": false,
-                    "color": "default"
-                  },
-                  "plain_text": "스토리보드",
-                  "href": null
-                }
-              ],
-              "color": "default"
-            },
-            "children": [
-              {
-                "object": "block",
-                "id": "2f144860-a4f4-8036-a167-eae5dc71c6dc",
-                "parent": {
-                  "type": "block_id",
-                  "block_id": "2f144860-a4f4-806e-9c38-fa9d0be667eb"
-                },
-                "created_time": "2026-01-23T11:12:00.000Z",
-                "last_edited_time": "2026-01-23T11:12:00.000Z",
-                "created_by": {
-                  "object": "user",
-                  "id": "2aed872b-594c-81eb-bc82-000291164988"
-                },
-                "last_edited_by": {
-                  "object": "user",
-                  "id": "2aed872b-594c-81eb-bc82-000291164988"
-                },
-                "has_children": false,
-                "archived": false,
-                "in_trash": false,
-                "type": "bulleted_list_item",
-                "bulleted_list_item": {
-                  "rich_text": [
-                    {
-                      "type": "text",
-                      "text": {
-                        "content": "1주차에 설정한 페르소나가 우리 서비스를 통해 문제를 해결하는 과정을 4~6컷의 장면으로 구성합니다.",
-                        "link": null
-                      },
-                      "annotations": {
-                        "bold": false,
-                        "italic": false,
-                        "strikethrough": false,
-                        "underline": false,
-                        "code": false,
-                        "color": "default"
-                      },
-                      "plain_text": "1주차에 설정한 페르소나가 우리 서비스를 통해 문제를 해결하는 과정을 4~6컷의 장면으로 구성합니다.",
-                      "href": null
-                    }
-                  ],
-                  "color": "default"
+            {
+              "type": "mention",
+              "mention": {
+                "type": "link_mention",
+                "link_mention": {
+                  "href": "https://www.youtube.com/watch?v=OHZC19qtqUo&list=PLkbzizJk4Ae-jfAQ7mlGzyWnHz98gBPQh",
+                  "title": "피그마 기초부터 마스터까지  - 피그마 강좌 1-1",
+                  "padding": 56,
+                  "icon_url": "https://www.youtube.com/s/desktop/e2b70753/img/favicon_144x144.png",
+                  "iframe_url": "https://www.youtube.com/embed/OHZC19qtqUo?rel=0",
+                  "description": "제가 작년에 피그마(Figma) 강의를 새롭게 올린지 얼마 안지나 UI가 달라지고, 피그마가 많은 업데이트가 있어서 더욱 좋아졌습니다. 다양한 좋은 기능들이 생겨서 하나하나 자세하게 소개해드릴게요. 해당 강의를 통해 피그마 최신 기능을 배워보세요~!\n\n❤️‍🔥 피그마 APP UI 템플릿 : https://buly.kr/90Zu8sc\n❤️‍🔥 피그마 WEB UI 템플릿 : https://buly.kr/uTa8kx\n❤️‍🔥 피그마 상세페이지 템플릿 : https://buly.kr/6Xmc5ad\n\n🚀 멤버십 가입 : https://www.youtube.com/channel/UCvYnDMeL-PFZhfIz6oc_U-Q/join\n\n🔥 디자인베이스 웹사이트 : http://designbase.co.kr/\n🔥 인스타그램 : https://www.instagram.com/designbasekorea/\n🔥 이메일 문의 : designbasekorea@gmail.com\n🔥 카카오 오픈채팅방 : https://open.kakao.com/o/gmwngljb  (참여코드 : dgoing12)",
+                  "link_author": "디자인베이스",
+                  "link_provider": "YouTube",
+                  "thumbnail_url": "https://i.ytimg.com/vi/OHZC19qtqUo/maxresdefault.jpg"
                 }
               },
-              {
-                "object": "block",
-                "id": "2f144860-a4f4-800e-a6e0-f392358eb328",
-                "parent": {
-                  "type": "block_id",
-                  "block_id": "2f144860-a4f4-806e-9c38-fa9d0be667eb"
-                },
-                "created_time": "2026-01-23T11:12:00.000Z",
-                "last_edited_time": "2026-01-23T11:12:00.000Z",
-                "created_by": {
-                  "object": "user",
-                  "id": "2aed872b-594c-81eb-bc82-000291164988"
-                },
-                "last_edited_by": {
-                  "object": "user",
-                  "id": "2aed872b-594c-81eb-bc82-000291164988"
-                },
-                "has_children": false,
-                "archived": false,
-                "in_trash": false,
-                "type": "bulleted_list_item",
-                "bulleted_list_item": {
-                  "rich_text": [
-                    {
-                      "type": "text",
-                      "text": {
-                        "content": "각 장면은 [상황 설명 + 사용자의 행동 + 간략한 화면/기기 묘사]로 이루어져야 합니다.",
-                        "link": null
-                      },
-                      "annotations": {
-                        "bold": false,
-                        "italic": false,
-                        "strikethrough": false,
-                        "underline": false,
-                        "code": false,
-                        "color": "default"
-                      },
-                      "plain_text": "각 장면은 [상황 설명 + 사용자의 행동 + 간략한 화면/기기 묘사]로 이루어져야 합니다.",
-                      "href": null
-                    }
-                  ],
-                  "color": "default"
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "https://www.youtube.com/watch?v=OHZC19qtqUo&list=PLkbzizJk4Ae-jfAQ7mlGzyWnHz98gBPQh",
+              "href": "https://www.youtube.com/watch?v=OHZC19qtqUo&list=PLkbzizJk4Ae-jfAQ7mlGzyWnHz98gBPQh"
+            },
+            {
+              "type": "mention",
+              "mention": {
+                "type": "link_mention",
+                "link_mention": {
+                  "href": "https://youtu.be/c6yCZecrMpQ?si=nRgjZ3sYKvh382CK",
+                  "title": "🔥전 세계 기업들이 선택한 피그마 강좌 PS.이제는 마스터하셔야죠? (4K)",
+                  "padding": 56,
+                  "icon_url": "https://www.youtube.com/s/desktop/e2b70753/img/favicon_144x144.png",
+                  "iframe_url": "https://www.youtube.com/embed/c6yCZecrMpQ?rel=0",
+                  "description": "피그마 강의를 통해 여러분들만의 멋진 UXUI 디자인을 해보세요! \n\n좋아요, 구독, 알림, 댓글은 큰 힘이 됩니다.\n마디아채널 멤버십을 가입하시고 매월 제작되는 원본 파일을 받아보세요 \n(가입 이전 파일을 받으실 수 없습니다.)\n\n━━━━━━━━━━━━━\n\n▶ 프로젝트 의뢰 및 비지니스 문의 : madia_designer@naver.com\n► 인스타그램 : https://www.instagram.com/madia_designer\n\n━━━━━━━━━━━━━\n\n4:22 타임라인 정리\n5:06 초기 화면 구성\n14:25 피그마 기초 툴 개념\n15:08 세이브 / 버전 히스토리\n17:17 공유 초대하기\n19:40 페이지 / 파일명\n21:31 기초 툴 기능\n35:58 Matching layer \n39:33 Use as mask\n41:36 Union selection\n44:32 Align\n47:17 Size / Angle\n50:18 *Auto layout\n01:02:21 Hoizontal resizing\n01:11:06 Constratints\n01:28:48 Layout Grid\n01:36:02 Font / Fill / Stroke\n02:05:00 Effects\n02:16:17 Export\n02:18:20 Style\n02:35:50 *Component\n\n━━━━━━━━━━━━━\n\n► 마디아 사이트 \nhttps://www.madia.co.kr\n\n━━━━━━━━━━━━━\n\n► 아래 재생목록에서 수 백개의 디자인 팁을 배워가세요\n\n1. UXUI 디자인\nhttps://tinyurl.com/2ahldj8g\n\n2. 포토샵 팁\nhttps://url.kr/qo19er\n\n3. 그래픽 디자인 팁\nhttps://tinyurl.com/2alqf6k6\n\n4. 시청자 컨펌\nhttps://tinyurl.com/23dluwod\n\n5. UI 디자인 무작정 따라하기\nhttps://tinyurl.com/2ammyfnb\n\n6. 디자인 정보\nhttps://tinyurl.com/293gmjdm\n\n7. 디자인 툴\nhttps://tinyurl.com/2cg88eew\n\n━━━━━━━━━━━━━\n\n► 1.단톡방 : https://open.kakao.com/o/gakaJCvb\n► 2.단톡방 : https://open.kakao.com/o/g5bBXBvb\n\n━━━━━━━━━━━━━\n\n► 이미지 정보\nhttps://pixabay.com\nhttps://unsplash.com\n\n► 그래픽소스\nhttps://www.freepik.com\n\n━━━━━━━━━━━━━\n\n본 디자인은 다양한 해외 벤치마킹을 통해 고민 없이\n비주얼 적으로만 디자인되었음을 알립니다.\n\n━━━━━━━━━━━━━\n\n#마디아디자인 #피그마 #Figma #피그마강의 #피그마기초 #uxui #디자인독학 #UX기획 #디자인실무\n#웹디자인 #디자인피드백 #UIUX디자인 #웹디자이너 #디자인공부 #포트폴리오 #프로덕트디자인",
+                  "link_author": "Madia Designer",
+                  "link_provider": "YouTube",
+                  "thumbnail_url": "https://i.ytimg.com/vi/c6yCZecrMpQ/maxresdefault.jpg"
                 }
               },
-              {
-                "object": "block",
-                "id": "2f144860-a4f4-80e9-9744-fd6cede07dac",
-                "parent": {
-                  "type": "block_id",
-                  "block_id": "2f144860-a4f4-806e-9c38-fa9d0be667eb"
-                },
-                "created_time": "2026-01-23T11:12:00.000Z",
-                "last_edited_time": "2026-01-23T11:12:00.000Z",
-                "created_by": {
-                  "object": "user",
-                  "id": "2aed872b-594c-81eb-bc82-000291164988"
-                },
-                "last_edited_by": {
-                  "object": "user",
-                  "id": "2aed872b-594c-81eb-bc82-000291164988"
-                },
-                "has_children": false,
-                "archived": false,
-                "in_trash": false,
-                "type": "bulleted_list_item",
-                "bulleted_list_item": {
-                  "rich_text": [
-                    {
-                      "type": "text",
-                      "text": {
-                        "content": "화살표 등을 사용하여 흐름이 끊기지 않도록 연결합니다.",
-                        "link": null
-                      },
-                      "annotations": {
-                        "bold": false,
-                        "italic": false,
-                        "strikethrough": false,
-                        "underline": false,
-                        "code": false,
-                        "color": "default"
-                      },
-                      "plain_text": "화살표 등을 사용하여 흐름이 끊기지 않도록 연결합니다.",
-                      "href": null
-                    }
-                  ],
-                  "color": "default"
-                }
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
               },
-              {
-                "object": "block",
-                "id": "2f144860-a4f4-8067-911b-d0439c94c6fe",
-                "parent": {
-                  "type": "block_id",
-                  "block_id": "2f144860-a4f4-806e-9c38-fa9d0be667eb"
-                },
-                "created_time": "2026-01-23T11:12:00.000Z",
-                "last_edited_time": "2026-01-23T11:12:00.000Z",
-                "created_by": {
-                  "object": "user",
-                  "id": "2aed872b-594c-81eb-bc82-000291164988"
-                },
-                "last_edited_by": {
-                  "object": "user",
-                  "id": "2aed872b-594c-81eb-bc82-000291164988"
-                },
-                "has_children": false,
-                "archived": false,
-                "in_trash": false,
-                "type": "bookmark",
-                "bookmark": {
-                  "caption": [],
-                  "url": "https://yozm.wishket.com/magazine/detail/1112/"
-                }
-              }
-            ]
-          }
-        ]
+              "plain_text": "https://youtu.be/c6yCZecrMpQ?si=nRgjZ3sYKvh382CK",
+              "href": "https://youtu.be/c6yCZecrMpQ?si=nRgjZ3sYKvh382CK"
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "object": "block",
+        "id": "2f544860-a4f4-8021-b47f-c511a7e4022d",
+        "parent": {
+          "type": "block_id",
+          "block_id": "2f144860-a4f4-8010-85c5-ca4932d96462"
+        },
+        "created_time": "2026-01-27T04:31:00.000Z",
+        "last_edited_time": "2026-01-27T04:31:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "has_children": false,
+        "archived": false,
+        "in_trash": false,
+        "type": "divider",
+        "divider": {}
+      },
+      {
+        "object": "block",
+        "id": "2f144860-a4f4-806e-9c38-fa9d0be667eb",
+        "parent": {
+          "type": "block_id",
+          "block_id": "2f144860-a4f4-8010-85c5-ca4932d96462"
+        },
+        "created_time": "2026-01-23T11:12:00.000Z",
+        "last_edited_time": "2026-01-27T04:29:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "has_children": false,
+        "archived": false,
+        "in_trash": false,
+        "type": "heading_3",
+        "heading_3": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "2. 스토리보드",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "2. 스토리보드",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        }
+      },
+      {
+        "object": "block",
+        "id": "2f144860-a4f4-8036-a167-eae5dc71c6dc",
+        "parent": {
+          "type": "block_id",
+          "block_id": "2f144860-a4f4-8010-85c5-ca4932d96462"
+        },
+        "created_time": "2026-01-23T11:12:00.000Z",
+        "last_edited_time": "2026-01-27T04:29:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "has_children": false,
+        "archived": false,
+        "in_trash": false,
+        "type": "bulleted_list_item",
+        "bulleted_list_item": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "1주차에 설정한 페르소나가 우리 서비스를 통해 문제를 해결하는 과정을 4~6컷의 장면으로 구성합니다.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "1주차에 설정한 페르소나가 우리 서비스를 통해 문제를 해결하는 과정을 4~6컷의 장면으로 구성합니다.",
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "object": "block",
+        "id": "2f144860-a4f4-800e-a6e0-f392358eb328",
+        "parent": {
+          "type": "block_id",
+          "block_id": "2f144860-a4f4-8010-85c5-ca4932d96462"
+        },
+        "created_time": "2026-01-23T11:12:00.000Z",
+        "last_edited_time": "2026-01-27T04:29:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "has_children": false,
+        "archived": false,
+        "in_trash": false,
+        "type": "bulleted_list_item",
+        "bulleted_list_item": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "각 장면은 [상황 설명 + 사용자의 행동 + 간략한 화면/기기 묘사]로 이루어져야 합니다.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "각 장면은 [상황 설명 + 사용자의 행동 + 간략한 화면/기기 묘사]로 이루어져야 합니다.",
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "object": "block",
+        "id": "2f144860-a4f4-80e9-9744-fd6cede07dac",
+        "parent": {
+          "type": "block_id",
+          "block_id": "2f144860-a4f4-8010-85c5-ca4932d96462"
+        },
+        "created_time": "2026-01-23T11:12:00.000Z",
+        "last_edited_time": "2026-01-27T04:29:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "has_children": false,
+        "archived": false,
+        "in_trash": false,
+        "type": "bulleted_list_item",
+        "bulleted_list_item": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "화살표 등을 사용하여 흐름이 끊기지 않도록 연결합니다.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "화살표 등을 사용하여 흐름이 끊기지 않도록 연결합니다.",
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "object": "block",
+        "id": "2f144860-a4f4-8067-911b-d0439c94c6fe",
+        "parent": {
+          "type": "block_id",
+          "block_id": "2f144860-a4f4-8010-85c5-ca4932d96462"
+        },
+        "created_time": "2026-01-23T11:12:00.000Z",
+        "last_edited_time": "2026-01-27T04:29:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "has_children": false,
+        "archived": false,
+        "in_trash": false,
+        "type": "bookmark",
+        "bookmark": {
+          "caption": [],
+          "url": "https://yozm.wishket.com/magazine/detail/1112/"
+        }
       },
       {
         "object": "block",
@@ -1209,50 +1113,6 @@
         "in_trash": false,
         "type": "divider",
         "divider": {}
-      },
-      {
-        "object": "block",
-        "id": "2f144860-a4f4-8137-b453-f39f00a44051",
-        "parent": {
-          "type": "block_id",
-          "block_id": "2f144860-a4f4-8120-9697-d48a5bffb081"
-        },
-        "created_time": "2026-01-23T11:13:00.000Z",
-        "last_edited_time": "2026-01-23T11:13:00.000Z",
-        "created_by": {
-          "object": "user",
-          "id": "2aed872b-594c-81eb-bc82-000291164988"
-        },
-        "last_edited_by": {
-          "object": "user",
-          "id": "2aed872b-594c-81eb-bc82-000291164988"
-        },
-        "has_children": false,
-        "archived": false,
-        "in_trash": false,
-        "type": "quote",
-        "quote": {
-          "rich_text": [
-            {
-              "type": "text",
-              "text": {
-                "content": "다음 요구사항을 모두 만족해야 합니다.",
-                "link": null
-              },
-              "annotations": {
-                "bold": false,
-                "italic": false,
-                "strikethrough": false,
-                "underline": false,
-                "code": false,
-                "color": "default"
-              },
-              "plain_text": "다음 요구사항을 모두 만족해야 합니다.",
-              "href": null
-            }
-          ],
-          "color": "default"
-        }
       },
       {
         "object": "block",
@@ -1433,6 +1293,29 @@
       },
       {
         "object": "block",
+        "id": "2f544860-a4f4-807c-a14c-e778781b6beb",
+        "parent": {
+          "type": "block_id",
+          "block_id": "2f144860-a4f4-8120-9697-d48a5bffb081"
+        },
+        "created_time": "2026-01-27T04:30:00.000Z",
+        "last_edited_time": "2026-01-27T04:30:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "has_children": false,
+        "archived": false,
+        "in_trash": false,
+        "type": "divider",
+        "divider": {}
+      },
+      {
+        "object": "block",
         "id": "2f144860-a4f4-8151-8510-f3cab059ff74",
         "parent": {
           "type": "block_id",
@@ -1564,8 +1447,8 @@
           "caption": [],
           "type": "file",
           "file": {
-            "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/c69962b0-3951-485b-b10a-5bb29576bba8/43838288-8f18-4ce9-8cde-8cec425c6e0e/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466ZFUI5XFW%2F20260123%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260123T112519Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjECsaCXVzLXdlc3QtMiJHMEUCIQCWcCm1hduwijOXCvIB8hMse%2BHG17eYlSKsrtX218B%2BCQIgSGw5h3pSH0e%2BlAmgv%2B0tPsl2X88%2BSr3D7t8QME11KlAqiAQI8%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDKjDqMCBRd%2F0TbVTBSrcA8qd8eF3XwQwXIk4pWD8VhdE1GQEYovARzQJDEtpvMfblHFxG4bfP8EIg1%2FgTDoYMn%2BJedf6GAkq6rZhoYzX4d1iDOIN%2FEdMeX7ApQvWHfE2%2FwiOVeT%2BVR%2BjqEK9%2B%2FDM%2FLr8m1Fg0MRbohlBzJQSieoWpRSw7%2BIg%2FdVgYiVBW9Ha41N7SvhkHWAMT02rDxwsykGoHFvYAJ2EUZEYijbDNjY%2Fk%2BF2vKlc0LWIz%2Bg1%2FMyw%2Bk%2BNesdG0uWferhbwSwxnTpahLtAIoU2BsZVVnGtRh0cD3ah5OCLMWYbZNC%2B5f24wneb%2Bc3gLVbZ8UOFyOJTG5bWa%2FcEEN8iepph7dPtRCs2Yb37sj3%2BVLn7GG7g44VwTLYr2i8nGOi73HGzilYspFvH1BjyAT4cnf9QkOgmQIsX16uI2GVRiO3E%2FitHDp5L%2FENEQDqyDYCUwjyFmo5a9sLIlgd3ag%2FQIj3XP6fFjltDfbzUd6YuvuTLPVJ3ZjqM3HKdKUpKDz91PU6KMHKemnv6nia8OZZhxzOZo%2BY9SKpFkcyvShQvLLAeS7J3Gl4mtctFKU2skpCfK3K9LycZ7oCC%2BgbsDPq5307v6BiySAXBR3pKZ75dZFjH4dlAUo8O7XskjFqayDa%2BDJtfMKCYzcsGOqUBZiNhdCYEAws6LM%2FNEBBILgzcf5a4BTz%2BrT0wXk1KfHmhKxorRBfHhbZvDgsn3ycBC7baU1ZwRbZDBvjYK6cB35XvVkkPJC1fWXY3dFYdiyJ%2BO4OHvOaYSyic4Unj6B%2F0PrRNHFkY%2BlR9gXz7zoJ%2FsTJi1x7S3InwCHgeQomR6kQNfV%2Fg%2B%2F9SnBc9E5hbOylen5abu7IAbYWE3Dfo4OYhm9mnVs71&X-Amz-Signature=507fc5010d91010a1688fe072c1cb3a47fd8398aab33b30177efb2f10a56ff64&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
-            "expiry_time": "2026-01-23T12:25:19.563Z"
+            "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/c69962b0-3951-485b-b10a-5bb29576bba8/43838288-8f18-4ce9-8cde-8cec425c6e0e/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4666Y342VQQ%2F20260127%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260127T050004Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEIT%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIAfTXd8wjyxG0lpoRehjLeOOfTISemr%2Bxuibsxnqjj6aAiEAv6iptf3h5LezXJ%2BpiHzRY%2FsVlxDTmKZjxPALl7EF%2BJkq%2FwMITRAAGgw2Mzc0MjMxODM4MDUiDAqPLimSnuqMi6k1cSrcAyRBnrDVM9TjemZO1AvREz0qXJptPD5VdIewMjJQGe9Ek1ikV%2BJ4c7ZJhxndDDqkhlqWJsDepNz%2F1KGaRSqfC2lOOeSrkG4w3KAIcw3xecQ8KtMed1ws9IhjcSFwPDKHIcQFSyaULWhEu9m5eDtRsNXDLCGYPTXoKNP1zhv%2FvDg5jD44Yo%2Fy8nbqSpnlqEGfiH7BVMugAqZ4zmSOFn15s%2FTjqWZJrPZKDfN0gwo5as2pVHMA5Jrwb2xUlSKIDIVP5AqD6I4qvAEyAU2q2IMQ%2B%2FCxCk1cTRM2Y7jvbgvC2j7Bha2CBEYlCvFYwRe1WnZEUWtCvvcZFG76eAVNkFqVrbW6guNpdqze%2FmL3WxVaVui1uBfbbZXkXY%2BhPnOnnAbaotZaAHuTQ3HYbhk%2FlqRY5SfY38Tn77%2BH5DXB95dIgS03Rd3mS%2BrjgztaNUqFywdwjcOLA0%2FGE09jIpshjbLJmfxJp0lH8x05S8kWOF2%2FaRtAXNgv6s7Ya3MesC8phqZE3FMbtCiEfxI9jlGxYq09djYOWtisbMG2HkKWlkYlE9tD3LQ03GrGuJSlCbS%2FwA9lhalcNG5Ds8hWMs1E5FyKGJ3iOIg5izuspxHXbhwI5mll%2FhU5pav05KW2wDwFMNz24MsGOqUB%2FdQk9xzxkqkB%2B46fgtnwMb92301rz6BGAkj4fWfovUZrSTiT1BtgX7Og4ARJDiZj91BeJViePyazflxEklLyYFge6C%2FlGGL8NGhzvQ8w5iz1UKLSCfVSBfnyLWHXfyHFkWhCJe%2ByBMs00lecv18wPEoNImkXr%2FBc3L%2F31cBUrS5DgGn2cmeCF%2BcRTYZ1x6ztgFh5L1m97sf7%2F7CqOkVSf4qCdQoE&X-Amz-Signature=6132fad7acc49d9a83056b5d38d7de6c6ada7eebc3e7bff4aa35afaae530453a&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+            "expiry_time": "2026-01-27T06:00:03.977Z"
           }
         }
       },
@@ -1760,7 +1643,7 @@
           "block_id": "2f144860-a4f4-8120-9697-d48a5bffb081"
         },
         "created_time": "2026-01-23T11:13:00.000Z",
-        "last_edited_time": "2026-01-23T11:24:00.000Z",
+        "last_edited_time": "2026-01-27T04:31:00.000Z",
         "created_by": {
           "object": "user",
           "id": "2aed872b-594c-81eb-bc82-000291164988"
@@ -1795,7 +1678,7 @@
             {
               "type": "text",
               "text": {
-                "content": " 문제가 해결되어 만족하는 상태.",
+                "content": " 문제가 해결되어 만족하는 상태",
                 "link": null
               },
               "annotations": {
@@ -1806,12 +1689,35 @@
                 "code": false,
                 "color": "default"
               },
-              "plain_text": " 문제가 해결되어 만족하는 상태.",
+              "plain_text": " 문제가 해결되어 만족하는 상태",
               "href": null
             }
           ],
           "color": "default"
         }
+      },
+      {
+        "object": "block",
+        "id": "2f544860-a4f4-80f3-81df-d2cec9e9b34f",
+        "parent": {
+          "type": "block_id",
+          "block_id": "2f144860-a4f4-8120-9697-d48a5bffb081"
+        },
+        "created_time": "2026-01-27T04:31:00.000Z",
+        "last_edited_time": "2026-01-27T04:31:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "has_children": false,
+        "archived": false,
+        "in_trash": false,
+        "type": "divider",
+        "divider": {}
       },
       {
         "object": "block",
@@ -2045,50 +1951,6 @@
         "in_trash": false,
         "type": "divider",
         "divider": {}
-      },
-      {
-        "object": "block",
-        "id": "2f144860-a4f4-80fc-ad46-e9d623282420",
-        "parent": {
-          "type": "block_id",
-          "block_id": "2f144860-a4f4-8016-99e0-cc30ec07252e"
-        },
-        "created_time": "2026-01-23T11:13:00.000Z",
-        "last_edited_time": "2026-01-23T11:13:00.000Z",
-        "created_by": {
-          "object": "user",
-          "id": "2aed872b-594c-81eb-bc82-000291164988"
-        },
-        "last_edited_by": {
-          "object": "user",
-          "id": "2aed872b-594c-81eb-bc82-000291164988"
-        },
-        "has_children": false,
-        "archived": false,
-        "in_trash": false,
-        "type": "quote",
-        "quote": {
-          "rich_text": [
-            {
-              "type": "text",
-              "text": {
-                "content": "아래는 정답이 아니라 참고 예시다. 실제 문구와 화면 구성은 달라도 된다.",
-                "link": null
-              },
-              "annotations": {
-                "bold": false,
-                "italic": false,
-                "strikethrough": false,
-                "underline": false,
-                "code": false,
-                "color": "default"
-              },
-              "plain_text": "아래는 정답이 아니라 참고 예시다. 실제 문구와 화면 구성은 달라도 된다.",
-              "href": null
-            }
-          ],
-          "color": "default"
-        }
       },
       {
         "object": "block",
@@ -2869,7 +2731,7 @@
           "block_id": "2f144860-a4f4-80d5-99ce-f4ccc8d363dc"
         },
         "created_time": "2026-01-23T11:15:00.000Z",
-        "last_edited_time": "2026-01-23T11:16:00.000Z",
+        "last_edited_time": "2026-01-27T04:30:00.000Z",
         "created_by": {
           "object": "user",
           "id": "2aed872b-594c-81eb-bc82-000291164988"
@@ -2881,13 +2743,13 @@
         "has_children": false,
         "archived": false,
         "in_trash": false,
-        "type": "paragraph",
-        "paragraph": {
+        "type": "heading_3",
+        "heading_3": {
           "rich_text": [
             {
               "type": "text",
               "text": {
-                "content": "보너스 1 - Auto Layout 기초 적용",
+                "content": "1. Auto Layout 기초 적용",
                 "link": null
               },
               "annotations": {
@@ -2898,10 +2760,11 @@
                 "code": false,
                 "color": "default"
               },
-              "plain_text": "보너스 1 - Auto Layout 기초 적용",
+              "plain_text": "1. Auto Layout 기초 적용",
               "href": null
             }
           ],
+          "is_toggleable": false,
           "color": "default"
         }
       },
@@ -2977,13 +2840,13 @@
       },
       {
         "object": "block",
-        "id": "2f144860-a4f4-80c3-aa84-ce43436863d2",
+        "id": "2f544860-a4f4-80c4-8084-ef796860625b",
         "parent": {
           "type": "block_id",
           "block_id": "2f144860-a4f4-80d5-99ce-f4ccc8d363dc"
         },
-        "created_time": "2026-01-23T11:15:00.000Z",
-        "last_edited_time": "2026-01-23T11:17:00.000Z",
+        "created_time": "2026-01-27T04:30:00.000Z",
+        "last_edited_time": "2026-01-27T04:30:00.000Z",
         "created_by": {
           "object": "user",
           "id": "2aed872b-594c-81eb-bc82-000291164988"
@@ -2995,13 +2858,36 @@
         "has_children": false,
         "archived": false,
         "in_trash": false,
-        "type": "paragraph",
-        "paragraph": {
+        "type": "divider",
+        "divider": {}
+      },
+      {
+        "object": "block",
+        "id": "2f144860-a4f4-80c3-aa84-ce43436863d2",
+        "parent": {
+          "type": "block_id",
+          "block_id": "2f144860-a4f4-80d5-99ce-f4ccc8d363dc"
+        },
+        "created_time": "2026-01-23T11:15:00.000Z",
+        "last_edited_time": "2026-01-27T04:30:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "has_children": false,
+        "archived": false,
+        "in_trash": false,
+        "type": "heading_3",
+        "heading_3": {
           "rich_text": [
             {
               "type": "text",
               "text": {
-                "content": "보너스 2 - 예외 상황 (Unhappy Path) 시나리오",
+                "content": "2. 예외 상황 (Unhappy Path) 시나리오",
                 "link": null
               },
               "annotations": {
@@ -3012,10 +2898,11 @@
                 "code": false,
                 "color": "default"
               },
-              "plain_text": "보너스 2 - 예외 상황 (Unhappy Path) 시나리오",
+              "plain_text": "2. 예외 상황 (Unhappy Path) 시나리오",
               "href": null
             }
           ],
+          "is_toggleable": false,
           "color": "default"
         }
       },
@@ -3185,5 +3072,5 @@
       }
     ]
   },
-  "syncedAt": "2026-01-23T11:25:25.880Z"
+  "syncedAt": "2026-01-27T05:00:09.963Z"
 }
