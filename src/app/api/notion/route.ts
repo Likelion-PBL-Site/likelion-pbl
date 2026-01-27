@@ -6,6 +6,7 @@ import {
   fetchMissionByIdFromNotion,
 } from "@/lib/notion";
 import { isValidTrackId } from "@/data/tracks";
+import { readTrackCache } from "@/data/notion-cache";
 import type { TrackType } from "@/types/pbl";
 
 /**
@@ -57,6 +58,18 @@ export async function GET(request: Request) {
         );
       }
 
+      // 1. JSON 캐시에서 먼저 읽기 시도
+      try {
+        const cached = await readTrackCache(track);
+        if (cached && cached.missions && cached.missions.length > 0) {
+          console.log(`[API] 캐시에서 ${track} 트랙 로드: ${cached.missions.length}개 미션`);
+          return NextResponse.json({ missions: cached.missions, track, configured: true, fromCache: true });
+        }
+      } catch (error) {
+        console.warn(`[API] 캐시 읽기 실패: ${track}`, error);
+      }
+
+      // 2. Notion API로 폴백
       const missions = await fetchMissionsByTrackFromNotion(track);
       return NextResponse.json({ missions, track, configured: true });
     }

@@ -20,11 +20,13 @@ export function Header() {
   return (
     <header className="sticky top-0 z-50 w-full border-b bg-background/80 backdrop-blur-sm">
       <Container>
-        <div className="flex h-16 items-center justify-between">
-          {/* 로고 */}
-          <Logo />
+        <div className="flex h-16 items-center">
+          {/* 로고 - 왼쪽 고정 */}
+          <div className="flex-1">
+            <Logo />
+          </div>
 
-          {/* 데스크탑 네비게이션 */}
+          {/* 데스크탑 네비게이션 - 중앙 */}
           <nav className="hidden items-center gap-6 md:flex">
             {navConfig.mainNav.map((item) => (
               <Link
@@ -42,8 +44,8 @@ export function Header() {
             ))}
           </nav>
 
-          {/* 우측 액션 영역 */}
-          <div className="flex items-center gap-2">
+          {/* 우측 액션 영역 - 오른쪽 고정 */}
+          <div className="flex flex-1 items-center justify-end gap-2">
             {/* 데스크탑: 테마 토글 */}
             <ThemeToggle className="hidden md:inline-flex" />
             {/* 모바일: 햄버거 메뉴 */}

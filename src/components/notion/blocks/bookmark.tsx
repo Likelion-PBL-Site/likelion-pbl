@@ -1,4 +1,4 @@
-import { ArrowRight, Globe, Github, Youtube, FileText, BookOpen, Code, ExternalLink } from "lucide-react";
+import { ArrowRight, Globe, Github, Youtube, FileText, BookOpen, Code } from "lucide-react";
 import type { BookmarkBlock } from "@/types/notion-blocks";
 import { NotionRichText } from "../notion-rich-text";
 
