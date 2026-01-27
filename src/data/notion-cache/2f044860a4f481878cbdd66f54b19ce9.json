@@ -1250,7 +1250,52 @@
           "block_id": "2f044860-a4f4-81d0-99f6-f70bc4062bb4"
         },
         "created_time": "2026-01-22T05:00:00.000Z",
-        "last_edited_time": "2026-01-27T02:36:00.000Z",
+        "last_edited_time": "2026-01-27T05:03:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "has_children": false,
+        "archived": false,
+        "in_trash": false,
+        "type": "heading_3",
+        "heading_3": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "1. 아기사자 수 입력",
+                "link": null
+              },
+              "annotations": {
+                "bold": true,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "1. 아기사자 수 입력",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        }
+      },
+      {
+        "object": "block",
+        "id": "2f044860-a4f4-81c2-80da-df5a64365e8e",
+        "parent": {
+          "type": "block_id",
+          "block_id": "2f044860-a4f4-81d0-99f6-f70bc4062bb4"
+        },
+        "created_time": "2026-01-22T05:00:00.000Z",
+        "last_edited_time": "2026-01-27T05:03:00.000Z",
         "created_by": {
           "object": "user",
           "id": "2aed872b-594c-81eb-bc82-000291164988"
@@ -1262,24 +1307,24 @@
         "has_children": true,
         "archived": false,
         "in_trash": false,
-        "type": "numbered_list_item",
-        "numbered_list_item": {
+        "type": "bulleted_list_item",
+        "bulleted_list_item": {
           "rich_text": [
             {
               "type": "text",
               "text": {
-                "content": "아기사자 수 입력",
+                "content": "입력/요청",
                 "link": null
               },
               "annotations": {
-                "bold": true,
+                "bold": false,
                 "italic": false,
                 "strikethrough": false,
                 "underline": false,
                 "code": false,
                 "color": "default"
               },
-              "plain_text": "아기사자 수 입력",
+              "plain_text": "입력/요청",
               "href": null
             }
           ],
@@ -1288,12 +1333,12 @@
         "children": [
           {
             "object": "block",
-            "id": "2f044860-a4f4-81c2-80da-df5a64365e8e",
+            "id": "2f544860-a4f4-80c6-85c5-d07178aca8e7",
             "parent": {
               "type": "block_id",
-              "block_id": "2f044860-a4f4-818b-b629-cb2832955470"
+              "block_id": "2f044860-a4f4-81c2-80da-df5a64365e8e"
             },
-            "created_time": "2026-01-22T05:00:00.000Z",
+            "created_time": "2026-01-27T02:36:00.000Z",
             "last_edited_time": "2026-01-27T02:36:00.000Z",
             "created_by": {
               "object": "user",
@@ -1303,7 +1348,7 @@
               "object": "user",
               "id": "2aed872b-594c-81eb-bc82-000291164988"
             },
-            "has_children": true,
+            "has_children": false,
             "archived": false,
             "in_trash": false,
             "type": "bulleted_list_item",
@@ -1312,7 +1357,7 @@
                 {
                   "type": "text",
                   "text": {
-                    "content": "입력/요청",
+                    "content": " 콘솔에서 등록할 아기사자 수를 숫자로 입력한다.",
                     "link": null
                   },
                   "annotations": {
@@ -1323,150 +1368,127 @@
                     "code": false,
                     "color": "default"
                   },
-                  "plain_text": "입력/요청",
+                  "plain_text": " 콘솔에서 등록할 아기사자 수를 숫자로 입력한다.",
                   "href": null
                 }
               ],
               "color": "default"
-            },
-            "children": [
-              {
-                "object": "block",
-                "id": "2f544860-a4f4-80c6-85c5-d07178aca8e7",
-                "parent": {
-                  "type": "block_id",
-                  "block_id": "2f044860-a4f4-81c2-80da-df5a64365e8e"
-                },
-                "created_time": "2026-01-27T02:36:00.000Z",
-                "last_edited_time": "2026-01-27T02:36:00.000Z",
-                "created_by": {
-                  "object": "user",
-                  "id": "2aed872b-594c-81eb-bc82-000291164988"
-                },
-                "last_edited_by": {
-                  "object": "user",
-                  "id": "2aed872b-594c-81eb-bc82-000291164988"
-                },
-                "has_children": false,
-                "archived": false,
-                "in_trash": false,
-                "type": "bulleted_list_item",
-                "bulleted_list_item": {
-                  "rich_text": [
-                    {
-                      "type": "text",
-                      "text": {
-                        "content": " 콘솔에서 등록할 아기사자 수를 숫자로 입력한다.",
-                        "link": null
-                      },
-                      "annotations": {
-                        "bold": false,
-                        "italic": false,
-                        "strikethrough": false,
-                        "underline": false,
-                        "code": false,
-                        "color": "default"
-                      },
-                      "plain_text": " 콘솔에서 등록할 아기사자 수를 숫자로 입력한다.",
-                      "href": null
-                    }
-                  ],
-                  "color": "default"
-                }
-              }
-            ]
-          },
-          {
-            "object": "block",
-            "id": "2f044860-a4f4-8110-bdff-c7f7f06dad50",
-            "parent": {
-              "type": "block_id",
-              "block_id": "2f044860-a4f4-818b-b629-cb2832955470"
-            },
-            "created_time": "2026-01-22T05:00:00.000Z",
-            "last_edited_time": "2026-01-27T02:36:00.000Z",
-            "created_by": {
-              "object": "user",
-              "id": "2aed872b-594c-81eb-bc82-000291164988"
-            },
-            "last_edited_by": {
-              "object": "user",
-              "id": "2aed872b-594c-81eb-bc82-000291164988"
-            },
-            "has_children": true,
-            "archived": false,
-            "in_trash": false,
-            "type": "bulleted_list_item",
-            "bulleted_list_item": {
-              "rich_text": [
-                {
-                  "type": "text",
-                  "text": {
-                    "content": "출력/화면",
-                    "link": null
-                  },
-                  "annotations": {
-                    "bold": false,
-                    "italic": false,
-                    "strikethrough": false,
-                    "underline": false,
-                    "code": false,
-                    "color": "default"
-                  },
-                  "plain_text": "출력/화면",
-                  "href": null
-                }
-              ],
-              "color": "default"
-            },
-            "children": [
-              {
-                "object": "block",
-                "id": "2f544860-a4f4-8044-ba7a-c610874636ec",
-                "parent": {
-                  "type": "block_id",
-                  "block_id": "2f044860-a4f4-8110-bdff-c7f7f06dad50"
-                },
-                "created_time": "2026-01-27T02:36:00.000Z",
-                "last_edited_time": "2026-01-27T02:36:00.000Z",
-                "created_by": {
-                  "object": "user",
-                  "id": "2aed872b-594c-81eb-bc82-000291164988"
-                },
-                "last_edited_by": {
-                  "object": "user",
-                  "id": "2aed872b-594c-81eb-bc82-000291164988"
-                },
-                "has_children": false,
-                "archived": false,
-                "in_trash": false,
-                "type": "bulleted_list_item",
-                "bulleted_list_item": {
-                  "rich_text": [
-                    {
-                      "type": "text",
-                      "text": {
-                        "content": " 입력을 안내하는 메시지가 콘솔에 출력된다.",
-                        "link": null
-                      },
-                      "annotations": {
-                        "bold": false,
-                        "italic": false,
-                        "strikethrough": false,
-                        "underline": false,
-                        "code": false,
-                        "color": "default"
-                      },
-                      "plain_text": " 입력을 안내하는 메시지가 콘솔에 출력된다.",
-                      "href": null
-                    }
-                  ],
-                  "color": "default"
-                }
-              }
-            ]
+            }
           }
         ]
+      },
+      {
+        "object": "block",
+        "id": "2f044860-a4f4-8110-bdff-c7f7f06dad50",
+        "parent": {
+          "type": "block_id",
+          "block_id": "2f044860-a4f4-81d0-99f6-f70bc4062bb4"
+        },
+        "created_time": "2026-01-22T05:00:00.000Z",
+        "last_edited_time": "2026-01-27T05:04:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "has_children": true,
+        "archived": false,
+        "in_trash": false,
+        "type": "bulleted_list_item",
+        "bulleted_list_item": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "출력/화면",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "출력/화면",
+              "href": null
+            }
+          ],
+          "color": "default"
+        },
+        "children": [
+          {
+            "object": "block",
+            "id": "2f544860-a4f4-8044-ba7a-c610874636ec",
+            "parent": {
+              "type": "block_id",
+              "block_id": "2f044860-a4f4-8110-bdff-c7f7f06dad50"
+            },
+            "created_time": "2026-01-27T02:36:00.000Z",
+            "last_edited_time": "2026-01-27T02:36:00.000Z",
+            "created_by": {
+              "object": "user",
+              "id": "2aed872b-594c-81eb-bc82-000291164988"
+            },
+            "last_edited_by": {
+              "object": "user",
+              "id": "2aed872b-594c-81eb-bc82-000291164988"
+            },
+            "has_children": false,
+            "archived": false,
+            "in_trash": false,
+            "type": "bulleted_list_item",
+            "bulleted_list_item": {
+              "rich_text": [
+                {
+                  "type": "text",
+                  "text": {
+                    "content": " 입력을 안내하는 메시지가 콘솔에 출력된다.",
+                    "link": null
+                  },
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  },
+                  "plain_text": " 입력을 안내하는 메시지가 콘솔에 출력된다.",
+                  "href": null
+                }
+              ],
+              "color": "default"
+            }
+          }
+        ]
+      },
+      {
+        "object": "block",
+        "id": "2f544860-a4f4-8015-a06e-d36e6260ca02",
+        "parent": {
+          "type": "block_id",
+          "block_id": "2f044860-a4f4-81d0-99f6-f70bc4062bb4"
+        },
+        "created_time": "2026-01-27T05:03:00.000Z",
+        "last_edited_time": "2026-01-27T05:04:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "has_children": false,
+        "archived": false,
+        "in_trash": false,
+        "type": "divider",
+        "divider": {}
       },
       {
         "object": "block",
@@ -1476,7 +1498,52 @@
           "block_id": "2f044860-a4f4-81d0-99f6-f70bc4062bb4"
         },
         "created_time": "2026-01-22T05:00:00.000Z",
-        "last_edited_time": "2026-01-27T02:36:00.000Z",
+        "last_edited_time": "2026-01-27T05:03:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "has_children": false,
+        "archived": false,
+        "in_trash": false,
+        "type": "heading_3",
+        "heading_3": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "2. 아기사자 이름 입력 및 저장",
+                "link": null
+              },
+              "annotations": {
+                "bold": true,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "2. 아기사자 이름 입력 및 저장",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        }
+      },
+      {
+        "object": "block",
+        "id": "2f044860-a4f4-81cc-84b5-fd931811860d",
+        "parent": {
+          "type": "block_id",
+          "block_id": "2f044860-a4f4-81d0-99f6-f70bc4062bb4"
+        },
+        "created_time": "2026-01-22T05:00:00.000Z",
+        "last_edited_time": "2026-01-27T05:03:00.000Z",
         "created_by": {
           "object": "user",
           "id": "2aed872b-594c-81eb-bc82-000291164988"
@@ -1488,24 +1555,24 @@
         "has_children": true,
         "archived": false,
         "in_trash": false,
-        "type": "numbered_list_item",
-        "numbered_list_item": {
+        "type": "bulleted_list_item",
+        "bulleted_list_item": {
           "rich_text": [
             {
               "type": "text",
               "text": {
-                "content": "아기사자 이름 입력 및 저장",
+                "content": "입력/요청",
                 "link": null
               },
               "annotations": {
-                "bold": true,
+                "bold": false,
                 "italic": false,
                 "strikethrough": false,
                 "underline": false,
                 "code": false,
                 "color": "default"
               },
-              "plain_text": "아기사자 이름 입력 및 저장",
+              "plain_text": "입력/요청",
               "href": null
             }
           ],
@@ -1514,12 +1581,12 @@
         "children": [
           {
             "object": "block",
-            "id": "2f044860-a4f4-81cc-84b5-fd931811860d",
+            "id": "2f544860-a4f4-80a5-9219-d477cc080d93",
             "parent": {
               "type": "block_id",
-              "block_id": "2f044860-a4f4-8160-8dfd-c1c56884c96c"
+              "block_id": "2f044860-a4f4-81cc-84b5-fd931811860d"
             },
-            "created_time": "2026-01-22T05:00:00.000Z",
+            "created_time": "2026-01-27T02:36:00.000Z",
             "last_edited_time": "2026-01-27T02:36:00.000Z",
             "created_by": {
               "object": "user",
@@ -1529,7 +1596,7 @@
               "object": "user",
               "id": "2aed872b-594c-81eb-bc82-000291164988"
             },
-            "has_children": true,
+            "has_children": false,
             "archived": false,
             "in_trash": false,
             "type": "bulleted_list_item",
@@ -1538,7 +1605,7 @@
                 {
                   "type": "text",
                   "text": {
-                    "content": "입력/요청",
+                    "content": " 입력한 아기사자 수만큼 이름을 콘솔로 입력한다.",
                     "link": null
                   },
                   "annotations": {
@@ -1549,240 +1616,217 @@
                     "code": false,
                     "color": "default"
                   },
-                  "plain_text": "입력/요청",
+                  "plain_text": " 입력한 아기사자 수만큼 이름을 콘솔로 입력한다.",
                   "href": null
                 }
               ],
               "color": "default"
-            },
-            "children": [
-              {
-                "object": "block",
-                "id": "2f544860-a4f4-80a5-9219-d477cc080d93",
-                "parent": {
-                  "type": "block_id",
-                  "block_id": "2f044860-a4f4-81cc-84b5-fd931811860d"
-                },
-                "created_time": "2026-01-27T02:36:00.000Z",
-                "last_edited_time": "2026-01-27T02:36:00.000Z",
-                "created_by": {
-                  "object": "user",
-                  "id": "2aed872b-594c-81eb-bc82-000291164988"
-                },
-                "last_edited_by": {
-                  "object": "user",
-                  "id": "2aed872b-594c-81eb-bc82-000291164988"
-                },
-                "has_children": false,
-                "archived": false,
-                "in_trash": false,
-                "type": "bulleted_list_item",
-                "bulleted_list_item": {
-                  "rich_text": [
-                    {
-                      "type": "text",
-                      "text": {
-                        "content": " 입력한 아기사자 수만큼 이름을 콘솔로 입력한다.",
-                        "link": null
-                      },
-                      "annotations": {
-                        "bold": false,
-                        "italic": false,
-                        "strikethrough": false,
-                        "underline": false,
-                        "code": false,
-                        "color": "default"
-                      },
-                      "plain_text": " 입력한 아기사자 수만큼 이름을 콘솔로 입력한다.",
-                      "href": null
-                    }
-                  ],
-                  "color": "default"
-                }
-              }
-            ]
-          },
-          {
-            "object": "block",
-            "id": "2f044860-a4f4-81d5-bde0-e11bdcd50317",
-            "parent": {
-              "type": "block_id",
-              "block_id": "2f044860-a4f4-8160-8dfd-c1c56884c96c"
-            },
-            "created_time": "2026-01-22T05:00:00.000Z",
-            "last_edited_time": "2026-01-27T02:36:00.000Z",
-            "created_by": {
-              "object": "user",
-              "id": "2aed872b-594c-81eb-bc82-000291164988"
-            },
-            "last_edited_by": {
-              "object": "user",
-              "id": "2aed872b-594c-81eb-bc82-000291164988"
-            },
-            "has_children": true,
-            "archived": false,
-            "in_trash": false,
-            "type": "bulleted_list_item",
-            "bulleted_list_item": {
-              "rich_text": [
-                {
-                  "type": "text",
-                  "text": {
-                    "content": "처리",
-                    "link": null
-                  },
-                  "annotations": {
-                    "bold": false,
-                    "italic": false,
-                    "strikethrough": false,
-                    "underline": false,
-                    "code": false,
-                    "color": "default"
-                  },
-                  "plain_text": "처리",
-                  "href": null
-                }
-              ],
-              "color": "default"
-            },
-            "children": [
-              {
-                "object": "block",
-                "id": "2f544860-a4f4-80e2-a946-ddcc2150b049",
-                "parent": {
-                  "type": "block_id",
-                  "block_id": "2f044860-a4f4-81d5-bde0-e11bdcd50317"
-                },
-                "created_time": "2026-01-27T02:36:00.000Z",
-                "last_edited_time": "2026-01-27T02:36:00.000Z",
-                "created_by": {
-                  "object": "user",
-                  "id": "2aed872b-594c-81eb-bc82-000291164988"
-                },
-                "last_edited_by": {
-                  "object": "user",
-                  "id": "2aed872b-594c-81eb-bc82-000291164988"
-                },
-                "has_children": false,
-                "archived": false,
-                "in_trash": false,
-                "type": "bulleted_list_item",
-                "bulleted_list_item": {
-                  "rich_text": [
-                    {
-                      "type": "text",
-                      "text": {
-                        "content": " 입력된 이름은 배열에 순서대로 저장된다.",
-                        "link": null
-                      },
-                      "annotations": {
-                        "bold": false,
-                        "italic": false,
-                        "strikethrough": false,
-                        "underline": false,
-                        "code": false,
-                        "color": "default"
-                      },
-                      "plain_text": " 입력된 이름은 배열에 순서대로 저장된다.",
-                      "href": null
-                    }
-                  ],
-                  "color": "default"
-                }
-              }
-            ]
-          },
-          {
-            "object": "block",
-            "id": "2f044860-a4f4-8199-8552-dea75a32caa4",
-            "parent": {
-              "type": "block_id",
-              "block_id": "2f044860-a4f4-8160-8dfd-c1c56884c96c"
-            },
-            "created_time": "2026-01-22T05:00:00.000Z",
-            "last_edited_time": "2026-01-27T02:36:00.000Z",
-            "created_by": {
-              "object": "user",
-              "id": "2aed872b-594c-81eb-bc82-000291164988"
-            },
-            "last_edited_by": {
-              "object": "user",
-              "id": "2aed872b-594c-81eb-bc82-000291164988"
-            },
-            "has_children": true,
-            "archived": false,
-            "in_trash": false,
-            "type": "bulleted_list_item",
-            "bulleted_list_item": {
-              "rich_text": [
-                {
-                  "type": "text",
-                  "text": {
-                    "content": "출력/화면",
-                    "link": null
-                  },
-                  "annotations": {
-                    "bold": false,
-                    "italic": false,
-                    "strikethrough": false,
-                    "underline": false,
-                    "code": false,
-                    "color": "default"
-                  },
-                  "plain_text": "출력/화면",
-                  "href": null
-                }
-              ],
-              "color": "default"
-            },
-            "children": [
-              {
-                "object": "block",
-                "id": "2f544860-a4f4-8062-9c0b-cef223c3d4b5",
-                "parent": {
-                  "type": "block_id",
-                  "block_id": "2f044860-a4f4-8199-8552-dea75a32caa4"
-                },
-                "created_time": "2026-01-27T02:36:00.000Z",
-                "last_edited_time": "2026-01-27T02:36:00.000Z",
-                "created_by": {
-                  "object": "user",
-                  "id": "2aed872b-594c-81eb-bc82-000291164988"
-                },
-                "last_edited_by": {
-                  "object": "user",
-                  "id": "2aed872b-594c-81eb-bc82-000291164988"
-                },
-                "has_children": false,
-                "archived": false,
-                "in_trash": false,
-                "type": "bulleted_list_item",
-                "bulleted_list_item": {
-                  "rich_text": [
-                    {
-                      "type": "text",
-                      "text": {
-                        "content": " 이름 입력을 안내하는 메시지가 콘솔에 출력된다.",
-                        "link": null
-                      },
-                      "annotations": {
-                        "bold": false,
-                        "italic": false,
-                        "strikethrough": false,
-                        "underline": false,
-                        "code": false,
-                        "color": "default"
-                      },
-                      "plain_text": " 이름 입력을 안내하는 메시지가 콘솔에 출력된다.",
-                      "href": null
-                    }
-                  ],
-                  "color": "default"
-                }
-              }
-            ]
+            }
           }
         ]
+      },
+      {
+        "object": "block",
+        "id": "2f044860-a4f4-81d5-bde0-e11bdcd50317",
+        "parent": {
+          "type": "block_id",
+          "block_id": "2f044860-a4f4-81d0-99f6-f70bc4062bb4"
+        },
+        "created_time": "2026-01-22T05:00:00.000Z",
+        "last_edited_time": "2026-01-27T05:03:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "has_children": true,
+        "archived": false,
+        "in_trash": false,
+        "type": "bulleted_list_item",
+        "bulleted_list_item": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "처리",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "처리",
+              "href": null
+            }
+          ],
+          "color": "default"
+        },
+        "children": [
+          {
+            "object": "block",
+            "id": "2f544860-a4f4-80e2-a946-ddcc2150b049",
+            "parent": {
+              "type": "block_id",
+              "block_id": "2f044860-a4f4-81d5-bde0-e11bdcd50317"
+            },
+            "created_time": "2026-01-27T02:36:00.000Z",
+            "last_edited_time": "2026-01-27T02:36:00.000Z",
+            "created_by": {
+              "object": "user",
+              "id": "2aed872b-594c-81eb-bc82-000291164988"
+            },
+            "last_edited_by": {
+              "object": "user",
+              "id": "2aed872b-594c-81eb-bc82-000291164988"
+            },
+            "has_children": false,
+            "archived": false,
+            "in_trash": false,
+            "type": "bulleted_list_item",
+            "bulleted_list_item": {
+              "rich_text": [
+                {
+                  "type": "text",
+                  "text": {
+                    "content": " 입력된 이름은 배열에 순서대로 저장된다.",
+                    "link": null
+                  },
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  },
+                  "plain_text": " 입력된 이름은 배열에 순서대로 저장된다.",
+                  "href": null
+                }
+              ],
+              "color": "default"
+            }
+          }
+        ]
+      },
+      {
+        "object": "block",
+        "id": "2f044860-a4f4-8199-8552-dea75a32caa4",
+        "parent": {
+          "type": "block_id",
+          "block_id": "2f044860-a4f4-81d0-99f6-f70bc4062bb4"
+        },
+        "created_time": "2026-01-22T05:00:00.000Z",
+        "last_edited_time": "2026-01-27T05:04:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "has_children": true,
+        "archived": false,
+        "in_trash": false,
+        "type": "bulleted_list_item",
+        "bulleted_list_item": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "출력/화면",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "출력/화면",
+              "href": null
+            }
+          ],
+          "color": "default"
+        },
+        "children": [
+          {
+            "object": "block",
+            "id": "2f544860-a4f4-8062-9c0b-cef223c3d4b5",
+            "parent": {
+              "type": "block_id",
+              "block_id": "2f044860-a4f4-8199-8552-dea75a32caa4"
+            },
+            "created_time": "2026-01-27T02:36:00.000Z",
+            "last_edited_time": "2026-01-27T02:36:00.000Z",
+            "created_by": {
+              "object": "user",
+              "id": "2aed872b-594c-81eb-bc82-000291164988"
+            },
+            "last_edited_by": {
+              "object": "user",
+              "id": "2aed872b-594c-81eb-bc82-000291164988"
+            },
+            "has_children": false,
+            "archived": false,
+            "in_trash": false,
+            "type": "bulleted_list_item",
+            "bulleted_list_item": {
+              "rich_text": [
+                {
+                  "type": "text",
+                  "text": {
+                    "content": " 이름 입력을 안내하는 메시지가 콘솔에 출력된다.",
+                    "link": null
+                  },
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  },
+                  "plain_text": " 이름 입력을 안내하는 메시지가 콘솔에 출력된다.",
+                  "href": null
+                }
+              ],
+              "color": "default"
+            }
+          }
+        ]
+      },
+      {
+        "object": "block",
+        "id": "2f544860-a4f4-804a-b9e7-f1f1f03eea04",
+        "parent": {
+          "type": "block_id",
+          "block_id": "2f044860-a4f4-81d0-99f6-f70bc4062bb4"
+        },
+        "created_time": "2026-01-27T05:04:00.000Z",
+        "last_edited_time": "2026-01-27T05:04:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "has_children": false,
+        "archived": false,
+        "in_trash": false,
+        "type": "divider",
+        "divider": {}
       },
       {
         "object": "block",
@@ -1792,7 +1836,52 @@
           "block_id": "2f044860-a4f4-81d0-99f6-f70bc4062bb4"
         },
         "created_time": "2026-01-22T05:00:00.000Z",
-        "last_edited_time": "2026-01-27T02:36:00.000Z",
+        "last_edited_time": "2026-01-27T05:03:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "has_children": false,
+        "archived": false,
+        "in_trash": false,
+        "type": "heading_3",
+        "heading_3": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "3. 최종 아기사자 명단 출력",
+                "link": null
+              },
+              "annotations": {
+                "bold": true,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "3. 최종 아기사자 명단 출력",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        }
+      },
+      {
+        "object": "block",
+        "id": "2f044860-a4f4-81d3-b560-c910f88a86d0",
+        "parent": {
+          "type": "block_id",
+          "block_id": "2f044860-a4f4-81d0-99f6-f70bc4062bb4"
+        },
+        "created_time": "2026-01-22T05:00:00.000Z",
+        "last_edited_time": "2026-01-27T05:03:00.000Z",
         "created_by": {
           "object": "user",
           "id": "2aed872b-594c-81eb-bc82-000291164988"
@@ -1804,24 +1893,24 @@
         "has_children": true,
         "archived": false,
         "in_trash": false,
-        "type": "numbered_list_item",
-        "numbered_list_item": {
+        "type": "bulleted_list_item",
+        "bulleted_list_item": {
           "rich_text": [
             {
               "type": "text",
               "text": {
-                "content": "최종 아기사자 명단 출력",
+                "content": "처리",
                 "link": null
               },
               "annotations": {
-                "bold": true,
+                "bold": false,
                 "italic": false,
                 "strikethrough": false,
                 "underline": false,
                 "code": false,
                 "color": "default"
               },
-              "plain_text": "최종 아기사자 명단 출력",
+              "plain_text": "처리",
               "href": null
             }
           ],
@@ -1830,12 +1919,12 @@
         "children": [
           {
             "object": "block",
-            "id": "2f044860-a4f4-81d3-b560-c910f88a86d0",
+            "id": "2f544860-a4f4-8041-a797-c507077e0329",
             "parent": {
               "type": "block_id",
-              "block_id": "2f044860-a4f4-81b1-a590-f57acbafdead"
+              "block_id": "2f044860-a4f4-81d3-b560-c910f88a86d0"
             },
-            "created_time": "2026-01-22T05:00:00.000Z",
+            "created_time": "2026-01-27T02:36:00.000Z",
             "last_edited_time": "2026-01-27T02:36:00.000Z",
             "created_by": {
               "object": "user",
@@ -1845,7 +1934,7 @@
               "object": "user",
               "id": "2aed872b-594c-81eb-bc82-000291164988"
             },
-            "has_children": true,
+            "has_children": false,
             "archived": false,
             "in_trash": false,
             "type": "bulleted_list_item",
@@ -1854,7 +1943,7 @@
                 {
                   "type": "text",
                   "text": {
-                    "content": "처리",
+                    "content": " 배열에 저장된 아기사자 이름을 순서대로 조회한다.",
                     "link": null
                   },
                   "annotations": {
@@ -1865,67 +1954,67 @@
                     "code": false,
                     "color": "default"
                   },
-                  "plain_text": "처리",
+                  "plain_text": " 배열에 저장된 아기사자 이름을 순서대로 조회한다.",
                   "href": null
                 }
               ],
               "color": "default"
-            },
-            "children": [
-              {
-                "object": "block",
-                "id": "2f544860-a4f4-8041-a797-c507077e0329",
-                "parent": {
-                  "type": "block_id",
-                  "block_id": "2f044860-a4f4-81d3-b560-c910f88a86d0"
-                },
-                "created_time": "2026-01-27T02:36:00.000Z",
-                "last_edited_time": "2026-01-27T02:36:00.000Z",
-                "created_by": {
-                  "object": "user",
-                  "id": "2aed872b-594c-81eb-bc82-000291164988"
-                },
-                "last_edited_by": {
-                  "object": "user",
-                  "id": "2aed872b-594c-81eb-bc82-000291164988"
-                },
-                "has_children": false,
-                "archived": false,
-                "in_trash": false,
-                "type": "bulleted_list_item",
-                "bulleted_list_item": {
-                  "rich_text": [
-                    {
-                      "type": "text",
-                      "text": {
-                        "content": " 배열에 저장된 아기사자 이름을 순서대로 조회한다.",
-                        "link": null
-                      },
-                      "annotations": {
-                        "bold": false,
-                        "italic": false,
-                        "strikethrough": false,
-                        "underline": false,
-                        "code": false,
-                        "color": "default"
-                      },
-                      "plain_text": " 배열에 저장된 아기사자 이름을 순서대로 조회한다.",
-                      "href": null
-                    }
-                  ],
-                  "color": "default"
-                }
-              }
-            ]
-          },
+            }
+          }
+        ]
+      },
+      {
+        "object": "block",
+        "id": "2f044860-a4f4-8126-a7cb-d613b419f75e",
+        "parent": {
+          "type": "block_id",
+          "block_id": "2f044860-a4f4-81d0-99f6-f70bc4062bb4"
+        },
+        "created_time": "2026-01-22T05:00:00.000Z",
+        "last_edited_time": "2026-01-27T05:03:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "has_children": true,
+        "archived": false,
+        "in_trash": false,
+        "type": "bulleted_list_item",
+        "bulleted_list_item": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "출력/화면",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "출력/화면",
+              "href": null
+            }
+          ],
+          "color": "default"
+        },
+        "children": [
           {
             "object": "block",
-            "id": "2f044860-a4f4-8126-a7cb-d613b419f75e",
+            "id": "2f544860-a4f4-802b-af57-d1205422cbf0",
             "parent": {
               "type": "block_id",
-              "block_id": "2f044860-a4f4-81b1-a590-f57acbafdead"
+              "block_id": "2f044860-a4f4-8126-a7cb-d613b419f75e"
             },
-            "created_time": "2026-01-22T05:00:00.000Z",
+            "created_time": "2026-01-27T02:36:00.000Z",
             "last_edited_time": "2026-01-27T02:36:00.000Z",
             "created_by": {
               "object": "user",
@@ -1935,7 +2024,7 @@
               "object": "user",
               "id": "2aed872b-594c-81eb-bc82-000291164988"
             },
-            "has_children": true,
+            "has_children": false,
             "archived": false,
             "in_trash": false,
             "type": "bulleted_list_item",
@@ -1944,7 +2033,7 @@
                 {
                   "type": "text",
                   "text": {
-                    "content": "출력/화면",
+                    "content": " 최종 아기사자 명단이 콘솔에 출력된다.",
                     "link": null
                   },
                   "annotations": {
@@ -1955,58 +2044,12 @@
                     "code": false,
                     "color": "default"
                   },
-                  "plain_text": "출력/화면",
+                  "plain_text": " 최종 아기사자 명단이 콘솔에 출력된다.",
                   "href": null
                 }
               ],
               "color": "default"
-            },
-            "children": [
-              {
-                "object": "block",
-                "id": "2f544860-a4f4-802b-af57-d1205422cbf0",
-                "parent": {
-                  "type": "block_id",
-                  "block_id": "2f044860-a4f4-8126-a7cb-d613b419f75e"
-                },
-                "created_time": "2026-01-27T02:36:00.000Z",
-                "last_edited_time": "2026-01-27T02:36:00.000Z",
-                "created_by": {
-                  "object": "user",
-                  "id": "2aed872b-594c-81eb-bc82-000291164988"
-                },
-                "last_edited_by": {
-                  "object": "user",
-                  "id": "2aed872b-594c-81eb-bc82-000291164988"
-                },
-                "has_children": false,
-                "archived": false,
-                "in_trash": false,
-                "type": "bulleted_list_item",
-                "bulleted_list_item": {
-                  "rich_text": [
-                    {
-                      "type": "text",
-                      "text": {
-                        "content": " 최종 아기사자 명단이 콘솔에 출력된다.",
-                        "link": null
-                      },
-                      "annotations": {
-                        "bold": false,
-                        "italic": false,
-                        "strikethrough": false,
-                        "underline": false,
-                        "code": false,
-                        "color": "default"
-                      },
-                      "plain_text": " 최종 아기사자 명단이 콘솔에 출력된다.",
-                      "href": null
-                    }
-                  ],
-                  "color": "default"
-                }
-              }
-            ]
+            }
           }
         ]
       },
@@ -2111,7 +2154,7 @@
           "block_id": "2f044860-a4f4-81d0-99f6-f70bc4062bb4"
         },
         "created_time": "2026-01-22T05:00:00.000Z",
-        "last_edited_time": "2026-01-22T05:00:00.000Z",
+        "last_edited_time": "2026-01-27T05:03:00.000Z",
         "created_by": {
           "object": "user",
           "id": "2aed872b-594c-81eb-bc82-000291164988"
@@ -2123,8 +2166,8 @@
         "has_children": false,
         "archived": false,
         "in_trash": false,
-        "type": "paragraph",
-        "paragraph": {
+        "type": "heading_3",
+        "heading_3": {
           "rich_text": [
             {
               "type": "text",
@@ -2144,6 +2187,7 @@
               "href": null
             }
           ],
+          "is_toggleable": false,
           "color": "default"
         }
       },
@@ -3449,8 +3493,8 @@
           "caption": [],
           "type": "file",
           "file": {
-            "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/c69962b0-3951-485b-b10a-5bb29576bba8/d0af6b5a-f884-43aa-b2c2-20da8b7ff392/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466YXGFCI63%2F20260127%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260127T045806Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEIT%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJIMEYCIQCYfTFCSdcT4u8DN%2FJtWfMS61fW%2FcmlQtDOLIh1Q4WBiAIhAOtEHRyVb3iS3pqU3VJeFBYRkIcf6%2BN%2FP8o948S46wXpKv8DCE0QABoMNjM3NDIzMTgzODA1Igxenmc8Xmg9gOi87TMq3AOt415pRIlFMH0%2Ft1elF2NsqfTeiIKckrAhTsCKW7tvZHOIPhiy6IBIJ0DjXOwmg4j%2FVaIp%2BfsILPL5IattLxS8kB1rQbA2o%2F5rCvPI%2FVWRV8mLN2CblVqLALrFzGXA9F2XKbs6rCnGGWkkmYqfjkTJz6UqDmUPfl%2BVHrjHf4OHP3EkIbBiTpSxcCwjoiM9r9arjcYtK8ScdzbyXg4U1zjdmPLPdhUB%2FvxaAnZeZ9mcb7apaL6EmBK0M%2BUpivT7%2FYNTfbCmYFuiS%2FeCaaf3x0eVbYdRzcichqGO1i1RlV%2FP9rWOgE4xgFOND5RKU6zIugpyFIcUzhGPivkTZK75bJaqONp0NOtrQcc9COWc75RR9rt8g7ArYnXzAk8r9gNXdciSsBZ8oxPXUL5FAzN3amnwIXn2K2BLzFaJ4mY%2FR1vTAQJ38Q%2BD5V6C5nYyuUBdbIPeP%2BqIoDG77U11mrWQJpkRie5ICrGzXM4GsS%2Bv6x0gu7BWUUACdPb%2FiW3D5kACILNts%2FZKhszWnPEhTdS7RLkKHen3djJgvEmG39mY2wnGs9l1pbBsGTAaEyRk%2BSg4n2wNR8tqcbORngOAWi7znYZ4esOQBF7REMntZnJTNgLLFTcTR0INMhouTdtl6zDl9uDLBjqkAVfggqk7wev5eRO5eREnC%2BkeoNcYpO5Bdv3HFzKN6bm1BV5Ixx%2Bn%2B%2BwkAfXHd9KAy%2BlTWDeIMlPmKSmPwvFCNQ38z9p6aIaZ4mTEsANpnAKQwMEwg81oOHvTn1OOs9EULuUyqX7gmTcHIZw6nuIOrRKF03HFvNJsSNsuHkLdQ9fOnLBE4o0qWgRlwgPvdyUi00Ec%2BTOGeEBd%2FyTXcD7zNoEdYT8d&X-Amz-Signature=230d7de8184e3eaf94041dcfaf14a08df55c77ac4e076c37a83616acda8ac969&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
-            "expiry_time": "2026-01-27T05:58:06.386Z"
+            "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/c69962b0-3951-485b-b10a-5bb29576bba8/d0af6b5a-f884-43aa-b2c2-20da8b7ff392/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466YSI6QQTH%2F20260127%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260127T080148Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEIj%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIHA3EQitdY1sKpI4D7yq0XDf6T%2Fb6VfqwQC1%2FkZBkfLJAiEA8JnwIEZZ1%2FlX2ay5cLwWYIYCR9E6LBjZQ%2FrBNtHL9lIq%2FwMIURAAGgw2Mzc0MjMxODM4MDUiDCJX%2F0Mkg3qStCaZ2ircAz%2F6cn5LtpyBNd5AEIFWEoCOiLIIcLnLWuzeW7oozcD1zIo3QGpYn%2BZwE88awGhiYlyrBb%2BDxSDFDT9XiT8qUjkosUe65XkoFEn1OpyQf9bDLov2NFCfhJGMK%2BNd4WgP%2FUaC39noxgDbhD4GtlJ9BYy%2BocUMExQPEdaPV014zrTSuL3tChD97GUlryOFcQ2zLmwl35XuGuJluWvgOPrZDN6Z7zNPnU7mMXGrXQlHidlxRqclCNP9xm3PbiNyp82V6TDsLsORKlMhqXoPONiwGpgabDfU8C2YJhiWRHHknytpBfM1BIHLsHTbIIsnptcDRTBT9%2FD0UFWFhLvLpYkPDgDn6f6JctB64mjLBhLhIA8hK%2B5VGKFGWlr62ng5yE%2FdXt7lYJEE7Ca%2BITJ0M9h9dDwmCNieyA7AQCw4Ayy6COGtcQYtzlm7rCgxw9vA0WUnhy%2BOUHfwnqq7YJ%2B3RTjkbzRrwma3hmi7c7rvAXuM%2F6cxhVNWBsdnZkGDNNxwMOcjQ2qly%2FQOhXjB0GSt0wm4x9jbpaDzf9ddV41k%2F2aGIi0QHJzolG5o%2FM0IvUKig25cq8bqCV7P9tBf143q4U4rXd6sI7563xa3dacFti5VKc02%2FcYtmkm81nLvLr%2B7MLre4csGOqUBYn8apY5uo6JDSknOsvlokH%2Fc%2F3QgrtvO2ytB%2BOpmK33625xNT%2Buacwe6IkyZ3qnmUXaNbz3uwbJAZ2HLY0ymgTN8cYvXuHSonllTzNVi6emjXzE2ICHtlUNFtZa3lg4RLPoE4r9adTVl54XRDNZd2oRudo9YhmKDO84cZE%2BBlR%2BjpiDCJ8JYEdLhFEWE68gg6fg6UJ3lso50ITzerFdDsfvBehdh&X-Amz-Signature=602bfbf31ecf8b56bde2f92171b58b7da75446da3e3ffa54fc382b8e281c21cc&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+            "expiry_time": "2026-01-27T09:01:48.816Z"
           }
         }
       },
@@ -3523,8 +3567,8 @@
           "caption": [],
           "type": "file",
           "file": {
-            "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/c69962b0-3951-485b-b10a-5bb29576bba8/b679055b-bdc9-45f2-a550-2f8bb2e94ec6/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466YXGFCI63%2F20260127%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260127T045806Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEIT%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJIMEYCIQCYfTFCSdcT4u8DN%2FJtWfMS61fW%2FcmlQtDOLIh1Q4WBiAIhAOtEHRyVb3iS3pqU3VJeFBYRkIcf6%2BN%2FP8o948S46wXpKv8DCE0QABoMNjM3NDIzMTgzODA1Igxenmc8Xmg9gOi87TMq3AOt415pRIlFMH0%2Ft1elF2NsqfTeiIKckrAhTsCKW7tvZHOIPhiy6IBIJ0DjXOwmg4j%2FVaIp%2BfsILPL5IattLxS8kB1rQbA2o%2F5rCvPI%2FVWRV8mLN2CblVqLALrFzGXA9F2XKbs6rCnGGWkkmYqfjkTJz6UqDmUPfl%2BVHrjHf4OHP3EkIbBiTpSxcCwjoiM9r9arjcYtK8ScdzbyXg4U1zjdmPLPdhUB%2FvxaAnZeZ9mcb7apaL6EmBK0M%2BUpivT7%2FYNTfbCmYFuiS%2FeCaaf3x0eVbYdRzcichqGO1i1RlV%2FP9rWOgE4xgFOND5RKU6zIugpyFIcUzhGPivkTZK75bJaqONp0NOtrQcc9COWc75RR9rt8g7ArYnXzAk8r9gNXdciSsBZ8oxPXUL5FAzN3amnwIXn2K2BLzFaJ4mY%2FR1vTAQJ38Q%2BD5V6C5nYyuUBdbIPeP%2BqIoDG77U11mrWQJpkRie5ICrGzXM4GsS%2Bv6x0gu7BWUUACdPb%2FiW3D5kACILNts%2FZKhszWnPEhTdS7RLkKHen3djJgvEmG39mY2wnGs9l1pbBsGTAaEyRk%2BSg4n2wNR8tqcbORngOAWi7znYZ4esOQBF7REMntZnJTNgLLFTcTR0INMhouTdtl6zDl9uDLBjqkAVfggqk7wev5eRO5eREnC%2BkeoNcYpO5Bdv3HFzKN6bm1BV5Ixx%2Bn%2B%2BwkAfXHd9KAy%2BlTWDeIMlPmKSmPwvFCNQ38z9p6aIaZ4mTEsANpnAKQwMEwg81oOHvTn1OOs9EULuUyqX7gmTcHIZw6nuIOrRKF03HFvNJsSNsuHkLdQ9fOnLBE4o0qWgRlwgPvdyUi00Ec%2BTOGeEBd%2FyTXcD7zNoEdYT8d&X-Amz-Signature=2aed2c9ed6d4e37838283dcac5680385c309407816fbfb3c226268f33d8a5f9d&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
-            "expiry_time": "2026-01-27T05:58:06.370Z"
+            "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/c69962b0-3951-485b-b10a-5bb29576bba8/b679055b-bdc9-45f2-a550-2f8bb2e94ec6/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466YSI6QQTH%2F20260127%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260127T080149Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEIj%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIHA3EQitdY1sKpI4D7yq0XDf6T%2Fb6VfqwQC1%2FkZBkfLJAiEA8JnwIEZZ1%2FlX2ay5cLwWYIYCR9E6LBjZQ%2FrBNtHL9lIq%2FwMIURAAGgw2Mzc0MjMxODM4MDUiDCJX%2F0Mkg3qStCaZ2ircAz%2F6cn5LtpyBNd5AEIFWEoCOiLIIcLnLWuzeW7oozcD1zIo3QGpYn%2BZwE88awGhiYlyrBb%2BDxSDFDT9XiT8qUjkosUe65XkoFEn1OpyQf9bDLov2NFCfhJGMK%2BNd4WgP%2FUaC39noxgDbhD4GtlJ9BYy%2BocUMExQPEdaPV014zrTSuL3tChD97GUlryOFcQ2zLmwl35XuGuJluWvgOPrZDN6Z7zNPnU7mMXGrXQlHidlxRqclCNP9xm3PbiNyp82V6TDsLsORKlMhqXoPONiwGpgabDfU8C2YJhiWRHHknytpBfM1BIHLsHTbIIsnptcDRTBT9%2FD0UFWFhLvLpYkPDgDn6f6JctB64mjLBhLhIA8hK%2B5VGKFGWlr62ng5yE%2FdXt7lYJEE7Ca%2BITJ0M9h9dDwmCNieyA7AQCw4Ayy6COGtcQYtzlm7rCgxw9vA0WUnhy%2BOUHfwnqq7YJ%2B3RTjkbzRrwma3hmi7c7rvAXuM%2F6cxhVNWBsdnZkGDNNxwMOcjQ2qly%2FQOhXjB0GSt0wm4x9jbpaDzf9ddV41k%2F2aGIi0QHJzolG5o%2FM0IvUKig25cq8bqCV7P9tBf143q4U4rXd6sI7563xa3dacFti5VKc02%2FcYtmkm81nLvLr%2B7MLre4csGOqUBYn8apY5uo6JDSknOsvlokH%2Fc%2F3QgrtvO2ytB%2BOpmK33625xNT%2Buacwe6IkyZ3qnmUXaNbz3uwbJAZ2HLY0ymgTN8cYvXuHSonllTzNVi6emjXzE2ICHtlUNFtZa3lg4RLPoE4r9adTVl54XRDNZd2oRudo9YhmKDO84cZE%2BBlR%2BjpiDCJ8JYEdLhFEWE68gg6fg6UJ3lso50ITzerFdDsfvBehdh&X-Amz-Signature=1aee1f1ad1d973150414edc35ca26df260e3c16c6051dcad1cd29f4344efecae&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+            "expiry_time": "2026-01-27T09:01:49.006Z"
           }
         }
       },
@@ -3668,8 +3712,8 @@
           "caption": [],
           "type": "file",
           "file": {
-            "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/c69962b0-3951-485b-b10a-5bb29576bba8/2fe6b100-a613-4d29-b152-5706c5f47574/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466YXGFCI63%2F20260127%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260127T045806Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEIT%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJIMEYCIQCYfTFCSdcT4u8DN%2FJtWfMS61fW%2FcmlQtDOLIh1Q4WBiAIhAOtEHRyVb3iS3pqU3VJeFBYRkIcf6%2BN%2FP8o948S46wXpKv8DCE0QABoMNjM3NDIzMTgzODA1Igxenmc8Xmg9gOi87TMq3AOt415pRIlFMH0%2Ft1elF2NsqfTeiIKckrAhTsCKW7tvZHOIPhiy6IBIJ0DjXOwmg4j%2FVaIp%2BfsILPL5IattLxS8kB1rQbA2o%2F5rCvPI%2FVWRV8mLN2CblVqLALrFzGXA9F2XKbs6rCnGGWkkmYqfjkTJz6UqDmUPfl%2BVHrjHf4OHP3EkIbBiTpSxcCwjoiM9r9arjcYtK8ScdzbyXg4U1zjdmPLPdhUB%2FvxaAnZeZ9mcb7apaL6EmBK0M%2BUpivT7%2FYNTfbCmYFuiS%2FeCaaf3x0eVbYdRzcichqGO1i1RlV%2FP9rWOgE4xgFOND5RKU6zIugpyFIcUzhGPivkTZK75bJaqONp0NOtrQcc9COWc75RR9rt8g7ArYnXzAk8r9gNXdciSsBZ8oxPXUL5FAzN3amnwIXn2K2BLzFaJ4mY%2FR1vTAQJ38Q%2BD5V6C5nYyuUBdbIPeP%2BqIoDG77U11mrWQJpkRie5ICrGzXM4GsS%2Bv6x0gu7BWUUACdPb%2FiW3D5kACILNts%2FZKhszWnPEhTdS7RLkKHen3djJgvEmG39mY2wnGs9l1pbBsGTAaEyRk%2BSg4n2wNR8tqcbORngOAWi7znYZ4esOQBF7REMntZnJTNgLLFTcTR0INMhouTdtl6zDl9uDLBjqkAVfggqk7wev5eRO5eREnC%2BkeoNcYpO5Bdv3HFzKN6bm1BV5Ixx%2Bn%2B%2BwkAfXHd9KAy%2BlTWDeIMlPmKSmPwvFCNQ38z9p6aIaZ4mTEsANpnAKQwMEwg81oOHvTn1OOs9EULuUyqX7gmTcHIZw6nuIOrRKF03HFvNJsSNsuHkLdQ9fOnLBE4o0qWgRlwgPvdyUi00Ec%2BTOGeEBd%2FyTXcD7zNoEdYT8d&X-Amz-Signature=daa93b84d085cf50df87b5b5773f1f71d808cbb5d364c55c010038722d50b250&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
-            "expiry_time": "2026-01-27T05:58:06.386Z"
+            "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/c69962b0-3951-485b-b10a-5bb29576bba8/2fe6b100-a613-4d29-b152-5706c5f47574/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466YSI6QQTH%2F20260127%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260127T080149Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEIj%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIHA3EQitdY1sKpI4D7yq0XDf6T%2Fb6VfqwQC1%2FkZBkfLJAiEA8JnwIEZZ1%2FlX2ay5cLwWYIYCR9E6LBjZQ%2FrBNtHL9lIq%2FwMIURAAGgw2Mzc0MjMxODM4MDUiDCJX%2F0Mkg3qStCaZ2ircAz%2F6cn5LtpyBNd5AEIFWEoCOiLIIcLnLWuzeW7oozcD1zIo3QGpYn%2BZwE88awGhiYlyrBb%2BDxSDFDT9XiT8qUjkosUe65XkoFEn1OpyQf9bDLov2NFCfhJGMK%2BNd4WgP%2FUaC39noxgDbhD4GtlJ9BYy%2BocUMExQPEdaPV014zrTSuL3tChD97GUlryOFcQ2zLmwl35XuGuJluWvgOPrZDN6Z7zNPnU7mMXGrXQlHidlxRqclCNP9xm3PbiNyp82V6TDsLsORKlMhqXoPONiwGpgabDfU8C2YJhiWRHHknytpBfM1BIHLsHTbIIsnptcDRTBT9%2FD0UFWFhLvLpYkPDgDn6f6JctB64mjLBhLhIA8hK%2B5VGKFGWlr62ng5yE%2FdXt7lYJEE7Ca%2BITJ0M9h9dDwmCNieyA7AQCw4Ayy6COGtcQYtzlm7rCgxw9vA0WUnhy%2BOUHfwnqq7YJ%2B3RTjkbzRrwma3hmi7c7rvAXuM%2F6cxhVNWBsdnZkGDNNxwMOcjQ2qly%2FQOhXjB0GSt0wm4x9jbpaDzf9ddV41k%2F2aGIi0QHJzolG5o%2FM0IvUKig25cq8bqCV7P9tBf143q4U4rXd6sI7563xa3dacFti5VKc02%2FcYtmkm81nLvLr%2B7MLre4csGOqUBYn8apY5uo6JDSknOsvlokH%2Fc%2F3QgrtvO2ytB%2BOpmK33625xNT%2Buacwe6IkyZ3qnmUXaNbz3uwbJAZ2HLY0ymgTN8cYvXuHSonllTzNVi6emjXzE2ICHtlUNFtZa3lg4RLPoE4r9adTVl54XRDNZd2oRudo9YhmKDO84cZE%2BBlR%2BjpiDCJ8JYEdLhFEWE68gg6fg6UJ3lso50ITzerFdDsfvBehdh&X-Amz-Signature=cf7923b14999704c34f538dd86967c24e87cc28283dec965705bc3d55248bf7f&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+            "expiry_time": "2026-01-27T09:01:49.033Z"
           }
         }
       },
@@ -3813,8 +3857,8 @@
           "caption": [],
           "type": "file",
           "file": {
-            "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/c69962b0-3951-485b-b10a-5bb29576bba8/7b3669c8-ce72-4a9f-9d82-94df78f21d33/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466YXGFCI63%2F20260127%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260127T045806Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEIT%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJIMEYCIQCYfTFCSdcT4u8DN%2FJtWfMS61fW%2FcmlQtDOLIh1Q4WBiAIhAOtEHRyVb3iS3pqU3VJeFBYRkIcf6%2BN%2FP8o948S46wXpKv8DCE0QABoMNjM3NDIzMTgzODA1Igxenmc8Xmg9gOi87TMq3AOt415pRIlFMH0%2Ft1elF2NsqfTeiIKckrAhTsCKW7tvZHOIPhiy6IBIJ0DjXOwmg4j%2FVaIp%2BfsILPL5IattLxS8kB1rQbA2o%2F5rCvPI%2FVWRV8mLN2CblVqLALrFzGXA9F2XKbs6rCnGGWkkmYqfjkTJz6UqDmUPfl%2BVHrjHf4OHP3EkIbBiTpSxcCwjoiM9r9arjcYtK8ScdzbyXg4U1zjdmPLPdhUB%2FvxaAnZeZ9mcb7apaL6EmBK0M%2BUpivT7%2FYNTfbCmYFuiS%2FeCaaf3x0eVbYdRzcichqGO1i1RlV%2FP9rWOgE4xgFOND5RKU6zIugpyFIcUzhGPivkTZK75bJaqONp0NOtrQcc9COWc75RR9rt8g7ArYnXzAk8r9gNXdciSsBZ8oxPXUL5FAzN3amnwIXn2K2BLzFaJ4mY%2FR1vTAQJ38Q%2BD5V6C5nYyuUBdbIPeP%2BqIoDG77U11mrWQJpkRie5ICrGzXM4GsS%2Bv6x0gu7BWUUACdPb%2FiW3D5kACILNts%2FZKhszWnPEhTdS7RLkKHen3djJgvEmG39mY2wnGs9l1pbBsGTAaEyRk%2BSg4n2wNR8tqcbORngOAWi7znYZ4esOQBF7REMntZnJTNgLLFTcTR0INMhouTdtl6zDl9uDLBjqkAVfggqk7wev5eRO5eREnC%2BkeoNcYpO5Bdv3HFzKN6bm1BV5Ixx%2Bn%2B%2BwkAfXHd9KAy%2BlTWDeIMlPmKSmPwvFCNQ38z9p6aIaZ4mTEsANpnAKQwMEwg81oOHvTn1OOs9EULuUyqX7gmTcHIZw6nuIOrRKF03HFvNJsSNsuHkLdQ9fOnLBE4o0qWgRlwgPvdyUi00Ec%2BTOGeEBd%2FyTXcD7zNoEdYT8d&X-Amz-Signature=da535c5071be29d08d49d81a9930a91caa75ae3a9f9d28b435cd9f427067f3c6&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
-            "expiry_time": "2026-01-27T05:58:06.370Z"
+            "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/c69962b0-3951-485b-b10a-5bb29576bba8/7b3669c8-ce72-4a9f-9d82-94df78f21d33/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466YSI6QQTH%2F20260127%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260127T080149Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEIj%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIHA3EQitdY1sKpI4D7yq0XDf6T%2Fb6VfqwQC1%2FkZBkfLJAiEA8JnwIEZZ1%2FlX2ay5cLwWYIYCR9E6LBjZQ%2FrBNtHL9lIq%2FwMIURAAGgw2Mzc0MjMxODM4MDUiDCJX%2F0Mkg3qStCaZ2ircAz%2F6cn5LtpyBNd5AEIFWEoCOiLIIcLnLWuzeW7oozcD1zIo3QGpYn%2BZwE88awGhiYlyrBb%2BDxSDFDT9XiT8qUjkosUe65XkoFEn1OpyQf9bDLov2NFCfhJGMK%2BNd4WgP%2FUaC39noxgDbhD4GtlJ9BYy%2BocUMExQPEdaPV014zrTSuL3tChD97GUlryOFcQ2zLmwl35XuGuJluWvgOPrZDN6Z7zNPnU7mMXGrXQlHidlxRqclCNP9xm3PbiNyp82V6TDsLsORKlMhqXoPONiwGpgabDfU8C2YJhiWRHHknytpBfM1BIHLsHTbIIsnptcDRTBT9%2FD0UFWFhLvLpYkPDgDn6f6JctB64mjLBhLhIA8hK%2B5VGKFGWlr62ng5yE%2FdXt7lYJEE7Ca%2BITJ0M9h9dDwmCNieyA7AQCw4Ayy6COGtcQYtzlm7rCgxw9vA0WUnhy%2BOUHfwnqq7YJ%2B3RTjkbzRrwma3hmi7c7rvAXuM%2F6cxhVNWBsdnZkGDNNxwMOcjQ2qly%2FQOhXjB0GSt0wm4x9jbpaDzf9ddV41k%2F2aGIi0QHJzolG5o%2FM0IvUKig25cq8bqCV7P9tBf143q4U4rXd6sI7563xa3dacFti5VKc02%2FcYtmkm81nLvLr%2B7MLre4csGOqUBYn8apY5uo6JDSknOsvlokH%2Fc%2F3QgrtvO2ytB%2BOpmK33625xNT%2Buacwe6IkyZ3qnmUXaNbz3uwbJAZ2HLY0ymgTN8cYvXuHSonllTzNVi6emjXzE2ICHtlUNFtZa3lg4RLPoE4r9adTVl54XRDNZd2oRudo9YhmKDO84cZE%2BBlR%2BjpiDCJ8JYEdLhFEWE68gg6fg6UJ3lso50ITzerFdDsfvBehdh&X-Amz-Signature=00ecd96dd5393a642d1e1db9c82413050fb9820dee7b5de0611e313442d90ada&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+            "expiry_time": "2026-01-27T09:01:49.014Z"
           }
         }
       },
@@ -3888,8 +3932,8 @@
           "caption": [],
           "type": "file",
           "file": {
-            "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/c69962b0-3951-485b-b10a-5bb29576bba8/2f850ea0-631d-4253-832a-2b5519e6a345/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466YXGFCI63%2F20260127%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260127T045806Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEIT%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJIMEYCIQCYfTFCSdcT4u8DN%2FJtWfMS61fW%2FcmlQtDOLIh1Q4WBiAIhAOtEHRyVb3iS3pqU3VJeFBYRkIcf6%2BN%2FP8o948S46wXpKv8DCE0QABoMNjM3NDIzMTgzODA1Igxenmc8Xmg9gOi87TMq3AOt415pRIlFMH0%2Ft1elF2NsqfTeiIKckrAhTsCKW7tvZHOIPhiy6IBIJ0DjXOwmg4j%2FVaIp%2BfsILPL5IattLxS8kB1rQbA2o%2F5rCvPI%2FVWRV8mLN2CblVqLALrFzGXA9F2XKbs6rCnGGWkkmYqfjkTJz6UqDmUPfl%2BVHrjHf4OHP3EkIbBiTpSxcCwjoiM9r9arjcYtK8ScdzbyXg4U1zjdmPLPdhUB%2FvxaAnZeZ9mcb7apaL6EmBK0M%2BUpivT7%2FYNTfbCmYFuiS%2FeCaaf3x0eVbYdRzcichqGO1i1RlV%2FP9rWOgE4xgFOND5RKU6zIugpyFIcUzhGPivkTZK75bJaqONp0NOtrQcc9COWc75RR9rt8g7ArYnXzAk8r9gNXdciSsBZ8oxPXUL5FAzN3amnwIXn2K2BLzFaJ4mY%2FR1vTAQJ38Q%2BD5V6C5nYyuUBdbIPeP%2BqIoDG77U11mrWQJpkRie5ICrGzXM4GsS%2Bv6x0gu7BWUUACdPb%2FiW3D5kACILNts%2FZKhszWnPEhTdS7RLkKHen3djJgvEmG39mY2wnGs9l1pbBsGTAaEyRk%2BSg4n2wNR8tqcbORngOAWi7znYZ4esOQBF7REMntZnJTNgLLFTcTR0INMhouTdtl6zDl9uDLBjqkAVfggqk7wev5eRO5eREnC%2BkeoNcYpO5Bdv3HFzKN6bm1BV5Ixx%2Bn%2B%2BwkAfXHd9KAy%2BlTWDeIMlPmKSmPwvFCNQ38z9p6aIaZ4mTEsANpnAKQwMEwg81oOHvTn1OOs9EULuUyqX7gmTcHIZw6nuIOrRKF03HFvNJsSNsuHkLdQ9fOnLBE4o0qWgRlwgPvdyUi00Ec%2BTOGeEBd%2FyTXcD7zNoEdYT8d&X-Amz-Signature=db1fa7aefbae0e076f0a438c12f5cce158b5b7efdfca0c120f5cd43a40f767c5&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
-            "expiry_time": "2026-01-27T05:58:06.386Z"
+            "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/c69962b0-3951-485b-b10a-5bb29576bba8/2f850ea0-631d-4253-832a-2b5519e6a345/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466YSI6QQTH%2F20260127%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260127T080149Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEIj%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIHA3EQitdY1sKpI4D7yq0XDf6T%2Fb6VfqwQC1%2FkZBkfLJAiEA8JnwIEZZ1%2FlX2ay5cLwWYIYCR9E6LBjZQ%2FrBNtHL9lIq%2FwMIURAAGgw2Mzc0MjMxODM4MDUiDCJX%2F0Mkg3qStCaZ2ircAz%2F6cn5LtpyBNd5AEIFWEoCOiLIIcLnLWuzeW7oozcD1zIo3QGpYn%2BZwE88awGhiYlyrBb%2BDxSDFDT9XiT8qUjkosUe65XkoFEn1OpyQf9bDLov2NFCfhJGMK%2BNd4WgP%2FUaC39noxgDbhD4GtlJ9BYy%2BocUMExQPEdaPV014zrTSuL3tChD97GUlryOFcQ2zLmwl35XuGuJluWvgOPrZDN6Z7zNPnU7mMXGrXQlHidlxRqclCNP9xm3PbiNyp82V6TDsLsORKlMhqXoPONiwGpgabDfU8C2YJhiWRHHknytpBfM1BIHLsHTbIIsnptcDRTBT9%2FD0UFWFhLvLpYkPDgDn6f6JctB64mjLBhLhIA8hK%2B5VGKFGWlr62ng5yE%2FdXt7lYJEE7Ca%2BITJ0M9h9dDwmCNieyA7AQCw4Ayy6COGtcQYtzlm7rCgxw9vA0WUnhy%2BOUHfwnqq7YJ%2B3RTjkbzRrwma3hmi7c7rvAXuM%2F6cxhVNWBsdnZkGDNNxwMOcjQ2qly%2FQOhXjB0GSt0wm4x9jbpaDzf9ddV41k%2F2aGIi0QHJzolG5o%2FM0IvUKig25cq8bqCV7P9tBf143q4U4rXd6sI7563xa3dacFti5VKc02%2FcYtmkm81nLvLr%2B7MLre4csGOqUBYn8apY5uo6JDSknOsvlokH%2Fc%2F3QgrtvO2ytB%2BOpmK33625xNT%2Buacwe6IkyZ3qnmUXaNbz3uwbJAZ2HLY0ymgTN8cYvXuHSonllTzNVi6emjXzE2ICHtlUNFtZa3lg4RLPoE4r9adTVl54XRDNZd2oRudo9YhmKDO84cZE%2BBlR%2BjpiDCJ8JYEdLhFEWE68gg6fg6UJ3lso50ITzerFdDsfvBehdh&X-Amz-Signature=fcd46309ba6abc488b0967e8f0ffe6269d9b807717f18589e9f3f4d422a7ecc4&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+            "expiry_time": "2026-01-27T09:01:49.033Z"
           }
         }
       },
@@ -4802,7 +4846,7 @@
           "block_id": "2f044860-a4f4-815f-80f3-cbd4850e9152"
         },
         "created_time": "2026-01-22T05:00:00.000Z",
-        "last_edited_time": "2026-01-27T02:37:00.000Z",
+        "last_edited_time": "2026-01-27T05:04:00.000Z",
         "created_by": {
           "object": "user",
           "id": "2aed872b-594c-81eb-bc82-000291164988"
@@ -4933,12 +4977,35 @@
               "caption": [],
               "type": "file",
               "file": {
-                "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/c69962b0-3951-485b-b10a-5bb29576bba8/38a75e7e-feba-4acb-b336-7a3e6aa1d776/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4663NFAE24D%2F20260127%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260127T045813Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEIT%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJGMEQCIF%2BexHQtOP%2Bumhn7%2FK8NL4Z3k1e42Gjpa%2B9XPZJnJnRAAiAI0uHLzE6nHDeHyAW5PSH4nVsLcOa1rD41khPrXs36fSr%2FAwhNEAAaDDYzNzQyMzE4MzgwNSIMGaQKTUU7dSGM%2BbF5KtwDIQqOs90rmQLXYR5DI5zrXw%2BmlBcum3F9NeZ6Q%2FnKd0tqoMddgVSXOAShketCUq%2FW8AN8nzTMu0A5IhEWbPj0gAzj6uG3eiuzHdNI7oawveElJNXi%2FV0Yqs9sHD3kT4aGdwmF1yXkQTPtW5cmFbcbNYm%2BnO6oWyRy2Yj9Mhuy6%2FvxUE3LCamJluhzYGp0%2FIOmnDTC1gov3HNJ9HED6zuTfetbias4LvIZU0%2BAuaDhYzaUmAOt%2FD3erE%2BFTtH%2BkTyqUfTcZq9PPiFiULl17udn58csu1YBd7vNz3HQ6iuhjaD5fk9euAacJWYUSreAsjme3ey%2FHX6%2FplSKcFAL6yA%2B3jDCAXazgIfZqGQD1yqTex3V0hf9bsOfteSIqjY7iq4XtAdrwO9WU5CHs87nph2GuttYEnq79PCBSYDlakiHeTFIhCkeL%2B48RRsk%2BKNJXS34rAmCgoG0xMGHaeypF6jRLoFA8uHJq59%2F6Mi3bqmXzpSIQ03jhZeXKz%2F%2BqHH%2FGECEES6l0dF3FD%2FWotFQbI1VpZQgVbPcCxPvkNCZTWvnTUhdI15%2FUltX4m1mwy6zgxlx9xNu5kTqc%2FyGRRwzzRvw%2FRjuvHheYnPl63A%2BVSfv9mLhm6RQ7if8ovY5z1UwkPfgywY6pgF4o8r9YL0v83LWLwjXz1Smlo3eZpta%2BazAXiXjjvP76twKwiR45UJCgRgzvTjVqT1FtQxU17FZHZPDhec%2BnNlTVgRXfQPQav%2BE6HOGfvss%2FITiGtFYFmsKKdy2AJv%2FEHz1WdOO2VZ%2B%2B62D%2B0a0SHkRxgnSMIGRH6MOemu%2FFXF6XWZb65CzGf6EfGMf%2BJmhVWAcvxMz4mskvmonD1fQLa9FePHZRyDa&X-Amz-Signature=1f95fc5c4ecbfa4071fc2ae8f50a690eb78f517ed39177adaccf9da569e56a6c&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
-                "expiry_time": "2026-01-27T05:58:13.552Z"
+                "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/c69962b0-3951-485b-b10a-5bb29576bba8/38a75e7e-feba-4acb-b336-7a3e6aa1d776/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4667TZRG3YO%2F20260127%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260127T080159Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEIj%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIH%2BX6qf80GvQ8YV2k7ySq3uVkMH4yCYQ2zsRwap2N9%2F8AiEA3GMMclUb%2FCgIyZOdUk1Rdn7NOb3RJIh7DuPhyu4OAJYq%2FwMIURAAGgw2Mzc0MjMxODM4MDUiDKifkC%2Fa4ycUc7e5uyrcA9KbC5hhvdIFB1a46iJ4vTfHHUhuKO%2FQwZ4EHR6c1cAFSwZWGTRMZmBd79Q0pE098loehYZkJcs%2Boc4uEXbzKuxaS04JsMj98AY3n6UOaLFVqfveG1V9zbmmbvUoETw4pq3w9OTTQ6D5qKfVrwpj3UJGu%2Bh%2BAIfr0nWlBG0TVhIkopW%2BPbfAGeQ3tm6BlCyaSsXgDDEi1WziTwIPfpn5Cb2Xn4w7IRy5fl%2FAX3SEjd66qwLs1ubT383v09dIeZjNBA%2BE6GLJe6ngL3Edh9OtNSENYjX9U4KCxmCI5ynZAxdP3eiLv8sGuO1MWnqrPWeWRW1kG4Z0YZDTqB1MynhiwTYMFEm%2Bk3iC%2BmVjHJH3WjWOxj6gbPWCuSIkr5FdFokP%2Bhc1giJeOthxNPORdKblaN%2BPZjZeVLRCcHDUkMn7Kh1oGQ9YnjGIBgPit3qIdASfwLVuF6SqEOcIohtf0jRn%2FX%2FEzjBiyJWZ4qpzMoaxTbs1JCNXRd9w8AWV1TXgeusvv%2FCjNwyUqUZrR91yN2O0I%2BXJF3ckxWFWQXRbnuJIbMfdC71i%2FC71AFyFQelfh7dprXll2s6LWYjsL2Mqa5lshna6BvsV%2FVx%2BnCuJGNKxik5MOJbUVY7F7wbyQqUGMNLe4csGOqUBUDoyRlyt2OtP5Gj5Xm%2B99RDftr2DS0DD%2FCd35Rak6IsMrQZnJPFsbBFkCpW8hewT5Tz5MFsw01kLG%2Bmqw%2FRFgubjFjPsfV4DtPV1aN1qBAhHN1p9tKDMP6VQ8FcZDKu0PI%2BraLCizlvwsiNk7mVgqMACJQ9SHI61W5wo83srF4iF%2FzZClSyy0d1rtoQLQ2HWdRXc57LXIazWyHpqutOiFsyYSa1m&X-Amz-Signature=4214a8c1b0959d840073fe141d1c945e5b7c20fd35ab90260d7f26c73a0fa41d&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+                "expiry_time": "2026-01-27T09:01:59.944Z"
               }
             }
           }
         ]
+      },
+      {
+        "object": "block",
+        "id": "2f544860-a4f4-8098-bcba-ffca3e2014f5",
+        "parent": {
+          "type": "block_id",
+          "block_id": "2f044860-a4f4-815f-80f3-cbd4850e9152"
+        },
+        "created_time": "2026-01-27T05:04:00.000Z",
+        "last_edited_time": "2026-01-27T05:04:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "has_children": false,
+        "archived": false,
+        "in_trash": false,
+        "type": "divider",
+        "divider": {}
       },
       {
         "object": "block",
@@ -5142,8 +5209,8 @@
           "caption": [],
           "type": "file",
           "file": {
-            "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/c69962b0-3951-485b-b10a-5bb29576bba8/194236b5-4b8d-4ce3-b16c-b5161698889d/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466YMIGN7LS%2F20260127%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260127T045812Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEIT%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJGMEQCIFmsBmY0YAH7UBH6uIdrc5zHo6Pp8Qx7o5HS56Y6UGVhAiBkgU7tvkSIC7ddhsuwYNFaWLH6vCHNXa3jzFOoJ8aNtyr%2FAwhNEAAaDDYzNzQyMzE4MzgwNSIMpxqlxKz0e2pI51ZeKtwDdslFQe8rJGw9SPLb6CUP2XtQecbHyyqSlwQk2WYE9Hv4tQVfy50IXXRjGR%2BvZOorP16rcRy9ipYt1j87WPjLD8PWiv%2FJaqj%2BEzD2QaGj5LrBC1THe%2B35Ob0Gb1ounT3B511jJq6X6a2gslRUzWtY8xXLUnhzaVoNoxT7gjmJaYccRB4pigBJcgUmfu4wj3tA4zp4a35LoVelpb4PlYFKrUfIy7UNnCwYTPbYmPbVRveYTUz3QNmr05Z2PVTB4ZtLrFg2b6gjWgTKNCnX54OUlXpbXq8kJuNCF8vPe3HsCLzvLWAevhM%2FitgQOw7Zjj3oR%2BJMlrcdEPGJ65ES8UuCGe8im%2BRzoBxVrUkVirtSVMGMafMWH40emp2nxwVIJX%2BNW%2B0ErCp7Ktu0TOYiVGLTuQfjPtSQKkI%2FFI26FhqmGij0eTuHVjmnxSvdxAQDDn%2FTxo56Ad52zJ5D%2BP884CNCxb%2B8Xb1F%2F5et1hrCuSp0TsuZvcrPS%2Fo70tXMoqLLMhFY7C86z4%2BSt09nWZKN61aWFimDrl7Iv4d3VKc43ftK4ioEgi%2F7sTyniuNVhx5Vh2wUQ91CcewMAS5mQEcEVHQW%2FvtUjQbMnh1f4BbbllqdTxOfe%2FgOuY%2BzIg3MvkIw0fbgywY6pgFWsq7JlLb8Oflo%2BiX%2FhAXU4KFA8HPUBfQm%2BoMmxwPd8Znv7olLrx0Yuhcwc3g0Es4ss5FPw%2FlhnLd%2BTdRhb3aPUoAVVjKMsbV5MTBrMrVi2Y%2By886u9%2Btp4nLChktbMZAB9GwtCjBNa1bJOY1Kd5Uii3G0qnhiaTapwXLBecuga8uRBEt65rI%2F%2Fcx0ooMZkQTm7J9upp%2FvXHb4bTkEQmN0rOwJXhm8&X-Amz-Signature=4095801563744104389b84a3fd13bd81f2b87244adadfea4dd29a51e71679579&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
-            "expiry_time": "2026-01-27T05:58:12.171Z"
+            "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/c69962b0-3951-485b-b10a-5bb29576bba8/194236b5-4b8d-4ce3-b16c-b5161698889d/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4666LLGNZEE%2F20260127%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260127T080159Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEIj%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJGMEQCIEapVxuj5tJ6auNhb9K4WhR%2By%2BPkJeT4mZ%2B1yqpKJnn0AiBixCR7zitSy3bn%2FHiBJxn1geQ8O56odRtXL1xcRql4Eir%2FAwhREAAaDDYzNzQyMzE4MzgwNSIM1BoUVIysHREZ%2BCTXKtwDUOZzgPR3%2FJ0iowvRehuhYeNdkwgt5ueJoV1pSLLY2DilxKKT%2Fe7NOh1RBz%2BlDAJjNJTwOahF1VdV5Or7KAfTZ%2FVqUdwOWF5yNNPBZT4NNV7ZgOjaLRN%2FhV%2BUlaLy%2FSWxqnnJ8TlCQ%2BsafVJhyYxMFk1yuV6o60XKR0yuGqFSR384TIKqr13Su57lexnmDZWSTuD213g%2BDnah9W1l2rUz07JKIJqaFQKSRZ73oI0it8u8ud6mOdVCUQf%2FIn8ZoPw6j999Y%2Bkb3sRc%2FPO%2BDjgXpZPf6a9KcGGYUwx0uOD%2FEwjRCld2qz5z8PeXoIObBLZ4GgPMbM19LKJxccxNWHc4HDkx8euZDqI1e4SaYRlVTxjjON5iQK0FrgikADVDDA9v7IAoKlDzEV06MSnBheccapl%2FDfNJZqCFq0tt1yU9cFVXkRuvkkLSCP%2FF8Q4Uo9nUWiG9tEudLzryLmdHdPhhD6tqI1Ulm%2FJEei6q10A%2F2jG6tvGsQU9uH3564vQmes7eWkGSqLshX6IoUrssNGNbITkb9hu4bFeY34lqCS%2FAbMKP73ghkM0tOiuRIMmp3FSzjjH1Lyx%2BcipJ%2BKDacbFpYY8TVBlyBS%2FjsDc7P7xwNkgFgHWsJuFOJ5bxqCYw8d3hywY6pgHfEILeSTzwLpjuQZaRZdixKXmLoiyi8V7jhxI8yWQByhnVOIBj0VXHRpAFI1iYXU4YvkEYoUpm7qbGfyKPRicnSPXONryVG4FYOYEVfOiOeI%2FBwhMS20oYX0vUpGwxgnZIxxTRHfNqDcoyCr9AF3VzlzzAfZ9f08mQX4F8rSQBeMFEFKP%2FdAEoGNiG%2Bp7vw1lB4k5mguq%2FTBrwueXrw9bBqJuJVhSR&X-Amz-Signature=d13fceb66cc0131ffb89d653404a3728d6a9b1d9b0cfa53b3b9d7490c17d6b62&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+            "expiry_time": "2026-01-27T09:01:59.454Z"
           }
         }
       },
@@ -5155,7 +5222,7 @@
           "block_id": "2f044860-a4f4-815f-80f3-cbd4850e9152"
         },
         "created_time": "2026-01-22T05:00:00.000Z",
-        "last_edited_time": "2026-01-27T02:37:00.000Z",
+        "last_edited_time": "2026-01-27T05:04:00.000Z",
         "created_by": {
           "object": "user",
           "id": "2aed872b-594c-81eb-bc82-000291164988"
@@ -5167,11 +5234,8 @@
         "has_children": false,
         "archived": false,
         "in_trash": false,
-        "type": "paragraph",
-        "paragraph": {
-          "rich_text": [],
-          "color": "default"
-        }
+        "type": "divider",
+        "divider": {}
       },
       {
         "object": "block",
@@ -5480,8 +5544,8 @@
                   "caption": [],
                   "type": "file",
                   "file": {
-                    "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/c69962b0-3951-485b-b10a-5bb29576bba8/a18db554-2048-487b-98b1-68fdb22adb5d/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466SI3UCESL%2F20260127%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260127T045819Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEIT%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJGMEQCIEghlyutykbygiwR5KHRuMMpxdRqIx%2BWZNdZMwVf2M7UAiAN5I7wgEEIuL2gV7Ilv3HippVBwekku1KYC9kfUPGARCr%2FAwhNEAAaDDYzNzQyMzE4MzgwNSIMZJyM3AWUmiXuyRaMKtwD2THwRAGTKhfKbAbsaLffXsgdeNgwn4a52PYKp%2Bt8QNyBlB99Uegze52dHU13lwfb%2FEmJp4cvD5LEH7Qbi%2Ff%2BLf8ResB713Qv6Aj1KPvvzdv3uUxVdi%2BSD4whemqfWC1UdNZP7DCopH0%2F3vMQYMN23iREVDwQcTwOmk1Zd2pz7IcSOYGN9hPmYIDzx7wujDy6pb%2F%2B9DuSIhnxNIF1i76iSZHGdW27pwHN26%2F3Xb2sM6rbIeXjLUTCBUBE%2BVtA8HV1zUNGlQZYw%2FvqBOHzCVq2DuftScwnWLFLzCncj3gDzkD7KGA%2FD%2Bw08IMYe9r3Lui2Yfm0GVUrFzgH9c2kgX6tr5x4mPTUB6V8lSN6JYdyEeBuvJ%2B4hw6JeT1kk%2FXC%2BQHPFX9ZKDgH49cWAE%2ByBx3kb%2FpLd3FRGv0yy1iTGKKn%2F9b%2F2XjQ%2FxzJrkh9ixjdQNjAdZtZXNbvW7hDWHMBOtj8g5iEPyAuKLwoIJln0buPQq9aynh7WfjM87dAqXGOxpfgbTRgIVzl2Mdasdrqx%2FRIBdGlltveS5hY4MioJYyj%2BDhL7%2F3VGUImYHh6mH%2BLlyC%2B5arqfBlzEFJEyvSFguM5KQi4jKpJR3wb0j57XCMXi7XiVU6jkEdYbYK3JbIwxvfgywY6pgFZJM0Z9HKLCxhPcg4kf26rtYuSknfE%2FFSXM3pWHDvvwSGREYAylQj%2BwrGLJdEr5sq2cTAnqmLZgX0gUJGDOFFfkapytdH7LHLcaL7rfbRPhbMl1Z0MKMaQevb3ijF9NqjWO7VLtlD3Kwaf6jZzmJ8jBUut1OaZsuGRL2vSRKRFQAAqkaKKVIQQ%2BbsdLfOo7x6bLCr4ITF%2BKsM0l9yN1L4AnEhl7IFb&X-Amz-Signature=9ca239d4fd42a57201dda076b66f499263189df735d78387fb8ad62bc9e3dd7b&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
-                    "expiry_time": "2026-01-27T05:58:19.736Z"
+                    "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/c69962b0-3951-485b-b10a-5bb29576bba8/a18db554-2048-487b-98b1-68fdb22adb5d/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466Q525MQNL%2F20260127%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260127T080201Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEIj%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJGMEQCIByZxP5bhQ3bkjgG9QmWf5sZmmrKzp8%2BK8FloKjibAy2AiB3azCs%2B%2FjexiKsTBF5YoV1I%2Bx5O%2BrIdsbqgnav9matxSr%2FAwhREAAaDDYzNzQyMzE4MzgwNSIMe8eOb9KRY46apZZbKtwDP1XcfJrbK2aA%2F%2FAg6ES2XzzAJ1fVz43XzTRXwkvfWPrQ0W4QAMj2k520uu9Req6LvQEgaK%2FdU2aC0zJOa0xrN51iur5F7Qa%2Fqil3EGLuNtsAao998JwTDifz1K%2B9J8piwad1qFL%2B0lbE7QScnKQCGDy507zP3F8edHZXj%2FaK%2F0So5yDPBYcw5lVN5iH92pQSAhIcW77cTDQpOCm3v3%2BeVSpxeRi4d2LRUucLCZyjT5%2BtXJzffGF1JC3jxw2DaDpGf6F0twmwbulmSkyeNtJIPiG1amIhBh8GdJzi%2FTaJVFRC%2FUv5yD3rONTDRuen%2BXf7%2FT75G0Vl8LthCfzO8tEuZ1JYrTxnZlYsFVvmZHbUU64ZEluM%2BQrxBVOUGqV0daP8ndT%2BZRGQKRD%2BtDqxDvQjQsnbzwc3aWHbV2sMuZ17UqZPKrf5rQmd2kI4EYgWjVwUyXyPszZKbznFrt49uWuGdru0l2I3VxVIz50K40QVDW%2FStWWrZroCwijiGeEFKaYWXrrNfMIhdyDljVZvG6LdOsMBvwg1Plk5103u%2BwmkZizmN2rE1QcqoWsgAh3fTlC2SOd5qMzXc0zIpFK7%2FotxEbTnOfOZ3Z3cBHUeNK32fM3EVScfK%2F18wyVWKVowiN%2FhywY6pgGY1WdqygyDxGFfy1%2Fw%2FxvYMOi0o2pHJEZdthrKd8u%2BtoErxJuNApj5lVFvym70ZWBKB6JfANbo38CPEQRfTE63XmzpgllnDA%2Bmtqchw%2BOgSAHPaOmPHOyjkEnPsBlmopBACP2nsMeRiEjNblWMCYRN8T0eS%2B2q59zNTfG1sDNmx0acq%2B1b45LQGrgDDZ4ti5dUIkVonuPCmr648nkdmcbb7U1LCAy2&X-Amz-Signature=2bd3959cbd2513c421407c2711b6090bcfdc728190460a619c5e125cb0616d93&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+                    "expiry_time": "2026-01-27T09:02:01.948Z"
                   }
                 }
               }
@@ -5556,8 +5620,8 @@
                   "caption": [],
                   "type": "file",
                   "file": {
-                    "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/c69962b0-3951-485b-b10a-5bb29576bba8/1eeb9eee-3809-482c-9478-c3ec59a1f915/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466TZUH4MXQ%2F20260127%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260127T045820Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEIT%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIQCnI%2FVE2WXCLQx92ala8H%2BDtdnk7gUsdOJPOrjeNW2T6gIgTk0WsdoY31jgJbL9oRYkVKUnajCAqpoJYmT8jWM9jdoq%2FwMITRAAGgw2Mzc0MjMxODM4MDUiDKg0mF6v%2BDW2TXKnwircAw8pwnt%2F1Y2UL8uvYYhUHXpLjZxWxNQmloptdyy6Eo4q9k6hq1QFi6f17cnnHYU0ixJD5yLBaLRY1jbMge3W%2Fp8H39pzkVIXuoMuE9EfWTZ3axZXYknCHLbS1rVn9t05SVI4IbfOPWYhYZtB4PPTGYCPcnU08aNxt0xMfFRzZlAQib0if01Udf2l%2Fg3qjsQPMveceUT10Lssu1xpRSEl5d3OoAUQbCD9y9QbRHoIYsmxMusmigL7094GtIkDidu%2BCGXHpbrBYb%2BiFV4ngBrxppyjDMsdHGslmkYQUUXVAJ4hHv%2B82ROQwkTE3J9ULvV3U2QYy3OgB4xT92Np0Zk1zbiNMdCwowfocMjkiSMIx5WfoDKEKBq%2FGARRZLocfcxkef%2FWUAZBcLu2yIe7sWLmNcTkgRDpcBjUL%2FKd8SFpMcEYRn7x28kwEAO9GIx4jVs2LiW8zoQOhSdqYDZF4A1kz5ughGNs93cHCpcvQamej53g7VUPuaZ8THa6kmTE5JsvYfsoaZxgP50LBQWtMvoxFWTRgaCalaVBHyxQZQbvOVLs%2FomV9AZhyafacGgOc5h4p7c%2Fp2zk0lFO9XfyMQknj5DBc5pECixfbU71sFxfjVFEGmYub3EmRp8IOLAsMN324MsGOqUBb9PThJNpOHH5E3WuKfF9P1vrPMKB8jTSPUHEomm9dU3frgarxdvvgDRq0l9%2FJ4qEwQna6kv%2BkD0toyNdql8NtIeo9l5%2F5MNPPPNzf9wgXWr8LOmLuXXqdfwF798kOCHkZrlIksWwS3GrLYWQet%2B%2FiCMDBtm3U2Y7uADFz8QcCCS73QxaiMkCHs0OCRCg%2B9h0Evdw94ZXrr5wNSM3qt9WFTzrAjNR&X-Amz-Signature=3169632feac826a1682fd3c9d0448e8414673f7003e7cc86eda075a58dd197e8&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
-                    "expiry_time": "2026-01-27T05:58:20.092Z"
+                    "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/c69962b0-3951-485b-b10a-5bb29576bba8/1eeb9eee-3809-482c-9478-c3ec59a1f915/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466XVKOCNUV%2F20260127%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260127T080202Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEIj%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIQDuMY8d1zGdhPXDVJRt5B8bMnrO6LlvEAsrj%2BwCmispGQIgPh1xHtsO%2FRbkrUCK7Zibj7Gq2UMjC1meqyaP0Gn4Ym0q%2FwMIURAAGgw2Mzc0MjMxODM4MDUiDKoDkpqCnHL7Egb1gCrcA0oqEACFbXiRa1sexuubLKJn7zYU3bI%2BmMoVOz18SVnrWVsIwFOHHovbivYD%2BjHW0ogcsHMkETFCrh5J4hmGVrcRM2bz7x18sEfK%2Bn4lEciXOMUvByoCZSZpbmLo45BfYIz13jLynr%2BooFfYggSUcO9Q7duA2M2Y%2BrSJWNMpZmkQXgtQJspk9Lr1OUnX27zXYQGWxfSUeO0JvesJfKx8Ehz6WsHjkin1YayBZX6O0G0%2FleIGxRV5%2BWTbBFFKbHXHAAHCVQKCXnQ6idnlihr3b%2FdkM15XjMlnYfWMo%2BPZOC8wUX%2BNa3PyA1zo7gjtKkK%2FMrzR4xYuMrWUB%2F%2F6TxLMSknNnodpJuUIITEAS5zMkTRCPWhVdnvw1jNSHu4aFNxLXEIuB%2FaO5lO7E6SzDvqQ0qB0VNyvvDIzhqIgFMZXSpQYaJc4TCgnxkOkG9TbZIMdCYEsGN%2FDvmptT%2FVg1K3VGYWM%2BkyS8jsPUM5OuKEqNHmHYbT10TK8hcy8ianplshOF3wYkj9GQazI7I2K%2BlcCS%2ByDeGx2LFu48uAsU1ROXsPS7bYJZZhbvOjtidprCHyEQYPcQ86KnDqYtqVYQ%2BJsToBiXebF6MoLV1OnrvJznE7uPk%2FTFK5%2FR5vf%2FY1iMIHf4csGOqUBaIUp14D4hnawT%2FTyjJvG7seTB67llN1iREBHPM%2Fk%2FsYzCTDmn4GsESBOkrJzhknvM7AUbVOtOXWjkc8lTAHnYFR%2BhaLtauYAwSyCgFFTAvXjwAuKy1gHYqtGN47Gl%2B0fn9ii2IzuC1shwefvrA0v%2Fb0EU77jF%2BnohDLaksxmxJJ4I1iuiUIxYmdmpuyWtvP1B3Z30VfrmHQP0xkidNQxMhpVlKRv&X-Amz-Signature=00f6c21ee9ef32bd47d61604b652155e6e09c200158f3b6811d17f72ced80a1d&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+                    "expiry_time": "2026-01-27T09:02:02.289Z"
                   }
                 }
               }
@@ -5616,5 +5680,5 @@
       }
     ]
   },
-  "syncedAt": "2026-01-27T04:58:20.182Z"
+  "syncedAt": "2026-01-27T08:02:02.401Z"
 }
