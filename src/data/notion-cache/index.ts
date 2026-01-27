@@ -6,7 +6,27 @@ import path from "path";
 import type { MissionSections } from "@/types/notion-blocks";
 import type { MissionSummary, TrackType } from "@/types/pbl";
 
+// 트랙 캐시 정적 import (Vercel 서버리스 환경 호환)
+import trackReact from "./track-react.json";
+import trackSpringboot from "./track-springboot.json";
+import trackDjango from "./track-django.json";
+import trackDesign from "./track-design.json";
+
+// 미션 캐시 정적 import (Vercel 서버리스 환경 호환)
+import allMissions from "./all-missions.json";
+
 const CACHE_DIR = path.join(process.cwd(), "src/data/notion-cache");
+
+// 미션 ID → 캐시 데이터 매핑 (정적 import)
+const ALL_MISSIONS_CACHE = allMissions as Record<string, CachedMissionData>;
+
+// 트랙별 정적 캐시 매핑
+const TRACK_CACHE_MAP: Record<TrackType, CachedTrackData> = {
+  react: trackReact as CachedTrackData,
+  springboot: trackSpringboot as CachedTrackData,
+  django: trackDjango as CachedTrackData,
+  design: trackDesign as CachedTrackData,
+};
 
 export interface CachedMissionData {
   missionId: string;
@@ -36,42 +56,22 @@ export function getCachePath(missionId: string): string {
 }
 
 /**
- * 캐시 파일 읽기
+ * 캐시 파일 읽기 (정적 import 사용 - Vercel 호환)
  * missionId 또는 notionPageId로 조회 가능
  */
 export async function readCache(idOrPageId: string): Promise<CachedMissionData | null> {
+  const normalizedId = normalizePageId(idOrPageId);
+
   // 1. 먼저 ID로 직접 조회 시도
-  try {
-    const filePath = getCachePath(idOrPageId);
-    const content = await fs.readFile(filePath, "utf-8");
-    return JSON.parse(content) as CachedMissionData;
-  } catch {
-    // 파일이 없으면 계속 진행
+  if (ALL_MISSIONS_CACHE[normalizedId]) {
+    return ALL_MISSIONS_CACHE[normalizedId];
   }
 
-  // 2. notionPageId로 모든 캐시 파일 검색
-  try {
-    const normalizedPageId = normalizePageId(idOrPageId);
-    const files = await fs.readdir(CACHE_DIR);
-
-    for (const file of files) {
-      if (!file.endsWith(".json")) continue;
-
-      try {
-        const filePath = path.join(CACHE_DIR, file);
-        const content = await fs.readFile(filePath, "utf-8");
-        const data = JSON.parse(content) as CachedMissionData;
-
-        // notionPageId가 일치하면 반환
-        if (normalizePageId(data.notionPageId) === normalizedPageId) {
-          return data;
-        }
-      } catch {
-        // 개별 파일 읽기 실패는 무시
-      }
+  // 2. notionPageId로 모든 캐시 검색
+  for (const [, data] of Object.entries(ALL_MISSIONS_CACHE)) {
+    if (normalizePageId(data.notionPageId) === normalizedId) {
+      return data;
     }
-  } catch {
-    // 디렉토리 읽기 실패
   }
 
   return null;
@@ -120,16 +120,15 @@ export function getTrackCachePath(trackId: TrackType): string {
 }
 
 /**
- * 트랙 캐시 파일 읽기
+ * 트랙 캐시 파일 읽기 (정적 import 사용 - Vercel 호환)
  */
 export async function readTrackCache(trackId: TrackType): Promise<CachedTrackData | null> {
-  try {
-    const filePath = getTrackCachePath(trackId);
-    const content = await fs.readFile(filePath, "utf-8");
-    return JSON.parse(content) as CachedTrackData;
-  } catch {
-    return null;
+  // 정적 import된 캐시에서 직접 반환
+  const cached = TRACK_CACHE_MAP[trackId];
+  if (cached) {
+    return cached;
   }
+  return null;
 }
 
 /**
