@@ -1,5 +1,4 @@
 import { Client } from "@notionhq/client";
-import { unstable_cache } from "next/cache";
 import type {
   PageObjectResponse,
   RichTextItemResponse,
@@ -191,6 +190,9 @@ function pageToMissionSummary(page: PageObjectResponse, track: TrackType): Missi
   const stage = getSelectValue(props["단계"]);
   const tags = getMultiSelectValues(props["핵심 기술 키워드"]);
 
+  // 주차 번호: number 타입 '주차' 컬럼 우선, 없으면 '콘텐츠 제작물'에서 파싱
+  const weekNumber = getNumberValue(props["주차"]) || parseWeekNumber(weekStr);
+
   return {
     id: page.id.replace(/-/g, ""),
     title: topic || weekStr, // 주제가 없으면 주차 정보 사용
@@ -198,7 +200,7 @@ function pageToMissionSummary(page: PageObjectResponse, track: TrackType): Missi
     track: track,
     stage: stage || "", // Notion DB의 원본 단계값 사용
     estimatedTime: 120, // 기본 2시간
-    order: parseWeekNumber(weekStr),
+    order: weekNumber,
     tags: tags,
   };
 }
@@ -249,16 +251,16 @@ export async function fetchMissionsFromNotion(): Promise<MissionSummary[]> {
 }
 
 /**
- * 노션에서 트랙별 미션 목록 조회 (내부 함수)
+ * 노션에서 트랙별 미션 목록 조회 (Notion API 직접 호출)
+ * 캐시는 API 라우트에서 처리
  */
-async function fetchMissionsByTrackFromNotionInternal(
+export async function fetchMissionsByTrackFromNotion(
   track: TrackType
 ): Promise<MissionSummary[]> {
   if (!isNotionConfigured()) {
     return [];
   }
 
-  // 트랙별 데이터베이스 ID 가져오기
   const databaseId = getTrackDatabaseId(track);
   if (!databaseId) {
     console.warn(`[Notion] ${track} 트랙의 데이터베이스 ID가 설정되지 않았습니다.`);
@@ -273,7 +275,6 @@ async function fetchMissionsByTrackFromNotionInternal(
 
     console.log(`[Notion] ${track} 트랙에서 ${response.results.length}개 미션 로드 (API 호출)`);
 
-    // 페이지를 MissionSummary로 변환 후 order로 정렬
     const missions = response.results
       .filter((page): page is PageObjectResponse => "properties" in page)
       .map((page) => pageToMissionSummary(page, track))
@@ -285,17 +286,6 @@ async function fetchMissionsByTrackFromNotionInternal(
     return [];
   }
 }
-
-/**
- * 노션에서 트랙별 미션 목록 조회 (캐시 적용)
- * - 1시간(3600초) 동안 캐시 유지
- * - 트랙별로 별도 캐시 키 사용
- */
-export const fetchMissionsByTrackFromNotion = unstable_cache(
-  fetchMissionsByTrackFromNotionInternal,
-  ["notion-missions-by-track"],
-  { revalidate: 3600 } // 1시간
-);
 
 /**
  * 노션에서 요구사항 목록 조회
