@@ -53,8 +53,8 @@ const features = [
 export default function HomePage() {
   return (
     <>
-      {/* 히어로 섹션 */}
-      <Section className="relative overflow-hidden bg-gradient-to-br from-primary/5 via-background to-primary/10 py-20 md:py-32">
+      {/* 히어로 섹션 - PBL 강조 */}
+      <Section className="relative overflow-hidden bg-gradient-to-br from-primary/5 via-background to-primary/10 py-16 md:py-24">
         {/* 배경 장식 */}
         <div className="absolute inset-0 bg-grid-pattern opacity-5" />
         <div className="absolute -top-40 -right-40 h-80 w-80 rounded-full bg-primary/20 blur-3xl" />
@@ -62,16 +62,47 @@ export default function HomePage() {
 
         <Container className="relative">
           <div className="flex flex-col items-center text-center">
-            <Badge className="mb-6 bg-primary/10 text-primary hover:bg-primary/20">
-              Project-based Learning
-            </Badge>
-            <h1 className="mb-6 text-4xl font-bold tracking-tight sm:text-5xl md:text-6xl">
+            {/* PBL 대형 카드 */}
+            <div className="mb-8 flex gap-3 sm:gap-4 md:gap-6">
+              {/* P - Project */}
+              <div className="group relative">
+                <div className="flex h-24 w-24 sm:h-32 sm:w-32 md:h-40 md:w-40 items-center justify-center rounded-2xl bg-gradient-to-br from-primary to-primary/80 shadow-2xl shadow-primary/30 transition-transform hover:scale-105 hover:-rotate-3">
+                  <span className="text-5xl sm:text-6xl md:text-7xl font-black text-white">P</span>
+                </div>
+                <div className="mt-3 text-center">
+                  <span className="text-sm sm:text-base font-semibold text-primary">Project</span>
+                </div>
+              </div>
+
+              {/* B - Based */}
+              <div className="group relative mt-4 sm:mt-6 md:mt-8">
+                <div className="flex h-24 w-24 sm:h-32 sm:w-32 md:h-40 md:w-40 items-center justify-center rounded-2xl bg-gradient-to-br from-primary/90 to-primary/70 shadow-2xl shadow-primary/25 transition-transform hover:scale-105 hover:rotate-3">
+                  <span className="text-5xl sm:text-6xl md:text-7xl font-black text-white">B</span>
+                </div>
+                <div className="mt-3 text-center">
+                  <span className="text-sm sm:text-base font-semibold text-primary/80">Based</span>
+                </div>
+              </div>
+
+              {/* L - Learning */}
+              <div className="group relative">
+                <div className="flex h-24 w-24 sm:h-32 sm:w-32 md:h-40 md:w-40 items-center justify-center rounded-2xl bg-gradient-to-br from-primary/80 to-primary/60 shadow-2xl shadow-primary/20 transition-transform hover:scale-105 hover:-rotate-3">
+                  <span className="text-5xl sm:text-6xl md:text-7xl font-black text-white">L</span>
+                </div>
+                <div className="mt-3 text-center">
+                  <span className="text-sm sm:text-base font-semibold text-primary/60">Learning</span>
+                </div>
+              </div>
+            </div>
+
+            {/* 서브 타이틀 */}
+            <h1 className="mb-4 text-2xl sm:text-3xl md:text-4xl font-bold tracking-tight">
               <span className="text-primary">멋사 대학</span>과 함께
               <br />
               IT 역량을 키워보세요
             </h1>
-            <p className="mb-8 max-w-2xl text-lg text-muted-foreground">
-              프론트엔드, 백엔드, 기획/디자인까지!
+            <p className="mb-8 max-w-2xl text-base sm:text-lg text-muted-foreground">
+              기획/디자인, 프론트엔드, 백엔드까지!
               <br className="hidden sm:block" />
               프로젝트를 직접 만들며 배우는 실전형 교육 플랫폼입니다.
             </p>
