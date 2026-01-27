@@ -9,6 +9,7 @@ import { Callout } from "./blocks/callout";
 import { Toggle } from "./blocks/toggle";
 import { Code } from "./blocks/code";
 import { NotionImage } from "./blocks/image";
+import { NotionVideo } from "./blocks/video";
 import { Divider } from "./blocks/divider";
 import { Bookmark } from "./blocks/bookmark";
 
@@ -128,6 +129,9 @@ function RenderBlock({ block, sectionType, checkedIds, onToggleCheck }: RenderBl
     case "image":
       return <NotionImage block={block} />;
 
+    case "video":
+      return <NotionVideo block={block} />;
+
     case "divider":
       return <Divider />;
 
@@ -138,12 +142,14 @@ function RenderBlock({ block, sectionType, checkedIds, onToggleCheck }: RenderBl
       // 목차는 앱에서 별도로 처리하므로 무시
       return null;
 
-    default:
-      // 지원하지 않는 블록 타입
+    default: {
+      // 지원하지 않는 블록 타입 (런타임에 새 블록 타입이 들어올 수 있음)
+      const unknownBlock = block as { type: string };
       if (process.env.NODE_ENV === "development") {
-        console.warn(`Unsupported block type: ${block.type}`);
+        console.warn(`Unsupported block type: ${unknownBlock.type}`);
       }
       return null;
+    }
   }
 }
 

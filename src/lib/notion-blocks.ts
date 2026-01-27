@@ -304,6 +304,44 @@ export async function fetchFreshImageUrl(blockId: string): Promise<string | null
 }
 
 /**
+ * 블록 ID로 새로운 비디오 URL 획득
+ * Notion S3 비디오 URL이 만료되었을 때 호출
+ *
+ * @param blockId - Notion 블록 ID
+ * @returns 새로운 비디오 URL 또는 null (비디오 블록이 아닌 경우)
+ */
+export async function fetchFreshVideoUrl(blockId: string): Promise<string | null> {
+  try {
+    const client = getNotionClient();
+    const block = await client.blocks.retrieve({ block_id: blockId });
+
+    // 비디오 블록인지 확인
+    if ("type" in block && block.type === "video") {
+      const videoBlock = block as BlockObjectResponse & {
+        video: {
+          type: "file" | "external";
+          file?: { url: string };
+          external?: { url: string };
+        };
+      };
+
+      if (videoBlock.video.type === "file" && videoBlock.video.file?.url) {
+        console.log(`[Video Refresh] 새 URL 획득 성공: ${blockId}`);
+        return videoBlock.video.file.url;
+      } else if (videoBlock.video.type === "external" && videoBlock.video.external?.url) {
+        return videoBlock.video.external.url;
+      }
+    }
+
+    console.warn(`[Video Refresh] 비디오 블록이 아님: ${blockId}`);
+    return null;
+  } catch (error) {
+    console.error(`[Video Refresh] 블록 조회 실패: ${blockId}`, error);
+    return null;
+  }
+}
+
+/**
  * 이미지 블록에서 URL 추출
  */
 export function extractImageUrls(blocks: NotionBlock[]): string[] {

@@ -182,6 +182,22 @@ export interface BookmarkBlock extends NotionBlockBase {
   };
 }
 
+/** Video 블록 */
+export interface VideoBlock extends NotionBlockBase {
+  type: "video";
+  video: {
+    type: "file" | "external";
+    file?: {
+      url: string;
+      expiry_time: string;
+    };
+    external?: {
+      url: string;
+    };
+    caption: RichTextItem[];
+  };
+}
+
 /** 모든 블록 타입 Union */
 export type NotionBlock =
   | ParagraphBlock
@@ -194,6 +210,7 @@ export type NotionBlock =
   | CalloutBlock
   | CodeBlock
   | ImageBlock
+  | VideoBlock
   | DividerBlock
   | ToggleBlock
   | TableOfContentsBlock
