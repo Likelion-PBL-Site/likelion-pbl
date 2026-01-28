@@ -3,14 +3,4864 @@
   "notionPageId": "2f044860-a4f4-8151-a4ca-c98414514b2b",
   "fileName": "springboot-04-java-collections-설계-확장.json",
   "sections": {
-    "introduction": [],
-    "objective": [],
-    "result": [],
-    "timeGoal": [],
-    "guidelines": [],
-    "example": [],
-    "constraints": [],
-    "bonus": []
+    "introduction": [
+      {
+        "object": "block",
+        "id": "2f644860-a4f4-80ac-ab8b-d4db683f6271",
+        "parent": {
+          "type": "block_id",
+          "block_id": "2f644860-a4f4-80fb-b7a5-ed14c59d8508"
+        },
+        "created_time": "2026-01-28T08:41:00.000Z",
+        "last_edited_time": "2026-01-28T08:41:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "has_children": false,
+        "archived": false,
+        "in_trash": false,
+        "type": "divider",
+        "divider": {}
+      },
+      {
+        "object": "block",
+        "id": "2f644860-a4f4-80cd-8e1c-de7d23f4175d",
+        "parent": {
+          "type": "block_id",
+          "block_id": "2f644860-a4f4-80fb-b7a5-ed14c59d8508"
+        },
+        "created_time": "2026-01-28T08:41:00.000Z",
+        "last_edited_time": "2026-01-28T08:41:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "has_children": false,
+        "archived": false,
+        "in_trash": false,
+        "type": "quote",
+        "quote": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Java 컬렉션(List, Map)을 활용해 여러 멤버를 등록, 검색, 그룹화하는 관리 시스템을 구현한다.",
+                "link": null
+              },
+              "annotations": {
+                "bold": true,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Java 컬렉션(List, Map)을 활용해 여러 멤버를 등록, 검색, 그룹화하는 관리 시스템을 구현한다.",
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "object": "block",
+        "id": "2f644860-a4f4-8098-8a34-d92ae9208ceb",
+        "parent": {
+          "type": "block_id",
+          "block_id": "2f644860-a4f4-80fb-b7a5-ed14c59d8508"
+        },
+        "created_time": "2026-01-28T08:41:00.000Z",
+        "last_edited_time": "2026-01-28T08:41:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "has_children": false,
+        "archived": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "color": "default"
+        }
+      },
+      {
+        "object": "block",
+        "id": "2f644860-a4f4-80ec-9d59-d30077378552",
+        "parent": {
+          "type": "block_id",
+          "block_id": "2f644860-a4f4-80fb-b7a5-ed14c59d8508"
+        },
+        "created_time": "2026-01-28T08:41:00.000Z",
+        "last_edited_time": "2026-01-28T08:41:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "has_children": false,
+        "archived": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "3주차에서 우리는 역할(Lion/Staff)을 가진 객체를 만들고, 다형성을 통해 역할별로 다른 동작을 수행하는 구조를 설계했습니다.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "3주차에서 우리는 역할(Lion/Staff)을 가진 객체를 만들고, 다형성을 통해 역할별로 다른 동작을 수행하는 구조를 설계했습니다.",
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "object": "block",
+        "id": "2f644860-a4f4-803d-bd44-ea37ebaac7fd",
+        "parent": {
+          "type": "block_id",
+          "block_id": "2f644860-a4f4-80fb-b7a5-ed14c59d8508"
+        },
+        "created_time": "2026-01-28T08:41:00.000Z",
+        "last_edited_time": "2026-01-28T08:41:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "has_children": false,
+        "archived": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "color": "default"
+        }
+      },
+      {
+        "object": "block",
+        "id": "2f644860-a4f4-804f-bc99-e18707299837",
+        "parent": {
+          "type": "block_id",
+          "block_id": "2f644860-a4f4-80fb-b7a5-ed14c59d8508"
+        },
+        "created_time": "2026-01-28T08:41:00.000Z",
+        "last_edited_time": "2026-01-28T08:41:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "has_children": false,
+        "archived": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "하지만 지금까지는 아기사자 한 명, 운영진 한 명만 다룰 수 있었습니다. 실제 멋쟁이사자처럼 활동에서는 수십 명의 멤버가 있고, 이 멤버들을 등록하고, 검색하고, 파트별로 분류하는 기능이 필요하다.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "하지만 지금까지는 아기사자 한 명, 운영진 한 명만 다룰 수 있었습니다. 실제 멋쟁이사자처럼 활동에서는 수십 명의 멤버가 있고, 이 멤버들을 등록하고, 검색하고, 파트별로 분류하는 기능이 필요하다.",
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "object": "block",
+        "id": "2f644860-a4f4-8002-baad-f90873efdc45",
+        "parent": {
+          "type": "block_id",
+          "block_id": "2f644860-a4f4-80fb-b7a5-ed14c59d8508"
+        },
+        "created_time": "2026-01-28T08:41:00.000Z",
+        "last_edited_time": "2026-01-28T08:41:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "has_children": false,
+        "archived": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "color": "default"
+        }
+      },
+      {
+        "object": "block",
+        "id": "2f644860-a4f4-80a3-8394-f4ed8a14a843",
+        "parent": {
+          "type": "block_id",
+          "block_id": "2f644860-a4f4-80fb-b7a5-ed14c59d8508"
+        },
+        "created_time": "2026-01-28T08:41:00.000Z",
+        "last_edited_time": "2026-01-28T08:41:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "has_children": false,
+        "archived": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "이번 미션에서는 Java의 컬렉션 프레임워크(List, Map)를 사용해 여러 멤버를 효율적으로 관리하는 구조를 만듭니다. 단순히 1주차에서 배열을 사용하는 것과 달리, 컬렉션은 동적 크기 조절, 중복 검사, 키 기반 조회 등 다양한 기능을 제공합니다.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "이번 미션에서는 Java의 컬렉션 프레임워크(List, Map)를 사용해 여러 멤버를 효율적으로 관리하는 구조를 만듭니다. 단순히 1주차에서 배열을 사용하는 것과 달리, 컬렉션은 동적 크기 조절, 중복 검사, 키 기반 조회 등 다양한 기능을 제공합니다.",
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "object": "block",
+        "id": "2f644860-a4f4-8082-b998-e2fb7f17001d",
+        "parent": {
+          "type": "block_id",
+          "block_id": "2f644860-a4f4-80fb-b7a5-ed14c59d8508"
+        },
+        "created_time": "2026-01-28T08:41:00.000Z",
+        "last_edited_time": "2026-01-28T08:41:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "has_children": false,
+        "archived": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "color": "default"
+        }
+      },
+      {
+        "object": "block",
+        "id": "2f644860-a4f4-80ba-937f-eae5d159df87",
+        "parent": {
+          "type": "block_id",
+          "block_id": "2f644860-a4f4-80fb-b7a5-ed14c59d8508"
+        },
+        "created_time": "2026-01-28T08:41:00.000Z",
+        "last_edited_time": "2026-01-28T08:41:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "has_children": false,
+        "archived": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "이번 미션은 두 단계로 나뉩니다.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "이번 미션은 두 단계로 나뉩니다.",
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "object": "block",
+        "id": "2f644860-a4f4-80bc-a4d5-ec6f2c9dbb1a",
+        "parent": {
+          "type": "block_id",
+          "block_id": "2f644860-a4f4-80fb-b7a5-ed14c59d8508"
+        },
+        "created_time": "2026-01-28T08:41:00.000Z",
+        "last_edited_time": "2026-01-28T08:41:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "has_children": false,
+        "archived": false,
+        "in_trash": false,
+        "type": "bulleted_list_item",
+        "bulleted_list_item": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Step 1에서는 List를 사용해 멤버를 저장하고 검색하는 기본 기능을 구현합니다.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Step 1에서는 List를 사용해 멤버를 저장하고 검색하는 기본 기능을 구현합니다.",
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "object": "block",
+        "id": "2f644860-a4f4-807c-ae5b-d06fe9539d4d",
+        "parent": {
+          "type": "block_id",
+          "block_id": "2f644860-a4f4-80fb-b7a5-ed14c59d8508"
+        },
+        "created_time": "2026-01-28T08:41:00.000Z",
+        "last_edited_time": "2026-01-28T08:41:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "has_children": false,
+        "archived": false,
+        "in_trash": false,
+        "type": "bulleted_list_item",
+        "bulleted_list_item": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Step 2에서는 Map을 추가해 파트별로 멤버를 그룹화하는 기능을 구현합니다.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Step 2에서는 Map을 추가해 파트별로 멤버를 그룹화하는 기능을 구현합니다.",
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "object": "block",
+        "id": "2f644860-a4f4-80ce-9807-d5369fa8ef82",
+        "parent": {
+          "type": "page_id",
+          "page_id": "2f044860-a4f4-8151-a4ca-c98414514b2b"
+        },
+        "created_time": "2026-01-28T08:41:00.000Z",
+        "last_edited_time": "2026-01-28T08:41:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "has_children": false,
+        "archived": false,
+        "in_trash": false,
+        "type": "divider",
+        "divider": {}
+      }
+    ],
+    "objective": [
+      {
+        "object": "block",
+        "id": "2f644860-a4f4-8051-bfd9-ebe9484bbf38",
+        "parent": {
+          "type": "block_id",
+          "block_id": "2f644860-a4f4-8077-a31f-e5771b670509"
+        },
+        "created_time": "2026-01-28T08:41:00.000Z",
+        "last_edited_time": "2026-01-28T08:41:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "has_children": false,
+        "archived": false,
+        "in_trash": false,
+        "type": "divider",
+        "divider": {}
+      },
+      {
+        "object": "block",
+        "id": "2f644860-a4f4-8096-adb3-fc836726921b",
+        "parent": {
+          "type": "block_id",
+          "block_id": "2f644860-a4f4-8077-a31f-e5771b670509"
+        },
+        "created_time": "2026-01-28T08:41:00.000Z",
+        "last_edited_time": "2026-01-28T08:41:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "has_children": false,
+        "archived": false,
+        "in_trash": false,
+        "type": "bulleted_list_item",
+        "bulleted_list_item": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "List와 배열의 차이를 이해하고, 동적 크기 조절의 장점을 설명할 수 있다.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "List와 배열의 차이를 이해하고, 동적 크기 조절의 장점을 설명할 수 있다.",
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "object": "block",
+        "id": "2f644860-a4f4-807b-8c4a-eab31ce3a9e9",
+        "parent": {
+          "type": "block_id",
+          "block_id": "2f644860-a4f4-8077-a31f-e5771b670509"
+        },
+        "created_time": "2026-01-28T08:41:00.000Z",
+        "last_edited_time": "2026-01-28T08:41:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "has_children": false,
+        "archived": false,
+        "in_trash": false,
+        "type": "bulleted_list_item",
+        "bulleted_list_item": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "List의 add(), get(), size(), isEmpty() 메서드 사용법을 이해한다.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "List의 add(), get(), size(), isEmpty() 메서드 사용법을 이해한다.",
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "object": "block",
+        "id": "2f644860-a4f4-80c0-8a9b-f82c3c81ae58",
+        "parent": {
+          "type": "block_id",
+          "block_id": "2f644860-a4f4-8077-a31f-e5771b670509"
+        },
+        "created_time": "2026-01-28T08:41:00.000Z",
+        "last_edited_time": "2026-01-28T08:41:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "has_children": false,
+        "archived": false,
+        "in_trash": false,
+        "type": "bulleted_list_item",
+        "bulleted_list_item": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "for-each 문으로 List를 순회하는 방법을 이해한다.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "for-each 문으로 List를 순회하는 방법을 이해한다.",
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "object": "block",
+        "id": "2f644860-a4f4-8056-adb2-d5beebc004f3",
+        "parent": {
+          "type": "block_id",
+          "block_id": "2f644860-a4f4-8077-a31f-e5771b670509"
+        },
+        "created_time": "2026-01-28T08:41:00.000Z",
+        "last_edited_time": "2026-01-28T08:41:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "has_children": false,
+        "archived": false,
+        "in_trash": false,
+        "type": "bulleted_list_item",
+        "bulleted_list_item": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Map의 put(), get(), containsKey(), keySet() 메서드 사용법을 이해한다.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Map의 put(), get(), containsKey(), keySet() 메서드 사용법을 이해한다.",
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "object": "block",
+        "id": "2f644860-a4f4-80c7-93f7-da1c1a48b5bc",
+        "parent": {
+          "type": "block_id",
+          "block_id": "2f644860-a4f4-8077-a31f-e5771b670509"
+        },
+        "created_time": "2026-01-28T08:41:00.000Z",
+        "last_edited_time": "2026-01-28T08:41:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "has_children": false,
+        "archived": false,
+        "in_trash": false,
+        "type": "bulleted_list_item",
+        "bulleted_list_item": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "제네릭(Generic)이 왜 필요한지, ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "제네릭(Generic)이 왜 필요한지, ",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": "List<Role>",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": true,
+                "color": "default"
+              },
+              "plain_text": "List<Role>",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": "이 무엇을 의미하는지 설명할 수 있다.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "이 무엇을 의미하는지 설명할 수 있다.",
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "object": "block",
+        "id": "2f644860-a4f4-809d-b075-c7507dfa4ff0",
+        "parent": {
+          "type": "block_id",
+          "block_id": "2f644860-a4f4-8077-a31f-e5771b670509"
+        },
+        "created_time": "2026-01-28T08:41:00.000Z",
+        "last_edited_time": "2026-01-28T08:41:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "has_children": false,
+        "archived": false,
+        "in_trash": false,
+        "type": "bulleted_list_item",
+        "bulleted_list_item": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "3주차에서 만든 다형성 구조가 컬렉션과 함께 어떻게 활용되는지 이해한다.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "3주차에서 만든 다형성 구조가 컬렉션과 함께 어떻게 활용되는지 이해한다.",
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "object": "block",
+        "id": "2f644860-a4f4-8041-8268-c4a2365e3083",
+        "parent": {
+          "type": "page_id",
+          "page_id": "2f044860-a4f4-8151-a4ca-c98414514b2b"
+        },
+        "created_time": "2026-01-28T08:41:00.000Z",
+        "last_edited_time": "2026-01-28T08:41:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "has_children": false,
+        "archived": false,
+        "in_trash": false,
+        "type": "divider",
+        "divider": {}
+      }
+    ],
+    "result": [
+      {
+        "object": "block",
+        "id": "2f644860-a4f4-80bd-b0ec-e80dcacc3771",
+        "parent": {
+          "type": "block_id",
+          "block_id": "2f644860-a4f4-80f4-9d28-d2ec160dd0d6"
+        },
+        "created_time": "2026-01-28T08:41:00.000Z",
+        "last_edited_time": "2026-01-28T08:41:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "has_children": false,
+        "archived": false,
+        "in_trash": false,
+        "type": "divider",
+        "divider": {}
+      },
+      {
+        "object": "block",
+        "id": "2f644860-a4f4-80aa-87ae-e974d59204ed",
+        "parent": {
+          "type": "block_id",
+          "block_id": "2f644860-a4f4-80f4-9d28-d2ec160dd0d6"
+        },
+        "created_time": "2026-01-28T08:41:00.000Z",
+        "last_edited_time": "2026-01-28T08:41:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "has_children": false,
+        "archived": false,
+        "in_trash": false,
+        "type": "heading_3",
+        "heading_3": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "1. (Step 1) 결과물",
+                "link": null
+              },
+              "annotations": {
+                "bold": true,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "1. (Step 1) 결과물",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        }
+      },
+      {
+        "object": "block",
+        "id": "2f644860-a4f4-802d-b488-e0691f8aa709",
+        "parent": {
+          "type": "block_id",
+          "block_id": "2f644860-a4f4-80f4-9d28-d2ec160dd0d6"
+        },
+        "created_time": "2026-01-28T08:41:00.000Z",
+        "last_edited_time": "2026-01-28T08:41:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "has_children": true,
+        "archived": false,
+        "in_trash": false,
+        "type": "numbered_list_item",
+        "numbered_list_item": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "멤버 등록",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "멤버 등록",
+              "href": null
+            }
+          ],
+          "color": "default"
+        },
+        "children": [
+          {
+            "object": "block",
+            "id": "2f644860-a4f4-8038-a223-f5c73e8f0339",
+            "parent": {
+              "type": "block_id",
+              "block_id": "2f644860-a4f4-802d-b488-e0691f8aa709"
+            },
+            "created_time": "2026-01-28T08:41:00.000Z",
+            "last_edited_time": "2026-01-28T08:41:00.000Z",
+            "created_by": {
+              "object": "user",
+              "id": "2aed872b-594c-81eb-bc82-000291164988"
+            },
+            "last_edited_by": {
+              "object": "user",
+              "id": "2aed872b-594c-81eb-bc82-000291164988"
+            },
+            "has_children": false,
+            "archived": false,
+            "in_trash": false,
+            "type": "bulleted_list_item",
+            "bulleted_list_item": {
+              "rich_text": [
+                {
+                  "type": "text",
+                  "text": {
+                    "content": "입력: 역할 선택(아기사자/운영진) 후 해당 정보 입력",
+                    "link": null
+                  },
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  },
+                  "plain_text": "입력: 역할 선택(아기사자/운영진) 후 해당 정보 입력",
+                  "href": null
+                }
+              ],
+              "color": "default"
+            }
+          },
+          {
+            "object": "block",
+            "id": "2f644860-a4f4-8035-b0c5-c603ddbaadd2",
+            "parent": {
+              "type": "block_id",
+              "block_id": "2f644860-a4f4-802d-b488-e0691f8aa709"
+            },
+            "created_time": "2026-01-28T08:41:00.000Z",
+            "last_edited_time": "2026-01-28T08:41:00.000Z",
+            "created_by": {
+              "object": "user",
+              "id": "2aed872b-594c-81eb-bc82-000291164988"
+            },
+            "last_edited_by": {
+              "object": "user",
+              "id": "2aed872b-594c-81eb-bc82-000291164988"
+            },
+            "has_children": false,
+            "archived": false,
+            "in_trash": false,
+            "type": "bulleted_list_item",
+            "bulleted_list_item": {
+              "rich_text": [
+                {
+                  "type": "text",
+                  "text": {
+                    "content": "출력: 등록 완료 메시지 또는 중복 시 실패 메시지",
+                    "link": null
+                  },
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  },
+                  "plain_text": "출력: 등록 완료 메시지 또는 중복 시 실패 메시지",
+                  "href": null
+                }
+              ],
+              "color": "default"
+            }
+          }
+        ]
+      },
+      {
+        "object": "block",
+        "id": "2f644860-a4f4-80fd-848d-f887abd4413f",
+        "parent": {
+          "type": "block_id",
+          "block_id": "2f644860-a4f4-80f4-9d28-d2ec160dd0d6"
+        },
+        "created_time": "2026-01-28T08:41:00.000Z",
+        "last_edited_time": "2026-01-28T08:41:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "has_children": true,
+        "archived": false,
+        "in_trash": false,
+        "type": "numbered_list_item",
+        "numbered_list_item": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "전체 멤버 조회",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "전체 멤버 조회",
+              "href": null
+            }
+          ],
+          "color": "default"
+        },
+        "children": [
+          {
+            "object": "block",
+            "id": "2f644860-a4f4-8040-aaa6-d626a27db186",
+            "parent": {
+              "type": "block_id",
+              "block_id": "2f644860-a4f4-80fd-848d-f887abd4413f"
+            },
+            "created_time": "2026-01-28T08:41:00.000Z",
+            "last_edited_time": "2026-01-28T08:41:00.000Z",
+            "created_by": {
+              "object": "user",
+              "id": "2aed872b-594c-81eb-bc82-000291164988"
+            },
+            "last_edited_by": {
+              "object": "user",
+              "id": "2aed872b-594c-81eb-bc82-000291164988"
+            },
+            "has_children": false,
+            "archived": false,
+            "in_trash": false,
+            "type": "bulleted_list_item",
+            "bulleted_list_item": {
+              "rich_text": [
+                {
+                  "type": "text",
+                  "text": {
+                    "content": "동작: 등록된 모든 멤버의 정보를 출력",
+                    "link": null
+                  },
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  },
+                  "plain_text": "동작: 등록된 모든 멤버의 정보를 출력",
+                  "href": null
+                }
+              ],
+              "color": "default"
+            }
+          }
+        ]
+      },
+      {
+        "object": "block",
+        "id": "2f644860-a4f4-8026-84c5-e52dac498fbf",
+        "parent": {
+          "type": "block_id",
+          "block_id": "2f644860-a4f4-80f4-9d28-d2ec160dd0d6"
+        },
+        "created_time": "2026-01-28T08:41:00.000Z",
+        "last_edited_time": "2026-01-28T08:41:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "has_children": true,
+        "archived": false,
+        "in_trash": false,
+        "type": "numbered_list_item",
+        "numbered_list_item": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "이름으로 멤버 검색",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "이름으로 멤버 검색",
+              "href": null
+            }
+          ],
+          "color": "default"
+        },
+        "children": [
+          {
+            "object": "block",
+            "id": "2f644860-a4f4-801f-9fe0-ecb914939009",
+            "parent": {
+              "type": "block_id",
+              "block_id": "2f644860-a4f4-8026-84c5-e52dac498fbf"
+            },
+            "created_time": "2026-01-28T08:41:00.000Z",
+            "last_edited_time": "2026-01-28T08:41:00.000Z",
+            "created_by": {
+              "object": "user",
+              "id": "2aed872b-594c-81eb-bc82-000291164988"
+            },
+            "last_edited_by": {
+              "object": "user",
+              "id": "2aed872b-594c-81eb-bc82-000291164988"
+            },
+            "has_children": false,
+            "archived": false,
+            "in_trash": false,
+            "type": "bulleted_list_item",
+            "bulleted_list_item": {
+              "rich_text": [
+                {
+                  "type": "text",
+                  "text": {
+                    "content": "입력: 검색할 이름",
+                    "link": null
+                  },
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  },
+                  "plain_text": "입력: 검색할 이름",
+                  "href": null
+                }
+              ],
+              "color": "default"
+            }
+          },
+          {
+            "object": "block",
+            "id": "2f644860-a4f4-8044-b176-e6b64c817819",
+            "parent": {
+              "type": "block_id",
+              "block_id": "2f644860-a4f4-8026-84c5-e52dac498fbf"
+            },
+            "created_time": "2026-01-28T08:41:00.000Z",
+            "last_edited_time": "2026-01-28T08:41:00.000Z",
+            "created_by": {
+              "object": "user",
+              "id": "2aed872b-594c-81eb-bc82-000291164988"
+            },
+            "last_edited_by": {
+              "object": "user",
+              "id": "2aed872b-594c-81eb-bc82-000291164988"
+            },
+            "has_children": false,
+            "archived": false,
+            "in_trash": false,
+            "type": "bulleted_list_item",
+            "bulleted_list_item": {
+              "rich_text": [
+                {
+                  "type": "text",
+                  "text": {
+                    "content": "출력: 해당 이름을 가진 멤버의 상세 정보",
+                    "link": null
+                  },
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  },
+                  "plain_text": "출력: 해당 이름을 가진 멤버의 상세 정보",
+                  "href": null
+                }
+              ],
+              "color": "default"
+            }
+          }
+        ]
+      },
+      {
+        "object": "block",
+        "id": "2f644860-a4f4-8058-a84b-f40947e79aa9",
+        "parent": {
+          "type": "block_id",
+          "block_id": "2f644860-a4f4-80f4-9d28-d2ec160dd0d6"
+        },
+        "created_time": "2026-01-28T08:41:00.000Z",
+        "last_edited_time": "2026-01-28T08:41:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "has_children": false,
+        "archived": false,
+        "in_trash": false,
+        "type": "divider",
+        "divider": {}
+      },
+      {
+        "object": "block",
+        "id": "2f644860-a4f4-80fe-b756-d3ec4c10a940",
+        "parent": {
+          "type": "block_id",
+          "block_id": "2f644860-a4f4-80f4-9d28-d2ec160dd0d6"
+        },
+        "created_time": "2026-01-28T08:41:00.000Z",
+        "last_edited_time": "2026-01-28T08:41:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "has_children": false,
+        "archived": false,
+        "in_trash": false,
+        "type": "heading_3",
+        "heading_3": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "2. (Step 2) 결과물 (Step 1에 추가)",
+                "link": null
+              },
+              "annotations": {
+                "bold": true,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "2. (Step 2) 결과물 (Step 1에 추가)",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        }
+      },
+      {
+        "object": "block",
+        "id": "2f644860-a4f4-80dc-a1ec-f12e869825b7",
+        "parent": {
+          "type": "block_id",
+          "block_id": "2f644860-a4f4-80f4-9d28-d2ec160dd0d6"
+        },
+        "created_time": "2026-01-28T08:41:00.000Z",
+        "last_edited_time": "2026-01-28T08:41:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "has_children": true,
+        "archived": false,
+        "in_trash": false,
+        "type": "numbered_list_item",
+        "numbered_list_item": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "파트별 멤버 필터링",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "파트별 멤버 필터링",
+              "href": null
+            }
+          ],
+          "color": "default"
+        },
+        "children": [
+          {
+            "object": "block",
+            "id": "2f644860-a4f4-804f-a0ff-cc44cfc86c1b",
+            "parent": {
+              "type": "block_id",
+              "block_id": "2f644860-a4f4-80dc-a1ec-f12e869825b7"
+            },
+            "created_time": "2026-01-28T08:41:00.000Z",
+            "last_edited_time": "2026-01-28T08:41:00.000Z",
+            "created_by": {
+              "object": "user",
+              "id": "2aed872b-594c-81eb-bc82-000291164988"
+            },
+            "last_edited_by": {
+              "object": "user",
+              "id": "2aed872b-594c-81eb-bc82-000291164988"
+            },
+            "has_children": false,
+            "archived": false,
+            "in_trash": false,
+            "type": "bulleted_list_item",
+            "bulleted_list_item": {
+              "rich_text": [
+                {
+                  "type": "text",
+                  "text": {
+                    "content": "입력: 파트명",
+                    "link": null
+                  },
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  },
+                  "plain_text": "입력: 파트명",
+                  "href": null
+                }
+              ],
+              "color": "default"
+            }
+          },
+          {
+            "object": "block",
+            "id": "2f644860-a4f4-80d2-a8f9-f900213db711",
+            "parent": {
+              "type": "block_id",
+              "block_id": "2f644860-a4f4-80dc-a1ec-f12e869825b7"
+            },
+            "created_time": "2026-01-28T08:41:00.000Z",
+            "last_edited_time": "2026-01-28T08:41:00.000Z",
+            "created_by": {
+              "object": "user",
+              "id": "2aed872b-594c-81eb-bc82-000291164988"
+            },
+            "last_edited_by": {
+              "object": "user",
+              "id": "2aed872b-594c-81eb-bc82-000291164988"
+            },
+            "has_children": false,
+            "archived": false,
+            "in_trash": false,
+            "type": "bulleted_list_item",
+            "bulleted_list_item": {
+              "rich_text": [
+                {
+                  "type": "text",
+                  "text": {
+                    "content": "출력: 해당 파트에 속한 멤버 목록",
+                    "link": null
+                  },
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  },
+                  "plain_text": "출력: 해당 파트에 속한 멤버 목록",
+                  "href": null
+                }
+              ],
+              "color": "default"
+            }
+          }
+        ]
+      },
+      {
+        "object": "block",
+        "id": "2f644860-a4f4-804b-bab7-ec885ab86571",
+        "parent": {
+          "type": "page_id",
+          "page_id": "2f044860-a4f4-8151-a4ca-c98414514b2b"
+        },
+        "created_time": "2026-01-28T08:41:00.000Z",
+        "last_edited_time": "2026-01-28T08:41:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "has_children": false,
+        "archived": false,
+        "in_trash": false,
+        "type": "divider",
+        "divider": {}
+      }
+    ],
+    "timeGoal": [
+      {
+        "object": "block",
+        "id": "2f644860-a4f4-801a-a808-ebf2feaed7e6",
+        "parent": {
+          "type": "block_id",
+          "block_id": "2f644860-a4f4-8014-b488-c2f09ddbae0f"
+        },
+        "created_time": "2026-01-28T08:41:00.000Z",
+        "last_edited_time": "2026-01-28T08:41:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "has_children": false,
+        "archived": false,
+        "in_trash": false,
+        "type": "divider",
+        "divider": {}
+      },
+      {
+        "object": "block",
+        "id": "2f644860-a4f4-8059-b991-f34aa3da0eb3",
+        "parent": {
+          "type": "block_id",
+          "block_id": "2f644860-a4f4-8014-b488-c2f09ddbae0f"
+        },
+        "created_time": "2026-01-28T08:41:00.000Z",
+        "last_edited_time": "2026-01-28T08:41:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "has_children": false,
+        "archived": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "총 소요 시간 : 20시간",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "총 소요 시간 : 20시간",
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "object": "block",
+        "id": "2f644860-a4f4-80f3-a9d7-c338383a1bc1",
+        "parent": {
+          "type": "page_id",
+          "page_id": "2f044860-a4f4-8151-a4ca-c98414514b2b"
+        },
+        "created_time": "2026-01-28T08:41:00.000Z",
+        "last_edited_time": "2026-01-28T08:41:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "has_children": false,
+        "archived": false,
+        "in_trash": false,
+        "type": "divider",
+        "divider": {}
+      }
+    ],
+    "guidelines": [
+      {
+        "object": "block",
+        "id": "2f644860-a4f4-800a-ba75-e5169589f848",
+        "parent": {
+          "type": "block_id",
+          "block_id": "2f644860-a4f4-80bd-8175-d8ecf3350f33"
+        },
+        "created_time": "2026-01-28T08:41:00.000Z",
+        "last_edited_time": "2026-01-28T08:41:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "has_children": false,
+        "archived": false,
+        "in_trash": false,
+        "type": "divider",
+        "divider": {}
+      },
+      {
+        "object": "block",
+        "id": "2f644860-a4f4-8078-a997-c9dd570805bd",
+        "parent": {
+          "type": "block_id",
+          "block_id": "2f644860-a4f4-80bd-8175-d8ecf3350f33"
+        },
+        "created_time": "2026-01-28T08:41:00.000Z",
+        "last_edited_time": "2026-01-28T08:41:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "has_children": false,
+        "archived": false,
+        "in_trash": false,
+        "type": "heading_2",
+        "heading_2": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "1. (Step 1) List 기초",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "1. (Step 1) List 기초",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        }
+      },
+      {
+        "object": "block",
+        "id": "2f644860-a4f4-80fd-95f8-ca91de59d8a4",
+        "parent": {
+          "type": "block_id",
+          "block_id": "2f644860-a4f4-80bd-8175-d8ecf3350f33"
+        },
+        "created_time": "2026-01-28T08:41:00.000Z",
+        "last_edited_time": "2026-01-28T08:41:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "has_children": true,
+        "archived": false,
+        "in_trash": false,
+        "type": "numbered_list_item",
+        "numbered_list_item": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "List 선언",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "List 선언",
+              "href": null
+            }
+          ],
+          "color": "default"
+        },
+        "children": [
+          {
+            "object": "block",
+            "id": "2f644860-a4f4-80f5-9e69-d93d6761f64a",
+            "parent": {
+              "type": "block_id",
+              "block_id": "2f644860-a4f4-80fd-95f8-ca91de59d8a4"
+            },
+            "created_time": "2026-01-28T08:41:00.000Z",
+            "last_edited_time": "2026-01-28T08:41:00.000Z",
+            "created_by": {
+              "object": "user",
+              "id": "2aed872b-594c-81eb-bc82-000291164988"
+            },
+            "last_edited_by": {
+              "object": "user",
+              "id": "2aed872b-594c-81eb-bc82-000291164988"
+            },
+            "has_children": false,
+            "archived": false,
+            "in_trash": false,
+            "type": "bulleted_list_item",
+            "bulleted_list_item": {
+              "rich_text": [
+                {
+                  "type": "text",
+                  "text": {
+                    "content": "List<Role>",
+                    "link": null
+                  },
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": true,
+                    "color": "default"
+                  },
+                  "plain_text": "List<Role>",
+                  "href": null
+                },
+                {
+                  "type": "text",
+                  "text": {
+                    "content": " 타입의 변수를 선언하고 초기화한다.",
+                    "link": null
+                  },
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  },
+                  "plain_text": " 타입의 변수를 선언하고 초기화한다.",
+                  "href": null
+                }
+              ],
+              "color": "default"
+            }
+          },
+          {
+            "object": "block",
+            "id": "2f644860-a4f4-80b5-85d8-df2537470fe1",
+            "parent": {
+              "type": "block_id",
+              "block_id": "2f644860-a4f4-80fd-95f8-ca91de59d8a4"
+            },
+            "created_time": "2026-01-28T08:41:00.000Z",
+            "last_edited_time": "2026-01-28T08:41:00.000Z",
+            "created_by": {
+              "object": "user",
+              "id": "2aed872b-594c-81eb-bc82-000291164988"
+            },
+            "last_edited_by": {
+              "object": "user",
+              "id": "2aed872b-594c-81eb-bc82-000291164988"
+            },
+            "has_children": false,
+            "archived": false,
+            "in_trash": false,
+            "type": "bulleted_list_item",
+            "bulleted_list_item": {
+              "rich_text": [
+                {
+                  "type": "text",
+                  "text": {
+                    "content": "이 List에 아기사자와 운영진 객체를 저장한다.",
+                    "link": null
+                  },
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  },
+                  "plain_text": "이 List에 아기사자와 운영진 객체를 저장한다.",
+                  "href": null
+                }
+              ],
+              "color": "default"
+            }
+          }
+        ]
+      },
+      {
+        "object": "block",
+        "id": "2f644860-a4f4-803b-9b4b-e9573d0d856f",
+        "parent": {
+          "type": "block_id",
+          "block_id": "2f644860-a4f4-80bd-8175-d8ecf3350f33"
+        },
+        "created_time": "2026-01-28T08:41:00.000Z",
+        "last_edited_time": "2026-01-28T08:41:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "has_children": true,
+        "archived": false,
+        "in_trash": false,
+        "type": "numbered_list_item",
+        "numbered_list_item": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "등록 기능",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "등록 기능",
+              "href": null
+            }
+          ],
+          "color": "default"
+        },
+        "children": [
+          {
+            "object": "block",
+            "id": "2f644860-a4f4-80c8-b919-f3a5bc6631c3",
+            "parent": {
+              "type": "block_id",
+              "block_id": "2f644860-a4f4-803b-9b4b-e9573d0d856f"
+            },
+            "created_time": "2026-01-28T08:41:00.000Z",
+            "last_edited_time": "2026-01-28T08:41:00.000Z",
+            "created_by": {
+              "object": "user",
+              "id": "2aed872b-594c-81eb-bc82-000291164988"
+            },
+            "last_edited_by": {
+              "object": "user",
+              "id": "2aed872b-594c-81eb-bc82-000291164988"
+            },
+            "has_children": false,
+            "archived": false,
+            "in_trash": false,
+            "type": "bulleted_list_item",
+            "bulleted_list_item": {
+              "rich_text": [
+                {
+                  "type": "text",
+                  "text": {
+                    "content": "아기사자 또는 운영진을 선택하여 등록할 수 있다.",
+                    "link": null
+                  },
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  },
+                  "plain_text": "아기사자 또는 운영진을 선택하여 등록할 수 있다.",
+                  "href": null
+                }
+              ],
+              "color": "default"
+            }
+          },
+          {
+            "object": "block",
+            "id": "2f644860-a4f4-80c6-b3ed-c93d1c72ee38",
+            "parent": {
+              "type": "block_id",
+              "block_id": "2f644860-a4f4-803b-9b4b-e9573d0d856f"
+            },
+            "created_time": "2026-01-28T08:41:00.000Z",
+            "last_edited_time": "2026-01-28T08:41:00.000Z",
+            "created_by": {
+              "object": "user",
+              "id": "2aed872b-594c-81eb-bc82-000291164988"
+            },
+            "last_edited_by": {
+              "object": "user",
+              "id": "2aed872b-594c-81eb-bc82-000291164988"
+            },
+            "has_children": false,
+            "archived": false,
+            "in_trash": false,
+            "type": "bulleted_list_item",
+            "bulleted_list_item": {
+              "rich_text": [
+                {
+                  "type": "text",
+                  "text": {
+                    "content": "등록 전에 동일한 이름이 있는지 확인한다.",
+                    "link": null
+                  },
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  },
+                  "plain_text": "등록 전에 동일한 이름이 있는지 확인한다.",
+                  "href": null
+                }
+              ],
+              "color": "default"
+            }
+          },
+          {
+            "object": "block",
+            "id": "2f644860-a4f4-8011-9c02-e660b850fb7d",
+            "parent": {
+              "type": "block_id",
+              "block_id": "2f644860-a4f4-803b-9b4b-e9573d0d856f"
+            },
+            "created_time": "2026-01-28T08:41:00.000Z",
+            "last_edited_time": "2026-01-28T08:41:00.000Z",
+            "created_by": {
+              "object": "user",
+              "id": "2aed872b-594c-81eb-bc82-000291164988"
+            },
+            "last_edited_by": {
+              "object": "user",
+              "id": "2aed872b-594c-81eb-bc82-000291164988"
+            },
+            "has_children": false,
+            "archived": false,
+            "in_trash": false,
+            "type": "bulleted_list_item",
+            "bulleted_list_item": {
+              "rich_text": [
+                {
+                  "type": "text",
+                  "text": {
+                    "content": "중복이면 등록을 거부하고, 아니면 List에 추가한다.",
+                    "link": null
+                  },
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  },
+                  "plain_text": "중복이면 등록을 거부하고, 아니면 List에 추가한다.",
+                  "href": null
+                }
+              ],
+              "color": "default"
+            }
+          }
+        ]
+      },
+      {
+        "object": "block",
+        "id": "2f644860-a4f4-8009-a263-c2509e2cd9d4",
+        "parent": {
+          "type": "block_id",
+          "block_id": "2f644860-a4f4-80bd-8175-d8ecf3350f33"
+        },
+        "created_time": "2026-01-28T08:41:00.000Z",
+        "last_edited_time": "2026-01-28T08:41:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "has_children": true,
+        "archived": false,
+        "in_trash": false,
+        "type": "numbered_list_item",
+        "numbered_list_item": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "조회 기능",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "조회 기능",
+              "href": null
+            }
+          ],
+          "color": "default"
+        },
+        "children": [
+          {
+            "object": "block",
+            "id": "2f644860-a4f4-800c-b137-f6532d582529",
+            "parent": {
+              "type": "block_id",
+              "block_id": "2f644860-a4f4-8009-a263-c2509e2cd9d4"
+            },
+            "created_time": "2026-01-28T08:41:00.000Z",
+            "last_edited_time": "2026-01-28T08:41:00.000Z",
+            "created_by": {
+              "object": "user",
+              "id": "2aed872b-594c-81eb-bc82-000291164988"
+            },
+            "last_edited_by": {
+              "object": "user",
+              "id": "2aed872b-594c-81eb-bc82-000291164988"
+            },
+            "has_children": false,
+            "archived": false,
+            "in_trash": false,
+            "type": "bulleted_list_item",
+            "bulleted_list_item": {
+              "rich_text": [
+                {
+                  "type": "text",
+                  "text": {
+                    "content": "전체 멤버 목록을 출력한다.",
+                    "link": null
+                  },
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  },
+                  "plain_text": "전체 멤버 목록을 출력한다.",
+                  "href": null
+                }
+              ],
+              "color": "default"
+            }
+          },
+          {
+            "object": "block",
+            "id": "2f644860-a4f4-8015-a15a-f82ca37d40ec",
+            "parent": {
+              "type": "block_id",
+              "block_id": "2f644860-a4f4-8009-a263-c2509e2cd9d4"
+            },
+            "created_time": "2026-01-28T08:41:00.000Z",
+            "last_edited_time": "2026-01-28T08:41:00.000Z",
+            "created_by": {
+              "object": "user",
+              "id": "2aed872b-594c-81eb-bc82-000291164988"
+            },
+            "last_edited_by": {
+              "object": "user",
+              "id": "2aed872b-594c-81eb-bc82-000291164988"
+            },
+            "has_children": false,
+            "archived": false,
+            "in_trash": false,
+            "type": "bulleted_list_item",
+            "bulleted_list_item": {
+              "rich_text": [
+                {
+                  "type": "text",
+                  "text": {
+                    "content": "이름을 입력받아 해당 멤버를 검색한다.",
+                    "link": null
+                  },
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  },
+                  "plain_text": "이름을 입력받아 해당 멤버를 검색한다.",
+                  "href": null
+                }
+              ],
+              "color": "default"
+            }
+          }
+        ]
+      },
+      {
+        "object": "block",
+        "id": "2f644860-a4f4-807e-a4f6-ffc73bb40b5f",
+        "parent": {
+          "type": "block_id",
+          "block_id": "2f644860-a4f4-80bd-8175-d8ecf3350f33"
+        },
+        "created_time": "2026-01-28T08:41:00.000Z",
+        "last_edited_time": "2026-01-28T08:41:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "has_children": true,
+        "archived": false,
+        "in_trash": false,
+        "type": "numbered_list_item",
+        "numbered_list_item": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "메뉴 기반 동작",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "메뉴 기반 동작",
+              "href": null
+            }
+          ],
+          "color": "default"
+        },
+        "children": [
+          {
+            "object": "block",
+            "id": "2f644860-a4f4-80a3-8f8c-efbf437fc8a2",
+            "parent": {
+              "type": "block_id",
+              "block_id": "2f644860-a4f4-807e-a4f6-ffc73bb40b5f"
+            },
+            "created_time": "2026-01-28T08:41:00.000Z",
+            "last_edited_time": "2026-01-28T08:41:00.000Z",
+            "created_by": {
+              "object": "user",
+              "id": "2aed872b-594c-81eb-bc82-000291164988"
+            },
+            "last_edited_by": {
+              "object": "user",
+              "id": "2aed872b-594c-81eb-bc82-000291164988"
+            },
+            "has_children": false,
+            "archived": false,
+            "in_trash": false,
+            "type": "bulleted_list_item",
+            "bulleted_list_item": {
+              "rich_text": [
+                {
+                  "type": "text",
+                  "text": {
+                    "content": "프로그램 실행 시 메뉴를 출력하고 원하는 기능을 선택할 수 있다.",
+                    "link": null
+                  },
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  },
+                  "plain_text": "프로그램 실행 시 메뉴를 출력하고 원하는 기능을 선택할 수 있다.",
+                  "href": null
+                }
+              ],
+              "color": "default"
+            }
+          },
+          {
+            "object": "block",
+            "id": "2f644860-a4f4-80e0-ba2c-cbd3a265a069",
+            "parent": {
+              "type": "block_id",
+              "block_id": "2f644860-a4f4-807e-a4f6-ffc73bb40b5f"
+            },
+            "created_time": "2026-01-28T08:41:00.000Z",
+            "last_edited_time": "2026-01-28T08:41:00.000Z",
+            "created_by": {
+              "object": "user",
+              "id": "2aed872b-594c-81eb-bc82-000291164988"
+            },
+            "last_edited_by": {
+              "object": "user",
+              "id": "2aed872b-594c-81eb-bc82-000291164988"
+            },
+            "has_children": false,
+            "archived": false,
+            "in_trash": false,
+            "type": "bulleted_list_item",
+            "bulleted_list_item": {
+              "rich_text": [
+                {
+                  "type": "text",
+                  "text": {
+                    "content": "종료를 선택하기 전까지 반복적으로 메뉴를 출력한다.",
+                    "link": null
+                  },
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  },
+                  "plain_text": "종료를 선택하기 전까지 반복적으로 메뉴를 출력한다.",
+                  "href": null
+                }
+              ],
+              "color": "default"
+            }
+          }
+        ]
+      },
+      {
+        "object": "block",
+        "id": "2f644860-a4f4-8070-b8c6-f67ed717151c",
+        "parent": {
+          "type": "block_id",
+          "block_id": "2f644860-a4f4-80bd-8175-d8ecf3350f33"
+        },
+        "created_time": "2026-01-28T08:41:00.000Z",
+        "last_edited_time": "2026-01-28T08:41:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "has_children": false,
+        "archived": false,
+        "in_trash": false,
+        "type": "divider",
+        "divider": {}
+      },
+      {
+        "object": "block",
+        "id": "2f644860-a4f4-80b0-abc4-ed675357e55e",
+        "parent": {
+          "type": "block_id",
+          "block_id": "2f644860-a4f4-80bd-8175-d8ecf3350f33"
+        },
+        "created_time": "2026-01-28T08:41:00.000Z",
+        "last_edited_time": "2026-01-28T08:41:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "has_children": false,
+        "archived": false,
+        "in_trash": false,
+        "type": "heading_3",
+        "heading_3": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "2. (Step 2) Map 추가",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "2. (Step 2) Map 추가",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        }
+      },
+      {
+        "object": "block",
+        "id": "2f644860-a4f4-8096-addb-c67db89f88d8",
+        "parent": {
+          "type": "block_id",
+          "block_id": "2f644860-a4f4-80bd-8175-d8ecf3350f33"
+        },
+        "created_time": "2026-01-28T08:41:00.000Z",
+        "last_edited_time": "2026-01-28T08:41:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "has_children": false,
+        "archived": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Step 1을 완성한 후, 다음 요구사항을 추가한다.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Step 1을 완성한 후, 다음 요구사항을 추가한다.",
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "object": "block",
+        "id": "2f644860-a4f4-80e6-ab9e-efd0466491b5",
+        "parent": {
+          "type": "block_id",
+          "block_id": "2f644860-a4f4-80bd-8175-d8ecf3350f33"
+        },
+        "created_time": "2026-01-28T08:41:00.000Z",
+        "last_edited_time": "2026-01-28T08:41:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "has_children": true,
+        "archived": false,
+        "in_trash": false,
+        "type": "numbered_list_item",
+        "numbered_list_item": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Map 선언",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Map 선언",
+              "href": null
+            }
+          ],
+          "color": "default"
+        },
+        "children": [
+          {
+            "object": "block",
+            "id": "2f644860-a4f4-802d-a2c2-d554171ae992",
+            "parent": {
+              "type": "block_id",
+              "block_id": "2f644860-a4f4-80e6-ab9e-efd0466491b5"
+            },
+            "created_time": "2026-01-28T08:41:00.000Z",
+            "last_edited_time": "2026-01-28T08:41:00.000Z",
+            "created_by": {
+              "object": "user",
+              "id": "2aed872b-594c-81eb-bc82-000291164988"
+            },
+            "last_edited_by": {
+              "object": "user",
+              "id": "2aed872b-594c-81eb-bc82-000291164988"
+            },
+            "has_children": false,
+            "archived": false,
+            "in_trash": false,
+            "type": "bulleted_list_item",
+            "bulleted_list_item": {
+              "rich_text": [
+                {
+                  "type": "text",
+                  "text": {
+                    "content": "Map<String, List<Role>>",
+                    "link": null
+                  },
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": true,
+                    "color": "default"
+                  },
+                  "plain_text": "Map<String, List<Role>>",
+                  "href": null
+                },
+                {
+                  "type": "text",
+                  "text": {
+                    "content": " 타입의 변수를 선언하고 초기화한다.",
+                    "link": null
+                  },
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  },
+                  "plain_text": " 타입의 변수를 선언하고 초기화한다.",
+                  "href": null
+                }
+              ],
+              "color": "default"
+            }
+          },
+          {
+            "object": "block",
+            "id": "2f644860-a4f4-80ab-bfab-f58c51d073b8",
+            "parent": {
+              "type": "block_id",
+              "block_id": "2f644860-a4f4-80e6-ab9e-efd0466491b5"
+            },
+            "created_time": "2026-01-28T08:41:00.000Z",
+            "last_edited_time": "2026-01-28T08:41:00.000Z",
+            "created_by": {
+              "object": "user",
+              "id": "2aed872b-594c-81eb-bc82-000291164988"
+            },
+            "last_edited_by": {
+              "object": "user",
+              "id": "2aed872b-594c-81eb-bc82-000291164988"
+            },
+            "has_children": false,
+            "archived": false,
+            "in_trash": false,
+            "type": "bulleted_list_item",
+            "bulleted_list_item": {
+              "rich_text": [
+                {
+                  "type": "text",
+                  "text": {
+                    "content": "키는 파트명(String), 값은 해당 파트의 멤버 목록(List)이다.",
+                    "link": null
+                  },
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  },
+                  "plain_text": "키는 파트명(String), 값은 해당 파트의 멤버 목록(List)이다.",
+                  "href": null
+                }
+              ],
+              "color": "default"
+            }
+          }
+        ]
+      },
+      {
+        "object": "block",
+        "id": "2f644860-a4f4-804b-8853-f5cba5b1fe07",
+        "parent": {
+          "type": "block_id",
+          "block_id": "2f644860-a4f4-80bd-8175-d8ecf3350f33"
+        },
+        "created_time": "2026-01-28T08:41:00.000Z",
+        "last_edited_time": "2026-01-28T08:41:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "has_children": true,
+        "archived": false,
+        "in_trash": false,
+        "type": "numbered_list_item",
+        "numbered_list_item": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "등록 시 Map에도 추가",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "등록 시 Map에도 추가",
+              "href": null
+            }
+          ],
+          "color": "default"
+        },
+        "children": [
+          {
+            "object": "block",
+            "id": "2f644860-a4f4-80f7-acf7-e8b409765a0f",
+            "parent": {
+              "type": "block_id",
+              "block_id": "2f644860-a4f4-804b-8853-f5cba5b1fe07"
+            },
+            "created_time": "2026-01-28T08:41:00.000Z",
+            "last_edited_time": "2026-01-28T08:41:00.000Z",
+            "created_by": {
+              "object": "user",
+              "id": "2aed872b-594c-81eb-bc82-000291164988"
+            },
+            "last_edited_by": {
+              "object": "user",
+              "id": "2aed872b-594c-81eb-bc82-000291164988"
+            },
+            "has_children": false,
+            "archived": false,
+            "in_trash": false,
+            "type": "bulleted_list_item",
+            "bulleted_list_item": {
+              "rich_text": [
+                {
+                  "type": "text",
+                  "text": {
+                    "content": "멤버 등록 시 List뿐 아니라 Map에도 추가한다.",
+                    "link": null
+                  },
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  },
+                  "plain_text": "멤버 등록 시 List뿐 아니라 Map에도 추가한다.",
+                  "href": null
+                }
+              ],
+              "color": "default"
+            }
+          },
+          {
+            "object": "block",
+            "id": "2f644860-a4f4-8035-8882-d20fd2a31496",
+            "parent": {
+              "type": "block_id",
+              "block_id": "2f644860-a4f4-804b-8853-f5cba5b1fe07"
+            },
+            "created_time": "2026-01-28T08:41:00.000Z",
+            "last_edited_time": "2026-01-28T08:41:00.000Z",
+            "created_by": {
+              "object": "user",
+              "id": "2aed872b-594c-81eb-bc82-000291164988"
+            },
+            "last_edited_by": {
+              "object": "user",
+              "id": "2aed872b-594c-81eb-bc82-000291164988"
+            },
+            "has_children": false,
+            "archived": false,
+            "in_trash": false,
+            "type": "bulleted_list_item",
+            "bulleted_list_item": {
+              "rich_text": [
+                {
+                  "type": "text",
+                  "text": {
+                    "content": "해당 파트가 Map에 없으면 새 List를 생성해서 넣는다.",
+                    "link": null
+                  },
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  },
+                  "plain_text": "해당 파트가 Map에 없으면 새 List를 생성해서 넣는다.",
+                  "href": null
+                }
+              ],
+              "color": "default"
+            }
+          }
+        ]
+      },
+      {
+        "object": "block",
+        "id": "2f644860-a4f4-80c0-962f-e6b79ab97f3e",
+        "parent": {
+          "type": "block_id",
+          "block_id": "2f644860-a4f4-80bd-8175-d8ecf3350f33"
+        },
+        "created_time": "2026-01-28T08:41:00.000Z",
+        "last_edited_time": "2026-01-28T08:41:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "has_children": true,
+        "archived": false,
+        "in_trash": false,
+        "type": "numbered_list_item",
+        "numbered_list_item": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "파트별 조회 기능",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "파트별 조회 기능",
+              "href": null
+            }
+          ],
+          "color": "default"
+        },
+        "children": [
+          {
+            "object": "block",
+            "id": "2f644860-a4f4-8040-9059-c480f923ea3f",
+            "parent": {
+              "type": "block_id",
+              "block_id": "2f644860-a4f4-80c0-962f-e6b79ab97f3e"
+            },
+            "created_time": "2026-01-28T08:41:00.000Z",
+            "last_edited_time": "2026-01-28T08:41:00.000Z",
+            "created_by": {
+              "object": "user",
+              "id": "2aed872b-594c-81eb-bc82-000291164988"
+            },
+            "last_edited_by": {
+              "object": "user",
+              "id": "2aed872b-594c-81eb-bc82-000291164988"
+            },
+            "has_children": false,
+            "archived": false,
+            "in_trash": false,
+            "type": "bulleted_list_item",
+            "bulleted_list_item": {
+              "rich_text": [
+                {
+                  "type": "text",
+                  "text": {
+                    "content": "등록된 파트 목록을 출력한다.",
+                    "link": null
+                  },
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  },
+                  "plain_text": "등록된 파트 목록을 출력한다.",
+                  "href": null
+                }
+              ],
+              "color": "default"
+            }
+          },
+          {
+            "object": "block",
+            "id": "2f644860-a4f4-803b-8717-e962377ed637",
+            "parent": {
+              "type": "block_id",
+              "block_id": "2f644860-a4f4-80c0-962f-e6b79ab97f3e"
+            },
+            "created_time": "2026-01-28T08:41:00.000Z",
+            "last_edited_time": "2026-01-28T08:41:00.000Z",
+            "created_by": {
+              "object": "user",
+              "id": "2aed872b-594c-81eb-bc82-000291164988"
+            },
+            "last_edited_by": {
+              "object": "user",
+              "id": "2aed872b-594c-81eb-bc82-000291164988"
+            },
+            "has_children": false,
+            "archived": false,
+            "in_trash": false,
+            "type": "bulleted_list_item",
+            "bulleted_list_item": {
+              "rich_text": [
+                {
+                  "type": "text",
+                  "text": {
+                    "content": "파트명을 입력받아 해당 파트의 멤버만 출력한다.",
+                    "link": null
+                  },
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  },
+                  "plain_text": "파트명을 입력받아 해당 파트의 멤버만 출력한다.",
+                  "href": null
+                }
+              ],
+              "color": "default"
+            }
+          }
+        ]
+      },
+      {
+        "object": "block",
+        "id": "2f644860-a4f4-80ff-9b7b-e9ef948d5809",
+        "parent": {
+          "type": "page_id",
+          "page_id": "2f044860-a4f4-8151-a4ca-c98414514b2b"
+        },
+        "created_time": "2026-01-28T08:41:00.000Z",
+        "last_edited_time": "2026-01-28T08:41:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "has_children": false,
+        "archived": false,
+        "in_trash": false,
+        "type": "divider",
+        "divider": {}
+      }
+    ],
+    "example": [
+      {
+        "object": "block",
+        "id": "2f644860-a4f4-80ae-872d-f8c077cf61a9",
+        "parent": {
+          "type": "block_id",
+          "block_id": "2f644860-a4f4-80ba-a493-fce0b2d88827"
+        },
+        "created_time": "2026-01-28T08:41:00.000Z",
+        "last_edited_time": "2026-01-28T08:41:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "has_children": false,
+        "archived": false,
+        "in_trash": false,
+        "type": "divider",
+        "divider": {}
+      },
+      {
+        "object": "block",
+        "id": "2f644860-a4f4-8081-ba87-e4becf626bbc",
+        "parent": {
+          "type": "block_id",
+          "block_id": "2f644860-a4f4-80ba-a493-fce0b2d88827"
+        },
+        "created_time": "2026-01-28T08:41:00.000Z",
+        "last_edited_time": "2026-01-28T08:41:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "has_children": false,
+        "archived": false,
+        "in_trash": false,
+        "type": "heading_3",
+        "heading_3": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "1. (Step1) 메뉴 화면 예시",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "1. (Step1) 메뉴 화면 예시",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        }
+      },
+      {
+        "object": "block",
+        "id": "2f644860-a4f4-80a3-a618-c7b0cf666ddf",
+        "parent": {
+          "type": "block_id",
+          "block_id": "2f644860-a4f4-80ba-a493-fce0b2d88827"
+        },
+        "created_time": "2026-01-28T08:41:00.000Z",
+        "last_edited_time": "2026-01-28T08:41:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "has_children": false,
+        "archived": false,
+        "in_trash": false,
+        "type": "image",
+        "image": {
+          "caption": [],
+          "type": "file",
+          "file": {
+            "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/c69962b0-3951-485b-b10a-5bb29576bba8/6f141d6f-96a9-46de-a2a7-c170c1f9ec6f/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466T6SBN63Q%2F20260128%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260128T093436Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEKH%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJIMEYCIQDnFzPeqqjXejarUcEww2YkpxaQgmwe4soALeSzjUFrXAIhAM%2F6knBYTsEQcdQIykkcl34Rz2wnngB2fLog7ozqfN5KKv8DCGoQABoMNjM3NDIzMTgzODA1IgxFa3V0CBUuP9nl1scq3APu8DSGr8YKYaofu09Zj6vIs5xFQ7qm3rRKuyV2Js6ekmLRU4VxAhfoAQDNP6VUwt2hAn0PQSuzNNSElxPZxEyPthh3nEqCZZvEASsqt8yUqOKJEom8oS2h8VoEK2Xmt1Y%2B2alzIL1K9OrO3xyT5dnrKwhUy0mVfjaYxuuK3nClyKKzHY1scH3um7MQ%2FRsRlVRXaUbkxHPzsK3NSxoalLrqQBA0NCzSp5%2FvrYue7Oyibjnykfo89KOYjf4IB238JWsA1jLnz0Hi7OsGbYfxW0F6KUNFLk%2F0%2FtF0xlR3nDSMKIpL9l18eIa8OFZTOoZ4rlP4GL%2F2b6wxU44U9a58n0xQUhxX9CoHteIilcDZUiiUXdGlbYFsYcXjQSzWMEGeWViC6gKoDmmPMKbCaOwpK3fWD%2FjprzrU8O54HRh5n%2Fas1%2F0cxgvZKdtx2cCE6tI3YrrUapSi%2BC1dsMmDrSAUsmpvgaz6oCoV4jb4dHToyBmPI%2BHar5gdX2C3g%2B352JvX81Nmy93M%2BQ7WsGzjZKlUBeo7EN01R%2FbvuqkNzK6hJOgctGU7CY7WbNQDqbkpjRh5jEciHZLfESmKhj%2BSnKEE%2B5ccdgeIWu1gSCDwrVVmUJXfVWmuYrsGz8peh2Vj7zCPqOfLBjqkAWuthOcVOETMZQbn9PJBeA2ISP5fhZcYRmSq7ooRq2fsencAcqRGX3y%2BmJwebdWIQG1eOE4SE6C84AZjRf931wIOxz2hMt9ZXta60HoDSZcSEABGp6l86Ki2Ce9r%2FxRqAL7AuAYexjPt4AgkK1n6ObKIsqof47ZTUZpzEMOARIi2UO5hDm%2BTt8hH7EcBSWiaATilzXQQCjLKUni9%2Fp2aB7qtpTME&X-Amz-Signature=ec319390759c07c883813edda04ab0568b6811c77a8a0a396a2716cadc66b75c&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+            "expiry_time": "2026-01-28T10:34:36.755Z"
+          }
+        }
+      },
+      {
+        "object": "block",
+        "id": "2f644860-a4f4-80ee-986c-d87d4fe2f2b5",
+        "parent": {
+          "type": "block_id",
+          "block_id": "2f644860-a4f4-80ba-a493-fce0b2d88827"
+        },
+        "created_time": "2026-01-28T08:41:00.000Z",
+        "last_edited_time": "2026-01-28T08:41:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "has_children": false,
+        "archived": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "color": "default"
+        }
+      },
+      {
+        "object": "block",
+        "id": "2f644860-a4f4-8074-81a4-ed9df6dc33ad",
+        "parent": {
+          "type": "block_id",
+          "block_id": "2f644860-a4f4-80ba-a493-fce0b2d88827"
+        },
+        "created_time": "2026-01-28T08:41:00.000Z",
+        "last_edited_time": "2026-01-28T08:41:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "has_children": true,
+        "archived": false,
+        "in_trash": false,
+        "type": "bulleted_list_item",
+        "bulleted_list_item": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "등록 화면 예시",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "등록 화면 예시",
+              "href": null
+            }
+          ],
+          "color": "default"
+        },
+        "children": [
+          {
+            "object": "block",
+            "id": "2f644860-a4f4-807c-b70c-f84b713dc4b5",
+            "parent": {
+              "type": "block_id",
+              "block_id": "2f644860-a4f4-8074-81a4-ed9df6dc33ad"
+            },
+            "created_time": "2026-01-28T08:41:00.000Z",
+            "last_edited_time": "2026-01-28T08:41:00.000Z",
+            "created_by": {
+              "object": "user",
+              "id": "2aed872b-594c-81eb-bc82-000291164988"
+            },
+            "last_edited_by": {
+              "object": "user",
+              "id": "2aed872b-594c-81eb-bc82-000291164988"
+            },
+            "has_children": false,
+            "archived": false,
+            "in_trash": false,
+            "type": "image",
+            "image": {
+              "caption": [],
+              "type": "file",
+              "file": {
+                "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/c69962b0-3951-485b-b10a-5bb29576bba8/e7b70383-c417-48fd-81a5-b3670508d2b3/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4663YNK6ODO%2F20260128%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260128T093437Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEKH%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIFt4N96wLgRodfQ%2FY84Upl253q%2BJbLrALyPYquTCPw6IAiEAmN7y0k8ZGebwTWQ5oMvD9m5JnWCK2zzCpbpis1fxoDkq%2FwMIahAAGgw2Mzc0MjMxODM4MDUiDLtXQ9SRq7mO6WlSuircAzee%2Bacq8uAhAt3nZhEQQ6VruXZBBnHiZniXZzn6zQOnEeuxKcc%2F7SOMMcNXlrhphIXDWa%2BXmcCumy5ZylhIzqgxq5WmaCP5K16JIXVORC%2F9%2BaiNCau3E4jUerpbCkPIwQ1HJsFJBSkNZ%2FtR0AH%2FHXf5jlG92OUxLyFCXsU5DLNiXroNjHxywMNF%2Fia22LJ0m3TsHNTcpbCysVl2sH%2BloQc8W7IPtS9ClrWwm%2F3lt4ETj78RM0K2ohC4FUNUspYDBrUsCWfilTgDMb0RUZcnjLknJJWHKI5qthoUB4xj3yQ4bPTj1fG4fw6l95hiLSg7vc8H5KgRh2%2Fr9CRCqwary5Cq5GvTX8puOP4RNmOsbZeNKjf91z3V1aRRJnREzUm7Y2NMOpRD9%2FT0C2%2FzlhvZ4VwDLsTg%2B0Yyj4iWdAezfsVaCWqO5gToAOYB1cvLdSk3CqS1EsZKGnIiVBHMDwNAzmHUmX71Nf1AZ%2BVEj9yFPMOOZEGQzT0aDRaILxLDEJofYvX2ZZiilMIMaVBNHgSMMKYZ7bJ9y33dJl8JUVwqjpVOop0rEmuCDVyzcw2GtCF3P8HGpvRrmzCqTbLaSwq0tU9%2FT561vagIgeBTKS%2FkiAyoZY24ZW2QZdyfbNGKMOyn58sGOqUBipZZp870fDS9Uzfx35ANHJRD%2FNcRYS%2BL6q9Tm9FuP6zjlrNum0s4zqD4mhCrcVVgMIZWRIo4kg0TTO3S1ZFwhGekMc3CnyBHY3E16ZTslmQ6FpH%2FTr9rLNMfW7nHe%2FbcwpEjK9wgedXl%2FKADJM4ULUuB64yN9PaToxC%2BBQgiUDWINx91Cz255mKlHmUa%2FMsRZgjzZCGf2wGGTafL%2FW41EEAiWSYp&X-Amz-Signature=26584a63d4791b4d654e35b1bda8cdd6e1335992e700fa924edef1ca1a67638c&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+                "expiry_time": "2026-01-28T10:34:37.768Z"
+              }
+            }
+          },
+          {
+            "object": "block",
+            "id": "2f644860-a4f4-80a0-b842-da1d819623a5",
+            "parent": {
+              "type": "block_id",
+              "block_id": "2f644860-a4f4-8074-81a4-ed9df6dc33ad"
+            },
+            "created_time": "2026-01-28T08:41:00.000Z",
+            "last_edited_time": "2026-01-28T08:41:00.000Z",
+            "created_by": {
+              "object": "user",
+              "id": "2aed872b-594c-81eb-bc82-000291164988"
+            },
+            "last_edited_by": {
+              "object": "user",
+              "id": "2aed872b-594c-81eb-bc82-000291164988"
+            },
+            "has_children": false,
+            "archived": false,
+            "in_trash": false,
+            "type": "paragraph",
+            "paragraph": {
+              "rich_text": [],
+              "color": "default"
+            }
+          }
+        ]
+      },
+      {
+        "object": "block",
+        "id": "2f644860-a4f4-80df-82b7-e15075b57389",
+        "parent": {
+          "type": "block_id",
+          "block_id": "2f644860-a4f4-80ba-a493-fce0b2d88827"
+        },
+        "created_time": "2026-01-28T08:41:00.000Z",
+        "last_edited_time": "2026-01-28T08:41:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "has_children": true,
+        "archived": false,
+        "in_trash": false,
+        "type": "bulleted_list_item",
+        "bulleted_list_item": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "중복 등록시",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "중복 등록시",
+              "href": null
+            }
+          ],
+          "color": "default"
+        },
+        "children": [
+          {
+            "object": "block",
+            "id": "2f644860-a4f4-8033-ad98-e810403d02f0",
+            "parent": {
+              "type": "block_id",
+              "block_id": "2f644860-a4f4-80df-82b7-e15075b57389"
+            },
+            "created_time": "2026-01-28T08:41:00.000Z",
+            "last_edited_time": "2026-01-28T08:41:00.000Z",
+            "created_by": {
+              "object": "user",
+              "id": "2aed872b-594c-81eb-bc82-000291164988"
+            },
+            "last_edited_by": {
+              "object": "user",
+              "id": "2aed872b-594c-81eb-bc82-000291164988"
+            },
+            "has_children": false,
+            "archived": false,
+            "in_trash": false,
+            "type": "image",
+            "image": {
+              "caption": [],
+              "type": "file",
+              "file": {
+                "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/c69962b0-3951-485b-b10a-5bb29576bba8/f552db60-749d-4803-a9d0-d75fd0d7626c/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4666LKIWLOQ%2F20260128%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260128T093444Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEKH%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJIMEYCIQC%2F0SOnysq%2BoGDQIT3afjYcc38plThk%2BJV0eaGZEgqReAIhALX9KfISkTH7Hs1ilcHm2yB9XEKHalomMyjVFy9wNp61Kv8DCGoQABoMNjM3NDIzMTgzODA1IgyIzarJyqrDCrCKLMAq3AO7XHI8i%2BJr2XNQJKad4QtZ%2FnU4AUYfpv%2BSq1f0JyrSG3wFsZMMKVNDVpjnDGezrlvgEUpkVaXbqNnoxgu0IsiXN4ErPQXTcaQHhEoUS5uN%2FjiWCKix59uU6MsxbMkP5s0EuKT695vN6I9QlbaEZ5VbwOkZdTLN48adbO6PzwoejLbUdVAPGRJX7sDDOD2uKB93mSsYXXOUfBi5PquayPkSG8dI%2FNed0iYhBd5nmbO0wxqHrPufoKENCwf0xZPbIJ68elCiWmP1iclLs2zSBoqReQubVazjriCIEpVjLlE%2B%2BL8JzuRhba%2BxYAK1fyNdPDHlDDtS2C6Lo9wq5QfSVTwiLJ%2BHSKow1dCWfZhhzEEZgCq4Qrs4GY%2Ftom8bXBAm4%2BMaSzvP1SxS6eJ2WNFiDhYeTu4SMV9YsyjSj6Ykrl%2Fwn9HA0PKHFbRdt8KdmWXciRTJFhNfZroUIm%2BazSFgiOSPMaGuY%2BN6B47pJ2CUpDhzFhs4JTROsTmogF8spAtwPEzVBWIRpv5gMMFxd0Zr5D1RQNQITaaDqFReyXYnK9z%2B1WEfpFe%2BWqjXcI6lrAVsnXpVTdkz3XNl2qmwH9f%2BC4gmp4Y2J%2BdBcyJkNSOcG4apD1D3mHysCkvgzWJm8zCLqOfLBjqkAdic1jtSqhQ1Dp%2FYOFer2JLatWUuiVvCBo5Y%2FR2CQH8qeJvfhOe13XYs1vgoTAx62kGdpZ51OpoC5mNT8NqNoDaxzX4j7KuUaVDAYYUl0LpOz0%2BKETMSya7I40ChUGI0ox9oQvt9zs9hM5tqacisbc7vuEjFdR35FMMa9pYN%2BKHb5icQ6av9%2BhFgH%2BozQq8dTjBGNDuIUyj4VfgVUAj1I%2BL3V%2F1h&X-Amz-Signature=38350fc3a26d4647269c3285527a30191738ba0ee0b8f650bc964bbc81bbe47b&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+                "expiry_time": "2026-01-28T10:34:43.642Z"
+              }
+            }
+          },
+          {
+            "object": "block",
+            "id": "2f644860-a4f4-80a2-bb58-e306f6a6e221",
+            "parent": {
+              "type": "block_id",
+              "block_id": "2f644860-a4f4-80df-82b7-e15075b57389"
+            },
+            "created_time": "2026-01-28T08:41:00.000Z",
+            "last_edited_time": "2026-01-28T08:41:00.000Z",
+            "created_by": {
+              "object": "user",
+              "id": "2aed872b-594c-81eb-bc82-000291164988"
+            },
+            "last_edited_by": {
+              "object": "user",
+              "id": "2aed872b-594c-81eb-bc82-000291164988"
+            },
+            "has_children": false,
+            "archived": false,
+            "in_trash": false,
+            "type": "paragraph",
+            "paragraph": {
+              "rich_text": [],
+              "color": "default"
+            }
+          }
+        ]
+      },
+      {
+        "object": "block",
+        "id": "2f644860-a4f4-809f-82da-c3b181ffc44c",
+        "parent": {
+          "type": "block_id",
+          "block_id": "2f644860-a4f4-80ba-a493-fce0b2d88827"
+        },
+        "created_time": "2026-01-28T08:41:00.000Z",
+        "last_edited_time": "2026-01-28T08:41:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "has_children": true,
+        "archived": false,
+        "in_trash": false,
+        "type": "bulleted_list_item",
+        "bulleted_list_item": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "전체 멈버 조회",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "전체 멈버 조회",
+              "href": null
+            }
+          ],
+          "color": "default"
+        },
+        "children": [
+          {
+            "object": "block",
+            "id": "2f644860-a4f4-805d-8436-c5f332fc918c",
+            "parent": {
+              "type": "block_id",
+              "block_id": "2f644860-a4f4-809f-82da-c3b181ffc44c"
+            },
+            "created_time": "2026-01-28T08:41:00.000Z",
+            "last_edited_time": "2026-01-28T08:41:00.000Z",
+            "created_by": {
+              "object": "user",
+              "id": "2aed872b-594c-81eb-bc82-000291164988"
+            },
+            "last_edited_by": {
+              "object": "user",
+              "id": "2aed872b-594c-81eb-bc82-000291164988"
+            },
+            "has_children": false,
+            "archived": false,
+            "in_trash": false,
+            "type": "image",
+            "image": {
+              "caption": [],
+              "type": "file",
+              "file": {
+                "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/c69962b0-3951-485b-b10a-5bb29576bba8/402a0d74-c81a-485d-bd65-1cbad98e77a1/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4662DTVJLRF%2F20260128%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260128T093445Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEKH%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIQC%2FQrVLyKvVJSGYPV8EqLWClVpqZ0dnDqFHdo0SIx0R2QIgC98dSOEJbpSr9uAOHbI%2FXN4ybjrglf8rMskSNW0ti4oq%2FwMIahAAGgw2Mzc0MjMxODM4MDUiDDGtfdqW3LtipkdnLSrcA9ASoCTgGaoGXPty%2FIBurTrOCDBCIEU6cX4%2FzJINcQCox5gqc8r2CbjIVaDDpGvZkvRa98ezuxtGS0kXQAH%2FYvEfvy1gMDzigwP2e%2Bjjos%2B%2BKQy0xA6FYajo1A8QRYTf%2Fblw8mcOHWipTF6JG5Rn74DidndgZSk6L2EPNz2fVScz%2B60qBQBHA3MLxStxCMALkpA4P%2BQKYgsd%2F2QFC8B5ZKXNw4mtRg4mo%2FhlRAcPRQkpHz39UYMLBDXevWjaCwMYvBtTRWSbHJaBiwZc6WdhW4UFl5uvSDL0BPb4pUXC1r46Inb%2BgrB4kIpt3SZQrgCBMXZKZWbldvqVOu0f5EonvKz8RLAPULPUaz2da%2F15tIuCaHUtBZ2anEfmJu%2F0IEBGGBGhIjS2%2BpPLCAQ6Vr1RJX8DZjRLVI6KPU6N1%2FHEPUfUS8mxBNpanv6%2FdbHC6lbNA9BvzgHTa%2BY3qBBX4RYfCQcc4RjjQ1OrSLZVV8Hijr4gNUlnmPd11oQ6eK5CHpCznQ%2BX13twZHvD6JnrwnDERN9Al4Uw7lNmtHQfT6xxQ%2BUeEduk3bhP5nagCnakjAfVKboAaKt%2B5%2F32WPPakbwQbM8OMH8eIiInpwjzAgT68QPH1e%2FqIku0FEoCEkH6MKin58sGOqUBFLGldqNltH0wi3xSAGxcPTb6Twzf%2BQ4HPxRjwyMHALL6E40ArHs1jvZT2WZpNNOk4BopsZB5%2B7UFbgGWwb3v%2B0fl9hg3d%2BxPz0oA3RFiuQOW4TX8R%2F4jVttJjyxFSDkQk%2FOX0pccoZ8ovWIWeouqlUtON8KRTntUICDHIXNIEsEI%2B7Ono2ac3yNjS7xCNRfRWDZP%2Fp9tBPCgU3L5uXpExeGP0Kom&X-Amz-Signature=f15da419716b490bcbb3ddf75999c81ef00bf76a97f43df2584850463c671de4&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+                "expiry_time": "2026-01-28T10:34:45.912Z"
+              }
+            }
+          },
+          {
+            "object": "block",
+            "id": "2f644860-a4f4-8029-9033-e388b927b79c",
+            "parent": {
+              "type": "block_id",
+              "block_id": "2f644860-a4f4-809f-82da-c3b181ffc44c"
+            },
+            "created_time": "2026-01-28T08:41:00.000Z",
+            "last_edited_time": "2026-01-28T08:41:00.000Z",
+            "created_by": {
+              "object": "user",
+              "id": "2aed872b-594c-81eb-bc82-000291164988"
+            },
+            "last_edited_by": {
+              "object": "user",
+              "id": "2aed872b-594c-81eb-bc82-000291164988"
+            },
+            "has_children": false,
+            "archived": false,
+            "in_trash": false,
+            "type": "paragraph",
+            "paragraph": {
+              "rich_text": [],
+              "color": "default"
+            }
+          }
+        ]
+      },
+      {
+        "object": "block",
+        "id": "2f644860-a4f4-80ea-982f-daf7d74c6bf1",
+        "parent": {
+          "type": "block_id",
+          "block_id": "2f644860-a4f4-80ba-a493-fce0b2d88827"
+        },
+        "created_time": "2026-01-28T08:41:00.000Z",
+        "last_edited_time": "2026-01-28T08:41:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "has_children": true,
+        "archived": false,
+        "in_trash": false,
+        "type": "bulleted_list_item",
+        "bulleted_list_item": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "이름으로 검색시",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "이름으로 검색시",
+              "href": null
+            }
+          ],
+          "color": "default"
+        },
+        "children": [
+          {
+            "object": "block",
+            "id": "2f644860-a4f4-80cb-9ea7-fea1b00e3306",
+            "parent": {
+              "type": "block_id",
+              "block_id": "2f644860-a4f4-80ea-982f-daf7d74c6bf1"
+            },
+            "created_time": "2026-01-28T08:41:00.000Z",
+            "last_edited_time": "2026-01-28T08:41:00.000Z",
+            "created_by": {
+              "object": "user",
+              "id": "2aed872b-594c-81eb-bc82-000291164988"
+            },
+            "last_edited_by": {
+              "object": "user",
+              "id": "2aed872b-594c-81eb-bc82-000291164988"
+            },
+            "has_children": false,
+            "archived": false,
+            "in_trash": false,
+            "type": "image",
+            "image": {
+              "caption": [],
+              "type": "file",
+              "file": {
+                "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/c69962b0-3951-485b-b10a-5bb29576bba8/0bddff42-3f33-4d03-af7d-f076d5ff98ee/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466QSUY7DZA%2F20260128%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260128T093446Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEKH%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIFp%2FOXlkwcDENHVFEtEP%2BQt3tFJkD%2ByIe2Zo4fuc8uTxAiEA4ZR2wVS%2BuKHKfUhrI85fUdGVccKX4Zmomqvxdsx044kq%2FwMIahAAGgw2Mzc0MjMxODM4MDUiDMdmGBEYkIy3U3tTuSrcAywrE0OuFI32surJjblOZ1SgC%2BIa74Or50%2FQZUaIMq4Wc8AxgvSVj%2BSXA4fLTZ2ToRhfg5lcSspILBM0g36iVD4aQmupVzPmGextwTyKa%2FeBb0DmaQStTLa2Vl3MEbA%2BQwoqr5dX%2F4GI%2BGb4uSS370O7ZjRKiBnLAp%2FTmp8tQ1V3LBYOcpGTsDCv8fEa8NPMJ2Lyru%2FPOSJBHbwU7XxGhF8oyp%2FlDMWIh4aCgpnzO2NXT8PxNEZMNFYwpLrxxWjs2oKs2phXsgaJ%2B2NtRfFXLzLRUXm2wFoHwpPCbELLGJeTAgE6%2FNY7vpWQAdXMBohzzLE5r8C6huUPUmZ2GKqOFORmFEyXHtgdlpU97C9Yyxno8PhchuINWd6WY2uG2G4kKUM1Ui%2FooH22%2FiGH%2Bp%2BLyRZQHCMTyQlk3eWEoEhvcMeRJQCPQxHf%2FdHDn4DucswdV4lz3d3xbSUIQ%2FaXeUP6LHxiYzcYJkQVP6NqY75Pn6QNF57NAxyjZsBwLJGPK4slrE80zH4LoUWtBoa3zqYJqbwQKCH9MKHraWVkYZ1WY%2FL%2BtjwEg0BhtdIy%2BeryG2JUI%2BBbe7RHlfAHrkOb1%2BsjizpW4EYD0tFvtOfSfFyp13uK6dAUBr563709z2oVMO%2Bn58sGOqUB6qiEEcX%2FgKl%2FWAzGDwVYiqe5sMw7G%2ByU3RiHCizXPhvJW9ujdqUotmLoH%2BUS2%2Bm7LmTps79gHIVp4UgwT3XhpOSaW%2FafwdX3gFWD8enwGf4qbUfMZ2f%2BEqhj%2FljIqom0DIDxoCcR5uFvhlbSwXEgISKXufAlaZ33%2BVQ5GGjZuTeWg9UQ4nV3dEK6xdLkooS9MV4CKIXrHajKF2T2C2EyUtY2Yb7O&X-Amz-Signature=8a394ddb4d49112fe04b8da5aad9273554eada176d6b492e1b69fdb082ef5f59&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+                "expiry_time": "2026-01-28T10:34:46.595Z"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "object": "block",
+        "id": "2f644860-a4f4-808b-86fb-f63282d72c8d",
+        "parent": {
+          "type": "block_id",
+          "block_id": "2f644860-a4f4-80ba-a493-fce0b2d88827"
+        },
+        "created_time": "2026-01-28T08:41:00.000Z",
+        "last_edited_time": "2026-01-28T08:41:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "has_children": false,
+        "archived": false,
+        "in_trash": false,
+        "type": "divider",
+        "divider": {}
+      },
+      {
+        "object": "block",
+        "id": "2f644860-a4f4-8086-bcf9-e51a81601c0c",
+        "parent": {
+          "type": "block_id",
+          "block_id": "2f644860-a4f4-80ba-a493-fce0b2d88827"
+        },
+        "created_time": "2026-01-28T08:41:00.000Z",
+        "last_edited_time": "2026-01-28T08:41:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "has_children": false,
+        "archived": false,
+        "in_trash": false,
+        "type": "heading_3",
+        "heading_3": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "2. (Step2) 메뉴 화면  예시",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "2. (Step2) 메뉴 화면  예시",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        }
+      },
+      {
+        "object": "block",
+        "id": "2f644860-a4f4-8073-bdf9-da2f2c972692",
+        "parent": {
+          "type": "block_id",
+          "block_id": "2f644860-a4f4-80ba-a493-fce0b2d88827"
+        },
+        "created_time": "2026-01-28T08:41:00.000Z",
+        "last_edited_time": "2026-01-28T08:41:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "has_children": false,
+        "archived": false,
+        "in_trash": false,
+        "type": "image",
+        "image": {
+          "caption": [],
+          "type": "file",
+          "file": {
+            "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/c69962b0-3951-485b-b10a-5bb29576bba8/2b94cb8e-9275-4e90-8d3d-e4610f5dff36/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466T6SBN63Q%2F20260128%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260128T093436Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEKH%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJIMEYCIQDnFzPeqqjXejarUcEww2YkpxaQgmwe4soALeSzjUFrXAIhAM%2F6knBYTsEQcdQIykkcl34Rz2wnngB2fLog7ozqfN5KKv8DCGoQABoMNjM3NDIzMTgzODA1IgxFa3V0CBUuP9nl1scq3APu8DSGr8YKYaofu09Zj6vIs5xFQ7qm3rRKuyV2Js6ekmLRU4VxAhfoAQDNP6VUwt2hAn0PQSuzNNSElxPZxEyPthh3nEqCZZvEASsqt8yUqOKJEom8oS2h8VoEK2Xmt1Y%2B2alzIL1K9OrO3xyT5dnrKwhUy0mVfjaYxuuK3nClyKKzHY1scH3um7MQ%2FRsRlVRXaUbkxHPzsK3NSxoalLrqQBA0NCzSp5%2FvrYue7Oyibjnykfo89KOYjf4IB238JWsA1jLnz0Hi7OsGbYfxW0F6KUNFLk%2F0%2FtF0xlR3nDSMKIpL9l18eIa8OFZTOoZ4rlP4GL%2F2b6wxU44U9a58n0xQUhxX9CoHteIilcDZUiiUXdGlbYFsYcXjQSzWMEGeWViC6gKoDmmPMKbCaOwpK3fWD%2FjprzrU8O54HRh5n%2Fas1%2F0cxgvZKdtx2cCE6tI3YrrUapSi%2BC1dsMmDrSAUsmpvgaz6oCoV4jb4dHToyBmPI%2BHar5gdX2C3g%2B352JvX81Nmy93M%2BQ7WsGzjZKlUBeo7EN01R%2FbvuqkNzK6hJOgctGU7CY7WbNQDqbkpjRh5jEciHZLfESmKhj%2BSnKEE%2B5ccdgeIWu1gSCDwrVVmUJXfVWmuYrsGz8peh2Vj7zCPqOfLBjqkAWuthOcVOETMZQbn9PJBeA2ISP5fhZcYRmSq7ooRq2fsencAcqRGX3y%2BmJwebdWIQG1eOE4SE6C84AZjRf931wIOxz2hMt9ZXta60HoDSZcSEABGp6l86Ki2Ce9r%2FxRqAL7AuAYexjPt4AgkK1n6ObKIsqof47ZTUZpzEMOARIi2UO5hDm%2BTt8hH7EcBSWiaATilzXQQCjLKUni9%2Fp2aB7qtpTME&X-Amz-Signature=0e41f5afbd7cfedf935d5ff2795c02bbb3d4d40970c474b93e0778dd26f7c48f&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+            "expiry_time": "2026-01-28T10:34:36.926Z"
+          }
+        }
+      },
+      {
+        "object": "block",
+        "id": "2f644860-a4f4-800f-a6e7-e44107974c07",
+        "parent": {
+          "type": "block_id",
+          "block_id": "2f644860-a4f4-80ba-a493-fce0b2d88827"
+        },
+        "created_time": "2026-01-28T08:41:00.000Z",
+        "last_edited_time": "2026-01-28T08:41:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "has_children": true,
+        "archived": false,
+        "in_trash": false,
+        "type": "bulleted_list_item",
+        "bulleted_list_item": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "파트별 조회",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "파트별 조회",
+              "href": null
+            }
+          ],
+          "color": "default"
+        },
+        "children": [
+          {
+            "object": "block",
+            "id": "2f644860-a4f4-8017-bef7-e975c6762fdf",
+            "parent": {
+              "type": "block_id",
+              "block_id": "2f644860-a4f4-800f-a6e7-e44107974c07"
+            },
+            "created_time": "2026-01-28T08:41:00.000Z",
+            "last_edited_time": "2026-01-28T08:41:00.000Z",
+            "created_by": {
+              "object": "user",
+              "id": "2aed872b-594c-81eb-bc82-000291164988"
+            },
+            "last_edited_by": {
+              "object": "user",
+              "id": "2aed872b-594c-81eb-bc82-000291164988"
+            },
+            "has_children": false,
+            "archived": false,
+            "in_trash": false,
+            "type": "image",
+            "image": {
+              "caption": [],
+              "type": "file",
+              "file": {
+                "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/c69962b0-3951-485b-b10a-5bb29576bba8/b747ac7e-6bc7-4fbf-95d7-17766c550da8/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4665M7UXQKG%2F20260128%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260128T093446Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEKH%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJGMEQCIFw7Zi0uBQgT%2FNL4FsYpR1yj%2FQ5nrqGS8tzXIpDZHaFKAiAlvBpiNdqEzbZCGxNVnRfIqRkClLidpbVLo1dsfmZ4kir%2FAwhqEAAaDDYzNzQyMzE4MzgwNSIMDoOBq5oIX1I5aQ%2FDKtwDYCba0BgC8ftqtYmx6yZRgEd4Ow91hvHL%2B8WdedwfTE2IqegWtOjbP37gD9v%2B4Mn0M5W8r0D2uEylQHjaVzUTZPpS%2FAFeTM5s8VIpzwwl2xY%2FXIufH8oLjOo0p2ifIo33FZWoO03oN5ZicdqwIw7vt0EAhPZIhSnMc3hxtassVgZFnVUBmp6kYRJ15MUkV4DpGbKdrAfCVl4eQT1BpUN%2BvQTOL%2F5gqk%2BisA2C%2F%2FdKTE3%2Ft9OFEa7wQ4O8erK5a7BI4pw%2FSyEEtvvxMCUK1eKuQmN9w%2BN4IPIWV9arN3bAvsiUoRyGgO9kBoEmFK3I8ISHvbB2pX6QfR9TSr6FLypGp7LzL8rmeb372FcL6dfd6INzSv0pjXZ3KfsFY%2By1PUF4q4iTfsuoh%2BAI4QmlpKt10zor7qo3TjGeK0sq5ZJgUumJUQYVoIchdYnkoBFUZwTBdhfcfnXjBR4wTBN38K5fIQsfy8E%2BNyK6vyDLnTSPMQpL5osHiesU3XEz29AEozidBAMUr7oLKCzAanyAIlqyRBiwxZVtTdWuiABNcAlJbomrBlwq9at8IJPmv2fsky4FnmLIDMAgk%2FCJmhJHJTd45pP5PNJTBmDC0gKAaVVrPSeGSKTEWmfMRfrjuRkw7afnywY6pgG%2BL7hxUpRz%2BeGpwk7LkXA1mgoiLLUA359CByCGKEW3%2Fw%2F8cjmyFvbEwFaCs8Hg%2FBrQD8NDU2k%2BeGCHjI7i3%2FtIzaxF7vUjtOlipRykrLSzNygw8vC4nQyQVOhcqv77fPwuvipWTXy1E%2BpDHFK8J8VRLB6blFdf20f8GNeNycZdLDwOKZqVdiUql%2FN%2FngTdBL%2F5b9g2CQFaDQPWg9h2IKnT%2BGDXacPV&X-Amz-Signature=3ff48be98df10471203c07f014095e3f591b8a957628299285762717d4df61ff&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+                "expiry_time": "2026-01-28T10:34:46.898Z"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "object": "block",
+        "id": "2f644860-a4f4-8036-9144-f853d253b81e",
+        "parent": {
+          "type": "page_id",
+          "page_id": "2f044860-a4f4-8151-a4ca-c98414514b2b"
+        },
+        "created_time": "2026-01-28T08:41:00.000Z",
+        "last_edited_time": "2026-01-28T08:41:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "has_children": false,
+        "archived": false,
+        "in_trash": false,
+        "type": "divider",
+        "divider": {}
+      }
+    ],
+    "constraints": [
+      {
+        "object": "block",
+        "id": "2f644860-a4f4-8050-af76-f6b421c3c68b",
+        "parent": {
+          "type": "block_id",
+          "block_id": "2f644860-a4f4-8048-beb1-d7c580b15f4a"
+        },
+        "created_time": "2026-01-28T08:41:00.000Z",
+        "last_edited_time": "2026-01-28T08:41:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "has_children": true,
+        "archived": false,
+        "in_trash": false,
+        "type": "bulleted_list_item",
+        "bulleted_list_item": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "패키지 구조",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "패키지 구조",
+              "href": null
+            }
+          ],
+          "color": "default"
+        },
+        "children": [
+          {
+            "object": "block",
+            "id": "2f644860-a4f4-8011-bb8e-fcc2590566fb",
+            "parent": {
+              "type": "block_id",
+              "block_id": "2f644860-a4f4-8050-af76-f6b421c3c68b"
+            },
+            "created_time": "2026-01-28T08:41:00.000Z",
+            "last_edited_time": "2026-01-28T08:41:00.000Z",
+            "created_by": {
+              "object": "user",
+              "id": "2aed872b-594c-81eb-bc82-000291164988"
+            },
+            "last_edited_by": {
+              "object": "user",
+              "id": "2aed872b-594c-81eb-bc82-000291164988"
+            },
+            "has_children": false,
+            "archived": false,
+            "in_trash": false,
+            "type": "code",
+            "code": {
+              "caption": [],
+              "rich_text": [
+                {
+                  "type": "text",
+                  "text": {
+                    "content": " class4\n    ├── package1           # Step 1\n    │   └── Main.java\n    ├── package2           # Step 2\n    │   └── Main.java\n    ├── role               # 공용 (3주차 클래스)\n    │   ├── Role.java\n    │   ├── Lion.java\n    │   └── Staff.java\n    └── policy             # 공용 (3주차 클래스)\n        ├── SubmissionPolicy.java\n        ├── LionSubmissionPolicy.java\n        └── StaffSubmissionPolicy.java",
+                    "link": null
+                  },
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  },
+                  "plain_text": " class4\n    ├── package1           # Step 1\n    │   └── Main.java\n    ├── package2           # Step 2\n    │   └── Main.java\n    ├── role               # 공용 (3주차 클래스)\n    │   ├── Role.java\n    │   ├── Lion.java\n    │   └── Staff.java\n    └── policy             # 공용 (3주차 클래스)\n        ├── SubmissionPolicy.java\n        ├── LionSubmissionPolicy.java\n        └── StaffSubmissionPolicy.java",
+                  "href": null
+                }
+              ],
+              "language": "plain text"
+            }
+          }
+        ]
+      },
+      {
+        "object": "block",
+        "id": "2f644860-a4f4-8071-9fe9-fa8e438e222c",
+        "parent": {
+          "type": "block_id",
+          "block_id": "2f644860-a4f4-8048-beb1-d7c580b15f4a"
+        },
+        "created_time": "2026-01-28T08:41:00.000Z",
+        "last_edited_time": "2026-01-28T08:41:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "has_children": true,
+        "archived": false,
+        "in_trash": false,
+        "type": "bulleted_list_item",
+        "bulleted_list_item": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "컬렉션 사용",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "컬렉션 사용",
+              "href": null
+            }
+          ],
+          "color": "default"
+        },
+        "children": [
+          {
+            "object": "block",
+            "id": "2f644860-a4f4-80bb-a8c8-e63bdeffd4f7",
+            "parent": {
+              "type": "block_id",
+              "block_id": "2f644860-a4f4-8071-9fe9-fa8e438e222c"
+            },
+            "created_time": "2026-01-28T08:41:00.000Z",
+            "last_edited_time": "2026-01-28T08:41:00.000Z",
+            "created_by": {
+              "object": "user",
+              "id": "2aed872b-594c-81eb-bc82-000291164988"
+            },
+            "last_edited_by": {
+              "object": "user",
+              "id": "2aed872b-594c-81eb-bc82-000291164988"
+            },
+            "has_children": false,
+            "archived": false,
+            "in_trash": false,
+            "type": "bulleted_list_item",
+            "bulleted_list_item": {
+              "rich_text": [
+                {
+                  "type": "text",
+                  "text": {
+                    "content": "배열 대신 List, Map 등 컬렉션을 사용한다.",
+                    "link": null
+                  },
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  },
+                  "plain_text": "배열 대신 List, Map 등 컬렉션을 사용한다.",
+                  "href": null
+                }
+              ],
+              "color": "default"
+            }
+          },
+          {
+            "object": "block",
+            "id": "2f644860-a4f4-8059-a350-cc56685ce54b",
+            "parent": {
+              "type": "block_id",
+              "block_id": "2f644860-a4f4-8071-9fe9-fa8e438e222c"
+            },
+            "created_time": "2026-01-28T08:41:00.000Z",
+            "last_edited_time": "2026-01-28T08:41:00.000Z",
+            "created_by": {
+              "object": "user",
+              "id": "2aed872b-594c-81eb-bc82-000291164988"
+            },
+            "last_edited_by": {
+              "object": "user",
+              "id": "2aed872b-594c-81eb-bc82-000291164988"
+            },
+            "has_children": false,
+            "archived": false,
+            "in_trash": false,
+            "type": "bulleted_list_item",
+            "bulleted_list_item": {
+              "rich_text": [
+                {
+                  "type": "text",
+                  "text": {
+                    "content": "제네릭을 사용하여 타입 안전성을 보장한다.",
+                    "link": null
+                  },
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  },
+                  "plain_text": "제네릭을 사용하여 타입 안전성을 보장한다.",
+                  "href": null
+                }
+              ],
+              "color": "default"
+            }
+          },
+          {
+            "object": "block",
+            "id": "2f644860-a4f4-807e-906c-ccd9e9a3162d",
+            "parent": {
+              "type": "block_id",
+              "block_id": "2f644860-a4f4-8071-9fe9-fa8e438e222c"
+            },
+            "created_time": "2026-01-28T08:41:00.000Z",
+            "last_edited_time": "2026-01-28T08:41:00.000Z",
+            "created_by": {
+              "object": "user",
+              "id": "2aed872b-594c-81eb-bc82-000291164988"
+            },
+            "last_edited_by": {
+              "object": "user",
+              "id": "2aed872b-594c-81eb-bc82-000291164988"
+            },
+            "has_children": false,
+            "archived": false,
+            "in_trash": false,
+            "type": "bulleted_list_item",
+            "bulleted_list_item": {
+              "rich_text": [
+                {
+                  "type": "text",
+                  "text": {
+                    "content": "raw type(제네릭 없는 컬렉션)은 사용하지 않는다.",
+                    "link": null
+                  },
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  },
+                  "plain_text": "raw type(제네릭 없는 컬렉션)은 사용하지 않는다.",
+                  "href": null
+                }
+              ],
+              "color": "default"
+            }
+          }
+        ]
+      },
+      {
+        "object": "block",
+        "id": "2f644860-a4f4-80cb-afff-c5fc246529ac",
+        "parent": {
+          "type": "block_id",
+          "block_id": "2f644860-a4f4-8048-beb1-d7c580b15f4a"
+        },
+        "created_time": "2026-01-28T08:41:00.000Z",
+        "last_edited_time": "2026-01-28T08:41:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "has_children": true,
+        "archived": false,
+        "in_trash": false,
+        "type": "bulleted_list_item",
+        "bulleted_list_item": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "설계 제약",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "설계 제약",
+              "href": null
+            }
+          ],
+          "color": "default"
+        },
+        "children": [
+          {
+            "object": "block",
+            "id": "2f644860-a4f4-802a-bdc5-c410ad1038a6",
+            "parent": {
+              "type": "block_id",
+              "block_id": "2f644860-a4f4-80cb-afff-c5fc246529ac"
+            },
+            "created_time": "2026-01-28T08:41:00.000Z",
+            "last_edited_time": "2026-01-28T08:41:00.000Z",
+            "created_by": {
+              "object": "user",
+              "id": "2aed872b-594c-81eb-bc82-000291164988"
+            },
+            "last_edited_by": {
+              "object": "user",
+              "id": "2aed872b-594c-81eb-bc82-000291164988"
+            },
+            "has_children": false,
+            "archived": false,
+            "in_trash": false,
+            "type": "bulleted_list_item",
+            "bulleted_list_item": {
+              "rich_text": [
+                {
+                  "type": "text",
+                  "text": {
+                    "content": "3주차에서 만든 Role, Lion, Staff, Policy 클래스를 그대로 활용한다.",
+                    "link": null
+                  },
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  },
+                  "plain_text": "3주차에서 만든 Role, Lion, Staff, Policy 클래스를 그대로 활용한다.",
+                  "href": null
+                }
+              ],
+              "color": "default"
+            }
+          },
+          {
+            "object": "block",
+            "id": "2f644860-a4f4-8037-b9c0-dc0f7ef7d0bd",
+            "parent": {
+              "type": "block_id",
+              "block_id": "2f644860-a4f4-80cb-afff-c5fc246529ac"
+            },
+            "created_time": "2026-01-28T08:41:00.000Z",
+            "last_edited_time": "2026-01-28T08:41:00.000Z",
+            "created_by": {
+              "object": "user",
+              "id": "2aed872b-594c-81eb-bc82-000291164988"
+            },
+            "last_edited_by": {
+              "object": "user",
+              "id": "2aed872b-594c-81eb-bc82-000291164988"
+            },
+            "has_children": false,
+            "archived": false,
+            "in_trash": false,
+            "type": "bulleted_list_item",
+            "bulleted_list_item": {
+              "rich_text": [
+                {
+                  "type": "text",
+                  "text": {
+                    "content": "Step 1, Step 2 모두 Main 클래스 안에서 List와 Map을 직접 다룬다.",
+                    "link": null
+                  },
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  },
+                  "plain_text": "Step 1, Step 2 모두 Main 클래스 안에서 List와 Map을 직접 다룬다.",
+                  "href": null
+                }
+              ],
+              "color": "default"
+            }
+          }
+        ]
+      },
+      {
+        "object": "block",
+        "id": "2f644860-a4f4-80b7-a521-db5b31cb4f85",
+        "parent": {
+          "type": "block_id",
+          "block_id": "2f644860-a4f4-8048-beb1-d7c580b15f4a"
+        },
+        "created_time": "2026-01-28T08:41:00.000Z",
+        "last_edited_time": "2026-01-28T08:41:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "has_children": false,
+        "archived": false,
+        "in_trash": false,
+        "type": "divider",
+        "divider": {}
+      },
+      {
+        "object": "block",
+        "id": "2f644860-a4f4-807f-a8ef-f911533c26ba",
+        "parent": {
+          "type": "page_id",
+          "page_id": "2f044860-a4f4-8151-a4ca-c98414514b2b"
+        },
+        "created_time": "2026-01-28T08:41:00.000Z",
+        "last_edited_time": "2026-01-28T08:41:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "has_children": false,
+        "archived": false,
+        "in_trash": false,
+        "type": "divider",
+        "divider": {}
+      }
+    ],
+    "bonus": [
+      {
+        "object": "block",
+        "id": "2f644860-a4f4-8040-88a8-c67cbd457744",
+        "parent": {
+          "type": "block_id",
+          "block_id": "2f644860-a4f4-8018-b9d5-d9cbcedf49e3"
+        },
+        "created_time": "2026-01-28T08:41:00.000Z",
+        "last_edited_time": "2026-01-28T08:41:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "has_children": false,
+        "archived": false,
+        "in_trash": false,
+        "type": "divider",
+        "divider": {}
+      },
+      {
+        "object": "block",
+        "id": "2f644860-a4f4-80f1-bd72-dbecb4d6cb2a",
+        "parent": {
+          "type": "block_id",
+          "block_id": "2f644860-a4f4-8018-b9d5-d9cbcedf49e3"
+        },
+        "created_time": "2026-01-28T08:41:00.000Z",
+        "last_edited_time": "2026-01-28T08:41:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "has_children": false,
+        "archived": false,
+        "in_trash": false,
+        "type": "heading_3",
+        "heading_3": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": " 1. 멤버 삭제 기능",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": " 1. 멤버 삭제 기능",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        }
+      },
+      {
+        "object": "block",
+        "id": "2f644860-a4f4-80b7-bc9d-e30a72afa9ec",
+        "parent": {
+          "type": "block_id",
+          "block_id": "2f644860-a4f4-8018-b9d5-d9cbcedf49e3"
+        },
+        "created_time": "2026-01-28T08:41:00.000Z",
+        "last_edited_time": "2026-01-28T08:41:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "has_children": false,
+        "archived": false,
+        "in_trash": false,
+        "type": "bulleted_list_item",
+        "bulleted_list_item": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "이름을 입력받아 해당 멤버를 삭제하는 기능을 추가한다.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "이름을 입력받아 해당 멤버를 삭제하는 기능을 추가한다.",
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "object": "block",
+        "id": "2f644860-a4f4-80f4-a3df-cf69f65fbd14",
+        "parent": {
+          "type": "block_id",
+          "block_id": "2f644860-a4f4-8018-b9d5-d9cbcedf49e3"
+        },
+        "created_time": "2026-01-28T08:41:00.000Z",
+        "last_edited_time": "2026-01-28T08:41:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "has_children": false,
+        "archived": false,
+        "in_trash": false,
+        "type": "bulleted_list_item",
+        "bulleted_list_item": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "List와 Map에서 모두 삭제되어야 한다.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "List와 Map에서 모두 삭제되어야 한다.",
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "object": "block",
+        "id": "2f644860-a4f4-802e-9af1-f52673af7fb5",
+        "parent": {
+          "type": "block_id",
+          "block_id": "2f644860-a4f4-8018-b9d5-d9cbcedf49e3"
+        },
+        "created_time": "2026-01-28T08:41:00.000Z",
+        "last_edited_time": "2026-01-28T08:41:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "has_children": false,
+        "archived": false,
+        "in_trash": false,
+        "type": "divider",
+        "divider": {}
+      },
+      {
+        "object": "block",
+        "id": "2f644860-a4f4-804e-8a7e-f629affefd7e",
+        "parent": {
+          "type": "block_id",
+          "block_id": "2f644860-a4f4-8018-b9d5-d9cbcedf49e3"
+        },
+        "created_time": "2026-01-28T08:41:00.000Z",
+        "last_edited_time": "2026-01-28T08:41:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "has_children": false,
+        "archived": false,
+        "in_trash": false,
+        "type": "heading_3",
+        "heading_3": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": " 2. 정렬 기능 추가",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": " 2. 정렬 기능 추가",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        }
+      },
+      {
+        "object": "block",
+        "id": "2f644860-a4f4-8051-abd1-dc5ec2cf6fab",
+        "parent": {
+          "type": "block_id",
+          "block_id": "2f644860-a4f4-8018-b9d5-d9cbcedf49e3"
+        },
+        "created_time": "2026-01-28T08:41:00.000Z",
+        "last_edited_time": "2026-01-28T08:41:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "has_children": false,
+        "archived": false,
+        "in_trash": false,
+        "type": "bulleted_list_item",
+        "bulleted_list_item": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "전체 멤버 조회 시 기수 순으로 정렬하여 출력하는 기능을 추가한다.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "전체 멤버 조회 시 기수 순으로 정렬하여 출력하는 기능을 추가한다.",
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "object": "block",
+        "id": "2f644860-a4f4-805c-9882-fb01d97fc626",
+        "parent": {
+          "type": "block_id",
+          "block_id": "2f644860-a4f4-8018-b9d5-d9cbcedf49e3"
+        },
+        "created_time": "2026-01-28T08:41:00.000Z",
+        "last_edited_time": "2026-01-28T08:41:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "has_children": false,
+        "archived": false,
+        "in_trash": false,
+        "type": "bulleted_list_item",
+        "bulleted_list_item": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Comparable 또는 Comparator 인터페이스를 활용해본다.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Comparable 또는 Comparator 인터페이스를 활용해본다.",
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "object": "block",
+        "id": "2f644860-a4f4-80ce-9402-c22b1452a836",
+        "parent": {
+          "type": "block_id",
+          "block_id": "2f644860-a4f4-8018-b9d5-d9cbcedf49e3"
+        },
+        "created_time": "2026-01-28T08:41:00.000Z",
+        "last_edited_time": "2026-01-28T08:41:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "has_children": false,
+        "archived": false,
+        "in_trash": false,
+        "type": "divider",
+        "divider": {}
+      },
+      {
+        "object": "block",
+        "id": "2f644860-a4f4-80e6-9278-c5cfec307ad0",
+        "parent": {
+          "type": "block_id",
+          "block_id": "2f644860-a4f4-8018-b9d5-d9cbcedf49e3"
+        },
+        "created_time": "2026-01-28T08:41:00.000Z",
+        "last_edited_time": "2026-01-28T08:41:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "has_children": false,
+        "archived": false,
+        "in_trash": false,
+        "type": "heading_3",
+        "heading_3": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": " 3. 파트별 통계 출력",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": " 3. 파트별 통계 출력",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        }
+      },
+      {
+        "object": "block",
+        "id": "2f644860-a4f4-8080-b0a6-c1281643949c",
+        "parent": {
+          "type": "block_id",
+          "block_id": "2f644860-a4f4-8018-b9d5-d9cbcedf49e3"
+        },
+        "created_time": "2026-01-28T08:41:00.000Z",
+        "last_edited_time": "2026-01-28T08:41:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "has_children": false,
+        "archived": false,
+        "in_trash": false,
+        "type": "bulleted_list_item",
+        "bulleted_list_item": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "각 파트별 멤버 수를 한눈에 볼 수 있는 통계 기능을 추가한다.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "각 파트별 멤버 수를 한눈에 볼 수 있는 통계 기능을 추가한다.",
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "object": "block",
+        "id": "2f644860-a4f4-8045-a4da-cce2a06aba9c",
+        "parent": {
+          "type": "block_id",
+          "block_id": "2f644860-a4f4-8018-b9d5-d9cbcedf49e3"
+        },
+        "created_time": "2026-01-28T08:41:00.000Z",
+        "last_edited_time": "2026-01-28T08:41:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "has_children": false,
+        "archived": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "color": "default"
+        }
+      },
+      {
+        "object": "block",
+        "id": "2f644860-a4f4-80ea-9aca-c25f7b12c4d0",
+        "parent": {
+          "type": "block_id",
+          "block_id": "2f644860-a4f4-8018-b9d5-d9cbcedf49e3"
+        },
+        "created_time": "2026-01-28T08:41:00.000Z",
+        "last_edited_time": "2026-01-28T08:41:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "has_children": false,
+        "archived": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "[결과 예시]",
+                "link": null
+              },
+              "annotations": {
+                "bold": true,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "[결과 예시]",
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "object": "block",
+        "id": "2f644860-a4f4-8097-88fc-ec891cce46e9",
+        "parent": {
+          "type": "block_id",
+          "block_id": "2f644860-a4f4-8018-b9d5-d9cbcedf49e3"
+        },
+        "created_time": "2026-01-28T08:41:00.000Z",
+        "last_edited_time": "2026-01-28T08:41:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "has_children": true,
+        "archived": false,
+        "in_trash": false,
+        "type": "numbered_list_item",
+        "numbered_list_item": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "등록 화면 예시",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "등록 화면 예시",
+              "href": null
+            }
+          ],
+          "color": "default"
+        },
+        "children": [
+          {
+            "object": "block",
+            "id": "2f644860-a4f4-8040-bfb5-e71eb7075c61",
+            "parent": {
+              "type": "block_id",
+              "block_id": "2f644860-a4f4-8097-88fc-ec891cce46e9"
+            },
+            "created_time": "2026-01-28T08:41:00.000Z",
+            "last_edited_time": "2026-01-28T08:41:00.000Z",
+            "created_by": {
+              "object": "user",
+              "id": "2aed872b-594c-81eb-bc82-000291164988"
+            },
+            "last_edited_by": {
+              "object": "user",
+              "id": "2aed872b-594c-81eb-bc82-000291164988"
+            },
+            "has_children": false,
+            "archived": false,
+            "in_trash": false,
+            "type": "image",
+            "image": {
+              "caption": [],
+              "type": "file",
+              "file": {
+                "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/c69962b0-3951-485b-b10a-5bb29576bba8/93227ad0-d57d-498c-89d0-8de6200d1765/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4664OHJEGOB%2F20260128%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260128T093452Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEKH%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJIMEYCIQD6%2B5MUxLT6LLET2bbNQH25YpOvIlJzSf8%2FWk0tmkERcAIhAORMSbbpjwQCyc4mcUuIfxUp7C%2FgT0r%2BQoasP3b%2Fh1gKKv8DCGoQABoMNjM3NDIzMTgzODA1Igw9%2Bf%2Baq1WCDsPv6VIq3AMSvDdmrTPYAXZ%2BoPS4TyUhj4X5VRFNFfYkWptS330sBfX84oIIdekjczJS2YALUcEnE%2BeSANjZS9TpwcR4B5qiroOTYBqBBkLHYjoWpwiHSFb7Xrf8Goae8unI4CrTW7aeNJ5DXOreU6izfQan0R5HMdUromemr7TWz%2FPw7o8Ypga8hygCPmznH9DMpXWMuGYROCPW3QFIMRV8Kc40gZLslzdtcjVQqing6dls954Rexh3uumFJu1NXbxEJCFRji6sXODiCGfcqcZJ%2FPgGn8otmFvsyyYwfFCXvb1wL0CHl6APQ%2BAjJdaQUDdnAzqP5%2FD02XixCCqU7k8bLDPAgfxEFW6dVrwrg59Pk8xcLfyrGxumHg9wg81EWb8e1JQ0ftG5I7mIVx3EWEP3DZhzbBHaJwaDdx%2Fe8tAhBxQzQUWt0JaY1ZZDS4HKTDvoqo12CJy9h05lXzwnAj9A6kmaeyqPwtkzaDhhgpamw%2BYeWeXYNI6tMzBU4Si1HzzrB%2Fd3Zz1igz4DS%2FqLkFN7gNa80ugryyKBLd%2FZfdnsVa3grJQe2a7NMJU3LZH1yBSt95haRbgowWa4b6R1J8Gfaf9VKCmoBu%2B4dtGIEFb7HhKYieRgTbzxZFzyM9hTe%2FGkYDCKqOfLBjqkAf0tGIzmFBrHskAqGIf%2B%2Frr1QxIZC1SuLBFYqpS4fB%2B7PtlZDnQcyoc5TLN4RVpFUS1uxk%2BfdNGwPZ9bQqCNRvzoFQGgsVjPClIZyDNDQnrYvmGi1eeuQafe%2FkIplVnGn9RpT9w%2FD%2FjKsMPPicXEwRwDvF38Z%2BhTQvcGyn1QdGqfIPqWjbOElWT%2BVjd13mX7B52JTXuk0Kc6dMWCRNIssI4Upkqb&X-Amz-Signature=7292829c74cbafafabafdf01d576a363ec897a4c6bc22242c284598c717bc2a5&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+                "expiry_time": "2026-01-28T10:34:52.186Z"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "object": "block",
+        "id": "2f644860-a4f4-8035-a693-f0911121053d",
+        "parent": {
+          "type": "block_id",
+          "block_id": "2f644860-a4f4-8018-b9d5-d9cbcedf49e3"
+        },
+        "created_time": "2026-01-28T08:41:00.000Z",
+        "last_edited_time": "2026-01-28T08:41:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "has_children": false,
+        "archived": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "color": "default"
+        }
+      },
+      {
+        "object": "block",
+        "id": "2f644860-a4f4-809a-82d5-f73f3220ff2f",
+        "parent": {
+          "type": "block_id",
+          "block_id": "2f644860-a4f4-8018-b9d5-d9cbcedf49e3"
+        },
+        "created_time": "2026-01-28T08:41:00.000Z",
+        "last_edited_time": "2026-01-28T08:41:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "has_children": true,
+        "archived": false,
+        "in_trash": false,
+        "type": "numbered_list_item",
+        "numbered_list_item": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "기수 순 정렬 조회",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "기수 순 정렬 조회",
+              "href": null
+            }
+          ],
+          "color": "default",
+          "list_start_index": 2
+        },
+        "children": [
+          {
+            "object": "block",
+            "id": "2f644860-a4f4-80b0-881f-cf90768ba79e",
+            "parent": {
+              "type": "block_id",
+              "block_id": "2f644860-a4f4-809a-82d5-f73f3220ff2f"
+            },
+            "created_time": "2026-01-28T08:41:00.000Z",
+            "last_edited_time": "2026-01-28T08:41:00.000Z",
+            "created_by": {
+              "object": "user",
+              "id": "2aed872b-594c-81eb-bc82-000291164988"
+            },
+            "last_edited_by": {
+              "object": "user",
+              "id": "2aed872b-594c-81eb-bc82-000291164988"
+            },
+            "has_children": false,
+            "archived": false,
+            "in_trash": false,
+            "type": "image",
+            "image": {
+              "caption": [],
+              "type": "file",
+              "file": {
+                "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/c69962b0-3951-485b-b10a-5bb29576bba8/dfda67d0-a4a9-43ec-8421-80f4122ab93c/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466TC46JHSV%2F20260128%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260128T093452Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEKH%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJIMEYCIQCwxgR00V49Kj9Jtz88S3XMHn9PySYf2wsAevJVn%2FYLuAIhAMFA%2BCaU%2FA6BnbezXnTYUocpiI3XZ8VeLg2gaTtnx8khKv8DCGoQABoMNjM3NDIzMTgzODA1IgwHpXdbpGY17D7zO%2BQq3ANeAXGQjif4kzU0mVw5jfRyhdWEpvm7esLlIQDBqbJN17naL9Ugd0k4ws%2FvOQi8QGlsieRC2v%2BZXNAfjgu8kx8VjWvBcqDiqfyPL2a4MYWPAZPI%2BRVR1cnX1SoSL4tHJU34hWfOJ42VeWZJlYjnzRXkdvZvQEBq5SzScMijJkj2q1dkoiIzHRl5z9aD81OoSSIvtvdHJF0I2lv3FexoGD2An54MQY7MOq7945Ey4Oztg2%2FG8plmCKzXWB3zZOJV03YhS34R2JIpr%2Br9uIqHfMLTqk%2F2TPvrkRDrNsNav1weOxJSe2XnF%2FcFBNhsg%2FYUN%2FI5NxH%2BLFraVHgmR6Hpa715VyaeBH81BROe6uj%2F7oOpAMzUYSZtcIbsDrR%2FYr4BkqIdTpu50DYC%2Fpd%2FMs%2B3AmFIk010cLTS4d4f%2BuqhKA31mYuDc77SIvE4u33LEQ5Bv3hj6P3Q9rDc%2BdcSmNk4axzLcB%2BB79qKsUsLXEHm5X5wWneAKTE%2BV6y0RqkkRMOeyL3ZI%2FXj%2BGe2b2HXCnGSlrlOqj9nptDfj8VsoTxZvMOuEZ5VkquenOBB0OP%2BKQ2a0R8OynEZbNF0XpVG10gAswznXK%2B7HJ3HLeXHKhxhVkMirEg74AO%2FQNq%2FqiezcTCMp%2BfLBjqkAUTftyTYIoDpWWSCeEo%2FDAoNQAJhg%2BhxDqdZgvNuRaFo7g5dZSrQ2leE7RalO9UtLTuzNK%2BYywqYzAb7sufC9tkCxKTtWkcUqoTZ3JzIf5YyR3AeZPoajld35ehb0XWxay5Iigbeek69n0c8kftxdyjxLGrx5mFeWbnzLGc%2ByayVVocHCrYhpr6Y%2FUkBGfCVIWze0m1Vl%2BQTNDgC%2BWoPTlSTNtp7&X-Amz-Signature=dd5114d096f3dcaccfac0201dfbf53c43f55069032d97f927231e1b658d4e6f1&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+                "expiry_time": "2026-01-28T10:34:52.719Z"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "object": "block",
+        "id": "2f644860-a4f4-8003-bd28-c0cdde75f437",
+        "parent": {
+          "type": "block_id",
+          "block_id": "2f644860-a4f4-8018-b9d5-d9cbcedf49e3"
+        },
+        "created_time": "2026-01-28T08:41:00.000Z",
+        "last_edited_time": "2026-01-28T08:41:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "has_children": false,
+        "archived": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "color": "default"
+        }
+      },
+      {
+        "object": "block",
+        "id": "2f644860-a4f4-8060-8c4c-db6584e07c40",
+        "parent": {
+          "type": "block_id",
+          "block_id": "2f644860-a4f4-8018-b9d5-d9cbcedf49e3"
+        },
+        "created_time": "2026-01-28T08:41:00.000Z",
+        "last_edited_time": "2026-01-28T08:41:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "has_children": true,
+        "archived": false,
+        "in_trash": false,
+        "type": "numbered_list_item",
+        "numbered_list_item": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "파트별 통계",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "파트별 통계",
+              "href": null
+            }
+          ],
+          "color": "default",
+          "list_start_index": 3
+        },
+        "children": [
+          {
+            "object": "block",
+            "id": "2f644860-a4f4-8035-a565-ed2cf5218903",
+            "parent": {
+              "type": "block_id",
+              "block_id": "2f644860-a4f4-8060-8c4c-db6584e07c40"
+            },
+            "created_time": "2026-01-28T08:41:00.000Z",
+            "last_edited_time": "2026-01-28T08:41:00.000Z",
+            "created_by": {
+              "object": "user",
+              "id": "2aed872b-594c-81eb-bc82-000291164988"
+            },
+            "last_edited_by": {
+              "object": "user",
+              "id": "2aed872b-594c-81eb-bc82-000291164988"
+            },
+            "has_children": false,
+            "archived": false,
+            "in_trash": false,
+            "type": "image",
+            "image": {
+              "caption": [],
+              "type": "file",
+              "file": {
+                "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/c69962b0-3951-485b-b10a-5bb29576bba8/ba783541-6f83-47fd-8d15-c0bd8d5c6077/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4663725OJYE%2F20260128%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260128T093453Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEKH%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIQDnIepXpvRMRnRCkPMrT3Yp8Q7OniHf1WshDZct01zgXgIgGiUswD7PxF6zKnHdbX3VUSjkRZOH0p8Krr21X4HMsUwq%2FwMIahAAGgw2Mzc0MjMxODM4MDUiDMtBzu3e5C3KkjDKTyrcA%2FyPR2LbDnJtgZvaw18V6psa3c14%2BqSpvuisf9f2v6k%2FOZfQsk2%2FTjy9Qh4GtvkSurlvJ8RY6PU%2BNXsxocU6yYp8uqqkSqIX2%2BM%2FSKktzCPfv%2BuiRu%2FSIxqtVkoynMRmo62j7VQ%2BY8ZMIDw94kWksdonmJEoHrkgh3Y%2FJGudRI%2FDkm73QY9x65GAxmnimuEMEoDXqUuNlKuO5t0N4h4j2DecDyEk0eNwybhWV3jWJnT4hEggwvdUqxJiAGLpITT7A3KyAfJw9FpwtICrrDy6xxHYS4xMpUC%2FmpoIGpO%2Bbss1s3Q21s1QYsxy0K1b32xy%2FTvOBMYhHJNmQLjxCr7oBoZYisDWjkEZPYa4SKKh5WH%2BITWDpAjhAxO9I3QwuIwIVCwwwYJuWQIh49dcYNjzjbDKkCge0L7n%2FZvajuYWck%2BvPRNgFNcrAVUy4CkT6gYD9txIYjpQOKI5qJXE2i9Wdjh164Wn93kqYin1YY0IKA%2BaP7lvCB48cFrpB1mQHxhRQaN7mD%2FRlV%2FdNeVo2P%2FZg7atv2wztRF4ngtSEF4X9ibC6JT4%2B5wUTzYHUbZaG2%2FbPqaEeTayRydxZRgova4x5kvhEXZB9US5Iontp0VkDjot%2FuvXAbumX4BXxNlsMKKn58sGOqUB8sIF9alyh43OjM6Xm540XKdzy4wIQg83SN1PlyRKhgxMZ6roH59DH5BcEc1ehizBvcNgGH70ENgsDbsDTxEujV%2BthHqSJ4CzNyRRPyVVcRTZUt%2Fc0oP028hdaURa1BoletnfqIL7aKCZbBSuf2B6WfQ3UTJWh1SwhiehV%2FFYSi7hSY%2FVz4BfFADAFu1xd9Uvf6uJR%2ByJX%2Bu%2FLydhB5c7cLdt8z0Y&X-Amz-Signature=ad2f5f22a728455b91c9db12889bbafa387d0241ef00946d4dc9b335312da067&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+                "expiry_time": "2026-01-28T10:34:53.023Z"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "object": "block",
+        "id": "2f644860-a4f4-801a-a7f9-f084a0eafc40",
+        "parent": {
+          "type": "block_id",
+          "block_id": "2f644860-a4f4-8018-b9d5-d9cbcedf49e3"
+        },
+        "created_time": "2026-01-28T08:41:00.000Z",
+        "last_edited_time": "2026-01-28T08:41:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "has_children": false,
+        "archived": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "color": "default"
+        }
+      },
+      {
+        "object": "block",
+        "id": "2f644860-a4f4-8046-af13-d6dccb15d338",
+        "parent": {
+          "type": "block_id",
+          "block_id": "2f644860-a4f4-8018-b9d5-d9cbcedf49e3"
+        },
+        "created_time": "2026-01-28T08:41:00.000Z",
+        "last_edited_time": "2026-01-28T08:41:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "has_children": true,
+        "archived": false,
+        "in_trash": false,
+        "type": "numbered_list_item",
+        "numbered_list_item": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "멤버 삭제",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "멤버 삭제",
+              "href": null
+            }
+          ],
+          "color": "default",
+          "list_start_index": 4
+        },
+        "children": [
+          {
+            "object": "block",
+            "id": "2f644860-a4f4-802e-9434-fe342740b2c6",
+            "parent": {
+              "type": "block_id",
+              "block_id": "2f644860-a4f4-8046-af13-d6dccb15d338"
+            },
+            "created_time": "2026-01-28T08:41:00.000Z",
+            "last_edited_time": "2026-01-28T08:41:00.000Z",
+            "created_by": {
+              "object": "user",
+              "id": "2aed872b-594c-81eb-bc82-000291164988"
+            },
+            "last_edited_by": {
+              "object": "user",
+              "id": "2aed872b-594c-81eb-bc82-000291164988"
+            },
+            "has_children": false,
+            "archived": false,
+            "in_trash": false,
+            "type": "image",
+            "image": {
+              "caption": [],
+              "type": "file",
+              "file": {
+                "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/c69962b0-3951-485b-b10a-5bb29576bba8/e218b10d-dc5c-451e-8964-ce14ac57c291/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4664ZCTRIG3%2F20260128%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260128T093453Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEKH%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJGMEQCIHdYKnXksU8HOAYu%2BtgAu5eQwutRUEkLnaHdY98n89hdAiAG7XWUYM1YeFl%2B8V%2FQJh3iQTn%2FX%2B1gwK844zbAKJ3Bkyr%2FAwhqEAAaDDYzNzQyMzE4MzgwNSIMyaMI6ZGJbDLwqei8KtwDu9cy5kmOxMAVzp1rbQUzbG3jUEPEU8s%2FWvHiJjSEWX5axaw2w8EyXnjbFxuXx3adHELA2BO0VEIl5%2BCiQ0%2B16nNVYQ6mzhByroZqgMi9YaYXFYW4hLFEYiG2MeDAu63KW09mpkJ4W1HzUGUw%2FTw25NdC7Gf4QM%2FHGxKdt0Io1oB0p408ZpI%2FaqUgP%2BQFM5Zh8BqeE%2F5r0ehV7vu73yRgEWg%2BqNrj0bgfuQPgMoZQeCxIvNHsRDkO0fenZnslAN8dZylbrRvI52P5RJRiKJ4rgmx%2FGgprNvo5xychxL9ky4oP5GrMvfWb9%2BIqgmvsD9yT8myTbHuZAO%2BAo12ggSYhwHjlyG57Vbi%2BBZHwwRBPl1Pp2SfBdHLUHsKkEu69PsuHQ%2BOEpy1ZJU1BTbtmLJrXnVoyw9O0O9t7712tIJ%2Bxru4Ix3rbuwbpXVyauc%2Felkvxau96Cvxe%2FehsrpjkkToM1AvwcBPHX9ZZLNL4Wh9LfFQuQYq1pr5zByNOtYGFwGsTnPUkkoFJ8iscUPcsDYE3E0XDTWfaEiba7spTaDA4PrCol0I3nl3j1yhlr0ZEIYtkoADFVJtLJFy2Cx%2FHnKqbHO4K8XUxxpJ6yFQJr%2Frk5yTzPG2DDqbgfP5tReQw%2FKfnywY6pgFzD1eew9610c5vOBNsTHbN3anC8BM4RcyQOHZAiRdvjtmX3uRiRDL3fjqL2ZxB6GGNimHPbRb5RGkHoXBYJTbw42GKPODkOopIslIR3hs4xIXPYlhQxlKWfgyCnQipMeNa%2FAO%2FlBaP8o7GQTXQMuelBP8NeT%2BNZUJQqpSqqHOR%2FsNjn4zJXq4qYmun%2FF%2Fb6stD4%2BPfjmtJndbPlqpnzNPUIO%2Fav579&X-Amz-Signature=3f244f2467230086ea180ea72442157835be243f6b1b2d00475c79e643126b3a&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+                "expiry_time": "2026-01-28T10:34:53.322Z"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "object": "block",
+        "id": "2f644860-a4f4-8060-aa99-f287ee2d100d",
+        "parent": {
+          "type": "page_id",
+          "page_id": "2f044860-a4f4-8151-a4ca-c98414514b2b"
+        },
+        "created_time": "2026-01-28T08:41:00.000Z",
+        "last_edited_time": "2026-01-28T08:41:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "has_children": false,
+        "archived": false,
+        "in_trash": false,
+        "type": "divider",
+        "divider": {}
+      },
+      {
+        "object": "block",
+        "id": "2f644860-a4f4-801f-a9c0-e0d6439abfc8",
+        "parent": {
+          "type": "page_id",
+          "page_id": "2f044860-a4f4-8151-a4ca-c98414514b2b"
+        },
+        "created_time": "2026-01-28T08:41:00.000Z",
+        "last_edited_time": "2026-01-28T08:41:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "has_children": false,
+        "archived": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "color": "default"
+        }
+      }
+    ]
   },
-  "syncedAt": "2026-01-28T05:56:51.757Z"
+  "syncedAt": "2026-01-28T09:34:53.392Z"
 }
