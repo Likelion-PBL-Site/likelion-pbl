@@ -31,6 +31,7 @@ const TRACK_CACHE_MAP: Record<TrackType, CachedTrackData> = {
 export interface CachedMissionData {
   missionId: string;
   notionPageId: string;
+  fileName?: string; // 가독성 있는 파일명 (예: react-01-html-css-기초.json)
   sections: MissionSections;
   syncedAt: string; // ISO date string
 }
@@ -50,9 +51,14 @@ function normalizePageId(pageId: string): string {
 
 /**
  * 캐시 파일 경로 생성
+ * @deprecated 새 형식은 fileName을 직접 사용 (예: react-01-html-css-기초.json)
  */
-export function getCachePath(missionId: string): string {
-  return path.join(CACHE_DIR, `${missionId}.json`);
+export function getCachePath(missionIdOrFileName: string): string {
+  // 이미 .json 확장자가 있으면 그대로 사용
+  const fileName = missionIdOrFileName.endsWith(".json")
+    ? missionIdOrFileName
+    : `${missionIdOrFileName}.json`;
+  return path.join(CACHE_DIR, fileName);
 }
 
 /**
@@ -79,18 +85,21 @@ export async function readCache(idOrPageId: string): Promise<CachedMissionData |
 
 /**
  * 캐시 파일 쓰기
+ * fileName이 있으면 그것을 사용, 없으면 missionId를 fallback으로 사용
  */
 export async function writeCache(data: CachedMissionData): Promise<void> {
-  const filePath = getCachePath(data.missionId);
+  const fileName = data.fileName || `${data.missionId}.json`;
+  const filePath = getCachePath(fileName);
   await fs.writeFile(filePath, JSON.stringify(data, null, 2), "utf-8");
 }
 
 /**
  * 캐시 파일 삭제
+ * @param missionIdOrFileName - missionId 또는 전체 파일명
  */
-export async function deleteCache(missionId: string): Promise<boolean> {
+export async function deleteCache(missionIdOrFileName: string): Promise<boolean> {
   try {
-    const filePath = getCachePath(missionId);
+    const filePath = getCachePath(missionIdOrFileName);
     await fs.unlink(filePath);
     return true;
   } catch {
