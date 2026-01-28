@@ -1,4 +1,4 @@
-# 멋쟁이사자처럼 PBL
+# 멋쟁이사자처럼 대학 PBL 사이트
 
 > 프로젝트 기반 학습(Project-Based Learning) 플랫폼
 
