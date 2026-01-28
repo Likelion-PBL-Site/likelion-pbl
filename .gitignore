@@ -51,3 +51,9 @@ src/app/demo/
 
 # Documentation (internal)
 docs/
+
+# MCP servers (local development)
+mcp-servers/
+
+# Claude Code logs
+.claude/compact.log
