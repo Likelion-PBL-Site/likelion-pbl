@@ -52,47 +52,6 @@
 | CMS | Notion API |
 | Deployment | Vercel |
 
-## 시작하기
-
-```bash
-# 의존성 설치
-npm install
-
-# 개발 서버 실행
-npm run dev
-
-# 프로덕션 빌드
-npm run build
-```
-
-## 환경 변수
-
-```env
-NOTION_API_KEY=         # Notion Integration 키
-NOTION_DB_REACT=        # React 트랙 DB ID
-NOTION_DB_SPRINGBOOT=   # Spring Boot 트랙 DB ID
-NOTION_DB_DJANGO=       # Django 트랙 DB ID
-NOTION_DB_DESIGN=       # Design 트랙 DB ID
-```
-
-## 프로젝트 구조
-
-```
-src/
-├── app/                    # Next.js App Router
-│   ├── (pbl)/[trackId]/   # 트랙 및 미션 페이지
-│   ├── tracks/            # 트랙 선택 페이지
-│   └── api/notion/        # Notion API 엔드포인트
-├── components/
-│   ├── ui/                # shadcn/ui 컴포넌트
-│   ├── curriculum/        # 커리큘럼 표
-│   ├── mission/           # 미션 상세 컴포넌트
-│   └── notion/            # Notion 블록 렌더러
-├── lib/                   # 유틸리티 함수
-├── store/                 # Zustand 스토어
-└── data/
-    └── notion-cache/      # Notion 캐시 (자동 동기화)
-```
 
 ## 라이선스
 
