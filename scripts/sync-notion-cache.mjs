@@ -365,6 +365,32 @@ async function syncMission(client, missionId, notionPageId) {
 }
 
 /**
+ * all-missions.json 재생성 (개별 캐시 파일들을 통합)
+ */
+async function regenerateAllMissionsCache() {
+  console.log("\n📦 all-missions.json 재생성 중...");
+
+  const files = await fs.readdir(CACHE_DIR);
+  const allMissions = {};
+
+  for (const file of files) {
+    // 개별 미션 캐시 파일만 처리 (track-*, all-missions.json 제외)
+    if (file.endsWith('.json') && !file.startsWith('track-') && file !== 'all-missions.json') {
+      const filePath = path.join(CACHE_DIR, file);
+      const content = JSON.parse(await fs.readFile(filePath, 'utf-8'));
+
+      if (content.missionId && content.sections) {
+        allMissions[content.missionId] = content;
+      }
+    }
+  }
+
+  const allMissionsPath = path.join(CACHE_DIR, 'all-missions.json');
+  await fs.writeFile(allMissionsPath, JSON.stringify(allMissions, null, 2), 'utf-8');
+  console.log(`   ✅ all-missions.json 저장 완료 (${Object.keys(allMissions).length}개 미션)`);
+}
+
+/**
  * 트랙별 미션 목록 캐시 저장
  */
 async function saveTrackCache(trackName, missions) {
@@ -475,6 +501,9 @@ async function main() {
       console.log(`   - ${track}: ${count}개`);
     }
   }
+
+  // 🆕 all-missions.json 재생성 (정적 import용 통합 캐시)
+  await regenerateAllMissionsCache();
 
   console.log("\n🎉 동기화 완료!");
 }
