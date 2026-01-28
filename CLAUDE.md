@@ -2,6 +2,14 @@
 
 This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
 
+## Git 저장소
+
+**메인 저장소 (origin):** `https://github.com/Likelion-PBL-Site/likelion-pbl.git`
+
+```bash
+git push origin main    # 배포 (Vercel 자동 연동)
+```
+
 ## 개발 명령어
 
 ```bash
@@ -24,7 +32,6 @@ src/
 │   ├── guide/                         # 학습 가이드 페이지
 │   ├── tracks/                        # 트랙 목록 페이지
 │   ├── faq/                           # FAQ 페이지
-│   ├── demo/                          # UI 데모 페이지
 │   └── api/notion/                    # Notion API 라우트
 │       ├── route.ts                   # 미션 데이터 조회
 │       ├── image/route.ts             # 이미지 URL 갱신
@@ -45,8 +52,10 @@ src/
 └── data/
     ├── tracks.ts        # 트랙 설정 + 단계별 색상
     └── notion-cache/    # JSON 캐시 파일 (자동 생성)
-        ├── track-{trackId}.json  # 트랙별 미션 목록
-        └── {missionId}.json      # 미션 상세 블록 데이터
+        ├── track-{trackId}.json           # 트랙별 미션 목록
+        ├── {track}-{주차}-{슬러그}.json   # 미션 상세 (예: react-01-html-css-기초.json)
+        ├── all-missions.json              # 전체 미션 통합 캐시
+        └── index.ts                       # 캐시 export 모듈
 
 scripts/              # Notion 캐시 동기화 스크립트
 docs/troubleshooting/ # 트러블슈팅 + AI 협업 기록
@@ -74,7 +83,11 @@ docs/troubleshooting/ # 트러블슈팅 + AI 협업 기록
 |------|----------|----------|------|
 | 트랙별 미션 목록 | JSON 파일 캐시 | GitHub Actions | `track-{trackId}.json` |
 | 미션 상세 콘텐츠 | JSON 파일 캐시 | GitHub Actions | `{missionId}.json` |
+| **전체 미션 통합** | **정적 import** | **동기화 시 자동** | `all-missions.json` |
 | 이미지/비디오 URL | 온디맨드 갱신 | 만료 시 API 호출 | - |
+
+> **중요**: `all-missions.json`은 Vercel 서버리스 환경 호환을 위해 정적 import로 로드됩니다.
+> 개별 `{missionId}.json` 파일들은 동기화 스크립트가 `all-missions.json`으로 통합합니다.
 
 ### 데이터 흐름
 
@@ -111,6 +124,9 @@ node scripts/sync-notion-cache.mjs <미션ID 또는 페이지ID>  # 특정 미�
 1. 4개 트랙 DB에서 미션 목록 조회
 2. `track-{trackId}.json`에 미션 목록 저장 (주차순 정렬)
 3. 각 미션의 상세 블록을 `{missionId}.json`에 저장
+4. 모든 개별 캐시를 `all-missions.json`으로 통합 (정적 import용)
+
+> **로컬 개발 시 주의**: 동기화 후 변경사항 반영을 위해 Next.js 개발 서버 재시작 필요
 
 ### 새 미션 추가
 
@@ -135,6 +151,11 @@ import { NotionBlockRenderer } from "@/components/notion";
 ```
 
 **지원 블록:** paragraph, heading, list, quote, callout, toggle, code, image, video, bookmark, divider
+
+**블록 컴포넌트 위치:** `src/components/notion/blocks/`
+- `paragraph.tsx`, `heading.tsx`, `callout.tsx`, `code.tsx`
+- `image.tsx`, `video.tsx`, `bookmark.tsx`
+- `list-item.tsx`, `toggle.tsx`, `quote.tsx`, `divider.tsx`
 
 **섹션별 리스트 스타일:**
 - `guidelines`, `example` → 번호 리스트 (1. 2. 3.)
@@ -181,6 +202,12 @@ import { trackStageColors, getTrackById, isValidTrackId } from "@/data/tracks";
 // 트랙별 단계 배지 색상
 <Badge className={trackStageColors[trackId]}>{mission.stage}</Badge>
 ```
+
+### 트랙 순서 (홈 화면)
+1. 기획/디자인 (Design) - 맨 앞
+2. 프론트엔드 (React)
+3. 백엔드 (Django)
+4. 백엔드 (Spring Boot)
 
 ### 단계(Stage) 필드
 - Notion DB의 원본값을 그대로 사용 (예: Java, Spring Core, Web, React 등)
@@ -263,6 +290,7 @@ NOTION_SYNC_SECRET=     # 동기화 API 시크릿
 | 007 | 트랙 페이지 UX 개선 |
 | 008 | 이미지 로딩 스피너 + 여백 수정 |
 | 009 | 트랙 페이지 Notion API 캐싱 |
+| 010 | all-missions.json 통합 캐시 누락 |
 
 상세: `docs/troubleshooting/` 폴더 참조
 

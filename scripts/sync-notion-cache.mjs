@@ -38,6 +38,32 @@ const TRACK_DATABASES = {
 };
 
 /**
+ * 슬러그 생성 (파일명용)
+ * 예: "HTML/CSS 기초" → "html-css-기초"
+ */
+function generateSlug(title) {
+  return title
+    .toLowerCase()
+    .replace(/[\/\\&]+/g, "-")      // 슬래시, 백슬래시, & → 하이픈
+    .replace(/[()[\]{}'"]+/g, "")   // 괄호, 따옴표 제거
+    .replace(/\s+/g, "-")           // 공백 → 하이픈
+    .replace(/-+/g, "-")            // 연속 하이픈 → 단일 하이픈
+    .replace(/^-|-$/g, "")          // 앞뒤 하이픈 제거
+    .slice(0, 40);                  // 최대 40자
+}
+
+/**
+ * 캐시 파일명 생성
+ * 형식: {track}-{order:02d}-{slug}.json
+ * 예: react-01-html-css-기초.json
+ */
+function generateCacheFileName(track, order, title) {
+  const paddedOrder = String(order).padStart(2, "0");
+  const slug = generateSlug(title);
+  return `${track}-${paddedOrder}-${slug}.json`;
+}
+
+/**
  * 섹션 매핑 (Notion 헤딩 텍스트 → 섹션 키)
  */
 const SECTION_MAPPING = {
@@ -331,8 +357,15 @@ function parseBlocksToSections(blocks) {
 /**
  * 단일 미션 동기화
  */
-async function syncMission(client, missionId, notionPageId) {
-  console.log(`\n📥 동기화 중: ${missionId} (${notionPageId})`);
+async function syncMission(client, mission) {
+  const { missionId, notionPageId, title, track, summary } = mission;
+  const order = summary?.order || 0;
+
+  // 가독성 있는 파일명 생성
+  const fileName = generateCacheFileName(track, order, title);
+
+  console.log(`\n📥 동기화 중: ${fileName}`);
+  console.log(`   - 미션: ${title} (${track} ${order}주차)`);
 
   const startTime = Date.now();
 
@@ -347,21 +380,45 @@ async function syncMission(client, missionId, notionPageId) {
     .join(", ");
   console.log(`   - 섹션 파싱 완료 (${sectionCounts})`);
 
-  // JSON 저장
+  // JSON 저장 (missionId 유지 - 앱에서 조회용)
   const cacheData = {
     missionId,
     notionPageId,
+    fileName,  // 새 파일명 참조용
     sections,
     syncedAt: new Date().toISOString(),
   };
 
-  const cachePath = path.join(CACHE_DIR, `${missionId}.json`);
+  const cachePath = path.join(CACHE_DIR, fileName);
   await fs.writeFile(cachePath, JSON.stringify(cacheData, null, 2), "utf-8");
 
   const elapsed = Date.now() - startTime;
-  console.log(`   ✅ 저장 완료: ${cachePath} (${elapsed}ms)`);
+  console.log(`   ✅ 저장 완료: ${fileName} (${elapsed}ms)`);
 
   return cacheData;
+}
+
+/**
+ * 기존 개별 미션 캐시 파일 정리 (track-*, all-missions.json 제외)
+ */
+async function cleanupOldCacheFiles() {
+  console.log("\n🧹 기존 캐시 파일 정리 중...");
+
+  const files = await fs.readdir(CACHE_DIR);
+  let deleted = 0;
+
+  for (const file of files) {
+    // track-*, all-missions.json, index.ts 제외하고 모든 json 파일 삭제
+    if (file.endsWith('.json') && !file.startsWith('track-') && file !== 'all-missions.json') {
+      const filePath = path.join(CACHE_DIR, file);
+      await fs.unlink(filePath);
+      deleted++;
+    }
+  }
+
+  if (deleted > 0) {
+    console.log(`   🗑️ ${deleted}개 기존 파일 삭제 완료`);
+  }
 }
 
 /**
@@ -444,6 +501,9 @@ async function main() {
     await saveTrackCache(track, allMissions);
   }
 
+  // 기존 개별 캐시 파일 정리 (새 파일명으로 교체)
+  await cleanupOldCacheFiles();
+
   // 동기화 대상 필터링 (특정 미션 ID 지정 시)
   const targets = targetMissionId
     ? allMissions.filter((m) =>
@@ -464,12 +524,8 @@ async function main() {
   const results = [];
   for (const mission of targets) {
     try {
-      const result = await syncMission(
-        client,
-        mission.missionId,
-        mission.notionPageId
-      );
-      results.push({ ...mission, success: true, syncedAt: result.syncedAt });
+      const result = await syncMission(client, mission);
+      results.push({ ...mission, success: true, syncedAt: result.syncedAt, fileName: result.fileName });
     } catch (error) {
       console.error(`   ❌ 실패: ${error.message}`);
       results.push({ ...mission, success: false, error: error.message });
