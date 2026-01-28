@@ -6,6 +6,28 @@ import {
 } from "@/lib/notion";
 import { tracks } from "@/data/tracks";
 
+// 서버 전용: 트랙 캐시 정적 import (클라이언트 컴포넌트에서 import 시 tree-shaking됨)
+// 주의: 이 데이터는 서버 컴포넌트에서만 사용해야 함
+import trackReact from "@/data/notion-cache/track-react.json";
+import trackSpringboot from "@/data/notion-cache/track-springboot.json";
+import trackDjango from "@/data/notion-cache/track-django.json";
+import trackDesign from "@/data/notion-cache/track-design.json";
+
+// 트랙 캐시 타입 정의
+interface CachedTrackData {
+  trackId: TrackType;
+  missions: MissionSummary[];
+  syncedAt: string;
+}
+
+// 트랙별 캐시 매핑
+const TRACK_CACHE_MAP: Record<TrackType, CachedTrackData> = {
+  react: trackReact as CachedTrackData,
+  springboot: trackSpringboot as CachedTrackData,
+  django: trackDjango as CachedTrackData,
+  design: trackDesign as CachedTrackData,
+};
+
 // tracks를 재 export (하위 호환성)
 export { tracks };
 export { tracks as mockTracks };
@@ -182,48 +204,110 @@ export function getMissionByIdSync(missionId: string): Mission | undefined {
 }
 
 /**
- * 트랙별 미션 목록 가져오기 (노션 연동 지원)
- * 노션이 설정되어 있으면 노션에서, 아니면 목업 데이터에서 가져옴
+ * 트랙별 미션 목록 가져오기 (캐시 우선, 노션 연동 지원)
+ * 1. 정적 캐시에서 먼저 확인
+ * 2. 캐시에 없으면 Notion API 호출
+ * 3. Notion도 실패하면 목업 데이터 사용
  */
 export async function getMissionsByTrack(track: TrackType): Promise<MissionSummary[]> {
-  console.log(`[getMissionsByTrack] track=${track}, isNotionConfigured=${isNotionConfigured()}`);
+  console.log(`[getMissionsByTrack] track=${track}`);
 
-  // 노션이 설정되어 있으면 노션에서 데이터 가져오기
+  // 1. 정적 캐시에서 먼저 확인 (Vercel 서버리스 환경 호환)
+  const trackCache = TRACK_CACHE_MAP[track];
+  if (trackCache?.missions && trackCache.missions.length > 0) {
+    console.log(`[getMissionsByTrack] 캐시에서 로드: ${trackCache.missions.length}개 미션`);
+    return trackCache.missions;
+  }
+
+  // 2. 캐시에 없으면 Notion API 호출
   if (isNotionConfigured()) {
     const notionMissions = await fetchMissionsByTrackFromNotion(track);
     console.log(`[getMissionsByTrack] Notion returned ${notionMissions.length} missions`);
     if (notionMissions.length > 0) {
-      console.log(`[getMissionsByTrack] Returning Notion data only`);
       return notionMissions;
     }
-    // 노션에 데이터가 없으면 목업 데이터 사용
     console.warn(`노션에서 ${track} 트랙 미션을 찾을 수 없어 목업 데이터를 사용합니다.`);
   }
 
+  // 3. 목업 데이터 반환
   console.log(`[getMissionsByTrack] Returning mock data`);
-  // 목업 데이터 반환
   return getMissionsByTrackSync(track);
 }
 
 /**
- * 미션 상세 정보 가져오기 (노션 연동 지원)
- * 노션이 설정되어 있으면 노션에서, 아니면 목업 데이터에서 가져옴
+ * 미션 상세 정보 가져오기 (캐시 우선, 노션 연동 지원)
+ * 1. 트랙 캐시에서 MissionSummary 조회
+ * 2. Mission 형식으로 변환하여 반환
+ * 3. 캐시에 없으면 Notion API 폴백
+ *
  * @param missionId 미션 ID
  * @param track 트랙 정보 (알고 있는 경우 전달하면 더 정확한 결과)
  */
 export async function getMissionById(missionId: string, track?: TrackType): Promise<Mission | undefined> {
-  // 노션이 설정되어 있으면 노션에서 데이터 가져오기
+  // 1. 트랙이 지정된 경우: 해당 트랙 캐시에서 조회
+  if (track) {
+    const trackCache = TRACK_CACHE_MAP[track];
+    if (trackCache?.missions) {
+      const summary = trackCache.missions.find((m) => m.id === missionId);
+      if (summary) {
+        console.log(`[getMissionById] 캐시에서 로드: ${missionId}`);
+        return summaryToMission(summary);
+      }
+    }
+  }
+
+  // 2. 트랙이 없는 경우: 모든 트랙 캐시에서 검색
+  if (!track) {
+    const allTracks: TrackType[] = ["react", "springboot", "django", "design"];
+    for (const t of allTracks) {
+      const trackCache = TRACK_CACHE_MAP[t];
+      if (trackCache?.missions) {
+        const summary = trackCache.missions.find((m) => m.id === missionId);
+        if (summary) {
+          console.log(`[getMissionById] 캐시에서 로드 (${t}): ${missionId}`);
+          return summaryToMission(summary);
+        }
+      }
+    }
+  }
+
+  // 3. 캐시에 없으면 Notion API 폴백
   if (isNotionConfigured()) {
+    console.log(`[getMissionById] Notion API 폴백: ${missionId}`);
     const notionMission = await fetchMissionByIdFromNotion(missionId, track);
     if (notionMission) {
       return notionMission;
     }
-    // 노션에서 못 찾으면 목업 데이터에서 시도
     console.warn(`노션에서 미션(${missionId})을 찾을 수 없어 목업 데이터를 사용합니다.`);
   }
 
-  // 목업 데이터에서 반환
+  // 4. 목업 데이터에서 반환
   return getMissionByIdSync(missionId);
+}
+
+/**
+ * MissionSummary를 Mission으로 변환
+ * notionPageId를 ID에서 생성 (하이픈 추가)
+ */
+function summaryToMission(summary: MissionSummary): Mission {
+  // ID를 하이픈 포함 UUID 형식으로 변환
+  const notionPageId = summary.id.replace(
+    /^(.{8})(.{4})(.{4})(.{4})(.{12})$/,
+    "$1-$2-$3-$4-$5"
+  );
+
+  return {
+    ...summary,
+    notionPageId,
+    introduction: "",
+    objective: "",
+    result: "",
+    timeGoal: "",
+    requirements: [],
+    guidelines: "",
+    constraints: "",
+    bonusTask: "",
+  };
 }
 
 /**
