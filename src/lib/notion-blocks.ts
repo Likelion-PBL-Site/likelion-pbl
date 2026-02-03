@@ -67,6 +67,7 @@ const SECTION_MAPPING: Record<string, SectionKey> = {
   "6. 결과 예시": "example",
   "7. 제약 사항": "constraints",
   "8. 보너스 과제": "bonus",
+  "9. VOD": "vod",
 };
 
 /**
@@ -133,6 +134,7 @@ export function parseBlocksToSections(blocks: NotionBlock[]): MissionSections {
     example: [],
     constraints: [],
     bonus: [],
+    vod: [],
   };
 
   let currentSection: SectionKey | null = null;

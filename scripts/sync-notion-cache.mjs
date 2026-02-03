@@ -75,6 +75,7 @@ const SECTION_MAPPING = {
   "6. 결과 예시": "example",
   "7. 제약 사항": "constraints",
   "8. 보너스 과제": "bonus",
+  "9. VOD": "vod",
 };
 
 /**
@@ -297,6 +298,7 @@ function parseBlocksToSections(blocks) {
     example: [],
     constraints: [],
     bonus: [],
+    vod: [],
   };
 
   let currentSection = null;

@@ -247,6 +247,7 @@ export interface MissionSections {
   example: NotionBlock[];
   constraints: NotionBlock[];
   bonus: NotionBlock[];
+  vod: NotionBlock[];
 }
 
 /** 섹션 키 타입 */
@@ -262,4 +263,5 @@ export const sectionMapping: Record<string, SectionKey> = {
   "6. 결과 예시": "example",
   "7. 제약 사항": "constraints",
   "8. 보너스 과제": "bonus",
+  "9. VOD": "vod",
 };

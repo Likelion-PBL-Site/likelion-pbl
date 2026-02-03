@@ -18,7 +18,8 @@ import allMissions from "./all-missions.json";
 const CACHE_DIR = path.join(process.cwd(), "src/data/notion-cache");
 
 // 미션 ID → 캐시 데이터 매핑 (정적 import)
-const ALL_MISSIONS_CACHE = allMissions as Record<string, CachedMissionData>;
+// Note: 기존 캐시에 vod 필드가 없을 수 있어 unknown을 거쳐 캐스팅
+const ALL_MISSIONS_CACHE = allMissions as unknown as Record<string, CachedMissionData>;
 
 // 트랙별 정적 캐시 매핑
 const TRACK_CACHE_MAP: Record<TrackType, CachedTrackData> = {

@@ -13,7 +13,7 @@ import type { Mission, TrackType, Requirement } from "@/types/pbl";
 import type { MissionSections } from "@/types/notion-blocks";
 import { usePBLStore, calculateProgress } from "@/store/pbl-store";
 import { NotionBlockRenderer } from "@/components/notion/notion-block-renderer";
-import { MissionProgressChecklist } from "@/components/mission";
+import { MissionProgressChecklist, VodBanner } from "@/components/mission";
 import { trackStageColors } from "@/data/tracks";
 
 interface MissionDetailClientProps {
@@ -202,6 +202,10 @@ export function MissionDetailClient({
                 )}
               </span>
             </div>
+            {/* VOD 배너 (인라인 드롭다운) */}
+            {hasNotionData && sections?.vod && sections.vod.length > 0 && (
+              <VodBanner blocks={sections.vod} />
+            )}
           </div>
           <h1 className="text-2xl md:text-3xl font-bold mb-2">{mission.title}</h1>
           <p className="text-muted-foreground">{mission.description}</p>

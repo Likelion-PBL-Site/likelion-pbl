@@ -4540,8 +4540,8 @@
           "caption": [],
           "type": "file",
           "file": {
-            "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/c69962b0-3951-485b-b10a-5bb29576bba8/cb2283d8-d539-4d79-9c66-383e8e824c66/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA_2026-01-14_%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE_10.11.24.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466ZKP6UA3U%2F20260203%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260203T094339Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDEaCXVzLXdlc3QtMiJGMEQCIBo4dtk4iS1BGpWR9%2FYncWvGQnecdTZPDW7H%2FA%2Bh%2Fz%2BJAiBgWils5jd4h69MTW29w7925sqQqzbyQgATVR1SUQSR2SqIBAj6%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAAaDDYzNzQyMzE4MzgwNSIMIT2x%2BQ9vTDxpEUP4KtwDf5zpsD6DPCum%2FRl2%2FdI385EfeHo1gl2Xz4qEGT5G7j24Owc4j%2FLH2MEKzYoiVlQtbyCnNdbv0vSU6%2BXtznvzfywMIrg6u7lcg3SiR9%2BXui2VGKU%2FIelwNyLYpVlxkdfDhA8Kqev8NiXynssNlY%2FU3x4h5PsgOPLbmU%2BrFFMKSCstAyAtnceon%2Ba3C7ZwH5Qw8PTVcJq%2Frm1cIjteGs10adCC7EYRhUbTsGJ37FNAfSM7Z%2F15vRqoK1t3MHOwIe2cfoi2NlCuBDXSQ4E2VnrDQaIOY7FRHpLSKpXGtoyr8DM51Ht33edrtZLE548U%2FgR3TL7%2FCmXsvylMcoTjlemvotatSOf59W3OKX4wPAtBUj48dSWYOQjMmGvAZfZSLID9qfPor%2B9Htoyts9kxoEUeC6%2FbU8WpWNVjJGpzEwLIYYeRQbFOXN%2Bvz0%2FtsMn4rywK0PL8xL8gfPM3nb1zFuTvhKtfSMidVG6PDMCVK3pUUh43%2FuOwgcsYUOshAnKf6nzaOG0UEYgl3imL5Sk0uZdK%2FtRLBjDx%2BHk26vIfFZKo4FMHY0giEEZDqPPkXsitUF086fWJdrWE52SapoWeQ%2BM%2BsZW2fAMHMQIEPdJvVwIc9y%2FTVflUG8G7lwrnkEQw9%2FmGzAY6pgFc5L91ETP%2Bzxqg%2F2ioOT3440pSTonLsBqtP0%2B4QP41W0DZTeHTdl0NrwG9TzqjGNYpCoacgRrk7CxufQoIn7QUMoF2efCwfs9SV0VkqM3W6%2FnbLalDPGovLt7kRrhsPdoIC6n6rWvFrMt%2FmfciPn0sRCY4mcrIqc%2FGm%2BmjlWkRSXtaWpPj0PJdYWoLYUYqsPmlI5ryuAOj8ne4WOoi6U8ZMObC7zsV&X-Amz-Signature=bb358ec640193023269dc5255ba8b25f5160ba6ca151e3bb0f87765a87d1b933&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
-            "expiry_time": "2026-02-03T10:43:39.221Z"
+            "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/c69962b0-3951-485b-b10a-5bb29576bba8/cb2283d8-d539-4d79-9c66-383e8e824c66/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA_2026-01-14_%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE_10.11.24.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466YEXRAD6W%2F20260203%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260203T101001Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDEaCXVzLXdlc3QtMiJHMEUCICV0ROpfXF7sCoKVw8sS0L%2BvmuibuDrpqEhdmrOgyGzqAiEAqBu3QQXVxZGOA9NwOEGPHtCKFbYJYhWKUsaDcStPJYwqiAQI%2Bv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDItk8Ea%2BO6Kl87sJlyrcA0sKcpEGbTmGIU3G%2FfrjNidU0TUEhmZVt9%2Ftzl61e8id%2Bqxac%2Fr9eYWnSQwhU1QTO%2Briytr8w3tRZYuubhQ1jlAxkWdS3K8g1lYFJCMauAqBx6oZA%2BI42D3ItbIG%2FXtvARr2a%2BejaLHVnwhQEFtKTOl0xdN6ZHSQPQQUpnytWEoVGLpDW8RLUPNYwkxcL4NB0aqjRp88z%2BAqWnEJIVdneLjVsSiFcjMC4nOoyPjVAPMH1KwbEaqDJH8CRC7prYk1Ff6UaXzRQGwRojE8OFAg9wqsv0vjeGdZCfU3Eo7%2B%2Fd5eqc6ybKWwFeo5QPFNT9M98prBl5BIe5qQuH2xiXjYLz%2BorFfCj2n2gpRZNfb40u6jwT2igliaianU2hG0ZkpJRNLvbo9hBOgnHYn0blFcFwnIb8ySHeIuvQd8TtjUrx9152g0ILWw81Z57VpcAKQ%2FQcrH0%2FioC1yMISIsudBhqh%2BbtZYWRCatiLXOaHPB4SaXfMYG%2B4J%2FMwiE4suXweke5wCCBAPG0vnJlu7TfXtKEWCPYbT0cND6ObEAktJw5SAbhCAz0ZIzPj6LewREkdahT6kyTFfdb24H7U4jftFqC6e4igXcCooEQ34PFNWIrFm1IMtWASKWlffgfJUhMJz4hswGOqUB%2F1Gw4b6G%2FDXbVW5rrzyDSg%2FJ3rzTh40YATjZ2jUPDBZSl3DftsEJFhxnI4bWMtazc6uxMSWbbsYnFmE9n6ZBCiu9k3bi%2BAnYVPoCFlh%2BYOcwrKhO%2FN3%2BixvajrvOQA7H6hBFTpHCmjGskcyPEE%2BQVejl698huWa%2BQj9Ea%2FjCHuRYtj%2B0aGe9%2FNkYtP63L0RTsJBeioFsoFTUYBdZBsWl%2B8c3T%2FWv&X-Amz-Signature=41e0e6093ca5a2fa9f2b40b3263bc3b499f7229cc2747e50327bc1f5cf6d42bb&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+            "expiry_time": "2026-02-03T11:10:01.342Z"
           }
         }
       },
@@ -4664,8 +4664,8 @@
           "caption": [],
           "type": "file",
           "file": {
-            "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/c69962b0-3951-485b-b10a-5bb29576bba8/d8534cb8-e568-4b1b-bfc2-579bf9e51af5/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA_2026-01-14_%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE_8.13.52.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466ZKP6UA3U%2F20260203%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260203T094339Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDEaCXVzLXdlc3QtMiJGMEQCIBo4dtk4iS1BGpWR9%2FYncWvGQnecdTZPDW7H%2FA%2Bh%2Fz%2BJAiBgWils5jd4h69MTW29w7925sqQqzbyQgATVR1SUQSR2SqIBAj6%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAAaDDYzNzQyMzE4MzgwNSIMIT2x%2BQ9vTDxpEUP4KtwDf5zpsD6DPCum%2FRl2%2FdI385EfeHo1gl2Xz4qEGT5G7j24Owc4j%2FLH2MEKzYoiVlQtbyCnNdbv0vSU6%2BXtznvzfywMIrg6u7lcg3SiR9%2BXui2VGKU%2FIelwNyLYpVlxkdfDhA8Kqev8NiXynssNlY%2FU3x4h5PsgOPLbmU%2BrFFMKSCstAyAtnceon%2Ba3C7ZwH5Qw8PTVcJq%2Frm1cIjteGs10adCC7EYRhUbTsGJ37FNAfSM7Z%2F15vRqoK1t3MHOwIe2cfoi2NlCuBDXSQ4E2VnrDQaIOY7FRHpLSKpXGtoyr8DM51Ht33edrtZLE548U%2FgR3TL7%2FCmXsvylMcoTjlemvotatSOf59W3OKX4wPAtBUj48dSWYOQjMmGvAZfZSLID9qfPor%2B9Htoyts9kxoEUeC6%2FbU8WpWNVjJGpzEwLIYYeRQbFOXN%2Bvz0%2FtsMn4rywK0PL8xL8gfPM3nb1zFuTvhKtfSMidVG6PDMCVK3pUUh43%2FuOwgcsYUOshAnKf6nzaOG0UEYgl3imL5Sk0uZdK%2FtRLBjDx%2BHk26vIfFZKo4FMHY0giEEZDqPPkXsitUF086fWJdrWE52SapoWeQ%2BM%2BsZW2fAMHMQIEPdJvVwIc9y%2FTVflUG8G7lwrnkEQw9%2FmGzAY6pgFc5L91ETP%2Bzxqg%2F2ioOT3440pSTonLsBqtP0%2B4QP41W0DZTeHTdl0NrwG9TzqjGNYpCoacgRrk7CxufQoIn7QUMoF2efCwfs9SV0VkqM3W6%2FnbLalDPGovLt7kRrhsPdoIC6n6rWvFrMt%2FmfciPn0sRCY4mcrIqc%2FGm%2BmjlWkRSXtaWpPj0PJdYWoLYUYqsPmlI5ryuAOj8ne4WOoi6U8ZMObC7zsV&X-Amz-Signature=62f68309748b98ac0545f5b273ea85f1a94ed2e7d793301d1477400965201698&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
-            "expiry_time": "2026-02-03T10:43:39.304Z"
+            "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/c69962b0-3951-485b-b10a-5bb29576bba8/d8534cb8-e568-4b1b-bfc2-579bf9e51af5/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA_2026-01-14_%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE_8.13.52.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466YEXRAD6W%2F20260203%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260203T101001Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDEaCXVzLXdlc3QtMiJHMEUCICV0ROpfXF7sCoKVw8sS0L%2BvmuibuDrpqEhdmrOgyGzqAiEAqBu3QQXVxZGOA9NwOEGPHtCKFbYJYhWKUsaDcStPJYwqiAQI%2Bv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDItk8Ea%2BO6Kl87sJlyrcA0sKcpEGbTmGIU3G%2FfrjNidU0TUEhmZVt9%2Ftzl61e8id%2Bqxac%2Fr9eYWnSQwhU1QTO%2Briytr8w3tRZYuubhQ1jlAxkWdS3K8g1lYFJCMauAqBx6oZA%2BI42D3ItbIG%2FXtvARr2a%2BejaLHVnwhQEFtKTOl0xdN6ZHSQPQQUpnytWEoVGLpDW8RLUPNYwkxcL4NB0aqjRp88z%2BAqWnEJIVdneLjVsSiFcjMC4nOoyPjVAPMH1KwbEaqDJH8CRC7prYk1Ff6UaXzRQGwRojE8OFAg9wqsv0vjeGdZCfU3Eo7%2B%2Fd5eqc6ybKWwFeo5QPFNT9M98prBl5BIe5qQuH2xiXjYLz%2BorFfCj2n2gpRZNfb40u6jwT2igliaianU2hG0ZkpJRNLvbo9hBOgnHYn0blFcFwnIb8ySHeIuvQd8TtjUrx9152g0ILWw81Z57VpcAKQ%2FQcrH0%2FioC1yMISIsudBhqh%2BbtZYWRCatiLXOaHPB4SaXfMYG%2B4J%2FMwiE4suXweke5wCCBAPG0vnJlu7TfXtKEWCPYbT0cND6ObEAktJw5SAbhCAz0ZIzPj6LewREkdahT6kyTFfdb24H7U4jftFqC6e4igXcCooEQ34PFNWIrFm1IMtWASKWlffgfJUhMJz4hswGOqUB%2F1Gw4b6G%2FDXbVW5rrzyDSg%2FJ3rzTh40YATjZ2jUPDBZSl3DftsEJFhxnI4bWMtazc6uxMSWbbsYnFmE9n6ZBCiu9k3bi%2BAnYVPoCFlh%2BYOcwrKhO%2FN3%2BixvajrvOQA7H6hBFTpHCmjGskcyPEE%2BQVejl698huWa%2BQj9Ea%2FjCHuRYtj%2B0aGe9%2FNkYtP63L0RTsJBeioFsoFTUYBdZBsWl%2B8c3T%2FWv&X-Amz-Signature=ba0ed2b6d37ad119aa44978d7904608d10f78e8107f45854092bfc33db5ddc57&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+            "expiry_time": "2026-02-03T11:10:01.304Z"
           }
         }
       },
@@ -4788,8 +4788,8 @@
           "caption": [],
           "type": "file",
           "file": {
-            "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/c69962b0-3951-485b-b10a-5bb29576bba8/e808331a-4d32-4632-8340-fc983d04bb07/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA_2026-01-14_%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE_10.09.16.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466ZKP6UA3U%2F20260203%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260203T094339Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDEaCXVzLXdlc3QtMiJGMEQCIBo4dtk4iS1BGpWR9%2FYncWvGQnecdTZPDW7H%2FA%2Bh%2Fz%2BJAiBgWils5jd4h69MTW29w7925sqQqzbyQgATVR1SUQSR2SqIBAj6%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAAaDDYzNzQyMzE4MzgwNSIMIT2x%2BQ9vTDxpEUP4KtwDf5zpsD6DPCum%2FRl2%2FdI385EfeHo1gl2Xz4qEGT5G7j24Owc4j%2FLH2MEKzYoiVlQtbyCnNdbv0vSU6%2BXtznvzfywMIrg6u7lcg3SiR9%2BXui2VGKU%2FIelwNyLYpVlxkdfDhA8Kqev8NiXynssNlY%2FU3x4h5PsgOPLbmU%2BrFFMKSCstAyAtnceon%2Ba3C7ZwH5Qw8PTVcJq%2Frm1cIjteGs10adCC7EYRhUbTsGJ37FNAfSM7Z%2F15vRqoK1t3MHOwIe2cfoi2NlCuBDXSQ4E2VnrDQaIOY7FRHpLSKpXGtoyr8DM51Ht33edrtZLE548U%2FgR3TL7%2FCmXsvylMcoTjlemvotatSOf59W3OKX4wPAtBUj48dSWYOQjMmGvAZfZSLID9qfPor%2B9Htoyts9kxoEUeC6%2FbU8WpWNVjJGpzEwLIYYeRQbFOXN%2Bvz0%2FtsMn4rywK0PL8xL8gfPM3nb1zFuTvhKtfSMidVG6PDMCVK3pUUh43%2FuOwgcsYUOshAnKf6nzaOG0UEYgl3imL5Sk0uZdK%2FtRLBjDx%2BHk26vIfFZKo4FMHY0giEEZDqPPkXsitUF086fWJdrWE52SapoWeQ%2BM%2BsZW2fAMHMQIEPdJvVwIc9y%2FTVflUG8G7lwrnkEQw9%2FmGzAY6pgFc5L91ETP%2Bzxqg%2F2ioOT3440pSTonLsBqtP0%2B4QP41W0DZTeHTdl0NrwG9TzqjGNYpCoacgRrk7CxufQoIn7QUMoF2efCwfs9SV0VkqM3W6%2FnbLalDPGovLt7kRrhsPdoIC6n6rWvFrMt%2FmfciPn0sRCY4mcrIqc%2FGm%2BmjlWkRSXtaWpPj0PJdYWoLYUYqsPmlI5ryuAOj8ne4WOoi6U8ZMObC7zsV&X-Amz-Signature=2d2aec21e2d07eb49d9d1b843a52b91a10d43d523008da030adaf17a182adc81&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
-            "expiry_time": "2026-02-03T10:43:39.221Z"
+            "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/c69962b0-3951-485b-b10a-5bb29576bba8/e808331a-4d32-4632-8340-fc983d04bb07/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA_2026-01-14_%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE_10.09.16.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466YEXRAD6W%2F20260203%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260203T101001Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDEaCXVzLXdlc3QtMiJHMEUCICV0ROpfXF7sCoKVw8sS0L%2BvmuibuDrpqEhdmrOgyGzqAiEAqBu3QQXVxZGOA9NwOEGPHtCKFbYJYhWKUsaDcStPJYwqiAQI%2Bv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDItk8Ea%2BO6Kl87sJlyrcA0sKcpEGbTmGIU3G%2FfrjNidU0TUEhmZVt9%2Ftzl61e8id%2Bqxac%2Fr9eYWnSQwhU1QTO%2Briytr8w3tRZYuubhQ1jlAxkWdS3K8g1lYFJCMauAqBx6oZA%2BI42D3ItbIG%2FXtvARr2a%2BejaLHVnwhQEFtKTOl0xdN6ZHSQPQQUpnytWEoVGLpDW8RLUPNYwkxcL4NB0aqjRp88z%2BAqWnEJIVdneLjVsSiFcjMC4nOoyPjVAPMH1KwbEaqDJH8CRC7prYk1Ff6UaXzRQGwRojE8OFAg9wqsv0vjeGdZCfU3Eo7%2B%2Fd5eqc6ybKWwFeo5QPFNT9M98prBl5BIe5qQuH2xiXjYLz%2BorFfCj2n2gpRZNfb40u6jwT2igliaianU2hG0ZkpJRNLvbo9hBOgnHYn0blFcFwnIb8ySHeIuvQd8TtjUrx9152g0ILWw81Z57VpcAKQ%2FQcrH0%2FioC1yMISIsudBhqh%2BbtZYWRCatiLXOaHPB4SaXfMYG%2B4J%2FMwiE4suXweke5wCCBAPG0vnJlu7TfXtKEWCPYbT0cND6ObEAktJw5SAbhCAz0ZIzPj6LewREkdahT6kyTFfdb24H7U4jftFqC6e4igXcCooEQ34PFNWIrFm1IMtWASKWlffgfJUhMJz4hswGOqUB%2F1Gw4b6G%2FDXbVW5rrzyDSg%2FJ3rzTh40YATjZ2jUPDBZSl3DftsEJFhxnI4bWMtazc6uxMSWbbsYnFmE9n6ZBCiu9k3bi%2BAnYVPoCFlh%2BYOcwrKhO%2FN3%2BixvajrvOQA7H6hBFTpHCmjGskcyPEE%2BQVejl698huWa%2BQj9Ea%2FjCHuRYtj%2B0aGe9%2FNkYtP63L0RTsJBeioFsoFTUYBdZBsWl%2B8c3T%2FWv&X-Amz-Signature=be56346484c89f85cef8e791e490616868b044cf89d1157a990ed157e0c08faf&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+            "expiry_time": "2026-02-03T11:10:01.304Z"
           }
         }
       },
@@ -5935,8 +5935,8 @@
           "caption": [],
           "type": "file",
           "file": {
-            "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/c69962b0-3951-485b-b10a-5bb29576bba8/23af86ad-b507-49e9-ad49-1d7483952e44/%E1%84%86%E1%85%AE%E1%84%8C%E1%85%A6.mov?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4664YUAK3PQ%2F20260203%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260203T094353Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDEaCXVzLXdlc3QtMiJIMEYCIQCB1D%2FPj3QUynSd7Vw9rLebK%2BG35CCHUWHtZB9nPr8e2wIhAL5BCNDSLJbumIAGHk6WPltsVajrGBYd21ygtgz1ffLKKogECPr%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMNjM3NDIzMTgzODA1IgzD6ICOrov%2Fn9GniNMq3APcm3E82dAJMNuAN3ZzoZA7muRyxGKBXuZ74wlu4hYLy1m2coZVwPArw5ShBzpRr351VBjHO7hcIhYj05%2BhRKXmlvvKMQy1W3wZC%2FkYeZkT6stSq3g3bzqrcn29ftT%2F1vBkGtvFYru%2BUK3rLCcu5CY%2FzCFCBiDp7wQOYcIBXXWwH9okQFyr0N%2Br5Es3wqbzCpftEDH8FT5EnqXhxBjljVuk7o3vG%2BGSzGIymO6ds47N84nLljf4hCsNp%2B1EobRC1GifbjdIKiHsAkUcH5qwTQCyvtb1u1tHs%2FeOELUjC2fKsaiGdMmXFL7RDWd6w8E%2FZGLvNUbtks7oW8%2BVl5MEQ61WK5g4%2BQ6gdvTC6PPRkCCgxCJAOaZjmDfOw7P4x%2BtwfwSGceofEHe%2FSKyPdEmGylWdMdFGFlKvJ5B7LhsupWgy7RKNwRt0X8M70oZohXX0g5pVgEk%2Bw8nPCZZyHezmUIJnZvbOVmGu9q7NVzg0iAtINDXiuhAThJokeHUJwFficJwb7fNW3MCcHbBUr3UnQ2pi%2B%2FVbPDX%2FgntlkHOPnK6wdpKL9mIvPwn5rXBR1z1%2Fzjhwafxk05mGZF8zRGkSOCLvxklleSpqOE79INBs78p9lq1l9kHIbkHAefdCAzDq%2BIbMBjqkAYLC%2FRf0kCtN2JCmG%2F6xPQmbIlJqUTc8N%2Banv6zfkuxIyeNN7LS317aIvQBHJj4VNYFzUY045QrC0Lb%2Bmg1GcjZqrbQsWPETT1PgmMzYb9D1cYUwWcNLxFpDRE7%2Fbcahu6%2BaOqMEyeIpPa3Yd3dolL2XEu1SX6bQJWHrIiMnnwG8N9dnak0H42n1DoacZ5xlLRw71yUvZyPID6vLE3TcKW817mAe&X-Amz-Signature=6fdfffb5f86bd88584d50131cf33fb2c84b2d612c054f05c40b328c7089a50a2&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
-            "expiry_time": "2026-02-03T10:43:53.520Z"
+            "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/c69962b0-3951-485b-b10a-5bb29576bba8/23af86ad-b507-49e9-ad49-1d7483952e44/%E1%84%86%E1%85%AE%E1%84%8C%E1%85%A6.mov?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466ZOVRLHNG%2F20260203%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260203T101007Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDEaCXVzLXdlc3QtMiJIMEYCIQCRvfdTWkqnMcwHd%2Fa0YYQ%2FOOtmWXbEOYnrFeDjWY%2BXFAIhALFiPQarJXLQnXxYlwbRh3T3eOwGwkIQKEbL79vreXxGKogECPr%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMNjM3NDIzMTgzODA1IgwxGyC733nH%2FnTJKHwq3AOD00mY2ADRI5Xc2WqC6LWtXPWWuOKsFNHNqOs13qFbpmAj6Bol7kuMlSRzaqtBDNa4ssFqpJyQRrLT9SyFOahfryna5UUj4I8vkrQXeW0J7yBiLiytp9n%2FveXHY5I1tUkA5AmuMEU6A118AnXQSEpEsqe%2Bs8%2Fvw8TacmV5lcxHuQV%2BePFQxKbhfKBItP2Qz0qxJkv%2Bt7y6rRetu4mJKlkvHPtpJqMb1%2BNOZ%2B2ZzAMvJoDVmLYnDS0eH3Mu0H7NPzG9pLL7xibXs0hAYTR7Qq90QXUIPe2oXMfyOSwI7q6RrrMn4E2T%2FqjcwqoRvMxFhpDairif8tAutfdC%2FnaWTlZ4wI1rfGQcAV74yBT%2FfYaJRc%2BtCObuh751gD%2FzGGrD7CMBhqSZxuDmQM%2B%2BJEXXWD%2FW0HYpelK%2FawhliAj2mnnDaZrjjx71TaHde%2FRtsuF1xpTaoVUdakNYjlfezBzCv9QneIgiQHpg6dwavZ18bA%2Fr9uuQXKNEmB6%2FW4HrCsFc6qMwRBSDXpLnhVila2JWrnOZCwYekKQQ9Yt0WzYq63iElatAavQwPpdVowf%2FJFD%2BFyhcgERAM%2BGU5Zt68fv7gyj4jf6wPaawIB704wd8gqXH9H8A0%2BOogkokzwSMqDCu%2BYbMBjqkAXfNNoWB%2FbCYYIpooEIw4uNt95AZNo3iJ9StWQcLOI61ay47MaHBKGTsGpjmiQCJUKuARA0dvlmAcQvZw%2FtQnzzBf%2FUPcA5lR0%2Bn4rAijxo7%2BjDpCbZDj5k0Qplulxt6wYyQU%2FrDo52vaa3YQkSDXHplRTZuTjgvqXlEyG1DZnnGkouLC3MzbGBgo27CEuiW9%2Fs3fmygFNr5Avi7BSD9PYOJAo%2By&X-Amz-Signature=ede8c851ce1fe5d8713ac8d82baf588b4bd8136a9b33a6dad8ceef337d93cd47&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+            "expiry_time": "2026-02-03T11:10:07.375Z"
           }
         }
       },
@@ -6137,8 +6137,8 @@
           "caption": [],
           "type": "file",
           "file": {
-            "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/c69962b0-3951-485b-b10a-5bb29576bba8/34aec182-8223-40a1-ba55-fcff5cb1d332/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA_2026-01-14_%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE_10.17.44.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4664YUAK3PQ%2F20260203%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260203T094353Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDEaCXVzLXdlc3QtMiJIMEYCIQCB1D%2FPj3QUynSd7Vw9rLebK%2BG35CCHUWHtZB9nPr8e2wIhAL5BCNDSLJbumIAGHk6WPltsVajrGBYd21ygtgz1ffLKKogECPr%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMNjM3NDIzMTgzODA1IgzD6ICOrov%2Fn9GniNMq3APcm3E82dAJMNuAN3ZzoZA7muRyxGKBXuZ74wlu4hYLy1m2coZVwPArw5ShBzpRr351VBjHO7hcIhYj05%2BhRKXmlvvKMQy1W3wZC%2FkYeZkT6stSq3g3bzqrcn29ftT%2F1vBkGtvFYru%2BUK3rLCcu5CY%2FzCFCBiDp7wQOYcIBXXWwH9okQFyr0N%2Br5Es3wqbzCpftEDH8FT5EnqXhxBjljVuk7o3vG%2BGSzGIymO6ds47N84nLljf4hCsNp%2B1EobRC1GifbjdIKiHsAkUcH5qwTQCyvtb1u1tHs%2FeOELUjC2fKsaiGdMmXFL7RDWd6w8E%2FZGLvNUbtks7oW8%2BVl5MEQ61WK5g4%2BQ6gdvTC6PPRkCCgxCJAOaZjmDfOw7P4x%2BtwfwSGceofEHe%2FSKyPdEmGylWdMdFGFlKvJ5B7LhsupWgy7RKNwRt0X8M70oZohXX0g5pVgEk%2Bw8nPCZZyHezmUIJnZvbOVmGu9q7NVzg0iAtINDXiuhAThJokeHUJwFficJwb7fNW3MCcHbBUr3UnQ2pi%2B%2FVbPDX%2FgntlkHOPnK6wdpKL9mIvPwn5rXBR1z1%2Fzjhwafxk05mGZF8zRGkSOCLvxklleSpqOE79INBs78p9lq1l9kHIbkHAefdCAzDq%2BIbMBjqkAYLC%2FRf0kCtN2JCmG%2F6xPQmbIlJqUTc8N%2Banv6zfkuxIyeNN7LS317aIvQBHJj4VNYFzUY045QrC0Lb%2Bmg1GcjZqrbQsWPETT1PgmMzYb9D1cYUwWcNLxFpDRE7%2Fbcahu6%2BaOqMEyeIpPa3Yd3dolL2XEu1SX6bQJWHrIiMnnwG8N9dnak0H42n1DoacZ5xlLRw71yUvZyPID6vLE3TcKW817mAe&X-Amz-Signature=62517f1c61633fbc475e61a6495ee86210be390ec7c05587ebe9e4486ab0acdd&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
-            "expiry_time": "2026-02-03T10:43:53.657Z"
+            "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/c69962b0-3951-485b-b10a-5bb29576bba8/34aec182-8223-40a1-ba55-fcff5cb1d332/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA_2026-01-14_%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE_10.17.44.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466ZOVRLHNG%2F20260203%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260203T101007Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDEaCXVzLXdlc3QtMiJIMEYCIQCRvfdTWkqnMcwHd%2Fa0YYQ%2FOOtmWXbEOYnrFeDjWY%2BXFAIhALFiPQarJXLQnXxYlwbRh3T3eOwGwkIQKEbL79vreXxGKogECPr%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMNjM3NDIzMTgzODA1IgwxGyC733nH%2FnTJKHwq3AOD00mY2ADRI5Xc2WqC6LWtXPWWuOKsFNHNqOs13qFbpmAj6Bol7kuMlSRzaqtBDNa4ssFqpJyQRrLT9SyFOahfryna5UUj4I8vkrQXeW0J7yBiLiytp9n%2FveXHY5I1tUkA5AmuMEU6A118AnXQSEpEsqe%2Bs8%2Fvw8TacmV5lcxHuQV%2BePFQxKbhfKBItP2Qz0qxJkv%2Bt7y6rRetu4mJKlkvHPtpJqMb1%2BNOZ%2B2ZzAMvJoDVmLYnDS0eH3Mu0H7NPzG9pLL7xibXs0hAYTR7Qq90QXUIPe2oXMfyOSwI7q6RrrMn4E2T%2FqjcwqoRvMxFhpDairif8tAutfdC%2FnaWTlZ4wI1rfGQcAV74yBT%2FfYaJRc%2BtCObuh751gD%2FzGGrD7CMBhqSZxuDmQM%2B%2BJEXXWD%2FW0HYpelK%2FawhliAj2mnnDaZrjjx71TaHde%2FRtsuF1xpTaoVUdakNYjlfezBzCv9QneIgiQHpg6dwavZ18bA%2Fr9uuQXKNEmB6%2FW4HrCsFc6qMwRBSDXpLnhVila2JWrnOZCwYekKQQ9Yt0WzYq63iElatAavQwPpdVowf%2FJFD%2BFyhcgERAM%2BGU5Zt68fv7gyj4jf6wPaawIB704wd8gqXH9H8A0%2BOogkokzwSMqDCu%2BYbMBjqkAXfNNoWB%2FbCYYIpooEIw4uNt95AZNo3iJ9StWQcLOI61ay47MaHBKGTsGpjmiQCJUKuARA0dvlmAcQvZw%2FtQnzzBf%2FUPcA5lR0%2Bn4rAijxo7%2BjDpCbZDj5k0Qplulxt6wYyQU%2FrDo52vaa3YQkSDXHplRTZuTjgvqXlEyG1DZnnGkouLC3MzbGBgo27CEuiW9%2Fs3fmygFNr5Avi7BSD9PYOJAo%2By&X-Amz-Signature=34f4b8955478db8237a26f5d0f368cb38eb4b5817ddfa4fb17dff65c7b5576ab&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+            "expiry_time": "2026-02-03T11:10:07.347Z"
           }
         }
       },
@@ -6456,16 +6456,18 @@
         "in_trash": false,
         "type": "divider",
         "divider": {}
-      },
+      }
+    ],
+    "vod": [
       {
         "object": "block",
-        "id": "2f544860-a4f4-80ab-8f7e-f57e9ae8f5a3",
+        "id": "2fc44860-a4f4-801b-b81c-df45bd01ac65",
         "parent": {
-          "type": "page_id",
-          "page_id": "2f044860-a4f4-8198-90df-ced14fd7097b"
+          "type": "block_id",
+          "block_id": "2fc44860-a4f4-804f-8755-fcad5b7db34d"
         },
-        "created_time": "2026-01-27T03:21:00.000Z",
-        "last_edited_time": "2026-01-27T03:21:00.000Z",
+        "created_time": "2026-02-03T09:56:00.000Z",
+        "last_edited_time": "2026-02-03T09:57:00.000Z",
         "created_by": {
           "object": "user",
           "id": "2aed872b-594c-81eb-bc82-000291164988"
@@ -6479,11 +6481,299 @@
         "in_trash": false,
         "type": "paragraph",
         "paragraph": {
-          "rich_text": [],
+          "rich_text": [
+            {
+              "type": "mention",
+              "mention": {
+                "type": "link_mention",
+                "link_mention": {
+                  "href": "https://likelion.net/courses/technology/next-frontend",
+                  "title": "[프론트엔드] 사이트 기본 구조의 이해",
+                  "icon_url": "https://likelion.net/img/favicon.png",
+                  "description": "IT분야의 TECH 인재를 키우는 교육 커뮤니티, 멋쟁이사자처럼!",
+                  "thumbnail_url": "https://d35ai18pny966l.cloudfront.net/course/vodclass/next-frontend/2-1_next_frontend_final.png"
+                }
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "https://likelion.net/courses/technology/next-frontend",
+              "href": "https://likelion.net/courses/technology/next-frontend"
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "object": "block",
+        "id": "2fc44860-a4f4-8037-b44e-eb076ce8545b",
+        "parent": {
+          "type": "block_id",
+          "block_id": "2fc44860-a4f4-804f-8755-fcad5b7db34d"
+        },
+        "created_time": "2026-02-03T09:56:00.000Z",
+        "last_edited_time": "2026-02-03T09:57:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "has_children": false,
+        "archived": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "[프론트엔드] 사이트 기본 구조의 이해",
+                "link": null
+              },
+              "annotations": {
+                "bold": true,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "[프론트엔드] 사이트 기본 구조의 이해",
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "object": "block",
+        "id": "2fc44860-a4f4-80ae-a83b-c451f14f1115",
+        "parent": {
+          "type": "block_id",
+          "block_id": "2fc44860-a4f4-804f-8755-fcad5b7db34d"
+        },
+        "created_time": "2026-02-03T09:56:00.000Z",
+        "last_edited_time": "2026-02-03T09:57:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "has_children": false,
+        "archived": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "챕터 2. Web의 동작 원리 - 클라이언트와 서버의 만남",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "챕터 2. Web의 동작 원리 - 클라이언트와 서버의 만남",
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "object": "block",
+        "id": "2fc44860-a4f4-80c7-a07d-c4f4097d5a26",
+        "parent": {
+          "type": "block_id",
+          "block_id": "2fc44860-a4f4-804f-8755-fcad5b7db34d"
+        },
+        "created_time": "2026-02-03T09:57:00.000Z",
+        "last_edited_time": "2026-02-03T09:58:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "has_children": false,
+        "archived": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "챕터 3. 웹 페이지를 이루는 삼총사 - HTML, CSS, JavaScript",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "챕터 3. 웹 페이지를 이루는 삼총사 - HTML, CSS, JavaScript",
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "object": "block",
+        "id": "2fc44860-a4f4-80b8-8d4d-c44dd427bf27",
+        "parent": {
+          "type": "block_id",
+          "block_id": "2fc44860-a4f4-804f-8755-fcad5b7db34d"
+        },
+        "created_time": "2026-02-03T09:58:00.000Z",
+        "last_edited_time": "2026-02-03T09:58:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "has_children": false,
+        "archived": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "챕터 4. 개발 환경 세팅",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "챕터 4. 개발 환경 세팅",
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "object": "block",
+        "id": "2fc44860-a4f4-80e1-800d-cead7b8f9f4e",
+        "parent": {
+          "type": "block_id",
+          "block_id": "2fc44860-a4f4-804f-8755-fcad5b7db34d"
+        },
+        "created_time": "2026-02-03T09:58:00.000Z",
+        "last_edited_time": "2026-02-03T09:58:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "has_children": false,
+        "archived": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "챕터 6. HTML Beginner",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "챕터 6. HTML Beginner",
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "object": "block",
+        "id": "2fc44860-a4f4-80cd-8e3b-fa204d60ffc3",
+        "parent": {
+          "type": "block_id",
+          "block_id": "2fc44860-a4f4-804f-8755-fcad5b7db34d"
+        },
+        "created_time": "2026-02-03T09:58:00.000Z",
+        "last_edited_time": "2026-02-03T09:58:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "has_children": false,
+        "archived": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "챕터 7. HTML Next Level",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "챕터 7. HTML Next Level",
+              "href": null
+            }
+          ],
           "color": "default"
         }
       }
     ]
   },
-  "syncedAt": "2026-02-03T09:43:54.918Z"
+  "syncedAt": "2026-02-03T10:10:10.304Z"
 }

@@ -1192,8 +1192,8 @@
           "caption": [],
           "type": "file",
           "file": {
-            "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/c69962b0-3951-485b-b10a-5bb29576bba8/4eb47c2e-4c8f-4413-a741-9ca60bb0498e/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466ULW7A6I2%2F20260203%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260203T094825Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDEaCXVzLXdlc3QtMiJIMEYCIQD7sQX801BhK3Q7IaZ1ccnUb6gx81RqeH4jKBkIf7zjLQIhAMR9qRQL7zWrNGqa480qUjApRJVtdvn4p%2B2ETi2NJifGKogECPr%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMNjM3NDIzMTgzODA1IgxvDRGX%2F2sVwFI73wcq3APXc9pXxYadRsGDW2Yr4x6XCOkABZ0uWFft3JlJsgqC3%2FfPaENaIC%2BecBzgXmit8heQqEdk4%2Bb%2BoFHn8pRYMU%2FllK%2FwDTWGg%2B%2BjzZBiOvhlT1uAl7VmwuaUUOf6clCCj36%2BN%2BaBxWS0B8i34vMfTS94THhmX8hkt5DIgBykCHIcTsTbLe2VRpGS75AdmnRdReL4cPCLWrltlURWvpn5jeKFsy1aLJd9nIM9F6eL8dABMuNrMjAG8Qp4TLykDp49ipUa9ToirggSIiCe5owh%2B4hEvJBK7DBonXLk%2FPMSvqoqMWMYO8Xp1VXIfn41ceDfP3RA%2B%2Fmwnp6lHkYg2p0W%2BBfOpX83oc959LMCLkmautqdK7CfgqadBZ2J4E1GLR9FMowLmjrJ5ho8R3yNH11KItxGRzRO7ivmcf8D4ZTF0vxZNCpkv%2FmjL2LIUwQQlGOY%2FhR6dkJKKFxyBwU6HeAaetIPuoTYMFkEYJsCb9unPHOqcbJZPqEX638pi4zjMWrGtJB2kWEgU08Xq4wNMOHbNnkgC1GLvwvQ%2Ba9bHqFaes7AJjkBL5k8BqKI8ZHIvPmloXNPn0HUxtTKaw6ReylebzcAoSj3L0ueADl3IZakjl2VIOmMVdH0JIX65t9RqDCm%2BYbMBjqkAYTpHxmkhTXtSRonu4yVyLYafdI4gFTcrdi3oujg6fo0NhtcfA4WFy3COuY82dAbWmDYzvqQxEYa4kO9CWmYshJZniwNtMA6IHJHL9%2FUnCnHvSQbLmI8aCtGagA27r4%2BKOzRLlSy1rOKg%2BVGZUlDS8gnC0qhCI22x0dePoH8waVpoYxRX8DLD6UwtYlmElRM%2Ff73CSRg8OWqmAo3hNfFZomOtXy0&X-Amz-Signature=5d8754a24e85644e91f88f009df33e19fb4b1c67822bff819214d1d598698c6a&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
-            "expiry_time": "2026-02-03T10:48:25.890Z"
+            "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/c69962b0-3951-485b-b10a-5bb29576bba8/4eb47c2e-4c8f-4413-a741-9ca60bb0498e/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4664FJGSUWC%2F20260203%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260203T101421Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDEaCXVzLXdlc3QtMiJGMEQCIFsyrmjyQBc29o3Kg3ScTpakazSnbghF39cXS3b4ynlrAiBEEaVuo9ztQU7kCpwwpAJPQry6r69bbL%2FoLcaANjWyXiqIBAj6%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAAaDDYzNzQyMzE4MzgwNSIMmj0g%2FQXbm9A0GM5RKtwDHJ8aBxb5%2FQRdLBznmvjIBn0LaWwmEgduipYGtOsy6VltHWdcDf%2BcUB1h3xjCDyxrk5sxT%2B24nmDWm1jM0w%2F5cF3afyEDEnkGvoHHkNV3Qj9ACkMaQtIymLvuG7iXYuiYEbEPREfFkiSzwtq8QmSIksYEWPX3Kj9D4M91t2SzquEYS7N4W3082c4YtRCl1IBoxmfLQigus91%2BPapCuvw0dhNvPaUqyEqKSEUBeKN0TpXR9icMY4wyJIrph6CYuB8ZXL0yTAEK3rBgP4r6XQDLFHYDivoiyUzCAdmjM%2FpnFuxWEHQDlG35F3QBK4Ntpo%2FsfpZeG0nSxxh3Tg3WyNS1Q1gAnbsU0KvsE0PbQHyUW4OnCkhApX7t96%2FXwZRUdKO51ll7czGkMopEJUBIZ2OKVuq5%2BXDyUi2yALb%2FLF29wl1%2BO2IPBtighOCZhEXvXj%2FGSzaHlPTP2yY7XjiIK4AE12GQ74M6B8CojcRT6kSaAWFyzT9JaUwbmazWTQoq3AMJVtO0dlXnFh%2F9XeYKuMNv021XIdNPl7K%2BY6eqClhKgzzsXHQgFkk%2FB2DiAJ169plm8OzprhrCTLLethUpMkUhusNEv8y8RrzzLCo9IBxsEIpjT%2Fd83IROTxrH2o0wrfmGzAY6pgGOTAOPFG4HbZLlMwOz9NDaGN4hMCmbvLQaPZvQKdzYGbH7RQzn7s9WOpNV25EEFftG40SIPW49oydAuvXHsE%2BJAJaMgM1Wpah1paSwYgV3NAlUptOK9ZIxkKybzupjy5CP3m3Rsv745czNUREPMbD3BmwFnpqRpckaXiQapw4LT3FFGIKsPfOHYcKXfby366PLKRa%2BO%2FK22%2BukPd%2BBGucDFMVaOEIp&X-Amz-Signature=ef38efd52dc0f231410816319d0d7ba502d397c804fd7fbf6787c1d96657265a&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+            "expiry_time": "2026-02-03T11:14:21.788Z"
           }
         }
       },
@@ -1976,7 +1976,311 @@
           "color": "default"
         }
       }
+    ],
+    "vod": [
+      {
+        "object": "block",
+        "id": "2fc44860-a4f4-8060-8e44-e54161dc64bc",
+        "parent": {
+          "type": "block_id",
+          "block_id": "2fc44860-a4f4-80e5-8ed9-e14003377c34"
+        },
+        "created_time": "2026-02-03T09:56:00.000Z",
+        "last_edited_time": "2026-02-03T09:56:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "has_children": false,
+        "archived": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "mention",
+              "mention": {
+                "type": "link_mention",
+                "link_mention": {
+                  "href": "https://likelion.net/courses/technology/next-PM",
+                  "title": "PM업무, 강의 하나로 정리하기",
+                  "icon_url": "https://likelion.net/img/favicon.png",
+                  "description": "IT분야의 TECH 인재를 키우는 교육 커뮤니티, 멋쟁이사자처럼!",
+                  "thumbnail_url": "https://d35ai18pny966l.cloudfront.net/course/vodclass/next_PM/2-1_next_PM.png"
+                }
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "https://likelion.net/courses/technology/next-PM",
+              "href": "https://likelion.net/courses/technology/next-PM"
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "object": "block",
+        "id": "2fc44860-a4f4-800c-bc50-fb4689014392",
+        "parent": {
+          "type": "block_id",
+          "block_id": "2fc44860-a4f4-80e5-8ed9-e14003377c34"
+        },
+        "created_time": "2026-02-03T09:56:00.000Z",
+        "last_edited_time": "2026-02-03T09:56:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "has_children": false,
+        "archived": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "PM업무, 강의 하나로 정리하기",
+                "link": null
+              },
+              "annotations": {
+                "bold": true,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "PM업무, 강의 하나로 정리하기",
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "object": "block",
+        "id": "2fc44860-a4f4-8094-acc5-c678050318e3",
+        "parent": {
+          "type": "block_id",
+          "block_id": "2fc44860-a4f4-80e5-8ed9-e14003377c34"
+        },
+        "created_time": "2026-02-03T09:56:00.000Z",
+        "last_edited_time": "2026-02-03T09:56:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "has_children": false,
+        "archived": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "챕터 6. PM이 실무에서 작성하는 대표적인 문서",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "챕터 6. PM이 실무에서 작성하는 대표적인 문서",
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "object": "block",
+        "id": "2fc44860-a4f4-80e5-a77e-f6cd2c49641e",
+        "parent": {
+          "type": "block_id",
+          "block_id": "2fc44860-a4f4-80e5-8ed9-e14003377c34"
+        },
+        "created_time": "2026-02-03T09:56:00.000Z",
+        "last_edited_time": "2026-02-03T09:56:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "has_children": false,
+        "archived": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "color": "default"
+        }
+      },
+      {
+        "object": "block",
+        "id": "2fc44860-a4f4-8043-8528-c5ab58cc0b11",
+        "parent": {
+          "type": "block_id",
+          "block_id": "2fc44860-a4f4-80e5-8ed9-e14003377c34"
+        },
+        "created_time": "2026-02-03T09:56:00.000Z",
+        "last_edited_time": "2026-02-03T09:56:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "has_children": false,
+        "archived": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "mention",
+              "mention": {
+                "type": "link_mention",
+                "link_mention": {
+                  "href": "https://likelion.net/courses/technology/next_figma",
+                  "title": "Figma로 앱 디자인부터 포트폴리오까지",
+                  "icon_url": "https://likelion.net/img/favicon.png",
+                  "description": "IT분야의 TECH 인재를 키우는 교육 커뮤니티, 멋쟁이사자처럼!",
+                  "thumbnail_url": "https://d35ai18pny966l.cloudfront.net/course/vodclass/next_figma/2-1_next-figma.png"
+                }
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "https://likelion.net/courses/technology/next_figma",
+              "href": "https://likelion.net/courses/technology/next_figma"
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "object": "block",
+        "id": "2fc44860-a4f4-800c-8ff1-d6408ae9d1fe",
+        "parent": {
+          "type": "block_id",
+          "block_id": "2fc44860-a4f4-80e5-8ed9-e14003377c34"
+        },
+        "created_time": "2026-02-03T09:56:00.000Z",
+        "last_edited_time": "2026-02-03T09:56:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "has_children": false,
+        "archived": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Figma로 앱 디자인부터 포트폴리오까지",
+                "link": null
+              },
+              "annotations": {
+                "bold": true,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Figma로 앱 디자인부터 포트폴리오까지",
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "object": "block",
+        "id": "2fc44860-a4f4-8004-b684-c1de46cbca56",
+        "parent": {
+          "type": "block_id",
+          "block_id": "2fc44860-a4f4-80e5-8ed9-e14003377c34"
+        },
+        "created_time": "2026-02-03T09:56:00.000Z",
+        "last_edited_time": "2026-02-03T09:56:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "has_children": false,
+        "archived": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "챕터 1. Figma 기초 이해",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "챕터 1. Figma 기초 이해",
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      }
     ]
   },
-  "syncedAt": "2026-02-03T09:48:34.950Z"
+  "syncedAt": "2026-02-03T10:14:26.028Z"
 }

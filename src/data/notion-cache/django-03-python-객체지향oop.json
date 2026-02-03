@@ -4552,8 +4552,8 @@
           "caption": [],
           "type": "file",
           "file": {
-            "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/c69962b0-3951-485b-b10a-5bb29576bba8/200a9e0a-24a3-4d5b-8257-e27ed2ed6ab9/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA_2026-01-25_%E1%84%8B%E1%85%A9%E1%84%8C%E1%85%A5%E1%86%AB_10.38.40.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466SRNRWI7Y%2F20260203%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260203T094638Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDEaCXVzLXdlc3QtMiJHMEUCIFiCoOklDZNXGRTgmUa29l98ROaoptYIdCutQJ274iMXAiEArvTxFRDYEgdqAIdA2ngiiYuyw%2FlFGVlbDl820XIkWggqiAQI%2Bv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDGEyIiLBLT7SetwCbircAzAEEHWQQ%2FvyJvWkuhpYmstpYd4wB8Njp3QDIViWgigxg5xsl%2FHaw5tNKHYgO436I%2BSG5VaIeQY4YBfD8faGHtMhyLhOTuALwAfMIhdeOIU%2B8qZzhLiRKX7z9%2FcOg%2BtGMqBUoBohip%2F09nXfhW4ArT6fjqicbis7YZA0QeZdsga9ewNJh%2FoRRI7ABJ8idGU6ZsEplPRzMxsZB%2FVs3mi1vzlYRnRvuPDvGI3j0fla33I4pBo7C9M5QuXyHyBHBMnj65oxnxifgw7FmMijHkSJTHl%2FKXMqwOhvjX0MdacYhltvTB5zMDa0ae%2FiO5kMOmDjbR54r4jA4UkMS5cfU2U7fPXcdGTVFmbJMpp2W25CoGE0EkwzmmSCpM5gOvdHN3wY9n0DdINFSVlgIAgb0tc5mVGd7%2FisBUJkLnfkW6YA6qU%2FlwXZVi0M0Ec4ZOKrjIDo2ZYbtxjt%2BEulstPOHW59gQ92h3Gc7bUm5bbjx2WpCWYpBsxiQSIpPNmRP8rrzg4mr%2Fp3JqThOXmTh2kmN5fGfoyVmvqgZ5uDT0CgNtGvZjvD7%2BPXGy3eamshB8Gu0FRX2WRD6wUGPUeby8lkyrWpXaYAx5h8ZNrWEcDIlPUez8x%2BIKH9bz1Z2CLWEV4kMKb5hswGOqUBndQaHxs%2FC4AM3Z1jRKBNxfUK24RdT54YzrXqkYrczkGrYaO4D4pEV3p0%2BRi%2BKRk6THBMb1szqs%2FqESJMLyESyneCDJimB53WADBS5YzUMxczzFMwH4NNwKkMtKycPjqeEgwJoji1Uc%2BB69V9%2BvFplGnVK0T5EhejCHf6g9iopWRWK1Z18v6ZWIA3asDi2l1fGs77oTjk%2BSbqRULUCl0AtlI0L957&X-Amz-Signature=dc4b442dccc3ff7c4bc622bdba02d495e71d6e5464a4d2e4bee7c4c99b82285f&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
-            "expiry_time": "2026-02-03T10:46:38.582Z"
+            "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/c69962b0-3951-485b-b10a-5bb29576bba8/200a9e0a-24a3-4d5b-8257-e27ed2ed6ab9/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA_2026-01-25_%E1%84%8B%E1%85%A9%E1%84%8C%E1%85%A5%E1%86%AB_10.38.40.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4667XUFM5XJ%2F20260203%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260203T101229Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDEaCXVzLXdlc3QtMiJIMEYCIQDYMXI%2FdPJ1vgzEP0OZqa6fZF2AiGBmq86NECQTwxm%2FygIhAPY2DK22jggaCNYaoMAsfKWU5LzcOYxO6ovQSq887jIHKogECPr%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMNjM3NDIzMTgzODA1IgxhrHHgIkR%2Fjl%2BQbz8q3APmelgZiAYocavpp%2FWJU%2BpMs0XDmytTL2LB25aeeicR0thoFIVBY77zlVxuoDHzhuc9CxX1s1pRQFohVe9F6RyldMmZrwRYqQk6In7mVMXGrkqhj1b6oDb7T%2BDvN21dwiRql3wxsT0qUP4YCfCzNEKKwyks1RkNek1JeSo5xOnb2HFvRsScWymspPwzid5iO07GS1rvi1aPLhVqWS0YxDhJj2LBVpAk7TyP0hGVt2sMmUTUn34mFt%2F0y38wQmUd3yGsZ9aU3sCJCWAFIZisYRzO0bt6AYKlBtyjxDQM66%2BbBS7bh8VecZmZcouf4DCZ45KxCLeZuWAaFBQ3TcRzCqnv2Us1vzpGqS07DVh9MuLcU7fF%2Fc5mz9JMGvGc1YAterJ%2FY6HNaou1pik11xAaN%2F0PJHzGum7FiPgncu5UeoWfzoA7TpMkALhACvNIeBtQmDjNGJ5%2BqsV6H%2Bu8g202QJX6dieKMuHQLYCJJIQvAJk5QXz1f6n7TpEik3UU772kDm7fjkE8I8ByZ%2BQliXxKHB6LzSYkaq0Ui%2FA0AUJC3YgbrrKvbxq%2BTBEdm50lZtf5%2Fb83m%2BzwiOuzaTRoQzvhmUyQLqWgRknkZHrc%2BAbt0YrijP5FLYft85o%2B7h6FbzCX%2BYbMBjqkAabe0ZnalmmZKNP5lh9lB535jb7sLRGlS0Re2i%2BouEzJUw6PuoKxHgXnSWubv6RTdTpVemXqxlHpF7TjxBo%2FbAAfY9Tm03ZvAIZCYAQ23gr4AJg30EMFjyBzlS4puYwXyJfshvMJ1bXp1MIVN18sS6tl7B3d7tae4mVuIJtoH6W%2B06Ph3hDRXkdNGIQ5h8tn6b%2Bri0%2FGwl3y3DDoqbkQQaH5mTJc&X-Amz-Signature=b260fd7c37c66323d0c7bb22ff7027976e184538f1f3ef52aa9202e3d2946949&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+            "expiry_time": "2026-02-03T11:12:28.625Z"
           }
         }
       },
@@ -5429,8 +5429,8 @@
           "caption": [],
           "type": "file",
           "file": {
-            "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/c69962b0-3951-485b-b10a-5bb29576bba8/2ed56056-d7f1-4618-8db3-b8894c5e3061/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA_2026-01-25_%E1%84%8B%E1%85%A9%E1%84%8C%E1%85%A5%E1%86%AB_10.51.05.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466S5MOW3UQ%2F20260203%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260203T094644Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDEaCXVzLXdlc3QtMiJHMEUCIB%2BZxVDA6%2Bbgq8GsSwDzIQNABeVqVm3jCFggK9IAz0O7AiEAolMoeGKGBCu3Igpd3hcji3UO26WeeJ3S8uocaRwcWzoqiAQI%2Bv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDMLfMSiKdhynXTfayircAwsSI2tmRsqqewOZnGS%2BbRe7gU2QjfsWdSrkoWDlmpdLDFIjv2tpJ%2FbR%2B4sCZ%2BOjuHZOCt3SFN2Ou7MRm5mJaYKWI3PR3VYzECYg8qin4x0XFWK%2FiSMYbXMQ7QbxbXKNE84r2FLy7fRiF8w%2B66cAgSojkm4HfSMfBmmPfCzHR38JkT0tDzmSqgbKPCKmzC6n990S9xepbsQiSoKYQ6gzKx%2Bk1zOXB3q%2FlZ5Yuhawm3PHg1DpSgEFGEERhzHeSg1W9CZL28IR64nIGyEtRrATJdrQOOpRuo0pwvi6%2BkMEmTbgAnKlPlY2bnwzaMjq16c4prNRj1qysa08j3FobeotVuwmEtw1ZWVAAwELbfQhxuShsFhKj4ff3xJIt%2F08M8DTyLQBaxM6UzaPF5u16DXrOA9nZPQlv8N80FiZIQGomkM9MkcZXg8eE%2BRnbCyt0dokQQO8PhzsShEFkRgypjUHPxD6UrTcGeoGqJeGvzhTkATEY5RX5Xlv0en8bqbfJmdVWLQhaObTln0VoI3EpR91Zcc%2B6qrzDnUB8mzAW7fzZSjwHqI5aGoY296ybb8%2Baj4RBoCS7v2%2FU%2BekmJf%2BB%2Fyf3bWx1wvd0Mk%2BSByJjOzbttzfkf%2FKy851JVW8GbbJMPX4hswGOqUB1iP8OyvxqF0G%2FmzvK9iMnndSC8mavfAlS6o2abkCR420CV13fxdZkNSY2G%2BIGoRpkXPw9W2q6DMVcRnafjJbADJRo%2BFZfUqbGOjHcXjUjN0WrrAYkYsa0fcrk41Ju8r6EUh%2Flb34KF%2FzQ8DkgUT3yilhVXJizPDQb1dIz4V9lIraUqhaWo%2FXzNe4ZpafgiaUziacVTYuxHi2Vq5IkO3xtGQhgT2j&X-Amz-Signature=7ed485b26d659b55e1b52b35375225a0b2d27858e444518a0463a34e62eb4499&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
-            "expiry_time": "2026-02-03T10:46:44.236Z"
+            "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/c69962b0-3951-485b-b10a-5bb29576bba8/2ed56056-d7f1-4618-8db3-b8894c5e3061/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA_2026-01-25_%E1%84%8B%E1%85%A9%E1%84%8C%E1%85%A5%E1%86%AB_10.51.05.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466ZEAIJRJ5%2F20260203%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260203T101235Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDEaCXVzLXdlc3QtMiJIMEYCIQC1VkDnO3h8yiHBCjqvTVYCkLqyL8QiMeQtCuIgoNZfrwIhAJiZFDbMh%2BSNfYeuuEnehyu%2Fz1bcqu%2FI12i7Ud1IawYFKogECPr%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMNjM3NDIzMTgzODA1IgzqPbmufU58nu0t2Kgq3ANMsBSMvTszjCCh3yxW7SU2c3htC%2BjdRcNIgtyKPEmEauoRu1rBv64Gyv1RuPaVrHdtlTZ%2FIVCcqcoFTAcr90hvDdk2zPomvBU5NbdTIZwblNCg61p6Kf47GRd3CHxRbpDP1Gla8%2F2BT%2F%2FhfsfQs9EkyuK0OSN7ubXnRFuXQw%2BgcgvIJNqmx51gWdnneZ47%2BxurzzxTpsUKJ5F%2B29bIyl4NU1fCaUISLFYos54n8Z17eqIhucyXbTtoKScCCWrtfM3j%2FpjDZD%2BoRYNQfaGLvxdwfDqfM5091dVNb6doIp9bItUB%2BckpsYBpByWZkqW90x3%2FW26%2B9JdK79GbHblwcclbWu9aR2xs86%2Bt5Du8HM0%2B%2FZgJY7HBYoF8CNCJYhOeq%2BTg4Xy6xJ93WNWanFAMF5KfIor%2FOJr98QCjK38T0rSF4wr9nDL5roAYZ7zMDWgmA5lGWWNU6MqKIalBIPnq4Ov59YcPoMaVYvonaxYUhx9HpQwnwXTPJp6c5DkkTPidLb8ELqA0NP1%2BJc6KhrtWX4E9dropMWY6hkl3f%2FHffHkC7bV9RCwT9sQsSGqxpgDZKtgUxjdYg6Gg3XJLvh%2FSBYEG4MmeooZ7lStiq1pXR7N5R1EIiiiExyH8ANydrzD5%2BYbMBjqkAVr9O9XHq2YS3GT9JR%2BYOFWo58eKdxbHP1dUQcphuyJg3rHiqJ0rq7hesd3%2BXQC4SCZ8ZGazb%2BmqhOk86H%2Fnet7gyS5jYSXPSy9lTP%2BLyd6d39QawfLHQ3LLGZ77RHLkNQYIqBzT1mO%2BowidHTYyhhrnaZKB6mSzoc9CSBamQiBkDPz7rDP6gnXVzeXb9i4hTHefk5Qlaj24NA7gU1X%2FrcBLVGGZ&X-Amz-Signature=0ed61b8ccf530cc2aa804169382861a9160c6be8c1a82e0b0d27d3c580125bd6&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+            "expiry_time": "2026-02-03T11:12:35.167Z"
           }
         }
       },
@@ -5442,7 +5442,32 @@
           "page_id": "2f044860-a4f4-8113-957d-cd406e51e8ae"
         },
         "created_time": "2026-02-02T11:48:00.000Z",
-        "last_edited_time": "2026-02-02T11:48:00.000Z",
+        "last_edited_time": "2026-02-03T10:05:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "has_children": false,
+        "archived": false,
+        "in_trash": false,
+        "type": "divider",
+        "divider": {}
+      }
+    ],
+    "vod": [
+      {
+        "object": "block",
+        "id": "2fc44860-a4f4-807b-9c9a-c36754ed2ffb",
+        "parent": {
+          "type": "block_id",
+          "block_id": "2fc44860-a4f4-80a4-8c14-c9758eed5e8a"
+        },
+        "created_time": "2026-02-03T10:05:00.000Z",
+        "last_edited_time": "2026-02-03T10:05:00.000Z",
         "created_by": {
           "object": "user",
           "id": "2aed872b-594c-81eb-bc82-000291164988"
@@ -5456,11 +5481,123 @@
         "in_trash": false,
         "type": "paragraph",
         "paragraph": {
-          "rich_text": [],
+          "rich_text": [
+            {
+              "type": "mention",
+              "mention": {
+                "type": "link_mention",
+                "link_mention": {
+                  "href": "https://likelion.net/courses/technology/next-backendp",
+                  "title": "[백엔드] Python 첫걸음 시작하기",
+                  "icon_url": "https://likelion.net/img/favicon.png",
+                  "description": "IT분야의 TECH 인재를 키우는 교육 커뮤니티, 멋쟁이사자처럼!",
+                  "thumbnail_url": "https://d35ai18pny966l.cloudfront.net/course/vodclass/next-backendp/2-1_next_backendp_final.png"
+                }
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "https://likelion.net/courses/technology/next-backendp",
+              "href": "https://likelion.net/courses/technology/next-backendp"
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "object": "block",
+        "id": "2fc44860-a4f4-80a0-ad85-c0af21976dec",
+        "parent": {
+          "type": "block_id",
+          "block_id": "2fc44860-a4f4-80a4-8c14-c9758eed5e8a"
+        },
+        "created_time": "2026-02-03T10:05:00.000Z",
+        "last_edited_time": "2026-02-03T10:05:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "has_children": false,
+        "archived": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "[백엔드] Python 첫걸음 시작하기",
+                "link": null
+              },
+              "annotations": {
+                "bold": true,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "[백엔드] Python 첫걸음 시작하기",
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "object": "block",
+        "id": "2fc44860-a4f4-809d-8568-ddd0c28775ba",
+        "parent": {
+          "type": "block_id",
+          "block_id": "2fc44860-a4f4-80a4-8c14-c9758eed5e8a"
+        },
+        "created_time": "2026-02-03T10:05:00.000Z",
+        "last_edited_time": "2026-02-03T10:05:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "has_children": false,
+        "archived": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "챕터 10. Python Next Level - 객체지향",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "챕터 10. Python Next Level - 객체지향",
+              "href": null
+            }
+          ],
           "color": "default"
         }
       }
     ]
   },
-  "syncedAt": "2026-02-03T09:46:44.322Z"
+  "syncedAt": "2026-02-03T10:12:36.067Z"
 }
