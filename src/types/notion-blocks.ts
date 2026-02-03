@@ -198,6 +198,25 @@ export interface VideoBlock extends NotionBlockBase {
   };
 }
 
+/** Table 블록 */
+export interface TableBlock extends NotionBlockBase {
+  type: "table";
+  table: {
+    table_width: number;
+    has_column_header: boolean;
+    has_row_header: boolean;
+  };
+  children?: TableRowBlock[];
+}
+
+/** Table Row 블록 */
+export interface TableRowBlock extends NotionBlockBase {
+  type: "table_row";
+  table_row: {
+    cells: RichTextItem[][];
+  };
+}
+
 /** 모든 블록 타입 Union */
 export type NotionBlock =
   | ParagraphBlock
@@ -214,7 +233,9 @@ export type NotionBlock =
   | DividerBlock
   | ToggleBlock
   | TableOfContentsBlock
-  | BookmarkBlock;
+  | BookmarkBlock
+  | TableBlock
+  | TableRowBlock;
 
 /** 섹션별 블록 그룹 */
 export interface MissionSections {

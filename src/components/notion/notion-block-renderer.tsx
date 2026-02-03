@@ -12,6 +12,7 @@ import { NotionImage } from "./blocks/image";
 import { NotionVideo } from "./blocks/video";
 import { Divider } from "./blocks/divider";
 import { Bookmark } from "./blocks/bookmark";
+import { NotionTable } from "./blocks/table";
 
 interface NotionBlockRendererProps {
   blocks: NotionBlock[];
@@ -137,6 +138,13 @@ function RenderBlock({ block, sectionType, checkedIds, onToggleCheck }: RenderBl
 
     case "bookmark":
       return <Bookmark block={block} />;
+
+    case "table":
+      return <NotionTable block={block} />;
+
+    case "table_row":
+      // table_row는 table 컴포넌트 내부에서 처리됨
+      return null;
 
     case "table_of_contents":
       // 목차는 앱에서 별도로 처리하므로 무시
