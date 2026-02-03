@@ -1,0 +1,1734 @@
+{
+  "missionId": "2f044860a4f4814082dce3e329232d90",
+  "notionPageId": "2f044860-a4f4-8140-82dc-e3e329232d90",
+  "fileName": "design-03-ia정보-구조-제작.json",
+  "sections": {
+    "introduction": [
+      {
+        "object": "block",
+        "id": "2fc44860-a4f4-80cf-8247-ee9c615412c5",
+        "parent": {
+          "type": "block_id",
+          "block_id": "2fc44860-a4f4-80ca-9108-da7ea8466db6"
+        },
+        "created_time": "2026-02-03T06:41:00.000Z",
+        "last_edited_time": "2026-02-03T06:41:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "has_children": false,
+        "archived": false,
+        "in_trash": false,
+        "type": "divider",
+        "divider": {}
+      },
+      {
+        "object": "block",
+        "id": "2fc44860-a4f4-80f1-8218-cdf335ffb89b",
+        "parent": {
+          "type": "block_id",
+          "block_id": "2fc44860-a4f4-80ca-9108-da7ea8466db6"
+        },
+        "created_time": "2026-02-03T06:41:00.000Z",
+        "last_edited_time": "2026-02-03T06:41:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "has_children": false,
+        "archived": false,
+        "in_trash": false,
+        "type": "quote",
+        "quote": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "\"우리 서비스의 지도를 그리는 시간\"",
+                "link": null
+              },
+              "annotations": {
+                "bold": true,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "\"우리 서비스의 지도를 그리는 시간\"",
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "object": "block",
+        "id": "2fc44860-a4f4-8004-bb00-c55742adafe0",
+        "parent": {
+          "type": "block_id",
+          "block_id": "2fc44860-a4f4-80ca-9108-da7ea8466db6"
+        },
+        "created_time": "2026-02-03T06:41:00.000Z",
+        "last_edited_time": "2026-02-03T06:41:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "has_children": false,
+        "archived": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "color": "default"
+        }
+      },
+      {
+        "object": "block",
+        "id": "2fc44860-a4f4-8055-979b-da5f59d3df17",
+        "parent": {
+          "type": "block_id",
+          "block_id": "2fc44860-a4f4-80ca-9108-da7ea8466db6"
+        },
+        "created_time": "2026-02-03T06:41:00.000Z",
+        "last_edited_time": "2026-02-03T06:47:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "has_children": false,
+        "archived": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "2주차에서 사용자가 어떻게 움직일지를 구상했다면, 이제는 그 움직임이 일어날 공간을 설계해야 합니다.\n\n",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "2주차에서 사용자가 어떻게 움직일지를 구상했다면, 이제는 그 움직임이 일어날 공간을 설계해야 합니다.\n\n",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": "IA(Information Architecture)는 서비스의 뼈대를 만드는 작업",
+                "link": null
+              },
+              "annotations": {
+                "bold": true,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "IA(Information Architecture)는 서비스의 뼈대를 만드는 작업",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": "입니다. ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "입니다. ",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": "어떤 메뉴가 있고, 그 메뉴 안에 어떤 하위 페이지가 있으며, 각 페이지에는 어떤 기능이 들어있는지를 체계적으로 정리",
+                "link": null
+              },
+              "annotations": {
+                "bold": true,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "어떤 메뉴가 있고, 그 메뉴 안에 어떤 하위 페이지가 있으며, 각 페이지에는 어떤 기능이 들어있는지를 체계적으로 정리",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": "한 문서입니다.\n",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "한 문서입니다.\n",
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "object": "block",
+        "id": "2fc44860-a4f4-806e-b866-ca5c7ecde577",
+        "parent": {
+          "type": "block_id",
+          "block_id": "2fc44860-a4f4-80ca-9108-da7ea8466db6"
+        },
+        "created_time": "2026-02-03T06:41:00.000Z",
+        "last_edited_time": "2026-02-03T06:41:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "has_children": false,
+        "archived": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "이 과정이 없으면 개발자는 \"로그인 버튼을 누르면 어디로 가나요?\", \"이 기능은 어느 페이지에 붙나요?\"라고 끊임없이 되물어야 합니다.\n\n집을 짓기 전에 설계도를 그리듯, 개발과 디자인이 흔들리지 않도록 탄탄한 구조를 설계해 봅시다.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "이 과정이 없으면 개발자는 \"로그인 버튼을 누르면 어디로 가나요?\", \"이 기능은 어느 페이지에 붙나요?\"라고 끊임없이 되물어야 합니다.\n\n집을 짓기 전에 설계도를 그리듯, 개발과 디자인이 흔들리지 않도록 탄탄한 구조를 설계해 봅시다.",
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "object": "block",
+        "id": "2fc44860-a4f4-801f-b643-da1cba4019a5",
+        "parent": {
+          "type": "page_id",
+          "page_id": "2f044860-a4f4-8140-82dc-e3e329232d90"
+        },
+        "created_time": "2026-02-03T06:41:00.000Z",
+        "last_edited_time": "2026-02-03T06:41:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "has_children": false,
+        "archived": false,
+        "in_trash": false,
+        "type": "divider",
+        "divider": {}
+      }
+    ],
+    "objective": [
+      {
+        "object": "block",
+        "id": "2fc44860-a4f4-8018-bca2-e33b2437e618",
+        "parent": {
+          "type": "block_id",
+          "block_id": "2fc44860-a4f4-8048-9a1f-d15bccbe24da"
+        },
+        "created_time": "2026-02-03T06:41:00.000Z",
+        "last_edited_time": "2026-02-03T06:41:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "has_children": false,
+        "archived": false,
+        "in_trash": false,
+        "type": "divider",
+        "divider": {}
+      },
+      {
+        "object": "block",
+        "id": "2fc44860-a4f4-804e-a1e9-c16b9e598e69",
+        "parent": {
+          "type": "block_id",
+          "block_id": "2fc44860-a4f4-8048-9a1f-d15bccbe24da"
+        },
+        "created_time": "2026-02-03T06:41:00.000Z",
+        "last_edited_time": "2026-02-03T06:41:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "has_children": false,
+        "archived": false,
+        "in_trash": false,
+        "type": "bulleted_list_item",
+        "bulleted_list_item": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "사용자 시나리오를 바탕으로 필요한 모든 페이지와 기능을 빠짐없이 도출할 수 있습니다.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "사용자 시나리오를 바탕으로 필요한 모든 페이지와 기능을 빠짐없이 도출할 수 있습니다.",
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "object": "block",
+        "id": "2fc44860-a4f4-80e8-9905-dfd10d7ecb21",
+        "parent": {
+          "type": "block_id",
+          "block_id": "2fc44860-a4f4-8048-9a1f-d15bccbe24da"
+        },
+        "created_time": "2026-02-03T06:41:00.000Z",
+        "last_edited_time": "2026-02-03T06:41:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "has_children": false,
+        "archived": false,
+        "in_trash": false,
+        "type": "bulleted_list_item",
+        "bulleted_list_item": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "'기능 기준'과 '페이지 기준'의 차이를 이해하고, 트리 구조로 정보를 위계화할 수 있습니다.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "'기능 기준'과 '페이지 기준'의 차이를 이해하고, 트리 구조로 정보를 위계화할 수 있습니다.",
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "object": "block",
+        "id": "2fc44860-a4f4-8006-b42f-c40d062b1cf5",
+        "parent": {
+          "type": "block_id",
+          "block_id": "2fc44860-a4f4-8048-9a1f-d15bccbe24da"
+        },
+        "created_time": "2026-02-03T06:41:00.000Z",
+        "last_edited_time": "2026-02-03T06:41:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "has_children": false,
+        "archived": false,
+        "in_trash": false,
+        "type": "bulleted_list_item",
+        "bulleted_list_item": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "개발자가 IA만 보고도 전체 서비스의 규모와 연결 관계를 파악할 수 있도록 논리적인 구조를 설계할 수 있습니다.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "개발자가 IA만 보고도 전체 서비스의 규모와 연결 관계를 파악할 수 있도록 논리적인 구조를 설계할 수 있습니다.",
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "object": "block",
+        "id": "2fc44860-a4f4-8087-aef2-d4e89eb8ba0e",
+        "parent": {
+          "type": "block_id",
+          "block_id": "2fc44860-a4f4-8048-9a1f-d15bccbe24da"
+        },
+        "created_time": "2026-02-03T06:41:00.000Z",
+        "last_edited_time": "2026-02-03T06:41:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "has_children": false,
+        "archived": false,
+        "in_trash": false,
+        "type": "bulleted_list_item",
+        "bulleted_list_item": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Depth가 너무 깊어지지 않도록, 사용자 동선을 고려하여 메뉴를 그룹화할 수 있습니다.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Depth가 너무 깊어지지 않도록, 사용자 동선을 고려하여 메뉴를 그룹화할 수 있습니다.",
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "object": "block",
+        "id": "2fc44860-a4f4-80f7-b834-e4c3fa87b2a6",
+        "parent": {
+          "type": "page_id",
+          "page_id": "2f044860-a4f4-8140-82dc-e3e329232d90"
+        },
+        "created_time": "2026-02-03T06:41:00.000Z",
+        "last_edited_time": "2026-02-03T06:41:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "has_children": false,
+        "archived": false,
+        "in_trash": false,
+        "type": "divider",
+        "divider": {}
+      }
+    ],
+    "result": [
+      {
+        "object": "block",
+        "id": "2fc44860-a4f4-80ec-998b-def95b8fac53",
+        "parent": {
+          "type": "block_id",
+          "block_id": "2fc44860-a4f4-80d9-8901-fdc61313ec20"
+        },
+        "created_time": "2026-02-03T06:41:00.000Z",
+        "last_edited_time": "2026-02-03T06:41:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "has_children": false,
+        "archived": false,
+        "in_trash": false,
+        "type": "divider",
+        "divider": {}
+      },
+      {
+        "object": "block",
+        "id": "2fc44860-a4f4-80f9-8c36-fff24386cdd3",
+        "parent": {
+          "type": "block_id",
+          "block_id": "2fc44860-a4f4-80d9-8901-fdc61313ec20"
+        },
+        "created_time": "2026-02-03T06:41:00.000Z",
+        "last_edited_time": "2026-02-03T06:42:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "has_children": false,
+        "archived": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "이번 미션의 최종 결과물은 정보구조도입니다.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "이번 미션의 최종 결과물은 정보구조도입니다.",
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "object": "block",
+        "id": "2fc44860-a4f4-8010-a19c-f9a8ce9c7d99",
+        "parent": {
+          "type": "block_id",
+          "block_id": "2fc44860-a4f4-80d9-8901-fdc61313ec20"
+        },
+        "created_time": "2026-02-03T06:41:00.000Z",
+        "last_edited_time": "2026-02-03T06:47:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "has_children": false,
+        "archived": false,
+        "in_trash": false,
+        "type": "heading_3",
+        "heading_3": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "1. Depth 구성: Depth 1 → Depth 2 → Depth 3의 계층 구조",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "1. Depth 구성: Depth 1 → Depth 2 → Depth 3의 계층 구조",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        }
+      },
+      {
+        "object": "block",
+        "id": "2fc44860-a4f4-8028-bf7b-f481864221b1",
+        "parent": {
+          "type": "block_id",
+          "block_id": "2fc44860-a4f4-80d9-8901-fdc61313ec20"
+        },
+        "created_time": "2026-02-03T06:41:00.000Z",
+        "last_edited_time": "2026-02-03T06:47:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "has_children": false,
+        "archived": false,
+        "in_trash": false,
+        "type": "heading_3",
+        "heading_3": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "2. 페이지명: 각 화면의 명확한 이름",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "2. 페이지명: 각 화면의 명확한 이름",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        }
+      },
+      {
+        "object": "block",
+        "id": "2fc44860-a4f4-8003-b55d-eab1a528ffa3",
+        "parent": {
+          "type": "page_id",
+          "page_id": "2f044860-a4f4-8140-82dc-e3e329232d90"
+        },
+        "created_time": "2026-02-03T06:41:00.000Z",
+        "last_edited_time": "2026-02-03T06:41:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "has_children": false,
+        "archived": false,
+        "in_trash": false,
+        "type": "divider",
+        "divider": {}
+      }
+    ],
+    "timeGoal": [
+      {
+        "object": "block",
+        "id": "2fc44860-a4f4-8009-a40f-c6148c0820f2",
+        "parent": {
+          "type": "block_id",
+          "block_id": "2fc44860-a4f4-8014-aac4-c0acf8926aed"
+        },
+        "created_time": "2026-02-03T06:41:00.000Z",
+        "last_edited_time": "2026-02-03T06:41:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "has_children": false,
+        "archived": false,
+        "in_trash": false,
+        "type": "divider",
+        "divider": {}
+      },
+      {
+        "object": "block",
+        "id": "2fc44860-a4f4-80ac-b686-df55d4193c9e",
+        "parent": {
+          "type": "block_id",
+          "block_id": "2fc44860-a4f4-8014-aac4-c0acf8926aed"
+        },
+        "created_time": "2026-02-03T06:41:00.000Z",
+        "last_edited_time": "2026-02-03T06:41:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "has_children": false,
+        "archived": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "총 소요 시간 : 10시간",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "총 소요 시간 : 10시간",
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "object": "block",
+        "id": "2fc44860-a4f4-80c3-92af-da6af9fa42bd",
+        "parent": {
+          "type": "page_id",
+          "page_id": "2f044860-a4f4-8140-82dc-e3e329232d90"
+        },
+        "created_time": "2026-02-03T06:41:00.000Z",
+        "last_edited_time": "2026-02-03T06:41:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "has_children": false,
+        "archived": false,
+        "in_trash": false,
+        "type": "divider",
+        "divider": {}
+      }
+    ],
+    "guidelines": [
+      {
+        "object": "block",
+        "id": "2fc44860-a4f4-801b-bbb1-f1b1573bc982",
+        "parent": {
+          "type": "block_id",
+          "block_id": "2fc44860-a4f4-8052-9181-c8803be03279"
+        },
+        "created_time": "2026-02-03T06:41:00.000Z",
+        "last_edited_time": "2026-02-03T06:41:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "has_children": false,
+        "archived": false,
+        "in_trash": false,
+        "type": "divider",
+        "divider": {}
+      },
+      {
+        "object": "block",
+        "id": "2fc44860-a4f4-8079-8497-e9f92a2844b4",
+        "parent": {
+          "type": "block_id",
+          "block_id": "2fc44860-a4f4-8052-9181-c8803be03279"
+        },
+        "created_time": "2026-02-03T06:41:00.000Z",
+        "last_edited_time": "2026-02-03T06:44:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "has_children": false,
+        "archived": false,
+        "in_trash": false,
+        "type": "heading_3",
+        "heading_3": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "1. 페이지 목록 도출",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "1. 페이지 목록 도출",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        }
+      },
+      {
+        "object": "block",
+        "id": "2fc44860-a4f4-800c-9ed4-d9e5b1af630d",
+        "parent": {
+          "type": "block_id",
+          "block_id": "2fc44860-a4f4-8052-9181-c8803be03279"
+        },
+        "created_time": "2026-02-03T06:41:00.000Z",
+        "last_edited_time": "2026-02-03T06:41:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "has_children": false,
+        "archived": false,
+        "in_trash": false,
+        "type": "bulleted_list_item",
+        "bulleted_list_item": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "2주차에 작성한 시나리오를 보며 필요한 화면을 모두 나열합니다.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "2주차에 작성한 시나리오를 보며 필요한 화면을 모두 나열합니다.",
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "object": "block",
+        "id": "2fc44860-a4f4-801a-ac1d-fa25738f6946",
+        "parent": {
+          "type": "block_id",
+          "block_id": "2fc44860-a4f4-8052-9181-c8803be03279"
+        },
+        "created_time": "2026-02-03T06:41:00.000Z",
+        "last_edited_time": "2026-02-03T06:44:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "has_children": false,
+        "archived": false,
+        "in_trash": false,
+        "type": "bulleted_list_item",
+        "bulleted_list_item": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "메인 화면뿐만 아니라 로그인/회원가입, 설정, 검색 결과 없음, 오류 페이지 등 예외 상황에 필요한 페이지도 포함해야 합니다.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "메인 화면뿐만 아니라 로그인/회원가입, 설정, 검색 결과 없음, 오류 페이지 등 예외 상황에 필요한 페이지도 포함해야 합니다.",
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "object": "block",
+        "id": "2fc44860-a4f4-80fa-8c24-c28eb23f5bf0",
+        "parent": {
+          "type": "block_id",
+          "block_id": "2fc44860-a4f4-8052-9181-c8803be03279"
+        },
+        "created_time": "2026-02-03T06:44:00.000Z",
+        "last_edited_time": "2026-02-03T06:44:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "has_children": false,
+        "archived": false,
+        "in_trash": false,
+        "type": "divider",
+        "divider": {}
+      },
+      {
+        "object": "block",
+        "id": "2fc44860-a4f4-80a5-8a5d-d62e86c931f4",
+        "parent": {
+          "type": "block_id",
+          "block_id": "2fc44860-a4f4-8052-9181-c8803be03279"
+        },
+        "created_time": "2026-02-03T06:41:00.000Z",
+        "last_edited_time": "2026-02-03T06:44:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "has_children": false,
+        "archived": false,
+        "in_trash": false,
+        "type": "heading_3",
+        "heading_3": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "2. 구조화 및 위계 설정",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "2. 구조화 및 위계 설정",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        }
+      },
+      {
+        "object": "block",
+        "id": "2fc44860-a4f4-807f-a69f-ec373252790f",
+        "parent": {
+          "type": "block_id",
+          "block_id": "2fc44860-a4f4-8052-9181-c8803be03279"
+        },
+        "created_time": "2026-02-03T06:41:00.000Z",
+        "last_edited_time": "2026-02-03T06:41:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "has_children": false,
+        "archived": false,
+        "in_trash": false,
+        "type": "bulleted_list_item",
+        "bulleted_list_item": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "나열된 페이지들을 성격이 비슷한 것끼리 묶어 그룹핑합니다. (예: '프로필 수정', '비밀번호 변경', '내가 쓴 글' → '마이페이지' 하위로 이동)",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "나열된 페이지들을 성격이 비슷한 것끼리 묶어 그룹핑합니다. (예: '프로필 수정', '비밀번호 변경', '내가 쓴 글' → '마이페이지' 하위로 이동)",
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "object": "block",
+        "id": "2fc44860-a4f4-80c5-8953-e70cf9345ab2",
+        "parent": {
+          "type": "block_id",
+          "block_id": "2fc44860-a4f4-8052-9181-c8803be03279"
+        },
+        "created_time": "2026-02-03T06:41:00.000Z",
+        "last_edited_time": "2026-02-03T06:44:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "has_children": false,
+        "archived": false,
+        "in_trash": false,
+        "type": "bulleted_list_item",
+        "bulleted_list_item": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Depth는 가급적 3~4단계를 넘지 않도록 설계하여 사용자가 길을 잃지 않게 합니다.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Depth는 가급적 3~4단계를 넘지 않도록 설계하여 사용자가 길을 잃지 않게 합니다.",
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "object": "block",
+        "id": "2fc44860-a4f4-80d3-a96f-f64e79d49840",
+        "parent": {
+          "type": "block_id",
+          "block_id": "2fc44860-a4f4-8052-9181-c8803be03279"
+        },
+        "created_time": "2026-02-03T06:44:00.000Z",
+        "last_edited_time": "2026-02-03T06:44:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "has_children": false,
+        "archived": false,
+        "in_trash": false,
+        "type": "divider",
+        "divider": {}
+      },
+      {
+        "object": "block",
+        "id": "2fc44860-a4f4-809a-ab52-e043aecaa70d",
+        "parent": {
+          "type": "block_id",
+          "block_id": "2fc44860-a4f4-8052-9181-c8803be03279"
+        },
+        "created_time": "2026-02-03T06:41:00.000Z",
+        "last_edited_time": "2026-02-03T06:44:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "has_children": false,
+        "archived": false,
+        "in_trash": false,
+        "type": "heading_3",
+        "heading_3": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "3. 개발자를 위한 명세",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "3. 개발자를 위한 명세",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        }
+      },
+      {
+        "object": "block",
+        "id": "2fc44860-a4f4-8048-a7e3-f30326d1be6a",
+        "parent": {
+          "type": "block_id",
+          "block_id": "2fc44860-a4f4-8052-9181-c8803be03279"
+        },
+        "created_time": "2026-02-03T06:41:00.000Z",
+        "last_edited_time": "2026-02-03T06:41:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "has_children": false,
+        "archived": false,
+        "in_trash": false,
+        "type": "bulleted_list_item",
+        "bulleted_list_item": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "단순히 \"예약하기\"라고 적는 것은 부족합니다. \"예약하기 버튼 클릭 시 예약 확인 모달 팝업 노출\"과 같이 동작과 결과를 구체적으로 명시해야 합니다.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "단순히 \"예약하기\"라고 적는 것은 부족합니다. \"예약하기 버튼 클릭 시 예약 확인 모달 팝업 노출\"과 같이 동작과 결과를 구체적으로 명시해야 합니다.",
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "object": "block",
+        "id": "2fc44860-a4f4-80cf-b8e4-c3ec68dd17f5",
+        "parent": {
+          "type": "block_id",
+          "block_id": "2fc44860-a4f4-8052-9181-c8803be03279"
+        },
+        "created_time": "2026-02-03T06:41:00.000Z",
+        "last_edited_time": "2026-02-03T06:41:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "has_children": true,
+        "archived": false,
+        "in_trash": false,
+        "type": "bulleted_list_item",
+        "bulleted_list_item": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "페이지와 기능을 구분해야 합니다.",
+                "link": null
+              },
+              "annotations": {
+                "bold": true,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "페이지와 기능을 구분해야 합니다.",
+              "href": null
+            }
+          ],
+          "color": "default"
+        },
+        "children": [
+          {
+            "object": "block",
+            "id": "2fc44860-a4f4-8032-83a1-d086929fe06f",
+            "parent": {
+              "type": "block_id",
+              "block_id": "2fc44860-a4f4-80cf-b8e4-c3ec68dd17f5"
+            },
+            "created_time": "2026-02-03T06:41:00.000Z",
+            "last_edited_time": "2026-02-03T06:41:00.000Z",
+            "created_by": {
+              "object": "user",
+              "id": "2aed872b-594c-81eb-bc82-000291164988"
+            },
+            "last_edited_by": {
+              "object": "user",
+              "id": "2aed872b-594c-81eb-bc82-000291164988"
+            },
+            "has_children": false,
+            "archived": false,
+            "in_trash": false,
+            "type": "bulleted_list_item",
+            "bulleted_list_item": {
+              "rich_text": [
+                {
+                  "type": "text",
+                  "text": {
+                    "content": "페이지: 로그인 화면",
+                    "link": null
+                  },
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  },
+                  "plain_text": "페이지: 로그인 화면",
+                  "href": null
+                }
+              ],
+              "color": "default"
+            }
+          },
+          {
+            "object": "block",
+            "id": "2fc44860-a4f4-80dd-a99a-cc908bc8aa7c",
+            "parent": {
+              "type": "block_id",
+              "block_id": "2fc44860-a4f4-80cf-b8e4-c3ec68dd17f5"
+            },
+            "created_time": "2026-02-03T06:41:00.000Z",
+            "last_edited_time": "2026-02-03T06:41:00.000Z",
+            "created_by": {
+              "object": "user",
+              "id": "2aed872b-594c-81eb-bc82-000291164988"
+            },
+            "last_edited_by": {
+              "object": "user",
+              "id": "2aed872b-594c-81eb-bc82-000291164988"
+            },
+            "has_children": false,
+            "archived": false,
+            "in_trash": false,
+            "type": "bulleted_list_item",
+            "bulleted_list_item": {
+              "rich_text": [
+                {
+                  "type": "text",
+                  "text": {
+                    "content": "기능: 아이디/비밀번호 유효성 검사, 로그인 버튼 활성화 조건",
+                    "link": null
+                  },
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  },
+                  "plain_text": "기능: 아이디/비밀번호 유효성 검사, 로그인 버튼 활성화 조건",
+                  "href": null
+                }
+              ],
+              "color": "default"
+            }
+          }
+        ]
+      },
+      {
+        "object": "block",
+        "id": "2fc44860-a4f4-80c3-b808-ca44281c3638",
+        "parent": {
+          "type": "page_id",
+          "page_id": "2f044860-a4f4-8140-82dc-e3e329232d90"
+        },
+        "created_time": "2026-02-03T06:41:00.000Z",
+        "last_edited_time": "2026-02-03T06:41:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "has_children": false,
+        "archived": false,
+        "in_trash": false,
+        "type": "divider",
+        "divider": {}
+      }
+    ],
+    "example": [
+      {
+        "object": "block",
+        "id": "2fc44860-a4f4-8060-826f-e3f36f828d69",
+        "parent": {
+          "type": "block_id",
+          "block_id": "2fc44860-a4f4-80a3-a168-c998b45b9001"
+        },
+        "created_time": "2026-02-03T06:41:00.000Z",
+        "last_edited_time": "2026-02-03T06:41:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "has_children": false,
+        "archived": false,
+        "in_trash": false,
+        "type": "divider",
+        "divider": {}
+      },
+      {
+        "object": "block",
+        "id": "2fc44860-a4f4-80c0-a003-db01e6f2ce84",
+        "parent": {
+          "type": "block_id",
+          "block_id": "2fc44860-a4f4-80a3-a168-c998b45b9001"
+        },
+        "created_time": "2026-02-03T06:41:00.000Z",
+        "last_edited_time": "2026-02-03T06:41:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "has_children": false,
+        "archived": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "mention",
+              "mention": {
+                "type": "link_mention",
+                "link_mention": {
+                  "href": "https://www.figma.com/files/project/545067727",
+                  "title": "www.figma.com"
+                }
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "https://www.figma.com/files/project/545067727",
+              "href": "https://www.figma.com/files/project/545067727"
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "object": "block",
+        "id": "2fc44860-a4f4-803c-bdb9-cb1c6f4cd15c",
+        "parent": {
+          "type": "page_id",
+          "page_id": "2f044860-a4f4-8140-82dc-e3e329232d90"
+        },
+        "created_time": "2026-02-03T06:41:00.000Z",
+        "last_edited_time": "2026-02-03T06:41:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "has_children": false,
+        "archived": false,
+        "in_trash": false,
+        "type": "divider",
+        "divider": {}
+      }
+    ],
+    "constraints": [
+      {
+        "object": "block",
+        "id": "2fc44860-a4f4-808e-a492-cd9e7acff7b1",
+        "parent": {
+          "type": "block_id",
+          "block_id": "2fc44860-a4f4-80bb-b0f8-cf2b9f5d8c5f"
+        },
+        "created_time": "2026-02-03T06:41:00.000Z",
+        "last_edited_time": "2026-02-03T06:41:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "has_children": false,
+        "archived": false,
+        "in_trash": false,
+        "type": "divider",
+        "divider": {}
+      },
+      {
+        "object": "block",
+        "id": "2fc44860-a4f4-8018-9335-c84b51e6a05b",
+        "parent": {
+          "type": "block_id",
+          "block_id": "2fc44860-a4f4-80bb-b0f8-cf2b9f5d8c5f"
+        },
+        "created_time": "2026-02-03T06:41:00.000Z",
+        "last_edited_time": "2026-02-03T06:41:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "has_children": false,
+        "archived": false,
+        "in_trash": false,
+        "type": "bulleted_list_item",
+        "bulleted_list_item": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "구조 : IA는 디자인 시안이 아닙니다. 화면을 그리는 것이 아니라 정보의 분류와 흐름을 텍스트로 정리하는 것입니다.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "구조 : IA는 디자인 시안이 아닙니다. 화면을 그리는 것이 아니라 정보의 분류와 흐름을 텍스트로 정리하는 것입니다.",
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "object": "block",
+        "id": "2fc44860-a4f4-805f-8ed5-e202a81f8d69",
+        "parent": {
+          "type": "page_id",
+          "page_id": "2f044860-a4f4-8140-82dc-e3e329232d90"
+        },
+        "created_time": "2026-02-03T06:41:00.000Z",
+        "last_edited_time": "2026-02-03T06:41:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "has_children": false,
+        "archived": false,
+        "in_trash": false,
+        "type": "divider",
+        "divider": {}
+      }
+    ],
+    "bonus": [
+      {
+        "object": "block",
+        "id": "2fc44860-a4f4-8022-a2a2-c63913039400",
+        "parent": {
+          "type": "block_id",
+          "block_id": "2fc44860-a4f4-8023-95b7-d00cbf76567d"
+        },
+        "created_time": "2026-02-03T06:41:00.000Z",
+        "last_edited_time": "2026-02-03T06:41:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "has_children": false,
+        "archived": false,
+        "in_trash": false,
+        "type": "divider",
+        "divider": {}
+      },
+      {
+        "object": "block",
+        "id": "2fc44860-a4f4-8067-b5ad-f35aed878f31",
+        "parent": {
+          "type": "block_id",
+          "block_id": "2fc44860-a4f4-8023-95b7-d00cbf76567d"
+        },
+        "created_time": "2026-02-03T06:41:00.000Z",
+        "last_edited_time": "2026-02-03T06:44:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "has_children": false,
+        "archived": false,
+        "in_trash": false,
+        "type": "heading_3",
+        "heading_3": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "1. 화면 ID 부여하기",
+                "link": null
+              },
+              "annotations": {
+                "bold": true,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "1. 화면 ID 부여하기",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        }
+      },
+      {
+        "object": "block",
+        "id": "2fc44860-a4f4-805b-8375-ef37c775ff71",
+        "parent": {
+          "type": "block_id",
+          "block_id": "2fc44860-a4f4-8023-95b7-d00cbf76567d"
+        },
+        "created_time": "2026-02-03T06:41:00.000Z",
+        "last_edited_time": "2026-02-03T06:41:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "has_children": false,
+        "archived": false,
+        "in_trash": false,
+        "type": "bulleted_list_item",
+        "bulleted_list_item": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "각 페이지마다 고유한 ID를 부여해 봅니다. (예: 홈은 A-01, 마이페이지는 M-01, 로그인 L-01)",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "각 페이지마다 고유한 ID를 부여해 봅니다. (예: 홈은 A-01, 마이페이지는 M-01, 로그인 L-01)",
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "object": "block",
+        "id": "2fc44860-a4f4-8059-a1c5-db62532572dd",
+        "parent": {
+          "type": "block_id",
+          "block_id": "2fc44860-a4f4-8023-95b7-d00cbf76567d"
+        },
+        "created_time": "2026-02-03T06:41:00.000Z",
+        "last_edited_time": "2026-02-03T06:41:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "has_children": false,
+        "archived": false,
+        "in_trash": false,
+        "type": "bulleted_list_item",
+        "bulleted_list_item": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "이 ID는 추후 디자인 파일명, 개발 코드명, QA 문서에서 공통 언어로 사용되어 소통 비용을 획기적으로 줄여줍니다.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "이 ID는 추후 디자인 파일명, 개발 코드명, QA 문서에서 공통 언어로 사용되어 소통 비용을 획기적으로 줄여줍니다.",
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "object": "block",
+        "id": "2fc44860-a4f4-8021-a47f-e962e0b72ca2",
+        "parent": {
+          "type": "page_id",
+          "page_id": "2f044860-a4f4-8140-82dc-e3e329232d90"
+        },
+        "created_time": "2026-02-03T06:41:00.000Z",
+        "last_edited_time": "2026-02-03T06:41:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "has_children": false,
+        "archived": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "color": "default"
+        }
+      }
+    ]
+  },
+  "syncedAt": "2026-02-03T07:13:24.899Z"
+}
