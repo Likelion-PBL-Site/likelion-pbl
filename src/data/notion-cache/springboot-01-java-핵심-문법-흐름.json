@@ -79,7 +79,7 @@
           "block_id": "2f044860-a4f4-81db-a8bc-ea4e3543de0e"
         },
         "created_time": "2026-01-22T05:00:00.000Z",
-        "last_edited_time": "2026-01-22T05:00:00.000Z",
+        "last_edited_time": "2026-02-03T05:36:00.000Z",
         "created_by": {
           "object": "user",
           "id": "2aed872b-594c-81eb-bc82-000291164988"
@@ -165,7 +165,7 @@
             {
               "type": "text",
               "text": {
-                "content": "으로 동작합니다.\n",
+                "content": "으로 동작합니다.콘솔 입출력은 이러한 흐름을 자바에서 구현하는 가장 기본적인 방식이며, 모든 애플리케이션의 출발점이 되는 핵심 요소입니다.",
                 "link": null
               },
               "annotations": {
@@ -176,7 +176,7 @@
                 "code": false,
                 "color": "default"
               },
-              "plain_text": "으로 동작합니다.\n",
+              "plain_text": "으로 동작합니다.콘솔 입출력은 이러한 흐름을 자바에서 구현하는 가장 기본적인 방식이며, 모든 애플리케이션의 출발점이 되는 핵심 요소입니다.",
               "href": null
             }
           ],
@@ -185,57 +185,13 @@
       },
       {
         "object": "block",
-        "id": "2f044860-a4f4-81c5-a65b-cbfdbbae0111",
+        "id": "2fc44860-a4f4-80a8-8481-f08fd45f1c61",
         "parent": {
           "type": "block_id",
           "block_id": "2f044860-a4f4-81db-a8bc-ea4e3543de0e"
         },
-        "created_time": "2026-01-22T05:00:00.000Z",
-        "last_edited_time": "2026-01-22T05:00:00.000Z",
-        "created_by": {
-          "object": "user",
-          "id": "2aed872b-594c-81eb-bc82-000291164988"
-        },
-        "last_edited_by": {
-          "object": "user",
-          "id": "2aed872b-594c-81eb-bc82-000291164988"
-        },
-        "has_children": false,
-        "archived": false,
-        "in_trash": false,
-        "type": "paragraph",
-        "paragraph": {
-          "rich_text": [
-            {
-              "type": "text",
-              "text": {
-                "content": "콘솔 입출력은 이러한 흐름을 자바에서 구현하는 가장 기본적인 방식이며, 모든 애플리케이션의 출발점이 되는 핵심 요소입니다.",
-                "link": null
-              },
-              "annotations": {
-                "bold": false,
-                "italic": false,
-                "strikethrough": false,
-                "underline": false,
-                "code": false,
-                "color": "default"
-              },
-              "plain_text": "콘솔 입출력은 이러한 흐름을 자바에서 구현하는 가장 기본적인 방식이며, 모든 애플리케이션의 출발점이 되는 핵심 요소입니다.",
-              "href": null
-            }
-          ],
-          "color": "default"
-        }
-      },
-      {
-        "object": "block",
-        "id": "2f044860-a4f4-813c-8f39-e4d268e3365e",
-        "parent": {
-          "type": "block_id",
-          "block_id": "2f044860-a4f4-81db-a8bc-ea4e3543de0e"
-        },
-        "created_time": "2026-01-22T05:00:00.000Z",
-        "last_edited_time": "2026-01-22T05:00:00.000Z",
+        "created_time": "2026-02-03T06:26:00.000Z",
+        "last_edited_time": "2026-02-03T06:26:00.000Z",
         "created_by": {
           "object": "user",
           "id": "2aed872b-594c-81eb-bc82-000291164988"
@@ -261,7 +217,7 @@
           "block_id": "2f044860-a4f4-81db-a8bc-ea4e3543de0e"
         },
         "created_time": "2026-01-22T05:00:00.000Z",
-        "last_edited_time": "2026-01-22T05:00:00.000Z",
+        "last_edited_time": "2026-02-03T06:26:00.000Z",
         "created_by": {
           "object": "user",
           "id": "2aed872b-594c-81eb-bc82-000291164988"
@@ -313,7 +269,7 @@
             {
               "type": "text",
               "text": {
-                "content": "을 구현합니다.\n",
+                "content": "을 구현합니다.",
                 "link": null
               },
               "annotations": {
@@ -324,10 +280,36 @@
                 "code": false,
                 "color": "default"
               },
-              "plain_text": "을 구현합니다.\n",
+              "plain_text": "을 구현합니다.",
               "href": null
             }
           ],
+          "color": "default"
+        }
+      },
+      {
+        "object": "block",
+        "id": "2fc44860-a4f4-80a3-8cf9-e6fb016abc86",
+        "parent": {
+          "type": "block_id",
+          "block_id": "2f044860-a4f4-81db-a8bc-ea4e3543de0e"
+        },
+        "created_time": "2026-02-03T06:26:00.000Z",
+        "last_edited_time": "2026-02-03T06:26:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "has_children": false,
+        "archived": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
           "color": "default"
         }
       },
@@ -339,7 +321,7 @@
           "block_id": "2f044860-a4f4-81db-a8bc-ea4e3543de0e"
         },
         "created_time": "2026-01-22T05:00:00.000Z",
-        "last_edited_time": "2026-01-22T05:00:00.000Z",
+        "last_edited_time": "2026-02-03T06:26:00.000Z",
         "created_by": {
           "object": "user",
           "id": "2aed872b-594c-81eb-bc82-000291164988"
@@ -357,7 +339,7 @@
             {
               "type": "text",
               "text": {
-                "content": "먼저 아기사자 수를 입력받고, 그 수만큼 이름을 입력받아 배열에 저장한 뒤, 최종 명단을 콘솔에 출력합니다.\n",
+                "content": "먼저 아기사자 수를 입력받고, 그 수만큼 이름을 입력받아 배열에 저장한 뒤, 최종 명단을 콘솔에 출력합니다. 모든 과정은 키보드 입력과 콘솔 출력만을 사용해 진행됩니다.",
                 "link": null
               },
               "annotations": {
@@ -368,7 +350,7 @@
                 "code": false,
                 "color": "default"
               },
-              "plain_text": "먼저 아기사자 수를 입력받고, 그 수만큼 이름을 입력받아 배열에 저장한 뒤, 최종 명단을 콘솔에 출력합니다.\n",
+              "plain_text": "먼저 아기사자 수를 입력받고, 그 수만큼 이름을 입력받아 배열에 저장한 뒤, 최종 명단을 콘솔에 출력합니다. 모든 과정은 키보드 입력과 콘솔 출력만을 사용해 진행됩니다.",
               "href": null
             }
           ],
@@ -377,13 +359,13 @@
       },
       {
         "object": "block",
-        "id": "2f044860-a4f4-8141-88da-cef9352590d4",
+        "id": "2fc44860-a4f4-8025-9cd2-f9d3e2709b5e",
         "parent": {
           "type": "block_id",
           "block_id": "2f044860-a4f4-81db-a8bc-ea4e3543de0e"
         },
-        "created_time": "2026-01-22T05:00:00.000Z",
-        "last_edited_time": "2026-01-22T05:00:00.000Z",
+        "created_time": "2026-02-03T06:26:00.000Z",
+        "last_edited_time": "2026-02-03T06:26:00.000Z",
         "created_by": {
           "object": "user",
           "id": "2aed872b-594c-81eb-bc82-000291164988"
@@ -397,25 +379,7 @@
         "in_trash": false,
         "type": "paragraph",
         "paragraph": {
-          "rich_text": [
-            {
-              "type": "text",
-              "text": {
-                "content": "모든 과정은 키보드 입력과 콘솔 출력만을 사용해 진행됩니다.\n",
-                "link": null
-              },
-              "annotations": {
-                "bold": false,
-                "italic": false,
-                "strikethrough": false,
-                "underline": false,
-                "code": false,
-                "color": "default"
-              },
-              "plain_text": "모든 과정은 키보드 입력과 콘솔 출력만을 사용해 진행됩니다.\n",
-              "href": null
-            }
-          ],
+          "rich_text": [],
           "color": "default"
         }
       },
@@ -1147,7 +1111,7 @@
           "block_id": "2f044860-a4f4-81d0-99f6-f70bc4062bb4"
         },
         "created_time": "2026-01-22T05:00:00.000Z",
-        "last_edited_time": "2026-01-27T02:39:00.000Z",
+        "last_edited_time": "2026-02-03T05:37:00.000Z",
         "created_by": {
           "object": "user",
           "id": "2aed872b-594c-81eb-bc82-000291164988"
@@ -1165,23 +1129,6 @@
             {
               "type": "text",
               "text": {
-                "content": "이번 미션의 최종 결과물은 ",
-                "link": null
-              },
-              "annotations": {
-                "bold": false,
-                "italic": false,
-                "strikethrough": false,
-                "underline": false,
-                "code": false,
-                "color": "default"
-              },
-              "plain_text": "이번 미션의 최종 결과물은 ",
-              "href": null
-            },
-            {
-              "type": "text",
-              "text": {
                 "content": "아기사자 수를 입력받아, 그 수만큼 아기사자 이름을 저장하고 출력하는 콘솔 기반 명단 관리 프로그램",
                 "link": null
               },
@@ -1194,23 +1141,6 @@
                 "color": "default"
               },
               "plain_text": "아기사자 수를 입력받아, 그 수만큼 아기사자 이름을 저장하고 출력하는 콘솔 기반 명단 관리 프로그램",
-              "href": null
-            },
-            {
-              "type": "text",
-              "text": {
-                "content": "입니다.",
-                "link": null
-              },
-              "annotations": {
-                "bold": false,
-                "italic": false,
-                "strikethrough": false,
-                "underline": false,
-                "code": false,
-                "color": "default"
-              },
-              "plain_text": "입니다.",
               "href": null
             }
           ],
@@ -1296,7 +1226,7 @@
           "block_id": "2f044860-a4f4-81d0-99f6-f70bc4062bb4"
         },
         "created_time": "2026-01-22T05:00:00.000Z",
-        "last_edited_time": "2026-01-27T05:03:00.000Z",
+        "last_edited_time": "2026-02-03T05:37:00.000Z",
         "created_by": {
           "object": "user",
           "id": "2aed872b-594c-81eb-bc82-000291164988"
@@ -1323,7 +1253,7 @@
                 "strikethrough": false,
                 "underline": false,
                 "code": false,
-                "color": "default"
+                "color": "orange"
               },
               "plain_text": "입력/요청",
               "href": null
@@ -1386,7 +1316,7 @@
           "block_id": "2f044860-a4f4-81d0-99f6-f70bc4062bb4"
         },
         "created_time": "2026-01-22T05:00:00.000Z",
-        "last_edited_time": "2026-01-27T05:04:00.000Z",
+        "last_edited_time": "2026-02-03T05:37:00.000Z",
         "created_by": {
           "object": "user",
           "id": "2aed872b-594c-81eb-bc82-000291164988"
@@ -1413,7 +1343,7 @@
                 "strikethrough": false,
                 "underline": false,
                 "code": false,
-                "color": "default"
+                "color": "orange"
               },
               "plain_text": "출력/화면",
               "href": null
@@ -1544,7 +1474,7 @@
           "block_id": "2f044860-a4f4-81d0-99f6-f70bc4062bb4"
         },
         "created_time": "2026-01-22T05:00:00.000Z",
-        "last_edited_time": "2026-01-27T05:03:00.000Z",
+        "last_edited_time": "2026-02-03T05:37:00.000Z",
         "created_by": {
           "object": "user",
           "id": "2aed872b-594c-81eb-bc82-000291164988"
@@ -1571,7 +1501,7 @@
                 "strikethrough": false,
                 "underline": false,
                 "code": false,
-                "color": "default"
+                "color": "orange"
               },
               "plain_text": "입력/요청",
               "href": null
@@ -1634,7 +1564,7 @@
           "block_id": "2f044860-a4f4-81d0-99f6-f70bc4062bb4"
         },
         "created_time": "2026-01-22T05:00:00.000Z",
-        "last_edited_time": "2026-01-27T05:03:00.000Z",
+        "last_edited_time": "2026-02-03T05:37:00.000Z",
         "created_by": {
           "object": "user",
           "id": "2aed872b-594c-81eb-bc82-000291164988"
@@ -1661,7 +1591,7 @@
                 "strikethrough": false,
                 "underline": false,
                 "code": false,
-                "color": "default"
+                "color": "orange"
               },
               "plain_text": "처리",
               "href": null
@@ -1724,7 +1654,7 @@
           "block_id": "2f044860-a4f4-81d0-99f6-f70bc4062bb4"
         },
         "created_time": "2026-01-22T05:00:00.000Z",
-        "last_edited_time": "2026-01-27T05:04:00.000Z",
+        "last_edited_time": "2026-02-03T05:37:00.000Z",
         "created_by": {
           "object": "user",
           "id": "2aed872b-594c-81eb-bc82-000291164988"
@@ -1751,7 +1681,7 @@
                 "strikethrough": false,
                 "underline": false,
                 "code": false,
-                "color": "default"
+                "color": "orange"
               },
               "plain_text": "출력/화면",
               "href": null
@@ -1882,7 +1812,7 @@
           "block_id": "2f044860-a4f4-81d0-99f6-f70bc4062bb4"
         },
         "created_time": "2026-01-22T05:00:00.000Z",
-        "last_edited_time": "2026-01-27T05:03:00.000Z",
+        "last_edited_time": "2026-02-03T05:37:00.000Z",
         "created_by": {
           "object": "user",
           "id": "2aed872b-594c-81eb-bc82-000291164988"
@@ -1909,7 +1839,7 @@
                 "strikethrough": false,
                 "underline": false,
                 "code": false,
-                "color": "default"
+                "color": "orange"
               },
               "plain_text": "처리",
               "href": null
@@ -1972,7 +1902,7 @@
           "block_id": "2f044860-a4f4-81d0-99f6-f70bc4062bb4"
         },
         "created_time": "2026-01-22T05:00:00.000Z",
-        "last_edited_time": "2026-01-27T05:03:00.000Z",
+        "last_edited_time": "2026-02-03T05:37:00.000Z",
         "created_by": {
           "object": "user",
           "id": "2aed872b-594c-81eb-bc82-000291164988"
@@ -1999,7 +1929,7 @@
                 "strikethrough": false,
                 "underline": false,
                 "code": false,
-                "color": "default"
+                "color": "orange"
               },
               "plain_text": "출력/화면",
               "href": null
@@ -3433,7 +3363,7 @@
           "block_id": "2f044860-a4f4-8173-882a-f09da13f9677"
         },
         "created_time": "2026-01-22T05:00:00.000Z",
-        "last_edited_time": "2026-01-22T05:00:00.000Z",
+        "last_edited_time": "2026-02-03T05:37:00.000Z",
         "created_by": {
           "object": "user",
           "id": "2aed872b-594c-81eb-bc82-000291164988"
@@ -3445,8 +3375,8 @@
         "has_children": false,
         "archived": false,
         "in_trash": false,
-        "type": "paragraph",
-        "paragraph": {
+        "type": "bulleted_list_item",
+        "bulleted_list_item": {
           "rich_text": [
             {
               "type": "text",
@@ -3458,7 +3388,7 @@
                 "bold": false,
                 "italic": false,
                 "strikethrough": false,
-                "underline": true,
+                "underline": false,
                 "code": false,
                 "color": "default"
               },
@@ -3494,8 +3424,8 @@
           "caption": [],
           "type": "file",
           "file": {
-            "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/c69962b0-3951-485b-b10a-5bb29576bba8/d0af6b5a-f884-43aa-b2c2-20da8b7ff392/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4662WOEOLGO%2F20260202%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260202T095235Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEBoaCXVzLXdlc3QtMiJHMEUCIQD5Jisdy3FQHZ8ORaiy9fFMN9xN8Eq6RCgKbpPxMxzsuQIgSlGhj%2FzPbjupXYILDV3X5tuOr4AZ0tZzduwZFLhKqrYqiAQI4%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDP%2FFawARMYMiqCcLXircA4OdmZM4bhjEl4SjEKLAJcbHi7B2SiauUrgh84i7JbYilovD1nFi6Ni21cMbM09rcAyjRyKQma%2FdZQV60D1IYUXpJsqm1%2BDjgAUytVeqoI65XOKw2mXghSG81%2F4vgo%2FgQokKBMGxaFH2LZvMstk4PxMKDscZEvlLeBT3fREs78%2FBSmN%2BYy0YHOt3awyXHFMGDY3wjj5RXCEOSCCD%2BAX5O1AV5D%2F62YudSv9NtVjg%2Flcky4QE6XGcDyeYyHTNU6HRdnXVQtPReypG8yjEBReQ5YSNmGlFmyWFGm3uMt2cE1kXOkd4kZnAdWg2HuFhy%2BI%2B1jqicM%2BLsFKMJG8erkbjxcIFKPr1NkvYDqSbEb0YgwODw9Qg9zx0OEjIbtVcFrrE9XEtx%2BksfN3wBHH%2BCCHPW%2BCsrTCOmhz44wAnJPzyTZkaLmjI1yJJeHhX1SKWfoI6MtzjryKKmwoD2hXcKI7FrWFIwujY88n%2FDv7Uor0uC6bbY39uBDyNkrIzcDWDoBH8TQSATidApWcvtOn9nmD7gibc%2F2itYksPTXCw2ZN2%2FC28jE9znDmtgEK%2FgHb2ySQHdnKJOkotnJkWQrz93sLPnBEOoyoNZxI4BniX%2FjfBtVp7JlhJlXOEgFiZZHEHMP7cgcwGOqUBlsUsKbWzH2rdTgBLnrC6OVHuKoLex40WbB497d8go4ST10GGB4H09kQYzyYql0OiEjkTmplxcXSWADhC117RW01YGc0v8aH85KPrA6lLdeh9UXrxYmi9351F4h2sHV6bJ2WmUMp7myPxyoRt6hqiM3Hu9s%2FyQ6nMqeNf8QK8uLTWSzPliFbei89PbP15h%2FbULgtQhRB2%2FwY85%2BZobdzSV1by%2FnEt&X-Amz-Signature=48608e2549cf455a6cc0df336fd41bc1f6577a586204203d41c0ad504eff0b40&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
-            "expiry_time": "2026-02-02T10:52:34.961Z"
+            "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/c69962b0-3951-485b-b10a-5bb29576bba8/d0af6b5a-f884-43aa-b2c2-20da8b7ff392/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466VVJZ7NV7%2F20260203%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260203T064731Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEC4aCXVzLXdlc3QtMiJHMEUCIFfja4z%2Fk9KR0IlSnjOhHRjjXa5cRLMgk8dG2HqMq6F9AiEArXl9s9Eula96GMrLZNZvJTutGa81rEkeWgiv2xasJzcqiAQI9%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDO26JMEOKVgQ2RDxbSrcA8NMqduOLgryE9tWPVqryFiA8LOrwu1aQWtek6F8Hsz0VzkYHSYPlNNhSkEDh8jMDOgLaOsRJw%2BwwJW2QQd1%2Bi50iescJfKcVV6g9anFfT3ynIns9warR5b54db%2BOqZp5z8Chhe%2FKAA8pGpwy2Q%2FAQ4Ud%2BjeffcSg41%2FQvWrh40a7Y67f2z3%2FN3%2F6%2Fh16QSp%2BiwaoX9PGLHwMxLYsT0uXG3jR24Ii%2FEqhGrZRLQUNzkFOa%2F6IU0jcW3pECXIBufVDGBnm9tQgfkGtIa%2FqMy7%2FsE%2Fz8upLaYT4kd2gRTKVwdJzhAU5LGeWSB8q%2BJRgP2lHZx7K%2BJNLg4lz8No5Ua3hNyzQs1CmZA9thULBtomQc%2FCBKpqWi2dUJxk3k6Ri6%2FqbLN%2B3O1l452Gusad%2FCdbrKl7m%2Faz78QkWjrEfGCr7t1oP5xI5fP14Iwm%2B8Uqm17pOfsjsZzgCqMwWaXhgNDOXfYvWi261hUC5xJrY7m9DIntqDyOrPlWOsk98FV1DX5fqdZGrWAvKmMmOEBLXZ9dDc1BQYIPBmVz1%2FiQY9%2BbfrxLvTdRde%2FgRhNgIjvRQ%2FiLgDX9BR7uN5f36gz%2BrDFTUrZ5QBx58Omxv5YLTJju1XVhQ28YPO3dKk%2F9lt6OMMeahswGOqUBmAfFql8PYsXDxzdizIt7Sqxvs5vBMGLsquQFZ%2BNGAdoMOvDqVi3fGVdlYlWhBEyl%2B2EnjmrOLLM%2BiNHrQ7Fv0NbHJaEZR0%2Bp%2BpsA8snfTubnEwUb4XmDc1EZEx516LPl6zHI5gKbZTuIa926OcpZQpn7HD3cxZitMkPi5wglVrH%2B5epQJHRIV5dkb3asGxRx26oKIpCTd2k61d%2F69ne6VYORVm0l&X-Amz-Signature=cab4167e3e26f0d3c03f71b8d9349c733a6e8a751e578adda2867cf401097a06&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+            "expiry_time": "2026-02-03T07:47:31.765Z"
           }
         }
       },
@@ -3507,7 +3437,7 @@
           "block_id": "2f044860-a4f4-8173-882a-f09da13f9677"
         },
         "created_time": "2026-01-22T05:00:00.000Z",
-        "last_edited_time": "2026-01-22T05:00:00.000Z",
+        "last_edited_time": "2026-02-03T05:38:00.000Z",
         "created_by": {
           "object": "user",
           "id": "2aed872b-594c-81eb-bc82-000291164988"
@@ -3519,8 +3449,8 @@
         "has_children": false,
         "archived": false,
         "in_trash": false,
-        "type": "paragraph",
-        "paragraph": {
+        "type": "bulleted_list_item",
+        "bulleted_list_item": {
           "rich_text": [
             {
               "type": "text",
@@ -3532,7 +3462,7 @@
                 "bold": false,
                 "italic": false,
                 "strikethrough": false,
-                "underline": true,
+                "underline": false,
                 "code": false,
                 "color": "default"
               },
@@ -3568,10 +3498,33 @@
           "caption": [],
           "type": "file",
           "file": {
-            "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/c69962b0-3951-485b-b10a-5bb29576bba8/b679055b-bdc9-45f2-a550-2f8bb2e94ec6/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4662WOEOLGO%2F20260202%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260202T095235Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEBoaCXVzLXdlc3QtMiJHMEUCIQD5Jisdy3FQHZ8ORaiy9fFMN9xN8Eq6RCgKbpPxMxzsuQIgSlGhj%2FzPbjupXYILDV3X5tuOr4AZ0tZzduwZFLhKqrYqiAQI4%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDP%2FFawARMYMiqCcLXircA4OdmZM4bhjEl4SjEKLAJcbHi7B2SiauUrgh84i7JbYilovD1nFi6Ni21cMbM09rcAyjRyKQma%2FdZQV60D1IYUXpJsqm1%2BDjgAUytVeqoI65XOKw2mXghSG81%2F4vgo%2FgQokKBMGxaFH2LZvMstk4PxMKDscZEvlLeBT3fREs78%2FBSmN%2BYy0YHOt3awyXHFMGDY3wjj5RXCEOSCCD%2BAX5O1AV5D%2F62YudSv9NtVjg%2Flcky4QE6XGcDyeYyHTNU6HRdnXVQtPReypG8yjEBReQ5YSNmGlFmyWFGm3uMt2cE1kXOkd4kZnAdWg2HuFhy%2BI%2B1jqicM%2BLsFKMJG8erkbjxcIFKPr1NkvYDqSbEb0YgwODw9Qg9zx0OEjIbtVcFrrE9XEtx%2BksfN3wBHH%2BCCHPW%2BCsrTCOmhz44wAnJPzyTZkaLmjI1yJJeHhX1SKWfoI6MtzjryKKmwoD2hXcKI7FrWFIwujY88n%2FDv7Uor0uC6bbY39uBDyNkrIzcDWDoBH8TQSATidApWcvtOn9nmD7gibc%2F2itYksPTXCw2ZN2%2FC28jE9znDmtgEK%2FgHb2ySQHdnKJOkotnJkWQrz93sLPnBEOoyoNZxI4BniX%2FjfBtVp7JlhJlXOEgFiZZHEHMP7cgcwGOqUBlsUsKbWzH2rdTgBLnrC6OVHuKoLex40WbB497d8go4ST10GGB4H09kQYzyYql0OiEjkTmplxcXSWADhC117RW01YGc0v8aH85KPrA6lLdeh9UXrxYmi9351F4h2sHV6bJ2WmUMp7myPxyoRt6hqiM3Hu9s%2FyQ6nMqeNf8QK8uLTWSzPliFbei89PbP15h%2FbULgtQhRB2%2FwY85%2BZobdzSV1by%2FnEt&X-Amz-Signature=2b6f1e44d92bb4be6f34920406156a55d04de5c7c866b779f43f89b95f63209e&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
-            "expiry_time": "2026-02-02T10:52:34.961Z"
+            "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/c69962b0-3951-485b-b10a-5bb29576bba8/b679055b-bdc9-45f2-a550-2f8bb2e94ec6/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466VVJZ7NV7%2F20260203%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260203T064731Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEC4aCXVzLXdlc3QtMiJHMEUCIFfja4z%2Fk9KR0IlSnjOhHRjjXa5cRLMgk8dG2HqMq6F9AiEArXl9s9Eula96GMrLZNZvJTutGa81rEkeWgiv2xasJzcqiAQI9%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDO26JMEOKVgQ2RDxbSrcA8NMqduOLgryE9tWPVqryFiA8LOrwu1aQWtek6F8Hsz0VzkYHSYPlNNhSkEDh8jMDOgLaOsRJw%2BwwJW2QQd1%2Bi50iescJfKcVV6g9anFfT3ynIns9warR5b54db%2BOqZp5z8Chhe%2FKAA8pGpwy2Q%2FAQ4Ud%2BjeffcSg41%2FQvWrh40a7Y67f2z3%2FN3%2F6%2Fh16QSp%2BiwaoX9PGLHwMxLYsT0uXG3jR24Ii%2FEqhGrZRLQUNzkFOa%2F6IU0jcW3pECXIBufVDGBnm9tQgfkGtIa%2FqMy7%2FsE%2Fz8upLaYT4kd2gRTKVwdJzhAU5LGeWSB8q%2BJRgP2lHZx7K%2BJNLg4lz8No5Ua3hNyzQs1CmZA9thULBtomQc%2FCBKpqWi2dUJxk3k6Ri6%2FqbLN%2B3O1l452Gusad%2FCdbrKl7m%2Faz78QkWjrEfGCr7t1oP5xI5fP14Iwm%2B8Uqm17pOfsjsZzgCqMwWaXhgNDOXfYvWi261hUC5xJrY7m9DIntqDyOrPlWOsk98FV1DX5fqdZGrWAvKmMmOEBLXZ9dDc1BQYIPBmVz1%2FiQY9%2BbfrxLvTdRde%2FgRhNgIjvRQ%2FiLgDX9BR7uN5f36gz%2BrDFTUrZ5QBx58Omxv5YLTJju1XVhQ28YPO3dKk%2F9lt6OMMeahswGOqUBmAfFql8PYsXDxzdizIt7Sqxvs5vBMGLsquQFZ%2BNGAdoMOvDqVi3fGVdlYlWhBEyl%2B2EnjmrOLLM%2BiNHrQ7Fv0NbHJaEZR0%2Bp%2BpsA8snfTubnEwUb4XmDc1EZEx516LPl6zHI5gKbZTuIa926OcpZQpn7HD3cxZitMkPi5wglVrH%2B5epQJHRIV5dkb3asGxRx26oKIpCTd2k61d%2F69ne6VYORVm0l&X-Amz-Signature=cc96f05a15b3a25d16eeb1e146d1ea7ec9a5ff4bdc6edfc2526374d8ea2cab30&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+            "expiry_time": "2026-02-03T07:47:31.785Z"
           }
         }
+      },
+      {
+        "object": "block",
+        "id": "2fc44860-a4f4-8012-8f25-e1bc1fc6bba3",
+        "parent": {
+          "type": "block_id",
+          "block_id": "2f044860-a4f4-8173-882a-f09da13f9677"
+        },
+        "created_time": "2026-02-03T05:38:00.000Z",
+        "last_edited_time": "2026-02-03T05:38:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "has_children": false,
+        "archived": false,
+        "in_trash": false,
+        "type": "divider",
+        "divider": {}
       },
       {
         "object": "block",
@@ -3713,20 +3666,20 @@
           "caption": [],
           "type": "file",
           "file": {
-            "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/c69962b0-3951-485b-b10a-5bb29576bba8/2fe6b100-a613-4d29-b152-5706c5f47574/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4662WOEOLGO%2F20260202%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260202T095235Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEBoaCXVzLXdlc3QtMiJHMEUCIQD5Jisdy3FQHZ8ORaiy9fFMN9xN8Eq6RCgKbpPxMxzsuQIgSlGhj%2FzPbjupXYILDV3X5tuOr4AZ0tZzduwZFLhKqrYqiAQI4%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDP%2FFawARMYMiqCcLXircA4OdmZM4bhjEl4SjEKLAJcbHi7B2SiauUrgh84i7JbYilovD1nFi6Ni21cMbM09rcAyjRyKQma%2FdZQV60D1IYUXpJsqm1%2BDjgAUytVeqoI65XOKw2mXghSG81%2F4vgo%2FgQokKBMGxaFH2LZvMstk4PxMKDscZEvlLeBT3fREs78%2FBSmN%2BYy0YHOt3awyXHFMGDY3wjj5RXCEOSCCD%2BAX5O1AV5D%2F62YudSv9NtVjg%2Flcky4QE6XGcDyeYyHTNU6HRdnXVQtPReypG8yjEBReQ5YSNmGlFmyWFGm3uMt2cE1kXOkd4kZnAdWg2HuFhy%2BI%2B1jqicM%2BLsFKMJG8erkbjxcIFKPr1NkvYDqSbEb0YgwODw9Qg9zx0OEjIbtVcFrrE9XEtx%2BksfN3wBHH%2BCCHPW%2BCsrTCOmhz44wAnJPzyTZkaLmjI1yJJeHhX1SKWfoI6MtzjryKKmwoD2hXcKI7FrWFIwujY88n%2FDv7Uor0uC6bbY39uBDyNkrIzcDWDoBH8TQSATidApWcvtOn9nmD7gibc%2F2itYksPTXCw2ZN2%2FC28jE9znDmtgEK%2FgHb2ySQHdnKJOkotnJkWQrz93sLPnBEOoyoNZxI4BniX%2FjfBtVp7JlhJlXOEgFiZZHEHMP7cgcwGOqUBlsUsKbWzH2rdTgBLnrC6OVHuKoLex40WbB497d8go4ST10GGB4H09kQYzyYql0OiEjkTmplxcXSWADhC117RW01YGc0v8aH85KPrA6lLdeh9UXrxYmi9351F4h2sHV6bJ2WmUMp7myPxyoRt6hqiM3Hu9s%2FyQ6nMqeNf8QK8uLTWSzPliFbei89PbP15h%2FbULgtQhRB2%2FwY85%2BZobdzSV1by%2FnEt&X-Amz-Signature=8cf12f87d2df522bd6a2d31e2b553889855665cc79abb0b03aa2dff6b409e10a&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
-            "expiry_time": "2026-02-02T10:52:34.961Z"
+            "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/c69962b0-3951-485b-b10a-5bb29576bba8/2fe6b100-a613-4d29-b152-5706c5f47574/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466VVJZ7NV7%2F20260203%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260203T064731Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEC4aCXVzLXdlc3QtMiJHMEUCIFfja4z%2Fk9KR0IlSnjOhHRjjXa5cRLMgk8dG2HqMq6F9AiEArXl9s9Eula96GMrLZNZvJTutGa81rEkeWgiv2xasJzcqiAQI9%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDO26JMEOKVgQ2RDxbSrcA8NMqduOLgryE9tWPVqryFiA8LOrwu1aQWtek6F8Hsz0VzkYHSYPlNNhSkEDh8jMDOgLaOsRJw%2BwwJW2QQd1%2Bi50iescJfKcVV6g9anFfT3ynIns9warR5b54db%2BOqZp5z8Chhe%2FKAA8pGpwy2Q%2FAQ4Ud%2BjeffcSg41%2FQvWrh40a7Y67f2z3%2FN3%2F6%2Fh16QSp%2BiwaoX9PGLHwMxLYsT0uXG3jR24Ii%2FEqhGrZRLQUNzkFOa%2F6IU0jcW3pECXIBufVDGBnm9tQgfkGtIa%2FqMy7%2FsE%2Fz8upLaYT4kd2gRTKVwdJzhAU5LGeWSB8q%2BJRgP2lHZx7K%2BJNLg4lz8No5Ua3hNyzQs1CmZA9thULBtomQc%2FCBKpqWi2dUJxk3k6Ri6%2FqbLN%2B3O1l452Gusad%2FCdbrKl7m%2Faz78QkWjrEfGCr7t1oP5xI5fP14Iwm%2B8Uqm17pOfsjsZzgCqMwWaXhgNDOXfYvWi261hUC5xJrY7m9DIntqDyOrPlWOsk98FV1DX5fqdZGrWAvKmMmOEBLXZ9dDc1BQYIPBmVz1%2FiQY9%2BbfrxLvTdRde%2FgRhNgIjvRQ%2FiLgDX9BR7uN5f36gz%2BrDFTUrZ5QBx58Omxv5YLTJju1XVhQ28YPO3dKk%2F9lt6OMMeahswGOqUBmAfFql8PYsXDxzdizIt7Sqxvs5vBMGLsquQFZ%2BNGAdoMOvDqVi3fGVdlYlWhBEyl%2B2EnjmrOLLM%2BiNHrQ7Fv0NbHJaEZR0%2Bp%2BpsA8snfTubnEwUb4XmDc1EZEx516LPl6zHI5gKbZTuIa926OcpZQpn7HD3cxZitMkPi5wglVrH%2B5epQJHRIV5dkb3asGxRx26oKIpCTd2k61d%2F69ne6VYORVm0l&X-Amz-Signature=a8696c3f36bcccd8186a04d3178d63759a2eee985bd976dcb58744fcb632031c&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+            "expiry_time": "2026-02-03T07:47:31.765Z"
           }
         }
       },
       {
         "object": "block",
-        "id": "2f044860-a4f4-813d-a72e-f183663ac0cf",
+        "id": "2fc44860-a4f4-803d-9fcc-d9747e0c3e97",
         "parent": {
           "type": "block_id",
           "block_id": "2f044860-a4f4-8173-882a-f09da13f9677"
         },
-        "created_time": "2026-01-22T05:00:00.000Z",
-        "last_edited_time": "2026-01-22T05:00:00.000Z",
+        "created_time": "2026-02-03T05:38:00.000Z",
+        "last_edited_time": "2026-02-03T05:38:00.000Z",
         "created_by": {
           "object": "user",
           "id": "2aed872b-594c-81eb-bc82-000291164988"
@@ -3738,11 +3691,8 @@
         "has_children": false,
         "archived": false,
         "in_trash": false,
-        "type": "paragraph",
-        "paragraph": {
-          "rich_text": [],
-          "color": "default"
-        }
+        "type": "divider",
+        "divider": {}
       },
       {
         "object": "block",
@@ -3858,10 +3808,33 @@
           "caption": [],
           "type": "file",
           "file": {
-            "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/c69962b0-3951-485b-b10a-5bb29576bba8/7b3669c8-ce72-4a9f-9d82-94df78f21d33/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4662WOEOLGO%2F20260202%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260202T095235Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEBoaCXVzLXdlc3QtMiJHMEUCIQD5Jisdy3FQHZ8ORaiy9fFMN9xN8Eq6RCgKbpPxMxzsuQIgSlGhj%2FzPbjupXYILDV3X5tuOr4AZ0tZzduwZFLhKqrYqiAQI4%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDP%2FFawARMYMiqCcLXircA4OdmZM4bhjEl4SjEKLAJcbHi7B2SiauUrgh84i7JbYilovD1nFi6Ni21cMbM09rcAyjRyKQma%2FdZQV60D1IYUXpJsqm1%2BDjgAUytVeqoI65XOKw2mXghSG81%2F4vgo%2FgQokKBMGxaFH2LZvMstk4PxMKDscZEvlLeBT3fREs78%2FBSmN%2BYy0YHOt3awyXHFMGDY3wjj5RXCEOSCCD%2BAX5O1AV5D%2F62YudSv9NtVjg%2Flcky4QE6XGcDyeYyHTNU6HRdnXVQtPReypG8yjEBReQ5YSNmGlFmyWFGm3uMt2cE1kXOkd4kZnAdWg2HuFhy%2BI%2B1jqicM%2BLsFKMJG8erkbjxcIFKPr1NkvYDqSbEb0YgwODw9Qg9zx0OEjIbtVcFrrE9XEtx%2BksfN3wBHH%2BCCHPW%2BCsrTCOmhz44wAnJPzyTZkaLmjI1yJJeHhX1SKWfoI6MtzjryKKmwoD2hXcKI7FrWFIwujY88n%2FDv7Uor0uC6bbY39uBDyNkrIzcDWDoBH8TQSATidApWcvtOn9nmD7gibc%2F2itYksPTXCw2ZN2%2FC28jE9znDmtgEK%2FgHb2ySQHdnKJOkotnJkWQrz93sLPnBEOoyoNZxI4BniX%2FjfBtVp7JlhJlXOEgFiZZHEHMP7cgcwGOqUBlsUsKbWzH2rdTgBLnrC6OVHuKoLex40WbB497d8go4ST10GGB4H09kQYzyYql0OiEjkTmplxcXSWADhC117RW01YGc0v8aH85KPrA6lLdeh9UXrxYmi9351F4h2sHV6bJ2WmUMp7myPxyoRt6hqiM3Hu9s%2FyQ6nMqeNf8QK8uLTWSzPliFbei89PbP15h%2FbULgtQhRB2%2FwY85%2BZobdzSV1by%2FnEt&X-Amz-Signature=9bbf6f5ba6daccf3c66c00c676fe584f2b77d53b214cc28cd721917884f75d61&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
-            "expiry_time": "2026-02-02T10:52:34.961Z"
+            "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/c69962b0-3951-485b-b10a-5bb29576bba8/7b3669c8-ce72-4a9f-9d82-94df78f21d33/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466VVJZ7NV7%2F20260203%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260203T064731Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEC4aCXVzLXdlc3QtMiJHMEUCIFfja4z%2Fk9KR0IlSnjOhHRjjXa5cRLMgk8dG2HqMq6F9AiEArXl9s9Eula96GMrLZNZvJTutGa81rEkeWgiv2xasJzcqiAQI9%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDO26JMEOKVgQ2RDxbSrcA8NMqduOLgryE9tWPVqryFiA8LOrwu1aQWtek6F8Hsz0VzkYHSYPlNNhSkEDh8jMDOgLaOsRJw%2BwwJW2QQd1%2Bi50iescJfKcVV6g9anFfT3ynIns9warR5b54db%2BOqZp5z8Chhe%2FKAA8pGpwy2Q%2FAQ4Ud%2BjeffcSg41%2FQvWrh40a7Y67f2z3%2FN3%2F6%2Fh16QSp%2BiwaoX9PGLHwMxLYsT0uXG3jR24Ii%2FEqhGrZRLQUNzkFOa%2F6IU0jcW3pECXIBufVDGBnm9tQgfkGtIa%2FqMy7%2FsE%2Fz8upLaYT4kd2gRTKVwdJzhAU5LGeWSB8q%2BJRgP2lHZx7K%2BJNLg4lz8No5Ua3hNyzQs1CmZA9thULBtomQc%2FCBKpqWi2dUJxk3k6Ri6%2FqbLN%2B3O1l452Gusad%2FCdbrKl7m%2Faz78QkWjrEfGCr7t1oP5xI5fP14Iwm%2B8Uqm17pOfsjsZzgCqMwWaXhgNDOXfYvWi261hUC5xJrY7m9DIntqDyOrPlWOsk98FV1DX5fqdZGrWAvKmMmOEBLXZ9dDc1BQYIPBmVz1%2FiQY9%2BbfrxLvTdRde%2FgRhNgIjvRQ%2FiLgDX9BR7uN5f36gz%2BrDFTUrZ5QBx58Omxv5YLTJju1XVhQ28YPO3dKk%2F9lt6OMMeahswGOqUBmAfFql8PYsXDxzdizIt7Sqxvs5vBMGLsquQFZ%2BNGAdoMOvDqVi3fGVdlYlWhBEyl%2B2EnjmrOLLM%2BiNHrQ7Fv0NbHJaEZR0%2Bp%2BpsA8snfTubnEwUb4XmDc1EZEx516LPl6zHI5gKbZTuIa926OcpZQpn7HD3cxZitMkPi5wglVrH%2B5epQJHRIV5dkb3asGxRx26oKIpCTd2k61d%2F69ne6VYORVm0l&X-Amz-Signature=7b8243c905614eb3f3d0d3f0b6aa6661986fd9274dc12a301dc8b7cdafbb4d7b&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+            "expiry_time": "2026-02-03T07:47:31.765Z"
           }
         }
+      },
+      {
+        "object": "block",
+        "id": "2fc44860-a4f4-80d6-81ed-def7bcce7e72",
+        "parent": {
+          "type": "block_id",
+          "block_id": "2f044860-a4f4-8173-882a-f09da13f9677"
+        },
+        "created_time": "2026-02-03T05:38:00.000Z",
+        "last_edited_time": "2026-02-03T05:38:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "has_children": false,
+        "archived": false,
+        "in_trash": false,
+        "type": "divider",
+        "divider": {}
       },
       {
         "object": "block",
@@ -3933,8 +3906,8 @@
           "caption": [],
           "type": "file",
           "file": {
-            "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/c69962b0-3951-485b-b10a-5bb29576bba8/2f850ea0-631d-4253-832a-2b5519e6a345/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4662WOEOLGO%2F20260202%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260202T095235Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEBoaCXVzLXdlc3QtMiJHMEUCIQD5Jisdy3FQHZ8ORaiy9fFMN9xN8Eq6RCgKbpPxMxzsuQIgSlGhj%2FzPbjupXYILDV3X5tuOr4AZ0tZzduwZFLhKqrYqiAQI4%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDP%2FFawARMYMiqCcLXircA4OdmZM4bhjEl4SjEKLAJcbHi7B2SiauUrgh84i7JbYilovD1nFi6Ni21cMbM09rcAyjRyKQma%2FdZQV60D1IYUXpJsqm1%2BDjgAUytVeqoI65XOKw2mXghSG81%2F4vgo%2FgQokKBMGxaFH2LZvMstk4PxMKDscZEvlLeBT3fREs78%2FBSmN%2BYy0YHOt3awyXHFMGDY3wjj5RXCEOSCCD%2BAX5O1AV5D%2F62YudSv9NtVjg%2Flcky4QE6XGcDyeYyHTNU6HRdnXVQtPReypG8yjEBReQ5YSNmGlFmyWFGm3uMt2cE1kXOkd4kZnAdWg2HuFhy%2BI%2B1jqicM%2BLsFKMJG8erkbjxcIFKPr1NkvYDqSbEb0YgwODw9Qg9zx0OEjIbtVcFrrE9XEtx%2BksfN3wBHH%2BCCHPW%2BCsrTCOmhz44wAnJPzyTZkaLmjI1yJJeHhX1SKWfoI6MtzjryKKmwoD2hXcKI7FrWFIwujY88n%2FDv7Uor0uC6bbY39uBDyNkrIzcDWDoBH8TQSATidApWcvtOn9nmD7gibc%2F2itYksPTXCw2ZN2%2FC28jE9znDmtgEK%2FgHb2ySQHdnKJOkotnJkWQrz93sLPnBEOoyoNZxI4BniX%2FjfBtVp7JlhJlXOEgFiZZHEHMP7cgcwGOqUBlsUsKbWzH2rdTgBLnrC6OVHuKoLex40WbB497d8go4ST10GGB4H09kQYzyYql0OiEjkTmplxcXSWADhC117RW01YGc0v8aH85KPrA6lLdeh9UXrxYmi9351F4h2sHV6bJ2WmUMp7myPxyoRt6hqiM3Hu9s%2FyQ6nMqeNf8QK8uLTWSzPliFbei89PbP15h%2FbULgtQhRB2%2FwY85%2BZobdzSV1by%2FnEt&X-Amz-Signature=796b75dc54149dcd9620fd2fa8fced7dedf3ef3c21b75441ffbe96ccf49c0fac&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
-            "expiry_time": "2026-02-02T10:52:34.961Z"
+            "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/c69962b0-3951-485b-b10a-5bb29576bba8/2f850ea0-631d-4253-832a-2b5519e6a345/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466VVJZ7NV7%2F20260203%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260203T064731Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEC4aCXVzLXdlc3QtMiJHMEUCIFfja4z%2Fk9KR0IlSnjOhHRjjXa5cRLMgk8dG2HqMq6F9AiEArXl9s9Eula96GMrLZNZvJTutGa81rEkeWgiv2xasJzcqiAQI9%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDO26JMEOKVgQ2RDxbSrcA8NMqduOLgryE9tWPVqryFiA8LOrwu1aQWtek6F8Hsz0VzkYHSYPlNNhSkEDh8jMDOgLaOsRJw%2BwwJW2QQd1%2Bi50iescJfKcVV6g9anFfT3ynIns9warR5b54db%2BOqZp5z8Chhe%2FKAA8pGpwy2Q%2FAQ4Ud%2BjeffcSg41%2FQvWrh40a7Y67f2z3%2FN3%2F6%2Fh16QSp%2BiwaoX9PGLHwMxLYsT0uXG3jR24Ii%2FEqhGrZRLQUNzkFOa%2F6IU0jcW3pECXIBufVDGBnm9tQgfkGtIa%2FqMy7%2FsE%2Fz8upLaYT4kd2gRTKVwdJzhAU5LGeWSB8q%2BJRgP2lHZx7K%2BJNLg4lz8No5Ua3hNyzQs1CmZA9thULBtomQc%2FCBKpqWi2dUJxk3k6Ri6%2FqbLN%2B3O1l452Gusad%2FCdbrKl7m%2Faz78QkWjrEfGCr7t1oP5xI5fP14Iwm%2B8Uqm17pOfsjsZzgCqMwWaXhgNDOXfYvWi261hUC5xJrY7m9DIntqDyOrPlWOsk98FV1DX5fqdZGrWAvKmMmOEBLXZ9dDc1BQYIPBmVz1%2FiQY9%2BbfrxLvTdRde%2FgRhNgIjvRQ%2FiLgDX9BR7uN5f36gz%2BrDFTUrZ5QBx58Omxv5YLTJju1XVhQ28YPO3dKk%2F9lt6OMMeahswGOqUBmAfFql8PYsXDxzdizIt7Sqxvs5vBMGLsquQFZ%2BNGAdoMOvDqVi3fGVdlYlWhBEyl%2B2EnjmrOLLM%2BiNHrQ7Fv0NbHJaEZR0%2Bp%2BpsA8snfTubnEwUb4XmDc1EZEx516LPl6zHI5gKbZTuIa926OcpZQpn7HD3cxZitMkPi5wglVrH%2B5epQJHRIV5dkb3asGxRx26oKIpCTd2k61d%2F69ne6VYORVm0l&X-Amz-Signature=5ee25ba694981e0c2940b1cebef2dbeb1c3dc0ad3413a4661748ede7cc5f3d4a&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+            "expiry_time": "2026-02-03T07:47:31.765Z"
           }
         }
       },
@@ -4715,7 +4688,7 @@
           "block_id": "2f044860-a4f4-815f-80f3-cbd4850e9152"
         },
         "created_time": "2026-01-22T05:00:00.000Z",
-        "last_edited_time": "2026-01-27T02:37:00.000Z",
+        "last_edited_time": "2026-02-03T05:38:00.000Z",
         "created_by": {
           "object": "user",
           "id": "2aed872b-594c-81eb-bc82-000291164988"
@@ -4733,7 +4706,7 @@
             {
               "type": "text",
               "text": {
-                "content": "아기사자 명단 출력이 끝난 후, 프로그램을 종료하지 않고 다시 처음부터 실행되도록 구성한다.",
+                "content": "아기사자 명단 출력이 끝난 후, ",
                 "link": null
               },
               "annotations": {
@@ -4744,7 +4717,41 @@
                 "code": false,
                 "color": "default"
               },
-              "plain_text": "아기사자 명단 출력이 끝난 후, 프로그램을 종료하지 않고 다시 처음부터 실행되도록 구성한다.",
+              "plain_text": "아기사자 명단 출력이 끝난 후, ",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": "프로그램을 종료하지 않고 다시 처음부터 실행되도록 구성",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "orange"
+              },
+              "plain_text": "프로그램을 종료하지 않고 다시 처음부터 실행되도록 구성",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": "한다.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "한다.",
               "href": null
             }
           ],
@@ -4759,7 +4766,7 @@
           "block_id": "2f044860-a4f4-815f-80f3-cbd4850e9152"
         },
         "created_time": "2026-01-22T05:00:00.000Z",
-        "last_edited_time": "2026-01-27T02:37:00.000Z",
+        "last_edited_time": "2026-02-03T05:38:00.000Z",
         "created_by": {
           "object": "user",
           "id": "2aed872b-594c-81eb-bc82-000291164988"
@@ -4777,7 +4784,7 @@
             {
               "type": "text",
               "text": {
-                "content": "사용자에게 명령어 입력을 받아, exit 입력 시 프로그램을 종료하고 restart 입력 시 초기 화면으로 돌아가도록 처리한다.",
+                "content": "사용자에게 명령어 입력을 받아, ",
                 "link": null
               },
               "annotations": {
@@ -4788,7 +4795,41 @@
                 "code": false,
                 "color": "default"
               },
-              "plain_text": "사용자에게 명령어 입력을 받아, exit 입력 시 프로그램을 종료하고 restart 입력 시 초기 화면으로 돌아가도록 처리한다.",
+              "plain_text": "사용자에게 명령어 입력을 받아, ",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": "exit 입력 시 프로그램을 종료하고 restart 입력 시 초기 화면",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "orange"
+              },
+              "plain_text": "exit 입력 시 프로그램을 종료하고 restart 입력 시 초기 화면",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": "으로 돌아가도록 처리한다.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "으로 돌아가도록 처리한다.",
               "href": null
             }
           ],
@@ -4803,7 +4844,7 @@
           "block_id": "2f044860-a4f4-815f-80f3-cbd4850e9152"
         },
         "created_time": "2026-01-22T05:00:00.000Z",
-        "last_edited_time": "2026-01-27T02:37:00.000Z",
+        "last_edited_time": "2026-02-03T05:39:00.000Z",
         "created_by": {
           "object": "user",
           "id": "2aed872b-594c-81eb-bc82-000291164988"
@@ -4821,7 +4862,7 @@
             {
               "type": "text",
               "text": {
-                "content": "잘못된 명령어가 입력될 경우, 다시 명령어 입력을 요청한다.",
+                "content": "잘못된 명령어가 입력될 경우, ",
                 "link": null
               },
               "annotations": {
@@ -4832,7 +4873,41 @@
                 "code": false,
                 "color": "default"
               },
-              "plain_text": "잘못된 명령어가 입력될 경우, 다시 명령어 입력을 요청한다.",
+              "plain_text": "잘못된 명령어가 입력될 경우, ",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": "다시 명령어 입력을 요청",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "orange"
+              },
+              "plain_text": "다시 명령어 입력을 요청",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": "한다.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "한다.",
               "href": null
             }
           ],
@@ -4917,7 +4992,7 @@
               "block_id": "2f044860-a4f4-81ef-92fd-fec3c8cd4c0b"
             },
             "created_time": "2026-01-22T05:00:00.000Z",
-            "last_edited_time": "2026-01-22T05:00:00.000Z",
+            "last_edited_time": "2026-02-03T05:39:00.000Z",
             "created_by": {
               "object": "user",
               "id": "2aed872b-594c-81eb-bc82-000291164988"
@@ -4929,8 +5004,8 @@
             "has_children": false,
             "archived": false,
             "in_trash": false,
-            "type": "numbered_list_item",
-            "numbered_list_item": {
+            "type": "paragraph",
+            "paragraph": {
               "rich_text": [
                 {
                   "type": "text",
@@ -4978,8 +5053,8 @@
               "caption": [],
               "type": "file",
               "file": {
-                "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/c69962b0-3951-485b-b10a-5bb29576bba8/38a75e7e-feba-4acb-b336-7a3e6aa1d776/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466UUU3UJ3U%2F20260202%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260202T095245Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEBoaCXVzLXdlc3QtMiJIMEYCIQCpFa1p7QX%2Bh%2BKkv0E2FBnmJzuCCf4BISfJS%2BBzv16u8gIhAMMvXrWfIsHuZFLsbORoOL0w7WItR3PcCptRN%2FlJIaYOKogECOL%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMNjM3NDIzMTgzODA1IgxU%2F6KpUN%2FnAsL2kycq3AP81NkNVPmH6st6Uo1YfF8iAtv3EDOyTgeNJgNVDmjDm5mdKny2pKOV8uYvz8NGM7JnsIFlGClLaSpXvW4avm4AMvZV1vHJ0Bkf1lOedy8Tw7ZCU%2FAiqmc%2BP3EphpsZihlvx9sRXneDY0AyKIMtxxBhL%2F7zhQPfTsD%2BEDSa3%2BXOG4VxIBiYnmVRoHYyxrNbdhFNGHzQoWdwm0QEFfkhJIa%2BamnEYsL9xAHofOyJjp2iwaH%2FkFL2ithYGzjAAW713RtExBuhYv3V9L%2Bo8oxvZ9PftPt7J9WRC6TmNKVROtgWNal0mvZjXLCo%2BUmr5fW6trelb7%2F19xO2AfvIDswOeHPm%2BxblcVd2n1THC4TbKoU%2BtG4sTUvesVi%2F8LQD%2BVFXFmeqlu7LbFOTnVAYRcj8rtL5%2Bmgwn%2BVAUUd%2BokTFhxFX2rhfMclVQDq1aaGCF3zMUWTAqLlZhiHC27rpTtYu7XPFrKIhnu0CmBcJ%2FtP4jpNDZjkgNd6dQHJOHSs3T%2FUa6qbPfi6T6PqQW4IOzpLV%2FdO4RU3%2BOUUhszdkLjRUIcolc%2BGixoKF5toEoaTAy2i%2FSVkkzQcz5ieZicD5qNe8Rktxh4GUzjAuYFJA%2BdV0GPTfQb6hIqVffVK%2FfcptSjCF3YHMBjqkAYGlYoncKmJKSP1iKrKE%2F1zKzm8pSvtHiuW6Ewg6HQuiSU9sbg5%2F2g68MpUB0iGXg6DcQpZ5qFCLljH4gXJYKIqc2PvH1ZhWSaMDKUCQk77YiI3dbJUy8UhgXR7mQ%2Bb97yYNX2WAbQpzNpZ9m59P%2B%2B70qlPs%2FWcRbu4GV4M2bBFVMosaphn3sRweejf%2BU64kN3Is1SDq%2FNcSFAC8zS9hMTKr%2BuuT&X-Amz-Signature=199cba0e67c31dbe5565c75c941793521e937f700a6d4281aafaae0963f49d08&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
-                "expiry_time": "2026-02-02T10:52:45.496Z"
+                "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/c69962b0-3951-485b-b10a-5bb29576bba8/38a75e7e-feba-4acb-b336-7a3e6aa1d776/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466RLMS6GJQ%2F20260203%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260203T064742Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEC4aCXVzLXdlc3QtMiJIMEYCIQCkt4UcemL9uJVE1mywtVjt5qzetWcbDq4b1hIv9zA9GQIhANrSEXQ0z8SzvtdBESQhutKL8zx%2FzkrnFBwitNZ%2BnikgKogECPf%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMNjM3NDIzMTgzODA1Igyed368xB6v6oJvgwEq3ANQkxxjHzhwqXnd2Q8BNsEKQVwTKqrKh59DsyWfYohI%2FERPp6okmXh7Fiol8SjEh1SHKGq7QaNbLg79ggCPhxWzgnt3qp4q0DPkivwyskCjQKF8lFW8xDhIu1%2F5Lg0trRcfv7XuN%2B3wTkWaLMQREOngg2FpWd0ffnFwvfwhXlj4IAM%2B9uao%2BvafbGR8x%2FPkyUovkA8rDdkpc8%2FOwBtEy1et1OQELaURcP6aQpIdrVMpHUKFnBSXIvAvazv%2BZ2xVzjJeGAO4TUdK%2BVejoKAlQBPVqxYWW9Spro%2FqZEZivgANsfuWad1qdaFxUDEETk9CDPaaexzrm49YYogAHV5DCAiCc9rpvTBAWNL3%2BGZn2Jkoc5puh1auaBYTp9XtXMt%2Bq0PjjN8%2BJ%2FQmCXOqOnuIzoWeRFf%2FmAex%2Fi8wyf0A77vIsIsomDAQi5HiVbv3q8IOp6DEKhkyQ5mknecnfF3bIIO0v6pCbDBK1Bxq%2F9FTn3xoPHQhjeO2gJTGsVM4E0NZBbz4%2F3P%2FPuIK%2BbAKVix2XJb35ANJHVphQ76ponVNGRF9mruLy4SwUHc39vYHt1fcZCZwZvrOr8syo02eSPz4pbFdU6YGxU6Koui5StS4GTwHqqJ9u8W3tABgff1sEzD9mYbMBjqkAe1RvEDjqbehOG%2FmEoU7ZcQYCcQHaGBo4heWJFyTkJx%2Fy1WuJ7%2Fdxersfu5nw6fptNqJWquu0qQXCmtkJ8tTZucaGqH2EpTnOnkskgYXuC1xLWOvZ32LeaYHvNzynC7JAR3zM2IJSgSN7M%2BjoUcFIdKY%2FHUj%2BxB4oRuWsLjspnKqmdPrPIPMiVt%2BWQQWaYc6FEBEQ4tDB0SffZW4MvdFHgzW3Af9&X-Amz-Signature=bf21816ffdcbeeaeb73520504e53c23e6dc789e07ee8c0eecffd0f3542a64150&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+                "expiry_time": "2026-02-03T07:47:42.495Z"
               }
             }
           }
@@ -5061,7 +5136,7 @@
           "block_id": "2f044860-a4f4-815f-80f3-cbd4850e9152"
         },
         "created_time": "2026-01-22T05:00:00.000Z",
-        "last_edited_time": "2026-01-27T02:37:00.000Z",
+        "last_edited_time": "2026-02-03T05:39:00.000Z",
         "created_by": {
           "object": "user",
           "id": "2aed872b-594c-81eb-bc82-000291164988"
@@ -5079,7 +5154,7 @@
             {
               "type": "text",
               "text": {
-                "content": "아기사자 수 입력 시 숫자가 아닌 값이 입력되어도 프로그램이 종료되지 않도록 처리한다.",
+                "content": "아기사자 수 입력 시",
                 "link": null
               },
               "annotations": {
@@ -5090,7 +5165,41 @@
                 "code": false,
                 "color": "default"
               },
-              "plain_text": "아기사자 수 입력 시 숫자가 아닌 값이 입력되어도 프로그램이 종료되지 않도록 처리한다.",
+              "plain_text": "아기사자 수 입력 시",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": " 숫자가 아닌 값이 입력되어도 프로그램이 종료되지 않도록 처리",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "orange"
+              },
+              "plain_text": " 숫자가 아닌 값이 입력되어도 프로그램이 종료되지 않도록 처리",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": "한다.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "한다.",
               "href": null
             }
           ],
@@ -5105,7 +5214,7 @@
           "block_id": "2f044860-a4f4-815f-80f3-cbd4850e9152"
         },
         "created_time": "2026-01-22T05:00:00.000Z",
-        "last_edited_time": "2026-01-27T02:37:00.000Z",
+        "last_edited_time": "2026-02-03T05:39:00.000Z",
         "created_by": {
           "object": "user",
           "id": "2aed872b-594c-81eb-bc82-000291164988"
@@ -5123,7 +5232,24 @@
             {
               "type": "text",
               "text": {
-                "content": "잘못된 입력에 대해 안내 문구를 출력하고 다시 입력을 요청한다.",
+                "content": "잘못된 입력에 대해 안내 문구를 출력",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "orange"
+              },
+              "plain_text": "잘못된 입력에 대해 안내 문구를 출력",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": "하고 ",
                 "link": null
               },
               "annotations": {
@@ -5134,7 +5260,41 @@
                 "code": false,
                 "color": "default"
               },
-              "plain_text": "잘못된 입력에 대해 안내 문구를 출력하고 다시 입력을 요청한다.",
+              "plain_text": "하고 ",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": "다시 입력을 요청",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "orange"
+              },
+              "plain_text": "다시 입력을 요청",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": "한다.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "한다.",
               "href": null
             }
           ],
@@ -5210,8 +5370,8 @@
           "caption": [],
           "type": "file",
           "file": {
-            "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/c69962b0-3951-485b-b10a-5bb29576bba8/194236b5-4b8d-4ce3-b16c-b5161698889d/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466SJE2ZB4J%2F20260202%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260202T095245Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEBoaCXVzLXdlc3QtMiJHMEUCIEr9pJ2kok6Exoe84RDpdFvi3JedG4k%2BnLzpAwX5HKOIAiEA7Q7gD36y63NdayFOvrNFFUbV%2FCW%2B%2BBSyF1h%2BDMWhEsgqiAQI4%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDIDU3TRKjeMrW4%2FXCCrcAxRyhp5gn4SV4oQilwxWHokB4wZPXcHIZw1lgdh8YnpcAUs8AF1FMhzgH31IDCnUwpV2iyZzOFVkO0G3BRST96pbzUnnhIzS0%2Fhj%2BGOz%2BIpQZ%2BHS%2Fn1%2BdItugOU3An45QmxMpW9E2xinekU9exUAGsoiQyib%2F8mU98xDRWgsDp331weoR%2FIi%2FCuQp1yrqvnuaE%2BfHyV%2BoKGDNJliBSVAzIctZ18EAhaQRM0UygOPl8Uyd8gJgJEpoNigekpS66uvtWzEVA1WkPx%2BZI1%2F5Wmgw9z0q2hQBRQBebwN7dgHB87WZKfLe1MrhuWUuLEsW8MHZRYpcdWStAYktSR4QEaI%2BJuj32x3iCdiKwdiOPNVwJPSTPNemnbNmKtYatvBGdy6VaDUWhbu3VhyzEl9kBjHPQMIFyMTtIFqGCTeaTg%2BfvBSAvyM1ivnOmAoGDYsh%2BDMmj3nj6m0U5E6K15jf16o60afWUzvmf7EXmwCNI7nwc7AK%2F6DB5sYmxlDMr3hMbQ8PuUu81IHynRswSyECXKIVggRHwMrbzPfTPmW46IE6TK4BY4gnE2Wd%2BNLC9rZQAgIptqmvcPIUmY%2F34qDbUcJnpkJTl2DRa5uEjhfhm%2FPdZyu5Ty8KU05Ax1KLvQaMLXdgcwGOqUBbn6ZLIWVtRR7YKhsspv7M47zwyv3UR2Qn4VkzxgdpmMXyaS6udwPg%2FrqOy%2BIToiIj7W0SdSAq4WlCaoE4P94HgLolpDItQ6fSbZWxUFDoV7MBGN8JZIBxFF8OwYMvwbhvnVe0BnXvnAVWvLUQ6vpmWZJIhr3BLLY2fbRtLEtOCYFFh4hrZzHaJPr%2Fgq8%2FCNHsWOPorirUzmjz%2BEPW5YywDJLuV3z&X-Amz-Signature=cc60c231a00e08defe040313958605e7b04eb34156fd990199fba8fa6950196f&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
-            "expiry_time": "2026-02-02T10:52:44.914Z"
+            "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/c69962b0-3951-485b-b10a-5bb29576bba8/194236b5-4b8d-4ce3-b16c-b5161698889d/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466RZDX7WLW%2F20260203%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260203T064742Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEC4aCXVzLXdlc3QtMiJHMEUCIQDRBEWVLWlxpVIOP2QeC5ZoF0YjU6P1DeGeERaUpfBvNgIgPY5%2BsBG4ZJm2uifjQSntzUKjhIayts1rP4apw1kLadsqiAQI9%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDNaALEeqMKd8dxq2LSrcA0gcu27PnxiCxU9UQErAwM69Xf4fMzuMdnVThtoU5IhrHcotre%2FLsEMgQw4dW7Kee%2Fw2oVDdNEaaBcFA%2FtCh38X6uWZFjqsOT4Kvb9k1jKyvopcOH3t7FII5Cgbpm24%2FsuNlAiHRALvouZoPGDFsABel3GeXNXdYNj9Nw5sWYO8J2cBf1%2FSM4HKsqY7bl%2Bl7enoKXiUizTMSjZ%2BdAnvRBOBDe81Ub5pFAvI4GFnG%2FiB0azv%2BfL%2BZtLt5q8cb1MgI3rWDCOwF1uUN0KX4GbFwDdEsnlz%2FNCnh3RCy1eod9yUsl6kQ7s7UexCFTcPwjL2bkbnTe%2FKIZq9jcJJybr1bjC7IwSDHkDyAjFVAhNEvQfwlqVEK6zONQb47emrneXVsN4whn8WW997EErzs0Ja3vxYdMSd5Bi477AiCO09UmskMAr8%2BY4Np86gQMbSU7QJOdPQgvzbqpFmWuvnCqF7yX9F1BF3eGMEhS6ah3zW9cVX7vEv5kS%2FhDyup8P%2BnkIWOGyIbnoF66APVSMBp93ozYRvjnxg8AjJ9S%2B2kdAnBTGCoNw8dFflIM8XpMWaVxmK%2BMNrYGdVuzhOM7eWuL%2FpgAA0wdpOUWy8djeX1mzkpdLkXaLr3XSfgNxtY%2BrpNMIqahswGOqUB97VFmULDyCHWPgNO3r50aUA4GwbPpwBajUsDJyTeXl7EFIqp2HV%2BwLTyuMSva2aNrfs%2BV87Lxo26Z8Of9c0E1sxQPs4vfklqBm070x5ACtHeHrTvVa8CKn6o8Cp35VIEYm62kY%2B8IaXfVoCK75l6egnglwz3kI%2B8dUsBOKtcRjLp2wzfk%2FwOJI44wbhgRDEFuJn8iboNZ%2Fqq11Tkvdk%2BQAacNCEQ&X-Amz-Signature=a52efab2a8933eb54112f74a8fb709733ba77dd093fb4cfcf95ab3a774b5d9e6&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+            "expiry_time": "2026-02-03T07:47:41.939Z"
           }
         }
       },
@@ -5291,7 +5451,7 @@
           "block_id": "2f044860-a4f4-815f-80f3-cbd4850e9152"
         },
         "created_time": "2026-01-22T05:00:00.000Z",
-        "last_edited_time": "2026-01-27T02:37:00.000Z",
+        "last_edited_time": "2026-02-03T05:39:00.000Z",
         "created_by": {
           "object": "user",
           "id": "2aed872b-594c-81eb-bc82-000291164988"
@@ -5309,7 +5469,7 @@
             {
               "type": "text",
               "text": {
-                "content": "아기사자 이름 입력 시 입력값이 비어 있는지 검사한다.",
+                "content": "아기사자 이름 입력 시 ",
                 "link": null
               },
               "annotations": {
@@ -5320,7 +5480,41 @@
                 "code": false,
                 "color": "default"
               },
-              "plain_text": "아기사자 이름 입력 시 입력값이 비어 있는지 검사한다.",
+              "plain_text": "아기사자 이름 입력 시 ",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": "입력값이 비어 있는지 검사",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "orange"
+              },
+              "plain_text": "입력값이 비어 있는지 검사",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": "한다.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "한다.",
               "href": null
             }
           ],
@@ -5335,7 +5529,7 @@
           "block_id": "2f044860-a4f4-815f-80f3-cbd4850e9152"
         },
         "created_time": "2026-01-22T05:00:00.000Z",
-        "last_edited_time": "2026-01-27T02:37:00.000Z",
+        "last_edited_time": "2026-02-03T05:39:00.000Z",
         "created_by": {
           "object": "user",
           "id": "2aed872b-594c-81eb-bc82-000291164988"
@@ -5353,7 +5547,7 @@
             {
               "type": "text",
               "text": {
-                "content": "이미 입력된 이름이 있는지 검사해 중복 입력을 방지한다.",
+                "content": "이미 입력된 이름이 있는지 검사해 ",
                 "link": null
               },
               "annotations": {
@@ -5364,7 +5558,41 @@
                 "code": false,
                 "color": "default"
               },
-              "plain_text": "이미 입력된 이름이 있는지 검사해 중복 입력을 방지한다.",
+              "plain_text": "이미 입력된 이름이 있는지 검사해 ",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": "중복 입력을 방지",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "orange"
+              },
+              "plain_text": "중복 입력을 방지",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": "한다.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "한다.",
               "href": null
             }
           ],
@@ -5545,8 +5773,8 @@
                   "caption": [],
                   "type": "file",
                   "file": {
-                    "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/c69962b0-3951-485b-b10a-5bb29576bba8/a18db554-2048-487b-98b1-68fdb22adb5d/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466WRFFIUN7%2F20260202%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260202T095246Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEBoaCXVzLXdlc3QtMiJHMEUCIQD6XstRU6Jaf0xU4MPYk9njoU3GckhOj5GE9SL0atiQSQIgG5ICpE0GQW3AABLJjwzY9UfaUdT1KE7zvxRc2yy8dZ8qiAQI4%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDNFCSWkWPR043EysDSrcA2FtbBcilT7%2Bc54E%2Br6T1UBvogYKbb8xEnxLaLWP2h6Q3H1%2BFB%2FCm31LUAj2ks4sSDpyVIA8j1BClsecvWIu2mDIWaG%2B%2FTuPX2PJUkvgDC4zKC6aLcjgS3swnHY%2FC%2BldiWPJ0xFCi4%2BmjyQQaf6YjFYDPyVqtphnHitdlLytZzdHaG6Qci19rAPSk%2FcIauqGnvS9GwIVpSRWsubFRcB12YMFkKIWbRdRJAenS1QGtXcsIFbTUJc4A1GZNdEUEDj85%2B9uFVf1RzYIFi8PXG6WkUrYJZ8SZSa8ZSitG2XUHka8i5DY9TMXPjypr7IaIMZgk3DD5a2w2N%2BXG40p9Q7eaDY%2BvlLPunKxiuyAUZtF2wZQzcSDLPH5sRk%2BiHKOvRAVbiGpaJBgVSLdEphE9rMYYj%2FGvuDSVuOPS%2BoTnGkjU2Eq%2FK8M8pAwMwM6GqJvo75jBh2ZqQmvDuWY24eA4Azrq8UoYO1JjUcN5yHFS2grPiml7brJNgkXGrsnAydCYF9NzIU%2BgIgZ%2BanRxUtrLY%2BbSyYSRf2%2FW0eNY6wwm6aPRoDNTU%2BuFQMo0%2BxGyH3GNwsrM1J2f1FfLxw1uVRAkaklVPGfhm19oLY4unde%2Bk47uyOEH1NSPUxNJW8btsT9MPrcgcwGOqUBeDo%2FoCs7v8MapahouarXrY5jO63Ixu%2Bai%2BxGiyzBy9dASwayKiuVkfHRguEoShn4AW%2FmWW%2FDaGSQJclrLg9FHZEm0Xrpz%2FUAaOjr0VhD6j%2B4kgZlQhSajRUDxAbId4qEYKW2WXutxxzhSV0b58gAGKMAWUgdVLpRmeyLuucHgqy8y64x9fcu1gPwkWmmjNouYzJ21zxk7vc%2BoAm%2BPC0xS2%2FeROmI&X-Amz-Signature=0f8ce11e71e76e3236474b42e251c40aa12d3229b3c61f3150e72f4ee7dce942&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
-                    "expiry_time": "2026-02-02T10:52:45.992Z"
+                    "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/c69962b0-3951-485b-b10a-5bb29576bba8/a18db554-2048-487b-98b1-68fdb22adb5d/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466VK7LVXET%2F20260203%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260203T064745Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEC4aCXVzLXdlc3QtMiJGMEQCIBxrPtJ9J%2FsAX%2F6gFgtBOlmiv00MR37J7nACgYUk2SM9AiA6tIMR0qZJJedz6clviIHypZiVXG07mjblmfGmyOm7lSqIBAj3%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAAaDDYzNzQyMzE4MzgwNSIM5%2BAdPc3%2F1PLyfIYEKtwDjhoBg162vzxqVK3Yht4hCN93XLDFsYyIIPYmTGAdpSO8wU%2B4bPsHdgwshYsyfNl49%2BX9FbB7hNgvD7Oc6FgYPLqQjHJsznhvYcBrygFl7inrhpmIC1bcR%2FOj5wK9QwY3jyj4YV0sjRlYuFb%2BIban%2F3uslwh0LdoSIbINTY70KArvO%2BSZJHvVeoFhOFRFiVhNUZd5XhpPBRS6TczWAguz%2BU4UIiLHKrdkHypS8ksPyq5KcfmGzfhXyitAmElReNkRsJNK6Kn2Ut8pBTKEqhwN7zH6A2ugaPhRdR%2Bd7Uf5ymAii9VNALwftpQnT2TIpXseNrCt10NgCNUfYUdv89rnWV86Blor7dnBSSDJTyO%2BNwF%2FKRYFqhbEF7Pz9gNm%2BXq%2BgSohOT2R9RyM3EFNMxtG9JQSJcctdhiVM53sOoL4t407JvBEye43P%2Br3Q5RD8YN%2FhliRRqwrP%2BS8pbSoJhxYSf9SKLc3fu1EJZUa4usTINBy2LlVtxo0nfQ4uoqZFxAajvtyqSf81p%2FTd4wQBUE7s3lCHb1T4ced8dHpEK1IvCfctD2gbBtPlIJxuJAG6qoUCNIKqWq%2FnlDoiP8MsT0iuQgtJcQps0ebkxTEfuo1VKOTQ8LNNPht7Y5wImAwkZuGzAY6pgEO9lyZG640P8%2B6PtdGLAnEbaFdRnDjuGdUTRQMgWE%2BuIH1uh112ak0UrCKjHTyOtzAxx9IJUpyNGZkqqGmf85OuxsMfPs6%2Fsr9%2FpW4mNky4bxsFhB%2BOV58n%2BEJdMjyUCUxrj%2BU9GqodywRMycgOpmQ8b0XB95xYN8r9lxDVUaBBxd0%2BhXtzvlANNRLuIDSBgkXIF1oQn%2BwrOsb4zAxLNjh43BvfqVt&X-Amz-Signature=09b9d02e760f320902f92ca7cd7ccf43dfa822984dcb6d6d2b53b3af23c53b84&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+                    "expiry_time": "2026-02-03T07:47:45.575Z"
                   }
                 }
               }
@@ -5621,8 +5849,8 @@
                   "caption": [],
                   "type": "file",
                   "file": {
-                    "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/c69962b0-3951-485b-b10a-5bb29576bba8/1eeb9eee-3809-482c-9478-c3ec59a1f915/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466YXTVDENS%2F20260202%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260202T095246Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEBoaCXVzLXdlc3QtMiJHMEUCIHnMZtPPFfj44IilDGB80wUIcLHFjFNccUH6R7I4EGQ0AiEA3GbH78GlzOiBCCIRpauTAGGTeDAc3uticzb1HWZme0AqiAQI4v%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDCGAFMp%2FMV5agNj9BSrcAyMZU5tu6mq0oxJMOEle1aVaIvMH4TzQDw8VG7vVp856X7tzhFpALtqeYzJNsTAzqvvPFcep2ZPLf7tJXNlCxFyrou4vmPyZramm%2BuT4Z6RwQj85JfUZzAWsF0k%2BvEdJ2gTIMjX8d4Cd2Bta0Uj4sRAQBQeuCXhAINAnBrp0CCm2xlOhiDXHkfxdY9r%2FijMHKW%2FBzw1QmRjlIMuYp5ZAoUrZ0vpo4OI%2BSvrDHkp6GLxWO%2FdTWvwZNUHXCf3geFJ4fCSWW7M4yX1y7DK5qfTOFy4wai75lzSWn5%2B9niAMFGmbij3X%2B2l6qDublIVOni8Hz%2B6%2BOWcxQ5sCHmjXA%2FZ6sH72uO0cStwt%2FmJxGEU56moi2%2FMdO2VM8l7I%2FXtVssrZCMt8plJKITfsudKYdfYjFRuVsTB%2B4LT0%2B2n29v1z4BAbfDoYd0mrXM37dNzES2pDDZD5KOMlUeuyGU7fLPalatdFhRMnChYa3hgAQ4ini1z95VsAxfspUtpzPHvFsiC5eX6aGODSInUtKloNNpZkmMigR9AiiL9rPSj1hFe532GaBkZh5X3U6eAxV44j%2BuGWcksr8gohH%2FBD6lfVHFicsI8aGgujkRAIz8AVV9DDRVrW8cVT%2FOmIVCllcA8qMPndgcwGOqUBiTzyuewCAfTkeJGZSdr3nHPeuZXOx2vwgrgRyPjoCHrfkNVRkGZ6B%2BB4VA2tMsuD2VeagtWEq3zdMm%2FIywQzzjSjo11TD11Vl0nJvIx5DdYnH8dupiFHjPNvOTfuuvRVAmYfOR4z4hXpDyabboi%2FHN590r5BcVvLdON5U75qTuGTkMueVA6DcTbRRzeAfkwRAE2Fz9EUYhAACWEtNmJfstqGAuOL&X-Amz-Signature=c008448f0a9de5c7a714cd327520d92a063aa563be8b7594e1840bd5310e5ee3&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
-                    "expiry_time": "2026-02-02T10:52:46.206Z"
+                    "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/c69962b0-3951-485b-b10a-5bb29576bba8/1eeb9eee-3809-482c-9478-c3ec59a1f915/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB46653ASWI33%2F20260203%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260203T064745Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEC4aCXVzLXdlc3QtMiJIMEYCIQDKJfG9spTGN%2FJ7toC3Hq57qaFlHs2ZNLdH7AZKUY0FogIhAOAvLEF6Tbaerxc8b7jt%2FWMvfp7wbfFJqw3XZ%2BQhL%2Bz0KogECPf%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMNjM3NDIzMTgzODA1Igyz5bEvkW%2FHXY986ZMq3AMrUkUwNEEzSoWH9YZiFdRQLJfBx5qHLCFZ%2FSfVAcquMfyzwbvj50%2FF9aVJ%2FhrJjnH%2Fg5VoIf%2Bj8tg9Nq33xc1vpQM2yCEoYD%2BYnO1OB%2B8mprHMSm0m2U1rMWKSgYO2lkHlHnPOtx6wqTltx2%2B1RFv3fEg0EYHSqHCGmftN1n%2FXx%2FqrsIpbD4y8YXuTr1KGOOrDzavDfbjWxXuPu%2BwXwRR%2B1y9eJ6OEi0ZCF%2Fsz%2FzAQPm1HDDyqba7fGoJtD%2FWIjIi8Pa6wpm67jQH8J7uZKbft7Dze6ymMMz1JmL8TR4vlokQA2TBbhvIbz3DcnhTCXIVB10LT3SDXLmDXYdSFyF7MyR%2FaoG3iNGIOSWbb05PtklXYUc5BfLKtF5pe79XDxQHqjDuvgVQg3I7DXWJy9PsZHFKoPv2DSeYzawuXGuyzVIirL02p22jVh61BfFVsVk6m3oqd2UWz1ys7NTbE0wIsM%2FYyz9%2BeGOv4pLb7EDgcTtJGJH9p%2FnyTHVuiWV%2B2UFD9uWgmd%2Bff%2F3%2FPKiqhhsi6bq2vF9pprYBEV0Y1Iv3Hsu5Nu7OXTIrDBYqNNC7%2BnsYaR1ttGYiEMG14yVipsLB%2F7tVE60IXHpSerculRNbkaTgccxSP6ylPOvS1hzDTmobMBjqkARyLABiJtezXhG2Lb7tr5FPD53crcb%2FALd4EBS5OqNaCRLf6ueTwJICeZkOn8WM1pYdysBLBObozgXc4jcFP7NuB5B2USZ6AEdYx9cT2aCyBp7ti6h497NfQ6hhxe3oKGbt4VRDKsYl8FgGAG%2BFMBa%2BbKHvHYAVV6X9lsrPycPWQvBEEky%2BBcf6fLPH6nKStlZk9VZ78S9%2F5wbZbUFF9wU2v%2FJ0q&X-Amz-Signature=d5368f68e007fede5d1fa576a24855bd881671d98f634d7d119b551731007829&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+                    "expiry_time": "2026-02-03T07:47:45.888Z"
                   }
                 }
               }
@@ -5681,5 +5909,5 @@
       }
     ]
   },
-  "syncedAt": "2026-02-02T09:52:46.291Z"
+  "syncedAt": "2026-02-03T06:47:46.053Z"
 }

@@ -487,32 +487,6 @@
       },
       {
         "object": "block",
-        "id": "2f144860-a4f4-8058-902f-eb90d190cdff",
-        "parent": {
-          "type": "block_id",
-          "block_id": "2f144860-a4f4-80ae-9b8d-cf6acc38f973"
-        },
-        "created_time": "2026-01-23T11:12:00.000Z",
-        "last_edited_time": "2026-01-23T11:12:00.000Z",
-        "created_by": {
-          "object": "user",
-          "id": "2aed872b-594c-81eb-bc82-000291164988"
-        },
-        "last_edited_by": {
-          "object": "user",
-          "id": "2aed872b-594c-81eb-bc82-000291164988"
-        },
-        "has_children": false,
-        "archived": false,
-        "in_trash": false,
-        "type": "paragraph",
-        "paragraph": {
-          "rich_text": [],
-          "color": "default"
-        }
-      },
-      {
-        "object": "block",
         "id": "2f144860-a4f4-80ed-9d75-e1fce8fb01a9",
         "parent": {
           "type": "page_id",
@@ -656,7 +630,7 @@
           "block_id": "2f144860-a4f4-8010-85c5-ca4932d96462"
         },
         "created_time": "2026-01-23T11:12:00.000Z",
-        "last_edited_time": "2026-01-27T04:31:00.000Z",
+        "last_edited_time": "2026-02-03T06:40:00.000Z",
         "created_by": {
           "object": "user",
           "id": "2aed872b-594c-81eb-bc82-000291164988"
@@ -665,7 +639,7 @@
           "object": "user",
           "id": "2aed872b-594c-81eb-bc82-000291164988"
         },
-        "has_children": false,
+        "has_children": true,
         "archived": false,
         "in_trash": false,
         "type": "bulleted_list_item",
@@ -714,37 +688,66 @@
               },
               "plain_text": "https://www.youtube.com/watch?v=OHZC19qtqUo&list=PLkbzizJk4Ae-jfAQ7mlGzyWnHz98gBPQh",
               "href": "https://www.youtube.com/watch?v=OHZC19qtqUo&list=PLkbzizJk4Ae-jfAQ7mlGzyWnHz98gBPQh"
-            },
-            {
-              "type": "mention",
-              "mention": {
-                "type": "link_mention",
-                "link_mention": {
-                  "href": "https://youtu.be/c6yCZecrMpQ?si=nRgjZ3sYKvh382CK",
-                  "title": "🔥전 세계 기업들이 선택한 피그마 강좌 PS.이제는 마스터하셔야죠? (4K)",
-                  "padding": 56,
-                  "icon_url": "https://www.youtube.com/s/desktop/e2b70753/img/favicon_144x144.png",
-                  "iframe_url": "https://www.youtube.com/embed/c6yCZecrMpQ?rel=0",
-                  "description": "피그마 강의를 통해 여러분들만의 멋진 UXUI 디자인을 해보세요! \n\n좋아요, 구독, 알림, 댓글은 큰 힘이 됩니다.\n마디아채널 멤버십을 가입하시고 매월 제작되는 원본 파일을 받아보세요 \n(가입 이전 파일을 받으실 수 없습니다.)\n\n━━━━━━━━━━━━━\n\n▶ 프로젝트 의뢰 및 비지니스 문의 : madia_designer@naver.com\n► 인스타그램 : https://www.instagram.com/madia_designer\n\n━━━━━━━━━━━━━\n\n4:22 타임라인 정리\n5:06 초기 화면 구성\n14:25 피그마 기초 툴 개념\n15:08 세이브 / 버전 히스토리\n17:17 공유 초대하기\n19:40 페이지 / 파일명\n21:31 기초 툴 기능\n35:58 Matching layer \n39:33 Use as mask\n41:36 Union selection\n44:32 Align\n47:17 Size / Angle\n50:18 *Auto layout\n01:02:21 Hoizontal resizing\n01:11:06 Constratints\n01:28:48 Layout Grid\n01:36:02 Font / Fill / Stroke\n02:05:00 Effects\n02:16:17 Export\n02:18:20 Style\n02:35:50 *Component\n\n━━━━━━━━━━━━━\n\n► 마디아 사이트 \nhttps://www.madia.co.kr\n\n━━━━━━━━━━━━━\n\n► 아래 재생목록에서 수 백개의 디자인 팁을 배워가세요\n\n1. UXUI 디자인\nhttps://tinyurl.com/2ahldj8g\n\n2. 포토샵 팁\nhttps://url.kr/qo19er\n\n3. 그래픽 디자인 팁\nhttps://tinyurl.com/2alqf6k6\n\n4. 시청자 컨펌\nhttps://tinyurl.com/23dluwod\n\n5. UI 디자인 무작정 따라하기\nhttps://tinyurl.com/2ammyfnb\n\n6. 디자인 정보\nhttps://tinyurl.com/293gmjdm\n\n7. 디자인 툴\nhttps://tinyurl.com/2cg88eew\n\n━━━━━━━━━━━━━\n\n► 1.단톡방 : https://open.kakao.com/o/gakaJCvb\n► 2.단톡방 : https://open.kakao.com/o/g5bBXBvb\n\n━━━━━━━━━━━━━\n\n► 이미지 정보\nhttps://pixabay.com\nhttps://unsplash.com\n\n► 그래픽소스\nhttps://www.freepik.com\n\n━━━━━━━━━━━━━\n\n본 디자인은 다양한 해외 벤치마킹을 통해 고민 없이\n비주얼 적으로만 디자인되었음을 알립니다.\n\n━━━━━━━━━━━━━\n\n#마디아디자인 #피그마 #Figma #피그마강의 #피그마기초 #uxui #디자인독학 #UX기획 #디자인실무\n#웹디자인 #디자인피드백 #UIUX디자인 #웹디자이너 #디자인공부 #포트폴리오 #프로덕트디자인",
-                  "link_author": "Madia Designer",
-                  "link_provider": "YouTube",
-                  "thumbnail_url": "https://i.ytimg.com/vi/c6yCZecrMpQ/maxresdefault.jpg"
-                }
-              },
-              "annotations": {
-                "bold": false,
-                "italic": false,
-                "strikethrough": false,
-                "underline": false,
-                "code": false,
-                "color": "default"
-              },
-              "plain_text": "https://youtu.be/c6yCZecrMpQ?si=nRgjZ3sYKvh382CK",
-              "href": "https://youtu.be/c6yCZecrMpQ?si=nRgjZ3sYKvh382CK"
             }
           ],
           "color": "default"
-        }
+        },
+        "children": [
+          {
+            "object": "block",
+            "id": "2fc44860-a4f4-80c9-a3e3-d39eef32197f",
+            "parent": {
+              "type": "block_id",
+              "block_id": "2f144860-a4f4-80c5-8821-dea978c3bbba"
+            },
+            "created_time": "2026-02-03T06:40:00.000Z",
+            "last_edited_time": "2026-02-03T06:40:00.000Z",
+            "created_by": {
+              "object": "user",
+              "id": "2aed872b-594c-81eb-bc82-000291164988"
+            },
+            "last_edited_by": {
+              "object": "user",
+              "id": "2aed872b-594c-81eb-bc82-000291164988"
+            },
+            "has_children": false,
+            "archived": false,
+            "in_trash": false,
+            "type": "paragraph",
+            "paragraph": {
+              "rich_text": [
+                {
+                  "type": "mention",
+                  "mention": {
+                    "type": "link_mention",
+                    "link_mention": {
+                      "href": "https://www.youtube.com/watch?si=nRgjZ3sYKvh382CK&v=c6yCZecrMpQ&feature=youtu.be",
+                      "title": "🔥전 세계 기업들이 선택한 피그마 강좌 PS.이제는 마스터하셔야죠? (4K)",
+                      "padding": 56,
+                      "icon_url": "https://www.youtube.com/s/desktop/1bb3b4db/img/favicon_144x144.png",
+                      "iframe_url": "https://www.youtube.com/embed/c6yCZecrMpQ?rel=0",
+                      "description": "피그마 강의를 통해 여러분들만의 멋진 UXUI 디자인을 해보세요! \n\n좋아요, 구독, 알림, 댓글은 큰 힘이 됩니다.\n마디아채널 멤버십을 가입하시고 매월 제작되는 원본 파일을 받아보세요 \n(가입 이전 파일을 받으실 수 없습니다.)\n\n━━━━━━━━━━━━━\n\n▶ 프로젝트 의뢰 및 비지니스 문의 : madia_designer@naver.com\n► 인스타그램 : https://www.instagram.com/madia_designer\n\n━━━━━━━━━━━━━\n\n4:22 타임라인 정리\n5:06 초기 화면 구성\n14:25 피그마 기초 툴 개념\n15:08 세이브 / 버전 히스토리\n17:17 공유 초대하기\n19:40 페이지 / 파일명\n21:31 기초 툴 기능\n35:58 Matching layer \n39:33 Use as mask\n41:36 Union selection\n44:32 Align\n47:17 Size / Angle\n50:18 *Auto layout\n01:02:21 Hoizontal resizing\n01:11:06 Constratints\n01:28:48 Layout Grid\n01:36:02 Font / Fill / Stroke\n02:05:00 Effects\n02:16:17 Export\n02:18:20 Style\n02:35:50 *Component\n\n━━━━━━━━━━━━━\n\n► 마디아 사이트 \nhttps://www.madia.co.kr\n\n━━━━━━━━━━━━━\n\n► 아래 재생목록에서 수 백개의 디자인 팁을 배워가세요\n\n1. UXUI 디자인\nhttps://tinyurl.com/2ahldj8g\n\n2. 포토샵 팁\nhttps://url.kr/qo19er\n\n3. 그래픽 디자인 팁\nhttps://tinyurl.com/2alqf6k6\n\n4. 시청자 컨펌\nhttps://tinyurl.com/23dluwod\n\n5. UI 디자인 무작정 따라하기\nhttps://tinyurl.com/2ammyfnb\n\n6. 디자인 정보\nhttps://tinyurl.com/293gmjdm\n\n7. 디자인 툴\nhttps://tinyurl.com/2cg88eew\n\n━━━━━━━━━━━━━\n\n► 1.단톡방 : https://open.kakao.com/o/gakaJCvb\n► 2.단톡방 : https://open.kakao.com/o/g5bBXBvb\n\n━━━━━━━━━━━━━\n\n► 이미지 정보\nhttps://pixabay.com\nhttps://unsplash.com\n\n► 그래픽소스\nhttps://www.freepik.com\n\n━━━━━━━━━━━━━\n\n본 디자인은 다양한 해외 벤치마킹을 통해 고민 없이\n비주얼 적으로만 디자인되었음을 알립니다.\n\n━━━━━━━━━━━━━\n\n#마디아디자인 #피그마 #Figma #피그마강의 #피그마기초 #uxui #디자인독학 #UX기획 #디자인실무\n#웹디자인 #디자인피드백 #UIUX디자인 #웹디자이너 #디자인공부 #포트폴리오 #프로덕트디자인",
+                      "link_author": "Madia Designer",
+                      "link_provider": "YouTube",
+                      "thumbnail_url": "https://i.ytimg.com/vi/c6yCZecrMpQ/maxresdefault.jpg"
+                    }
+                  },
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  },
+                  "plain_text": "https://www.youtube.com/watch?si=nRgjZ3sYKvh382CK&v=c6yCZecrMpQ&feature=youtu.be",
+                  "href": "https://www.youtube.com/watch?si=nRgjZ3sYKvh382CK&v=c6yCZecrMpQ&feature=youtu.be"
+                }
+              ],
+              "color": "default"
+            }
+          }
+        ]
       },
       {
         "object": "block",
@@ -910,7 +913,7 @@
           "block_id": "2f144860-a4f4-8010-85c5-ca4932d96462"
         },
         "created_time": "2026-01-23T11:12:00.000Z",
-        "last_edited_time": "2026-01-27T04:29:00.000Z",
+        "last_edited_time": "2026-02-03T06:39:00.000Z",
         "created_by": {
           "object": "user",
           "id": "2aed872b-594c-81eb-bc82-000291164988"
@@ -919,7 +922,7 @@
           "object": "user",
           "id": "2aed872b-594c-81eb-bc82-000291164988"
         },
-        "has_children": false,
+        "has_children": true,
         "archived": false,
         "in_trash": false,
         "type": "bulleted_list_item",
@@ -944,59 +947,61 @@
             }
           ],
           "color": "default"
-        }
-      },
-      {
-        "object": "block",
-        "id": "2f144860-a4f4-8067-911b-d0439c94c6fe",
-        "parent": {
-          "type": "block_id",
-          "block_id": "2f144860-a4f4-8010-85c5-ca4932d96462"
         },
-        "created_time": "2026-01-23T11:12:00.000Z",
-        "last_edited_time": "2026-01-27T04:29:00.000Z",
-        "created_by": {
-          "object": "user",
-          "id": "2aed872b-594c-81eb-bc82-000291164988"
-        },
-        "last_edited_by": {
-          "object": "user",
-          "id": "2aed872b-594c-81eb-bc82-000291164988"
-        },
-        "has_children": false,
-        "archived": false,
-        "in_trash": false,
-        "type": "bookmark",
-        "bookmark": {
-          "caption": [],
-          "url": "https://yozm.wishket.com/magazine/detail/1112/"
-        }
-      },
-      {
-        "object": "block",
-        "id": "2f144860-a4f4-8085-9187-fb8e1ea73ec8",
-        "parent": {
-          "type": "block_id",
-          "block_id": "2f144860-a4f4-8010-85c5-ca4932d96462"
-        },
-        "created_time": "2026-01-23T11:12:00.000Z",
-        "last_edited_time": "2026-01-23T11:12:00.000Z",
-        "created_by": {
-          "object": "user",
-          "id": "2aed872b-594c-81eb-bc82-000291164988"
-        },
-        "last_edited_by": {
-          "object": "user",
-          "id": "2aed872b-594c-81eb-bc82-000291164988"
-        },
-        "has_children": false,
-        "archived": false,
-        "in_trash": false,
-        "type": "paragraph",
-        "paragraph": {
-          "rich_text": [],
-          "color": "default"
-        }
+        "children": [
+          {
+            "object": "block",
+            "id": "2fc44860-a4f4-80b4-a206-da5963a9dd41",
+            "parent": {
+              "type": "block_id",
+              "block_id": "2f144860-a4f4-80e9-9744-fd6cede07dac"
+            },
+            "created_time": "2026-02-03T06:39:00.000Z",
+            "last_edited_time": "2026-02-03T06:39:00.000Z",
+            "created_by": {
+              "object": "user",
+              "id": "2aed872b-594c-81eb-bc82-000291164988"
+            },
+            "last_edited_by": {
+              "object": "user",
+              "id": "2aed872b-594c-81eb-bc82-000291164988"
+            },
+            "has_children": false,
+            "archived": false,
+            "in_trash": false,
+            "type": "paragraph",
+            "paragraph": {
+              "rich_text": [
+                {
+                  "type": "mention",
+                  "mention": {
+                    "type": "link_mention",
+                    "link_mention": {
+                      "href": "https://yozm.wishket.com/magazine/detail/1112/",
+                      "title": "초보자를 위한 스토리보드 작성 팁 | 요즘IT",
+                      "icon_url": "https://yozm.wishket.com/favicon.ico",
+                      "description": "스토리보드란 서비스 개발을 위한 협업 도구로 다양한 변수를 고려하여 화면을 구성하고, 각기 화면의 동작과 전환을 확인하는 기획 문서입니다. 이번 글에서는 UI 스토리보드에 들어가야 할 필수 구성 요소를 짚어보고, 효과적인 작성 팁을 알려드립니다.",
+                      "link_author": "Yozm IT",
+                      "link_provider": "요즘IT",
+                      "thumbnail_url": "https://yozm.wishket.com/media/news/1112/image005.jpg"
+                    }
+                  },
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  },
+                  "plain_text": "https://yozm.wishket.com/magazine/detail/1112/",
+                  "href": "https://yozm.wishket.com/magazine/detail/1112/"
+                }
+              ],
+              "color": "default"
+            }
+          }
+        ]
       }
     ],
     "timeGoal": [
@@ -1323,7 +1328,7 @@
           "block_id": "2f144860-a4f4-8120-9697-d48a5bffb081"
         },
         "created_time": "2026-01-23T11:13:00.000Z",
-        "last_edited_time": "2026-01-23T11:24:00.000Z",
+        "last_edited_time": "2026-02-03T06:37:00.000Z",
         "created_by": {
           "object": "user",
           "id": "2aed872b-594c-81eb-bc82-000291164988"
@@ -1335,8 +1340,8 @@
         "has_children": false,
         "archived": false,
         "in_trash": false,
-        "type": "heading_3",
-        "heading_3": {
+        "type": "paragraph",
+        "paragraph": {
           "rich_text": [
             {
               "type": "text",
@@ -1354,9 +1359,25 @@
               },
               "plain_text": "2. 스토리보드 구성",
               "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": "\n",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "\n",
+              "href": null
             }
           ],
-          "is_toggleable": false,
           "color": "default"
         }
       },
@@ -1448,8 +1469,8 @@
           "caption": [],
           "type": "file",
           "file": {
-            "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/c69962b0-3951-485b-b10a-5bb29576bba8/43838288-8f18-4ce9-8cde-8cec425c6e0e/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB46673TOE7TC%2F20260202%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260202T095602Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEBoaCXVzLXdlc3QtMiJHMEUCIGGwJFtuRLDMYk3FPDuD8gWW4zWGiBvc9CilBPM5SCf%2BAiEAu93Q8G%2FsRo%2FXdDBeZKN%2Fkx6LKbczg5ImITBdDy8jtH8qiAQI4%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDOOZWEEl3GaG3VeRWyrcA4EQGBlYzUHuzPZYJUkqQ%2FYKNY2zQQMkUdh%2BMcL00GVRcQUbAFIUxlH%2FNa9cWGgl0GeWMdeZhlF6Qt9KvmXmO6ZpC6bU2zyFEZQG4tDMO5n7jhUhS%2Be4Wc8mI0%2FtfoDJSwNQAlhtNlNMQF7udZWkelKkG6oP9y8im%2B4aMwuFQ4XQ7878mHNnXKHtQm1gLSkNoGmjNi3rn14AJh3yo%2FtJgRTDgu8OPZmYUWF6YSBz8dPfwetPI1nSS9za2NJvUeSiruwJBsNyJYhYlYFXJERc6coa77%2BisCh54fUPV5IsVvxplv0ZEkCj8ald0DSy9BJ7KZkkdiK0sper4bLhyjKBTlQC5S4bbY11MJtXVycfj7FPfSlQan%2BqzyLwiUL%2FvdjxASR6WEPVhtL5fhjGAfn7540txpMHlzI60%2FUKYWqZCye9PPXs%2FPAHsM%2FpyYU9kztNl4xrjhF1KpUIM1zTo6GMt1O0OcBJ8V03jZ1gpo3fT0IIqChO6dUyLFTdtnNyleEXFdxHEyXDJxOUwwCR2OTC1tG8SP5diFQyia68u5aHXcpJem4ZC0PLYXYk4zYTL7l6CzGOg4yk%2F3Ptm8C%2B%2FzC2c9T335bQXcrcCbdWTd%2BkJ32oCDkjmLl4MrZUpgr3MLXdgcwGOqUBGB1ld2O144LjgWVkghMFyW4IRrY3DsQhfQmnRCTAzhJwUzWoX1%2FrofceL%2BI38TVlcOlG01UlP4EgeLFAepvSM%2F8DTYdn2RlK113S2TaBzbKx2g2AgIfVBrXzYSIZ%2BXTQZIOqvj6tSP%2FaPY2ZcYRlbEGdSnFvqHrFTgueruQjsuK5FC7JJ5%2FS1A%2F%2F9C45mEK51kmo9QPax1jsTYs8anfNSFwhhVcR&X-Amz-Signature=f66504be5e8b8be324f7b96918e28ce6251fe86bee21ae22dbabfcec7de944b7&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
-            "expiry_time": "2026-02-02T10:56:02.649Z"
+            "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/c69962b0-3951-485b-b10a-5bb29576bba8/43838288-8f18-4ce9-8cde-8cec425c6e0e/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466V2HJYOWH%2F20260203%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260203T065204Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEC4aCXVzLXdlc3QtMiJIMEYCIQDCAXlmssR0fMRyYjGEUU8oHy6%2BjuKF3n8D7b8%2B4QunWgIhAPto%2FBezppDzSUaIH7CMAnFttL9qyoUjPtq7R8YWuvNZKogECPf%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMNjM3NDIzMTgzODA1IgzBK2FiWMn%2FchezV6Qq3ANCSgPkc84O641PLpcd2Bbs3HCvgDXuLNr%2Fy3pxW5tptaCD2q9bhIH2a8JC%2FbM7vAyPOirFULdN0cg93ym925qLxgCqcJg%2FCll9dM9WaR7tV8o9kAnKYKYg2kV9x%2FGLrKXAGKTbufwvm5ZR5KomvHlHGvubb4dJAal%2F8MGN8oy40QEnt%2Bo9yTWNsHkaJmyOD%2BDM8BHnkODOmZZbb8gvwefafG4HW2z%2FG5PBIIxNdomMEgogbqUY%2BZpXPWPYGT6pJMWzkAyTCOyGmXIePzfyr5ZuxBXJ7vQWQRWvoJN6VcXQxO9W4G7S%2Fs63Kn4dLlb7AhD%2F456U28qQjBB%2Fy2MA8X0%2FyRmkSTjjynRfAruZ3XlPVO3YT%2FhG8XMl3T1lixEoGKcWdqREew2YmY9YSoZtBfVURgUUsaHXzNBQ27ksxbgWiA%2FSe%2B0G9wFU8kWa61Rc3s%2Fo%2F2AH4JSCOy3CrmgZahHCHtcIMSS7lBTEl0vaMGKsswlPS3WRuFlY5tsJaEKUSPzPSE0TZZBR4nwkGNx%2B9E1rR7O06PfpdQUw4CPZR9SPkRHNMu6kE75889Zr0WSR55lnXaFj4qqaL0ZHXFi%2Flyt9uplLLfc3ZuHnt5bqnOqbTw0WenIrPOAjPpyEijCSm4bMBjqkAc%2B%2BGJNB6wCrOMJLkov5uyqivOFwXsDhQYG6akkhXYqOTBoY4JOzjgf3NYHoriMjrk74eMhv037Pa3lNWf9EG44x5nxxtaO2RWzU44%2BCuLFXHUw0J%2FXDbmCYS48obKQefgOMRkl0fwebZhFBbhBhPL2z5cM9FtE0iDzOs6gm9eU7axVOKNM92EvOyjJHyHLucndc4lS8RXTOWlLmnAHN5%2BrnwSF4&X-Amz-Signature=f97f85a7cab3dcc43f299a7f66f58705f436e0089d79cf112c0a60b12b9442ad&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+            "expiry_time": "2026-02-03T07:52:04.717Z"
           }
         }
       },
@@ -1855,58 +1876,6 @@
       },
       {
         "object": "block",
-        "id": "2f144860-a4f4-8194-9926-e26266ebead3",
-        "parent": {
-          "type": "block_id",
-          "block_id": "2f144860-a4f4-8120-9697-d48a5bffb081"
-        },
-        "created_time": "2026-01-23T11:13:00.000Z",
-        "last_edited_time": "2026-01-23T11:13:00.000Z",
-        "created_by": {
-          "object": "user",
-          "id": "2aed872b-594c-81eb-bc82-000291164988"
-        },
-        "last_edited_by": {
-          "object": "user",
-          "id": "2aed872b-594c-81eb-bc82-000291164988"
-        },
-        "has_children": false,
-        "archived": false,
-        "in_trash": false,
-        "type": "bookmark",
-        "bookmark": {
-          "caption": [],
-          "url": "https://yozm.wishket.com/magazine/detail/1112/"
-        }
-      },
-      {
-        "object": "block",
-        "id": "2f144860-a4f4-81fe-8c37-ecc43f7e7666",
-        "parent": {
-          "type": "block_id",
-          "block_id": "2f144860-a4f4-8120-9697-d48a5bffb081"
-        },
-        "created_time": "2026-01-23T11:13:00.000Z",
-        "last_edited_time": "2026-01-23T11:13:00.000Z",
-        "created_by": {
-          "object": "user",
-          "id": "2aed872b-594c-81eb-bc82-000291164988"
-        },
-        "last_edited_by": {
-          "object": "user",
-          "id": "2aed872b-594c-81eb-bc82-000291164988"
-        },
-        "has_children": false,
-        "archived": false,
-        "in_trash": false,
-        "type": "paragraph",
-        "paragraph": {
-          "rich_text": [],
-          "color": "default"
-        }
-      },
-      {
-        "object": "block",
         "id": "2f144860-a4f4-8005-bebc-e0a75615cc1a",
         "parent": {
           "type": "page_id",
@@ -1952,98 +1921,6 @@
         "in_trash": false,
         "type": "divider",
         "divider": {}
-      },
-      {
-        "object": "block",
-        "id": "2f144860-a4f4-8088-8fd4-fd4013a05ca9",
-        "parent": {
-          "type": "block_id",
-          "block_id": "2f144860-a4f4-8016-99e0-cc30ec07252e"
-        },
-        "created_time": "2026-01-23T11:13:00.000Z",
-        "last_edited_time": "2026-01-23T11:14:00.000Z",
-        "created_by": {
-          "object": "user",
-          "id": "2aed872b-594c-81eb-bc82-000291164988"
-        },
-        "last_edited_by": {
-          "object": "user",
-          "id": "2aed872b-594c-81eb-bc82-000291164988"
-        },
-        "has_children": false,
-        "archived": false,
-        "in_trash": false,
-        "type": "paragraph",
-        "paragraph": {
-          "rich_text": [
-            {
-              "type": "mention",
-              "mention": {
-                "type": "link_preview",
-                "link_preview": {
-                  "url": "https://www.figma.com/board/F0J1TEFsY4SC2xdV4LttyN/-2%EC%9E%A5--%EC%82%AC%EC%9A%A9%EC%9E%90-%EC%8B%9C%EB%82%98%EB%A6%AC%EC%98%A4-%EC%9E%91%EC%84%B1%ED%95%98%EA%B8%B0--Community-?node-id=0-1&t=4Q5f3RlEyC70hz3Q-1"
-                }
-              },
-              "annotations": {
-                "bold": false,
-                "italic": false,
-                "strikethrough": false,
-                "underline": false,
-                "code": false,
-                "color": "default"
-              },
-              "plain_text": "https://www.figma.com/board/F0J1TEFsY4SC2xdV4LttyN/-2%EC%9E%A5--%EC%82%AC%EC%9A%A9%EC%9E%90-%EC%8B%9C%EB%82%98%EB%A6%AC%EC%98%A4-%EC%9E%91%EC%84%B1%ED%95%98%EA%B8%B0--Community-?node-id=0-1&t=4Q5f3RlEyC70hz3Q-1",
-              "href": "https://www.figma.com/board/F0J1TEFsY4SC2xdV4LttyN/-2%EC%9E%A5--%EC%82%AC%EC%9A%A9%EC%9E%90-%EC%8B%9C%EB%82%98%EB%A6%AC%EC%98%A4-%EC%9E%91%EC%84%B1%ED%95%98%EA%B8%B0--Community-?node-id=0-1&t=4Q5f3RlEyC70hz3Q-1"
-            }
-          ],
-          "color": "default"
-        }
-      },
-      {
-        "object": "block",
-        "id": "2f144860-a4f4-80f1-8626-e066387c6e9f",
-        "parent": {
-          "type": "block_id",
-          "block_id": "2f144860-a4f4-8016-99e0-cc30ec07252e"
-        },
-        "created_time": "2026-01-23T11:14:00.000Z",
-        "last_edited_time": "2026-01-23T11:14:00.000Z",
-        "created_by": {
-          "object": "user",
-          "id": "2aed872b-594c-81eb-bc82-000291164988"
-        },
-        "last_edited_by": {
-          "object": "user",
-          "id": "2aed872b-594c-81eb-bc82-000291164988"
-        },
-        "has_children": false,
-        "archived": false,
-        "in_trash": false,
-        "type": "paragraph",
-        "paragraph": {
-          "rich_text": [
-            {
-              "type": "mention",
-              "mention": {
-                "type": "link_preview",
-                "link_preview": {
-                  "url": "https://www.figma.com/design/aRIcSbgUzXMOSM8TR9V2Me/-LearnHill--04.04-%EC%9C%A0%EC%A0%80-%EC%8B%9C%EB%82%98%EB%A6%AC%EC%98%A4-%ED%85%9C%ED%94%8C%EB%A6%BF-User-Scenario-Template---Community-?node-id=0-1&t=WAksZp3O5jPykO0l-1"
-                }
-              },
-              "annotations": {
-                "bold": false,
-                "italic": false,
-                "strikethrough": false,
-                "underline": false,
-                "code": false,
-                "color": "default"
-              },
-              "plain_text": "https://www.figma.com/design/aRIcSbgUzXMOSM8TR9V2Me/-LearnHill--04.04-%EC%9C%A0%EC%A0%80-%EC%8B%9C%EB%82%98%EB%A6%AC%EC%98%A4-%ED%85%9C%ED%94%8C%EB%A6%BF-User-Scenario-Template---Community-?node-id=0-1&t=WAksZp3O5jPykO0l-1",
-              "href": "https://www.figma.com/design/aRIcSbgUzXMOSM8TR9V2Me/-LearnHill--04.04-%EC%9C%A0%EC%A0%80-%EC%8B%9C%EB%82%98%EB%A6%AC%EC%98%A4-%ED%85%9C%ED%94%8C%EB%A6%BF-User-Scenario-Template---Community-?node-id=0-1&t=WAksZp3O5jPykO0l-1"
-            }
-          ],
-          "color": "default"
-        }
       },
       {
         "object": "block",
@@ -2777,7 +2654,7 @@
           "block_id": "2f144860-a4f4-80d5-99ce-f4ccc8d363dc"
         },
         "created_time": "2026-01-23T11:15:00.000Z",
-        "last_edited_time": "2026-01-23T11:15:00.000Z",
+        "last_edited_time": "2026-02-03T06:41:00.000Z",
         "created_by": {
           "object": "user",
           "id": "2aed872b-594c-81eb-bc82-000291164988"
@@ -2786,7 +2663,7 @@
           "object": "user",
           "id": "2aed872b-594c-81eb-bc82-000291164988"
         },
-        "has_children": false,
+        "has_children": true,
         "archived": false,
         "in_trash": false,
         "type": "bulleted_list_item",
@@ -2811,43 +2688,66 @@
             }
           ],
           "color": "default"
-        }
+        },
+        "children": [
+          {
+            "object": "block",
+            "id": "2fc44860-a4f4-805c-addc-da52300f1e48",
+            "parent": {
+              "type": "block_id",
+              "block_id": "2f144860-a4f4-80be-8ee7-f1b9f246f05f"
+            },
+            "created_time": "2026-02-03T06:41:00.000Z",
+            "last_edited_time": "2026-02-03T06:41:00.000Z",
+            "created_by": {
+              "object": "user",
+              "id": "2aed872b-594c-81eb-bc82-000291164988"
+            },
+            "last_edited_by": {
+              "object": "user",
+              "id": "2aed872b-594c-81eb-bc82-000291164988"
+            },
+            "has_children": false,
+            "archived": false,
+            "in_trash": false,
+            "type": "paragraph",
+            "paragraph": {
+              "rich_text": [
+                {
+                  "type": "mention",
+                  "mention": {
+                    "type": "link_mention",
+                    "link_mention": {
+                      "href": "http://figma.com/community/file/1505866815409268135/auto-layout",
+                      "title": "figma.com"
+                    }
+                  },
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  },
+                  "plain_text": "http://figma.com/community/file/1505866815409268135/auto-layout",
+                  "href": "http://figma.com/community/file/1505866815409268135/auto-layout"
+                }
+              ],
+              "color": "default"
+            }
+          }
+        ]
       },
       {
         "object": "block",
-        "id": "2f144860-a4f4-800a-868c-d6e169532145",
+        "id": "2fc44860-a4f4-801a-9687-eec87c4eb655",
         "parent": {
           "type": "block_id",
           "block_id": "2f144860-a4f4-80d5-99ce-f4ccc8d363dc"
         },
-        "created_time": "2026-01-23T11:15:00.000Z",
-        "last_edited_time": "2026-01-23T11:15:00.000Z",
-        "created_by": {
-          "object": "user",
-          "id": "2aed872b-594c-81eb-bc82-000291164988"
-        },
-        "last_edited_by": {
-          "object": "user",
-          "id": "2aed872b-594c-81eb-bc82-000291164988"
-        },
-        "has_children": false,
-        "archived": false,
-        "in_trash": false,
-        "type": "bookmark",
-        "bookmark": {
-          "caption": [],
-          "url": "https://www.figma.com/community/file/1505866815409268135"
-        }
-      },
-      {
-        "object": "block",
-        "id": "2f544860-a4f4-80c4-8084-ef796860625b",
-        "parent": {
-          "type": "block_id",
-          "block_id": "2f144860-a4f4-80d5-99ce-f4ccc8d363dc"
-        },
-        "created_time": "2026-01-27T04:30:00.000Z",
-        "last_edited_time": "2026-01-27T04:30:00.000Z",
+        "created_time": "2026-02-03T06:41:00.000Z",
+        "last_edited_time": "2026-02-03T06:41:00.000Z",
         "created_by": {
           "object": "user",
           "id": "2aed872b-594c-81eb-bc82-000291164988"
@@ -3073,5 +2973,5 @@
       }
     ]
   },
-  "syncedAt": "2026-02-02T09:56:06.198Z"
+  "syncedAt": "2026-02-03T06:52:09.498Z"
 }

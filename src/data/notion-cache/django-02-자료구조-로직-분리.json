@@ -35,7 +35,7 @@
           "block_id": "2f544860-a4f4-80bb-a7f3-d61ebb88c43f"
         },
         "created_time": "2026-01-27T04:18:00.000Z",
-        "last_edited_time": "2026-01-27T04:18:00.000Z",
+        "last_edited_time": "2026-02-03T04:59:00.000Z",
         "created_by": {
           "object": "user",
           "id": "2aed872b-594c-81eb-bc82-000291164988"
@@ -57,7 +57,7 @@
                 "link": null
               },
               "annotations": {
-                "bold": false,
+                "bold": true,
                 "italic": false,
                 "strikethrough": false,
                 "underline": false,
@@ -79,7 +79,7 @@
           "block_id": "2f544860-a4f4-80bb-a7f3-d61ebb88c43f"
         },
         "created_time": "2026-01-27T04:18:00.000Z",
-        "last_edited_time": "2026-01-27T04:18:00.000Z",
+        "last_edited_time": "2026-02-03T05:00:00.000Z",
         "created_by": {
           "object": "user",
           "id": "2aed872b-594c-81eb-bc82-000291164988"
@@ -97,7 +97,7 @@
             {
               "type": "text",
               "text": {
-                "content": "프로그램의 규모가 커지고 기능이 늘어나면, 단순히 코드를 위에서 아래로 작성하는 방식만으로는 프로그램을 이해하고 수정하기가 점점 어려워진다.",
+                "content": "프로그램의 규모가 커지고 기능이 늘어나면, 단순히 코드를 위에서 아래로 작성하는 방식만으로는 프로그램을 이해하고 수정하기가 점점 어려워진다. 이때 필요한 것이 여러 데이터를 하나의 구조로 묶어 관리하는 ",
                 "link": null
               },
               "annotations": {
@@ -108,77 +108,7 @@
                 "code": false,
                 "color": "default"
               },
-              "plain_text": "프로그램의 규모가 커지고 기능이 늘어나면, 단순히 코드를 위에서 아래로 작성하는 방식만으로는 프로그램을 이해하고 수정하기가 점점 어려워진다.",
-              "href": null
-            }
-          ],
-          "color": "default"
-        }
-      },
-      {
-        "object": "block",
-        "id": "2f544860-a4f4-809d-860b-ddc9b684beba",
-        "parent": {
-          "type": "block_id",
-          "block_id": "2f544860-a4f4-80bb-a7f3-d61ebb88c43f"
-        },
-        "created_time": "2026-01-27T04:18:00.000Z",
-        "last_edited_time": "2026-01-27T04:18:00.000Z",
-        "created_by": {
-          "object": "user",
-          "id": "2aed872b-594c-81eb-bc82-000291164988"
-        },
-        "last_edited_by": {
-          "object": "user",
-          "id": "2aed872b-594c-81eb-bc82-000291164988"
-        },
-        "has_children": false,
-        "archived": false,
-        "in_trash": false,
-        "type": "paragraph",
-        "paragraph": {
-          "rich_text": [],
-          "color": "default"
-        }
-      },
-      {
-        "object": "block",
-        "id": "2f544860-a4f4-8087-8aea-ec1ddd9e6f98",
-        "parent": {
-          "type": "block_id",
-          "block_id": "2f544860-a4f4-80bb-a7f3-d61ebb88c43f"
-        },
-        "created_time": "2026-01-27T04:18:00.000Z",
-        "last_edited_time": "2026-01-27T04:18:00.000Z",
-        "created_by": {
-          "object": "user",
-          "id": "2aed872b-594c-81eb-bc82-000291164988"
-        },
-        "last_edited_by": {
-          "object": "user",
-          "id": "2aed872b-594c-81eb-bc82-000291164988"
-        },
-        "has_children": false,
-        "archived": false,
-        "in_trash": false,
-        "type": "paragraph",
-        "paragraph": {
-          "rich_text": [
-            {
-              "type": "text",
-              "text": {
-                "content": "이때 필요한 것이 여러 데이터를 하나의 구조로 묶어 관리하는 ",
-                "link": null
-              },
-              "annotations": {
-                "bold": false,
-                "italic": false,
-                "strikethrough": false,
-                "underline": false,
-                "code": false,
-                "color": "default"
-              },
-              "plain_text": "이때 필요한 것이 여러 데이터를 하나의 구조로 묶어 관리하는 ",
+              "plain_text": "프로그램의 규모가 커지고 기능이 늘어나면, 단순히 코드를 위에서 아래로 작성하는 방식만으로는 프로그램을 이해하고 수정하기가 점점 어려워진다. 이때 필요한 것이 여러 데이터를 하나의 구조로 묶어 관리하는 ",
               "href": null
             },
             {
@@ -250,6 +180,32 @@
               "href": null
             }
           ],
+          "color": "default"
+        }
+      },
+      {
+        "object": "block",
+        "id": "2fc44860-a4f4-8047-b112-f74fd13c86b1",
+        "parent": {
+          "type": "block_id",
+          "block_id": "2f544860-a4f4-80bb-a7f3-d61ebb88c43f"
+        },
+        "created_time": "2026-02-03T05:00:00.000Z",
+        "last_edited_time": "2026-02-03T05:00:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "has_children": false,
+        "archived": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
           "color": "default"
         }
       },
@@ -455,6 +411,32 @@
       },
       {
         "object": "block",
+        "id": "2fc44860-a4f4-8020-9598-f21dc5ad928a",
+        "parent": {
+          "type": "block_id",
+          "block_id": "2f544860-a4f4-80bb-a7f3-d61ebb88c43f"
+        },
+        "created_time": "2026-02-03T05:00:00.000Z",
+        "last_edited_time": "2026-02-03T05:00:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "has_children": false,
+        "archived": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "color": "default"
+        }
+      },
+      {
+        "object": "block",
         "id": "2f544860-a4f4-80b2-a1a8-dffc434edef7",
         "parent": {
           "type": "block_id",
@@ -505,7 +487,7 @@
           "block_id": "2f544860-a4f4-80bb-a7f3-d61ebb88c43f"
         },
         "created_time": "2026-01-27T04:18:00.000Z",
-        "last_edited_time": "2026-01-27T04:18:00.000Z",
+        "last_edited_time": "2026-02-03T05:05:00.000Z",
         "created_by": {
           "object": "user",
           "id": "2aed872b-594c-81eb-bc82-000291164988"
@@ -527,7 +509,7 @@
                 "link": null
               },
               "annotations": {
-                "bold": false,
+                "bold": true,
                 "italic": false,
                 "strikethrough": false,
                 "underline": false,
@@ -549,7 +531,7 @@
           "block_id": "2f544860-a4f4-80bb-a7f3-d61ebb88c43f"
         },
         "created_time": "2026-01-27T04:18:00.000Z",
-        "last_edited_time": "2026-01-27T04:18:00.000Z",
+        "last_edited_time": "2026-02-03T05:05:00.000Z",
         "created_by": {
           "object": "user",
           "id": "2aed872b-594c-81eb-bc82-000291164988"
@@ -571,7 +553,7 @@
                 "link": null
               },
               "annotations": {
-                "bold": false,
+                "bold": true,
                 "italic": false,
                 "strikethrough": false,
                 "underline": false,
@@ -593,7 +575,7 @@
           "block_id": "2f544860-a4f4-80bb-a7f3-d61ebb88c43f"
         },
         "created_time": "2026-01-27T04:18:00.000Z",
-        "last_edited_time": "2026-01-27T04:18:00.000Z",
+        "last_edited_time": "2026-02-03T05:05:00.000Z",
         "created_by": {
           "object": "user",
           "id": "2aed872b-594c-81eb-bc82-000291164988"
@@ -615,7 +597,7 @@
                 "link": null
               },
               "annotations": {
-                "bold": false,
+                "bold": true,
                 "italic": false,
                 "strikethrough": false,
                 "underline": false,
@@ -763,7 +745,7 @@
           "block_id": "2f544860-a4f4-80a7-bf47-d0a6ae18ee38"
         },
         "created_time": "2026-01-27T04:18:00.000Z",
-        "last_edited_time": "2026-01-27T04:18:00.000Z",
+        "last_edited_time": "2026-02-03T05:00:00.000Z",
         "created_by": {
           "object": "user",
           "id": "2aed872b-594c-81eb-bc82-000291164988"
@@ -781,7 +763,24 @@
             {
               "type": "text",
               "text": {
-                "content": "리스트(list)와 딕셔너리(dict)가 각각 어떤 차이점이 있는지 설명할 수 있다.",
+                "content": "리스트(list)와 딕셔너리(dict)가 각각 어떤 차이점",
+                "link": null
+              },
+              "annotations": {
+                "bold": true,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "리스트(list)와 딕셔너리(dict)가 각각 어떤 차이점",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": "이 있는지 설명할 수 있다.",
                 "link": null
               },
               "annotations": {
@@ -792,7 +791,7 @@
                 "code": false,
                 "color": "default"
               },
-              "plain_text": "리스트(list)와 딕셔너리(dict)가 각각 어떤 차이점이 있는지 설명할 수 있다.",
+              "plain_text": "이 있는지 설명할 수 있다.",
               "href": null
             }
           ],
@@ -807,7 +806,7 @@
           "block_id": "2f544860-a4f4-80a7-bf47-d0a6ae18ee38"
         },
         "created_time": "2026-01-27T04:18:00.000Z",
-        "last_edited_time": "2026-01-27T04:18:00.000Z",
+        "last_edited_time": "2026-02-03T05:00:00.000Z",
         "created_by": {
           "object": "user",
           "id": "2aed872b-594c-81eb-bc82-000291164988"
@@ -825,7 +824,7 @@
             {
               "type": "text",
               "text": {
-                "content": "여러 개의 속성을 가진 데이터를 dict 구조로 표현하는 이유를 설명할 수 있다.",
+                "content": "여러 개의 속성을 가진 데이터를 ",
                 "link": null
               },
               "annotations": {
@@ -836,7 +835,41 @@
                 "code": false,
                 "color": "default"
               },
-              "plain_text": "여러 개의 속성을 가진 데이터를 dict 구조로 표현하는 이유를 설명할 수 있다.",
+              "plain_text": "여러 개의 속성을 가진 데이터를 ",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": "dict 구조로 표현하는 이유",
+                "link": null
+              },
+              "annotations": {
+                "bold": true,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "dict 구조로 표현하는 이유",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": "를 설명할 수 있다.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "를 설명할 수 있다.",
               "href": null
             }
           ],
@@ -851,7 +884,7 @@
           "block_id": "2f544860-a4f4-80a7-bf47-d0a6ae18ee38"
         },
         "created_time": "2026-01-27T04:18:00.000Z",
-        "last_edited_time": "2026-01-27T04:18:00.000Z",
+        "last_edited_time": "2026-02-03T05:00:00.000Z",
         "created_by": {
           "object": "user",
           "id": "2aed872b-594c-81eb-bc82-000291164988"
@@ -869,7 +902,24 @@
             {
               "type": "text",
               "text": {
-                "content": "리스트 안에 dict를 저장하는 데이터 구조를 설명할 수 있다.",
+                "content": "리스트 안에 dict를 저장하는 데이터 구조",
+                "link": null
+              },
+              "annotations": {
+                "bold": true,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "리스트 안에 dict를 저장하는 데이터 구조",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": "를 설명할 수 있다.",
                 "link": null
               },
               "annotations": {
@@ -880,7 +930,7 @@
                 "code": false,
                 "color": "default"
               },
-              "plain_text": "리스트 안에 dict를 저장하는 데이터 구조를 설명할 수 있다.",
+              "plain_text": "를 설명할 수 있다.",
               "href": null
             }
           ],
@@ -895,7 +945,7 @@
           "block_id": "2f544860-a4f4-80a7-bf47-d0a6ae18ee38"
         },
         "created_time": "2026-01-27T04:18:00.000Z",
-        "last_edited_time": "2026-01-27T04:18:00.000Z",
+        "last_edited_time": "2026-02-03T05:00:00.000Z",
         "created_by": {
           "object": "user",
           "id": "2aed872b-594c-81eb-bc82-000291164988"
@@ -913,7 +963,24 @@
             {
               "type": "text",
               "text": {
-                "content": "기능별로 코드를 함수 단위로 분리해야 하는 이유를 설명할 수 있다.",
+                "content": "기능별로 코드를 함수 단위로 분리",
+                "link": null
+              },
+              "annotations": {
+                "bold": true,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "기능별로 코드를 함수 단위로 분리",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": "해야 하는 이유를 설명할 수 있다.",
                 "link": null
               },
               "annotations": {
@@ -924,7 +991,7 @@
                 "code": false,
                 "color": "default"
               },
-              "plain_text": "기능별로 코드를 함수 단위로 분리해야 하는 이유를 설명할 수 있다.",
+              "plain_text": "해야 하는 이유를 설명할 수 있다.",
               "href": null
             }
           ],
@@ -939,7 +1006,7 @@
           "block_id": "2f544860-a4f4-80a7-bf47-d0a6ae18ee38"
         },
         "created_time": "2026-01-27T04:18:00.000Z",
-        "last_edited_time": "2026-01-27T04:18:00.000Z",
+        "last_edited_time": "2026-02-03T05:00:00.000Z",
         "created_by": {
           "object": "user",
           "id": "2aed872b-594c-81eb-bc82-000291164988"
@@ -957,7 +1024,24 @@
             {
               "type": "text",
               "text": {
-                "content": "이름 검색과 트랙 필터링 기능이 각각 독립된 함수로 구현되는 이유를 설명할 수 있다.",
+                "content": "이름 검색과 트랙 필터링 기능이 각각 독립된 함수",
+                "link": null
+              },
+              "annotations": {
+                "bold": true,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "이름 검색과 트랙 필터링 기능이 각각 독립된 함수",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": "로 구현되는 이유를 설명할 수 있다.",
                 "link": null
               },
               "annotations": {
@@ -968,7 +1052,7 @@
                 "code": false,
                 "color": "default"
               },
-              "plain_text": "이름 검색과 트랙 필터링 기능이 각각 독립된 함수로 구현되는 이유를 설명할 수 있다.",
+              "plain_text": "로 구현되는 이유를 설명할 수 있다.",
               "href": null
             }
           ],
@@ -983,7 +1067,7 @@
           "block_id": "2f544860-a4f4-80a7-bf47-d0a6ae18ee38"
         },
         "created_time": "2026-01-27T04:18:00.000Z",
-        "last_edited_time": "2026-01-27T04:18:00.000Z",
+        "last_edited_time": "2026-02-03T05:01:00.000Z",
         "created_by": {
           "object": "user",
           "id": "2aed872b-594c-81eb-bc82-000291164988"
@@ -1001,7 +1085,24 @@
             {
               "type": "text",
               "text": {
-                "content": "입력, 처리, 출력 로직이 분리된 프로그램 구조를 설명할 수 있다.",
+                "content": "입력, 처리, 출력 로직",
+                "link": null
+              },
+              "annotations": {
+                "bold": true,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "입력, 처리, 출력 로직",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": "이 분리된 프로그램 구조를 설명할 수 있다.",
                 "link": null
               },
               "annotations": {
@@ -1012,7 +1113,7 @@
                 "code": false,
                 "color": "default"
               },
-              "plain_text": "입력, 처리, 출력 로직이 분리된 프로그램 구조를 설명할 수 있다.",
+              "plain_text": "이 분리된 프로그램 구조를 설명할 수 있다.",
               "href": null
             }
           ],
@@ -1027,7 +1128,7 @@
           "block_id": "2f544860-a4f4-80a7-bf47-d0a6ae18ee38"
         },
         "created_time": "2026-01-27T04:18:00.000Z",
-        "last_edited_time": "2026-01-27T04:18:00.000Z",
+        "last_edited_time": "2026-02-03T05:01:00.000Z",
         "created_by": {
           "object": "user",
           "id": "2aed872b-594c-81eb-bc82-000291164988"
@@ -1045,7 +1146,7 @@
             {
               "type": "text",
               "text": {
-                "content": "잘못된 입력이 들어왔을 때 조건문으로 처리하는 방식을 설명할 수 있다.",
+                "content": "잘못된 입력이 들어왔을 때 ",
                 "link": null
               },
               "annotations": {
@@ -1056,7 +1157,41 @@
                 "code": false,
                 "color": "default"
               },
-              "plain_text": "잘못된 입력이 들어왔을 때 조건문으로 처리하는 방식을 설명할 수 있다.",
+              "plain_text": "잘못된 입력이 들어왔을 때 ",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": "조건문으로 처리하는 방식",
+                "link": null
+              },
+              "annotations": {
+                "bold": true,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "조건문으로 처리하는 방식",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": "을 설명할 수 있다.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "을 설명할 수 있다.",
               "href": null
             }
           ],
@@ -1145,7 +1280,7 @@
           "block_id": "2f544860-a4f4-8097-b404-cea5a87c59f6"
         },
         "created_time": "2026-01-27T04:18:00.000Z",
-        "last_edited_time": "2026-01-27T04:25:00.000Z",
+        "last_edited_time": "2026-02-03T05:26:00.000Z",
         "created_by": {
           "object": "user",
           "id": "2aed872b-594c-81eb-bc82-000291164988"
@@ -1163,7 +1298,7 @@
             {
               "type": "text",
               "text": {
-                "content": "이번 미션의 최종 결과물은 아기사자 정보를 dict 구조로 관리하고, 이름 검색 및 트랙 필터링기능을 함수로 구현한 콘솔 기반 관리 프로그램입니다.",
+                "content": "아기사자 정보를 dict 구조로 관리하고, 이름 검색 및 트랙 필터링기능을 함수로 구현한 콘솔 기반 관리 프로그램",
                 "link": null
               },
               "annotations": {
@@ -1174,7 +1309,7 @@
                 "code": false,
                 "color": "default"
               },
-              "plain_text": "이번 미션의 최종 결과물은 아기사자 정보를 dict 구조로 관리하고, 이름 검색 및 트랙 필터링기능을 함수로 구현한 콘솔 기반 관리 프로그램입니다.",
+              "plain_text": "아기사자 정보를 dict 구조로 관리하고, 이름 검색 및 트랙 필터링기능을 함수로 구현한 콘솔 기반 관리 프로그램",
               "href": null
             }
           ],
@@ -1260,7 +1395,7 @@
           "block_id": "2f544860-a4f4-8097-b404-cea5a87c59f6"
         },
         "created_time": "2026-01-27T04:18:00.000Z",
-        "last_edited_time": "2026-01-27T04:25:00.000Z",
+        "last_edited_time": "2026-02-03T05:22:00.000Z",
         "created_by": {
           "object": "user",
           "id": "2aed872b-594c-81eb-bc82-000291164988"
@@ -1269,7 +1404,7 @@
           "object": "user",
           "id": "2aed872b-594c-81eb-bc82-000291164988"
         },
-        "has_children": false,
+        "has_children": true,
         "archived": false,
         "in_trash": false,
         "type": "bulleted_list_item",
@@ -1278,7 +1413,7 @@
             {
               "type": "text",
               "text": {
-                "content": "처리: 아기사자 한 명의 정보를 dict 구조로 저장한다.",
+                "content": "처리",
                 "link": null
               },
               "annotations": {
@@ -1287,14 +1422,60 @@
                 "strikethrough": false,
                 "underline": false,
                 "code": false,
-                "color": "default"
+                "color": "orange"
               },
-              "plain_text": "처리: 아기사자 한 명의 정보를 dict 구조로 저장한다.",
+              "plain_text": "처리",
               "href": null
             }
           ],
           "color": "default"
-        }
+        },
+        "children": [
+          {
+            "object": "block",
+            "id": "2fc44860-a4f4-8089-b9e7-f923946e6c89",
+            "parent": {
+              "type": "block_id",
+              "block_id": "2f544860-a4f4-8051-bbd9-dfccf26bee0a"
+            },
+            "created_time": "2026-02-03T05:01:00.000Z",
+            "last_edited_time": "2026-02-03T05:01:00.000Z",
+            "created_by": {
+              "object": "user",
+              "id": "2aed872b-594c-81eb-bc82-000291164988"
+            },
+            "last_edited_by": {
+              "object": "user",
+              "id": "2aed872b-594c-81eb-bc82-000291164988"
+            },
+            "has_children": false,
+            "archived": false,
+            "in_trash": false,
+            "type": "bulleted_list_item",
+            "bulleted_list_item": {
+              "rich_text": [
+                {
+                  "type": "text",
+                  "text": {
+                    "content": "아기사자 한 명의 정보를 dict 구조로 저장한다.",
+                    "link": null
+                  },
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  },
+                  "plain_text": "아기사자 한 명의 정보를 dict 구조로 저장한다.",
+                  "href": null
+                }
+              ],
+              "color": "default"
+            }
+          }
+        ]
       },
       {
         "object": "block",
@@ -1304,7 +1485,7 @@
           "block_id": "2f544860-a4f4-8097-b404-cea5a87c59f6"
         },
         "created_time": "2026-01-27T04:18:00.000Z",
-        "last_edited_time": "2026-01-27T04:25:00.000Z",
+        "last_edited_time": "2026-02-03T05:23:00.000Z",
         "created_by": {
           "object": "user",
           "id": "2aed872b-594c-81eb-bc82-000291164988"
@@ -1313,7 +1494,7 @@
           "object": "user",
           "id": "2aed872b-594c-81eb-bc82-000291164988"
         },
-        "has_children": false,
+        "has_children": true,
         "archived": false,
         "in_trash": false,
         "type": "bulleted_list_item",
@@ -1322,7 +1503,7 @@
             {
               "type": "text",
               "text": {
-                "content": "항목: 이름, 트랙, 기수 정보를 포함한다.",
+                "content": "항목",
                 "link": null
               },
               "annotations": {
@@ -1331,14 +1512,60 @@
                 "strikethrough": false,
                 "underline": false,
                 "code": false,
-                "color": "default"
+                "color": "orange"
               },
-              "plain_text": "항목: 이름, 트랙, 기수 정보를 포함한다.",
+              "plain_text": "항목",
               "href": null
             }
           ],
           "color": "default"
-        }
+        },
+        "children": [
+          {
+            "object": "block",
+            "id": "2fc44860-a4f4-80dd-bf80-f788a1284837",
+            "parent": {
+              "type": "block_id",
+              "block_id": "2f544860-a4f4-8006-a258-fe03ecebcec8"
+            },
+            "created_time": "2026-02-03T05:01:00.000Z",
+            "last_edited_time": "2026-02-03T05:01:00.000Z",
+            "created_by": {
+              "object": "user",
+              "id": "2aed872b-594c-81eb-bc82-000291164988"
+            },
+            "last_edited_by": {
+              "object": "user",
+              "id": "2aed872b-594c-81eb-bc82-000291164988"
+            },
+            "has_children": false,
+            "archived": false,
+            "in_trash": false,
+            "type": "bulleted_list_item",
+            "bulleted_list_item": {
+              "rich_text": [
+                {
+                  "type": "text",
+                  "text": {
+                    "content": "이름, 트랙, 기수 정보를 포함한다.",
+                    "link": null
+                  },
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  },
+                  "plain_text": "이름, 트랙, 기수 정보를 포함한다.",
+                  "href": null
+                }
+              ],
+              "color": "default"
+            }
+          }
+        ]
       },
       {
         "object": "block",
@@ -1460,7 +1687,7 @@
           "block_id": "2f544860-a4f4-8097-b404-cea5a87c59f6"
         },
         "created_time": "2026-01-27T04:18:00.000Z",
-        "last_edited_time": "2026-01-27T04:25:00.000Z",
+        "last_edited_time": "2026-02-03T05:23:00.000Z",
         "created_by": {
           "object": "user",
           "id": "2aed872b-594c-81eb-bc82-000291164988"
@@ -1469,7 +1696,7 @@
           "object": "user",
           "id": "2aed872b-594c-81eb-bc82-000291164988"
         },
-        "has_children": false,
+        "has_children": true,
         "archived": false,
         "in_trash": false,
         "type": "bulleted_list_item",
@@ -1478,7 +1705,7 @@
             {
               "type": "text",
               "text": {
-                "content": "입력: 검색할 아기사자 이름을 콘솔로 입력한다.",
+                "content": "입력/요청",
                 "link": null
               },
               "annotations": {
@@ -1487,14 +1714,60 @@
                 "strikethrough": false,
                 "underline": false,
                 "code": false,
-                "color": "default"
+                "color": "orange"
               },
-              "plain_text": "입력: 검색할 아기사자 이름을 콘솔로 입력한다.",
+              "plain_text": "입력/요청",
               "href": null
             }
           ],
           "color": "default"
-        }
+        },
+        "children": [
+          {
+            "object": "block",
+            "id": "2fc44860-a4f4-80b5-8b72-ec4d926f351b",
+            "parent": {
+              "type": "block_id",
+              "block_id": "2f544860-a4f4-803a-801b-c76169de08e8"
+            },
+            "created_time": "2026-02-03T05:01:00.000Z",
+            "last_edited_time": "2026-02-03T05:01:00.000Z",
+            "created_by": {
+              "object": "user",
+              "id": "2aed872b-594c-81eb-bc82-000291164988"
+            },
+            "last_edited_by": {
+              "object": "user",
+              "id": "2aed872b-594c-81eb-bc82-000291164988"
+            },
+            "has_children": false,
+            "archived": false,
+            "in_trash": false,
+            "type": "bulleted_list_item",
+            "bulleted_list_item": {
+              "rich_text": [
+                {
+                  "type": "text",
+                  "text": {
+                    "content": "검색할 아기사자 이름을 콘솔로 입력한다.",
+                    "link": null
+                  },
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  },
+                  "plain_text": "검색할 아기사자 이름을 콘솔로 입력한다.",
+                  "href": null
+                }
+              ],
+              "color": "default"
+            }
+          }
+        ]
       },
       {
         "object": "block",
@@ -1504,7 +1777,7 @@
           "block_id": "2f544860-a4f4-8097-b404-cea5a87c59f6"
         },
         "created_time": "2026-01-27T04:18:00.000Z",
-        "last_edited_time": "2026-01-27T04:25:00.000Z",
+        "last_edited_time": "2026-02-03T05:23:00.000Z",
         "created_by": {
           "object": "user",
           "id": "2aed872b-594c-81eb-bc82-000291164988"
@@ -1513,7 +1786,7 @@
           "object": "user",
           "id": "2aed872b-594c-81eb-bc82-000291164988"
         },
-        "has_children": false,
+        "has_children": true,
         "archived": false,
         "in_trash": false,
         "type": "bulleted_list_item",
@@ -1522,7 +1795,7 @@
             {
               "type": "text",
               "text": {
-                "content": "처리: 리스트에 저장된 아기사자 정보 중 이름이 일치하는 데이터를 찾는다.",
+                "content": "처리",
                 "link": null
               },
               "annotations": {
@@ -1531,14 +1804,60 @@
                 "strikethrough": false,
                 "underline": false,
                 "code": false,
-                "color": "default"
+                "color": "orange"
               },
-              "plain_text": "처리: 리스트에 저장된 아기사자 정보 중 이름이 일치하는 데이터를 찾는다.",
+              "plain_text": "처리",
               "href": null
             }
           ],
           "color": "default"
-        }
+        },
+        "children": [
+          {
+            "object": "block",
+            "id": "2fc44860-a4f4-806e-a29b-fa6b14abce90",
+            "parent": {
+              "type": "block_id",
+              "block_id": "2f544860-a4f4-80bf-976a-cec80f814a1b"
+            },
+            "created_time": "2026-02-03T05:01:00.000Z",
+            "last_edited_time": "2026-02-03T05:01:00.000Z",
+            "created_by": {
+              "object": "user",
+              "id": "2aed872b-594c-81eb-bc82-000291164988"
+            },
+            "last_edited_by": {
+              "object": "user",
+              "id": "2aed872b-594c-81eb-bc82-000291164988"
+            },
+            "has_children": false,
+            "archived": false,
+            "in_trash": false,
+            "type": "bulleted_list_item",
+            "bulleted_list_item": {
+              "rich_text": [
+                {
+                  "type": "text",
+                  "text": {
+                    "content": "리스트에 저장된 아기사자 정보 중 이름이 일치하는 데이터를 찾는다.",
+                    "link": null
+                  },
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  },
+                  "plain_text": "리스트에 저장된 아기사자 정보 중 이름이 일치하는 데이터를 찾는다.",
+                  "href": null
+                }
+              ],
+              "color": "default"
+            }
+          }
+        ]
       },
       {
         "object": "block",
@@ -1548,7 +1867,7 @@
           "block_id": "2f544860-a4f4-8097-b404-cea5a87c59f6"
         },
         "created_time": "2026-01-27T04:18:00.000Z",
-        "last_edited_time": "2026-01-27T04:25:00.000Z",
+        "last_edited_time": "2026-02-03T05:23:00.000Z",
         "created_by": {
           "object": "user",
           "id": "2aed872b-594c-81eb-bc82-000291164988"
@@ -1557,7 +1876,7 @@
           "object": "user",
           "id": "2aed872b-594c-81eb-bc82-000291164988"
         },
-        "has_children": false,
+        "has_children": true,
         "archived": false,
         "in_trash": false,
         "type": "bulleted_list_item",
@@ -1566,7 +1885,7 @@
             {
               "type": "text",
               "text": {
-                "content": "출력: 검색 결과를 콘솔에 출력한다.",
+                "content": "출력/화면",
                 "link": null
               },
               "annotations": {
@@ -1575,14 +1894,60 @@
                 "strikethrough": false,
                 "underline": false,
                 "code": false,
-                "color": "default"
+                "color": "orange"
               },
-              "plain_text": "출력: 검색 결과를 콘솔에 출력한다.",
+              "plain_text": "출력/화면",
               "href": null
             }
           ],
           "color": "default"
-        }
+        },
+        "children": [
+          {
+            "object": "block",
+            "id": "2fc44860-a4f4-80fb-90db-c82fb8ddc48b",
+            "parent": {
+              "type": "block_id",
+              "block_id": "2f544860-a4f4-8002-a564-c40871184cfc"
+            },
+            "created_time": "2026-02-03T05:01:00.000Z",
+            "last_edited_time": "2026-02-03T05:01:00.000Z",
+            "created_by": {
+              "object": "user",
+              "id": "2aed872b-594c-81eb-bc82-000291164988"
+            },
+            "last_edited_by": {
+              "object": "user",
+              "id": "2aed872b-594c-81eb-bc82-000291164988"
+            },
+            "has_children": false,
+            "archived": false,
+            "in_trash": false,
+            "type": "bulleted_list_item",
+            "bulleted_list_item": {
+              "rich_text": [
+                {
+                  "type": "text",
+                  "text": {
+                    "content": "검색 결과를 콘솔에 출력한다.",
+                    "link": null
+                  },
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  },
+                  "plain_text": "검색 결과를 콘솔에 출력한다.",
+                  "href": null
+                }
+              ],
+              "color": "default"
+            }
+          }
+        ]
       },
       {
         "object": "block",
@@ -1660,7 +2025,7 @@
           "block_id": "2f544860-a4f4-8097-b404-cea5a87c59f6"
         },
         "created_time": "2026-01-27T04:18:00.000Z",
-        "last_edited_time": "2026-01-27T04:25:00.000Z",
+        "last_edited_time": "2026-02-03T05:23:00.000Z",
         "created_by": {
           "object": "user",
           "id": "2aed872b-594c-81eb-bc82-000291164988"
@@ -1669,7 +2034,7 @@
           "object": "user",
           "id": "2aed872b-594c-81eb-bc82-000291164988"
         },
-        "has_children": false,
+        "has_children": true,
         "archived": false,
         "in_trash": false,
         "type": "bulleted_list_item",
@@ -1678,7 +2043,7 @@
             {
               "type": "text",
               "text": {
-                "content": "입력: 조회할 트랙명을 콘솔로 입력한다.",
+                "content": "입력/요청",
                 "link": null
               },
               "annotations": {
@@ -1687,14 +2052,60 @@
                 "strikethrough": false,
                 "underline": false,
                 "code": false,
-                "color": "default"
+                "color": "orange"
               },
-              "plain_text": "입력: 조회할 트랙명을 콘솔로 입력한다.",
+              "plain_text": "입력/요청",
               "href": null
             }
           ],
           "color": "default"
-        }
+        },
+        "children": [
+          {
+            "object": "block",
+            "id": "2fc44860-a4f4-80ba-bad7-ed64275b7238",
+            "parent": {
+              "type": "block_id",
+              "block_id": "2f544860-a4f4-8018-981d-cc08459f3ba6"
+            },
+            "created_time": "2026-02-03T05:01:00.000Z",
+            "last_edited_time": "2026-02-03T05:01:00.000Z",
+            "created_by": {
+              "object": "user",
+              "id": "2aed872b-594c-81eb-bc82-000291164988"
+            },
+            "last_edited_by": {
+              "object": "user",
+              "id": "2aed872b-594c-81eb-bc82-000291164988"
+            },
+            "has_children": false,
+            "archived": false,
+            "in_trash": false,
+            "type": "bulleted_list_item",
+            "bulleted_list_item": {
+              "rich_text": [
+                {
+                  "type": "text",
+                  "text": {
+                    "content": "조회할 트랙명을 콘솔로 입력한다.",
+                    "link": null
+                  },
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  },
+                  "plain_text": "조회할 트랙명을 콘솔로 입력한다.",
+                  "href": null
+                }
+              ],
+              "color": "default"
+            }
+          }
+        ]
       },
       {
         "object": "block",
@@ -1704,7 +2115,7 @@
           "block_id": "2f544860-a4f4-8097-b404-cea5a87c59f6"
         },
         "created_time": "2026-01-27T04:18:00.000Z",
-        "last_edited_time": "2026-01-27T04:25:00.000Z",
+        "last_edited_time": "2026-02-03T05:23:00.000Z",
         "created_by": {
           "object": "user",
           "id": "2aed872b-594c-81eb-bc82-000291164988"
@@ -1713,7 +2124,7 @@
           "object": "user",
           "id": "2aed872b-594c-81eb-bc82-000291164988"
         },
-        "has_children": false,
+        "has_children": true,
         "archived": false,
         "in_trash": false,
         "type": "bulleted_list_item",
@@ -1722,7 +2133,7 @@
             {
               "type": "text",
               "text": {
-                "content": "처리: 해당 트랙에 속한 아기사자 정보를 필터링한다.",
+                "content": "처리",
                 "link": null
               },
               "annotations": {
@@ -1731,14 +2142,60 @@
                 "strikethrough": false,
                 "underline": false,
                 "code": false,
-                "color": "default"
+                "color": "orange"
               },
-              "plain_text": "처리: 해당 트랙에 속한 아기사자 정보를 필터링한다.",
+              "plain_text": "처리",
               "href": null
             }
           ],
           "color": "default"
-        }
+        },
+        "children": [
+          {
+            "object": "block",
+            "id": "2fc44860-a4f4-807b-93b6-c875aeb9c8bd",
+            "parent": {
+              "type": "block_id",
+              "block_id": "2f544860-a4f4-80be-bb74-f55ab47a3834"
+            },
+            "created_time": "2026-02-03T05:01:00.000Z",
+            "last_edited_time": "2026-02-03T05:01:00.000Z",
+            "created_by": {
+              "object": "user",
+              "id": "2aed872b-594c-81eb-bc82-000291164988"
+            },
+            "last_edited_by": {
+              "object": "user",
+              "id": "2aed872b-594c-81eb-bc82-000291164988"
+            },
+            "has_children": false,
+            "archived": false,
+            "in_trash": false,
+            "type": "bulleted_list_item",
+            "bulleted_list_item": {
+              "rich_text": [
+                {
+                  "type": "text",
+                  "text": {
+                    "content": "해당 트랙에 속한 아기사자 정보를 필터링한다.",
+                    "link": null
+                  },
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  },
+                  "plain_text": "해당 트랙에 속한 아기사자 정보를 필터링한다.",
+                  "href": null
+                }
+              ],
+              "color": "default"
+            }
+          }
+        ]
       },
       {
         "object": "block",
@@ -1748,7 +2205,7 @@
           "block_id": "2f544860-a4f4-8097-b404-cea5a87c59f6"
         },
         "created_time": "2026-01-27T04:18:00.000Z",
-        "last_edited_time": "2026-01-27T04:25:00.000Z",
+        "last_edited_time": "2026-02-03T05:23:00.000Z",
         "created_by": {
           "object": "user",
           "id": "2aed872b-594c-81eb-bc82-000291164988"
@@ -1757,7 +2214,7 @@
           "object": "user",
           "id": "2aed872b-594c-81eb-bc82-000291164988"
         },
-        "has_children": false,
+        "has_children": true,
         "archived": false,
         "in_trash": false,
         "type": "bulleted_list_item",
@@ -1766,7 +2223,7 @@
             {
               "type": "text",
               "text": {
-                "content": "출력: 조건에 맞는 아기사자 목록을 콘솔에 출력한다.",
+                "content": "출력/화면",
                 "link": null
               },
               "annotations": {
@@ -1775,14 +2232,60 @@
                 "strikethrough": false,
                 "underline": false,
                 "code": false,
-                "color": "default"
+                "color": "orange"
               },
-              "plain_text": "출력: 조건에 맞는 아기사자 목록을 콘솔에 출력한다.",
+              "plain_text": "출력/화면",
               "href": null
             }
           ],
           "color": "default"
-        }
+        },
+        "children": [
+          {
+            "object": "block",
+            "id": "2fc44860-a4f4-80b6-a2f2-cf54d39d42ca",
+            "parent": {
+              "type": "block_id",
+              "block_id": "2f544860-a4f4-80ad-b1a2-d9a1a6e05105"
+            },
+            "created_time": "2026-02-03T05:01:00.000Z",
+            "last_edited_time": "2026-02-03T05:01:00.000Z",
+            "created_by": {
+              "object": "user",
+              "id": "2aed872b-594c-81eb-bc82-000291164988"
+            },
+            "last_edited_by": {
+              "object": "user",
+              "id": "2aed872b-594c-81eb-bc82-000291164988"
+            },
+            "has_children": false,
+            "archived": false,
+            "in_trash": false,
+            "type": "bulleted_list_item",
+            "bulleted_list_item": {
+              "rich_text": [
+                {
+                  "type": "text",
+                  "text": {
+                    "content": "조건에 맞는 아기사자 목록을 콘솔에 출력한다.",
+                    "link": null
+                  },
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  },
+                  "plain_text": "조건에 맞는 아기사자 목록을 콘솔에 출력한다.",
+                  "href": null
+                }
+              ],
+              "color": "default"
+            }
+          }
+        ]
       },
       {
         "object": "block",
@@ -2166,50 +2669,6 @@
         "in_trash": false,
         "type": "divider",
         "divider": {}
-      },
-      {
-        "object": "block",
-        "id": "2f544860-a4f4-8076-9e0b-ff9220527479",
-        "parent": {
-          "type": "block_id",
-          "block_id": "2f544860-a4f4-80df-bc68-db92c1ac9e7f"
-        },
-        "created_time": "2026-01-27T04:18:00.000Z",
-        "last_edited_time": "2026-01-27T04:18:00.000Z",
-        "created_by": {
-          "object": "user",
-          "id": "2aed872b-594c-81eb-bc82-000291164988"
-        },
-        "last_edited_by": {
-          "object": "user",
-          "id": "2aed872b-594c-81eb-bc82-000291164988"
-        },
-        "has_children": false,
-        "archived": false,
-        "in_trash": false,
-        "type": "quote",
-        "quote": {
-          "rich_text": [
-            {
-              "type": "text",
-              "text": {
-                "content": "다음 요구사항을 모두 만족해야 한다.",
-                "link": null
-              },
-              "annotations": {
-                "bold": false,
-                "italic": false,
-                "strikethrough": false,
-                "underline": false,
-                "code": false,
-                "color": "default"
-              },
-              "plain_text": "다음 요구사항을 모두 만족해야 한다.",
-              "href": null
-            }
-          ],
-          "color": "default"
-        }
       },
       {
         "object": "block",
@@ -3156,7 +3615,7 @@
           "block_id": "2f544860-a4f4-80a4-b756-dfc05ac715fe"
         },
         "created_time": "2026-01-27T04:18:00.000Z",
-        "last_edited_time": "2026-01-27T04:18:00.000Z",
+        "last_edited_time": "2026-02-03T05:24:00.000Z",
         "created_by": {
           "object": "user",
           "id": "2aed872b-594c-81eb-bc82-000291164988"
@@ -3175,7 +3634,7 @@
             {
               "type": "text",
               "text": {
-                "content": "기능을 선택하세요\n1. 아기사자 등록\n2. 이름으로 검색\n3. 트랙으로 조회\n4. 종료\n선택: 1\n🦁 이름을 입력하세요: 아기사자1\n📚 트랙을 입력하세요: Django\n🎓 기수를 입력하세요: 1기\n✅ 아기사자가 등록되었습니다.\n\n기능을 선택하세요\n1. 아기사자 등록\n2. 이름으로 검색\n3. 트랙으로 조회\n4. 종료\n선택: 2\n🔍 검색할 이름을 입력하세요: 아기사자\n⚠️  해당 이름의 아기사자를 찾을 수 없습니다.\n\n기능을 선택하세요\n1. 아기사자 등록\n2. 이름으로 검색\n3. 트랙으로 조회\n4. 종료\n선택: 2\n🔍 검색할 이름을 입력하세요: 아기사자1\n\n📋 검색 결과\n이름: 아기사자1\n트랙: Django\n기수: 1기\n\n기능을 선택하세요\n1. 아기사자 등록\n2. 이름으로 검색\n3. 트랙으로 조회\n4. 종료\n선택: 1\n🦁 이름을 입력하세요: 아기사자2\n📚 트랙을 입력하세요: SpringBoot\n🎓 기수를 입력하세요: 1기\n✅ 아기사자가 등록되었습니다.\n\n기능을 선택하세요\n1. 아기사자 등록\n2. 이름으로 검색\n3. 트랙으로 조회\n4. 종료\n선택: 3\n📂 조회할 트랙을 입력하세요: SpringBoot\n\n📋 SpringBoot 트랙 아기사자 명단\n- 아기사자2 (1기)\n\n기능을 선택하세요\n1. 아기사자 등록\n2. 이름으로 검색\n3. 트랙으로 조회\n4. 종료\n선택: 4\n📌 프로그램을 종료합니다.",
+                "content": "기능을 선택하세요\n1. 아기사자 등록\n2. 이름으로 검색\n3. 트랙으로 조회\n4. 종료\n선택: ",
                 "link": null
               },
               "annotations": {
@@ -3186,7 +3645,619 @@
                 "code": false,
                 "color": "default"
               },
-              "plain_text": "기능을 선택하세요\n1. 아기사자 등록\n2. 이름으로 검색\n3. 트랙으로 조회\n4. 종료\n선택: 1\n🦁 이름을 입력하세요: 아기사자1\n📚 트랙을 입력하세요: Django\n🎓 기수를 입력하세요: 1기\n✅ 아기사자가 등록되었습니다.\n\n기능을 선택하세요\n1. 아기사자 등록\n2. 이름으로 검색\n3. 트랙으로 조회\n4. 종료\n선택: 2\n🔍 검색할 이름을 입력하세요: 아기사자\n⚠️  해당 이름의 아기사자를 찾을 수 없습니다.\n\n기능을 선택하세요\n1. 아기사자 등록\n2. 이름으로 검색\n3. 트랙으로 조회\n4. 종료\n선택: 2\n🔍 검색할 이름을 입력하세요: 아기사자1\n\n📋 검색 결과\n이름: 아기사자1\n트랙: Django\n기수: 1기\n\n기능을 선택하세요\n1. 아기사자 등록\n2. 이름으로 검색\n3. 트랙으로 조회\n4. 종료\n선택: 1\n🦁 이름을 입력하세요: 아기사자2\n📚 트랙을 입력하세요: SpringBoot\n🎓 기수를 입력하세요: 1기\n✅ 아기사자가 등록되었습니다.\n\n기능을 선택하세요\n1. 아기사자 등록\n2. 이름으로 검색\n3. 트랙으로 조회\n4. 종료\n선택: 3\n📂 조회할 트랙을 입력하세요: SpringBoot\n\n📋 SpringBoot 트랙 아기사자 명단\n- 아기사자2 (1기)\n\n기능을 선택하세요\n1. 아기사자 등록\n2. 이름으로 검색\n3. 트랙으로 조회\n4. 종료\n선택: 4\n📌 프로그램을 종료합니다.",
+              "plain_text": "기능을 선택하세요\n1. 아기사자 등록\n2. 이름으로 검색\n3. 트랙으로 조회\n4. 종료\n선택: ",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": "1",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "orange"
+              },
+              "plain_text": "1",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": "\n🦁 이름을 입력하세요: ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "\n🦁 이름을 입력하세요: ",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": "아기사자1",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "orange"
+              },
+              "plain_text": "아기사자1",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": "\n📚 트랙을 입력하세요: ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "\n📚 트랙을 입력하세요: ",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": "Django",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "orange"
+              },
+              "plain_text": "Django",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": "\n🎓 기수를 입력하세요: ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "\n🎓 기수를 입력하세요: ",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": "1기",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "orange"
+              },
+              "plain_text": "1기",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": "\n✅ 아기사자가 등록되었습니다.\n\n기능을 선택하세요\n1. 아기사자 등록\n2. 이름으로 검색\n3. 트랙으로 조회\n4. 종료\n선택: ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "\n✅ 아기사자가 등록되었습니다.\n\n기능을 선택하세요\n1. 아기사자 등록\n2. 이름으로 검색\n3. 트랙으로 조회\n4. 종료\n선택: ",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": "2",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "orange"
+              },
+              "plain_text": "2",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": "\n🔍 검색할 이름을 입력하세요: ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "\n🔍 검색할 이름을 입력하세요: ",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": "아기사자",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "orange"
+              },
+              "plain_text": "아기사자",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": "\n⚠️  해당 이름의 아기사자를 찾을 수 없습니다.\n\n기능을 선택하세요\n1. 아기사자 등록\n2. 이름으로 검색\n3. 트랙으로 조회\n4. 종료\n선택: ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "\n⚠️  해당 이름의 아기사자를 찾을 수 없습니다.\n\n기능을 선택하세요\n1. 아기사자 등록\n2. 이름으로 검색\n3. 트랙으로 조회\n4. 종료\n선택: ",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": "2",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "orange"
+              },
+              "plain_text": "2",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": "\n🔍 검색할 이름을 입력하세요: ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "\n🔍 검색할 이름을 입력하세요: ",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": "아기사자1",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "orange"
+              },
+              "plain_text": "아기사자1",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": "\n\n📋 검색 결과\n이름: ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "\n\n📋 검색 결과\n이름: ",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": "아기사자1",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "orange"
+              },
+              "plain_text": "아기사자1",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": "\n트랙: ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "\n트랙: ",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": "Django",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "orange"
+              },
+              "plain_text": "Django",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": "\n기수: ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "\n기수: ",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": "1기",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "orange"
+              },
+              "plain_text": "1기",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": "\n\n기능을 선택하세요\n1. 아기사자 등록\n2. 이름으로 검색\n3. 트랙으로 조회\n4. 종료\n선택: ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "\n\n기능을 선택하세요\n1. 아기사자 등록\n2. 이름으로 검색\n3. 트랙으로 조회\n4. 종료\n선택: ",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": "1",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "orange"
+              },
+              "plain_text": "1",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": "\n🦁 이름을 입력하세요: ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "\n🦁 이름을 입력하세요: ",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": "아기사자2",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "orange"
+              },
+              "plain_text": "아기사자2",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": "\n📚 트랙을 입력하세요: ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "\n📚 트랙을 입력하세요: ",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": "SpringBoot",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "orange"
+              },
+              "plain_text": "SpringBoot",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": "\n🎓 기수를 입력하세요: ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "\n🎓 기수를 입력하세요: ",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": "1기",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "orange"
+              },
+              "plain_text": "1기",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": "\n✅ 아기사자가 등록되었습니다.\n\n기능을 선택하세요\n1. 아기사자 등록\n2. 이름으로 검색\n3. 트랙으로 조회\n4. 종료\n선택: ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "\n✅ 아기사자가 등록되었습니다.\n\n기능을 선택하세요\n1. 아기사자 등록\n2. 이름으로 검색\n3. 트랙으로 조회\n4. 종료\n선택: ",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": "3",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "orange"
+              },
+              "plain_text": "3",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": "\n📂 조회할 트랙을 입력하세요: ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "\n📂 조회할 트랙을 입력하세요: ",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": "SpringBoot",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "orange"
+              },
+              "plain_text": "SpringBoot",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": "\n\n📋 SpringBoot 트랙 아기사자 명단\n- 아기사자2 (1기)\n\n기능을 선택하세요\n1. 아기사자 등록\n2. 이름으로 검색\n3. 트랙으로 조회\n4. 종료\n선택: ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "\n\n📋 SpringBoot 트랙 아기사자 명단\n- 아기사자2 (1기)\n\n기능을 선택하세요\n1. 아기사자 등록\n2. 이름으로 검색\n3. 트랙으로 조회\n4. 종료\n선택: ",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": "4",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "orange"
+              },
+              "plain_text": "4",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": "\n📌 프로그램을 종료합니다.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "\n📌 프로그램을 종료합니다.",
               "href": null
             }
           ],
@@ -3218,6 +4289,51 @@
       },
       {
         "object": "block",
+        "id": "2fc44860-a4f4-80c7-922b-e317509f95a6",
+        "parent": {
+          "type": "block_id",
+          "block_id": "2f544860-a4f4-80a4-b756-dfc05ac715fe"
+        },
+        "created_time": "2026-02-03T05:28:00.000Z",
+        "last_edited_time": "2026-02-03T05:28:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "has_children": false,
+        "archived": false,
+        "in_trash": false,
+        "type": "heading_3",
+        "heading_3": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "실제 콘솔 이미지",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "실제 콘솔 이미지",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        }
+      },
+      {
+        "object": "block",
         "id": "2f544860-a4f4-801a-9c1a-e752d0991d31",
         "parent": {
           "type": "block_id",
@@ -3241,8 +4357,8 @@
           "caption": [],
           "type": "file",
           "file": {
-            "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/c69962b0-3951-485b-b10a-5bb29576bba8/5a57b190-e8e4-4882-bd98-e9888d181fe6/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA_2026-01-20_%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE_9.55.29.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4665ZGW2ASS%2F20260202%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260202T095552Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEBoaCXVzLXdlc3QtMiJGMEQCIFhoFl9PHAhtVXCqf9nSrpBjUePZkD5po1XLskaLUPqUAiBXwdxbHbupCqbBC%2BFimI7xKwbMROWCY0HrJMv6tzWDJiqIBAji%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAAaDDYzNzQyMzE4MzgwNSIMNH2Qfsxs89m4y1dTKtwDmshhN59wUSgb6zWeylC10xFy%2B4Cp2LI1r%2BdRysCjgUOxl%2FYvms7sYuNUI4EVyLxF4PpKatSbrpzPiK5Jpn36WfYaNwuGZPJU3bz3%2BTF7F568XeC6j8hCx7X3RzCj6Ai%2BSWmnnKDMxX8HLbdi6yPHNRor67h1x7hewo9qpM7Y0MamXDZinncQeLql9xegiARTmmPzQvIxyt49OKr%2FkckiYQgURu04eVcOfl0tg4KxI8S8DRS9jZXjStWXJox9%2BguwhziwpAFLNlPAV25NgfKl5n%2BPO479bl51yfGm7BxhtM3LBOL%2BaMBExh26yez0B3sKFq9G2KzZlo%2F4MO4ni4rMvcLY5TbgwJxJltHLb1JiofffSDShjtTioIGLWlggw0sEJ6UmKtwFg6sx5OIhnU%2FFg4qsNfSuFHpQbV1zG7UkAnRClCagN9ht0MwPa%2BLU7QeKc5Ep65ZcwDTrJN6LlYMF0aZPu5ayx9MVD4shzSu10CSwPxP7ojr1X%2Fksrjxp0gpLrCGk8taJQ6niCmO7u1Ndy7LGth%2BRD%2Fuh4xoEWEct5irE%2Fx1f1oVPOSdUmDQdc95u2JRf36R0iMtIm7gRDdiIJVsiuX0wMJBg8B%2FBK5RIAWLbVGw6TknHirA5nzQwud2BzAY6pgEy1YSsdR4O9QdRLABk3MfnPtcRJxtv8GmSFAIyWBsVQN4D6X%2Fz8%2F%2BjRelwP2VmpMV75iW17S5aiZAbTRfz2khOxbux2xO8Wvxk%2FcXDEJsq%2Bglua7xPP2JwgOM11T%2BxfStqhP9yE0rjB9bzkgDACUKJfrLUnYdYNs6LoNOx3sPzWdpmyELXo1peVgCyaOz0PJtLZZ09i%2Fo4cUZKrARbnGI1TDN6tZ8O&X-Amz-Signature=b45add9705c41246866ea8e00e74b9e76dc3576ff99ae82332fc9d6cd5b74a90&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
-            "expiry_time": "2026-02-02T10:55:52.145Z"
+            "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/c69962b0-3951-485b-b10a-5bb29576bba8/5a57b190-e8e4-4882-bd98-e9888d181fe6/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA_2026-01-20_%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE_9.55.29.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4664NS2H2I7%2F20260203%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260203T065124Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEC4aCXVzLXdlc3QtMiJIMEYCIQDIxwsRMdiExiVcjNaXRhV1dCugKXzc50geYIzTYlnXOQIhAKcgvr08JKxenoBQ2mKJodW1%2F9RM7Ti8s0EBYKCnk2pyKogECPf%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMNjM3NDIzMTgzODA1IgyBktRglj7x5ORWBCEq3AMAkmpduQokjL%2B17sY5iTqma7nfFWO2BDSY%2FFb1kgWlAGZOlWCaTMSHGYeq5wQYusvR6uw9gWtt5hyo%2BGpfd20NAkau%2Fy75VUvaM5tP2Pn0x5qA7i7zNlEZewiUXZDGBnRssHkEDCG7nDfy6tV4y6KK0Sj7HM25Ok%2FS5qM%2Fbi9MvHG9SlJJru%2Bh%2FNj3anDOxGRTwxZUb3jpLb3lE2HsAdkJQLuEJ0pFOWCWf1QHPW9gSh62fgwcUpfAtoV2R5%2BM7hyPBh2LI5QvLlQsXhXQ3A9cZykaMtKlqu%2ByJDRt6CHfJ7GEcG2dvl3s0wKC0N9jA5w0piqa7Ypzs%2B1HF8KsRJSu0uBW52b6rYN119c0VbfKsQb3jhU0FikoEBG6kcG8IjVvuoI1mhkX7F8B5hgHMtHzo1YJDxOX3oYBI19mB3DZuNPAF1bjkKimQj8Hb5fbuJek6TgK4GCGqk3vHIauf9dsPP5qwv8hx12ZyX5wX%2BSRIZK0oXtr5P%2BsqyWg6P0EUT3Jfwdd%2Fixvd8nUIYhvEuragNYdh16cK9I7hxcMf%2B9%2FUBPP1P9uKgY8hMmGzNJRcCTGxE0p9zWlXtxuDSF0eopH9rE4%2FTZV09XirLMx1fNy3z9GNynK1RdaFy1exzDumobMBjqkATxQfu6HGmzOXZcu5fSY9q80Vt6cietSaVaHPRO3lZ519RytiQruxY%2BfG8fjDazCk9HHqskb%2FCy0M22gN4sxd41K4PzvSp%2BNxONdtyTV59JTd3x42XUBb0ndqq0ACFeUpMzoJN8ERSDFyfUWowL2ehSOYLQ4GtKNl2w0soCJolz4aNY0wMDZDC2jKUQYVQkWYDp0ZaDL%2FyDwu0vAXPQrSU9ZteTn&X-Amz-Signature=60f28adda49868f03b0b2b8e4c72f20be04a53d5cd14f7e385c630085855ef3b&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+            "expiry_time": "2026-02-03T07:51:23.985Z"
           }
         }
       },
@@ -3820,7 +4936,7 @@
           "block_id": "2f544860-a4f4-80f1-b9d4-c9a566bf4473"
         },
         "created_time": "2026-01-27T04:18:00.000Z",
-        "last_edited_time": "2026-01-27T04:18:00.000Z",
+        "last_edited_time": "2026-02-03T05:24:00.000Z",
         "created_by": {
           "object": "user",
           "id": "2aed872b-594c-81eb-bc82-000291164988"
@@ -3838,7 +4954,24 @@
             {
               "type": "text",
               "text": {
-                "content": "입력값 검증 로직을 별도의 함수로 분리해 코드 구조를 개선할 수 있다.",
+                "content": "입력값 검증 로직을 별도의 함수로 분리",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "orange"
+              },
+              "plain_text": "입력값 검증 로직을 별도의 함수로 분리",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": "해 코드 구조를 개선할 수 있다.",
                 "link": null
               },
               "annotations": {
@@ -3849,7 +4982,7 @@
                 "code": false,
                 "color": "default"
               },
-              "plain_text": "입력값 검증 로직을 별도의 함수로 분리해 코드 구조를 개선할 수 있다.",
+              "plain_text": "해 코드 구조를 개선할 수 있다.",
               "href": null
             }
           ],
@@ -3864,7 +4997,7 @@
           "block_id": "2f544860-a4f4-80f1-b9d4-c9a566bf4473"
         },
         "created_time": "2026-01-27T04:18:00.000Z",
-        "last_edited_time": "2026-01-27T04:18:00.000Z",
+        "last_edited_time": "2026-02-03T05:24:00.000Z",
         "created_by": {
           "object": "user",
           "id": "2aed872b-594c-81eb-bc82-000291164988"
@@ -3882,7 +5015,7 @@
             {
               "type": "text",
               "text": {
-                "content": "동일한 이름의 아기사자가 중복 등록되지 않도록 처리할 수 있다.",
+                "content": "동일한 이름의 ",
                 "link": null
               },
               "annotations": {
@@ -3893,7 +5026,41 @@
                 "code": false,
                 "color": "default"
               },
-              "plain_text": "동일한 이름의 아기사자가 중복 등록되지 않도록 처리할 수 있다.",
+              "plain_text": "동일한 이름의 ",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": "아기사자가 중복 등록",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "orange"
+              },
+              "plain_text": "아기사자가 중복 등록",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": "되지 않도록 처리할 수 있다.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "되지 않도록 처리할 수 있다.",
               "href": null
             }
           ],
@@ -3908,7 +5075,7 @@
           "block_id": "2f544860-a4f4-80f1-b9d4-c9a566bf4473"
         },
         "created_time": "2026-01-27T04:18:00.000Z",
-        "last_edited_time": "2026-01-27T04:18:00.000Z",
+        "last_edited_time": "2026-02-03T05:25:00.000Z",
         "created_by": {
           "object": "user",
           "id": "2aed872b-594c-81eb-bc82-000291164988"
@@ -3926,7 +5093,7 @@
             {
               "type": "text",
               "text": {
-                "content": "트랙과 기수를 동시에 조건으로 사용해 아기사자를 조회할 수 있다.",
+                "content": "트랙과 기수를 동시에 ",
                 "link": null
               },
               "annotations": {
@@ -3937,7 +5104,41 @@
                 "code": false,
                 "color": "default"
               },
-              "plain_text": "트랙과 기수를 동시에 조건으로 사용해 아기사자를 조회할 수 있다.",
+              "plain_text": "트랙과 기수를 동시에 ",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": "조건",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "orange"
+              },
+              "plain_text": "조건",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": "으로 사용해 아기사자를 조회할 수 있다.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "으로 사용해 아기사자를 조회할 수 있다.",
               "href": null
             }
           ],
@@ -3952,7 +5153,7 @@
           "block_id": "2f544860-a4f4-80f1-b9d4-c9a566bf4473"
         },
         "created_time": "2026-01-27T04:18:00.000Z",
-        "last_edited_time": "2026-01-27T04:18:00.000Z",
+        "last_edited_time": "2026-02-03T05:25:00.000Z",
         "created_by": {
           "object": "user",
           "id": "2aed872b-594c-81eb-bc82-000291164988"
@@ -3970,7 +5171,7 @@
             {
               "type": "text",
               "text": {
-                "content": "검색 또는 조회 결과가 여러 개인 경우 리스트 형태로 출력할 수 있다.",
+                "content": "검색 또는 조회 결과가 여러 개인 경우 ",
                 "link": null
               },
               "annotations": {
@@ -3981,7 +5182,41 @@
                 "code": false,
                 "color": "default"
               },
-              "plain_text": "검색 또는 조회 결과가 여러 개인 경우 리스트 형태로 출력할 수 있다.",
+              "plain_text": "검색 또는 조회 결과가 여러 개인 경우 ",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": "리스트 형태로 출력",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "orange"
+              },
+              "plain_text": "리스트 형태로 출력",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": "할 수 있다.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "할 수 있다.",
               "href": null
             }
           ],
@@ -4040,7 +5275,7 @@
           "block_id": "2f544860-a4f4-80f1-b9d4-c9a566bf4473"
         },
         "created_time": "2026-01-27T04:18:00.000Z",
-        "last_edited_time": "2026-01-27T04:18:00.000Z",
+        "last_edited_time": "2026-02-03T05:25:00.000Z",
         "created_by": {
           "object": "user",
           "id": "2aed872b-594c-81eb-bc82-000291164988"
@@ -4058,7 +5293,7 @@
             {
               "type": "text",
               "text": {
-                "content": "아기사자 정보 구조를 확장하더라도 기존 기능 수정이 최소화되도록 개선할 수 있다.",
+                "content": "아기사자 정보 구조를 확장하더라도 ",
                 "link": null
               },
               "annotations": {
@@ -4069,7 +5304,41 @@
                 "code": false,
                 "color": "default"
               },
-              "plain_text": "아기사자 정보 구조를 확장하더라도 기존 기능 수정이 최소화되도록 개선할 수 있다.",
+              "plain_text": "아기사자 정보 구조를 확장하더라도 ",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": "기존 기능 수정이 최소화",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "orange"
+              },
+              "plain_text": "기존 기능 수정이 최소화",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": "되도록 개선할 수 있다.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "되도록 개선할 수 있다.",
               "href": null
             }
           ],
@@ -4107,7 +5376,7 @@
           "block_id": "2f544860-a4f4-80f1-b9d4-c9a566bf4473"
         },
         "created_time": "2026-01-27T04:18:00.000Z",
-        "last_edited_time": "2026-01-27T04:18:00.000Z",
+        "last_edited_time": "2026-02-03T05:00:00.000Z",
         "created_by": {
           "object": "user",
           "id": "2aed872b-594c-81eb-bc82-000291164988"
@@ -4124,12 +5393,38 @@
           "caption": [],
           "type": "file",
           "file": {
-            "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/c69962b0-3951-485b-b10a-5bb29576bba8/d11b9b95-d041-4c13-9c1d-08735a120279/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA_2026-01-20_%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE_9.59.37.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4665VIO7JTR%2F20260202%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260202T095554Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEBoaCXVzLXdlc3QtMiJIMEYCIQDd7d7%2F3pQtoW0UXe6wrK%2FJyOgPtVNi%2BK4egk27DWGmxwIhANvzDQKvOa%2FrkwV3QQRbZu9a%2B2556EQIJI6E0YHMNu%2BWKogECOP%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMNjM3NDIzMTgzODA1IgzaufVM6seHEcybjDsq3ANGbXAs2on%2F8KjvX89tuk22i%2FGfwn4p%2BHNsTtuX5yvcTz83C7Agv0lLjNy2hvOnojGMN1HQrx%2F2Z720tzoNmSx3D0V2dnzkrQ3i67xOKhM%2FWy8UHx%2Fzp98WD8naLxuUsSXn2YLTQwlDwvY%2BbZrkBrp%2FEcf4qstNJ7B50SJ1dCoWbmSRurJvyeJbJY7A1k9fCYAk0fhOOsRpYvqZ7k0b0khMK1ijfdGsfM01Sk6yOBv59wcOSlhWQiSUNU67GzPCsHh7U9%2FifI6kCP4GwJD7ULTK%2B2D%2FUXaRY1hKCsUfHtiRBGiAbiWpTb0rWlU3r%2BU4gGYsH2ALNCoD27FcCz3j62k4I8ovQQTJnOrji%2BHL%2FdCKiSlYcHs1F%2B8ybws4XK3dteU75PI7wP1PiNOWX0CnEoFLQ%2Fkkd%2F7PzODroXBcp0RIk%2Fb0Hbr9ZuhlCMfbG0eh15hOD0oMTLkjbYnjunPMvDD%2BJ1OmyvBaClJ1DMza9M3VR9B1wps%2F9uHNdiAJdjV3eidsLj9bTNWgXZXhSBSJAKSjzBOdNgqJMz9OHf%2BHwqJ4HOCIoYiwbCSYuoCe%2FBTyNEq351%2Bv5TnvVEP6kdugMj7KpcgfPDf0PPRvbyaKMOk7QKgDFQrbVWFmnRjU%2FTDC3YHMBjqkAYzmlU4b64dbdLfFhvU3QBGXKzk9Af4eo6SG1a%2FrJNJGpJst0CljwGxKGEOzsVVn%2Fyj2esWI%2B9%2FMZXoFKQL4EJUjyYKYjM%2FvJt5AHdqnBiHlMPspRSnn%2B8Ivja7a3cBLIxyYR%2BBiuemQu4yEAiQ1nXF2eh9n35ZNy0jI99Tjn3%2BwLjN7G%2Fe%2FSSp%2BDzz4OF7SaOxOuX148Y6w%2FjcVmWRVPmk3gu1W&X-Amz-Signature=9c2d2d9d86bb51749d8ea4294e2366d10924b4213b1933f4f2842df0e0bebfc1&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
-            "expiry_time": "2026-02-02T10:55:54.766Z"
+            "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/c69962b0-3951-485b-b10a-5bb29576bba8/d11b9b95-d041-4c13-9c1d-08735a120279/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA_2026-01-20_%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE_9.59.37.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4666ITPJFFK%2F20260203%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260203T065126Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEC4aCXVzLXdlc3QtMiJHMEUCIQDKawXOiohc34Nr91q8tA5PliBTKHNkArLylXZzPZI%2BhQIgaI2WeNWs6Kf4SBOngoLVZWFsQ%2Be%2FyAkU%2F%2FpkmfprodEqiAQI9%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDOlKQbx%2Bzs0Dh11BuSrcA8hm%2B6VtnQewI2i9VYZ7inMchCEriGbQwpMBeyBESFdXAJq%2FuvemTqJvDInllsELAHguZUwpgoC8UG4m2TByNK8O6bZBL6DVVTmbjDoLUSkza0rdU3%2BLF6CdanZmsYsP%2BykO1Bj8q82edf%2FhevN1ISXQQKB7jZxGKCcXkC4GUBwJSu5He1nd4TUgqaGV%2BsKDWfJaMUqdi41%2BJas5jAdDnhZ4RtPD%2FfaIUA9mIzzPGzKBB%2BoyFwIJ3GGrU6lIa4Hyi42VY%2FgomniSs1psb7R%2B7i9NIC93SND0sc3RmCqSa9%2FoM4CnnJLO2q1ZS7vT9MYjXdraoh2kW2Iosi2gUbaWlTAWwvwzqjg88Ee89TsHoQ%2BddTaL7hdpXz6MX%2Fd6Mu0r9vcdnzw2x0a1GIngUZTdRAnGUd4yQZteLhrciYl3oRNj51H%2Bp%2B4Zhw4I0Dg84xCmsCdtKhxbs%2BIHv3Hq7eq%2BEEvkidLb6lFZ4BzhyAY1GFcRg4GpSsk5LjH6n4LL3IIpB9KR2rvfrtYqg1T6EoyjBNAzz69HqBOzTnJfvpaOoehgn1O2P4hOBxiFFQb8WXX07WN8GLbOwr1K%2BiNCdQH3pzBieZrQk%2BS%2BJX1GvGVfIVgIGtM8VVT41E8ZBX%2BaMMyahswGOqUBjdmZ4DthOfGznFqUtKmmg9QWNAZMH7ARILL%2FaImzexHviRCJ83A%2BE4kBVY%2BJ5ESaHJ0%2FoTN%2BSkLykRFTi7sTwEMEvBm57eae%2FF7dH%2F5dEPb8MlqmCrdJr3faLwabZZ5skwfFTx%2FyORYf3rBwrFhWVl6HIOzu8Mv23SVl%2FectPJLajL%2FbdBsM8v13OI9S5D%2Buu1gn1ElVaZEpIl0cEv7ketXq6X%2FK&X-Amz-Signature=a6f2bbb8f8035e9b2c4b08c720e4859909e9eb6ebb26e6015a1c6fcd131a9387&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+            "expiry_time": "2026-02-03T07:51:26.829Z"
           }
+        }
+      },
+      {
+        "object": "block",
+        "id": "2fc44860-a4f4-8084-acb9-ef38cb4e324f",
+        "parent": {
+          "type": "page_id",
+          "page_id": "2f044860-a4f4-81ed-9fce-d95cf94b2286"
+        },
+        "created_time": "2026-02-03T05:25:00.000Z",
+        "last_edited_time": "2026-02-03T05:25:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "has_children": false,
+        "archived": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "color": "default"
         }
       }
     ]
   },
-  "syncedAt": "2026-02-02T09:55:54.844Z"
+  "syncedAt": "2026-02-03T06:51:26.956Z"
 }
