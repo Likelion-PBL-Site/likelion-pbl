@@ -19,7 +19,7 @@ export function Paragraph({ block, children }: ParagraphProps) {
 
   return (
     <div>
-      <p className="leading-7">
+      <p className="leading-relaxed text-muted-foreground">
         <NotionRichText richText={rich_text} />
       </p>
       {children && <div className="pl-4 mt-2">{children}</div>}
