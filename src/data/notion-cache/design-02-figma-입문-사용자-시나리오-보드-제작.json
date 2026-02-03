@@ -1328,7 +1328,7 @@
           "block_id": "2f144860-a4f4-8120-9697-d48a5bffb081"
         },
         "created_time": "2026-01-23T11:13:00.000Z",
-        "last_edited_time": "2026-02-03T06:37:00.000Z",
+        "last_edited_time": "2026-02-03T10:31:00.000Z",
         "created_by": {
           "object": "user",
           "id": "2aed872b-594c-81eb-bc82-000291164988"
@@ -1340,8 +1340,8 @@
         "has_children": false,
         "archived": false,
         "in_trash": false,
-        "type": "paragraph",
-        "paragraph": {
+        "type": "heading_3",
+        "heading_3": {
           "rich_text": [
             {
               "type": "text",
@@ -1359,25 +1359,9 @@
               },
               "plain_text": "2. 스토리보드 구성",
               "href": null
-            },
-            {
-              "type": "text",
-              "text": {
-                "content": "\n",
-                "link": null
-              },
-              "annotations": {
-                "bold": false,
-                "italic": false,
-                "strikethrough": false,
-                "underline": false,
-                "code": false,
-                "color": "default"
-              },
-              "plain_text": "\n",
-              "href": null
             }
           ],
+          "is_toggleable": false,
           "color": "default"
         }
       },
@@ -1389,7 +1373,7 @@
           "block_id": "2f144860-a4f4-8120-9697-d48a5bffb081"
         },
         "created_time": "2026-01-23T11:13:00.000Z",
-        "last_edited_time": "2026-01-23T11:24:00.000Z",
+        "last_edited_time": "2026-02-03T10:31:00.000Z",
         "created_by": {
           "object": "user",
           "id": "2aed872b-594c-81eb-bc82-000291164988"
@@ -1404,6 +1388,32 @@
         "type": "paragraph",
         "paragraph": {
           "rich_text": [
+            {
+              "type": "mention",
+              "mention": {
+                "type": "link_mention",
+                "link_mention": {
+                  "href": "http://figma.com/design/wbNWxTsdFrvrdYHNgWKQB3/WebApp-Storyborad-team-library--Community-?node-id=0-1&t=GzxT5xMVhN0Wq3ro-1",
+                  "title": "WebApp Storyborad team library (Community)",
+                  "height": 450,
+                  "icon_url": "https://static.figma.com/uploads/1a667ef53b7c4837049399d0593ffca39e0bec9e",
+                  "iframe_url": "https://embed.figma.com/design/wbNWxTsdFrvrdYHNgWKQB3/WebApp-Storyborad-team-library--Community-?embed-host=iframely&node-id=0-1&page-selector=1&theme=light",
+                  "description": "Created with Figma",
+                  "link_provider": "Figma",
+                  "thumbnail_url": "https://www.figma.com/file/wbNWxTsdFrvrdYHNgWKQB3/thumbnail?ver=thumbnails%2F6dfc763c-c260-486e-9827-c260b0b4204b&t=GzxT5xMVhN0Wq3ro-1"
+                }
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "http://figma.com/design/wbNWxTsdFrvrdYHNgWKQB3/WebApp-Storyborad-team-library--Community-?node-id=0-1&t=GzxT5xMVhN0Wq3ro-1",
+              "href": "http://figma.com/design/wbNWxTsdFrvrdYHNgWKQB3/WebApp-Storyborad-team-library--Community-?node-id=0-1&t=GzxT5xMVhN0Wq3ro-1"
+            },
             {
               "type": "text",
               "text": {
@@ -1469,8 +1479,8 @@
           "caption": [],
           "type": "file",
           "file": {
-            "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/c69962b0-3951-485b-b10a-5bb29576bba8/43838288-8f18-4ce9-8cde-8cec425c6e0e/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466STNE6AEX%2F20260203%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260203T101401Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDEaCXVzLXdlc3QtMiJGMEQCIA9kjxXfVIyKUOB0FgjBj8%2B1ddV4%2BnEeG5Gw7dj%2FbXQkAiBbkoN3GNWNaI%2FuvwFjVI2Vsajw44LUuBZasincU43ApiqIBAj6%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAAaDDYzNzQyMzE4MzgwNSIMtdECcsO%2B3kQVITOlKtwDQZJmJ3VnVPwwzG91ksOXl7tmBJqWHM%2Fi%2FaE3NzivVetFszA5eMTtX2pwmQKrBz7%2FH01jGM%2BiXm4jApHKKl10Qb4qm3WP7DwYwYExLUj%2BaxK77zJWT6NCIAkB%2FWdSZMmpTPYkGmCRSWLP%2Fg5KTyOBCOdtjNDugQaKNe74LljNjMcbBl83gfMYST1CugJZnLff%2FmWOgBJoiSkzgFgcUKK0OBGuvsUvRf6AXVWfPExntRxqbg0Lf8LiijVF1%2FTQGZ10aDrl3HFPihGqLkFiS4%2BgygPRjE3GKzQrvsVoZAkSYPY8kJh35asr9bbY5UDxevNTWlAoh%2BmuBmW95xDYgshmOZa4z%2FgntLfORJX7VS%2FFmSwtShbfk7o%2FbE0sxYeFzcKBA8bvmeyfu27SVJSvn6LCfkWfUvZOsI6llcc9IiWrKxEdlm3sAxdWYas07mEPQO6ZKP6wWK%2BWKcqPCgYQrA3hhCV0fZedPum5JEW88CaNlPRWs5B6aRUAfp1zag6bTjxjJFoI82GuJZze4fQ7RVTEvEDlcs%2FRMA1JOFaX%2BY8CAUye%2BIAecpxUfnMdnKLd3%2BQlh6t6v9COJfR1UStFpGld%2FVkdawKVhIoLcdyKGnt9G0cHQp5hIr2Y7e%2FBZxow6PmGzAY6pgHPUuGC8Z6yyAEn3hcgTiwy0%2BHTWkpyZUtw67DXc%2F%2BPjI%2FgYvDnJFb403Begwo1DezPB2zXSCZw9wakeZYZMsJ5RJcxmT8ATn3Lsnd6du2YY%2B4hu9Fcb7GO5Y4INk0wwRBMB%2FJ4%2Fytu6uSQ6OsfJvYp2%2BUS5FDSb%2FThNujQIKbz5%2BF09J%2BtJ7TydfjRn%2F72JT0uSAnENnP5xrDq0wg4tM4DaeQezwnj&X-Amz-Signature=fef78604539a61d3f456c3a3ba58b7e8261e4bc836fb87afdc1aed45ff5a3fd6&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
-            "expiry_time": "2026-02-03T11:14:01.233Z"
+            "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/c69962b0-3951-485b-b10a-5bb29576bba8/43838288-8f18-4ce9-8cde-8cec425c6e0e/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466VSZT6ZS5%2F20260203%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260203T214614Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDwaCXVzLXdlc3QtMiJGMEQCIGMTYQOSG7uf2amroccwWStQyQdXekxYnemkHYPQ01InAiBq2iGuEpG%2FkObDT9CZmxiqmrR7gthMI%2F%2B%2BziYJg0JhwCr%2FAwgFEAAaDDYzNzQyMzE4MzgwNSIMp8bOSL8cGXonV5xIKtwDolwtY%2BKCCTiOE%2BEJZyJ%2BbRImvS2knrtATyWV3HH1%2BzGbqNJf5k607dd7XDADqnlylYzWdmmlntefOGA4beQfSKcKnJLbkwgR5Ajkqs1i4eBra2j%2BLor02RvBd4L2XHh5r3Kze6%2FTodtQQGxbo1CtRD5TV1AHniUqQOgCj3AuqquJhi9iFZWBqnHeII%2BHZtkERNEGeltHfDOp7OMVTU3LmD2GrmMValVQRw0fW761gPi1ZMpFs3X4jMrTpjQ6aRRt5CBsRJuZ7a5hcsA%2FgMsco6G7E3TdK9VaKeSvtzo%2FvblAkNHi0misuWnpVFcEvwTWHjVCK%2F8sbaSskZn9Ztu36qkSWf5k0hT9Gwki%2B4n%2F6vy%2Bk4eqGNNMiqJSjRR9CpQNWfgqqlQPSELvmzTwhUhVQ8lzHWTT3R3wi%2BR1bD1xnd7IWj0pOqtjzcsXebgHn3AtJ6QsMw8vwzQ0sL8f30iHlkoeIqL3C3zTvK6ES%2FyvuTeQLL%2B6aZPzuNaXVK65fP1fG0bIGpgsDC7M2nZ0g4bCgUZ3P02%2B0VfMmE1CKf6wJ7mqmZnt%2BVzuS2M8Nd%2BPG0AyQzv9BJji2x9G%2BCAy1veK6ECIyaAPHDxaf4p%2B5Y9IzN1kfF656z30WPeS1skw%2FZiJzAY6pgG0oV3UEWLIFgy57vohkmJYjEz4VZpY8WMRe8x2pfeqSGNCMpgkc27varCKOybraZjhKa32%2FiAZGkubCZCG5a9l0xWZCCark9KTFvlgJVgvkj477%2BDyJ44H%2BMvSGxAxEBHe1OsJ95QisW8mKfe2V0MgKu%2FA6LGFqsOCGBHxmlGZ8OFqkL2%2F6L2uALUsVzdwk1eL21%2BSztX3ZGhF3SodVFhL75l5UiOG&X-Amz-Signature=a00ec8785be87ba3c7429777c2a1dde6b3d291cd9c3241149ef14ee4441f9563&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+            "expiry_time": "2026-02-03T22:46:14.101Z"
           }
         }
       },
@@ -3251,5 +3261,5 @@
       }
     ]
   },
-  "syncedAt": "2026-02-03T10:14:09.449Z"
+  "syncedAt": "2026-02-03T21:46:21.184Z"
 }
