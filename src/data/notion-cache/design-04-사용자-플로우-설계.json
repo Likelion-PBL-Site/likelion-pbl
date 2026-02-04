@@ -463,32 +463,6 @@
           ],
           "color": "default"
         }
-      },
-      {
-        "object": "block",
-        "id": "2fc44860-a4f4-80ac-94ba-ee4ecc2ba464",
-        "parent": {
-          "type": "block_id",
-          "block_id": "2fc44860-a4f4-80b5-9b65-e82387b7a826"
-        },
-        "created_time": "2026-02-03T06:49:00.000Z",
-        "last_edited_time": "2026-02-03T06:49:00.000Z",
-        "created_by": {
-          "object": "user",
-          "id": "2aed872b-594c-81eb-bc82-000291164988"
-        },
-        "last_edited_by": {
-          "object": "user",
-          "id": "2aed872b-594c-81eb-bc82-000291164988"
-        },
-        "has_children": false,
-        "archived": false,
-        "in_trash": false,
-        "type": "paragraph",
-        "paragraph": {
-          "rich_text": [],
-          "color": "default"
-        }
       }
     ],
     "result": [
@@ -1192,8 +1166,8 @@
           "caption": [],
           "type": "file",
           "file": {
-            "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/c69962b0-3951-485b-b10a-5bb29576bba8/4eb47c2e-4c8f-4413-a741-9ca60bb0498e/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4665RYOR46P%2F20260203%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260203T214632Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDwaCXVzLXdlc3QtMiJHMEUCIBaRIe%2FbjCqtYDrSR17WObn9tjMXABA3WtHiBtaY1QdTAiEAyYKRGY15LyJht%2FvqgEOMVPlPej6I1LjpCN4aBCmYIZ8q%2FwMIBRAAGgw2Mzc0MjMxODM4MDUiDKOu06K%2BvlEbqrRnxircA0dfxNHnYF%2BPCg5moOHptRl2cZODegRG%2BBaDod4fDxtgYu359f6fPAE0V6OhSn66cCRmsyifb%2Fk%2FSefhm%2FtzmfeXdAY4jJZpD5Kl3Fgw5kV8sXaNovZTKVhwv0qPWRqVEfHQ%2FlC9pwOuQ%2F80x6WHkzvvOQGqRfLNukg%2Blh4mZZDb7h53rbYguJvqIVi5LvkZncyXKEMrRjnogJEdZ8BkWAyfoN0s%2BlBN0MfJpQ3IsM1STmuiwKQoghQMq9fNtDebMxjKjZLkMq6RglNBvLklanMNTPq7LhBtB%2Btc8mFLwIh06hYTlvtzoA%2B1CeLx2JKgCA6tuk1IynXNyh2d4aaIjlH1gtrEevdFwl277fk5dRpSJxK8%2FhEZf77VKrreAkCyyvIMXzFePiWqy6kGzpm8kU6ys1G%2Bu6eFTjnStG5qcTHNj7PeNYNnw15y%2B0TdktOgqq2WZIH7rBEHMzwJmjh0jRrdNJ42p5OlETMidlx7Zu2i3LZExLK88gGVd%2FnlmLSl7FwbVuJr63FgP3Rlt%2F9hvWtirgi7rIcq9ktdtiNdWyaVZDPq4JpJNLaDxTu22eQsilkUqNPQmjwuZ0g8o701ovS05jkDFg5apNLUMCA6XObbHOZxfVvlLoMxIpyNMIqaicwGOqUBVPeIQj%2BHkJGNlvYdhXQsAIOm9frzVf%2BQ3r0us%2Bw0SkZllkifRX5B46685Nz3X0QJ9QrHQTdHfE63hVr4Z2dtXj6PkgR%2FgqxBq7x%2FWi5uFGZUdTlmlbRC%2BSbuaR3PGcWyMuqo6XiTPIcL5EvZZkvWjDVBGE2LZwivtzARC0y4p8WFDDYU1VIk1WR2m%2FdL9Cg9%2FGxaA6r7P1S4kVYgpZpKyeGaOLcx&X-Amz-Signature=6b6e8ad0b1505106fe0510ece2cf44a9d2a13002054d2ca48c679fdb63451376&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
-            "expiry_time": "2026-02-03T22:46:32.367Z"
+            "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/c69962b0-3951-485b-b10a-5bb29576bba8/4eb47c2e-4c8f-4413-a741-9ca60bb0498e/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4663T7G7Y3Z%2F20260204%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260204T063023Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEEYaCXVzLXdlc3QtMiJHMEUCIQCpK8X1vWayOxh0Os5DK1qEZAlrFLKthsMJsxr289tqiAIgYvBM8%2FqbnQIahXLly%2BpOIK3rJqSM8tGoKkwDnaH2NMUq%2FwMIDxAAGgw2Mzc0MjMxODM4MDUiDOLgWwgQISI7yi2W5SrcA27ol5VA3WmgAw58ujyaU6BufzS%2F9H7nT%2B%2BzXblH2V5X%2FKiPghqoW0F4MoftRriw9gFfKWHt190CWcaH0fm1XBMeSVNamnT7xznS3Qml5kq75VOmQhO3FdG%2BWqc96ft9rO2bbAxD56cGDAWW2whowAOQaXZ3l7zPJMpp1Yt1GOyjPfq%2FsmO0TJ42Ja5aOQyeeNBEcSqBJLHq8up8bKJPpuozN4s5lkT8jP5XqAVCtis1piHZY7ByL7p%2BzaELRhz5LhYNmFPKjVps9qRU1CsBngfBXDV4XgZHjTIW9250bBqAeVRB6%2B8NnsctgJgeXKjcRxFxlC5gO%2F45E89O4JwFWJspYjZzO4LU4CXgIDq6CQV45JOk6tD38%2BgpVxgGtSA6U6mz6PWt3i3HTj3CJ7PlaYGpZOLTKBI6A3IoNN1y3lGY%2B0bn8L2RXRLfiPBrGYrhI3x6l4oNMNjN4kUWdjfcdCuV0rWX2%2F5OTzqbZkWqM%2FX18yDHrWIxI1YDBj04NjSw1drp0U1shAQ3z%2Bwi6GIe0MvUER679yC%2F2eGcsSBFm6pNJrmKd9riM6SymqG9J95yTh7tTFt3johYl097I4VUW2%2FbRcyAs6avoENEyoA7ty%2BxfruF5fTX4aysa20aMODEi8wGOqUBtqSW5qv0V52gdVly%2BlQ7J33AGGBfx1YwMgVydCJti2FhoJUSg7xCwctDWwo0GSyouSradSFMX2%2FoQzlKmbcJT%2FY8qHem5RUk1ABluhEhGla2AEN1mDUxnn%2FXCT4YwrqZ9R%2Ffm6x6%2BdxOgMntWFZTJCz%2BPmoUe5l111JEAVIXqRrTsV0i2ilV6afLzyu8aArFjLy74d3LIFh0WGWu70b6ZwxQRR6w&X-Amz-Signature=e11c498a981dd9fd731b7529ae2ff54c0d19f46e8dfb0b347f6f496e8bf50df2&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+            "expiry_time": "2026-02-04T07:30:23.830Z"
           }
         }
       },
@@ -1558,13 +1532,13 @@
       },
       {
         "object": "block",
-        "id": "2fc44860-a4f4-80f1-a33a-c8f3c61cdea7",
+        "id": "2fd44860-a4f4-801c-81a6-fe8acf210345",
         "parent": {
           "type": "block_id",
           "block_id": "2fc44860-a4f4-801f-841d-e29d50c912fc"
         },
-        "created_time": "2026-02-03T06:49:00.000Z",
-        "last_edited_time": "2026-02-03T06:49:00.000Z",
+        "created_time": "2026-02-04T04:40:00.000Z",
+        "last_edited_time": "2026-02-04T04:41:00.000Z",
         "created_by": {
           "object": "user",
           "id": "2aed872b-594c-81eb-bc82-000291164988"
@@ -1576,31 +1550,84 @@
         "has_children": false,
         "archived": false,
         "in_trash": false,
-        "type": "paragraph",
-        "paragraph": {
+        "type": "heading_3",
+        "heading_3": {
           "rich_text": [
             {
-              "type": "mention",
-              "mention": {
-                "type": "link_mention",
-                "link_mention": {
-                  "href": "https://www.figma.com/files/project/545067727",
-                  "title": "www.figma.com"
-                }
+              "type": "text",
+              "text": {
+                "content": "[주제: 대학생 팀플 룸 예약 서비스 'Moim']",
+                "link": null
               },
               "annotations": {
-                "bold": false,
+                "bold": true,
                 "italic": false,
                 "strikethrough": false,
                 "underline": false,
                 "code": false,
-                "color": "default"
+                "color": "orange_background"
               },
-              "plain_text": "https://www.figma.com/files/project/545067727",
-              "href": "https://www.figma.com/files/project/545067727"
+              "plain_text": "[주제: 대학생 팀플 룸 예약 서비스 'Moim']",
+              "href": null
             }
           ],
+          "is_toggleable": false,
           "color": "default"
+        }
+      },
+      {
+        "object": "block",
+        "id": "2fd44860-a4f4-80a9-9ea1-ca2406ca6828",
+        "parent": {
+          "type": "block_id",
+          "block_id": "2fc44860-a4f4-801f-841d-e29d50c912fc"
+        },
+        "created_time": "2026-02-04T04:41:00.000Z",
+        "last_edited_time": "2026-02-04T04:41:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "has_children": false,
+        "archived": false,
+        "in_trash": false,
+        "type": "image",
+        "image": {
+          "caption": [],
+          "type": "file",
+          "file": {
+            "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/c69962b0-3951-485b-b10a-5bb29576bba8/8a250490-07da-4c93-b92e-8020ce920375/%E1%84%80%E1%85%B5%E1%84%83%E1%85%B5_4%E1%84%8C%E1%85%AE%E1%84%8E%E1%85%A1.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466TKSOGYVP%2F20260204%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260204T063025Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEEYaCXVzLXdlc3QtMiJHMEUCIQCEnfBvCDO7PV0C%2BJm0SuTE2Z7hTdS%2B1gzUKJgkL1zLfwIgZ%2Be6Mv9y3JsjzPevF5bITCYTvn1zxentXi%2FaMnmEcs0q%2FwMIDxAAGgw2Mzc0MjMxODM4MDUiDNoX%2FSQw7dZNq50fqyrcA6GGc6MgFksf0%2By%2BFL9lD5CKVJAg894EMQia%2BwvtAOcVaprODLAmoZ166Eq9D0GSn7y%2Fu3xK%2BrmgMry6fPI3jeWcp29pUI4XJW47doqnKnyFTgzR7QZ4T6UiEtav5%2FZYcYUTKT7YGrq9Jk%2FCNSu%2B8oSyUrcT%2FZadyLGN62CeFLxTC4qYVGEktR2Ka2hSppzwBIwaKNJ%2Fq30h%2FiIm6oBaE0UG%2FbKzRse4F7GmPN9ydKzaNw%2BiU3HCXVmGDHP4xt7hWFTUCicQW%2BAIKpb3d6CCh%2B2CkwFs%2Fwla1AtnWmNpPzAtQvby6xN%2Bra2%2FXmv00Yrg9UqVJWyH7aWsM1D91WYARbPjEpcghdwYybPOrNBzscvwQt24Z3ePOqTn4yALXQa2lzySH85RNXkbpQzRdOioD5rMMUU62UUILjdgP%2B95v4F7IVzvk2PssDxDYWtT5sCSzrDSdZasW20ECO%2B9w95gb1GyMHO3psyflpLlooJahHdMCjtsYTNdE9cVMAdf%2F4vUT%2F4QVz6ZXV2WUEWw90n92AXiayJC4ihKOhvMRTJ57iDV7AQR1bm%2BzBdY45mLAqsnIRX3tmI%2F4n%2F1uF%2F0rg%2Bzp8G3ciS4ZM2kcHuNRiFV%2BJ%2FOQ1lJ%2Ff4aECCUuuLzMPbDi8wGOqUBZ2PeYZEqlFGTPg%2FrGILK%2Fj3Kz7pVrEjfif4fvkFPYvaL4IDDPfCWDiJbikkJ0OzYGHjkA12XZrhMHhGqZ1wO4AAy%2BMNWKYA%2FDe424gVDUBpcSqIu8jVc0RFFJIYmFTmzCpaAM4JHdSSnfZoDS%2BAoNk%2BNfb0TFi91jItaLLYjWkasj3Jo6V3%2F%2BUi1FjNbW%2FrnqAPFfGZlyCrVHOBQKB4e1b3azKnY&X-Amz-Signature=2fa48974799ef2aab79edaf29a943464bb3e46f3fe7b32fc69f83dc4e425686d&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+            "expiry_time": "2026-02-04T07:30:25.299Z"
+          }
+        }
+      },
+      {
+        "object": "block",
+        "id": "2fd44860-a4f4-80e5-90dd-ffc78b5fe21d",
+        "parent": {
+          "type": "block_id",
+          "block_id": "2fc44860-a4f4-801f-841d-e29d50c912fc"
+        },
+        "created_time": "2026-02-04T05:53:00.000Z",
+        "last_edited_time": "2026-02-04T05:53:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "has_children": false,
+        "archived": false,
+        "in_trash": false,
+        "type": "link_preview",
+        "link_preview": {
+          "url": "https://drive.google.com/file/d/1UveCDr6Hois1oQJMLm8a9F31aYQcMKsS/view?usp=sharing"
         }
       }
     ],
@@ -2279,8 +2306,52 @@
           ],
           "color": "default"
         }
+      },
+      {
+        "object": "block",
+        "id": "2fd44860-a4f4-80ac-85ce-e4924f52669a",
+        "parent": {
+          "type": "block_id",
+          "block_id": "2fc44860-a4f4-80e5-8ed9-e14003377c34"
+        },
+        "created_time": "2026-02-04T05:57:00.000Z",
+        "last_edited_time": "2026-02-04T05:57:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "has_children": false,
+        "archived": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "챕터 2. 디자인 기초",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "챕터 2. 디자인 기초",
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
       }
     ]
   },
-  "syncedAt": "2026-02-03T21:46:41.430Z"
+  "syncedAt": "2026-02-04T06:30:32.838Z"
 }

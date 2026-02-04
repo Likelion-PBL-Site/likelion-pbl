@@ -122,8 +122,8 @@
               "caption": [],
               "type": "file",
               "file": {
-                "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/c69962b0-3951-485b-b10a-5bb29576bba8/533426bb-391a-4b00-9a8b-f40277926547/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4663T3APLWV%2F20260203%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260203T214647Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDwaCXVzLXdlc3QtMiJIMEYCIQCHswdYv6ey99VmwNI6%2BsIjAWxd8OkTu0u0So%2Fr845KaQIhANH7cdtOQYFpHPqP8fqyYWdUfV1IaRgVYcj8VED5Eh8jKv8DCAUQABoMNjM3NDIzMTgzODA1IgxIFL5nAv9q8Fami8Aq3ANBIl5HXDCyiMbDm3GEmA3kMzwuO%2FwrEf7tsy6V1y9phjaWkal%2BTgb992EA%2BXrVwj%2FfJmk8zoKU0iRXMJvCeVdFr4MZYE%2FG%2BvKgLEWtE8XC78ewawUzmXCTsthPvVf4UL63kRVzLrMjrbUeYNeNttXhw%2BX3cYw6jzmQyRwFIqUCy1GjyDWTqEoFmhLBfSh%2FbEFPJY2Vj1lvs79cLt2%2FCNT%2FgUXJjjZeeMYRvJFJ%2FFO0%2BnmC%2Bg19w9vD7GAeFRvNESu2yML77tY818sgP%2F%2FQoHqGaCi5X0S3f4AV7hinxNdavgggaWswMJqZ62XM2UVrKMQ6MycS55Drl8enyaqdIyfpwwCOQTNcwQ%2BROLq7MJdyMBxWSeaOoiyiB0ECXOBeH4h1%2FE8QdUIAUJIqm5FwvP35OzpowyMfcC4DkFwfEU%2F42cqcD0ss5ATl7l5Y5gROuB4Wus7pg5cYfVt30quBd9NCl4CccoHpT%2BZlytEBw1OiFyMcihl88x3izPqb%2Bzj4YosNQqICHdip%2BZELdV6MH0yAWHyQBg6ltfGV5kce0lMHNvGcDXWU9%2FwBSS3vCUirjTGagBDNv4wf%2BT9BDvTpN%2BeAPz74FzHP4v5EGyOBi5i7L9PBf%2FJFtTYq3E4L7DD%2BmInMBjqkAe1p9J0hrmP5WHEM1LZqjwjr4clGSe0YFbOKqnezM8SW3PTorAbUxqytJdnudX5qzO8dVadSOPW0J5mszLE16irNp0Xfc6srItO7hW5lELe0RPeI1N0OOoyug5fPfrKZMwZNtPoMkeCsZMtOq6V6B5J7NbXvo%2BaWYXdnT%2BLjfYS%2F0kAqXBt4%2Fk%2FcxAL%2F5pBxhx6I5%2FlclWdkyLIEFsVcHVjRlGGi&X-Amz-Signature=cbd911fbd2f00b8a676a80a614e880c31777882e365270e1f18b578522be7ada&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
-                "expiry_time": "2026-02-03T22:46:47.799Z"
+                "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/c69962b0-3951-485b-b10a-5bb29576bba8/533426bb-391a-4b00-9a8b-f40277926547/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4663GN4ENVR%2F20260204%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260204T063038Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEEYaCXVzLXdlc3QtMiJHMEUCIQCpp6faOAsfgg5eyb%2BkRDmmhNfq%2Bw0WtVh8Rk%2F2J7nuBwIgBd2xjsYeZQlk5I95fPq%2Bd4QY1VfX94p56FjZ7ecIkFEq%2FwMIDxAAGgw2Mzc0MjMxODM4MDUiDB6gimtpuRA8%2BrtcACrcA9Oc2xTiCDgfy1FHFIYRoB0dvsxtQYBEfO94Axl1R13ZyKc1PwTiyA11ytsz%2BbzvdQMZ1RdgIn9ZNRKtHYBDvqSDkM105zAV6ajC%2BZCnEwFXv7%2BWyOWbr8A4ZgO3737bHNUJ%2Fv4eegSvbVo6VnO5Qo0EtGYdym0GyGiPTRMGZFUZ5oaHTos6Buwj2tw8tliAq81tJM2Kq99X%2FeA3Alh4UJ1xMwya0zNJtbdieIpo9YP4cLrZpg%2F%2BgSY4Mr9K47iuuEzY2ANAOXaa2YdbGMDPadUcxpw%2BmpBpU9pSoqrdSWlViOwf07E2aOHO2DV1WOQAceaAF%2Bf4C%2FMcc2wX2SB%2BKzqDuPQ3Nv9PlxLTAUDFjaNhA0LT97qAPBudfC4aJ74KjixkA2Vpd7BbzaUkQ4L8CsG6XEWrDYTPtreCDX74pttuoEc8KkAhC%2FvPdycGTzBQCIzOoEoKkgqGvEednOokNf1NXt3WlM9daBMXP10YC9ds6cv6WMFiH9EVkALGZUwG1lapvJ7MXoulIbeL69eEadKU0U%2BWOpiUpIX48diNEz8zUjwcf314HGf2Ut14NAeBPW2VQRQOgZwqZMgfIZ3S6KerAQpmTHZ2NAR%2BtB6HKex7l%2Bn%2BY3%2BMnES%2FoSDTMJnEi8wGOqUBcJfR776GD5Hnjv%2F15u06o%2BTfle0ESim2SA1vfsEvdvatDpVlPEGfIgbI%2FSPiBU9Dz3UV770l6yyhvkEFHklZ4G9Jh0wpMny6R4L3VBWN1RyLXofHoRWHIJq4rZv6UXFB9yRBoeCg6E5IHEBOHDC5jbSyNzi6s2vnhcrLlRgJSZOT0qCQIwhmUg5gc4XnD8kfBOX4SsHTgdEu6tf8TQssKu6ufrRg&X-Amz-Signature=157d8f496bbfadaed25ab5fdfb72e9a5b40c946d7536e0b06ac7cb94b597bd18&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+                "expiry_time": "2026-02-04T07:30:38.071Z"
               }
             }
           },
@@ -152,8 +152,8 @@
               "caption": [],
               "type": "file",
               "file": {
-                "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/c69962b0-3951-485b-b10a-5bb29576bba8/a1f2a6c4-9b95-47da-86cd-41ac1ef360e2/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4663T3APLWV%2F20260203%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260203T214647Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDwaCXVzLXdlc3QtMiJIMEYCIQCHswdYv6ey99VmwNI6%2BsIjAWxd8OkTu0u0So%2Fr845KaQIhANH7cdtOQYFpHPqP8fqyYWdUfV1IaRgVYcj8VED5Eh8jKv8DCAUQABoMNjM3NDIzMTgzODA1IgxIFL5nAv9q8Fami8Aq3ANBIl5HXDCyiMbDm3GEmA3kMzwuO%2FwrEf7tsy6V1y9phjaWkal%2BTgb992EA%2BXrVwj%2FfJmk8zoKU0iRXMJvCeVdFr4MZYE%2FG%2BvKgLEWtE8XC78ewawUzmXCTsthPvVf4UL63kRVzLrMjrbUeYNeNttXhw%2BX3cYw6jzmQyRwFIqUCy1GjyDWTqEoFmhLBfSh%2FbEFPJY2Vj1lvs79cLt2%2FCNT%2FgUXJjjZeeMYRvJFJ%2FFO0%2BnmC%2Bg19w9vD7GAeFRvNESu2yML77tY818sgP%2F%2FQoHqGaCi5X0S3f4AV7hinxNdavgggaWswMJqZ62XM2UVrKMQ6MycS55Drl8enyaqdIyfpwwCOQTNcwQ%2BROLq7MJdyMBxWSeaOoiyiB0ECXOBeH4h1%2FE8QdUIAUJIqm5FwvP35OzpowyMfcC4DkFwfEU%2F42cqcD0ss5ATl7l5Y5gROuB4Wus7pg5cYfVt30quBd9NCl4CccoHpT%2BZlytEBw1OiFyMcihl88x3izPqb%2Bzj4YosNQqICHdip%2BZELdV6MH0yAWHyQBg6ltfGV5kce0lMHNvGcDXWU9%2FwBSS3vCUirjTGagBDNv4wf%2BT9BDvTpN%2BeAPz74FzHP4v5EGyOBi5i7L9PBf%2FJFtTYq3E4L7DD%2BmInMBjqkAe1p9J0hrmP5WHEM1LZqjwjr4clGSe0YFbOKqnezM8SW3PTorAbUxqytJdnudX5qzO8dVadSOPW0J5mszLE16irNp0Xfc6srItO7hW5lELe0RPeI1N0OOoyug5fPfrKZMwZNtPoMkeCsZMtOq6V6B5J7NbXvo%2BaWYXdnT%2BLjfYS%2F0kAqXBt4%2Fk%2FcxAL%2F5pBxhx6I5%2FlclWdkyLIEFsVcHVjRlGGi&X-Amz-Signature=47d0362cf07911e1bc23ea2ba3c1dab9aee276da75978d43026b018a33826340&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
-                "expiry_time": "2026-02-03T22:46:47.799Z"
+                "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/c69962b0-3951-485b-b10a-5bb29576bba8/a1f2a6c4-9b95-47da-86cd-41ac1ef360e2/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4663GN4ENVR%2F20260204%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260204T063038Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEEYaCXVzLXdlc3QtMiJHMEUCIQCpp6faOAsfgg5eyb%2BkRDmmhNfq%2Bw0WtVh8Rk%2F2J7nuBwIgBd2xjsYeZQlk5I95fPq%2Bd4QY1VfX94p56FjZ7ecIkFEq%2FwMIDxAAGgw2Mzc0MjMxODM4MDUiDB6gimtpuRA8%2BrtcACrcA9Oc2xTiCDgfy1FHFIYRoB0dvsxtQYBEfO94Axl1R13ZyKc1PwTiyA11ytsz%2BbzvdQMZ1RdgIn9ZNRKtHYBDvqSDkM105zAV6ajC%2BZCnEwFXv7%2BWyOWbr8A4ZgO3737bHNUJ%2Fv4eegSvbVo6VnO5Qo0EtGYdym0GyGiPTRMGZFUZ5oaHTos6Buwj2tw8tliAq81tJM2Kq99X%2FeA3Alh4UJ1xMwya0zNJtbdieIpo9YP4cLrZpg%2F%2BgSY4Mr9K47iuuEzY2ANAOXaa2YdbGMDPadUcxpw%2BmpBpU9pSoqrdSWlViOwf07E2aOHO2DV1WOQAceaAF%2Bf4C%2FMcc2wX2SB%2BKzqDuPQ3Nv9PlxLTAUDFjaNhA0LT97qAPBudfC4aJ74KjixkA2Vpd7BbzaUkQ4L8CsG6XEWrDYTPtreCDX74pttuoEc8KkAhC%2FvPdycGTzBQCIzOoEoKkgqGvEednOokNf1NXt3WlM9daBMXP10YC9ds6cv6WMFiH9EVkALGZUwG1lapvJ7MXoulIbeL69eEadKU0U%2BWOpiUpIX48diNEz8zUjwcf314HGf2Ut14NAeBPW2VQRQOgZwqZMgfIZ3S6KerAQpmTHZ2NAR%2BtB6HKex7l%2Bn%2BY3%2BMnES%2FoSDTMJnEi8wGOqUBcJfR776GD5Hnjv%2F15u06o%2BTfle0ESim2SA1vfsEvdvatDpVlPEGfIgbI%2FSPiBU9Dz3UV770l6yyhvkEFHklZ4G9Jh0wpMny6R4L3VBWN1RyLXofHoRWHIJq4rZv6UXFB9yRBoeCg6E5IHEBOHDC5jbSyNzi6s2vnhcrLlRgJSZOT0qCQIwhmUg5gc4XnD8kfBOX4SsHTgdEu6tf8TQssKu6ufrRg&X-Amz-Signature=2b83443482c7bb9711c39cb27d1c98ef60604bfaaa147f55d4d3f9ae21ff9205&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+                "expiry_time": "2026-02-04T07:30:38.071Z"
               }
             }
           },
@@ -2242,13 +2242,884 @@
       },
       {
         "object": "block",
+        "id": "2f144860-a4f4-8036-bab0-dca8fd358198",
+        "parent": {
+          "type": "block_id",
+          "block_id": "2f144860-a4f4-8044-8afa-c59aa9ec599f"
+        },
+        "created_time": "2026-01-23T11:10:00.000Z",
+        "last_edited_time": "2026-02-04T04:36:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "has_children": false,
+        "archived": false,
+        "in_trash": false,
+        "type": "heading_3",
+        "heading_3": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "[주제: 대학생 팀플 룸 예약 서비스 'Moim']",
+                "link": null
+              },
+              "annotations": {
+                "bold": true,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "orange_background"
+              },
+              "plain_text": "[주제: 대학생 팀플 룸 예약 서비스 'Moim']",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        }
+      },
+      {
+        "object": "block",
+        "id": "2fd44860-a4f4-801a-8222-de00a85fff9e",
+        "parent": {
+          "type": "block_id",
+          "block_id": "2f144860-a4f4-8044-8afa-c59aa9ec599f"
+        },
+        "created_time": "2026-02-04T04:23:00.000Z",
+        "last_edited_time": "2026-02-04T04:27:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "has_children": false,
+        "archived": false,
+        "in_trash": false,
+        "type": "image",
+        "image": {
+          "caption": [],
+          "type": "file",
+          "file": {
+            "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/c69962b0-3951-485b-b10a-5bb29576bba8/441de15e-e6cb-4112-9ffc-31cca76b9557/%E1%84%80%E1%85%B5%E1%84%83%E1%85%B5_1%E1%84%8C%E1%85%AE%E1%84%8E%E1%85%A1-%E1%84%8B%E1%85%B5%E1%84%86%E1%85%B5%E1%84%8C%E1%85%B5-0.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466X6MDO4AJ%2F20260204%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260204T063050Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEEYaCXVzLXdlc3QtMiJGMEQCICi7dibjx7EWhR6o14jpCLuZoDUo9ox7XbRggxXZcrjJAiBi4ZNc1MXL1NQl7DQ4m6m1XequUTnKgDTv%2FdLJ7cmNzyr%2FAwgPEAAaDDYzNzQyMzE4MzgwNSIM9VZWsJuIxOkmSgIWKtwD2sCJ7yI01UO4dPAPJ%2F376O3iqoCAgLSDRGFhm%2BXWiNgs90DvefeyPjdnuOTfUQmy2lSpKUM15mhiZvJ6nFaWrowConZH1TPDdvS%2Fzi8qvy2X5%2Bj%2FfX9V9ILc8ANRLotAsYzv4ZgHor2%2BwJC%2FRPVBM%2BvwpcOyAO84QprZO%2Bd3omYf6YLE3CFXrNhOWBC2hQdyrBfJ7b0GNRQhnBJATpWfUi7K2ZoSLvuP1%2BzWVg0NPZSDCGQfMzJFiA%2FOBgOlbaN6FJROkSUuYqw8%2FnJ%2BzBvPg%2FyJVcc%2BdyLhQYS%2BAp74RpmB8%2BLLUrQDDiBZOEYeSyRBhwojSlCkoI31IcjWOb%2FPi5BfaEkPfBJjzhzB5WP8W0EchFZ5JlbtjNV%2BvKyx0EdIhnlKET2J0ypY62MnP2fgk1cXNXxqrGSGCcKZ7XvoIo8ZuyEYK4uNSDh7RcVUL0q7NmYdS2TXBBrVP%2Ba6cB5%2BT4jww3q2La3nFOdbWlynrcTqg7e6RcpBMi51g9TYyyumEMmIi1FMp1rkx3PLoziJlGbgjjhb0lc%2Bi3dkiwFemHupf7TZOyHfNGbtwuKRtYvgZNLE4vw7BYroNzxl49VBHEWJpJLgzQaJ7Ha%2FRLYHSL0k74j4nygUGp6ZrrYw5sSLzAY6pgGLqAzi7XjSc4ddvmmRSZgAaEsSuRRBzpuVUiJ52o0e%2FuXbXjCIhQ5v6gDVSehu%2BXZZLV%2BrFj%2BUmYBcCVFxWe7PpW8P6S7ipKRT6yhZ6xyIYWkXQlYQIyUJnTb0YACoc0HBYHJk1lMvf7FT5gdB76zClRVs7u2BFq7yOKlk4ijq0S95%2FrzWUKCvnF%2B0Hd%2Fh5CeyBYwmzgdw%2B6VdeUmeNC2XJlLx6TNX&X-Amz-Signature=c3e0d10d029a9c5760d1cafe894edaf13d5d0cc3bf1afaed62dd97d6fa3f5b8d&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+            "expiry_time": "2026-02-04T07:30:50.311Z"
+          }
+        }
+      },
+      {
+        "object": "block",
+        "id": "2fd44860-a4f4-807b-ab6e-d14a861f9591",
+        "parent": {
+          "type": "block_id",
+          "block_id": "2f144860-a4f4-8044-8afa-c59aa9ec599f"
+        },
+        "created_time": "2026-02-04T05:55:00.000Z",
+        "last_edited_time": "2026-02-04T05:55:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "has_children": false,
+        "archived": false,
+        "in_trash": false,
+        "type": "link_preview",
+        "link_preview": {
+          "url": "https://drive.google.com/file/d/1KBKBO-Eeswx1xl7mtDEvrAv_fIEbdY3T/view?usp=sharing"
+        }
+      },
+      {
+        "object": "block",
+        "id": "2fd44860-a4f4-8023-8664-f720cd25e72a",
+        "parent": {
+          "type": "block_id",
+          "block_id": "2f144860-a4f4-8044-8afa-c59aa9ec599f"
+        },
+        "created_time": "2026-02-04T04:23:00.000Z",
+        "last_edited_time": "2026-02-04T04:35:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "has_children": false,
+        "archived": false,
+        "in_trash": false,
+        "type": "heading_3",
+        "heading_3": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "1. 문제 정의",
+                "link": null
+              },
+              "annotations": {
+                "bold": true,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "1. 문제 정의",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        }
+      },
+      {
+        "object": "block",
+        "id": "2f144860-a4f4-80a8-a51d-f17d3b7af73b",
+        "parent": {
+          "type": "block_id",
+          "block_id": "2f144860-a4f4-8044-8afa-c59aa9ec599f"
+        },
+        "created_time": "2026-01-23T11:10:00.000Z",
+        "last_edited_time": "2026-02-04T04:35:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "has_children": false,
+        "archived": false,
+        "in_trash": false,
+        "type": "bulleted_list_item",
+        "bulleted_list_item": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "문제점:",
+                "link": null
+              },
+              "annotations": {
+                "bold": true,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "문제점:",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": " 시험 기간마다 도서관 스터디룸 예약 경쟁이 치열하여, 팀플 장소를 찾지 못한 학생들이 카페를 전전하며 시간을 낭비함.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": " 시험 기간마다 도서관 스터디룸 예약 경쟁이 치열하여, 팀플 장소를 찾지 못한 학생들이 카페를 전전하며 시간을 낭비함.",
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "object": "block",
+        "id": "2f144860-a4f4-80aa-b3b2-e9d8cbc93aaa",
+        "parent": {
+          "type": "block_id",
+          "block_id": "2f144860-a4f4-8044-8afa-c59aa9ec599f"
+        },
+        "created_time": "2026-01-23T11:10:00.000Z",
+        "last_edited_time": "2026-02-04T04:35:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "has_children": false,
+        "archived": false,
+        "in_trash": false,
+        "type": "bulleted_list_item",
+        "bulleted_list_item": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "핵심 원인:",
+                "link": null
+              },
+              "annotations": {
+                "bold": true,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "핵심 원인:",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": " 학교 시설 예약 시스템이 PC에서만 접속 가능하고, 실시간 잔여 좌석 확인이 어려움.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": " 학교 시설 예약 시스템이 PC에서만 접속 가능하고, 실시간 잔여 좌석 확인이 어려움.",
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "object": "block",
+        "id": "2f144860-a4f4-80d8-a4b4-d6171145d2f6",
+        "parent": {
+          "type": "block_id",
+          "block_id": "2f144860-a4f4-8044-8afa-c59aa9ec599f"
+        },
+        "created_time": "2026-01-23T11:10:00.000Z",
+        "last_edited_time": "2026-02-04T04:35:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "has_children": false,
+        "archived": false,
+        "in_trash": false,
+        "type": "bulleted_list_item",
+        "bulleted_list_item": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "해결책:",
+                "link": null
+              },
+              "annotations": {
+                "bold": true,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "해결책:",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": " 모바일로 실시간 빈 강의실/스터디룸 현황을 확인하고 즉시 예약하는 서비스.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": " 모바일로 실시간 빈 강의실/스터디룸 현황을 확인하고 즉시 예약하는 서비스.",
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "object": "block",
+        "id": "2f544860-a4f4-8021-bb29-f67c6f360425",
+        "parent": {
+          "type": "block_id",
+          "block_id": "2f144860-a4f4-8044-8afa-c59aa9ec599f"
+        },
+        "created_time": "2026-01-27T04:31:00.000Z",
+        "last_edited_time": "2026-02-04T04:35:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "has_children": false,
+        "archived": false,
+        "in_trash": false,
+        "type": "divider",
+        "divider": {}
+      },
+      {
+        "object": "block",
+        "id": "2f144860-a4f4-80b0-9e13-c312d7e24858",
+        "parent": {
+          "type": "block_id",
+          "block_id": "2f144860-a4f4-8044-8afa-c59aa9ec599f"
+        },
+        "created_time": "2026-01-23T11:30:00.000Z",
+        "last_edited_time": "2026-02-04T04:35:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "has_children": false,
+        "archived": false,
+        "in_trash": false,
+        "type": "heading_3",
+        "heading_3": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "2. 페르소나",
+                "link": null
+              },
+              "annotations": {
+                "bold": true,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "2. 페르소나",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        }
+      },
+      {
+        "object": "block",
+        "id": "2f144860-a4f4-8030-bad7-c4a356c8c35b",
+        "parent": {
+          "type": "block_id",
+          "block_id": "2f144860-a4f4-8044-8afa-c59aa9ec599f"
+        },
+        "created_time": "2026-01-23T11:10:00.000Z",
+        "last_edited_time": "2026-02-04T04:35:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "has_children": false,
+        "archived": false,
+        "in_trash": false,
+        "type": "bulleted_list_item",
+        "bulleted_list_item": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "이름:",
+                "link": null
+              },
+              "annotations": {
+                "bold": true,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "이름:",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": " 이지은 (22세, 시각디자인과 3학년)",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": " 이지은 (22세, 시각디자인과 3학년)",
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "object": "block",
+        "id": "2f144860-a4f4-80e8-8e8d-c42e927ff8a2",
+        "parent": {
+          "type": "block_id",
+          "block_id": "2f144860-a4f4-8044-8afa-c59aa9ec599f"
+        },
+        "created_time": "2026-01-23T11:10:00.000Z",
+        "last_edited_time": "2026-02-04T04:35:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "has_children": false,
+        "archived": false,
+        "in_trash": false,
+        "type": "bulleted_list_item",
+        "bulleted_list_item": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "성향:",
+                "link": null
+              },
+              "annotations": {
+                "bold": true,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "성향:",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": " 과제 퀄리티에 민감하며, 팀플 시 주로 조장을 맡음. 효율적인 시간 관리를 중시함.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": " 과제 퀄리티에 민감하며, 팀플 시 주로 조장을 맡음. 효율적인 시간 관리를 중시함.",
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "object": "block",
+        "id": "2f144860-a4f4-807d-b0c2-c13f4d356859",
+        "parent": {
+          "type": "block_id",
+          "block_id": "2f144860-a4f4-8044-8afa-c59aa9ec599f"
+        },
+        "created_time": "2026-01-23T11:10:00.000Z",
+        "last_edited_time": "2026-02-04T04:35:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "has_children": false,
+        "archived": false,
+        "in_trash": false,
+        "type": "bulleted_list_item",
+        "bulleted_list_item": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "상황:",
+                "link": null
+              },
+              "annotations": {
+                "bold": true,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "상황:",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": " \"다음 수업까지 2시간 남았는데, 팀원 4명이 당장 회의할 곳이 없네... 카페는 너무 시끄러운데 어떡하지?\"",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": " \"다음 수업까지 2시간 남았는데, 팀원 4명이 당장 회의할 곳이 없네... 카페는 너무 시끄러운데 어떡하지?\"",
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "object": "block",
+        "id": "2f144860-a4f4-808f-bf7a-dffb92e6343d",
+        "parent": {
+          "type": "block_id",
+          "block_id": "2f144860-a4f4-8044-8afa-c59aa9ec599f"
+        },
+        "created_time": "2026-01-23T11:10:00.000Z",
+        "last_edited_time": "2026-02-04T04:35:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "has_children": true,
+        "archived": false,
+        "in_trash": false,
+        "type": "bulleted_list_item",
+        "bulleted_list_item": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "문제점:",
+                "link": null
+              },
+              "annotations": {
+                "bold": true,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "문제점:",
+              "href": null
+            }
+          ],
+          "color": "default"
+        },
+        "children": [
+          {
+            "object": "block",
+            "id": "2f144860-a4f4-80db-bc97-fc69c2f49e1e",
+            "parent": {
+              "type": "block_id",
+              "block_id": "2f144860-a4f4-808f-bf7a-dffb92e6343d"
+            },
+            "created_time": "2026-01-23T11:10:00.000Z",
+            "last_edited_time": "2026-01-23T11:10:00.000Z",
+            "created_by": {
+              "object": "user",
+              "id": "2aed872b-594c-81eb-bc82-000291164988"
+            },
+            "last_edited_by": {
+              "object": "user",
+              "id": "2aed872b-594c-81eb-bc82-000291164988"
+            },
+            "has_children": false,
+            "archived": false,
+            "in_trash": false,
+            "type": "bulleted_list_item",
+            "bulleted_list_item": {
+              "rich_text": [
+                {
+                  "type": "text",
+                  "text": {
+                    "content": "학교 홈페이지 접속이 모바일에서 너무 느림.",
+                    "link": null
+                  },
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  },
+                  "plain_text": "학교 홈페이지 접속이 모바일에서 너무 느림.",
+                  "href": null
+                }
+              ],
+              "color": "default"
+            }
+          },
+          {
+            "object": "block",
+            "id": "2f144860-a4f4-8079-85c5-cf4ad77beb64",
+            "parent": {
+              "type": "block_id",
+              "block_id": "2f144860-a4f4-808f-bf7a-dffb92e6343d"
+            },
+            "created_time": "2026-01-23T11:10:00.000Z",
+            "last_edited_time": "2026-01-23T11:10:00.000Z",
+            "created_by": {
+              "object": "user",
+              "id": "2aed872b-594c-81eb-bc82-000291164988"
+            },
+            "last_edited_by": {
+              "object": "user",
+              "id": "2aed872b-594c-81eb-bc82-000291164988"
+            },
+            "has_children": false,
+            "archived": false,
+            "in_trash": false,
+            "type": "bulleted_list_item",
+            "bulleted_list_item": {
+              "rich_text": [
+                {
+                  "type": "text",
+                  "text": {
+                    "content": "힘들게 찾아간 강의실이 이미 사용 중이라 헛걸음한 경험이 많음.",
+                    "link": null
+                  },
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  },
+                  "plain_text": "힘들게 찾아간 강의실이 이미 사용 중이라 헛걸음한 경험이 많음.",
+                  "href": null
+                }
+              ],
+              "color": "default"
+            }
+          }
+        ]
+      },
+      {
+        "object": "block",
+        "id": "2f144860-a4f4-80cb-b86c-c9393232e7bf",
+        "parent": {
+          "type": "block_id",
+          "block_id": "2f144860-a4f4-8044-8afa-c59aa9ec599f"
+        },
+        "created_time": "2026-01-23T11:10:00.000Z",
+        "last_edited_time": "2026-02-04T04:35:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "has_children": true,
+        "archived": false,
+        "in_trash": false,
+        "type": "bulleted_list_item",
+        "bulleted_list_item": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "니즈:",
+                "link": null
+              },
+              "annotations": {
+                "bold": true,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "니즈:",
+              "href": null
+            }
+          ],
+          "color": "default"
+        },
+        "children": [
+          {
+            "object": "block",
+            "id": "2f144860-a4f4-80f3-b94a-c2d80481cfaf",
+            "parent": {
+              "type": "block_id",
+              "block_id": "2f144860-a4f4-80cb-b86c-c9393232e7bf"
+            },
+            "created_time": "2026-01-23T11:10:00.000Z",
+            "last_edited_time": "2026-01-23T11:10:00.000Z",
+            "created_by": {
+              "object": "user",
+              "id": "2aed872b-594c-81eb-bc82-000291164988"
+            },
+            "last_edited_by": {
+              "object": "user",
+              "id": "2aed872b-594c-81eb-bc82-000291164988"
+            },
+            "has_children": false,
+            "archived": false,
+            "in_trash": false,
+            "type": "bulleted_list_item",
+            "bulleted_list_item": {
+              "rich_text": [
+                {
+                  "type": "text",
+                  "text": {
+                    "content": "현재 내 위치에서 가장 가까운 빈 강의실을 바로 알고 싶음.",
+                    "link": null
+                  },
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  },
+                  "plain_text": "현재 내 위치에서 가장 가까운 빈 강의실을 바로 알고 싶음.",
+                  "href": null
+                }
+              ],
+              "color": "default"
+            }
+          }
+        ]
+      },
+      {
+        "object": "block",
+        "id": "2fd44860-a4f4-80b6-8d7e-c43170b612ca",
+        "parent": {
+          "type": "block_id",
+          "block_id": "2f144860-a4f4-8044-8afa-c59aa9ec599f"
+        },
+        "created_time": "2026-02-04T04:35:00.000Z",
+        "last_edited_time": "2026-02-04T04:35:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "has_children": false,
+        "archived": false,
+        "in_trash": false,
+        "type": "divider",
+        "divider": {}
+      },
+      {
+        "object": "block",
+        "id": "2fd44860-a4f4-8078-bc34-d14b4eb5a32a",
+        "parent": {
+          "type": "block_id",
+          "block_id": "2f144860-a4f4-8044-8afa-c59aa9ec599f"
+        },
+        "created_time": "2026-02-04T04:35:00.000Z",
+        "last_edited_time": "2026-02-04T04:35:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "has_children": false,
+        "archived": false,
+        "in_trash": false,
+        "type": "heading_3",
+        "heading_3": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "기타 예시",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "기타 예시",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        }
+      },
+      {
+        "object": "block",
         "id": "2f144860-a4f4-8036-8163-d539ba8bba5f",
         "parent": {
           "type": "block_id",
           "block_id": "2f144860-a4f4-8044-8afa-c59aa9ec599f"
         },
         "created_time": "2026-01-23T11:10:00.000Z",
-        "last_edited_time": "2026-01-23T11:10:00.000Z",
+        "last_edited_time": "2026-02-04T04:35:00.000Z",
         "created_by": {
           "object": "user",
           "id": "2aed872b-594c-81eb-bc82-000291164988"
@@ -2285,755 +3156,6 @@
           ],
           "color": "default"
         }
-      },
-      {
-        "object": "block",
-        "id": "2f144860-a4f4-8036-bab0-dca8fd358198",
-        "parent": {
-          "type": "block_id",
-          "block_id": "2f144860-a4f4-8044-8afa-c59aa9ec599f"
-        },
-        "created_time": "2026-01-23T11:10:00.000Z",
-        "last_edited_time": "2026-01-27T04:31:00.000Z",
-        "created_by": {
-          "object": "user",
-          "id": "2aed872b-594c-81eb-bc82-000291164988"
-        },
-        "last_edited_by": {
-          "object": "user",
-          "id": "2aed872b-594c-81eb-bc82-000291164988"
-        },
-        "has_children": true,
-        "archived": false,
-        "in_trash": false,
-        "type": "paragraph",
-        "paragraph": {
-          "rich_text": [
-            {
-              "type": "text",
-              "text": {
-                "content": "[주제: 대학생 팀플 룸 예약 서비스 'Moim']",
-                "link": null
-              },
-              "annotations": {
-                "bold": true,
-                "italic": false,
-                "strikethrough": false,
-                "underline": false,
-                "code": false,
-                "color": "default"
-              },
-              "plain_text": "[주제: 대학생 팀플 룸 예약 서비스 'Moim']",
-              "href": null
-            }
-          ],
-          "color": "default"
-        },
-        "children": [
-          {
-            "object": "block",
-            "id": "2f144860-a4f4-80e7-928d-c022ef4302b0",
-            "parent": {
-              "type": "block_id",
-              "block_id": "2f144860-a4f4-8036-bab0-dca8fd358198"
-            },
-            "created_time": "2026-01-23T11:30:00.000Z",
-            "last_edited_time": "2026-01-27T04:27:00.000Z",
-            "created_by": {
-              "object": "user",
-              "id": "2aed872b-594c-81eb-bc82-000291164988"
-            },
-            "last_edited_by": {
-              "object": "user",
-              "id": "2aed872b-594c-81eb-bc82-000291164988"
-            },
-            "has_children": false,
-            "archived": false,
-            "in_trash": false,
-            "type": "heading_3",
-            "heading_3": {
-              "rich_text": [
-                {
-                  "type": "text",
-                  "text": {
-                    "content": "1. 문제 정의",
-                    "link": null
-                  },
-                  "annotations": {
-                    "bold": true,
-                    "italic": false,
-                    "strikethrough": false,
-                    "underline": false,
-                    "code": false,
-                    "color": "default"
-                  },
-                  "plain_text": "1. 문제 정의",
-                  "href": null
-                }
-              ],
-              "is_toggleable": false,
-              "color": "default"
-            }
-          },
-          {
-            "object": "block",
-            "id": "2f144860-a4f4-80a8-a51d-f17d3b7af73b",
-            "parent": {
-              "type": "block_id",
-              "block_id": "2f144860-a4f4-8036-bab0-dca8fd358198"
-            },
-            "created_time": "2026-01-23T11:10:00.000Z",
-            "last_edited_time": "2026-01-23T11:30:00.000Z",
-            "created_by": {
-              "object": "user",
-              "id": "2aed872b-594c-81eb-bc82-000291164988"
-            },
-            "last_edited_by": {
-              "object": "user",
-              "id": "2aed872b-594c-81eb-bc82-000291164988"
-            },
-            "has_children": false,
-            "archived": false,
-            "in_trash": false,
-            "type": "bulleted_list_item",
-            "bulleted_list_item": {
-              "rich_text": [
-                {
-                  "type": "text",
-                  "text": {
-                    "content": "문제점:",
-                    "link": null
-                  },
-                  "annotations": {
-                    "bold": true,
-                    "italic": false,
-                    "strikethrough": false,
-                    "underline": false,
-                    "code": false,
-                    "color": "default"
-                  },
-                  "plain_text": "문제점:",
-                  "href": null
-                },
-                {
-                  "type": "text",
-                  "text": {
-                    "content": " 시험 기간마다 도서관 스터디룸 예약 경쟁이 치열하여, 팀플 장소를 찾지 못한 학생들이 카페를 전전하며 시간을 낭비함.",
-                    "link": null
-                  },
-                  "annotations": {
-                    "bold": false,
-                    "italic": false,
-                    "strikethrough": false,
-                    "underline": false,
-                    "code": false,
-                    "color": "default"
-                  },
-                  "plain_text": " 시험 기간마다 도서관 스터디룸 예약 경쟁이 치열하여, 팀플 장소를 찾지 못한 학생들이 카페를 전전하며 시간을 낭비함.",
-                  "href": null
-                }
-              ],
-              "color": "default"
-            }
-          },
-          {
-            "object": "block",
-            "id": "2f144860-a4f4-80aa-b3b2-e9d8cbc93aaa",
-            "parent": {
-              "type": "block_id",
-              "block_id": "2f144860-a4f4-8036-bab0-dca8fd358198"
-            },
-            "created_time": "2026-01-23T11:10:00.000Z",
-            "last_edited_time": "2026-01-23T11:30:00.000Z",
-            "created_by": {
-              "object": "user",
-              "id": "2aed872b-594c-81eb-bc82-000291164988"
-            },
-            "last_edited_by": {
-              "object": "user",
-              "id": "2aed872b-594c-81eb-bc82-000291164988"
-            },
-            "has_children": false,
-            "archived": false,
-            "in_trash": false,
-            "type": "bulleted_list_item",
-            "bulleted_list_item": {
-              "rich_text": [
-                {
-                  "type": "text",
-                  "text": {
-                    "content": "핵심 원인:",
-                    "link": null
-                  },
-                  "annotations": {
-                    "bold": true,
-                    "italic": false,
-                    "strikethrough": false,
-                    "underline": false,
-                    "code": false,
-                    "color": "default"
-                  },
-                  "plain_text": "핵심 원인:",
-                  "href": null
-                },
-                {
-                  "type": "text",
-                  "text": {
-                    "content": " 학교 시설 예약 시스템이 PC에서만 접속 가능하고, 실시간 잔여 좌석 확인이 어려움.",
-                    "link": null
-                  },
-                  "annotations": {
-                    "bold": false,
-                    "italic": false,
-                    "strikethrough": false,
-                    "underline": false,
-                    "code": false,
-                    "color": "default"
-                  },
-                  "plain_text": " 학교 시설 예약 시스템이 PC에서만 접속 가능하고, 실시간 잔여 좌석 확인이 어려움.",
-                  "href": null
-                }
-              ],
-              "color": "default"
-            }
-          },
-          {
-            "object": "block",
-            "id": "2f144860-a4f4-80d8-a4b4-d6171145d2f6",
-            "parent": {
-              "type": "block_id",
-              "block_id": "2f144860-a4f4-8036-bab0-dca8fd358198"
-            },
-            "created_time": "2026-01-23T11:10:00.000Z",
-            "last_edited_time": "2026-01-23T11:30:00.000Z",
-            "created_by": {
-              "object": "user",
-              "id": "2aed872b-594c-81eb-bc82-000291164988"
-            },
-            "last_edited_by": {
-              "object": "user",
-              "id": "2aed872b-594c-81eb-bc82-000291164988"
-            },
-            "has_children": false,
-            "archived": false,
-            "in_trash": false,
-            "type": "bulleted_list_item",
-            "bulleted_list_item": {
-              "rich_text": [
-                {
-                  "type": "text",
-                  "text": {
-                    "content": "해결책:",
-                    "link": null
-                  },
-                  "annotations": {
-                    "bold": true,
-                    "italic": false,
-                    "strikethrough": false,
-                    "underline": false,
-                    "code": false,
-                    "color": "default"
-                  },
-                  "plain_text": "해결책:",
-                  "href": null
-                },
-                {
-                  "type": "text",
-                  "text": {
-                    "content": " 모바일로 실시간 빈 강의실/스터디룸 현황을 확인하고 즉시 예약하는 서비스.",
-                    "link": null
-                  },
-                  "annotations": {
-                    "bold": false,
-                    "italic": false,
-                    "strikethrough": false,
-                    "underline": false,
-                    "code": false,
-                    "color": "default"
-                  },
-                  "plain_text": " 모바일로 실시간 빈 강의실/스터디룸 현황을 확인하고 즉시 예약하는 서비스.",
-                  "href": null
-                }
-              ],
-              "color": "default"
-            }
-          },
-          {
-            "object": "block",
-            "id": "2f544860-a4f4-8021-bb29-f67c6f360425",
-            "parent": {
-              "type": "block_id",
-              "block_id": "2f144860-a4f4-8036-bab0-dca8fd358198"
-            },
-            "created_time": "2026-01-27T04:31:00.000Z",
-            "last_edited_time": "2026-01-27T04:31:00.000Z",
-            "created_by": {
-              "object": "user",
-              "id": "2aed872b-594c-81eb-bc82-000291164988"
-            },
-            "last_edited_by": {
-              "object": "user",
-              "id": "2aed872b-594c-81eb-bc82-000291164988"
-            },
-            "has_children": false,
-            "archived": false,
-            "in_trash": false,
-            "type": "divider",
-            "divider": {}
-          },
-          {
-            "object": "block",
-            "id": "2f144860-a4f4-80b0-9e13-c312d7e24858",
-            "parent": {
-              "type": "block_id",
-              "block_id": "2f144860-a4f4-8036-bab0-dca8fd358198"
-            },
-            "created_time": "2026-01-23T11:30:00.000Z",
-            "last_edited_time": "2026-01-27T04:27:00.000Z",
-            "created_by": {
-              "object": "user",
-              "id": "2aed872b-594c-81eb-bc82-000291164988"
-            },
-            "last_edited_by": {
-              "object": "user",
-              "id": "2aed872b-594c-81eb-bc82-000291164988"
-            },
-            "has_children": false,
-            "archived": false,
-            "in_trash": false,
-            "type": "heading_3",
-            "heading_3": {
-              "rich_text": [
-                {
-                  "type": "text",
-                  "text": {
-                    "content": "2. 페르소나",
-                    "link": null
-                  },
-                  "annotations": {
-                    "bold": true,
-                    "italic": false,
-                    "strikethrough": false,
-                    "underline": false,
-                    "code": false,
-                    "color": "default"
-                  },
-                  "plain_text": "2. 페르소나",
-                  "href": null
-                }
-              ],
-              "is_toggleable": false,
-              "color": "default"
-            }
-          },
-          {
-            "object": "block",
-            "id": "2f144860-a4f4-8030-bad7-c4a356c8c35b",
-            "parent": {
-              "type": "block_id",
-              "block_id": "2f144860-a4f4-8036-bab0-dca8fd358198"
-            },
-            "created_time": "2026-01-23T11:10:00.000Z",
-            "last_edited_time": "2026-01-23T11:30:00.000Z",
-            "created_by": {
-              "object": "user",
-              "id": "2aed872b-594c-81eb-bc82-000291164988"
-            },
-            "last_edited_by": {
-              "object": "user",
-              "id": "2aed872b-594c-81eb-bc82-000291164988"
-            },
-            "has_children": false,
-            "archived": false,
-            "in_trash": false,
-            "type": "bulleted_list_item",
-            "bulleted_list_item": {
-              "rich_text": [
-                {
-                  "type": "text",
-                  "text": {
-                    "content": "이름:",
-                    "link": null
-                  },
-                  "annotations": {
-                    "bold": true,
-                    "italic": false,
-                    "strikethrough": false,
-                    "underline": false,
-                    "code": false,
-                    "color": "default"
-                  },
-                  "plain_text": "이름:",
-                  "href": null
-                },
-                {
-                  "type": "text",
-                  "text": {
-                    "content": " 이지은 (22세, 시각디자인과 3학년)",
-                    "link": null
-                  },
-                  "annotations": {
-                    "bold": false,
-                    "italic": false,
-                    "strikethrough": false,
-                    "underline": false,
-                    "code": false,
-                    "color": "default"
-                  },
-                  "plain_text": " 이지은 (22세, 시각디자인과 3학년)",
-                  "href": null
-                }
-              ],
-              "color": "default"
-            }
-          },
-          {
-            "object": "block",
-            "id": "2f144860-a4f4-80e8-8e8d-c42e927ff8a2",
-            "parent": {
-              "type": "block_id",
-              "block_id": "2f144860-a4f4-8036-bab0-dca8fd358198"
-            },
-            "created_time": "2026-01-23T11:10:00.000Z",
-            "last_edited_time": "2026-01-23T11:30:00.000Z",
-            "created_by": {
-              "object": "user",
-              "id": "2aed872b-594c-81eb-bc82-000291164988"
-            },
-            "last_edited_by": {
-              "object": "user",
-              "id": "2aed872b-594c-81eb-bc82-000291164988"
-            },
-            "has_children": false,
-            "archived": false,
-            "in_trash": false,
-            "type": "bulleted_list_item",
-            "bulleted_list_item": {
-              "rich_text": [
-                {
-                  "type": "text",
-                  "text": {
-                    "content": "성향:",
-                    "link": null
-                  },
-                  "annotations": {
-                    "bold": true,
-                    "italic": false,
-                    "strikethrough": false,
-                    "underline": false,
-                    "code": false,
-                    "color": "default"
-                  },
-                  "plain_text": "성향:",
-                  "href": null
-                },
-                {
-                  "type": "text",
-                  "text": {
-                    "content": " 과제 퀄리티에 민감하며, 팀플 시 주로 조장을 맡음. 효율적인 시간 관리를 중시함.",
-                    "link": null
-                  },
-                  "annotations": {
-                    "bold": false,
-                    "italic": false,
-                    "strikethrough": false,
-                    "underline": false,
-                    "code": false,
-                    "color": "default"
-                  },
-                  "plain_text": " 과제 퀄리티에 민감하며, 팀플 시 주로 조장을 맡음. 효율적인 시간 관리를 중시함.",
-                  "href": null
-                }
-              ],
-              "color": "default"
-            }
-          },
-          {
-            "object": "block",
-            "id": "2f144860-a4f4-807d-b0c2-c13f4d356859",
-            "parent": {
-              "type": "block_id",
-              "block_id": "2f144860-a4f4-8036-bab0-dca8fd358198"
-            },
-            "created_time": "2026-01-23T11:10:00.000Z",
-            "last_edited_time": "2026-01-23T11:30:00.000Z",
-            "created_by": {
-              "object": "user",
-              "id": "2aed872b-594c-81eb-bc82-000291164988"
-            },
-            "last_edited_by": {
-              "object": "user",
-              "id": "2aed872b-594c-81eb-bc82-000291164988"
-            },
-            "has_children": false,
-            "archived": false,
-            "in_trash": false,
-            "type": "bulleted_list_item",
-            "bulleted_list_item": {
-              "rich_text": [
-                {
-                  "type": "text",
-                  "text": {
-                    "content": "상황:",
-                    "link": null
-                  },
-                  "annotations": {
-                    "bold": true,
-                    "italic": false,
-                    "strikethrough": false,
-                    "underline": false,
-                    "code": false,
-                    "color": "default"
-                  },
-                  "plain_text": "상황:",
-                  "href": null
-                },
-                {
-                  "type": "text",
-                  "text": {
-                    "content": " \"다음 수업까지 2시간 남았는데, 팀원 4명이 당장 회의할 곳이 없네... 카페는 너무 시끄러운데 어떡하지?\"",
-                    "link": null
-                  },
-                  "annotations": {
-                    "bold": false,
-                    "italic": false,
-                    "strikethrough": false,
-                    "underline": false,
-                    "code": false,
-                    "color": "default"
-                  },
-                  "plain_text": " \"다음 수업까지 2시간 남았는데, 팀원 4명이 당장 회의할 곳이 없네... 카페는 너무 시끄러운데 어떡하지?\"",
-                  "href": null
-                }
-              ],
-              "color": "default"
-            }
-          },
-          {
-            "object": "block",
-            "id": "2f144860-a4f4-808f-bf7a-dffb92e6343d",
-            "parent": {
-              "type": "block_id",
-              "block_id": "2f144860-a4f4-8036-bab0-dca8fd358198"
-            },
-            "created_time": "2026-01-23T11:10:00.000Z",
-            "last_edited_time": "2026-01-23T11:30:00.000Z",
-            "created_by": {
-              "object": "user",
-              "id": "2aed872b-594c-81eb-bc82-000291164988"
-            },
-            "last_edited_by": {
-              "object": "user",
-              "id": "2aed872b-594c-81eb-bc82-000291164988"
-            },
-            "has_children": true,
-            "archived": false,
-            "in_trash": false,
-            "type": "bulleted_list_item",
-            "bulleted_list_item": {
-              "rich_text": [
-                {
-                  "type": "text",
-                  "text": {
-                    "content": "문제점:",
-                    "link": null
-                  },
-                  "annotations": {
-                    "bold": true,
-                    "italic": false,
-                    "strikethrough": false,
-                    "underline": false,
-                    "code": false,
-                    "color": "default"
-                  },
-                  "plain_text": "문제점:",
-                  "href": null
-                }
-              ],
-              "color": "default"
-            },
-            "children": [
-              {
-                "object": "block",
-                "id": "2f144860-a4f4-80db-bc97-fc69c2f49e1e",
-                "parent": {
-                  "type": "block_id",
-                  "block_id": "2f144860-a4f4-808f-bf7a-dffb92e6343d"
-                },
-                "created_time": "2026-01-23T11:10:00.000Z",
-                "last_edited_time": "2026-01-23T11:10:00.000Z",
-                "created_by": {
-                  "object": "user",
-                  "id": "2aed872b-594c-81eb-bc82-000291164988"
-                },
-                "last_edited_by": {
-                  "object": "user",
-                  "id": "2aed872b-594c-81eb-bc82-000291164988"
-                },
-                "has_children": false,
-                "archived": false,
-                "in_trash": false,
-                "type": "bulleted_list_item",
-                "bulleted_list_item": {
-                  "rich_text": [
-                    {
-                      "type": "text",
-                      "text": {
-                        "content": "학교 홈페이지 접속이 모바일에서 너무 느림.",
-                        "link": null
-                      },
-                      "annotations": {
-                        "bold": false,
-                        "italic": false,
-                        "strikethrough": false,
-                        "underline": false,
-                        "code": false,
-                        "color": "default"
-                      },
-                      "plain_text": "학교 홈페이지 접속이 모바일에서 너무 느림.",
-                      "href": null
-                    }
-                  ],
-                  "color": "default"
-                }
-              },
-              {
-                "object": "block",
-                "id": "2f144860-a4f4-8079-85c5-cf4ad77beb64",
-                "parent": {
-                  "type": "block_id",
-                  "block_id": "2f144860-a4f4-808f-bf7a-dffb92e6343d"
-                },
-                "created_time": "2026-01-23T11:10:00.000Z",
-                "last_edited_time": "2026-01-23T11:10:00.000Z",
-                "created_by": {
-                  "object": "user",
-                  "id": "2aed872b-594c-81eb-bc82-000291164988"
-                },
-                "last_edited_by": {
-                  "object": "user",
-                  "id": "2aed872b-594c-81eb-bc82-000291164988"
-                },
-                "has_children": false,
-                "archived": false,
-                "in_trash": false,
-                "type": "bulleted_list_item",
-                "bulleted_list_item": {
-                  "rich_text": [
-                    {
-                      "type": "text",
-                      "text": {
-                        "content": "힘들게 찾아간 강의실이 이미 사용 중이라 헛걸음한 경험이 많음.",
-                        "link": null
-                      },
-                      "annotations": {
-                        "bold": false,
-                        "italic": false,
-                        "strikethrough": false,
-                        "underline": false,
-                        "code": false,
-                        "color": "default"
-                      },
-                      "plain_text": "힘들게 찾아간 강의실이 이미 사용 중이라 헛걸음한 경험이 많음.",
-                      "href": null
-                    }
-                  ],
-                  "color": "default"
-                }
-              }
-            ]
-          },
-          {
-            "object": "block",
-            "id": "2f144860-a4f4-80cb-b86c-c9393232e7bf",
-            "parent": {
-              "type": "block_id",
-              "block_id": "2f144860-a4f4-8036-bab0-dca8fd358198"
-            },
-            "created_time": "2026-01-23T11:10:00.000Z",
-            "last_edited_time": "2026-01-23T11:30:00.000Z",
-            "created_by": {
-              "object": "user",
-              "id": "2aed872b-594c-81eb-bc82-000291164988"
-            },
-            "last_edited_by": {
-              "object": "user",
-              "id": "2aed872b-594c-81eb-bc82-000291164988"
-            },
-            "has_children": true,
-            "archived": false,
-            "in_trash": false,
-            "type": "bulleted_list_item",
-            "bulleted_list_item": {
-              "rich_text": [
-                {
-                  "type": "text",
-                  "text": {
-                    "content": "니즈:",
-                    "link": null
-                  },
-                  "annotations": {
-                    "bold": true,
-                    "italic": false,
-                    "strikethrough": false,
-                    "underline": false,
-                    "code": false,
-                    "color": "default"
-                  },
-                  "plain_text": "니즈:",
-                  "href": null
-                }
-              ],
-              "color": "default"
-            },
-            "children": [
-              {
-                "object": "block",
-                "id": "2f144860-a4f4-80f3-b94a-c2d80481cfaf",
-                "parent": {
-                  "type": "block_id",
-                  "block_id": "2f144860-a4f4-80cb-b86c-c9393232e7bf"
-                },
-                "created_time": "2026-01-23T11:10:00.000Z",
-                "last_edited_time": "2026-01-23T11:10:00.000Z",
-                "created_by": {
-                  "object": "user",
-                  "id": "2aed872b-594c-81eb-bc82-000291164988"
-                },
-                "last_edited_by": {
-                  "object": "user",
-                  "id": "2aed872b-594c-81eb-bc82-000291164988"
-                },
-                "has_children": false,
-                "archived": false,
-                "in_trash": false,
-                "type": "bulleted_list_item",
-                "bulleted_list_item": {
-                  "rich_text": [
-                    {
-                      "type": "text",
-                      "text": {
-                        "content": "현재 내 위치에서 가장 가까운 빈 강의실을 바로 알고 싶음.",
-                        "link": null
-                      },
-                      "annotations": {
-                        "bold": false,
-                        "italic": false,
-                        "strikethrough": false,
-                        "underline": false,
-                        "code": false,
-                        "color": "default"
-                      },
-                      "plain_text": "현재 내 위치에서 가장 가까운 빈 강의실을 바로 알고 싶음.",
-                      "href": null
-                    }
-                  ],
-                  "color": "default"
-                }
-              }
-            ]
-          }
-        ]
       }
     ],
     "constraints": [
@@ -3440,8 +3562,8 @@
               ],
               "type": "file",
               "file": {
-                "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/c69962b0-3951-485b-b10a-5bb29576bba8/c51aff6e-074b-4fd7-a9bd-140c7d26e367/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466QG2ZOPL2%2F20260203%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260203T214700Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDwaCXVzLXdlc3QtMiJHMEUCICNJ%2B6V1OjV5zdznh%2FtlaPBuhi9%2F%2B6PNSPBSVK65TBlvAiEA5eIweQWU7y3sBEaDs0pe7lk2%2BpJnXBkx2cqO5OqYluIq%2FwMIBRAAGgw2Mzc0MjMxODM4MDUiDE4l9rsdTDxIUc%2FXLCrcA4Jti29aO6idvEZlsKHjYUZaEB2cOhSe%2BEZszIsU%2B3RhrpSC5h58MQPMqFJcTzOAS6jQ6Tr50gMjYl%2FpWtOI7PTz7J730Aka1nlBC4qFXTRVWmIJydEAafJoXW3pd%2F3rkDkg1nSypBFtOP64U5zoNklAOsnowX8kZMjEWXtEoyu66WBxYeQ66zzruYIalXjd6OnTMFKgORt8gaYqXMzC7gi%2B0TrNjUxYmw%2BVUlAqhD%2BjorSvX6lb4MnZtJROmfSU32MsaCWHtlp7I1%2Fx9amikRFK4nyVP4Wn%2B2Dx8e9fXp6annQt3cVpPys%2B7rKdn64KSWbG0XoMUpCjVs37%2Bxz5pivgvpXpWey%2Bb8lAwNBH6xfgsN%2BWGH4otGFk7G84bfiyWBa%2BaPx5fUpWoCNVQJ8dGrYFSCWNlwy2r9FAiF33FbiRO6Y9lu2XJZ2v4m0zHP5AIVm6VwhBpxbg3ZUQGv7B%2F5AOIqwRR%2FUsFqKn9P7B%2FEH86PSWYcSyUKbu1h%2BYXOsABAUCdszd9tfIK60HIkIeOMcllccu8ljZpOHnZOAMppaQL02qFHJUEYsbodQNc9nSmp6dDL%2Bo5khD7oLrlt%2BmvYb8UO0gyV8buioomgE3XSXB%2B9Mg0POgRUOOYnAzMJGaicwGOqUBLmBlRMvvgdEjCPu9DnpYdNu3847MtsVWUnph913d1wW%2FV2XCHVWsUNoydAMGyIF%2BuQHI3YxqxAXgtC%2FDYTq0atnrWYQXhbiZjS40GZkN6Dgrt9Bvzc0jD9jbZ8nDimZUj2REEYcAcTbTFtSQTUMOVXLv9AgtHzoIK1eoh%2BT3huZcaPBOaBT3as7eDho7NX7OhQRhYfXMsZ1dNExaF%2FNXyZzRK6hc&X-Amz-Signature=6d8484bed5d5fcfafcd99a6ffcf65d4e183133418c95217c0d38fa1073fe8039&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
-                "expiry_time": "2026-02-03T22:47:00.956Z"
+                "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/c69962b0-3951-485b-b10a-5bb29576bba8/c51aff6e-074b-4fd7-a9bd-140c7d26e367/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466RO7W6PRQ%2F20260204%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260204T063054Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEEYaCXVzLXdlc3QtMiJGMEQCIBgcEg22TQjdWdG2bKjnh0vOML9Spro9NfGrENqL7eGbAiBzDt6bA%2BETG%2FKTi2iDj3IemN0gDv6Ioe%2FNi5Zzweu0kCr%2FAwgPEAAaDDYzNzQyMzE4MzgwNSIMH58D7Ze%2BSxFogGzRKtwDuY%2BqyD60szNePKgD6Hi1qWzt0EIa7VlI5tvZ7njY89NOX4meZLmirjeE08CZIVyReIKCnWy1D0ojt6oIzBWRTi%2Bax4YyUA7Lk5CnXI9%2BwKU6xp4BP%2BshzJVTD9MQN1mllawPve1lw8A4IVIm3IRNC8SG0aIIL%2B5rU7ha%2Fx3B6Ia0Er6SGc64J9c4lI32jt5Pl5%2F23g43lI9EtWYZ81%2BOiCbJXj%2Bzr3BMHCeQJM4PnncMbtEmsM8fCdorMNBH9GPWNSNwNDC9ZKIjcLBkd54WssfSI5QlVYAEiIPyHX2Yp25zVHb0Ac0PnvSMWjEBfXso7zWRIwLJ%2FmYU3LvqUhmwvmAc9dprGuGqdGnwr8C8uqyKtAOvj3CvyGIRrwzvcmNdVs2VBjSIqfC7F7Csi7izdRfaXd6M6WRWEBZiGYQHPU5uQroKJiWRgvWByE7XjnkEfOwkSihRyBUjFdoKxfk1Ysrcuj87W0ik%2F9AlmtMIeZUzAmxeRephsohBH8FEbWWGF0NCsoc0bwdlZ1gMzRGL0EWdnGa8vce4LforG1FPat9lV%2B1V3BbOctf2padQfm6UXY1aTeVpHl0qAG1CZepCd6OwGtL1JLA0mBOC%2Bo5Q0njqIhREkmkhQEesUr0w7sSLzAY6pgGehfHLsvNIjweeVpfA2E4qrP%2BAIJLQAuGxJ85Xk%2FRGWHZP8ZJXLsdBCdZbz%2FJ3pfK%2BK1TVtUZC3hQoICCkHF9WNIqEMN0emIPmaWeDpmF069oOA0%2BU2ZousF%2BMevdaAFT25d2aLhCvFF78va2D4bg0rX86uFydO0hDpgWTkS2MuMraMYgwAbiOMzh39Pp%2BJQMEolfz9EjkuwcQ%2BK0jMKsxycNEyhla&X-Amz-Signature=b078371f5fac1cdbedd33b7c7d12b8cbf18ce00e1ee69dc66919c5d7e8b71be9&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+                "expiry_time": "2026-02-04T07:30:54.867Z"
               }
             }
           },
@@ -4136,5 +4258,5 @@
       }
     ]
   },
-  "syncedAt": "2026-02-03T21:47:01.905Z"
+  "syncedAt": "2026-02-04T06:30:56.300Z"
 }

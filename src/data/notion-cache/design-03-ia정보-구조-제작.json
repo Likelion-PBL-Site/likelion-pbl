@@ -1384,13 +1384,13 @@
       },
       {
         "object": "block",
-        "id": "2fc44860-a4f4-80c0-a003-db01e6f2ce84",
+        "id": "2fd44860-a4f4-8079-9308-f94ecac0537b",
         "parent": {
           "type": "block_id",
           "block_id": "2fc44860-a4f4-80a3-a168-c998b45b9001"
         },
-        "created_time": "2026-02-03T06:41:00.000Z",
-        "last_edited_time": "2026-02-03T06:41:00.000Z",
+        "created_time": "2026-02-04T04:38:00.000Z",
+        "last_edited_time": "2026-02-04T04:38:00.000Z",
         "created_by": {
           "object": "user",
           "id": "2aed872b-594c-81eb-bc82-000291164988"
@@ -1402,31 +1402,84 @@
         "has_children": false,
         "archived": false,
         "in_trash": false,
-        "type": "paragraph",
-        "paragraph": {
+        "type": "heading_3",
+        "heading_3": {
           "rich_text": [
             {
-              "type": "mention",
-              "mention": {
-                "type": "link_mention",
-                "link_mention": {
-                  "href": "https://www.figma.com/files/project/545067727",
-                  "title": "www.figma.com"
-                }
+              "type": "text",
+              "text": {
+                "content": "[주제: 대학생 팀플 룸 예약 서비스 'Moim']",
+                "link": null
               },
               "annotations": {
-                "bold": false,
+                "bold": true,
                 "italic": false,
                 "strikethrough": false,
                 "underline": false,
                 "code": false,
-                "color": "default"
+                "color": "orange_background"
               },
-              "plain_text": "https://www.figma.com/files/project/545067727",
-              "href": "https://www.figma.com/files/project/545067727"
+              "plain_text": "[주제: 대학생 팀플 룸 예약 서비스 'Moim']",
+              "href": null
             }
           ],
+          "is_toggleable": false,
           "color": "default"
+        }
+      },
+      {
+        "object": "block",
+        "id": "2fd44860-a4f4-801c-98ac-cf2339f755b3",
+        "parent": {
+          "type": "block_id",
+          "block_id": "2fc44860-a4f4-80a3-a168-c998b45b9001"
+        },
+        "created_time": "2026-02-04T04:40:00.000Z",
+        "last_edited_time": "2026-02-04T04:40:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "has_children": false,
+        "archived": false,
+        "in_trash": false,
+        "type": "image",
+        "image": {
+          "caption": [],
+          "type": "file",
+          "file": {
+            "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/c69962b0-3951-485b-b10a-5bb29576bba8/de867709-3a11-48e4-850a-1146c45b2c9b/%E1%84%80%E1%85%B5%E1%84%83%E1%85%B5_3%E1%84%8C%E1%85%AE%E1%84%8E%E1%85%A1.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466Q7MFID5H%2F20260204%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260204T062940Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEEYaCXVzLXdlc3QtMiJHMEUCIQCrU3IOFUFgF1lsnOlX9EtRLBfUUmAIoOSPNcdiGm9ZbAIgXB9sMA88JGXDSFJjP%2BplGgNuDZRilxQgmZcAurd1JvYq%2FwMIDxAAGgw2Mzc0MjMxODM4MDUiDPEvSu%2BoS%2F%2BmWjmfnyrcAzAkbzuUXj%2BqRuaJdu32VT5wjTvo1yw1fivKJLECKzMMGJMyzo9oUfzjkWi%2FbG6z8Nzm%2F3FDEP5CdIF%2BPBpEmBhERU9W%2BEJ8I2x9Jr9kMhSqNtaejjd5Q%2FCmK%2BVNxJerDGsWAovr%2FUctESl%2BOO3uh0tLuaPk%2FAZONK0XlNJQ%2BJGLpqJZMgk4NUOucN9cbEnsNJia%2FlUgHIYVDFNZIy7lQTL93IJh38eGU%2FoEA22wq7AxAZ%2BCZIf2s1mLoqh%2BcCu%2FBoP39yN74q79QDUuzfrWb1D4Fai5ajpRBNAKBTkyMpMsHhALOVlAOWBBo8or4yBAEqak1UzAz38v2WlY4z4kdejFvi04Emsi6G5P8VevLHIdgiO6oX0w4n5l5O64QZNZxuIsN4Q%2FMmilEbXTBrdUS2etYrZGm4AMfAe1Tdzhc7hFIuj%2FqOUcZpt2107%2BwyCy%2FHU2vwem8u7AYmX0EcdaGljluJI1QD6YKtebF53FVr4lnbZJ4%2FckyYq8kAN6JUXnjK%2Fq%2FcHp8WwxpY9a9zMu9HpTLZ9s1t37tf2orIVluXbHppuz5Q8oTaqOE5yDNvBs9UAlJ%2FX%2BznwqC1ey1DIXB5Y0%2B2v6lnnpWWcyaR1MthlCX73BQV%2B%2BiPRrwRDcMMbDi8wGOqUB7%2BdeEqoiVywtBEamxR2d%2FQ4oiYz9ICV0aH9DRrB%2Bxlhjby9wmdQ9rOd6NfQZcSSBvQc91Q2hCk1XiPptWzeMOGKUX0760zeH9WWVsFGykubAsvppJvLHz3kawVNSUgTMvsZkyf%2BLzqz7tdKmCNTvS63xGUwbFef8YAdfyxkw7RqUR8Om%2BIxSoK2J6NXBdwhxRRtnNDfNM%2FO0BySu03a3jECx4k2N&X-Amz-Signature=620a88675dcf1e33596c29afeb8941fe2ea127fb843360f240892006043a50b2&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+            "expiry_time": "2026-02-04T07:29:39.979Z"
+          }
+        }
+      },
+      {
+        "object": "block",
+        "id": "2fd44860-a4f4-806d-8003-ff2330a08843",
+        "parent": {
+          "type": "block_id",
+          "block_id": "2fc44860-a4f4-80a3-a168-c998b45b9001"
+        },
+        "created_time": "2026-02-04T05:54:00.000Z",
+        "last_edited_time": "2026-02-04T05:54:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "has_children": false,
+        "archived": false,
+        "in_trash": false,
+        "type": "link_preview",
+        "link_preview": {
+          "url": "https://drive.google.com/file/d/1lQaBiNIvrMZHmQUas1vB4rkoKI2ci3hL/view?usp=sharing"
         }
       },
       {
@@ -2008,5 +2061,5 @@
       }
     ]
   },
-  "syncedAt": "2026-02-03T21:46:07.929Z"
+  "syncedAt": "2026-02-04T06:29:46.484Z"
 }
