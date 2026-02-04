@@ -1291,13 +1291,13 @@
       },
       {
         "object": "block",
-        "id": "2fb44860-a4f4-8062-82a9-e3e04c6d7e8a",
+        "id": "2fd44860-a4f4-800e-9672-fc4cd2f0a8ac",
         "parent": {
           "type": "block_id",
           "block_id": "2fb44860-a4f4-8095-97b5-e8177baa570d"
         },
-        "created_time": "2026-02-02T11:48:00.000Z",
-        "last_edited_time": "2026-02-03T05:25:00.000Z",
+        "created_time": "2026-02-04T07:06:00.000Z",
+        "last_edited_time": "2026-02-04T07:06:00.000Z",
         "created_by": {
           "object": "user",
           "id": "2aed872b-594c-81eb-bc82-000291164988"
@@ -2506,7 +2506,7 @@
           "block_id": "2fb44860-a4f4-8012-9851-e548035e834b"
         },
         "created_time": "2026-02-02T11:48:00.000Z",
-        "last_edited_time": "2026-02-02T11:48:00.000Z",
+        "last_edited_time": "2026-02-04T07:08:00.000Z",
         "created_by": {
           "object": "user",
           "id": "2aed872b-594c-81eb-bc82-000291164988"
@@ -2528,7 +2528,7 @@
                 "link": null
               },
               "annotations": {
-                "bold": false,
+                "bold": true,
                 "italic": false,
                 "strikethrough": false,
                 "underline": false,
@@ -2545,7 +2545,7 @@
                 "link": null
               },
               "annotations": {
-                "bold": false,
+                "bold": true,
                 "italic": false,
                 "strikethrough": false,
                 "underline": false,
@@ -2657,7 +2657,7 @@
           "block_id": "2fb44860-a4f4-8012-9851-e548035e834b"
         },
         "created_time": "2026-02-02T11:48:00.000Z",
-        "last_edited_time": "2026-02-02T11:48:00.000Z",
+        "last_edited_time": "2026-02-04T07:08:00.000Z",
         "created_by": {
           "object": "user",
           "id": "2aed872b-594c-81eb-bc82-000291164988"
@@ -2679,7 +2679,7 @@
                 "link": null
               },
               "annotations": {
-                "bold": false,
+                "bold": true,
                 "italic": false,
                 "strikethrough": false,
                 "underline": false,
@@ -2696,7 +2696,7 @@
                 "link": null
               },
               "annotations": {
-                "bold": false,
+                "bold": true,
                 "italic": false,
                 "strikethrough": false,
                 "underline": false,
@@ -2825,7 +2825,7 @@
           "block_id": "2fb44860-a4f4-8012-9851-e548035e834b"
         },
         "created_time": "2026-02-02T11:48:00.000Z",
-        "last_edited_time": "2026-02-02T11:48:00.000Z",
+        "last_edited_time": "2026-02-04T07:08:00.000Z",
         "created_by": {
           "object": "user",
           "id": "2aed872b-594c-81eb-bc82-000291164988"
@@ -2847,7 +2847,7 @@
                 "link": null
               },
               "annotations": {
-                "bold": false,
+                "bold": true,
                 "italic": false,
                 "strikethrough": false,
                 "underline": false,
@@ -2864,7 +2864,7 @@
                 "link": null
               },
               "annotations": {
-                "bold": false,
+                "bold": true,
                 "italic": false,
                 "strikethrough": false,
                 "underline": false,
@@ -3261,7 +3261,7 @@
           "block_id": "2fb44860-a4f4-8012-9851-e548035e834b"
         },
         "created_time": "2026-02-02T11:48:00.000Z",
-        "last_edited_time": "2026-02-03T05:28:00.000Z",
+        "last_edited_time": "2026-02-04T07:08:00.000Z",
         "created_by": {
           "object": "user",
           "id": "2aed872b-594c-81eb-bc82-000291164988"
@@ -3270,16 +3270,16 @@
           "object": "user",
           "id": "2aed872b-594c-81eb-bc82-000291164988"
         },
-        "has_children": false,
+        "has_children": true,
         "archived": false,
         "in_trash": false,
-        "type": "paragraph",
-        "paragraph": {
+        "type": "bulleted_list_item",
+        "bulleted_list_item": {
           "rich_text": [
             {
               "type": "text",
               "text": {
-                "content": "3-1. 출력 책임 분리",
+                "content": " 출력 책임 분리",
                 "link": null
               },
               "annotations": {
@@ -3288,125 +3288,104 @@
                 "strikethrough": false,
                 "underline": false,
                 "code": false,
-                "color": "orange"
-              },
-              "plain_text": "3-1. 출력 책임 분리",
-              "href": null
-            }
-          ],
-          "color": "default"
-        }
-      },
-      {
-        "object": "block",
-        "id": "2fb44860-a4f4-8065-9b32-c3c1f4608720",
-        "parent": {
-          "type": "block_id",
-          "block_id": "2fb44860-a4f4-8012-9851-e548035e834b"
-        },
-        "created_time": "2026-02-02T11:48:00.000Z",
-        "last_edited_time": "2026-02-02T11:48:00.000Z",
-        "created_by": {
-          "object": "user",
-          "id": "2aed872b-594c-81eb-bc82-000291164988"
-        },
-        "last_edited_by": {
-          "object": "user",
-          "id": "2aed872b-594c-81eb-bc82-000291164988"
-        },
-        "has_children": false,
-        "archived": false,
-        "in_trash": false,
-        "type": "bulleted_list_item",
-        "bulleted_list_item": {
-          "rich_text": [
-            {
-              "type": "text",
-              "text": {
-                "content": "출력 방식은 별도의 객체(클래스)에서 담당한다.",
-                "link": null
-              },
-              "annotations": {
-                "bold": false,
-                "italic": false,
-                "strikethrough": false,
-                "underline": false,
-                "code": false,
                 "color": "default"
               },
-              "plain_text": "출력 방식은 별도의 객체(클래스)에서 담당한다.",
+              "plain_text": " 출력 책임 분리",
               "href": null
             }
           ],
           "color": "default"
-        }
-      },
-      {
-        "object": "block",
-        "id": "2fb44860-a4f4-8007-b2b3-d69ff135183b",
-        "parent": {
-          "type": "block_id",
-          "block_id": "2fb44860-a4f4-8012-9851-e548035e834b"
         },
-        "created_time": "2026-02-02T11:48:00.000Z",
-        "last_edited_time": "2026-02-02T11:48:00.000Z",
-        "created_by": {
-          "object": "user",
-          "id": "2aed872b-594c-81eb-bc82-000291164988"
-        },
-        "last_edited_by": {
-          "object": "user",
-          "id": "2aed872b-594c-81eb-bc82-000291164988"
-        },
-        "has_children": false,
-        "archived": false,
-        "in_trash": false,
-        "type": "bulleted_list_item",
-        "bulleted_list_item": {
-          "rich_text": [
-            {
-              "type": "text",
-              "text": {
-                "content": "출력 로직은 데이터 관리 로직과 분리하여 구현한다.",
-                "link": null
-              },
-              "annotations": {
-                "bold": false,
-                "italic": false,
-                "strikethrough": false,
-                "underline": false,
-                "code": false,
-                "color": "default"
-              },
-              "plain_text": "출력 로직은 데이터 관리 로직과 분리하여 구현한다.",
-              "href": null
+        "children": [
+          {
+            "object": "block",
+            "id": "2fb44860-a4f4-8065-9b32-c3c1f4608720",
+            "parent": {
+              "type": "block_id",
+              "block_id": "2fb44860-a4f4-80af-8437-ca395de74f9b"
+            },
+            "created_time": "2026-02-02T11:48:00.000Z",
+            "last_edited_time": "2026-02-04T07:07:00.000Z",
+            "created_by": {
+              "object": "user",
+              "id": "2aed872b-594c-81eb-bc82-000291164988"
+            },
+            "last_edited_by": {
+              "object": "user",
+              "id": "2aed872b-594c-81eb-bc82-000291164988"
+            },
+            "has_children": false,
+            "archived": false,
+            "in_trash": false,
+            "type": "bulleted_list_item",
+            "bulleted_list_item": {
+              "rich_text": [
+                {
+                  "type": "text",
+                  "text": {
+                    "content": "출력 방식은 별도의 객체(클래스)에서 담당한다.",
+                    "link": null
+                  },
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  },
+                  "plain_text": "출력 방식은 별도의 객체(클래스)에서 담당한다.",
+                  "href": null
+                }
+              ],
+              "color": "default"
             }
-          ],
-          "color": "default"
-        }
-      },
-      {
-        "object": "block",
-        "id": "2fb44860-a4f4-80ab-9b00-fcee2403d9c2",
-        "parent": {
-          "type": "block_id",
-          "block_id": "2fb44860-a4f4-8012-9851-e548035e834b"
-        },
-        "created_time": "2026-02-02T11:48:00.000Z",
-        "last_edited_time": "2026-02-02T11:48:00.000Z",
-        "created_by": {
-          "object": "user",
-          "id": "2aed872b-594c-81eb-bc82-000291164988"
-        },
-        "last_edited_by": {
-          "object": "user",
-          "id": "2aed872b-594c-81eb-bc82-000291164988"
-        },
-        "has_children": false,
-        "archived": false,
-        "in_trash": false,
-        "type": "divider",
-        "divider": {}
+          },
+          {
+            "object": "block",
+            "id": "2fb44860-a4f4-8007-b2b3-d69ff135183b",
+            "parent": {
+              "type": "block_id",
+              "block_id": "2fb44860-a4f4-80af-8437-ca395de74f9b"
+            },
+            "created_time": "2026-02-02T11:48:00.000Z",
+            "last_edited_time": "2026-02-04T07:07:00.000Z",
+            "created_by": {
+              "object": "user",
+              "id": "2aed872b-594c-81eb-bc82-000291164988"
+            },
+            "last_edited_by": {
+              "object": "user",
+              "id": "2aed872b-594c-81eb-bc82-000291164988"
+            },
+            "has_children": false,
+            "archived": false,
+            "in_trash": false,
+            "type": "bulleted_list_item",
+            "bulleted_list_item": {
+              "rich_text": [
+                {
+                  "type": "text",
+                  "text": {
+                    "content": "출력 로직은 데이터 관리 로직과 분리하여 구현한다.",
+                    "link": null
+                  },
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  },
+                  "plain_text": "출력 로직은 데이터 관리 로직과 분리하여 구현한다.",
+                  "href": null
+                }
+              ],
+              "color": "default"
+            }
+          }
+        ]
       },
       {
         "object": "block",
@@ -3416,7 +3395,7 @@
           "block_id": "2fb44860-a4f4-8012-9851-e548035e834b"
         },
         "created_time": "2026-02-02T11:48:00.000Z",
-        "last_edited_time": "2026-02-03T05:28:00.000Z",
+        "last_edited_time": "2026-02-04T07:08:00.000Z",
         "created_by": {
           "object": "user",
           "id": "2aed872b-594c-81eb-bc82-000291164988"
@@ -3425,16 +3404,16 @@
           "object": "user",
           "id": "2aed872b-594c-81eb-bc82-000291164988"
         },
-        "has_children": false,
+        "has_children": true,
         "archived": false,
         "in_trash": false,
-        "type": "paragraph",
-        "paragraph": {
+        "type": "bulleted_list_item",
+        "bulleted_list_item": {
           "rich_text": [
             {
               "type": "text",
               "text": {
-                "content": "3-2. 정렬 기준 분리",
+                "content": " 정렬 기준 분리",
                 "link": null
               },
               "annotations": {
@@ -3443,125 +3422,104 @@
                 "strikethrough": false,
                 "underline": false,
                 "code": false,
-                "color": "orange"
-              },
-              "plain_text": "3-2. 정렬 기준 분리",
-              "href": null
-            }
-          ],
-          "color": "default"
-        }
-      },
-      {
-        "object": "block",
-        "id": "2fb44860-a4f4-80cb-ab64-d647f1e59087",
-        "parent": {
-          "type": "block_id",
-          "block_id": "2fb44860-a4f4-8012-9851-e548035e834b"
-        },
-        "created_time": "2026-02-02T11:48:00.000Z",
-        "last_edited_time": "2026-02-02T11:48:00.000Z",
-        "created_by": {
-          "object": "user",
-          "id": "2aed872b-594c-81eb-bc82-000291164988"
-        },
-        "last_edited_by": {
-          "object": "user",
-          "id": "2aed872b-594c-81eb-bc82-000291164988"
-        },
-        "has_children": false,
-        "archived": false,
-        "in_trash": false,
-        "type": "bulleted_list_item",
-        "bulleted_list_item": {
-          "rich_text": [
-            {
-              "type": "text",
-              "text": {
-                "content": "정렬 기준(이름순, 기수순 등)은 각각의 객체로 분리한다.",
-                "link": null
-              },
-              "annotations": {
-                "bold": false,
-                "italic": false,
-                "strikethrough": false,
-                "underline": false,
-                "code": false,
                 "color": "default"
               },
-              "plain_text": "정렬 기준(이름순, 기수순 등)은 각각의 객체로 분리한다.",
+              "plain_text": " 정렬 기준 분리",
               "href": null
             }
           ],
           "color": "default"
-        }
-      },
-      {
-        "object": "block",
-        "id": "2fb44860-a4f4-80d2-9094-da59271d3df5",
-        "parent": {
-          "type": "block_id",
-          "block_id": "2fb44860-a4f4-8012-9851-e548035e834b"
         },
-        "created_time": "2026-02-02T11:48:00.000Z",
-        "last_edited_time": "2026-02-02T11:48:00.000Z",
-        "created_by": {
-          "object": "user",
-          "id": "2aed872b-594c-81eb-bc82-000291164988"
-        },
-        "last_edited_by": {
-          "object": "user",
-          "id": "2aed872b-594c-81eb-bc82-000291164988"
-        },
-        "has_children": false,
-        "archived": false,
-        "in_trash": false,
-        "type": "bulleted_list_item",
-        "bulleted_list_item": {
-          "rich_text": [
-            {
-              "type": "text",
-              "text": {
-                "content": "정렬 기준이 추가되더라도 기존 로직을 수정하지 않도록 설계한다.",
-                "link": null
-              },
-              "annotations": {
-                "bold": false,
-                "italic": false,
-                "strikethrough": false,
-                "underline": false,
-                "code": false,
-                "color": "default"
-              },
-              "plain_text": "정렬 기준이 추가되더라도 기존 로직을 수정하지 않도록 설계한다.",
-              "href": null
+        "children": [
+          {
+            "object": "block",
+            "id": "2fb44860-a4f4-80cb-ab64-d647f1e59087",
+            "parent": {
+              "type": "block_id",
+              "block_id": "2fb44860-a4f4-80f4-bf29-e1e276a7ab2e"
+            },
+            "created_time": "2026-02-02T11:48:00.000Z",
+            "last_edited_time": "2026-02-04T07:07:00.000Z",
+            "created_by": {
+              "object": "user",
+              "id": "2aed872b-594c-81eb-bc82-000291164988"
+            },
+            "last_edited_by": {
+              "object": "user",
+              "id": "2aed872b-594c-81eb-bc82-000291164988"
+            },
+            "has_children": false,
+            "archived": false,
+            "in_trash": false,
+            "type": "bulleted_list_item",
+            "bulleted_list_item": {
+              "rich_text": [
+                {
+                  "type": "text",
+                  "text": {
+                    "content": "정렬 기준(이름순, 기수순 등)은 각각의 객체로 분리한다.",
+                    "link": null
+                  },
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  },
+                  "plain_text": "정렬 기준(이름순, 기수순 등)은 각각의 객체로 분리한다.",
+                  "href": null
+                }
+              ],
+              "color": "default"
             }
-          ],
-          "color": "default"
-        }
-      },
-      {
-        "object": "block",
-        "id": "2fb44860-a4f4-8095-afae-f1981d7b5a98",
-        "parent": {
-          "type": "block_id",
-          "block_id": "2fb44860-a4f4-8012-9851-e548035e834b"
-        },
-        "created_time": "2026-02-02T11:48:00.000Z",
-        "last_edited_time": "2026-02-02T11:48:00.000Z",
-        "created_by": {
-          "object": "user",
-          "id": "2aed872b-594c-81eb-bc82-000291164988"
-        },
-        "last_edited_by": {
-          "object": "user",
-          "id": "2aed872b-594c-81eb-bc82-000291164988"
-        },
-        "has_children": false,
-        "archived": false,
-        "in_trash": false,
-        "type": "divider",
-        "divider": {}
+          },
+          {
+            "object": "block",
+            "id": "2fb44860-a4f4-80d2-9094-da59271d3df5",
+            "parent": {
+              "type": "block_id",
+              "block_id": "2fb44860-a4f4-80f4-bf29-e1e276a7ab2e"
+            },
+            "created_time": "2026-02-02T11:48:00.000Z",
+            "last_edited_time": "2026-02-04T07:07:00.000Z",
+            "created_by": {
+              "object": "user",
+              "id": "2aed872b-594c-81eb-bc82-000291164988"
+            },
+            "last_edited_by": {
+              "object": "user",
+              "id": "2aed872b-594c-81eb-bc82-000291164988"
+            },
+            "has_children": false,
+            "archived": false,
+            "in_trash": false,
+            "type": "bulleted_list_item",
+            "bulleted_list_item": {
+              "rich_text": [
+                {
+                  "type": "text",
+                  "text": {
+                    "content": "정렬 기준이 추가되더라도 기존 로직을 수정하지 않도록 설계한다.",
+                    "link": null
+                  },
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  },
+                  "plain_text": "정렬 기준이 추가되더라도 기존 로직을 수정하지 않도록 설계한다.",
+                  "href": null
+                }
+              ],
+              "color": "default"
+            }
+          }
+        ]
       },
       {
         "object": "block",
@@ -3571,7 +3529,7 @@
           "block_id": "2fb44860-a4f4-8012-9851-e548035e834b"
         },
         "created_time": "2026-02-02T11:48:00.000Z",
-        "last_edited_time": "2026-02-03T05:28:00.000Z",
+        "last_edited_time": "2026-02-04T07:08:00.000Z",
         "created_by": {
           "object": "user",
           "id": "2aed872b-594c-81eb-bc82-000291164988"
@@ -3580,16 +3538,16 @@
           "object": "user",
           "id": "2aed872b-594c-81eb-bc82-000291164988"
         },
-        "has_children": false,
+        "has_children": true,
         "archived": false,
         "in_trash": false,
-        "type": "paragraph",
-        "paragraph": {
+        "type": "bulleted_list_item",
+        "bulleted_list_item": {
           "rich_text": [
             {
               "type": "text",
               "text": {
-                "content": "3-3. 역할 분기 처리 방식",
+                "content": "역할 분기 처리 방식",
                 "link": null
               },
               "annotations": {
@@ -3598,125 +3556,104 @@
                 "strikethrough": false,
                 "underline": false,
                 "code": false,
-                "color": "orange"
-              },
-              "plain_text": "3-3. 역할 분기 처리 방식",
-              "href": null
-            }
-          ],
-          "color": "default"
-        }
-      },
-      {
-        "object": "block",
-        "id": "2fb44860-a4f4-8054-b4ce-f70c67b412cb",
-        "parent": {
-          "type": "block_id",
-          "block_id": "2fb44860-a4f4-8012-9851-e548035e834b"
-        },
-        "created_time": "2026-02-02T11:48:00.000Z",
-        "last_edited_time": "2026-02-02T11:48:00.000Z",
-        "created_by": {
-          "object": "user",
-          "id": "2aed872b-594c-81eb-bc82-000291164988"
-        },
-        "last_edited_by": {
-          "object": "user",
-          "id": "2aed872b-594c-81eb-bc82-000291164988"
-        },
-        "has_children": false,
-        "archived": false,
-        "in_trash": false,
-        "type": "bulleted_list_item",
-        "bulleted_list_item": {
-          "rich_text": [
-            {
-              "type": "text",
-              "text": {
-                "content": "역할에 따른 처리는 if/else 분기문으로 구현하지 않는다.",
-                "link": null
-              },
-              "annotations": {
-                "bold": false,
-                "italic": false,
-                "strikethrough": false,
-                "underline": false,
-                "code": false,
                 "color": "default"
               },
-              "plain_text": "역할에 따른 처리는 if/else 분기문으로 구현하지 않는다.",
+              "plain_text": "역할 분기 처리 방식",
               "href": null
             }
           ],
           "color": "default"
-        }
-      },
-      {
-        "object": "block",
-        "id": "2fb44860-a4f4-803f-921e-d18887896757",
-        "parent": {
-          "type": "block_id",
-          "block_id": "2fb44860-a4f4-8012-9851-e548035e834b"
         },
-        "created_time": "2026-02-02T11:48:00.000Z",
-        "last_edited_time": "2026-02-02T11:48:00.000Z",
-        "created_by": {
-          "object": "user",
-          "id": "2aed872b-594c-81eb-bc82-000291164988"
-        },
-        "last_edited_by": {
-          "object": "user",
-          "id": "2aed872b-594c-81eb-bc82-000291164988"
-        },
-        "has_children": false,
-        "archived": false,
-        "in_trash": false,
-        "type": "bulleted_list_item",
-        "bulleted_list_item": {
-          "rich_text": [
-            {
-              "type": "text",
-              "text": {
-                "content": "객체 선택 및 다형성을 통해 역할 분기를 해결한다.",
-                "link": null
-              },
-              "annotations": {
-                "bold": false,
-                "italic": false,
-                "strikethrough": false,
-                "underline": false,
-                "code": false,
-                "color": "default"
-              },
-              "plain_text": "객체 선택 및 다형성을 통해 역할 분기를 해결한다.",
-              "href": null
+        "children": [
+          {
+            "object": "block",
+            "id": "2fb44860-a4f4-8054-b4ce-f70c67b412cb",
+            "parent": {
+              "type": "block_id",
+              "block_id": "2fb44860-a4f4-800f-a72b-e9050c88319a"
+            },
+            "created_time": "2026-02-02T11:48:00.000Z",
+            "last_edited_time": "2026-02-04T07:07:00.000Z",
+            "created_by": {
+              "object": "user",
+              "id": "2aed872b-594c-81eb-bc82-000291164988"
+            },
+            "last_edited_by": {
+              "object": "user",
+              "id": "2aed872b-594c-81eb-bc82-000291164988"
+            },
+            "has_children": false,
+            "archived": false,
+            "in_trash": false,
+            "type": "bulleted_list_item",
+            "bulleted_list_item": {
+              "rich_text": [
+                {
+                  "type": "text",
+                  "text": {
+                    "content": "역할에 따른 처리는 if/else 분기문으로 구현하지 않는다.",
+                    "link": null
+                  },
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  },
+                  "plain_text": "역할에 따른 처리는 if/else 분기문으로 구현하지 않는다.",
+                  "href": null
+                }
+              ],
+              "color": "default"
             }
-          ],
-          "color": "default"
-        }
-      },
-      {
-        "object": "block",
-        "id": "2fb44860-a4f4-803a-b405-ed6fc56778ad",
-        "parent": {
-          "type": "block_id",
-          "block_id": "2fb44860-a4f4-8012-9851-e548035e834b"
-        },
-        "created_time": "2026-02-02T11:48:00.000Z",
-        "last_edited_time": "2026-02-02T11:48:00.000Z",
-        "created_by": {
-          "object": "user",
-          "id": "2aed872b-594c-81eb-bc82-000291164988"
-        },
-        "last_edited_by": {
-          "object": "user",
-          "id": "2aed872b-594c-81eb-bc82-000291164988"
-        },
-        "has_children": false,
-        "archived": false,
-        "in_trash": false,
-        "type": "divider",
-        "divider": {}
+          },
+          {
+            "object": "block",
+            "id": "2fb44860-a4f4-803f-921e-d18887896757",
+            "parent": {
+              "type": "block_id",
+              "block_id": "2fb44860-a4f4-800f-a72b-e9050c88319a"
+            },
+            "created_time": "2026-02-02T11:48:00.000Z",
+            "last_edited_time": "2026-02-04T07:07:00.000Z",
+            "created_by": {
+              "object": "user",
+              "id": "2aed872b-594c-81eb-bc82-000291164988"
+            },
+            "last_edited_by": {
+              "object": "user",
+              "id": "2aed872b-594c-81eb-bc82-000291164988"
+            },
+            "has_children": false,
+            "archived": false,
+            "in_trash": false,
+            "type": "bulleted_list_item",
+            "bulleted_list_item": {
+              "rich_text": [
+                {
+                  "type": "text",
+                  "text": {
+                    "content": "객체 선택 및 다형성을 통해 역할 분기를 해결한다.",
+                    "link": null
+                  },
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  },
+                  "plain_text": "객체 선택 및 다형성을 통해 역할 분기를 해결한다.",
+                  "href": null
+                }
+              ],
+              "color": "default"
+            }
+          }
+        ]
       },
       {
         "object": "block",
@@ -3726,7 +3663,7 @@
           "block_id": "2fb44860-a4f4-8012-9851-e548035e834b"
         },
         "created_time": "2026-02-02T11:48:00.000Z",
-        "last_edited_time": "2026-02-03T05:28:00.000Z",
+        "last_edited_time": "2026-02-04T07:08:00.000Z",
         "created_by": {
           "object": "user",
           "id": "2aed872b-594c-81eb-bc82-000291164988"
@@ -3735,16 +3672,16 @@
           "object": "user",
           "id": "2aed872b-594c-81eb-bc82-000291164988"
         },
-        "has_children": false,
+        "has_children": true,
         "archived": false,
         "in_trash": false,
-        "type": "paragraph",
-        "paragraph": {
+        "type": "bulleted_list_item",
+        "bulleted_list_item": {
           "rich_text": [
             {
               "type": "text",
               "text": {
-                "content": "3-4. 책임 분리의 목적",
+                "content": "책임 분리의 목적",
                 "link": null
               },
               "annotations": {
@@ -3753,146 +3690,148 @@
                 "strikethrough": false,
                 "underline": false,
                 "code": false,
-                "color": "orange"
-              },
-              "plain_text": "3-4. 책임 분리의 목적",
-              "href": null
-            }
-          ],
-          "color": "default"
-        }
-      },
-      {
-        "object": "block",
-        "id": "2fb44860-a4f4-80f3-8b85-c704064c89b2",
-        "parent": {
-          "type": "block_id",
-          "block_id": "2fb44860-a4f4-8012-9851-e548035e834b"
-        },
-        "created_time": "2026-02-02T11:48:00.000Z",
-        "last_edited_time": "2026-02-02T11:48:00.000Z",
-        "created_by": {
-          "object": "user",
-          "id": "2aed872b-594c-81eb-bc82-000291164988"
-        },
-        "last_edited_by": {
-          "object": "user",
-          "id": "2aed872b-594c-81eb-bc82-000291164988"
-        },
-        "has_children": false,
-        "archived": false,
-        "in_trash": false,
-        "type": "bulleted_list_item",
-        "bulleted_list_item": {
-          "rich_text": [
-            {
-              "type": "text",
-              "text": {
-                "content": "출력과 정렬은 서로 다른 책임이므로 하나의 클래스에서 함께 처리하지 않는다.",
-                "link": null
-              },
-              "annotations": {
-                "bold": false,
-                "italic": false,
-                "strikethrough": false,
-                "underline": false,
-                "code": false,
                 "color": "default"
               },
-              "plain_text": "출력과 정렬은 서로 다른 책임이므로 하나의 클래스에서 함께 처리하지 않는다.",
+              "plain_text": "책임 분리의 목적",
               "href": null
             }
           ],
           "color": "default"
-        }
-      },
-      {
-        "object": "block",
-        "id": "2fb44860-a4f4-807a-af42-d7fc22f58b44",
-        "parent": {
-          "type": "block_id",
-          "block_id": "2fb44860-a4f4-8012-9851-e548035e834b"
         },
-        "created_time": "2026-02-02T11:48:00.000Z",
-        "last_edited_time": "2026-02-02T11:48:00.000Z",
-        "created_by": {
-          "object": "user",
-          "id": "2aed872b-594c-81eb-bc82-000291164988"
-        },
-        "last_edited_by": {
-          "object": "user",
-          "id": "2aed872b-594c-81eb-bc82-000291164988"
-        },
-        "has_children": false,
-        "archived": false,
-        "in_trash": false,
-        "type": "bulleted_list_item",
-        "bulleted_list_item": {
-          "rich_text": [
-            {
-              "type": "text",
-              "text": {
-                "content": "각 책임을 전담하는 객체로 분리함으로써 코드의 역할을 명확히 한다.",
-                "link": null
-              },
-              "annotations": {
-                "bold": false,
-                "italic": false,
-                "strikethrough": false,
-                "underline": false,
-                "code": false,
-                "color": "default"
-              },
-              "plain_text": "각 책임을 전담하는 객체로 분리함으로써 코드의 역할을 명확히 한다.",
-              "href": null
+        "children": [
+          {
+            "object": "block",
+            "id": "2fb44860-a4f4-80f3-8b85-c704064c89b2",
+            "parent": {
+              "type": "block_id",
+              "block_id": "2fb44860-a4f4-80d4-8048-cb8368f967a2"
+            },
+            "created_time": "2026-02-02T11:48:00.000Z",
+            "last_edited_time": "2026-02-04T07:07:00.000Z",
+            "created_by": {
+              "object": "user",
+              "id": "2aed872b-594c-81eb-bc82-000291164988"
+            },
+            "last_edited_by": {
+              "object": "user",
+              "id": "2aed872b-594c-81eb-bc82-000291164988"
+            },
+            "has_children": false,
+            "archived": false,
+            "in_trash": false,
+            "type": "bulleted_list_item",
+            "bulleted_list_item": {
+              "rich_text": [
+                {
+                  "type": "text",
+                  "text": {
+                    "content": "출력과 정렬은 서로 다른 책임이므로 하나의 클래스에서 함께 처리하지 않는다.",
+                    "link": null
+                  },
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  },
+                  "plain_text": "출력과 정렬은 서로 다른 책임이므로 하나의 클래스에서 함께 처리하지 않는다.",
+                  "href": null
+                }
+              ],
+              "color": "default"
             }
-          ],
-          "color": "default"
-        }
-      },
-      {
-        "object": "block",
-        "id": "2fb44860-a4f4-8085-bed3-f18347a6c99f",
-        "parent": {
-          "type": "block_id",
-          "block_id": "2fb44860-a4f4-8012-9851-e548035e834b"
-        },
-        "created_time": "2026-02-02T11:48:00.000Z",
-        "last_edited_time": "2026-02-02T11:48:00.000Z",
-        "created_by": {
-          "object": "user",
-          "id": "2aed872b-594c-81eb-bc82-000291164988"
-        },
-        "last_edited_by": {
-          "object": "user",
-          "id": "2aed872b-594c-81eb-bc82-000291164988"
-        },
-        "has_children": false,
-        "archived": false,
-        "in_trash": false,
-        "type": "bulleted_list_item",
-        "bulleted_list_item": {
-          "rich_text": [
-            {
-              "type": "text",
-              "text": {
-                "content": "기능 확장 시 기존 로직에 영향을 주지 않는 구조를 목표로 한다.",
-                "link": null
-              },
-              "annotations": {
-                "bold": false,
-                "italic": false,
-                "strikethrough": false,
-                "underline": false,
-                "code": false,
-                "color": "default"
-              },
-              "plain_text": "기능 확장 시 기존 로직에 영향을 주지 않는 구조를 목표로 한다.",
-              "href": null
+          },
+          {
+            "object": "block",
+            "id": "2fb44860-a4f4-807a-af42-d7fc22f58b44",
+            "parent": {
+              "type": "block_id",
+              "block_id": "2fb44860-a4f4-80d4-8048-cb8368f967a2"
+            },
+            "created_time": "2026-02-02T11:48:00.000Z",
+            "last_edited_time": "2026-02-04T07:07:00.000Z",
+            "created_by": {
+              "object": "user",
+              "id": "2aed872b-594c-81eb-bc82-000291164988"
+            },
+            "last_edited_by": {
+              "object": "user",
+              "id": "2aed872b-594c-81eb-bc82-000291164988"
+            },
+            "has_children": false,
+            "archived": false,
+            "in_trash": false,
+            "type": "bulleted_list_item",
+            "bulleted_list_item": {
+              "rich_text": [
+                {
+                  "type": "text",
+                  "text": {
+                    "content": "각 책임을 전담하는 객체로 분리함으로써 코드의 역할을 명확히 한다.",
+                    "link": null
+                  },
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  },
+                  "plain_text": "각 책임을 전담하는 객체로 분리함으로써 코드의 역할을 명확히 한다.",
+                  "href": null
+                }
+              ],
+              "color": "default"
             }
-          ],
-          "color": "default"
-        }
+          },
+          {
+            "object": "block",
+            "id": "2fb44860-a4f4-8085-bed3-f18347a6c99f",
+            "parent": {
+              "type": "block_id",
+              "block_id": "2fb44860-a4f4-80d4-8048-cb8368f967a2"
+            },
+            "created_time": "2026-02-02T11:48:00.000Z",
+            "last_edited_time": "2026-02-04T07:07:00.000Z",
+            "created_by": {
+              "object": "user",
+              "id": "2aed872b-594c-81eb-bc82-000291164988"
+            },
+            "last_edited_by": {
+              "object": "user",
+              "id": "2aed872b-594c-81eb-bc82-000291164988"
+            },
+            "has_children": false,
+            "archived": false,
+            "in_trash": false,
+            "type": "bulleted_list_item",
+            "bulleted_list_item": {
+              "rich_text": [
+                {
+                  "type": "text",
+                  "text": {
+                    "content": "기능 확장 시 기존 로직에 영향을 주지 않는 구조를 목표로 한다.",
+                    "link": null
+                  },
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  },
+                  "plain_text": "기능 확장 시 기존 로직에 영향을 주지 않는 구조를 목표로 한다.",
+                  "href": null
+                }
+              ],
+              "color": "default"
+            }
+          }
+        ]
       },
       {
         "object": "block",
@@ -4552,8 +4491,8 @@
           "caption": [],
           "type": "file",
           "file": {
-            "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/c69962b0-3951-485b-b10a-5bb29576bba8/200a9e0a-24a3-4d5b-8257-e27ed2ed6ab9/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA_2026-01-25_%E1%84%8B%E1%85%A9%E1%84%8C%E1%85%A5%E1%86%AB_10.38.40.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466VSMSZPG5%2F20260204%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260204T062757Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEEYaCXVzLXdlc3QtMiJHMEUCIEgk%2BOGWirB53S4Wbvq1UsJkMm3jWUWgDHHAA8xDIWYJAiEA5BS8YIE4I1G%2FWH0BT7fcihMQBcI6Qm5fp1TZDAi9WLwq%2FwMIDxAAGgw2Mzc0MjMxODM4MDUiDEOX2iY7203EZV7WKyrcA5BdB5kY0jQDi7sjmBIR%2FWBhlLQqkZNkmiVvcmoX7uWR7cZrAZkPCMtj8VO00cr4kHCZcj7ioFR6maQZvSj4qC0irOnIyq%2FEhulpE60u%2BXocmOh9koxp8VNe1kvMv5Iiim3Xz30VPIsBbKMha%2FLTLJ2OIEHEWSJnCez4l2cl13YXQbD4FFppdUZC8Zora9ZsDS8tzkZYfAbWwFTFq%2BQfn83nIwo7WhnWXFiwgIOb6SGoR8W3EwzW980UQXtwhlr1TNU2KPuuiPboOsqSXYCls6mwSdkw80o1R4NqZYxehKLmKjwO%2BXq7X7EkLJrhmufi%2FZyVt%2BfC6hsfuvy64O1OUkJGcNb0E47WsOG4cteXkFn4iS9krKqbkKMXHO%2B09NRJGZvoJe647D8sWnL3zeHkPBxuvN9S%2BseVHda4a8oJw8TG3Z4CWqHEiJwXyA9o%2BymU32cwb9eNm1tdkXhc9BUsUj0I4ZhG7lSlLUbUdxok6nh0xJV8iYh2n9FIXENXvPnE4H0MfX2CdVxkJ%2FTTBii0kLz5nnvBTbAVSdWaQPNQAwEBNhiHhn7NVpDYFbdAMrcN4DgCP7mGlS6XVtEp4rOFpv%2FGUr2DfE%2BvkSegVqbv1IYg7NOhDg3KuF1HGzRzMOnEi8wGOqUBgC7N0g52X1FyFGlLx7zm5wLSEQ3ZIz%2F%2B7ooF9ARl6S58bj0jmgx8yot1vTTbFIQfrDONJv3tMoSUn2zwADKipR6%2FdLuQD4eP8GTWnOQmqYbofdKMA66pKJwZxFXKIEsxEjcSP6r0RjaKaJ0LnZ5aP3H5TQVbT4xCIq6KijmMW1ylcIPkAB8YH2Weu%2Bfm88vkoi7aG8qtyWvbVVLE%2B2C1x%2BqWKr9o&X-Amz-Signature=6f598945eea0a2b4a16eadf0ae8bca6f3af520242160b4e25ad7e92f86a7415d&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
-            "expiry_time": "2026-02-04T07:27:56.903Z"
+            "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/c69962b0-3951-485b-b10a-5bb29576bba8/200a9e0a-24a3-4d5b-8257-e27ed2ed6ab9/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA_2026-01-25_%E1%84%8B%E1%85%A9%E1%84%8C%E1%85%A5%E1%86%AB_10.38.40.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466UISVM6SX%2F20260204%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260204T073713Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEEYaCXVzLXdlc3QtMiJHMEUCIEn8zlNhI40GNpnuWxMMBVJrdFxHGHVLV4cdYAM35l11AiEAnMa9rZYFPGNV%2B1AYppboaChJr1SVXUkXKzAuzAlByaoq%2FwMIDxAAGgw2Mzc0MjMxODM4MDUiDOu0Xb%2FB0MPhnvMG2CrcA%2BwAFGu6ju3nneli%2FPiFx87uaSJ5fmbcB90UjRSuxpzoRACOtVJIyWwNmIf2uYD6hdQDy1dxCTVOcHCi0WGNseFMch%2BAzHW4Qgso6aaPI3B0QFGm8QkgzGWrNMREEOwiReylCbXJqUq8Mv3udKHwdMhJzpeuaVB8aufM9t5IeigZqULebNM%2B3p7J%2B%2BjfGA1JiAmO6K03IdN27Dll9tjhIdo6nLthcWMyu2E00GZO%2FCVHP1tGQfPiCAXdiA1fwUFtlHF%2F3c%2BJ1KxzAleKDEkVs0SKgmQz%2BLdnnXYpJNsa3bbDp%2F%2FysN%2FVj405FRoMxHdnDWNsmalg2E2CSEm9PmKXMgaowCpDOwUt2JmqEHiJCQ6mzjX780PGRFAQBw6bveXT6PnE0akgKhdBRUNC5cDKaD%2Fqv5pLUJUzMjEY8re4NQ3qrkuLGpY27Hr3nhZGSBoX3isiy0buOow7I%2FtyC29r5aAk4eOjzhAjse2Cnj88M0ZnKkVqfoPwc%2BpWIOKZPw4YQrUcL7UGNp1cwUZaXUQt2fKHCETQjXPPB40E5uRY%2Bm9lgpQEZ6y5rxbOdJ1giIAK%2F0ofV%2BEAU0PA1pVOdzLnlkRZqo4dhwLC2kYtuJu118w7jqK4P4jhDF6L3yN6MKbEi8wGOqUBT0OPuJ4zz2F5mtw3LJGMPxw9%2BcWLte3iztr1m4ejxtG%2FIRpmuqAnXdAB4Lj1b3QfC48HJ9ToyzloYgsmrzxKgA876lOxcb3nVSHkPMkWFxQo7A8bEOIPyEjJE0k8D0boCVJWMbn%2BhLSpw%2B2Oz7ZeCUo9IB%2F386vsHPBc6TAR4EKPZfRg1zKdMc4JLjvK4MJEUTjqcRHxwIBt1KSRbcoaoxiyAnPs&X-Amz-Signature=b211fc74adf705eb2ce6c8aa016747e137030bc81ff01483003e015944c5a176&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+            "expiry_time": "2026-02-04T08:37:13.256Z"
           }
         }
       },
@@ -5429,8 +5368,8 @@
           "caption": [],
           "type": "file",
           "file": {
-            "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/c69962b0-3951-485b-b10a-5bb29576bba8/2ed56056-d7f1-4618-8db3-b8894c5e3061/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA_2026-01-25_%E1%84%8B%E1%85%A9%E1%84%8C%E1%85%A5%E1%86%AB_10.51.05.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4663FPWOHCS%2F20260204%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260204T062801Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEEYaCXVzLXdlc3QtMiJIMEYCIQDa5h6n3vrV4qPwwVET1GP53OCmAYcOpRJkRNXHYXKiXQIhALmGx5sXdT27WCo7S51AN3QXLRJZxWDiUw5Fzxp9GvlIKv8DCA8QABoMNjM3NDIzMTgzODA1IgyMC1l%2FjIBoZyG3AeEq3AMmB80Gsq8TCKfr5pOcyxlneIrQOfekNuyVqLlaBda52n5Kg1e74Dkd8RiucpDKEhGxmQ4%2FWBLXREm9eqTBdF8OuRFrp0%2BciuqSzISEaKg1elqU3UjDQSz5o%2F7aHrrFC1zo5BKUaEA1OBG0baYSAVxglAAu7HNUrD5iB44P7%2FOeqYwW8kUvLbEdKYIkFYqfjYUnQAkucGVqSxy%2B6%2FIbKwS1raetICrVG%2FTMtEyK%2Fj9zmVOlAi9UEdEu2w5p7gM7%2Fll%2FxmxoYeVP2IEQmOJeVIafEhSVTZteGQL%2FB2kLIzJLh0Um9mU1AZoYzAu%2BVRsg5IsZ4GEQ1T1qnLhx9G5tEX2bzY99X%2FWoPH9Ax4QWsHaO8gLwrUylcf%2BtCEO2OXWw7NfAEiJhPxTtCroCBLHnNxWL5WsnzotaBuM8%2F7v5kfwHz%2F%2BChZeedelqu6Y6qXkXZbc5SNq93RJYQ%2FN2lc0i3y9GZJ6tcl0aHrI%2BSGpVHDHMCXDbJk5QsuvBUAhgr2U57qZnAyikp1c6NbA8UoefIbKWjGaUGAwO3tvMfXiPhA1fEs6%2FiQgySUmkTEpdwpeuAysFt2HWI4amzM%2FXvUmTm6SiJgq55lY7xs6QIrdqkw171trErcvL5SYWYDhZiDDlw4vMBjqkAQYAcpKAgjetwzvUMcI829i4BAvc%2BNpNd2g4SR2%2BqOC6jRzI8cSUsPaC%2B%2F7yddH3LxzXqUNzDNWp0ZtQsPq%2BCOy1SCiuCuY2cEmslVgWSWvYyuivEo41HNgAPUyw7s2tTnwbzGT6HVU8SrZxGYTeGtNKRUhx12n6Gq6JvNrus5fFRutOsZ56RX%2FKZqvZkkVElb4bsnvM7GCdv7%2F9NinY3o406sXk&X-Amz-Signature=541bb86517f5a7841e6cfcdfddea98ce7adb2222aedd781b1943f4ebc8a9ea7a&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
-            "expiry_time": "2026-02-04T07:28:01.385Z"
+            "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/c69962b0-3951-485b-b10a-5bb29576bba8/2ed56056-d7f1-4618-8db3-b8894c5e3061/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA_2026-01-25_%E1%84%8B%E1%85%A9%E1%84%8C%E1%85%A5%E1%86%AB_10.51.05.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466Q2CAB5FV%2F20260204%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260204T073715Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEEYaCXVzLXdlc3QtMiJGMEQCIGyEYnmL8tlFhXk%2F4th9J9cokSZjSElqFZZcOXwjm6ViAiB7AE3NM4oVmtQh%2FM%2FZEIOsC2iqaYFKagA%2BMK9ptZoUVSr%2FAwgPEAAaDDYzNzQyMzE4MzgwNSIMFxrJFph7DCeg%2BdZ9KtwD4XF%2BC8QCXz%2BaNLe5nQlyGi7ziwtCd81179jHy7VLtrY%2FvvxoppyMPMdp5tiTM9%2BvXNkCo49JFfJJ4d9%2FdD0TZL5b38bdQcCG%2BNPbMa643pJPXQth0UzjyydiMv3dBvrkVyWkryPdah8t9STyH8AilaAHpJCxdyIHW4AlOXVngu8JTihuQqVLclUyu5rMlqOJXsp7JSBHlVzGkgPQQyd7jYIM3sGQuMpFHtti0EHDTE449g9INyIV1nquu70jPlb3HG2r2HA1s%2FuX8eLJe2DfEJH%2FMhkPSW%2FLXV5VU5dbNcERDoOG4PPrOZmCifuqUcaZ25x8f32SCatXTux%2BSJ1vWODbmbl4BWsQ90hQTr1O%2FTJgbvAOSA3HM2mQ6mkkobGi2b7wAVuvMJr1ANaqqpYaLKThTEUZoR8wdHtlakTlH6GI9jKx23fz6eBrOrknRklSZgKqG2REnCof9caqc8hDwFel1B2e64F1LMxtPhkNu8OKqRCN1t%2FTIXNjVAacuS%2F6PS97JKvMlOTL07vHMGd68cu9vosocTNi70ch7Y9FHUtor8X%2FkX0PEnqqpCTErhvESu%2BvlbgXpAKLkGW475%2B263lydCcNsIdULD3pWkoFmIthAjpE8iHhPOQYQ8cw38SLzAY6pgGqJj1Fd1ms%2FTY54Tai7NRr%2FVguN2iFn4DY5zWbYEUdN2UN%2FsDN%2BP3igj23rQdOW00a3LHk3DH6WE3W1AlYxxBgZ2hnAiIbxWQqOovVYlkeswKMvL1%2F9UbMokh3d7CSCuGpWiZcxE8AOTGBV%2FY%2BixQoNBAi6SnOKIzVOO3W%2BxuxJ4LZO3MaIB4rAS%2BByEMjuggjbpVJQgQl2LfeZgeLBmmQL8YZ1S2D&X-Amz-Signature=7312e1482a15ea17fb871a934fa8ffe009a55916ac9c8f529aa1e051654580dd&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+            "expiry_time": "2026-02-04T08:37:15.661Z"
           }
         }
       },
@@ -5599,5 +5538,5 @@
       }
     ]
   },
-  "syncedAt": "2026-02-04T06:28:02.881Z"
+  "syncedAt": "2026-02-04T07:37:16.658Z"
 }

@@ -79,7 +79,7 @@
           "block_id": "2f144860-a4f4-80a9-9e6f-c654c838faaf"
         },
         "created_time": "2026-01-23T11:12:00.000Z",
-        "last_edited_time": "2026-01-23T11:12:00.000Z",
+        "last_edited_time": "2026-02-04T06:44:00.000Z",
         "created_by": {
           "object": "user",
           "id": "2aed872b-594c-81eb-bc82-000291164988"
@@ -131,7 +131,7 @@
             {
               "type": "text",
               "text": {
-                "content": " 해결할지 구체화할 차례입니다.\n\n하지만 바로 예쁜 화면을 그리는 것은 위험합니다. 사용자가 우리 서비스에 들어와서 목표를 달성하고 나가는 “전체적인 흐름(Scenario)”을 먼저 설계해야 합니다.\n",
+                "content": " 해결할지 구체화할 차례입니다.\n하지만 바로 예쁜 화면을 그리는 것은 위험합니다. 사용자가 우리 서비스에 들어와서 목표를 달성하고 나가는 ",
                 "link": null
               },
               "annotations": {
@@ -142,7 +142,41 @@
                 "code": false,
                 "color": "default"
               },
-              "plain_text": " 해결할지 구체화할 차례입니다.\n\n하지만 바로 예쁜 화면을 그리는 것은 위험합니다. 사용자가 우리 서비스에 들어와서 목표를 달성하고 나가는 “전체적인 흐름(Scenario)”을 먼저 설계해야 합니다.\n",
+              "plain_text": " 해결할지 구체화할 차례입니다.\n하지만 바로 예쁜 화면을 그리는 것은 위험합니다. 사용자가 우리 서비스에 들어와서 목표를 달성하고 나가는 ",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": "“전체적인 흐름(Scenario)”을 먼저 설계",
+                "link": null
+              },
+              "annotations": {
+                "bold": true,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "“전체적인 흐름(Scenario)”을 먼저 설계",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": "해야 합니다.\n",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "해야 합니다.\n",
               "href": null
             }
           ],
@@ -157,7 +191,7 @@
           "block_id": "2f144860-a4f4-80a9-9e6f-c654c838faaf"
         },
         "created_time": "2026-01-23T11:12:00.000Z",
-        "last_edited_time": "2026-01-23T11:12:00.000Z",
+        "last_edited_time": "2026-02-04T06:43:00.000Z",
         "created_by": {
           "object": "user",
           "id": "2aed872b-594c-81eb-bc82-000291164988"
@@ -209,7 +243,7 @@
             {
               "type": "text",
               "text": {
-                "content": "를 익히고, 이를 활용해 사용자의 이야기(User Scenario)를 시각화합니다.\n\nFigma를 단순한 디자인 툴이 아닌, '사고를 정리하고 공유하는 도구'로 활용하는 방법을 배워봅시다.",
+                "content": "를 익히고, 이를 활용해 사용자의 이야기(User Scenario)를 시각화합니다.\nFigma를 단순한 디자인 툴이 아닌, ",
                 "link": null
               },
               "annotations": {
@@ -220,7 +254,41 @@
                 "code": false,
                 "color": "default"
               },
-              "plain_text": "를 익히고, 이를 활용해 사용자의 이야기(User Scenario)를 시각화합니다.\n\nFigma를 단순한 디자인 툴이 아닌, '사고를 정리하고 공유하는 도구'로 활용하는 방법을 배워봅시다.",
+              "plain_text": "를 익히고, 이를 활용해 사용자의 이야기(User Scenario)를 시각화합니다.\nFigma를 단순한 디자인 툴이 아닌, ",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": "'사고를 정리하고 공유하는 도구'",
+                "link": null
+              },
+              "annotations": {
+                "bold": true,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "'사고를 정리하고 공유하는 도구'",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": "로 활용하는 방법을 배워봅시다.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "로 활용하는 방법을 배워봅시다.",
               "href": null
             }
           ],
@@ -283,7 +351,7 @@
           "block_id": "2f144860-a4f4-80ae-9b8d-cf6acc38f973"
         },
         "created_time": "2026-01-23T11:12:00.000Z",
-        "last_edited_time": "2026-01-27T04:28:00.000Z",
+        "last_edited_time": "2026-02-04T06:44:00.000Z",
         "created_by": {
           "object": "user",
           "id": "2aed872b-594c-81eb-bc82-000291164988"
@@ -301,7 +369,24 @@
             {
               "type": "text",
               "text": {
-                "content": "Figma의 기본 인터페이스와 핵심 기능을 능숙하게 다룰 수 있다.",
+                "content": "Figma의 기본 인터페이스와 핵심 기능",
+                "link": null
+              },
+              "annotations": {
+                "bold": true,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Figma의 기본 인터페이스와 핵심 기능",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": "을 능숙하게 다룰 수 있다.",
                 "link": null
               },
               "annotations": {
@@ -312,7 +397,7 @@
                 "code": false,
                 "color": "default"
               },
-              "plain_text": "Figma의 기본 인터페이스와 핵심 기능을 능숙하게 다룰 수 있다.",
+              "plain_text": "을 능숙하게 다룰 수 있다.",
               "href": null
             }
           ],
@@ -327,7 +412,7 @@
           "block_id": "2f144860-a4f4-80ae-9b8d-cf6acc38f973"
         },
         "created_time": "2026-01-23T11:12:00.000Z",
-        "last_edited_time": "2026-01-27T04:28:00.000Z",
+        "last_edited_time": "2026-02-04T06:44:00.000Z",
         "created_by": {
           "object": "user",
           "id": "2aed872b-594c-81eb-bc82-000291164988"
@@ -345,7 +430,7 @@
             {
               "type": "text",
               "text": {
-                "content": "디자인 툴을 활용해 텍스트 기반의 아이디어를 시각적 구조로 변환할 수 있다.",
+                "content": "디자인 툴을 활용해 ",
                 "link": null
               },
               "annotations": {
@@ -356,7 +441,41 @@
                 "code": false,
                 "color": "default"
               },
-              "plain_text": "디자인 툴을 활용해 텍스트 기반의 아이디어를 시각적 구조로 변환할 수 있다.",
+              "plain_text": "디자인 툴을 활용해 ",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": "텍스트 기반의 아이디어를 시각적 구조로 변환",
+                "link": null
+              },
+              "annotations": {
+                "bold": true,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "텍스트 기반의 아이디어를 시각적 구조로 변환",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": "할 수 있다.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "할 수 있다.",
               "href": null
             }
           ],
@@ -371,7 +490,7 @@
           "block_id": "2f144860-a4f4-80ae-9b8d-cf6acc38f973"
         },
         "created_time": "2026-01-23T11:12:00.000Z",
-        "last_edited_time": "2026-01-27T04:28:00.000Z",
+        "last_edited_time": "2026-02-04T06:44:00.000Z",
         "created_by": {
           "object": "user",
           "id": "2aed872b-594c-81eb-bc82-000291164988"
@@ -389,7 +508,7 @@
             {
               "type": "text",
               "text": {
-                "content": "사용자 시나리오의 구조 (배경 → 발단 → 전개/행동 → 결말/목표 달성)를 이해한다.",
+                "content": "사용자 시나리오의 구조",
                 "link": null
               },
               "annotations": {
@@ -400,7 +519,41 @@
                 "code": false,
                 "color": "default"
               },
-              "plain_text": "사용자 시나리오의 구조 (배경 → 발단 → 전개/행동 → 결말/목표 달성)를 이해한다.",
+              "plain_text": "사용자 시나리오의 구조",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": " (배경 → 발단 → 전개/행동 → 결말/목표 달성)를 이해",
+                "link": null
+              },
+              "annotations": {
+                "bold": true,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": " (배경 → 발단 → 전개/행동 → 결말/목표 달성)를 이해",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": "한다.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "한다.",
               "href": null
             }
           ],
@@ -541,7 +694,7 @@
           "block_id": "2f144860-a4f4-8010-85c5-ca4932d96462"
         },
         "created_time": "2026-01-23T11:12:00.000Z",
-        "last_edited_time": "2026-01-27T04:28:00.000Z",
+        "last_edited_time": "2026-02-04T06:45:00.000Z",
         "created_by": {
           "object": "user",
           "id": "2aed872b-594c-81eb-bc82-000291164988"
@@ -559,7 +712,7 @@
             {
               "type": "text",
               "text": {
-                "content": "이번 미션의 최종 결과물은 Figma로 제작된 ‘사용자 시나리오 보드’입니다. 다음 기능이 포함된 Figma 파일을 제출합니다.",
+                "content": "Figma로 제작된 ‘사용자 시나리오 보드’",
                 "link": null
               },
               "annotations": {
@@ -570,10 +723,36 @@
                 "code": false,
                 "color": "default"
               },
-              "plain_text": "이번 미션의 최종 결과물은 Figma로 제작된 ‘사용자 시나리오 보드’입니다. 다음 기능이 포함된 Figma 파일을 제출합니다.",
+              "plain_text": "Figma로 제작된 ‘사용자 시나리오 보드’",
               "href": null
             }
           ],
+          "color": "default"
+        }
+      },
+      {
+        "object": "block",
+        "id": "2fd44860-a4f4-805f-a103-f83b7ca315e4",
+        "parent": {
+          "type": "block_id",
+          "block_id": "2f144860-a4f4-8010-85c5-ca4932d96462"
+        },
+        "created_time": "2026-02-04T07:13:00.000Z",
+        "last_edited_time": "2026-02-04T07:13:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "has_children": false,
+        "archived": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
           "color": "default"
         }
       },
@@ -630,7 +809,7 @@
           "block_id": "2f144860-a4f4-8010-85c5-ca4932d96462"
         },
         "created_time": "2026-01-23T11:12:00.000Z",
-        "last_edited_time": "2026-02-03T06:40:00.000Z",
+        "last_edited_time": "2026-02-04T06:44:00.000Z",
         "created_by": {
           "object": "user",
           "id": "2aed872b-594c-81eb-bc82-000291164988"
@@ -648,7 +827,7 @@
             {
               "type": "text",
               "text": {
-                "content": "도형과 텍스트를 활용해 간단한 자기소개 카드나 명함을 제작해봅니다. (툴 적응용)\n\n",
+                "content": "도형과 텍스트를 활용해 간단한 자기소개 카드나 명함을 제작해봅니다. (툴 적응용)",
                 "link": null
               },
               "annotations": {
@@ -659,40 +838,118 @@
                 "code": false,
                 "color": "default"
               },
-              "plain_text": "도형과 텍스트를 활용해 간단한 자기소개 카드나 명함을 제작해봅니다. (툴 적응용)\n\n",
+              "plain_text": "도형과 텍스트를 활용해 간단한 자기소개 카드나 명함을 제작해봅니다. (툴 적응용)",
               "href": null
-            },
-            {
-              "type": "mention",
-              "mention": {
-                "type": "link_mention",
-                "link_mention": {
-                  "href": "https://www.youtube.com/watch?v=OHZC19qtqUo&list=PLkbzizJk4Ae-jfAQ7mlGzyWnHz98gBPQh",
-                  "title": "피그마 기초부터 마스터까지  - 피그마 강좌 1-1",
-                  "padding": 56,
-                  "icon_url": "https://www.youtube.com/s/desktop/e2b70753/img/favicon_144x144.png",
-                  "iframe_url": "https://www.youtube.com/embed/OHZC19qtqUo?rel=0",
-                  "description": "제가 작년에 피그마(Figma) 강의를 새롭게 올린지 얼마 안지나 UI가 달라지고, 피그마가 많은 업데이트가 있어서 더욱 좋아졌습니다. 다양한 좋은 기능들이 생겨서 하나하나 자세하게 소개해드릴게요. 해당 강의를 통해 피그마 최신 기능을 배워보세요~!\n\n❤️‍🔥 피그마 APP UI 템플릿 : https://buly.kr/90Zu8sc\n❤️‍🔥 피그마 WEB UI 템플릿 : https://buly.kr/uTa8kx\n❤️‍🔥 피그마 상세페이지 템플릿 : https://buly.kr/6Xmc5ad\n\n🚀 멤버십 가입 : https://www.youtube.com/channel/UCvYnDMeL-PFZhfIz6oc_U-Q/join\n\n🔥 디자인베이스 웹사이트 : http://designbase.co.kr/\n🔥 인스타그램 : https://www.instagram.com/designbasekorea/\n🔥 이메일 문의 : designbasekorea@gmail.com\n🔥 카카오 오픈채팅방 : https://open.kakao.com/o/gmwngljb  (참여코드 : dgoing12)",
-                  "link_author": "디자인베이스",
-                  "link_provider": "YouTube",
-                  "thumbnail_url": "https://i.ytimg.com/vi/OHZC19qtqUo/maxresdefault.jpg"
-                }
-              },
-              "annotations": {
-                "bold": false,
-                "italic": false,
-                "strikethrough": false,
-                "underline": false,
-                "code": false,
-                "color": "default"
-              },
-              "plain_text": "https://www.youtube.com/watch?v=OHZC19qtqUo&list=PLkbzizJk4Ae-jfAQ7mlGzyWnHz98gBPQh",
-              "href": "https://www.youtube.com/watch?v=OHZC19qtqUo&list=PLkbzizJk4Ae-jfAQ7mlGzyWnHz98gBPQh"
             }
           ],
           "color": "default"
         },
         "children": [
+          {
+            "object": "block",
+            "id": "2fd44860-a4f4-8070-956d-f5eac7a58037",
+            "parent": {
+              "type": "block_id",
+              "block_id": "2f144860-a4f4-80c5-8821-dea978c3bbba"
+            },
+            "created_time": "2026-02-04T06:44:00.000Z",
+            "last_edited_time": "2026-02-04T06:44:00.000Z",
+            "created_by": {
+              "object": "user",
+              "id": "2aed872b-594c-81eb-bc82-000291164988"
+            },
+            "last_edited_by": {
+              "object": "user",
+              "id": "2aed872b-594c-81eb-bc82-000291164988"
+            },
+            "has_children": false,
+            "archived": false,
+            "in_trash": false,
+            "type": "paragraph",
+            "paragraph": {
+              "rich_text": [
+                {
+                  "type": "text",
+                  "text": {
+                    "content": "\n",
+                    "link": null
+                  },
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  },
+                  "plain_text": "\n",
+                  "href": null
+                },
+                {
+                  "type": "text",
+                  "text": {
+                    "content": "[참고 링크]",
+                    "link": null
+                  },
+                  "annotations": {
+                    "bold": true,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  },
+                  "plain_text": "[참고 링크]",
+                  "href": null
+                },
+                {
+                  "type": "text",
+                  "text": {
+                    "content": "\n",
+                    "link": null
+                  },
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  },
+                  "plain_text": "\n",
+                  "href": null
+                },
+                {
+                  "type": "mention",
+                  "mention": {
+                    "type": "link_mention",
+                    "link_mention": {
+                      "href": "https://www.youtube.com/watch?v=OHZC19qtqUo&list=PLkbzizJk4Ae-jfAQ7mlGzyWnHz98gBPQh",
+                      "title": "피그마 기초부터 마스터까지  - 피그마 강좌 1-1",
+                      "padding": 56,
+                      "icon_url": "https://www.youtube.com/s/desktop/e2b70753/img/favicon_144x144.png",
+                      "iframe_url": "https://www.youtube.com/embed/OHZC19qtqUo?rel=0",
+                      "description": "제가 작년에 피그마(Figma) 강의를 새롭게 올린지 얼마 안지나 UI가 달라지고, 피그마가 많은 업데이트가 있어서 더욱 좋아졌습니다. 다양한 좋은 기능들이 생겨서 하나하나 자세하게 소개해드릴게요. 해당 강의를 통해 피그마 최신 기능을 배워보세요~!\n\n❤️‍🔥 피그마 APP UI 템플릿 : https://buly.kr/90Zu8sc\n❤️‍🔥 피그마 WEB UI 템플릿 : https://buly.kr/uTa8kx\n❤️‍🔥 피그마 상세페이지 템플릿 : https://buly.kr/6Xmc5ad\n\n🚀 멤버십 가입 : https://www.youtube.com/channel/UCvYnDMeL-PFZhfIz6oc_U-Q/join\n\n🔥 디자인베이스 웹사이트 : http://designbase.co.kr/\n🔥 인스타그램 : https://www.instagram.com/designbasekorea/\n🔥 이메일 문의 : designbasekorea@gmail.com\n🔥 카카오 오픈채팅방 : https://open.kakao.com/o/gmwngljb  (참여코드 : dgoing12)",
+                      "link_author": "디자인베이스",
+                      "link_provider": "YouTube",
+                      "thumbnail_url": "https://i.ytimg.com/vi/OHZC19qtqUo/maxresdefault.jpg"
+                    }
+                  },
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  },
+                  "plain_text": "https://www.youtube.com/watch?v=OHZC19qtqUo&list=PLkbzizJk4Ae-jfAQ7mlGzyWnHz98gBPQh",
+                  "href": "https://www.youtube.com/watch?v=OHZC19qtqUo&list=PLkbzizJk4Ae-jfAQ7mlGzyWnHz98gBPQh"
+                }
+              ],
+              "color": "default"
+            }
+          },
           {
             "object": "block",
             "id": "2fc44860-a4f4-80c9-a3e3-d39eef32197f",
@@ -701,7 +958,7 @@
               "block_id": "2f144860-a4f4-80c5-8821-dea978c3bbba"
             },
             "created_time": "2026-02-03T06:40:00.000Z",
-            "last_edited_time": "2026-02-03T06:40:00.000Z",
+            "last_edited_time": "2026-02-04T06:44:00.000Z",
             "created_by": {
               "object": "user",
               "id": "2aed872b-594c-81eb-bc82-000291164988"
@@ -913,7 +1170,7 @@
           "block_id": "2f144860-a4f4-8010-85c5-ca4932d96462"
         },
         "created_time": "2026-01-23T11:12:00.000Z",
-        "last_edited_time": "2026-02-03T06:39:00.000Z",
+        "last_edited_time": "2026-02-04T06:46:00.000Z",
         "created_by": {
           "object": "user",
           "id": "2aed872b-594c-81eb-bc82-000291164988"
@@ -951,13 +1208,83 @@
         "children": [
           {
             "object": "block",
+            "id": "2fd44860-a4f4-805b-af36-f0aab7ad65e6",
+            "parent": {
+              "type": "block_id",
+              "block_id": "2f144860-a4f4-80e9-9744-fd6cede07dac"
+            },
+            "created_time": "2026-02-04T06:46:00.000Z",
+            "last_edited_time": "2026-02-04T06:46:00.000Z",
+            "created_by": {
+              "object": "user",
+              "id": "2aed872b-594c-81eb-bc82-000291164988"
+            },
+            "last_edited_by": {
+              "object": "user",
+              "id": "2aed872b-594c-81eb-bc82-000291164988"
+            },
+            "has_children": false,
+            "archived": false,
+            "in_trash": false,
+            "type": "paragraph",
+            "paragraph": {
+              "rich_text": [],
+              "color": "default"
+            }
+          },
+          {
+            "object": "block",
+            "id": "2fd44860-a4f4-8042-9113-c123e5d17922",
+            "parent": {
+              "type": "block_id",
+              "block_id": "2f144860-a4f4-80e9-9744-fd6cede07dac"
+            },
+            "created_time": "2026-02-04T06:44:00.000Z",
+            "last_edited_time": "2026-02-04T06:46:00.000Z",
+            "created_by": {
+              "object": "user",
+              "id": "2aed872b-594c-81eb-bc82-000291164988"
+            },
+            "last_edited_by": {
+              "object": "user",
+              "id": "2aed872b-594c-81eb-bc82-000291164988"
+            },
+            "has_children": false,
+            "archived": false,
+            "in_trash": false,
+            "type": "paragraph",
+            "paragraph": {
+              "rich_text": [
+                {
+                  "type": "text",
+                  "text": {
+                    "content": "[참고 링크]",
+                    "link": null
+                  },
+                  "annotations": {
+                    "bold": true,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  },
+                  "plain_text": "[참고 링크]",
+                  "href": null
+                }
+              ],
+              "color": "default"
+            }
+          },
+          {
+            "object": "block",
             "id": "2fc44860-a4f4-80b4-a206-da5963a9dd41",
             "parent": {
               "type": "block_id",
               "block_id": "2f144860-a4f4-80e9-9744-fd6cede07dac"
             },
             "created_time": "2026-02-03T06:39:00.000Z",
-            "last_edited_time": "2026-02-03T06:39:00.000Z",
+            "last_edited_time": "2026-02-04T06:46:00.000Z",
             "created_by": {
               "object": "user",
               "id": "2aed872b-594c-81eb-bc82-000291164988"
@@ -1328,7 +1655,7 @@
           "block_id": "2f144860-a4f4-8120-9697-d48a5bffb081"
         },
         "created_time": "2026-01-23T11:13:00.000Z",
-        "last_edited_time": "2026-02-03T10:31:00.000Z",
+        "last_edited_time": "2026-02-04T06:45:00.000Z",
         "created_by": {
           "object": "user",
           "id": "2aed872b-594c-81eb-bc82-000291164988"
@@ -1359,77 +1686,6 @@
               },
               "plain_text": "2. 스토리보드 구성",
               "href": null
-            }
-          ],
-          "is_toggleable": false,
-          "color": "default"
-        }
-      },
-      {
-        "object": "block",
-        "id": "2f144860-a4f4-81cd-bbb5-ece113687c10",
-        "parent": {
-          "type": "block_id",
-          "block_id": "2f144860-a4f4-8120-9697-d48a5bffb081"
-        },
-        "created_time": "2026-01-23T11:13:00.000Z",
-        "last_edited_time": "2026-02-03T10:31:00.000Z",
-        "created_by": {
-          "object": "user",
-          "id": "2aed872b-594c-81eb-bc82-000291164988"
-        },
-        "last_edited_by": {
-          "object": "user",
-          "id": "2aed872b-594c-81eb-bc82-000291164988"
-        },
-        "has_children": false,
-        "archived": false,
-        "in_trash": false,
-        "type": "paragraph",
-        "paragraph": {
-          "rich_text": [
-            {
-              "type": "mention",
-              "mention": {
-                "type": "link_mention",
-                "link_mention": {
-                  "href": "http://figma.com/design/wbNWxTsdFrvrdYHNgWKQB3/WebApp-Storyborad-team-library--Community-?node-id=0-1&t=GzxT5xMVhN0Wq3ro-1",
-                  "title": "WebApp Storyborad team library (Community)",
-                  "height": 450,
-                  "icon_url": "https://static.figma.com/uploads/1a667ef53b7c4837049399d0593ffca39e0bec9e",
-                  "iframe_url": "https://embed.figma.com/design/wbNWxTsdFrvrdYHNgWKQB3/WebApp-Storyborad-team-library--Community-?embed-host=iframely&node-id=0-1&page-selector=1&theme=light",
-                  "description": "Created with Figma",
-                  "link_provider": "Figma",
-                  "thumbnail_url": "https://www.figma.com/file/wbNWxTsdFrvrdYHNgWKQB3/thumbnail?ver=thumbnails%2F6dfc763c-c260-486e-9827-c260b0b4204b&t=GzxT5xMVhN0Wq3ro-1"
-                }
-              },
-              "annotations": {
-                "bold": false,
-                "italic": false,
-                "strikethrough": false,
-                "underline": false,
-                "code": false,
-                "color": "default"
-              },
-              "plain_text": "http://figma.com/design/wbNWxTsdFrvrdYHNgWKQB3/WebApp-Storyborad-team-library--Community-?node-id=0-1&t=GzxT5xMVhN0Wq3ro-1",
-              "href": "http://figma.com/design/wbNWxTsdFrvrdYHNgWKQB3/WebApp-Storyborad-team-library--Community-?node-id=0-1&t=GzxT5xMVhN0Wq3ro-1"
-            },
-            {
-              "type": "text",
-              "text": {
-                "content": "\n",
-                "link": null
-              },
-              "annotations": {
-                "bold": false,
-                "italic": false,
-                "strikethrough": false,
-                "underline": false,
-                "code": false,
-                "color": "default"
-              },
-              "plain_text": "\n",
-              "href": null
             },
             {
               "type": "mention",
@@ -1451,6 +1707,7 @@
               "href": ""
             }
           ],
+          "is_toggleable": false,
           "color": "default"
         }
       },
@@ -1479,8 +1736,8 @@
           "caption": [],
           "type": "file",
           "file": {
-            "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/c69962b0-3951-485b-b10a-5bb29576bba8/43838288-8f18-4ce9-8cde-8cec425c6e0e/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466S2OKOSIK%2F20260204%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260204T062958Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEEYaCXVzLXdlc3QtMiJHMEUCIQCtYqJEY%2F0dJQ2wOmbC29nQu1IDqfyKTM%2BdSL3hivcgEwIgLNoHJE4CbhLb4GagSha3j8Fbh7IFLHPunkqOtoL7xqoq%2FwMIDxAAGgw2Mzc0MjMxODM4MDUiDOCoUF2SZ776CNyArCrcAxcP61dfkrNR7VjNEnh3Y6fdSL5dtU3wnDsaKSrtVx%2FJ3kNIY7R4F9IjhlQJT27yZQdIAbFZ%2B5ZvoYAgEySwKb%2FIhN456NzIkNmy0DVEW9aqSNozv7YNtJaUs6A9gLRtTlOngKV8brUqKS6W8ecUsyKuo0%2FizzrRwIv20kXY%2B%2BkD3kUcXjp6aNhJ4E8EqVU8NhpWWkcS2lPmPJUp3QFDj0Z4GTBxrlFqAvzdEAWLgLxCno7N0N03wywunlV0Hwz0Q7CG6C7sGAyITk1TfwMGGMlYdANjPD1BtwifDbyQPplhb42mV9GqcYGLnQyAk0cr1Cc3HedsZL91ekgzuuaWYNRVMECQT3ZkU1g2pO8NVfSuVUugSvIMFQXn2zV5Zi3q5kxLImW8YKFAoS12YUGdRssBh2c4RWNV6%2BcPQTTZWRqpbqKQ0Cxnfc1sbTWhJ4cz%2BIIZWlsfFojV6kf9K%2BJF%2FU7aVgRdqL43WPYQhvL4HAQW%2BHyifErzTz6XGk7mvnkPvNtm%2BBO%2Fec%2BIlFhAaRfpA%2BuSNuHXgJessQHNQ8XDtTZpMc7priuQRe2cANHDI0qJQiyuUIUs%2BZYi2rU5Jyp%2BVa9XAVTIMcnT%2BSPBw3eo9hg7XpG3IyjfvSj9EtBUMMHEi8wGOqUBmspFN1BD9YDCzAfiCBPB2QTmn%2Bt2Za%2BD0NlYsPI3AlRQ%2F3qz2EB2pHeLxWLXHVmFnlzgi4tJsWNXKYD6rqC5mF3zhqXdfRJxd5Vd4RByeql23s6vDjL6D%2BjK8HP9%2FMoxDjvH2%2Fb1BryPtvYR%2BOxoZPzBTRTMY19W%2ByNKT9e6CuKY86R3FDY0FxmlpFeHIkaEWHQ%2FFiH9wzJFALB%2B%2FX5%2B%2BwZKrBCs&X-Amz-Signature=91d29f15ed026823659f35d60348d9632a9c17f44fdf6e72d5923d9ddd60905f&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
-            "expiry_time": "2026-02-04T07:29:58.267Z"
+            "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/c69962b0-3951-485b-b10a-5bb29576bba8/43838288-8f18-4ce9-8cde-8cec425c6e0e/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4667Q4G36IY%2F20260204%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260204T073907Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEEYaCXVzLXdlc3QtMiJHMEUCIDKexPteHYHTHYFR21H81tdArZ4TYRv7FRzSGM8XX30EAiEAqoFGdN0KXs4qH5HzluXHrsosuyxCKXHuAqS1iPPiTIUq%2FwMIDxAAGgw2Mzc0MjMxODM4MDUiDEJh%2F2qc8Z2FGHoGnyrcA0FT1bRWC87iKH0zcPJHSWE4VbVkTOzTCRuij8b%2BExN1tjW71HpI%2FaKn%2BZm2pawpUIeSwfpcC1XK5UYIYiJ2V1wMhNFKakastinbC1pQIUOlQc%2FpV3aIbOl3uunzPLT1VWjprZTunDQ%2FrhumF8iR9Ju8bOeuaQJP4UR7dLpc8Fpex3UPpSJKN91Im7NhstpwE%2F0Bic7Zienv1TRQdN8c%2FlJHYvYd9oVeXjfdBBeebfQuKjpsLOEtRLHEwwtrFGmdJJPC7MpXfqn3yJ9woqtvbA70hEnFmeIEYuXxnRCigP1U5N3SAA36x3o3gTPBWa%2F2jySZHxsUo3gIVaIug5t%2FLv8uTjCXovSNUkssWkgIebRdm%2FD4hfCzrssNGaDxTRDN2%2B8JEImJMRhhQlkR%2B4One5cHbVVjsE1KZVLGC1m5zxeyOJtBOaWMPnLWwCVPl%2FAb%2BEhaWZI9pFtnWo2%2FskkU%2Bx%2F9HAlKkMg1dpr4xbFevdNaVr9fg7HEkq5feQ3i3rDIZ8XrbNaaUy0wJ7f%2BH2Le%2FzxJd3VQmDiULOU9UUGZVY%2Bwle6MpAWRUt85%2FhJTwG6irfmm5EPkQQo5u8Z2hGDlkazErmkvPxZkBvrRT5D0AfqqJ50%2F8rr9iEw5wqfbMN%2FEi8wGOqUBBgmf8bDhMrIdvvf6U3dAPc4gP%2B%2Bd45yCFzee9vJ0pUW3dU1%2BLNf9ex1mWvl7xI59QF6OHAx%2FiQ5X8pSZ4V1Qp%2F0zEMTo3v%2BLU9lP2BFNd5Nma%2BPevVAFfrfdlyO%2BT6lwQIItjsrqoeCCGmL7r19vSrg3vwLYJX4f63isJwLwWuib%2FzE14nI8iXGZKnzeUVMCOPIUXH3WPqcjjHZC2urvKlUIs%2Ba3&X-Amz-Signature=e97032093c082dbc0968cdeff9b154d875f44e882775ff0c294d6d78aa72d072&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+            "expiry_time": "2026-02-04T08:39:07.038Z"
           }
         }
       },
@@ -1675,7 +1932,7 @@
           "block_id": "2f144860-a4f4-8120-9697-d48a5bffb081"
         },
         "created_time": "2026-01-23T11:13:00.000Z",
-        "last_edited_time": "2026-01-27T04:31:00.000Z",
+        "last_edited_time": "2026-02-04T06:45:00.000Z",
         "created_by": {
           "object": "user",
           "id": "2aed872b-594c-81eb-bc82-000291164988"
@@ -1723,6 +1980,129 @@
               },
               "plain_text": " 문제가 해결되어 만족하는 상태",
               "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "object": "block",
+        "id": "2fd44860-a4f4-80cd-aec0-ebe4e3621fbe",
+        "parent": {
+          "type": "block_id",
+          "block_id": "2f144860-a4f4-8120-9697-d48a5bffb081"
+        },
+        "created_time": "2026-02-04T06:47:00.000Z",
+        "last_edited_time": "2026-02-04T06:47:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "has_children": false,
+        "archived": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "color": "default"
+        }
+      },
+      {
+        "object": "block",
+        "id": "2fd44860-a4f4-8018-ae5e-ea7373f2b487",
+        "parent": {
+          "type": "block_id",
+          "block_id": "2f144860-a4f4-8120-9697-d48a5bffb081"
+        },
+        "created_time": "2026-02-04T06:47:00.000Z",
+        "last_edited_time": "2026-02-04T06:47:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "has_children": false,
+        "archived": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "[참고 링크]",
+                "link": null
+              },
+              "annotations": {
+                "bold": true,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "[참고 링크]",
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "object": "block",
+        "id": "2fd44860-a4f4-80ad-b9d1-cf5fd54fb957",
+        "parent": {
+          "type": "block_id",
+          "block_id": "2f144860-a4f4-8120-9697-d48a5bffb081"
+        },
+        "created_time": "2026-02-04T06:45:00.000Z",
+        "last_edited_time": "2026-02-04T06:46:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "has_children": false,
+        "archived": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "mention",
+              "mention": {
+                "type": "link_mention",
+                "link_mention": {
+                  "href": "http://figma.com/design/wbNWxTsdFrvrdYHNgWKQB3/WebApp-Storyborad-team-library--Community-?node-id=0-1&t=GzxT5xMVhN0Wq3ro-1",
+                  "title": "WebApp Storyborad team library (Community)",
+                  "height": 450,
+                  "icon_url": "https://static.figma.com/uploads/1a667ef53b7c4837049399d0593ffca39e0bec9e",
+                  "iframe_url": "https://embed.figma.com/design/wbNWxTsdFrvrdYHNgWKQB3/WebApp-Storyborad-team-library--Community-?embed-host=iframely&node-id=0-1&page-selector=1&theme=light",
+                  "description": "Created with Figma",
+                  "link_provider": "Figma",
+                  "thumbnail_url": "https://www.figma.com/file/wbNWxTsdFrvrdYHNgWKQB3/thumbnail?ver=thumbnails%2F6dfc763c-c260-486e-9827-c260b0b4204b&t=GzxT5xMVhN0Wq3ro-1"
+                }
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "http://figma.com/design/wbNWxTsdFrvrdYHNgWKQB3/WebApp-Storyborad-team-library--Community-?node-id=0-1&t=GzxT5xMVhN0Wq3ro-1",
+              "href": "http://figma.com/design/wbNWxTsdFrvrdYHNgWKQB3/WebApp-Storyborad-team-library--Community-?node-id=0-1&t=GzxT5xMVhN0Wq3ro-1"
             }
           ],
           "color": "default"
@@ -2002,8 +2382,8 @@
           "caption": [],
           "type": "file",
           "file": {
-            "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/c69962b0-3951-485b-b10a-5bb29576bba8/ca6c4cd3-429b-4567-a007-d6c16fd5169d/%E1%84%80%E1%85%B5%E1%84%83%E1%85%B5_2%E1%84%8C%E1%85%AE%E1%84%8E%E1%85%A1.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466XOEOWJKU%2F20260204%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260204T062959Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEEYaCXVzLXdlc3QtMiJGMEQCIG5VFsSXUlUYl9u7j%2BExebbIvJNjR%2B1Ey232MiZpQ2i%2FAiB0N4mlQvdRt6Wrb9Hf60dHxfA6hWzkBNLlql4Y2k8Hryr%2FAwgPEAAaDDYzNzQyMzE4MzgwNSIMEDaNtBrziaupVM2%2BKtwDIQhevCf1PGXwylOwvonmen6q5dIs0SqO%2BSwoX2DxrkmFl640FLgifrVApnZQzQFMByNCXT6cJ2vf55Q3WFX7oE8Y1G3A3S8GK41W3Wga%2BH2nFINiS6OaX2I29QP22ecW9qZVZ43K26pNViFAEqntGhTOPab%2Bo6K%2BZQeDFulaeOz%2FkYpS%2BFPNpU1Dj6PxgkyXxE%2Fl0ckT4wSj0GoQ12Oz6oW6VdfX3QmEwHfh7IW81A5NOyk0ehNoSeit25FX9%2FK0xjWa%2BgUur8WdBmGJ76lLn4lIk%2FXLetHleudSmsaIMSfstg9LFGciIG7vIdFA1vm2HE9skjfvIaA8Z%2FPjp9%2BT%2F6DoDaqGmPek%2Bur9y35mb%2F8sxvXil7U5ng7ckElLhSoMmQ8AtuhqURJP%2FRXKVhkNhh8EOREr7nxA3SasUfTuIrU3e4fZeiJGjwhYPR4G5hxgUo2oM4ZFwr0PDw79NeicIcTfu72d8klkjJU8zw%2F8NgCfcAwH8CkjLy%2FGp1QzOFKJtnLL%2FAVNQ6fTHutuywBTvyzJXZP1zfWVp1WyiQ7RwWiHQKwc96QzMNYMvGtqikAuPFTAbeqQ1TgoBZTHGtLvnS2ZFvHW2CP0QyfeB%2BLMzWsPIEGAfRNFXh2TsO4wwcSLzAY6pgEG%2FfK9%2FFCGL73XEQ9T2BgvkTnu9SsN517Tx8kzbqZ8n3ZtxGScTIR3Lrnea%2F8J7c8r9j2lO%2FACsfWiky%2F%2FI3yPg3ZASu%2BedqiCO7og6hp7wc9Qaa7ngYKy3llaIF7l7E2k5NvXrNaG6%2FhHZrNEpO5OeVo2Q66%2Fj%2BdaYDqs33bziz5asYRME%2FqOEZK1oGzHBy3DuliDa4KFEmx10finbZjv7GzHo1JG&X-Amz-Signature=628fdc7f7bac811d1af68d5d6678e65b92f035bfa04671b6ba2e46b701990ab3&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
-            "expiry_time": "2026-02-04T07:29:59.940Z"
+            "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/c69962b0-3951-485b-b10a-5bb29576bba8/ca6c4cd3-429b-4567-a007-d6c16fd5169d/%E1%84%80%E1%85%B5%E1%84%83%E1%85%B5_2%E1%84%8C%E1%85%AE%E1%84%8E%E1%85%A1.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4664MTWBOT4%2F20260204%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260204T073908Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEEYaCXVzLXdlc3QtMiJGMEQCIBSfTScPkiC2aVkh5hWZrTGfSjIQA2BkFgjlk9MI3mqkAiAVf1ZP2wtHFI%2Bfc9PyKEgTuxYR95PXlTqy6NMG4Pw%2FAir%2FAwgPEAAaDDYzNzQyMzE4MzgwNSIM6BhybRhGqkpzCppBKtwD5CPpD%2Fl%2BqliyOunWQAXVTQ9zlrg%2FdWp5qt63541Qw14mWQqlu%2F4wQe5urGJPGm02y70to7rgYYmdn4N9UFjZxh3DnaxRGJ53jxbbTIKpJykzEGPaBrwmx0Pq7fbeh7ET8V5jIab%2FrVFY58Ii%2FQAcoku7jyjTPrCS2klppXvI2WndUbdq8tPhiG6XwwID%2BsWqcYri2BhoFagk42eqplUo81%2BG%2FPeo%2FMHaaL6cIynS6qXfJjL1s9Ijt6waVVLPa25SVT5wd3fPEJ3cBMvBsrbza1fOE3v%2BxaQr9qykcXbvvsjRkdFHk5z%2F1m5KqL8PoKNo%2FuYIBS%2Bkb0XXLFvNc9NZotD34YacOeuNczft6Knuz2c1i2gScIeqtbQKmPh%2Ff3XYHWkNJ69sgnh4ex%2FdbcyVKEI4iDMW5JTsYzJbESI%2BOoFV%2F24w%2BDIktimZ2UbLq%2B2bxnfWsHVKBr9qKZnI6myGpnmxCkBszonqq9rCKdSuioUuM%2BvslkdRrxbS64wuoIILFFqyRbYiYVblYOW6ELlN5HnkUnOwzx%2BbNqjGRFy5Ywq8lbWgBEDlp0%2BsqJJr2PFhJTBagX434FlcJHprOWa3orzNM1fPSPuMdPNO%2F%2FoBv9NKDh64vijAWoQ6hakw5cSLzAY6pgE5HjDLl9KEuXVJZwz5SYM4YHMW%2FqEqBTrFLMQoKEg1vbnahxJrt%2Bxwc1pHkgeTTDdaj%2FqobqKa6vByCIOmZ0yI%2BD5EZSa4yB1%2Fvr5n4Ynp6mfNWkrIo30AsgZP%2FIkVEHa1TRTLKx1KODNnauX8SGvwA1Zv3INKVmpa%2Bq9eNiX6JOT7z%2BoQvMaqT3uIE0w5AGwTJfQ%2ByPAwVysSwlSgJ%2BiMuXdl92ym&X-Amz-Signature=0b379a76f0d9910e0e6351e2a054b22d0e4c29bd104d14f1b588959b24aeec84&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+            "expiry_time": "2026-02-04T08:39:08.642Z"
           }
         }
       },
@@ -2541,7 +2921,7 @@
           "block_id": "2f144860-a4f4-80c4-8c87-ef34463dfb92"
         },
         "created_time": "2026-01-23T11:14:00.000Z",
-        "last_edited_time": "2026-01-23T11:14:00.000Z",
+        "last_edited_time": "2026-02-04T06:46:00.000Z",
         "created_by": {
           "object": "user",
           "id": "2aed872b-594c-81eb-bc82-000291164988"
@@ -2576,7 +2956,7 @@
             {
               "type": "text",
               "text": {
-                "content": " 픽셀 단위의 정교한 정렬보다는 ",
+                "content": " 픽셀 단위의 정교한 정렬보다는 내용 전달에 집중해주세요.",
                 "link": null
               },
               "annotations": {
@@ -2587,41 +2967,7 @@
                 "code": false,
                 "color": "default"
               },
-              "plain_text": " 픽셀 단위의 정교한 정렬보다는 ",
-              "href": null
-            },
-            {
-              "type": "text",
-              "text": {
-                "content": "내용 전달",
-                "link": null
-              },
-              "annotations": {
-                "bold": true,
-                "italic": false,
-                "strikethrough": false,
-                "underline": false,
-                "code": false,
-                "color": "default"
-              },
-              "plain_text": "내용 전달",
-              "href": null
-            },
-            {
-              "type": "text",
-              "text": {
-                "content": "에 집중해주세요.",
-                "link": null
-              },
-              "annotations": {
-                "bold": false,
-                "italic": false,
-                "strikethrough": false,
-                "underline": false,
-                "code": false,
-                "color": "default"
-              },
-              "plain_text": "에 집중해주세요.",
+              "plain_text": " 픽셀 단위의 정교한 정렬보다는 내용 전달에 집중해주세요.",
               "href": null
             }
           ],
@@ -2790,7 +3136,7 @@
           "block_id": "2f144860-a4f4-80d5-99ce-f4ccc8d363dc"
         },
         "created_time": "2026-01-23T11:15:00.000Z",
-        "last_edited_time": "2026-02-03T06:41:00.000Z",
+        "last_edited_time": "2026-02-04T06:47:00.000Z",
         "created_by": {
           "object": "user",
           "id": "2aed872b-594c-81eb-bc82-000291164988"
@@ -2828,13 +3174,83 @@
         "children": [
           {
             "object": "block",
+            "id": "2fd44860-a4f4-804f-bdd9-f6a8b3276fb9",
+            "parent": {
+              "type": "block_id",
+              "block_id": "2f144860-a4f4-80be-8ee7-f1b9f246f05f"
+            },
+            "created_time": "2026-02-04T06:47:00.000Z",
+            "last_edited_time": "2026-02-04T06:47:00.000Z",
+            "created_by": {
+              "object": "user",
+              "id": "2aed872b-594c-81eb-bc82-000291164988"
+            },
+            "last_edited_by": {
+              "object": "user",
+              "id": "2aed872b-594c-81eb-bc82-000291164988"
+            },
+            "has_children": false,
+            "archived": false,
+            "in_trash": false,
+            "type": "paragraph",
+            "paragraph": {
+              "rich_text": [],
+              "color": "default"
+            }
+          },
+          {
+            "object": "block",
+            "id": "2fd44860-a4f4-80a5-abe2-c3dfdf60cec4",
+            "parent": {
+              "type": "block_id",
+              "block_id": "2f144860-a4f4-80be-8ee7-f1b9f246f05f"
+            },
+            "created_time": "2026-02-04T06:47:00.000Z",
+            "last_edited_time": "2026-02-04T06:47:00.000Z",
+            "created_by": {
+              "object": "user",
+              "id": "2aed872b-594c-81eb-bc82-000291164988"
+            },
+            "last_edited_by": {
+              "object": "user",
+              "id": "2aed872b-594c-81eb-bc82-000291164988"
+            },
+            "has_children": false,
+            "archived": false,
+            "in_trash": false,
+            "type": "paragraph",
+            "paragraph": {
+              "rich_text": [
+                {
+                  "type": "text",
+                  "text": {
+                    "content": "[참고 링크]",
+                    "link": null
+                  },
+                  "annotations": {
+                    "bold": true,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  },
+                  "plain_text": "[참고 링크]",
+                  "href": null
+                }
+              ],
+              "color": "default"
+            }
+          },
+          {
+            "object": "block",
             "id": "2fc44860-a4f4-805c-addc-da52300f1e48",
             "parent": {
               "type": "block_id",
               "block_id": "2f144860-a4f4-80be-8ee7-f1b9f246f05f"
             },
             "created_time": "2026-02-03T06:41:00.000Z",
-            "last_edited_time": "2026-02-03T06:41:00.000Z",
+            "last_edited_time": "2026-02-04T06:47:00.000Z",
             "created_by": {
               "object": "user",
               "id": "2aed872b-594c-81eb-bc82-000291164988"
@@ -2951,7 +3367,7 @@
           "block_id": "2f144860-a4f4-80d5-99ce-f4ccc8d363dc"
         },
         "created_time": "2026-01-23T11:16:00.000Z",
-        "last_edited_time": "2026-01-23T11:17:00.000Z",
+        "last_edited_time": "2026-02-04T06:47:00.000Z",
         "created_by": {
           "object": "user",
           "id": "2aed872b-594c-81eb-bc82-000291164988"
@@ -2995,7 +3411,7 @@
               "block_id": "2f144860-a4f4-8008-a271-dcf6b144154a"
             },
             "created_time": "2026-01-23T11:17:00.000Z",
-            "last_edited_time": "2026-01-23T11:17:00.000Z",
+            "last_edited_time": "2026-02-04T06:47:00.000Z",
             "created_by": {
               "object": "user",
               "id": "2aed872b-594c-81eb-bc82-000291164988"
@@ -3033,13 +3449,83 @@
             "children": [
               {
                 "object": "block",
+                "id": "2fd44860-a4f4-80f9-a235-f2f252ea17a1",
+                "parent": {
+                  "type": "block_id",
+                  "block_id": "2f144860-a4f4-8095-b62f-c96ce24d0934"
+                },
+                "created_time": "2026-02-04T06:47:00.000Z",
+                "last_edited_time": "2026-02-04T06:47:00.000Z",
+                "created_by": {
+                  "object": "user",
+                  "id": "2aed872b-594c-81eb-bc82-000291164988"
+                },
+                "last_edited_by": {
+                  "object": "user",
+                  "id": "2aed872b-594c-81eb-bc82-000291164988"
+                },
+                "has_children": false,
+                "archived": false,
+                "in_trash": false,
+                "type": "paragraph",
+                "paragraph": {
+                  "rich_text": [],
+                  "color": "default"
+                }
+              },
+              {
+                "object": "block",
+                "id": "2fd44860-a4f4-804d-96ce-e44ede5194c9",
+                "parent": {
+                  "type": "block_id",
+                  "block_id": "2f144860-a4f4-8095-b62f-c96ce24d0934"
+                },
+                "created_time": "2026-02-04T06:47:00.000Z",
+                "last_edited_time": "2026-02-04T06:47:00.000Z",
+                "created_by": {
+                  "object": "user",
+                  "id": "2aed872b-594c-81eb-bc82-000291164988"
+                },
+                "last_edited_by": {
+                  "object": "user",
+                  "id": "2aed872b-594c-81eb-bc82-000291164988"
+                },
+                "has_children": false,
+                "archived": false,
+                "in_trash": false,
+                "type": "paragraph",
+                "paragraph": {
+                  "rich_text": [
+                    {
+                      "type": "text",
+                      "text": {
+                        "content": "[참고 링크]",
+                        "link": null
+                      },
+                      "annotations": {
+                        "bold": true,
+                        "italic": false,
+                        "strikethrough": false,
+                        "underline": false,
+                        "code": false,
+                        "color": "default"
+                      },
+                      "plain_text": "[참고 링크]",
+                      "href": null
+                    }
+                  ],
+                  "color": "default"
+                }
+              },
+              {
+                "object": "block",
                 "id": "2f144860-a4f4-80b4-979e-c860fd96d813",
                 "parent": {
                   "type": "block_id",
                   "block_id": "2f144860-a4f4-8095-b62f-c96ce24d0934"
                 },
                 "created_time": "2026-01-23T11:17:00.000Z",
-                "last_edited_time": "2026-01-23T11:17:00.000Z",
+                "last_edited_time": "2026-02-04T06:47:00.000Z",
                 "created_by": {
                   "object": "user",
                   "id": "2aed872b-594c-81eb-bc82-000291164988"
@@ -3387,5 +3873,5 @@
       }
     ]
   },
-  "syncedAt": "2026-02-04T06:30:07.351Z"
+  "syncedAt": "2026-02-04T07:39:22.435Z"
 }

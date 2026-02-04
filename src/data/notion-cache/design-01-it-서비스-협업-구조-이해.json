@@ -79,7 +79,7 @@
           "block_id": "2f144860-a4f4-808e-8d1a-f9c25143911c"
         },
         "created_time": "2026-01-23T11:05:00.000Z",
-        "last_edited_time": "2026-02-03T06:32:00.000Z",
+        "last_edited_time": "2026-02-04T06:40:00.000Z",
         "created_by": {
           "object": "user",
           "id": "2aed872b-594c-81eb-bc82-000291164988"
@@ -122,8 +122,8 @@
               "caption": [],
               "type": "file",
               "file": {
-                "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/c69962b0-3951-485b-b10a-5bb29576bba8/533426bb-391a-4b00-9a8b-f40277926547/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4663GN4ENVR%2F20260204%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260204T063038Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEEYaCXVzLXdlc3QtMiJHMEUCIQCpp6faOAsfgg5eyb%2BkRDmmhNfq%2Bw0WtVh8Rk%2F2J7nuBwIgBd2xjsYeZQlk5I95fPq%2Bd4QY1VfX94p56FjZ7ecIkFEq%2FwMIDxAAGgw2Mzc0MjMxODM4MDUiDB6gimtpuRA8%2BrtcACrcA9Oc2xTiCDgfy1FHFIYRoB0dvsxtQYBEfO94Axl1R13ZyKc1PwTiyA11ytsz%2BbzvdQMZ1RdgIn9ZNRKtHYBDvqSDkM105zAV6ajC%2BZCnEwFXv7%2BWyOWbr8A4ZgO3737bHNUJ%2Fv4eegSvbVo6VnO5Qo0EtGYdym0GyGiPTRMGZFUZ5oaHTos6Buwj2tw8tliAq81tJM2Kq99X%2FeA3Alh4UJ1xMwya0zNJtbdieIpo9YP4cLrZpg%2F%2BgSY4Mr9K47iuuEzY2ANAOXaa2YdbGMDPadUcxpw%2BmpBpU9pSoqrdSWlViOwf07E2aOHO2DV1WOQAceaAF%2Bf4C%2FMcc2wX2SB%2BKzqDuPQ3Nv9PlxLTAUDFjaNhA0LT97qAPBudfC4aJ74KjixkA2Vpd7BbzaUkQ4L8CsG6XEWrDYTPtreCDX74pttuoEc8KkAhC%2FvPdycGTzBQCIzOoEoKkgqGvEednOokNf1NXt3WlM9daBMXP10YC9ds6cv6WMFiH9EVkALGZUwG1lapvJ7MXoulIbeL69eEadKU0U%2BWOpiUpIX48diNEz8zUjwcf314HGf2Ut14NAeBPW2VQRQOgZwqZMgfIZ3S6KerAQpmTHZ2NAR%2BtB6HKex7l%2Bn%2BY3%2BMnES%2FoSDTMJnEi8wGOqUBcJfR776GD5Hnjv%2F15u06o%2BTfle0ESim2SA1vfsEvdvatDpVlPEGfIgbI%2FSPiBU9Dz3UV770l6yyhvkEFHklZ4G9Jh0wpMny6R4L3VBWN1RyLXofHoRWHIJq4rZv6UXFB9yRBoeCg6E5IHEBOHDC5jbSyNzi6s2vnhcrLlRgJSZOT0qCQIwhmUg5gc4XnD8kfBOX4SsHTgdEu6tf8TQssKu6ufrRg&X-Amz-Signature=157d8f496bbfadaed25ab5fdfb72e9a5b40c946d7536e0b06ac7cb94b597bd18&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
-                "expiry_time": "2026-02-04T07:30:38.071Z"
+                "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/c69962b0-3951-485b-b10a-5bb29576bba8/533426bb-391a-4b00-9a8b-f40277926547/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466WF2TGAZH%2F20260204%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260204T073948Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEEYaCXVzLXdlc3QtMiJIMEYCIQC0UJebbsdcNY3laMpBwR7CX05kGdMX377ySMVJ3ieyeQIhAOUtDlY49GToUzqQTO79Tp0yWwBgTLq41E3i8ColrjpoKv8DCA8QABoMNjM3NDIzMTgzODA1IgyrqIl7IP4iHfrw6kUq3AMybsWLDP7or3U9ymzEs2QtcckQeA199TnErBiN5b304sF1uJas8MZiQn9eOAqHNAmABEKpTjfTZUtZq%2FFsCegK8x%2FDONN8p8m0l36uMQRQPBkusJ0ElHkpBPz1y9Wtt%2Fxvia%2FZ0sfLJXr66oD%2FG4EM4h7zMo8ryEBTgmo6a9qn%2Ff7VUt5LZM47DJgUs1gHt%2BHCUy4mRQGQxpsWm7sdmZlyHRpWqMqaZDXBiUym1uhUu2inA2pnF5CKo4vpprsY%2Byg0Pbab03GuYme3DCpQeCLniApcjzCPJ0NcDXazuzYtsaViD%2BBep40fd1%2F4GHD4llJ1z34p2e2byBmnbLkY5d5TS3eJbl2q3ft6FDLxDhFp8nSzytK0pNuNZKYxQpnqfleqRW0z0FuYU5vZVVWyXdBxXjNFUgndJjlx7fE6F0bVWYLkQiOaY5e%2BccL8wXfBLT1XdEUFVyF%2B%2BfStwldCLEMhcHxKCGmFjNTOxmXtm7FB6oSPboEkypGPHzyKu%2FzZYSkdrXH1TIecSMZkoHoq9HWmBc0LK%2FhcBemn0Y2qRoSsFRw3tP%2Fsgt7LSRRT2OqetT%2BNkFlQyxuLJhRMFTioAqjoiFZ63B6xQ9chXaWZto2RqlzABHJ7M9Hy6BlqozCjxIvMBjqkAVQ2VjSahVNqXMcGm9KNGoKTcqXmRTS1%2BO%2FXjD29WQrU9UpgCDx%2B6zOndZHvwwSJPc0wagNpe%2BWNkJtm4gJOsyfhxAcEKTt65w3EbWcLcWBbihq%2B2NMEccOv5sUcuMmADjs27kdu2Eatq1Eoc%2B%2FdJ2Sdaxk707zrNAXe%2FvoI7CNY3hBToc8J%2BAWzBFx3IAdXbZZvEhx%2F9DuAw8J%2Bo%2BayKcMG1dAw&X-Amz-Signature=09a92df0c62f1bdc17edd86d9d652cd294b46aab5322de80df0cb6fe35c3d55c&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+                "expiry_time": "2026-02-04T08:39:48.960Z"
               }
             }
           },
@@ -152,8 +152,8 @@
               "caption": [],
               "type": "file",
               "file": {
-                "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/c69962b0-3951-485b-b10a-5bb29576bba8/a1f2a6c4-9b95-47da-86cd-41ac1ef360e2/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4663GN4ENVR%2F20260204%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260204T063038Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEEYaCXVzLXdlc3QtMiJHMEUCIQCpp6faOAsfgg5eyb%2BkRDmmhNfq%2Bw0WtVh8Rk%2F2J7nuBwIgBd2xjsYeZQlk5I95fPq%2Bd4QY1VfX94p56FjZ7ecIkFEq%2FwMIDxAAGgw2Mzc0MjMxODM4MDUiDB6gimtpuRA8%2BrtcACrcA9Oc2xTiCDgfy1FHFIYRoB0dvsxtQYBEfO94Axl1R13ZyKc1PwTiyA11ytsz%2BbzvdQMZ1RdgIn9ZNRKtHYBDvqSDkM105zAV6ajC%2BZCnEwFXv7%2BWyOWbr8A4ZgO3737bHNUJ%2Fv4eegSvbVo6VnO5Qo0EtGYdym0GyGiPTRMGZFUZ5oaHTos6Buwj2tw8tliAq81tJM2Kq99X%2FeA3Alh4UJ1xMwya0zNJtbdieIpo9YP4cLrZpg%2F%2BgSY4Mr9K47iuuEzY2ANAOXaa2YdbGMDPadUcxpw%2BmpBpU9pSoqrdSWlViOwf07E2aOHO2DV1WOQAceaAF%2Bf4C%2FMcc2wX2SB%2BKzqDuPQ3Nv9PlxLTAUDFjaNhA0LT97qAPBudfC4aJ74KjixkA2Vpd7BbzaUkQ4L8CsG6XEWrDYTPtreCDX74pttuoEc8KkAhC%2FvPdycGTzBQCIzOoEoKkgqGvEednOokNf1NXt3WlM9daBMXP10YC9ds6cv6WMFiH9EVkALGZUwG1lapvJ7MXoulIbeL69eEadKU0U%2BWOpiUpIX48diNEz8zUjwcf314HGf2Ut14NAeBPW2VQRQOgZwqZMgfIZ3S6KerAQpmTHZ2NAR%2BtB6HKex7l%2Bn%2BY3%2BMnES%2FoSDTMJnEi8wGOqUBcJfR776GD5Hnjv%2F15u06o%2BTfle0ESim2SA1vfsEvdvatDpVlPEGfIgbI%2FSPiBU9Dz3UV770l6yyhvkEFHklZ4G9Jh0wpMny6R4L3VBWN1RyLXofHoRWHIJq4rZv6UXFB9yRBoeCg6E5IHEBOHDC5jbSyNzi6s2vnhcrLlRgJSZOT0qCQIwhmUg5gc4XnD8kfBOX4SsHTgdEu6tf8TQssKu6ufrRg&X-Amz-Signature=2b83443482c7bb9711c39cb27d1c98ef60604bfaaa147f55d4d3f9ae21ff9205&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
-                "expiry_time": "2026-02-04T07:30:38.071Z"
+                "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/c69962b0-3951-485b-b10a-5bb29576bba8/a1f2a6c4-9b95-47da-86cd-41ac1ef360e2/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466WF2TGAZH%2F20260204%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260204T073948Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEEYaCXVzLXdlc3QtMiJIMEYCIQC0UJebbsdcNY3laMpBwR7CX05kGdMX377ySMVJ3ieyeQIhAOUtDlY49GToUzqQTO79Tp0yWwBgTLq41E3i8ColrjpoKv8DCA8QABoMNjM3NDIzMTgzODA1IgyrqIl7IP4iHfrw6kUq3AMybsWLDP7or3U9ymzEs2QtcckQeA199TnErBiN5b304sF1uJas8MZiQn9eOAqHNAmABEKpTjfTZUtZq%2FFsCegK8x%2FDONN8p8m0l36uMQRQPBkusJ0ElHkpBPz1y9Wtt%2Fxvia%2FZ0sfLJXr66oD%2FG4EM4h7zMo8ryEBTgmo6a9qn%2Ff7VUt5LZM47DJgUs1gHt%2BHCUy4mRQGQxpsWm7sdmZlyHRpWqMqaZDXBiUym1uhUu2inA2pnF5CKo4vpprsY%2Byg0Pbab03GuYme3DCpQeCLniApcjzCPJ0NcDXazuzYtsaViD%2BBep40fd1%2F4GHD4llJ1z34p2e2byBmnbLkY5d5TS3eJbl2q3ft6FDLxDhFp8nSzytK0pNuNZKYxQpnqfleqRW0z0FuYU5vZVVWyXdBxXjNFUgndJjlx7fE6F0bVWYLkQiOaY5e%2BccL8wXfBLT1XdEUFVyF%2B%2BfStwldCLEMhcHxKCGmFjNTOxmXtm7FB6oSPboEkypGPHzyKu%2FzZYSkdrXH1TIecSMZkoHoq9HWmBc0LK%2FhcBemn0Y2qRoSsFRw3tP%2Fsgt7LSRRT2OqetT%2BNkFlQyxuLJhRMFTioAqjoiFZ63B6xQ9chXaWZto2RqlzABHJ7M9Hy6BlqozCjxIvMBjqkAVQ2VjSahVNqXMcGm9KNGoKTcqXmRTS1%2BO%2FXjD29WQrU9UpgCDx%2B6zOndZHvwwSJPc0wagNpe%2BWNkJtm4gJOsyfhxAcEKTt65w3EbWcLcWBbihq%2B2NMEccOv5sUcuMmADjs27kdu2Eatq1Eoc%2B%2FdJ2Sdaxk707zrNAXe%2FvoI7CNY3hBToc8J%2BAWzBFx3IAdXbZZvEhx%2F9DuAw8J%2Bo%2BayKcMG1dAw&X-Amz-Signature=abc3e5256ac38150f17c7991d26a75ffda6f02c5c44b9136051f8086e9bf2c18&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+                "expiry_time": "2026-02-04T08:39:48.960Z"
               }
             }
           },
@@ -303,7 +303,7 @@
               "block_id": "2f144860-a4f4-8093-8674-d84b6f15b856"
             },
             "created_time": "2026-01-23T11:05:00.000Z",
-            "last_edited_time": "2026-02-03T06:32:00.000Z",
+            "last_edited_time": "2026-02-04T06:40:00.000Z",
             "created_by": {
               "object": "user",
               "id": "2aed872b-594c-81eb-bc82-000291164988"
@@ -321,7 +321,7 @@
                 {
                   "type": "text",
                   "text": {
-                    "content": "단순히 \"이런 기능이 있으면 좋겠다\"가 아니라,\n\"누가(Who), 언제(When), 어떤 어려움(Pain Point)을 겪고 있으며, 이를 어떻게 해결할 것인가?\"를 논리적으로 정리하는 과정을 경험합니다.\n\n이 정의가 흔들리면 이후의 디자인과 개발도 모두 길을 잃게 됩니다.\n여러분의 서비스가 세상에 나와야 하는 이유를 증명해 보세요.",
+                    "content": "단순히 \"이런 기능이 있으면 좋겠다\"가 아니라,\n",
                     "link": null
                   },
                   "annotations": {
@@ -332,12 +332,69 @@
                     "code": false,
                     "color": "default"
                   },
-                  "plain_text": "단순히 \"이런 기능이 있으면 좋겠다\"가 아니라,\n\"누가(Who), 언제(When), 어떤 어려움(Pain Point)을 겪고 있으며, 이를 어떻게 해결할 것인가?\"를 논리적으로 정리하는 과정을 경험합니다.\n\n이 정의가 흔들리면 이후의 디자인과 개발도 모두 길을 잃게 됩니다.\n여러분의 서비스가 세상에 나와야 하는 이유를 증명해 보세요.",
+                  "plain_text": "단순히 \"이런 기능이 있으면 좋겠다\"가 아니라,\n",
+                  "href": null
+                },
+                {
+                  "type": "text",
+                  "text": {
+                    "content": "\"누가(Who), 언제(When), 어떤 어려움(Pain Point)을 겪고 있으며, 이를 어떻게 해결할 것인가?",
+                    "link": null
+                  },
+                  "annotations": {
+                    "bold": true,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  },
+                  "plain_text": "\"누가(Who), 언제(When), 어떤 어려움(Pain Point)을 겪고 있으며, 이를 어떻게 해결할 것인가?",
+                  "href": null
+                },
+                {
+                  "type": "text",
+                  "text": {
+                    "content": "\"를 논리적으로 정리하는 과정을 경험합니다.\n\n이 정의가 흔들리면 이후의 디자인과 개발도 모두 길을 잃게 됩니다.\n여러분의 서비스가 세상에 나와야 하는 이유를 증명해 보세요.",
+                    "link": null
+                  },
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  },
+                  "plain_text": "\"를 논리적으로 정리하는 과정을 경험합니다.\n\n이 정의가 흔들리면 이후의 디자인과 개발도 모두 길을 잃게 됩니다.\n여러분의 서비스가 세상에 나와야 하는 이유를 증명해 보세요.",
                   "href": null
                 }
               ],
               "color": "default"
             }
+          },
+          {
+            "object": "block",
+            "id": "2fd44860-a4f4-8041-b573-efe3dc236e51",
+            "parent": {
+              "type": "block_id",
+              "block_id": "2f144860-a4f4-8093-8674-d84b6f15b856"
+            },
+            "created_time": "2026-02-04T06:40:00.000Z",
+            "last_edited_time": "2026-02-04T06:40:00.000Z",
+            "created_by": {
+              "object": "user",
+              "id": "2aed872b-594c-81eb-bc82-000291164988"
+            },
+            "last_edited_by": {
+              "object": "user",
+              "id": "2aed872b-594c-81eb-bc82-000291164988"
+            },
+            "has_children": false,
+            "archived": false,
+            "in_trash": false,
+            "type": "divider",
+            "divider": {}
           },
           {
             "object": "block",
@@ -347,7 +404,7 @@
               "block_id": "2f144860-a4f4-8093-8674-d84b6f15b856"
             },
             "created_time": "2026-02-03T06:32:00.000Z",
-            "last_edited_time": "2026-02-03T06:32:00.000Z",
+            "last_edited_time": "2026-02-04T06:40:00.000Z",
             "created_by": {
               "object": "user",
               "id": "2aed872b-594c-81eb-bc82-000291164988"
@@ -361,7 +418,25 @@
             "in_trash": false,
             "type": "paragraph",
             "paragraph": {
-              "rich_text": [],
+              "rich_text": [
+                {
+                  "type": "text",
+                  "text": {
+                    "content": "[참고 링크]",
+                    "link": null
+                  },
+                  "annotations": {
+                    "bold": true,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  },
+                  "plain_text": "[참고 링크]",
+                  "href": null
+                }
+              ],
               "color": "default"
             }
           },
@@ -527,7 +602,7 @@
           "block_id": "2f144860-a4f4-80af-8042-d15746ad48a9"
         },
         "created_time": "2026-01-23T11:05:00.000Z",
-        "last_edited_time": "2026-01-23T11:27:00.000Z",
+        "last_edited_time": "2026-02-04T06:40:00.000Z",
         "created_by": {
           "object": "user",
           "id": "2aed872b-594c-81eb-bc82-000291164988"
@@ -545,7 +620,7 @@
             {
               "type": "text",
               "text": {
-                "content": "IT 서비스 개발 과정에서 기획/디자인/개발의 역할과 협업 구조를 이해한다.",
+                "content": "IT 서비스 개발 과정에서 ",
                 "link": null
               },
               "annotations": {
@@ -556,7 +631,41 @@
                 "code": false,
                 "color": "default"
               },
-              "plain_text": "IT 서비스 개발 과정에서 기획/디자인/개발의 역할과 협업 구조를 이해한다.",
+              "plain_text": "IT 서비스 개발 과정에서 ",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": "기획/디자인/개발의 역할과 협업 구조",
+                "link": null
+              },
+              "annotations": {
+                "bold": true,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "기획/디자인/개발의 역할과 협업 구조",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": "를 이해한다.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "를 이해한다.",
               "href": null
             }
           ],
@@ -571,7 +680,7 @@
           "block_id": "2f144860-a4f4-80af-8042-d15746ad48a9"
         },
         "created_time": "2026-01-23T11:05:00.000Z",
-        "last_edited_time": "2026-01-23T11:27:00.000Z",
+        "last_edited_time": "2026-02-04T06:40:00.000Z",
         "created_by": {
           "object": "user",
           "id": "2aed872b-594c-81eb-bc82-000291164988"
@@ -589,7 +698,7 @@
             {
               "type": "text",
               "text": {
-                "content": "'내'가 만들고 싶은 서비스가 아닌, '사용자'가 필요한 서비스를 기획하는 관점을 갖는다.",
+                "content": "'내'가 만들고 싶은 서비스가 아닌,",
                 "link": null
               },
               "annotations": {
@@ -600,7 +709,41 @@
                 "code": false,
                 "color": "default"
               },
-              "plain_text": "'내'가 만들고 싶은 서비스가 아닌, '사용자'가 필요한 서비스를 기획하는 관점을 갖는다.",
+              "plain_text": "'내'가 만들고 싶은 서비스가 아닌,",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": " '사용자'가 필요한 서비스를 기획하는 관점",
+                "link": null
+              },
+              "annotations": {
+                "bold": true,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": " '사용자'가 필요한 서비스를 기획하는 관점",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": "을 갖는다.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "을 갖는다.",
               "href": null
             }
           ],
@@ -615,7 +758,7 @@
           "block_id": "2f144860-a4f4-80af-8042-d15746ad48a9"
         },
         "created_time": "2026-01-23T11:05:00.000Z",
-        "last_edited_time": "2026-01-23T11:27:00.000Z",
+        "last_edited_time": "2026-02-04T06:40:00.000Z",
         "created_by": {
           "object": "user",
           "id": "2aed872b-594c-81eb-bc82-000291164988"
@@ -633,7 +776,7 @@
             {
               "type": "text",
               "text": {
-                "content": "해결하고자 하는 문제의 본질을 파악하고 한 문장으로 정의할 수 있다.",
+                "content": "해결하고자 하는 ",
                 "link": null
               },
               "annotations": {
@@ -644,7 +787,41 @@
                 "code": false,
                 "color": "default"
               },
-              "plain_text": "해결하고자 하는 문제의 본질을 파악하고 한 문장으로 정의할 수 있다.",
+              "plain_text": "해결하고자 하는 ",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": "문제의 본질",
+                "link": null
+              },
+              "annotations": {
+                "bold": true,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "문제의 본질",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": "을 파악하고 한 문장으로 정의할 수 있다.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "을 파악하고 한 문장으로 정의할 수 있다.",
               "href": null
             }
           ],
@@ -659,7 +836,7 @@
           "block_id": "2f144860-a4f4-80af-8042-d15746ad48a9"
         },
         "created_time": "2026-01-23T11:05:00.000Z",
-        "last_edited_time": "2026-01-23T11:27:00.000Z",
+        "last_edited_time": "2026-02-04T06:40:00.000Z",
         "created_by": {
           "object": "user",
           "id": "2aed872b-594c-81eb-bc82-000291164988"
@@ -677,7 +854,24 @@
             {
               "type": "text",
               "text": {
-                "content": "가상의 핵심 사용자(Persona)를 설정하여, 사용자의 행동 패턴과 니즈를 구체화할 수 있다.",
+                "content": "가상의 핵심 사용자(Persona)를 설정",
+                "link": null
+              },
+              "annotations": {
+                "bold": true,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "가상의 핵심 사용자(Persona)를 설정",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": "하여, 사용자의 행동 패턴과 니즈를 구체화할 수 있다.",
                 "link": null
               },
               "annotations": {
@@ -688,7 +882,7 @@
                 "code": false,
                 "color": "default"
               },
-              "plain_text": "가상의 핵심 사용자(Persona)를 설정하여, 사용자의 행동 패턴과 니즈를 구체화할 수 있다.",
+              "plain_text": "하여, 사용자의 행동 패턴과 니즈를 구체화할 수 있다.",
               "href": null
             }
           ],
@@ -821,7 +1015,7 @@
           "block_id": "2f144860-a4f4-8019-bdf6-facb83a4e0ee"
         },
         "created_time": "2026-01-23T11:06:00.000Z",
-        "last_edited_time": "2026-01-27T04:26:00.000Z",
+        "last_edited_time": "2026-02-04T06:41:00.000Z",
         "created_by": {
           "object": "user",
           "id": "2aed872b-594c-81eb-bc82-000291164988"
@@ -839,7 +1033,7 @@
             {
               "type": "text",
               "text": {
-                "content": "이번 미션의 최종 결과물은 선정된 서비스 주제에 대한 문제 정의서와 핵심 페르소나 정의서입니다.",
+                "content": "선정된 서비스 주제에 대한 문제 정의서와 핵심 페르소나 정의서",
                 "link": null
               },
               "annotations": {
@@ -850,7 +1044,7 @@
                 "code": false,
                 "color": "default"
               },
-              "plain_text": "이번 미션의 최종 결과물은 선정된 서비스 주제에 대한 문제 정의서와 핵심 페르소나 정의서입니다.",
+              "plain_text": "선정된 서비스 주제에 대한 문제 정의서와 핵심 페르소나 정의서",
               "href": null
             }
           ],
@@ -1110,7 +1304,7 @@
           "block_id": "2f144860-a4f4-8019-bdf6-facb83a4e0ee"
         },
         "created_time": "2026-01-23T11:07:00.000Z",
-        "last_edited_time": "2026-01-27T04:31:00.000Z",
+        "last_edited_time": "2026-02-04T06:41:00.000Z",
         "created_by": {
           "object": "user",
           "id": "2aed872b-594c-81eb-bc82-000291164988"
@@ -1428,6 +1622,73 @@
                 "color": "default"
               },
               "plain_text": "니즈: 서비스를 통해 얻고 싶은 목표",
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "object": "block",
+        "id": "2fd44860-a4f4-80eb-9cda-ee8d695da281",
+        "parent": {
+          "type": "block_id",
+          "block_id": "2f144860-a4f4-8019-bdf6-facb83a4e0ee"
+        },
+        "created_time": "2026-02-04T06:41:00.000Z",
+        "last_edited_time": "2026-02-04T06:41:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "has_children": false,
+        "archived": false,
+        "in_trash": false,
+        "type": "divider",
+        "divider": {}
+      },
+      {
+        "object": "block",
+        "id": "2fd44860-a4f4-80c6-954c-d362a894cf00",
+        "parent": {
+          "type": "block_id",
+          "block_id": "2f144860-a4f4-8019-bdf6-facb83a4e0ee"
+        },
+        "created_time": "2026-02-04T06:41:00.000Z",
+        "last_edited_time": "2026-02-04T06:41:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "has_children": false,
+        "archived": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "[참고 링크]",
+                "link": null
+              },
+              "annotations": {
+                "bold": true,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "[참고 링크]",
               "href": null
             }
           ],
@@ -2310,8 +2571,8 @@
           "caption": [],
           "type": "file",
           "file": {
-            "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/c69962b0-3951-485b-b10a-5bb29576bba8/441de15e-e6cb-4112-9ffc-31cca76b9557/%E1%84%80%E1%85%B5%E1%84%83%E1%85%B5_1%E1%84%8C%E1%85%AE%E1%84%8E%E1%85%A1-%E1%84%8B%E1%85%B5%E1%84%86%E1%85%B5%E1%84%8C%E1%85%B5-0.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466X6MDO4AJ%2F20260204%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260204T063050Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEEYaCXVzLXdlc3QtMiJGMEQCICi7dibjx7EWhR6o14jpCLuZoDUo9ox7XbRggxXZcrjJAiBi4ZNc1MXL1NQl7DQ4m6m1XequUTnKgDTv%2FdLJ7cmNzyr%2FAwgPEAAaDDYzNzQyMzE4MzgwNSIM9VZWsJuIxOkmSgIWKtwD2sCJ7yI01UO4dPAPJ%2F376O3iqoCAgLSDRGFhm%2BXWiNgs90DvefeyPjdnuOTfUQmy2lSpKUM15mhiZvJ6nFaWrowConZH1TPDdvS%2Fzi8qvy2X5%2Bj%2FfX9V9ILc8ANRLotAsYzv4ZgHor2%2BwJC%2FRPVBM%2BvwpcOyAO84QprZO%2Bd3omYf6YLE3CFXrNhOWBC2hQdyrBfJ7b0GNRQhnBJATpWfUi7K2ZoSLvuP1%2BzWVg0NPZSDCGQfMzJFiA%2FOBgOlbaN6FJROkSUuYqw8%2FnJ%2BzBvPg%2FyJVcc%2BdyLhQYS%2BAp74RpmB8%2BLLUrQDDiBZOEYeSyRBhwojSlCkoI31IcjWOb%2FPi5BfaEkPfBJjzhzB5WP8W0EchFZ5JlbtjNV%2BvKyx0EdIhnlKET2J0ypY62MnP2fgk1cXNXxqrGSGCcKZ7XvoIo8ZuyEYK4uNSDh7RcVUL0q7NmYdS2TXBBrVP%2Ba6cB5%2BT4jww3q2La3nFOdbWlynrcTqg7e6RcpBMi51g9TYyyumEMmIi1FMp1rkx3PLoziJlGbgjjhb0lc%2Bi3dkiwFemHupf7TZOyHfNGbtwuKRtYvgZNLE4vw7BYroNzxl49VBHEWJpJLgzQaJ7Ha%2FRLYHSL0k74j4nygUGp6ZrrYw5sSLzAY6pgGLqAzi7XjSc4ddvmmRSZgAaEsSuRRBzpuVUiJ52o0e%2FuXbXjCIhQ5v6gDVSehu%2BXZZLV%2BrFj%2BUmYBcCVFxWe7PpW8P6S7ipKRT6yhZ6xyIYWkXQlYQIyUJnTb0YACoc0HBYHJk1lMvf7FT5gdB76zClRVs7u2BFq7yOKlk4ijq0S95%2FrzWUKCvnF%2B0Hd%2Fh5CeyBYwmzgdw%2B6VdeUmeNC2XJlLx6TNX&X-Amz-Signature=c3e0d10d029a9c5760d1cafe894edaf13d5d0cc3bf1afaed62dd97d6fa3f5b8d&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
-            "expiry_time": "2026-02-04T07:30:50.311Z"
+            "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/c69962b0-3951-485b-b10a-5bb29576bba8/441de15e-e6cb-4112-9ffc-31cca76b9557/%E1%84%80%E1%85%B5%E1%84%83%E1%85%B5_1%E1%84%8C%E1%85%AE%E1%84%8E%E1%85%A1-%E1%84%8B%E1%85%B5%E1%84%86%E1%85%B5%E1%84%8C%E1%85%B5-0.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4662G7OU2GJ%2F20260204%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260204T073954Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEEYaCXVzLXdlc3QtMiJHMEUCIQCO%2B%2By3km3TqfFySgy%2B8YxCmKKUXtiufGnouep%2FkcLGsgIgaagCCm2fGj25QLuvCGeuXhdclgikV7IgV74y35dAzLYq%2FwMIDxAAGgw2Mzc0MjMxODM4MDUiDPkKXiZk%2BaRN30M7iyrcA2NDr1fpQ9zqQ%2BzRe1XTexAr6kbsqiPZZS8%2Byldi6tkE5GPbTtm68Kr6GVcFWtnSZhHI%2FIFLe96Ha6WY9C8CVMH9pSChG5ZNV2Fmq%2BoWbQT9nj21r4lTb2ICTeOi%2B2lGsM7fVOdA6ty%2FHG8eJ8Ag57QWhN7ls8mOzrfHdMQM7X50pwIdNw7IKTCh3Gqk2R1ag8J8DkQY6YxU0b1b8CEJHvypJJVbsAUQSr6NXsN2elATAm22RIXscmd9MBGKWXUwYSxNr%2FgRRkxd5mqcb3L8gfXa2nyAqzwbERhUFm4maTo9yx1b4irrqkGyspE7WdaAJJUzSCeWX%2F9mwrmNOFRq9sAObCT6G2LQab9Q4tPuDF%2BPzVYhW7iUpN0KgJjtF309DkllhIp%2FN9H6lxNeuG79egi%2B%2Fh%2FIikwSLXSn%2B0%2B6%2Bgvkkd06BVuHnA1cFSuEhZsKroSlrDeoopj5sE32Do6FWabYpedWS2P4HyHU5xvyYTRt4szUSmhdrlh1VEVexvjIsNLy1lOfpsM%2B2pbaKe0yeFTUinhgzXLsVogcrFKJZRIXdYF9Zfdlt2FX47OXtUZmL1p6X2V6sn8QGSH99%2FrIuHabeorUyICdfrs58jxjoDPzQ7lWuDlocRGafo3SMKTDi8wGOqUBpVJZKLZoW24S9aoTSEgux%2BW99cwvs3cz9w%2BPQh47LHWAcoQGP9rfIuubZuecyMGHFQ1bC%2FzPsSD4QFkiTGsdkYVhdlQ84Y%2FjSa%2FokPpE7DOPNTT%2Fr9C4o6txLWyVhuHEqx9IjZs8oRvQG3bl34TAcuzCNi1kvppMhAGXvTkidhh6YWLKVgFiBRu2NGcdULvif0pGNfs%2BhU1PnMV%2FaHlI%2BZQc7AdA&X-Amz-Signature=7a4eab0621529f85eb94c216fa5f202e617423feee93bea3e5ea20f1d255bb82&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+            "expiry_time": "2026-02-04T08:39:53.958Z"
           }
         }
       },
@@ -3439,7 +3700,7 @@
           "block_id": "2f144860-a4f4-80f3-afb1-e9a67443ed77"
         },
         "created_time": "2026-01-23T11:11:00.000Z",
-        "last_edited_time": "2026-01-27T04:28:00.000Z",
+        "last_edited_time": "2026-02-04T06:42:00.000Z",
         "created_by": {
           "object": "user",
           "id": "2aed872b-594c-81eb-bc82-000291164988"
@@ -3562,9 +3823,53 @@
               ],
               "type": "file",
               "file": {
-                "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/c69962b0-3951-485b-b10a-5bb29576bba8/c51aff6e-074b-4fd7-a9bd-140c7d26e367/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466RO7W6PRQ%2F20260204%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260204T063054Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEEYaCXVzLXdlc3QtMiJGMEQCIBgcEg22TQjdWdG2bKjnh0vOML9Spro9NfGrENqL7eGbAiBzDt6bA%2BETG%2FKTi2iDj3IemN0gDv6Ioe%2FNi5Zzweu0kCr%2FAwgPEAAaDDYzNzQyMzE4MzgwNSIMH58D7Ze%2BSxFogGzRKtwDuY%2BqyD60szNePKgD6Hi1qWzt0EIa7VlI5tvZ7njY89NOX4meZLmirjeE08CZIVyReIKCnWy1D0ojt6oIzBWRTi%2Bax4YyUA7Lk5CnXI9%2BwKU6xp4BP%2BshzJVTD9MQN1mllawPve1lw8A4IVIm3IRNC8SG0aIIL%2B5rU7ha%2Fx3B6Ia0Er6SGc64J9c4lI32jt5Pl5%2F23g43lI9EtWYZ81%2BOiCbJXj%2Bzr3BMHCeQJM4PnncMbtEmsM8fCdorMNBH9GPWNSNwNDC9ZKIjcLBkd54WssfSI5QlVYAEiIPyHX2Yp25zVHb0Ac0PnvSMWjEBfXso7zWRIwLJ%2FmYU3LvqUhmwvmAc9dprGuGqdGnwr8C8uqyKtAOvj3CvyGIRrwzvcmNdVs2VBjSIqfC7F7Csi7izdRfaXd6M6WRWEBZiGYQHPU5uQroKJiWRgvWByE7XjnkEfOwkSihRyBUjFdoKxfk1Ysrcuj87W0ik%2F9AlmtMIeZUzAmxeRephsohBH8FEbWWGF0NCsoc0bwdlZ1gMzRGL0EWdnGa8vce4LforG1FPat9lV%2B1V3BbOctf2padQfm6UXY1aTeVpHl0qAG1CZepCd6OwGtL1JLA0mBOC%2Bo5Q0njqIhREkmkhQEesUr0w7sSLzAY6pgGehfHLsvNIjweeVpfA2E4qrP%2BAIJLQAuGxJ85Xk%2FRGWHZP8ZJXLsdBCdZbz%2FJ3pfK%2BK1TVtUZC3hQoICCkHF9WNIqEMN0emIPmaWeDpmF069oOA0%2BU2ZousF%2BMevdaAFT25d2aLhCvFF78va2D4bg0rX86uFydO0hDpgWTkS2MuMraMYgwAbiOMzh39Pp%2BJQMEolfz9EjkuwcQ%2BK0jMKsxycNEyhla&X-Amz-Signature=b078371f5fac1cdbedd33b7c7d12b8cbf18ce00e1ee69dc66919c5d7e8b71be9&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
-                "expiry_time": "2026-02-04T07:30:54.867Z"
+                "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/c69962b0-3951-485b-b10a-5bb29576bba8/c51aff6e-074b-4fd7-a9bd-140c7d26e367/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466TFSPZGZK%2F20260204%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260204T074000Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEEYaCXVzLXdlc3QtMiJGMEQCIHspp%2BbbynpjkVWJSWjMlGPl%2Btf2tGhvzQJVphII18NuAiBTMxo7rNro1f%2F45SrnaeH3JWtydUENI%2BETbxYoCINfmir%2FAwgPEAAaDDYzNzQyMzE4MzgwNSIMzeCAvp5lA8m7EDeWKtwD8y%2F3FnSOzBv0MQrbByFVDtqZW%2F6%2BCtcp9sWaeMs85jg8OLEJSs%2Bf2ltlBNtHMcmlPq3HQnOeeuS4YBlt%2Bu%2BLY1g0SP9uF0vaiYr0r2OZ1vmb6fmldRSH9nff5A48IK6HzzWAxZujWgunIvvcSNCxBLn96vb1llIRRv2OF1SiJpoaEn%2FVYT%2BaJBtMUTV8I8gWZBiWxw5AQI2pXSY8R1i0wRgDyiR66FAAW%2BbUdFILUvvdM%2B2hedQZ3l6n3iferrvYgwBBVwDbOUZSH0PegS9eurSGw5NFv0hR2Kt8kBC%2F%2FnINoksjj8WM36V%2F80e8a5Uyw0FtsN4Me1nuRGg9LSm16MXLjfKnkLlQVbetEgqpVA4uI2sqyFRtQb9xR%2F5JIwDNXQZKUU4B%2Fj9xvkEVOz5e7Kn%2FxBf8QowJc9XtomkDm6EtgzqTuYoV3QNBowPlopGLlTgRfgvCfOkDM1R5zRo9d7WXDW8he08Mm3XCefOoR6Ua3YlvMfKYWkKqHtU4OzPTfctU1bgqi5jjKwDxpruDTVba5sWt2B0UDKqwMTDJcOpnAtxdg94SUA6q34P%2FXyB5NQG7k1LsQqnpE6tGWJH%2FXJc5kiMg70UiSvCLES18PBaZdVDWDVRvK%2BL%2ByhAwicSLzAY6pgElmx7rFMKnEvnrANPVM2f5Ysjfdmv8GVC8OoAscDf3S5iX5s6tT4KjJOzss52XZhhMk63cKB%2BshpdDmOBEIXlOlCH7ZpWJDBuguURRN6%2FdnnPrwZBVqCJLv6eX5T9CFTzmQe2Y7hRF2iOIfPLtfW1C7QjDign7BltGH9KqdC0U0vZGuMPKfDsqNCd%2F1PNiA9tSNDy2MRfLiT6aFHV9GszNq9YVXNx2&X-Amz-Signature=2c4d06f4844cc45ab65c1fa9ad353f23dc383ed530ae2fab0670ae0b7d68da88&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+                "expiry_time": "2026-02-04T08:40:00.786Z"
               }
+            }
+          },
+          {
+            "object": "block",
+            "id": "2fd44860-a4f4-8004-ab0f-f1862fdd150d",
+            "parent": {
+              "type": "block_id",
+              "block_id": "2f144860-a4f4-8059-bddc-f62695dc90a5"
+            },
+            "created_time": "2026-02-04T06:42:00.000Z",
+            "last_edited_time": "2026-02-04T06:42:00.000Z",
+            "created_by": {
+              "object": "user",
+              "id": "2aed872b-594c-81eb-bc82-000291164988"
+            },
+            "last_edited_by": {
+              "object": "user",
+              "id": "2aed872b-594c-81eb-bc82-000291164988"
+            },
+            "has_children": false,
+            "archived": false,
+            "in_trash": false,
+            "type": "paragraph",
+            "paragraph": {
+              "rich_text": [
+                {
+                  "type": "text",
+                  "text": {
+                    "content": "[참고 링크]",
+                    "link": null
+                  },
+                  "annotations": {
+                    "bold": true,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  },
+                  "plain_text": "[참고 링크]",
+                  "href": null
+                }
+              ],
+              "color": "default"
             }
           },
           {
@@ -4258,5 +4563,5 @@
       }
     ]
   },
-  "syncedAt": "2026-02-04T06:30:56.300Z"
+  "syncedAt": "2026-02-04T07:40:03.468Z"
 }

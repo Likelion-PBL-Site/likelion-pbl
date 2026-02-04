@@ -64,7 +64,7 @@
       "title": "자바로 배우는 IoC/DI",
       "description": "Service가 Repository를 직접 생성하지 않도록 리팩토링",
       "track": "springboot",
-      "stage": "Spring Core",
+      "stage": "Java",
       "estimatedTime": 120,
       "order": 5,
       "tags": [
@@ -144,5 +144,5 @@
       ]
     }
   ],
-  "syncedAt": "2026-02-04T06:20:30.068Z"
+  "syncedAt": "2026-02-04T07:30:24.236Z"
 }

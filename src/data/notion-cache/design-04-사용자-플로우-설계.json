@@ -161,6 +161,50 @@
       },
       {
         "object": "block",
+        "id": "2fd44860-a4f4-80af-b64d-caedd5b2ce3c",
+        "parent": {
+          "type": "block_id",
+          "block_id": "2fc44860-a4f4-80eb-9308-f73477a27165"
+        },
+        "created_time": "2026-02-04T06:49:00.000Z",
+        "last_edited_time": "2026-02-04T06:49:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "has_children": false,
+        "archived": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "[참고 링크]",
+                "link": null
+              },
+              "annotations": {
+                "bold": true,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "[참고 링크]",
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "object": "block",
         "id": "2fc44860-a4f4-806e-8c19-cd213711d80a",
         "parent": {
           "type": "block_id",
@@ -296,7 +340,7 @@
           "block_id": "2fc44860-a4f4-80b5-9b65-e82387b7a826"
         },
         "created_time": "2026-02-03T06:49:00.000Z",
-        "last_edited_time": "2026-02-03T06:49:00.000Z",
+        "last_edited_time": "2026-02-04T06:49:00.000Z",
         "created_by": {
           "object": "user",
           "id": "2aed872b-594c-81eb-bc82-000291164988"
@@ -314,7 +358,7 @@
             {
               "type": "text",
               "text": {
-                "content": "IA가 정적인 구조라면, 사용자 플로우는 동적인 사용 경험임을 이해합니다.",
+                "content": "IA가 정적인 구조라면, ",
                 "link": null
               },
               "annotations": {
@@ -325,7 +369,41 @@
                 "code": false,
                 "color": "default"
               },
-              "plain_text": "IA가 정적인 구조라면, 사용자 플로우는 동적인 사용 경험임을 이해합니다.",
+              "plain_text": "IA가 정적인 구조라면, ",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": "사용자 플로우는 동적인 사용 경험",
+                "link": null
+              },
+              "annotations": {
+                "bold": true,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "사용자 플로우는 동적인 사용 경험",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": "임을 이해합니다.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "임을 이해합니다.",
               "href": null
             }
           ],
@@ -340,7 +418,7 @@
           "block_id": "2fc44860-a4f4-80b5-9b65-e82387b7a826"
         },
         "created_time": "2026-02-03T06:49:00.000Z",
-        "last_edited_time": "2026-02-03T06:49:00.000Z",
+        "last_edited_time": "2026-02-04T06:49:00.000Z",
         "created_by": {
           "object": "user",
           "id": "2aed872b-594c-81eb-bc82-000291164988"
@@ -358,7 +436,7 @@
             {
               "type": "text",
               "text": {
-                "content": "사용자의 행동에 따라 시스템이 어떻게 반응하고 분기되는지 논리적으로 설계할 수 있습니다.",
+                "content": "사용자의 행동에 따라 ",
                 "link": null
               },
               "annotations": {
@@ -369,7 +447,41 @@
                 "code": false,
                 "color": "default"
               },
-              "plain_text": "사용자의 행동에 따라 시스템이 어떻게 반응하고 분기되는지 논리적으로 설계할 수 있습니다.",
+              "plain_text": "사용자의 행동에 따라 ",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": "시스템이 어떻게 반응하고 분기되는지 논리적으로 설계",
+                "link": null
+              },
+              "annotations": {
+                "bold": true,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "시스템이 어떻게 반응하고 분기되는지 논리적으로 설계",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": "할 수 있습니다.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "할 수 있습니다.",
               "href": null
             }
           ],
@@ -384,7 +496,7 @@
           "block_id": "2fc44860-a4f4-80b5-9b65-e82387b7a826"
         },
         "created_time": "2026-02-03T06:49:00.000Z",
-        "last_edited_time": "2026-02-03T06:49:00.000Z",
+        "last_edited_time": "2026-02-04T06:49:00.000Z",
         "created_by": {
           "object": "user",
           "id": "2aed872b-594c-81eb-bc82-000291164988"
@@ -402,7 +514,24 @@
             {
               "type": "text",
               "text": {
-                "content": "순서도 표준 기호(시작/종료, 처리, 판단)를 활용하여 누구나 이해하기 쉬운 도면을 그릴 수 있습니다.",
+                "content": "순서도 표준 기호",
+                "link": null
+              },
+              "annotations": {
+                "bold": true,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "순서도 표준 기호",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": "(시작/종료, 처리, 판단)를 활용하여 누구나 이해하기 쉬운 도면을 그릴 수 있습니다.",
                 "link": null
               },
               "annotations": {
@@ -413,7 +542,7 @@
                 "code": false,
                 "color": "default"
               },
-              "plain_text": "순서도 표준 기호(시작/종료, 처리, 판단)를 활용하여 누구나 이해하기 쉬운 도면을 그릴 수 있습니다.",
+              "plain_text": "(시작/종료, 처리, 판단)를 활용하여 누구나 이해하기 쉬운 도면을 그릴 수 있습니다.",
               "href": null
             }
           ],
@@ -428,7 +557,7 @@
           "block_id": "2fc44860-a4f4-80b5-9b65-e82387b7a826"
         },
         "created_time": "2026-02-03T06:49:00.000Z",
-        "last_edited_time": "2026-02-03T06:49:00.000Z",
+        "last_edited_time": "2026-02-04T06:49:00.000Z",
         "created_by": {
           "object": "user",
           "id": "2aed872b-594c-81eb-bc82-000291164988"
@@ -446,7 +575,7 @@
             {
               "type": "text",
               "text": {
-                "content": "정상적인 흐름뿐만 아니라 오류나 실패 같은 예외 상황을 미리 정의하여 사용자 경험을 보호할 수 있습니다.",
+                "content": "정상적인 흐름뿐만 아니라 ",
                 "link": null
               },
               "annotations": {
@@ -457,7 +586,41 @@
                 "code": false,
                 "color": "default"
               },
-              "plain_text": "정상적인 흐름뿐만 아니라 오류나 실패 같은 예외 상황을 미리 정의하여 사용자 경험을 보호할 수 있습니다.",
+              "plain_text": "정상적인 흐름뿐만 아니라 ",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": "오류나 실패 같은 예외 상황",
+                "link": null
+              },
+              "annotations": {
+                "bold": true,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "오류나 실패 같은 예외 상황",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": "을 미리 정의하여 사용자 경험을 보호할 수 있습니다.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "을 미리 정의하여 사용자 경험을 보호할 수 있습니다.",
               "href": null
             }
           ],
@@ -497,7 +660,7 @@
           "block_id": "2fc44860-a4f4-80bd-8cf4-e5375b948e24"
         },
         "created_time": "2026-02-03T06:49:00.000Z",
-        "last_edited_time": "2026-02-03T06:51:00.000Z",
+        "last_edited_time": "2026-02-04T06:49:00.000Z",
         "created_by": {
           "object": "user",
           "id": "2aed872b-594c-81eb-bc82-000291164988"
@@ -515,7 +678,7 @@
             {
               "type": "text",
               "text": {
-                "content": "이번 미션의 최종 결과물은 Figma로 제작된 ‘사용자 플로우’입니다.",
+                "content": "Figma로 제작된 ‘사용자 플로우’",
                 "link": null
               },
               "annotations": {
@@ -526,10 +689,36 @@
                 "code": false,
                 "color": "default"
               },
-              "plain_text": "이번 미션의 최종 결과물은 Figma로 제작된 ‘사용자 플로우’입니다.",
+              "plain_text": "Figma로 제작된 ‘사용자 플로우’",
               "href": null
             }
           ],
+          "color": "default"
+        }
+      },
+      {
+        "object": "block",
+        "id": "2fd44860-a4f4-8033-b112-e20f4fbb1e5f",
+        "parent": {
+          "type": "block_id",
+          "block_id": "2fc44860-a4f4-80bd-8cf4-e5375b948e24"
+        },
+        "created_time": "2026-02-04T07:13:00.000Z",
+        "last_edited_time": "2026-02-04T07:13:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "2aed872b-594c-81eb-bc82-000291164988"
+        },
+        "has_children": false,
+        "archived": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
           "color": "default"
         }
       },
@@ -586,7 +775,7 @@
           "block_id": "2fc44860-a4f4-80bd-8cf4-e5375b948e24"
         },
         "created_time": "2026-02-03T06:51:00.000Z",
-        "last_edited_time": "2026-02-03T06:51:00.000Z",
+        "last_edited_time": "2026-02-04T06:50:00.000Z",
         "created_by": {
           "object": "user",
           "id": "2aed872b-594c-81eb-bc82-000291164988"
@@ -598,8 +787,8 @@
         "has_children": false,
         "archived": false,
         "in_trash": false,
-        "type": "paragraph",
-        "paragraph": {
+        "type": "bulleted_list_item",
+        "bulleted_list_item": {
           "rich_text": [
             {
               "type": "text",
@@ -698,7 +887,7 @@
           "block_id": "2fc44860-a4f4-80bd-8cf4-e5375b948e24"
         },
         "created_time": "2026-02-03T06:52:00.000Z",
-        "last_edited_time": "2026-02-03T06:52:00.000Z",
+        "last_edited_time": "2026-02-04T06:50:00.000Z",
         "created_by": {
           "object": "user",
           "id": "2aed872b-594c-81eb-bc82-000291164988"
@@ -710,8 +899,8 @@
         "has_children": false,
         "archived": false,
         "in_trash": false,
-        "type": "paragraph",
-        "paragraph": {
+        "type": "bulleted_list_item",
+        "bulleted_list_item": {
           "rich_text": [
             {
               "type": "text",
@@ -810,7 +999,7 @@
           "block_id": "2fc44860-a4f4-80bd-8cf4-e5375b948e24"
         },
         "created_time": "2026-02-03T06:52:00.000Z",
-        "last_edited_time": "2026-02-03T06:52:00.000Z",
+        "last_edited_time": "2026-02-04T06:50:00.000Z",
         "created_by": {
           "object": "user",
           "id": "2aed872b-594c-81eb-bc82-000291164988"
@@ -822,8 +1011,8 @@
         "has_children": false,
         "archived": false,
         "in_trash": false,
-        "type": "paragraph",
-        "paragraph": {
+        "type": "bulleted_list_item",
+        "bulleted_list_item": {
           "rich_text": [
             {
               "type": "text",
@@ -1166,8 +1355,8 @@
           "caption": [],
           "type": "file",
           "file": {
-            "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/c69962b0-3951-485b-b10a-5bb29576bba8/4eb47c2e-4c8f-4413-a741-9ca60bb0498e/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4663T7G7Y3Z%2F20260204%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260204T063023Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEEYaCXVzLXdlc3QtMiJHMEUCIQCpK8X1vWayOxh0Os5DK1qEZAlrFLKthsMJsxr289tqiAIgYvBM8%2FqbnQIahXLly%2BpOIK3rJqSM8tGoKkwDnaH2NMUq%2FwMIDxAAGgw2Mzc0MjMxODM4MDUiDOLgWwgQISI7yi2W5SrcA27ol5VA3WmgAw58ujyaU6BufzS%2F9H7nT%2B%2BzXblH2V5X%2FKiPghqoW0F4MoftRriw9gFfKWHt190CWcaH0fm1XBMeSVNamnT7xznS3Qml5kq75VOmQhO3FdG%2BWqc96ft9rO2bbAxD56cGDAWW2whowAOQaXZ3l7zPJMpp1Yt1GOyjPfq%2FsmO0TJ42Ja5aOQyeeNBEcSqBJLHq8up8bKJPpuozN4s5lkT8jP5XqAVCtis1piHZY7ByL7p%2BzaELRhz5LhYNmFPKjVps9qRU1CsBngfBXDV4XgZHjTIW9250bBqAeVRB6%2B8NnsctgJgeXKjcRxFxlC5gO%2F45E89O4JwFWJspYjZzO4LU4CXgIDq6CQV45JOk6tD38%2BgpVxgGtSA6U6mz6PWt3i3HTj3CJ7PlaYGpZOLTKBI6A3IoNN1y3lGY%2B0bn8L2RXRLfiPBrGYrhI3x6l4oNMNjN4kUWdjfcdCuV0rWX2%2F5OTzqbZkWqM%2FX18yDHrWIxI1YDBj04NjSw1drp0U1shAQ3z%2Bwi6GIe0MvUER679yC%2F2eGcsSBFm6pNJrmKd9riM6SymqG9J95yTh7tTFt3johYl097I4VUW2%2FbRcyAs6avoENEyoA7ty%2BxfruF5fTX4aysa20aMODEi8wGOqUBtqSW5qv0V52gdVly%2BlQ7J33AGGBfx1YwMgVydCJti2FhoJUSg7xCwctDWwo0GSyouSradSFMX2%2FoQzlKmbcJT%2FY8qHem5RUk1ABluhEhGla2AEN1mDUxnn%2FXCT4YwrqZ9R%2Ffm6x6%2BdxOgMntWFZTJCz%2BPmoUe5l111JEAVIXqRrTsV0i2ilV6afLzyu8aArFjLy74d3LIFh0WGWu70b6ZwxQRR6w&X-Amz-Signature=e11c498a981dd9fd731b7529ae2ff54c0d19f46e8dfb0b347f6f496e8bf50df2&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
-            "expiry_time": "2026-02-04T07:30:23.830Z"
+            "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/c69962b0-3951-485b-b10a-5bb29576bba8/4eb47c2e-4c8f-4413-a741-9ca60bb0498e/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466TOAJXBP3%2F20260204%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260204T073937Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEEYaCXVzLXdlc3QtMiJHMEUCICGu1szMsqO9RO2qiVv4ezEt5fDJzEl9g4Mi8lRKX5wKAiEA6%2BBpfpQMhYMUdPPIjuowQsjpTsBhAC%2FbC9jQ8s%2F88Ysq%2FwMIDxAAGgw2Mzc0MjMxODM4MDUiDMShNGhoJWJDc3Xn2yrcA4v1B0Cia4RD%2Fwfl0RzeJosaGkXc%2FWwEnsXaGcN1B%2BMd1uT4QRzPXzPUFmhQjN9p3uoJ%2BF5as6zSbcbzggBFbjFbJ7tDDcvEmP1drsNjPZOBrALkvpDlfYTZGv6XpNLloy0fWMceJuw%2Bq8ApFd%2FZPHoxblpdQsN2Th6N8wL6A4R9A0JpR2300gfzQ%2FbY2pxW2N5VbKxghpBUs5Pv5v0sQ0EklIt7Wrd08gH%2B73LdOoqHnUwWhgjHf9YsFcBXU%2FLJXfs4xk23%2F0T1MlycpPXgDpBIVVv1xiFEDFOp3OaD0zfQPspNWULr47onj9aLwlbBBaorWjgELsVG2sd6tptnh5C3lzvWypprONnMyP6GkRtrFNMXt%2BbdNn%2FoduOzIEVIAjhtwx6CaBAZavxDd70%2BH1s%2F8%2FFKpCIOKTNHPSbfYVp6h0k7ZRFHDvXLqyga10AKYL8NFLj2s9eK%2FWkHJ%2Fil9XpTBHbv%2BLwxflPpzlYCTA7KpvmDGzdieBf%2Baj14nmd8ab0OYlMy1MrkVnXGDi9kvJmUbyuZ5xDcnkIk%2B0jYFDXehaOxpAY476FLR%2BIat9F04t6r6KgE7Zdk4BXYGky5t%2F%2FXr%2B325%2BzMlnwfIXKOU3iD88fpUv1xnj96dHpfMN3Di8wGOqUBvci3TuuzMxMcpjdxxxXzLunCJtRIWTKbHAhL7RLvvfDek9GHjgQg2TJsuwXVJBj4GybE7o9XKLEtkTqivkmos%2FcOenlgSbpa81HQVlsMI4n%2FAUAnaKEe0rRrfRSLMDEqinU8WungPCPf%2FXk8Nb2AUXysRxN7rF%2FJIlbX1EiY4h19ty5xV%2F8EXX8%2Bye%2Be700fqdXNau8IIa4HT8rG%2Fcqx8l4LiSha&X-Amz-Signature=71f7d920acb9d652faa28070761d14eb319b26031c42294148c6d1c1c098ea4a&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+            "expiry_time": "2026-02-04T08:39:36.976Z"
           }
         }
       },
@@ -1223,7 +1412,7 @@
               "block_id": "2fc44860-a4f4-80f0-b990-dd42021edd0c"
             },
             "created_time": "2026-02-03T06:49:00.000Z",
-            "last_edited_time": "2026-02-03T06:49:00.000Z",
+            "last_edited_time": "2026-02-04T06:51:00.000Z",
             "created_by": {
               "object": "user",
               "id": "2aed872b-594c-81eb-bc82-000291164988"
@@ -1245,7 +1434,7 @@
                     "link": null
                   },
                   "annotations": {
-                    "bold": false,
+                    "bold": true,
                     "italic": false,
                     "strikethrough": false,
                     "underline": false,
@@ -1267,7 +1456,7 @@
               "block_id": "2fc44860-a4f4-80f0-b990-dd42021edd0c"
             },
             "created_time": "2026-02-03T06:49:00.000Z",
-            "last_edited_time": "2026-02-03T06:49:00.000Z",
+            "last_edited_time": "2026-02-04T06:51:00.000Z",
             "created_by": {
               "object": "user",
               "id": "2aed872b-594c-81eb-bc82-000291164988"
@@ -1289,7 +1478,7 @@
                     "link": null
                   },
                   "annotations": {
-                    "bold": false,
+                    "bold": true,
                     "italic": false,
                     "strikethrough": false,
                     "underline": false,
@@ -1311,7 +1500,7 @@
               "block_id": "2fc44860-a4f4-80f0-b990-dd42021edd0c"
             },
             "created_time": "2026-02-03T06:49:00.000Z",
-            "last_edited_time": "2026-02-03T06:52:00.000Z",
+            "last_edited_time": "2026-02-04T06:51:00.000Z",
             "created_by": {
               "object": "user",
               "id": "2aed872b-594c-81eb-bc82-000291164988"
@@ -1333,7 +1522,7 @@
                     "link": null
                   },
                   "annotations": {
-                    "bold": false,
+                    "bold": true,
                     "italic": false,
                     "strikethrough": false,
                     "underline": false,
@@ -1600,8 +1789,8 @@
           "caption": [],
           "type": "file",
           "file": {
-            "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/c69962b0-3951-485b-b10a-5bb29576bba8/8a250490-07da-4c93-b92e-8020ce920375/%E1%84%80%E1%85%B5%E1%84%83%E1%85%B5_4%E1%84%8C%E1%85%AE%E1%84%8E%E1%85%A1.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466TKSOGYVP%2F20260204%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260204T063025Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEEYaCXVzLXdlc3QtMiJHMEUCIQCEnfBvCDO7PV0C%2BJm0SuTE2Z7hTdS%2B1gzUKJgkL1zLfwIgZ%2Be6Mv9y3JsjzPevF5bITCYTvn1zxentXi%2FaMnmEcs0q%2FwMIDxAAGgw2Mzc0MjMxODM4MDUiDNoX%2FSQw7dZNq50fqyrcA6GGc6MgFksf0%2By%2BFL9lD5CKVJAg894EMQia%2BwvtAOcVaprODLAmoZ166Eq9D0GSn7y%2Fu3xK%2BrmgMry6fPI3jeWcp29pUI4XJW47doqnKnyFTgzR7QZ4T6UiEtav5%2FZYcYUTKT7YGrq9Jk%2FCNSu%2B8oSyUrcT%2FZadyLGN62CeFLxTC4qYVGEktR2Ka2hSppzwBIwaKNJ%2Fq30h%2FiIm6oBaE0UG%2FbKzRse4F7GmPN9ydKzaNw%2BiU3HCXVmGDHP4xt7hWFTUCicQW%2BAIKpb3d6CCh%2B2CkwFs%2Fwla1AtnWmNpPzAtQvby6xN%2Bra2%2FXmv00Yrg9UqVJWyH7aWsM1D91WYARbPjEpcghdwYybPOrNBzscvwQt24Z3ePOqTn4yALXQa2lzySH85RNXkbpQzRdOioD5rMMUU62UUILjdgP%2B95v4F7IVzvk2PssDxDYWtT5sCSzrDSdZasW20ECO%2B9w95gb1GyMHO3psyflpLlooJahHdMCjtsYTNdE9cVMAdf%2F4vUT%2F4QVz6ZXV2WUEWw90n92AXiayJC4ihKOhvMRTJ57iDV7AQR1bm%2BzBdY45mLAqsnIRX3tmI%2F4n%2F1uF%2F0rg%2Bzp8G3ciS4ZM2kcHuNRiFV%2BJ%2FOQ1lJ%2Ff4aECCUuuLzMPbDi8wGOqUBZ2PeYZEqlFGTPg%2FrGILK%2Fj3Kz7pVrEjfif4fvkFPYvaL4IDDPfCWDiJbikkJ0OzYGHjkA12XZrhMHhGqZ1wO4AAy%2BMNWKYA%2FDe424gVDUBpcSqIu8jVc0RFFJIYmFTmzCpaAM4JHdSSnfZoDS%2BAoNk%2BNfb0TFi91jItaLLYjWkasj3Jo6V3%2F%2BUi1FjNbW%2FrnqAPFfGZlyCrVHOBQKB4e1b3azKnY&X-Amz-Signature=2fa48974799ef2aab79edaf29a943464bb3e46f3fe7b32fc69f83dc4e425686d&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
-            "expiry_time": "2026-02-04T07:30:25.299Z"
+            "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/c69962b0-3951-485b-b10a-5bb29576bba8/8a250490-07da-4c93-b92e-8020ce920375/%E1%84%80%E1%85%B5%E1%84%83%E1%85%B5_4%E1%84%8C%E1%85%AE%E1%84%8E%E1%85%A1.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466SY3ZBTEL%2F20260204%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260204T073939Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEEYaCXVzLXdlc3QtMiJHMEUCIHKpfsi5QJeBaDkB1wuIlycvakiaGJ%2FnnInyUWRqc%2BfKAiEAw00xLSXDlZs3Xuy3%2BZ26ixaVojqvXr37tEEi2CMNcP0q%2FwMIDxAAGgw2Mzc0MjMxODM4MDUiDC3d2GgtBBeyCj2HHCrcAzdeYddxv5WhJPg2xdhgLRl3IUmVNK%2BqS6JeAHjNYmXzoFzwGERgPOtyW1%2BQnjgyXfxcd48o03yGmAJlsAL6AVhE4ciCblSYMLvk5kZMS4Qvm8ivjeV%2ByERthuNXbVGsNN3T%2BYANdIDTUlV5%2BA6fOx3NPUOYoF6muN82suxo0UmlcHVZCr9st6XwsElyetHRlWF9hlVFiAYn5wIKSal0j9HvliJoGMFOJBgS9MduqCmCy9%2F4UqLdvnAZzfltAwZuhm8aMFcD1eUBUByiCpXoXE7i83iH1hUz13Ctv4JsP0%2FI6WIld5uhbAqtVyrZUrNG3vcwc%2FqJ8o%2FE8qTRH09oT9xlw7GEVRw%2FgHZ7NjNuyMCD%2B2dZfP5YFRPl%2Bxb7uQ95EKEtVsR9Nj0ToiaOgq%2FylWgcsyu4l6b%2BwW9VjdyoJrN%2Fw5pRUAhsVBsmsoYUsnqFyupXDuISDH0mx1GazqoVIrqzGrX6J9KNTaAvVjQGhEOKOFB69LX21ZOJ1s8F47OfU2atAd7qLm5qJInUgf%2B6t4vXDZQQND6d1woYPH913UvRSTFZpLXifmX4P5678I7OV7XIzGSZsZYXyKcAc6Xq1G9f7b721QK2lEs0ni0%2FIuhfjiooj2UAZcsvVJ5NMNfEi8wGOqUBsNez%2FIeWdi0q8hdmqU4oWlsjvbilGKagCprJGKv8Mywi9C8aFJAqJ2BFxiX6BwoAreZDjGgLWJAPrK1VJQ45wHiTu7aMbmy6o8xf25cUjONOh0lENQ2CQ%2FDm4FQuhk0b%2B3L%2F1ekkjt54koIsb8VIzYlRprrX3DW8Iw05JHB4gjXHJEJriLg6svPPxD81s%2BqN6RNClZMMERUnJJgTOSd%2BPGW%2Fsor4&X-Amz-Signature=ae008c119a5fbbde6fe6d3be6796b0dd79fcc9e5e0861b271b418e08a76d0a74&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+            "expiry_time": "2026-02-04T08:39:39.491Z"
           }
         }
       },
@@ -2353,5 +2542,5 @@
       }
     ]
   },
-  "syncedAt": "2026-02-04T06:30:32.838Z"
+  "syncedAt": "2026-02-04T07:39:43.850Z"
 }
