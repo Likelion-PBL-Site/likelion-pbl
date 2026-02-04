@@ -11,7 +11,7 @@ import { Code } from "./blocks/code";
 import { NotionImage } from "./blocks/image";
 import { NotionVideo } from "./blocks/video";
 import { Divider } from "./blocks/divider";
-import { Bookmark } from "./blocks/bookmark";
+import { Bookmark, LinkPreview } from "./blocks/bookmark";
 import { NotionTable } from "./blocks/table";
 
 interface NotionBlockRendererProps {
@@ -138,6 +138,9 @@ function RenderBlock({ block, sectionType, checkedIds, onToggleCheck }: RenderBl
 
     case "bookmark":
       return <Bookmark block={block} />;
+
+    case "link_preview":
+      return <LinkPreview block={block} />;
 
     case "table":
       return <NotionTable block={block} />;

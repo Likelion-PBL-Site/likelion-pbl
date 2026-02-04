@@ -182,6 +182,14 @@ export interface BookmarkBlock extends NotionBlockBase {
   };
 }
 
+/** Link Preview 블록 */
+export interface LinkPreviewBlock extends NotionBlockBase {
+  type: "link_preview";
+  link_preview: {
+    url: string;
+  };
+}
+
 /** Video 블록 */
 export interface VideoBlock extends NotionBlockBase {
   type: "video";
@@ -234,6 +242,7 @@ export type NotionBlock =
   | ToggleBlock
   | TableOfContentsBlock
   | BookmarkBlock
+  | LinkPreviewBlock
   | TableBlock
   | TableRowBlock;
 

@@ -1,9 +1,13 @@
-import { ArrowRight, Globe, Github, Youtube, FileText, BookOpen, Code } from "lucide-react";
-import type { BookmarkBlock } from "@/types/notion-blocks";
+import { ArrowRight, Globe, Github, Youtube, FileText, BookOpen, Code, HardDrive } from "lucide-react";
+import type { BookmarkBlock, LinkPreviewBlock } from "@/types/notion-blocks";
 import { NotionRichText } from "../notion-rich-text";
 
 interface BookmarkProps {
   block: BookmarkBlock;
+}
+
+interface LinkPreviewProps {
+  block: LinkPreviewBlock;
 }
 
 // 도메인별 아이콘 매핑
@@ -14,7 +18,17 @@ function getIconForDomain(domain: string) {
   if (domain.includes("developer.mozilla.org") || domain.includes("mdn")) return BookOpen;
   if (domain.includes("stackoverflow.com")) return Code;
   if (domain.includes("docs.") || domain.includes("documentation")) return BookOpen;
+  if (domain.includes("drive.google.com")) return HardDrive;
   return Globe;
+}
+
+// 도메인별 표시 이름
+function getLabelForDomain(domain: string): string {
+  if (domain.includes("drive.google.com")) return "Google Drive";
+  if (domain.includes("docs.google.com")) return "Google Docs";
+  if (domain.includes("github.com")) return "GitHub";
+  if (domain.includes("figma.com")) return "Figma";
+  return domain;
 }
 
 export function Bookmark({ block }: BookmarkProps) {
@@ -62,6 +76,42 @@ export function Bookmark({ block }: BookmarkProps) {
       </div>
 
       {/* 화살표 */}
+      <ArrowRight className="h-4 w-4 text-muted-foreground group-hover:text-primary group-hover:translate-x-1 transition-all shrink-0" />
+    </a>
+  );
+}
+
+export function LinkPreview({ block }: LinkPreviewProps) {
+  const { url } = block.link_preview;
+
+  let domain = "";
+  try {
+    domain = new URL(url).hostname.replace("www.", "");
+  } catch {
+    domain = url;
+  }
+
+  const Icon = getIconForDomain(domain);
+  const label = getLabelForDomain(domain);
+
+  return (
+    <a
+      href={url}
+      target="_blank"
+      rel="noopener noreferrer"
+      className="flex items-center gap-3 px-4 py-3 rounded-lg border bg-card hover:bg-muted/50 hover:border-primary/50 transition-all group my-2"
+    >
+      <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-muted group-hover:bg-primary/10 transition-colors">
+        <Icon className="h-5 w-5 text-muted-foreground group-hover:text-primary transition-colors" />
+      </div>
+      <div className="flex-1 min-w-0">
+        <p className="font-medium text-foreground group-hover:text-primary transition-colors truncate">
+          {label}
+        </p>
+        <p className="text-sm text-muted-foreground truncate">
+          {domain}
+        </p>
+      </div>
       <ArrowRight className="h-4 w-4 text-muted-foreground group-hover:text-primary group-hover:translate-x-1 transition-all shrink-0" />
     </a>
   );
