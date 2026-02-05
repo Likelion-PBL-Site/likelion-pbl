@@ -25,7 +25,7 @@ interface HeadingProps {
  * "1. 제목" 또는 "1. 제목 - 부제목" 형태에서 번호와 제목을 분리
  */
 function parseNumberedHeading(text: string): { number: string; title: string } | null {
-  const match = text.match(/^(\d+)\.\s*(.+)$/);
+  const match = text.trim().match(/^(\d+)\.\s*(.+)$/);
   if (match) {
     return { number: match[1], title: match[2] };
   }
