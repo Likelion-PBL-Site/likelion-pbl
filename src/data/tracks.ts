@@ -39,7 +39,7 @@ export const tracks: TrackInfo[] = [
     id: "django",
     name: "백엔드 (Django)",
     description:
-      "Python과 Django를 활용한 서버 개발을 학습합니다. REST API 설계, ORM, 인증/인가까지 백엔드 전반을 다룹니다.",
+      "Python과 Django를 활용한 서버 개발을 학습합니다. REST API 설계, ORM 등 백엔드 전반을 다룹니다.",
     icon: "Server",
     color: "var(--track-backend)",
     missionCount: 10,
