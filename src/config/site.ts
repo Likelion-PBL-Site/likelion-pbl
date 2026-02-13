@@ -100,11 +100,4 @@ export const footerLinks: FooterLinkGroup[] = [
       { title: "공식 사이트", href: "https://likelion.net", external: true }
     ],
   },
-  {
-    title: "법적 고지",
-    links: [
-      { title: "개인정보처리방침", href: "#" },
-      { title: "이용약관", href: "#" },
-    ],
-  },
 ];
