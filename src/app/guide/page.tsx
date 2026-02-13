@@ -146,6 +146,21 @@ const resources = [
     href: "https://nextjs.org/docs",
   },
   {
+    title: "Django 공식 문서",
+    description: "Django 프레임워크 공식 가이드",
+    href: "https://docs.djangoproject.com/ko/",
+  },
+  {
+    title: "Spring 공식 문서",
+    description: "Spring Framework 공식 가이드",
+    href: "https://docs.spring.io/spring-boot/",
+  },
+  {
+    title: "Spring Initializr",
+    description: "Spring Boot 프로젝트 생성 도구",
+    href: "https://start.spring.io/",
+  },
+  {
     title: "Figma Learn",
     description: "디자인 툴 Figma 공식 학습 리소스",
     href: "https://help.figma.com/",

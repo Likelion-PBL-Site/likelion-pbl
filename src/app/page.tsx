@@ -97,7 +97,7 @@ export default function HomePage() {
 
             {/* 서브 타이틀 */}
             <h1 className="mb-4 text-2xl sm:text-3xl md:text-4xl font-bold tracking-tight">
-              <span className="text-primary">멋사 대학</span>과 함께
+              <span className="text-primary">멋사대학</span>과 함께
               <br />
               IT 역량을 키워보세요
             </h1>

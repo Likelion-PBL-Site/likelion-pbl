@@ -138,12 +138,12 @@ export default function FAQPage() {
                     <AccordionItem
                       key={itemIdx}
                       value={`${categoryIdx}-${itemIdx}`}
-                      className="border rounded-lg mb-2 px-4 data-[state=open]:bg-muted/50"
+                      className="border rounded-lg mb-3 px-4 overflow-hidden data-[state=open]:bg-muted/50 [&]:border-b"
                     >
                       <AccordionTrigger className="text-left hover:no-underline">
                         <span className="font-medium">{item.question}</span>
                       </AccordionTrigger>
-                      <AccordionContent className="text-muted-foreground">
+                      <AccordionContent className="text-muted-foreground pb-4">
                         {item.answer}
                       </AccordionContent>
                     </AccordionItem>
