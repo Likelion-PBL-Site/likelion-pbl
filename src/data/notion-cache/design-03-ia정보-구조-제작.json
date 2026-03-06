@@ -2,6 +2,7 @@
   "missionId": "2f044860a4f4814082dce3e329232d90",
   "notionPageId": "2f044860-a4f4-8140-82dc-e3e329232d90",
   "fileName": "design-03-ia정보-구조-제작.json",
+  "lastEditedTime": "2026-03-04T14:44:00.000Z",
   "sections": {
     "introduction": [
       {
@@ -1563,8 +1564,8 @@
           "caption": [],
           "type": "file",
           "file": {
-            "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/c69962b0-3951-485b-b10a-5bb29576bba8/de867709-3a11-48e4-850a-1146c45b2c9b/%E1%84%80%E1%85%B5%E1%84%83%E1%85%B5_3%E1%84%8C%E1%85%AE%E1%84%8E%E1%85%A1.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466XIFHG75K%2F20260303%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260303T095048Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjENL%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJIMEYCIQDI1FwRMAkK78sKEGMjhaL8Q4oMi8J1yRl8XgVYygnkMgIhALCSEfZ4J1zkvFppw81Efrooj57htcKyno8U4ZQwphbEKogECJr%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMNjM3NDIzMTgzODA1IgxLU%2FkY6XWZkOVENi0q3AN5PIlIJ%2F4bZDoF5VqyhYZ4ueyrAsI7gVTwZ1uFpvmRXItpKM7NlFpTXZbiEN%2BWI9a727aV%2BjlLFVNRokLBTVz%2FCCPhVLo42R%2FmsMA50iUJzN41UqMOZPNVZPIWFoc7%2BF5Fc3UJbVlyUxnnup6SHIY4OZpBsW5U%2B1rbZFZ9xQ1vWsB2D5JHR1kj0bvbm%2F%2BOfnlKYL7O2Corrg56pNkyrZVm6qJadtZMb7PnLWG0dWAz%2FwH0VnJkqU28frzu4sW2fM9YwVaAihy%2FaFoZRYFkqJt%2BCq%2FhvKmBbuSX8ZPeAkLsDuSK3fZLmp%2B%2FkoEzvzOW%2BPAeXWpEcTSB7%2BUW202aGjGomkOILTexV4cKi7wcBoTMQhpHkMW0lZaoZ7yg9fjXh194p2VtekNHR0HWU2QGCDVNWwZ5LYoFi82Px%2BrZEUlcIfQhQOsy%2BVt%2Byc2S0mF%2Fa7pf6Fi9fsd0Vt4LGBRTn6nCo33YCOclZv0vDtZMMbb9cUn%2BCiG%2BCfU8y%2FOJAvlcXIrYl0lkbIDbgI28ONPPRmGH3h3fEA01uL7E3HCeUEWfI1qiA3gaELz%2BQNq%2Fa4Vj5brkrNDu%2FPMcnzt3KY5p5WagnC%2FbH%2BWaZN2dJxDIcpHaGSFDnMczOrfucWrq2TDwzprNBjqkAVMOd2%2BrRKoKkGrZ%2FA0sBHpMiHt5r%2Be4s7TWJE0MRxB6MkmQdEZm9gQit07JPDpm1sSOcmzlQJs1U19%2FDYwJ9EZe39xKhNb9qjdBk14MdnnMiFX6bL6nQWoo6E7EpYbcQRj24822Ko3PYPexDKS3FLjVk1LwUMLt5isNx8kDTjUKTFSqZ8aGbgNDvBh%2BLhvP4qrtdZv5NNd0F6RZSE4dcZRMTSgS&X-Amz-Signature=334f10c7c62af649f9492e0eeb08b60ad460c63859e87ea8ae1ac3e4ee6c7777&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
-            "expiry_time": "2026-03-03T10:50:48.110Z"
+            "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/c69962b0-3951-485b-b10a-5bb29576bba8/de867709-3a11-48e4-850a-1146c45b2c9b/%E1%84%80%E1%85%B5%E1%84%83%E1%85%B5_3%E1%84%8C%E1%85%AE%E1%84%8E%E1%85%A1.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4662XG6X2YQ%2F20260304%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260304T145552Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEO%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIHqISWh1cmpi60y6U7yFXIPlV8oAX0peGUgIBgd3vIw3AiEA2XxoDhyCWSPTVMlheYKOxa4KU5B64xZZobooJZeMIkUqiAQIuP%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDKyQhb3l7Aw6v3nexCrcA83Z5tGRmb3H8stTLJOEzDUu4ezfS12DAszcsd9ajfSm9%2Bz%2BrSrXLhCd141oXJ2Wx%2Fp9Z42u9YTws7pvyn58YiAzajoT%2BOiLsB1z2nsi3C7%2BhL6kwCn6XELzJEd5%2B4yy0pCxvVRaQzwCRz3GKwbnSgh0wbuHuF4Tn%2FM%2BTrkSLrCRjHWg7Yal6aduDL8lWYUxV39Aki1v87fX3kOqM7ruUKp8nejn875295QqaG%2F1xbLBFOm7HlTGOLwzpRogYfwSW%2B8xXE2K%2FrTWuG6XofSSDDBhbatTw7Mb6yRLbZ2lop%2BqjCBntbA2eKa4Pk2Sbzi1ENqTRCGvZnfdHmailfzyx%2BrxzFH4HSWJ6fs%2F2cDH9q2xPlYFyO8tz2%2FVnrrfp0SEwuTQk2uj3eipsFOOi%2BdqN%2B%2F1NPD%2F51D3xpTIoVT7YgqIyRikpflZgSkhzbP%2FgVTXCDdLZKVyulyPwtUJCDon4HmKq5MHnJJyVYTYn6dxeuTv6XNPyqFVh8j%2B9Tjwv9r1IuYAwg8JiiiWqDbT1e4nlr5jzpzuTGz%2BmF2P5V5d%2FOXL5eTG6g6SYC4%2FN%2F9u%2BtREfDynxLEosSXVgH5Bv8dDtvaAa7oYjOr6dAxbiX3yKGfZWWSxFlrrKkNW7zkAMNSOoc0GOqUBDyN1%2Bg%2FwDoBkTVV6gT%2Fj5XWPJ3LTXvjTSvJztFS4381LxK56bPvuFuoAuB5Hb6ACUebmHEyniVQgRe%2FsvmCwLmF5mvX4de%2F5xFFaBkDgHI3XxaDD2IvayYe4i2wRHIu8VpC47dYyF%2BwlppzfHEDf%2FeaXlEo8ouNoLanwWZ%2BNAlHuPJi4%2Bfkp4WUYbL6hgAbq9zIJ6J7PXU2U3VdwB3Fkj951Sf%2Fk&X-Amz-Signature=6f63725dd16817d8462ddddaf1b591ada01f150d14b29f3d84fd52ad38d16490&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+            "expiry_time": "2026-03-04T15:55:52.816Z"
           }
         }
       },
@@ -1649,16 +1650,16 @@
           "block_id": "2fc44860-a4f4-80bb-b0f8-cf2b9f5d8c5f"
         },
         "created_time": "2026-02-03T06:41:00.000Z",
-        "last_edited_time": "2026-02-04T06:48:00.000Z",
+        "last_edited_time": "2026-03-04T14:44:00.000Z",
         "created_by": {
           "object": "user",
           "id": "2aed872b-594c-81eb-bc82-000291164988"
         },
         "last_edited_by": {
           "object": "user",
-          "id": "2aed872b-594c-81eb-bc82-000291164988"
+          "id": "02042589-fdf7-43c3-b4e0-cbe6175fa46c"
         },
-        "has_children": false,
+        "has_children": true,
         "archived": false,
         "in_trash": false,
         "type": "bulleted_list_item",
@@ -1667,7 +1668,7 @@
             {
               "type": "text",
               "text": {
-                "content": "구조 ",
+                "content": "구조",
                 "link": null
               },
               "annotations": {
@@ -1678,29 +1679,58 @@
                 "code": false,
                 "color": "default"
               },
-              "plain_text": "구조 ",
-              "href": null
-            },
-            {
-              "type": "text",
-              "text": {
-                "content": ": IA는 디자인 시안이 아닙니다. 화면을 그리는 것이 아니라 정보의 분류와 흐름을 텍스트로 정리하는 것입니다.",
-                "link": null
-              },
-              "annotations": {
-                "bold": false,
-                "italic": false,
-                "strikethrough": false,
-                "underline": false,
-                "code": false,
-                "color": "default"
-              },
-              "plain_text": ": IA는 디자인 시안이 아닙니다. 화면을 그리는 것이 아니라 정보의 분류와 흐름을 텍스트로 정리하는 것입니다.",
+              "plain_text": "구조",
               "href": null
             }
           ],
           "color": "default"
-        }
+        },
+        "children": [
+          {
+            "object": "block",
+            "id": "31944860-a4f4-8013-8c4b-cb9d5c635c81",
+            "parent": {
+              "type": "block_id",
+              "block_id": "2fc44860-a4f4-8018-9335-c84b51e6a05b"
+            },
+            "created_time": "2026-03-04T14:44:00.000Z",
+            "last_edited_time": "2026-03-04T14:44:00.000Z",
+            "created_by": {
+              "object": "user",
+              "id": "02042589-fdf7-43c3-b4e0-cbe6175fa46c"
+            },
+            "last_edited_by": {
+              "object": "user",
+              "id": "02042589-fdf7-43c3-b4e0-cbe6175fa46c"
+            },
+            "has_children": false,
+            "archived": false,
+            "in_trash": false,
+            "type": "bulleted_list_item",
+            "bulleted_list_item": {
+              "rich_text": [
+                {
+                  "type": "text",
+                  "text": {
+                    "content": " IA는 디자인 시안이 아닙니다. 화면을 그리는 것이 아니라 정보의 분류와 흐름을 텍스트로 정리하는 것입니다.",
+                    "link": null
+                  },
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  },
+                  "plain_text": " IA는 디자인 시안이 아닙니다. 화면을 그리는 것이 아니라 정보의 분류와 흐름을 텍스트로 정리하는 것입니다.",
+                  "href": null
+                }
+              ],
+              "color": "default"
+            }
+          }
+        ]
       },
       {
         "object": "block",
@@ -2189,5 +2219,5 @@
       }
     ]
   },
-  "syncedAt": "2026-03-03T09:50:59.889Z"
+  "syncedAt": "2026-03-04T14:56:01.149Z"
 }

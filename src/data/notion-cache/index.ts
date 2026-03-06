@@ -33,6 +33,7 @@ export interface CachedMissionData {
   missionId: string;
   notionPageId: string;
   fileName?: string; // 가독성 있는 파일명 (예: react-01-html-css-기초.json)
+  lastEditedTime?: string; // Notion 페이지 수정 시간 (증분 동기화용)
   sections: MissionSections;
   syncedAt: string; // ISO date string
 }

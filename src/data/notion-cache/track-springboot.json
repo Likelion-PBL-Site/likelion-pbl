@@ -90,7 +90,7 @@
     {
       "id": "2f044860a4f4818ea0e6ebeb22ef09ad",
       "title": "REST API 설계(CRUD)",
-      "description": "아기 사자 등록/조회/수정/삭제 API 구현",
+      "description": "아기사자+운영진 등록/조회/수정/삭제 API 구현",
       "track": "springboot",
       "stage": "Spring Core",
       "estimatedTime": 120,
@@ -133,7 +133,7 @@
     {
       "id": "2f044860a4f481e6a824ca2a9f06099b",
       "title": " 개인 미니 프로젝트: 예외 처리 통합 &\n프론트엔드 연동",
-      "description": "성장 기록 시스템 기능 통합\n리팩토링 + README 문서화",
+      "description": "프론트 연동 + README 문서화",
       "track": "springboot",
       "stage": "Project",
       "estimatedTime": 120,
@@ -144,5 +144,5 @@
       ]
     }
   ],
-  "syncedAt": "2026-03-03T09:41:12.690Z"
+  "syncedAt": "2026-03-06T03:51:18.352Z"
 }

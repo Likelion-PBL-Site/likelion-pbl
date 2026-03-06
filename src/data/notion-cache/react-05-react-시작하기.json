@@ -2,6 +2,7 @@
   "missionId": "2f044860a4f48140a95dc73343b00434",
   "notionPageId": "2f044860-a4f4-8140-a95d-c73343b00434",
   "fileName": "react-05-react-시작하기.json",
+  "lastEditedTime": "2026-03-06T03:23:00.000Z",
   "sections": {
     "introduction": [
       {
@@ -6231,8 +6232,8 @@
           "caption": [],
           "type": "file",
           "file": {
-            "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/c69962b0-3951-485b-b10a-5bb29576bba8/55b8f2b3-154b-404f-9f87-5ab43eb753e8/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA_2026-02-01_%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE_7.06.16.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4664ZLDYV6M%2F20260303%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260303T094530Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjENL%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJGMEQCIGEYQxjmubyG0qsu%2B%2BcAgubAZaMOm4VO5nXp3bhTtXqnAiBScqnFPmAE6qqqD07lXjOVpqmgb0V1MDGRSd8CtxGM5SqIBAia%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAAaDDYzNzQyMzE4MzgwNSIMyZCW08nBglFjl%2F3lKtwDo7Yu1P00u%2FspLMVbWKjq2OGdSf72ZZPNuu%2BS23iEtryv3C95XRSwJuYmEvIRCA2YExzflt%2BCGS12c%2FDAf0otwYCw5v6Mcf1yocHAU3P8p2fhAa7pAn2oUr6yhdXh5HvyNfqFx2UhgghcKjRTvBICfmCfJiwEuHYmEzl%2Ft4S7gR4Rk%2Fr1142zNbW0XLPPwcbm9gHIqoz3TSZXfR%2B3yhtqMzoWBQ4F%2FDX0Eqmx4Bi7ZM98dKcBPSYmBx23NBFRL1tZ2QegZzfKaDvydyP8LA9NeD82FJqyPQJtkG867EJQl4yIRi6r4iTI5Vr4%2FWklP67F%2BBBpwR9KdN7a%2B4kb3TmjJPcHiQ9hi7Y74l84HkX6vT7DPTO59UcdVJNSOBaqolCNHTfS6pSUvB8h8kScCuhEbTEjN9s2XT6zgtTGEp4X%2Bm38ToLz2SZqGzlr7pp5SIG3qbKqEHGU8X7%2FdNWXuFNQhv3ldslRutOZZ2EVL5NJTTH9%2BcUYtLp1W3pHuVgRNoNmO%2FtfayO%2BMwn3i6APAPOLE8GaKstAs27kgz210DNUElJ4ZtpGgslvkq4NATgbEPvYPAmqkb1IJWigSmfI8mKFQKr9%2F%2FP5Rhd0oloSpAq%2Fg94zr1%2F60mwUiN%2BT%2BRkwotGazQY6pgGGPeBU8ZvGA5jOVSgTw0YyEvJva9g6WN%2B20A0lJPrEv0N%2BJtnvXFjRpb6uyIfT1qFi8kLQUCjNfTzHlyjDuMTNN3YnkIIXZUq13zNHQjJoOn6dFJ%2FX4SH3sisW%2F6FWOKdsxyx61Af1chW5nbxQ1ev3%2BEedVVAyQzheTZNjrq6gVoby40yPvA0oKVcYrTbBWKJi%2FobPn0RtXNJAq8bvyUgaIw%2FNW4rC&X-Amz-Signature=424e31bca282ef4fdb18dbe662571742e5e0d915b928df754df9b6bbc1e0297f&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
-            "expiry_time": "2026-03-03T10:45:28.814Z"
+            "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/c69962b0-3951-485b-b10a-5bb29576bba8/55b8f2b3-154b-404f-9f87-5ab43eb753e8/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA_2026-02-01_%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE_7.06.16.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466VXNGSFQO%2F20260306%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260306T033205Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEBEaCXVzLXdlc3QtMiJHMEUCIQCHOEWR65d%2FhF1qq32A1s6AGr62Ls5oUXDg%2BKTvH8QVlwIgQZemZlDFTVUY8CzRMZJNhOYXTQyru4QJOAcvPk4R%2B4oqiAQI2v%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDEnGJ0a9t6XVRP9RVCrcAx6pOCAZVRwtuvPIsDtWBBdej9cvAAoMkjrf76eelXfbiIOfQeKQ5PPh7902Xr5kwIS7pUDPfkh6nqfMBg6wRXnYQWCyQFbzaJnRa%2Bk5Yi5OUuYQC4eHG%2Bma40M4x7vF%2FQjul3HSXprqsh9trrzIiPlCPK7xnBnJw%2FoTahFG5tn8GTt17mW3TVBUk8E3w3B54DAnFYlIZNeIMJ2%2B0ghmQhUSn3bpmQtXLT9qEZuUrLBKKeqcrNrEHwNT%2BJzYEMitZJ5Z6Xtevnn%2BABxYnbYp5h8kS%2BdoyYwRBPltAVmZ9IDlh3f%2BaD%2FtomGYeLSFqJH6dUmLcXTLaRNPklPtDTZZr026v6G0Pk1YA9bTgLSwKKTYDQPJzrg%2B2Y9ocnRzHNDCc00h6hD%2B%2BtQrNIR0tqUfnW8NbXMC%2FQdt7Fbfnl9u%2B4Z2AyLyrljA%2BcCuCWlExHYIaTV3wPBPclps2BsgovlpS0OosjilowqBLdtuGLYONEUBgcp5PDhVBLbMSrGGLYCUEIhLeWEK7%2FLwzQ9wQO30%2BAcLBiZmzpuUStiqzN1mVGaMEK65oRypj%2F%2FE8E3%2FdphjVrJC%2Berix6BS1SlGf1q0U7I%2B6FTW5hC2eaHBtUgx1Hs3VGW51Kxb5ReJuDtSMLfOqM0GOqUBDeQ6KdALi3vimDbL1o43km5Mk3j8czVPenv8lDK9zWL%2F6VO9HuC0y7Cdr7HUhtFuFGeChFi%2F9nIBLo7NPZnB%2BuPimNuYMrjuFKhGKzWgXsu5qEJcFjzOHSylrGJwq2MalJKZ8VnnSLvxcALPeGAJSca4Ap2f76jNaVdqwzwvI8%2BWcG9L%2Bm%2BW%2FTko6ZnWrLfJ4rbcc%2B70fKjHLixZrfAGMyLFRm1R&X-Amz-Signature=6b1344c5626d281b24b90d225babf3be9a5ef826338a40895de6b0079355c4a6&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+            "expiry_time": "2026-03-06T04:32:05.460Z"
           }
         }
       },
@@ -6329,8 +6330,8 @@
           "caption": [],
           "type": "file",
           "file": {
-            "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/c69962b0-3951-485b-b10a-5bb29576bba8/bc288de8-5a1f-407e-adcb-6ef2a817843e/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA_2026-02-01_%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE_7.07.28.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4664ZLDYV6M%2F20260303%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260303T094531Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjENL%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJGMEQCIGEYQxjmubyG0qsu%2B%2BcAgubAZaMOm4VO5nXp3bhTtXqnAiBScqnFPmAE6qqqD07lXjOVpqmgb0V1MDGRSd8CtxGM5SqIBAia%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAAaDDYzNzQyMzE4MzgwNSIMyZCW08nBglFjl%2F3lKtwDo7Yu1P00u%2FspLMVbWKjq2OGdSf72ZZPNuu%2BS23iEtryv3C95XRSwJuYmEvIRCA2YExzflt%2BCGS12c%2FDAf0otwYCw5v6Mcf1yocHAU3P8p2fhAa7pAn2oUr6yhdXh5HvyNfqFx2UhgghcKjRTvBICfmCfJiwEuHYmEzl%2Ft4S7gR4Rk%2Fr1142zNbW0XLPPwcbm9gHIqoz3TSZXfR%2B3yhtqMzoWBQ4F%2FDX0Eqmx4Bi7ZM98dKcBPSYmBx23NBFRL1tZ2QegZzfKaDvydyP8LA9NeD82FJqyPQJtkG867EJQl4yIRi6r4iTI5Vr4%2FWklP67F%2BBBpwR9KdN7a%2B4kb3TmjJPcHiQ9hi7Y74l84HkX6vT7DPTO59UcdVJNSOBaqolCNHTfS6pSUvB8h8kScCuhEbTEjN9s2XT6zgtTGEp4X%2Bm38ToLz2SZqGzlr7pp5SIG3qbKqEHGU8X7%2FdNWXuFNQhv3ldslRutOZZ2EVL5NJTTH9%2BcUYtLp1W3pHuVgRNoNmO%2FtfayO%2BMwn3i6APAPOLE8GaKstAs27kgz210DNUElJ4ZtpGgslvkq4NATgbEPvYPAmqkb1IJWigSmfI8mKFQKr9%2F%2FP5Rhd0oloSpAq%2Fg94zr1%2F60mwUiN%2BT%2BRkwotGazQY6pgGGPeBU8ZvGA5jOVSgTw0YyEvJva9g6WN%2B20A0lJPrEv0N%2BJtnvXFjRpb6uyIfT1qFi8kLQUCjNfTzHlyjDuMTNN3YnkIIXZUq13zNHQjJoOn6dFJ%2FX4SH3sisW%2F6FWOKdsxyx61Af1chW5nbxQ1ev3%2BEedVVAyQzheTZNjrq6gVoby40yPvA0oKVcYrTbBWKJi%2FobPn0RtXNJAq8bvyUgaIw%2FNW4rC&X-Amz-Signature=5a2fabfbd3af75dfea93130a6765b95ed253d4d1eb51aabdd958d4d7d3aa8607&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
-            "expiry_time": "2026-03-03T10:45:31.422Z"
+            "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/c69962b0-3951-485b-b10a-5bb29576bba8/bc288de8-5a1f-407e-adcb-6ef2a817843e/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA_2026-02-01_%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE_7.07.28.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466VXNGSFQO%2F20260306%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260306T033205Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEBEaCXVzLXdlc3QtMiJHMEUCIQCHOEWR65d%2FhF1qq32A1s6AGr62Ls5oUXDg%2BKTvH8QVlwIgQZemZlDFTVUY8CzRMZJNhOYXTQyru4QJOAcvPk4R%2B4oqiAQI2v%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDEnGJ0a9t6XVRP9RVCrcAx6pOCAZVRwtuvPIsDtWBBdej9cvAAoMkjrf76eelXfbiIOfQeKQ5PPh7902Xr5kwIS7pUDPfkh6nqfMBg6wRXnYQWCyQFbzaJnRa%2Bk5Yi5OUuYQC4eHG%2Bma40M4x7vF%2FQjul3HSXprqsh9trrzIiPlCPK7xnBnJw%2FoTahFG5tn8GTt17mW3TVBUk8E3w3B54DAnFYlIZNeIMJ2%2B0ghmQhUSn3bpmQtXLT9qEZuUrLBKKeqcrNrEHwNT%2BJzYEMitZJ5Z6Xtevnn%2BABxYnbYp5h8kS%2BdoyYwRBPltAVmZ9IDlh3f%2BaD%2FtomGYeLSFqJH6dUmLcXTLaRNPklPtDTZZr026v6G0Pk1YA9bTgLSwKKTYDQPJzrg%2B2Y9ocnRzHNDCc00h6hD%2B%2BtQrNIR0tqUfnW8NbXMC%2FQdt7Fbfnl9u%2B4Z2AyLyrljA%2BcCuCWlExHYIaTV3wPBPclps2BsgovlpS0OosjilowqBLdtuGLYONEUBgcp5PDhVBLbMSrGGLYCUEIhLeWEK7%2FLwzQ9wQO30%2BAcLBiZmzpuUStiqzN1mVGaMEK65oRypj%2F%2FE8E3%2FdphjVrJC%2Berix6BS1SlGf1q0U7I%2B6FTW5hC2eaHBtUgx1Hs3VGW51Kxb5ReJuDtSMLfOqM0GOqUBDeQ6KdALi3vimDbL1o43km5Mk3j8czVPenv8lDK9zWL%2F6VO9HuC0y7Cdr7HUhtFuFGeChFi%2F9nIBLo7NPZnB%2BuPimNuYMrjuFKhGKzWgXsu5qEJcFjzOHSylrGJwq2MalJKZ8VnnSLvxcALPeGAJSca4Ap2f76jNaVdqwzwvI8%2BWcG9L%2Bm%2BW%2FTko6ZnWrLfJ4rbcc%2B70fKjHLixZrfAGMyLFRm1R&X-Amz-Signature=7093e4d1a3e38863c08ad50f8f7cc593b3af15584a1597fd41fa2d41a8b8d310&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+            "expiry_time": "2026-03-06T04:32:05.552Z"
           }
         }
       },
@@ -6427,8 +6428,8 @@
           "caption": [],
           "type": "file",
           "file": {
-            "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/c69962b0-3951-485b-b10a-5bb29576bba8/b77afe81-673d-4709-afa8-3889465b7212/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4664ZLDYV6M%2F20260303%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260303T094531Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjENL%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJGMEQCIGEYQxjmubyG0qsu%2B%2BcAgubAZaMOm4VO5nXp3bhTtXqnAiBScqnFPmAE6qqqD07lXjOVpqmgb0V1MDGRSd8CtxGM5SqIBAia%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAAaDDYzNzQyMzE4MzgwNSIMyZCW08nBglFjl%2F3lKtwDo7Yu1P00u%2FspLMVbWKjq2OGdSf72ZZPNuu%2BS23iEtryv3C95XRSwJuYmEvIRCA2YExzflt%2BCGS12c%2FDAf0otwYCw5v6Mcf1yocHAU3P8p2fhAa7pAn2oUr6yhdXh5HvyNfqFx2UhgghcKjRTvBICfmCfJiwEuHYmEzl%2Ft4S7gR4Rk%2Fr1142zNbW0XLPPwcbm9gHIqoz3TSZXfR%2B3yhtqMzoWBQ4F%2FDX0Eqmx4Bi7ZM98dKcBPSYmBx23NBFRL1tZ2QegZzfKaDvydyP8LA9NeD82FJqyPQJtkG867EJQl4yIRi6r4iTI5Vr4%2FWklP67F%2BBBpwR9KdN7a%2B4kb3TmjJPcHiQ9hi7Y74l84HkX6vT7DPTO59UcdVJNSOBaqolCNHTfS6pSUvB8h8kScCuhEbTEjN9s2XT6zgtTGEp4X%2Bm38ToLz2SZqGzlr7pp5SIG3qbKqEHGU8X7%2FdNWXuFNQhv3ldslRutOZZ2EVL5NJTTH9%2BcUYtLp1W3pHuVgRNoNmO%2FtfayO%2BMwn3i6APAPOLE8GaKstAs27kgz210DNUElJ4ZtpGgslvkq4NATgbEPvYPAmqkb1IJWigSmfI8mKFQKr9%2F%2FP5Rhd0oloSpAq%2Fg94zr1%2F60mwUiN%2BT%2BRkwotGazQY6pgGGPeBU8ZvGA5jOVSgTw0YyEvJva9g6WN%2B20A0lJPrEv0N%2BJtnvXFjRpb6uyIfT1qFi8kLQUCjNfTzHlyjDuMTNN3YnkIIXZUq13zNHQjJoOn6dFJ%2FX4SH3sisW%2F6FWOKdsxyx61Af1chW5nbxQ1ev3%2BEedVVAyQzheTZNjrq6gVoby40yPvA0oKVcYrTbBWKJi%2FobPn0RtXNJAq8bvyUgaIw%2FNW4rC&X-Amz-Signature=1e775e8bbb29f3f6e926ef9849e1774d2536750ac7a316174d1f0a791497f5d4&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
-            "expiry_time": "2026-03-03T10:45:31.325Z"
+            "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/c69962b0-3951-485b-b10a-5bb29576bba8/b77afe81-673d-4709-afa8-3889465b7212/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466VXNGSFQO%2F20260306%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260306T033205Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEBEaCXVzLXdlc3QtMiJHMEUCIQCHOEWR65d%2FhF1qq32A1s6AGr62Ls5oUXDg%2BKTvH8QVlwIgQZemZlDFTVUY8CzRMZJNhOYXTQyru4QJOAcvPk4R%2B4oqiAQI2v%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDEnGJ0a9t6XVRP9RVCrcAx6pOCAZVRwtuvPIsDtWBBdej9cvAAoMkjrf76eelXfbiIOfQeKQ5PPh7902Xr5kwIS7pUDPfkh6nqfMBg6wRXnYQWCyQFbzaJnRa%2Bk5Yi5OUuYQC4eHG%2Bma40M4x7vF%2FQjul3HSXprqsh9trrzIiPlCPK7xnBnJw%2FoTahFG5tn8GTt17mW3TVBUk8E3w3B54DAnFYlIZNeIMJ2%2B0ghmQhUSn3bpmQtXLT9qEZuUrLBKKeqcrNrEHwNT%2BJzYEMitZJ5Z6Xtevnn%2BABxYnbYp5h8kS%2BdoyYwRBPltAVmZ9IDlh3f%2BaD%2FtomGYeLSFqJH6dUmLcXTLaRNPklPtDTZZr026v6G0Pk1YA9bTgLSwKKTYDQPJzrg%2B2Y9ocnRzHNDCc00h6hD%2B%2BtQrNIR0tqUfnW8NbXMC%2FQdt7Fbfnl9u%2B4Z2AyLyrljA%2BcCuCWlExHYIaTV3wPBPclps2BsgovlpS0OosjilowqBLdtuGLYONEUBgcp5PDhVBLbMSrGGLYCUEIhLeWEK7%2FLwzQ9wQO30%2BAcLBiZmzpuUStiqzN1mVGaMEK65oRypj%2F%2FE8E3%2FdphjVrJC%2Berix6BS1SlGf1q0U7I%2B6FTW5hC2eaHBtUgx1Hs3VGW51Kxb5ReJuDtSMLfOqM0GOqUBDeQ6KdALi3vimDbL1o43km5Mk3j8czVPenv8lDK9zWL%2F6VO9HuC0y7Cdr7HUhtFuFGeChFi%2F9nIBLo7NPZnB%2BuPimNuYMrjuFKhGKzWgXsu5qEJcFjzOHSylrGJwq2MalJKZ8VnnSLvxcALPeGAJSca4Ap2f76jNaVdqwzwvI8%2BWcG9L%2Bm%2BW%2FTko6ZnWrLfJ4rbcc%2B70fKjHLixZrfAGMyLFRm1R&X-Amz-Signature=817ff1a8ea2b924c379248156db8d94e257742d108b7af5e20ec0e2c81ba7ac8&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+            "expiry_time": "2026-03-06T04:32:05.630Z"
           }
         }
       },
@@ -6525,8 +6526,8 @@
           "caption": [],
           "type": "file",
           "file": {
-            "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/c69962b0-3951-485b-b10a-5bb29576bba8/af163826-a33c-4889-a615-9407fa68bdaa/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4664ZLDYV6M%2F20260303%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260303T094531Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjENL%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJGMEQCIGEYQxjmubyG0qsu%2B%2BcAgubAZaMOm4VO5nXp3bhTtXqnAiBScqnFPmAE6qqqD07lXjOVpqmgb0V1MDGRSd8CtxGM5SqIBAia%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAAaDDYzNzQyMzE4MzgwNSIMyZCW08nBglFjl%2F3lKtwDo7Yu1P00u%2FspLMVbWKjq2OGdSf72ZZPNuu%2BS23iEtryv3C95XRSwJuYmEvIRCA2YExzflt%2BCGS12c%2FDAf0otwYCw5v6Mcf1yocHAU3P8p2fhAa7pAn2oUr6yhdXh5HvyNfqFx2UhgghcKjRTvBICfmCfJiwEuHYmEzl%2Ft4S7gR4Rk%2Fr1142zNbW0XLPPwcbm9gHIqoz3TSZXfR%2B3yhtqMzoWBQ4F%2FDX0Eqmx4Bi7ZM98dKcBPSYmBx23NBFRL1tZ2QegZzfKaDvydyP8LA9NeD82FJqyPQJtkG867EJQl4yIRi6r4iTI5Vr4%2FWklP67F%2BBBpwR9KdN7a%2B4kb3TmjJPcHiQ9hi7Y74l84HkX6vT7DPTO59UcdVJNSOBaqolCNHTfS6pSUvB8h8kScCuhEbTEjN9s2XT6zgtTGEp4X%2Bm38ToLz2SZqGzlr7pp5SIG3qbKqEHGU8X7%2FdNWXuFNQhv3ldslRutOZZ2EVL5NJTTH9%2BcUYtLp1W3pHuVgRNoNmO%2FtfayO%2BMwn3i6APAPOLE8GaKstAs27kgz210DNUElJ4ZtpGgslvkq4NATgbEPvYPAmqkb1IJWigSmfI8mKFQKr9%2F%2FP5Rhd0oloSpAq%2Fg94zr1%2F60mwUiN%2BT%2BRkwotGazQY6pgGGPeBU8ZvGA5jOVSgTw0YyEvJva9g6WN%2B20A0lJPrEv0N%2BJtnvXFjRpb6uyIfT1qFi8kLQUCjNfTzHlyjDuMTNN3YnkIIXZUq13zNHQjJoOn6dFJ%2FX4SH3sisW%2F6FWOKdsxyx61Af1chW5nbxQ1ev3%2BEedVVAyQzheTZNjrq6gVoby40yPvA0oKVcYrTbBWKJi%2FobPn0RtXNJAq8bvyUgaIw%2FNW4rC&X-Amz-Signature=cab50fb379c18585bff3b35e81d3bf5a55b07846ae9585ae608451f1e39224a9&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
-            "expiry_time": "2026-03-03T10:45:31.325Z"
+            "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/c69962b0-3951-485b-b10a-5bb29576bba8/af163826-a33c-4889-a615-9407fa68bdaa/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466VXNGSFQO%2F20260306%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260306T033205Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEBEaCXVzLXdlc3QtMiJHMEUCIQCHOEWR65d%2FhF1qq32A1s6AGr62Ls5oUXDg%2BKTvH8QVlwIgQZemZlDFTVUY8CzRMZJNhOYXTQyru4QJOAcvPk4R%2B4oqiAQI2v%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDEnGJ0a9t6XVRP9RVCrcAx6pOCAZVRwtuvPIsDtWBBdej9cvAAoMkjrf76eelXfbiIOfQeKQ5PPh7902Xr5kwIS7pUDPfkh6nqfMBg6wRXnYQWCyQFbzaJnRa%2Bk5Yi5OUuYQC4eHG%2Bma40M4x7vF%2FQjul3HSXprqsh9trrzIiPlCPK7xnBnJw%2FoTahFG5tn8GTt17mW3TVBUk8E3w3B54DAnFYlIZNeIMJ2%2B0ghmQhUSn3bpmQtXLT9qEZuUrLBKKeqcrNrEHwNT%2BJzYEMitZJ5Z6Xtevnn%2BABxYnbYp5h8kS%2BdoyYwRBPltAVmZ9IDlh3f%2BaD%2FtomGYeLSFqJH6dUmLcXTLaRNPklPtDTZZr026v6G0Pk1YA9bTgLSwKKTYDQPJzrg%2B2Y9ocnRzHNDCc00h6hD%2B%2BtQrNIR0tqUfnW8NbXMC%2FQdt7Fbfnl9u%2B4Z2AyLyrljA%2BcCuCWlExHYIaTV3wPBPclps2BsgovlpS0OosjilowqBLdtuGLYONEUBgcp5PDhVBLbMSrGGLYCUEIhLeWEK7%2FLwzQ9wQO30%2BAcLBiZmzpuUStiqzN1mVGaMEK65oRypj%2F%2FE8E3%2FdphjVrJC%2Berix6BS1SlGf1q0U7I%2B6FTW5hC2eaHBtUgx1Hs3VGW51Kxb5ReJuDtSMLfOqM0GOqUBDeQ6KdALi3vimDbL1o43km5Mk3j8czVPenv8lDK9zWL%2F6VO9HuC0y7Cdr7HUhtFuFGeChFi%2F9nIBLo7NPZnB%2BuPimNuYMrjuFKhGKzWgXsu5qEJcFjzOHSylrGJwq2MalJKZ8VnnSLvxcALPeGAJSca4Ap2f76jNaVdqwzwvI8%2BWcG9L%2Bm%2BW%2FTko6ZnWrLfJ4rbcc%2B70fKjHLixZrfAGMyLFRm1R&X-Amz-Signature=35c6540eb0110a46401727adb1363541b97301e94a8387f982c0baf4b5288e43&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+            "expiry_time": "2026-03-06T04:32:05.621Z"
           }
         }
       },
@@ -8753,14 +8754,14 @@
           "block_id": "2fd44860-a4f4-8068-9077-ce9403358c66"
         },
         "created_time": "2026-02-04T06:11:00.000Z",
-        "last_edited_time": "2026-02-04T06:18:00.000Z",
+        "last_edited_time": "2026-03-06T03:23:00.000Z",
         "created_by": {
           "object": "user",
           "id": "2aed872b-594c-81eb-bc82-000291164988"
         },
         "last_edited_by": {
           "object": "user",
-          "id": "2aed872b-594c-81eb-bc82-000291164988"
+          "id": "02042589-fdf7-43c3-b4e0-cbe6175fa46c"
         },
         "has_children": false,
         "archived": false,
@@ -8780,7 +8781,7 @@
                 "strikethrough": false,
                 "underline": false,
                 "code": false,
-                "color": "orange"
+                "color": "default"
               },
               "plain_text": "prop-types(",
               "href": null
@@ -8800,7 +8801,7 @@
                 "strikethrough": false,
                 "underline": false,
                 "code": false,
-                "color": "orange"
+                "color": "default"
               },
               "plain_text": "https://www.npmjs.com/package/prop-types",
               "href": "https://www.npmjs.com/package/prop-types"
@@ -8808,24 +8809,7 @@
             {
               "type": "text",
               "text": {
-                "content": ") 라이브러리",
-                "link": null
-              },
-              "annotations": {
-                "bold": false,
-                "italic": false,
-                "strikethrough": false,
-                "underline": false,
-                "code": false,
-                "color": "orange"
-              },
-              "plain_text": ") 라이브러리",
-              "href": null
-            },
-            {
-              "type": "text",
-              "text": {
-                "content": "를 설치하고, Props를 전달받는 모든 컴포넌트에 PropTypes를 정의한다.",
+                "content": ") 라이브러리를 설치하고, Props를 전달받는 모든 컴포넌트에 PropTypes를 정의한다.",
                 "link": null
               },
               "annotations": {
@@ -8836,7 +8820,7 @@
                 "code": false,
                 "color": "default"
               },
-              "plain_text": "를 설치하고, Props를 전달받는 모든 컴포넌트에 PropTypes를 정의한다.",
+              "plain_text": ") 라이브러리를 설치하고, Props를 전달받는 모든 컴포넌트에 PropTypes를 정의한다.",
               "href": null
             }
           ],
@@ -8851,14 +8835,14 @@
           "block_id": "2fd44860-a4f4-8068-9077-ce9403358c66"
         },
         "created_time": "2026-02-04T06:11:00.000Z",
-        "last_edited_time": "2026-02-04T06:11:00.000Z",
+        "last_edited_time": "2026-03-06T03:23:00.000Z",
         "created_by": {
           "object": "user",
           "id": "2aed872b-594c-81eb-bc82-000291164988"
         },
         "last_edited_by": {
           "object": "user",
-          "id": "2aed872b-594c-81eb-bc82-000291164988"
+          "id": "02042589-fdf7-43c3-b4e0-cbe6175fa46c"
         },
         "has_children": false,
         "archived": false,
@@ -8895,14 +8879,14 @@
           "block_id": "2fd44860-a4f4-8068-9077-ce9403358c66"
         },
         "created_time": "2026-02-04T06:11:00.000Z",
-        "last_edited_time": "2026-02-04T06:18:00.000Z",
+        "last_edited_time": "2026-03-06T03:23:00.000Z",
         "created_by": {
           "object": "user",
           "id": "2aed872b-594c-81eb-bc82-000291164988"
         },
         "last_edited_by": {
           "object": "user",
-          "id": "2aed872b-594c-81eb-bc82-000291164988"
+          "id": "02042589-fdf7-43c3-b4e0-cbe6175fa46c"
         },
         "has_children": false,
         "archived": false,
@@ -8939,7 +8923,7 @@
                 "strikethrough": false,
                 "underline": false,
                 "code": true,
-                "color": "orange"
+                "color": "default"
               },
               "plain_text": "PropTypes.shape()",
               "href": null
@@ -8947,24 +8931,7 @@
             {
               "type": "text",
               "text": {
-                "content": "을 사용해 내부 구조까지 정의",
-                "link": null
-              },
-              "annotations": {
-                "bold": false,
-                "italic": false,
-                "strikethrough": false,
-                "underline": false,
-                "code": false,
-                "color": "orange"
-              },
-              "plain_text": "을 사용해 내부 구조까지 정의",
-              "href": null
-            },
-            {
-              "type": "text",
-              "text": {
-                "content": "해야 한다.",
+                "content": "을 사용해 내부 구조까지 정의해야 한다.",
                 "link": null
               },
               "annotations": {
@@ -8975,7 +8942,7 @@
                 "code": false,
                 "color": "default"
               },
-              "plain_text": "해야 한다.",
+              "plain_text": "을 사용해 내부 구조까지 정의해야 한다.",
               "href": null
             }
           ],
@@ -8990,14 +8957,14 @@
           "block_id": "2fd44860-a4f4-8068-9077-ce9403358c66"
         },
         "created_time": "2026-02-04T06:11:00.000Z",
-        "last_edited_time": "2026-02-04T06:18:00.000Z",
+        "last_edited_time": "2026-03-06T03:23:00.000Z",
         "created_by": {
           "object": "user",
           "id": "2aed872b-594c-81eb-bc82-000291164988"
         },
         "last_edited_by": {
           "object": "user",
-          "id": "2aed872b-594c-81eb-bc82-000291164988"
+          "id": "02042589-fdf7-43c3-b4e0-cbe6175fa46c"
         },
         "has_children": false,
         "archived": false,
@@ -9034,7 +9001,7 @@
                 "strikethrough": false,
                 "underline": false,
                 "code": true,
-                "color": "orange"
+                "color": "default"
               },
               "plain_text": "PropTypes.arrayOf()",
               "href": null
@@ -9042,24 +9009,7 @@
             {
               "type": "text",
               "text": {
-                "content": "를 사용해 배열 요소의 타입을 정의",
-                "link": null
-              },
-              "annotations": {
-                "bold": false,
-                "italic": false,
-                "strikethrough": false,
-                "underline": false,
-                "code": false,
-                "color": "orange"
-              },
-              "plain_text": "를 사용해 배열 요소의 타입을 정의",
-              "href": null
-            },
-            {
-              "type": "text",
-              "text": {
-                "content": "해야 한다.",
+                "content": "를 사용해 배열 요소의 타입을 정의해야 한다.",
                 "link": null
               },
               "annotations": {
@@ -9070,7 +9020,7 @@
                 "code": false,
                 "color": "default"
               },
-              "plain_text": "해야 한다.",
+              "plain_text": "를 사용해 배열 요소의 타입을 정의해야 한다.",
               "href": null
             }
           ],
@@ -9085,14 +9035,14 @@
           "block_id": "2fd44860-a4f4-8068-9077-ce9403358c66"
         },
         "created_time": "2026-02-04T06:11:00.000Z",
-        "last_edited_time": "2026-02-04T06:18:00.000Z",
+        "last_edited_time": "2026-03-06T03:23:00.000Z",
         "created_by": {
           "object": "user",
           "id": "2aed872b-594c-81eb-bc82-000291164988"
         },
         "last_edited_by": {
           "object": "user",
-          "id": "2aed872b-594c-81eb-bc82-000291164988"
+          "id": "02042589-fdf7-43c3-b4e0-cbe6175fa46c"
         },
         "has_children": false,
         "archived": false,
@@ -9129,7 +9079,7 @@
                 "strikethrough": false,
                 "underline": false,
                 "code": true,
-                "color": "orange"
+                "color": "default"
               },
               "plain_text": ".isRequired",
               "href": null
@@ -9137,24 +9087,7 @@
             {
               "type": "text",
               "text": {
-                "content": "를 붙여 누락 시 경고가 발생",
-                "link": null
-              },
-              "annotations": {
-                "bold": false,
-                "italic": false,
-                "strikethrough": false,
-                "underline": false,
-                "code": false,
-                "color": "orange"
-              },
-              "plain_text": "를 붙여 누락 시 경고가 발생",
-              "href": null
-            },
-            {
-              "type": "text",
-              "text": {
-                "content": "하도록 해야 한다.",
+                "content": "를 붙여 누락 시 경고가 발생하도록 해야 한다.",
                 "link": null
               },
               "annotations": {
@@ -9165,7 +9098,7 @@
                 "code": false,
                 "color": "default"
               },
-              "plain_text": "하도록 해야 한다.",
+              "plain_text": "를 붙여 누락 시 경고가 발생하도록 해야 한다.",
               "href": null
             }
           ],
@@ -9180,14 +9113,14 @@
           "block_id": "2fd44860-a4f4-8068-9077-ce9403358c66"
         },
         "created_time": "2026-02-04T06:11:00.000Z",
-        "last_edited_time": "2026-02-04T06:19:00.000Z",
+        "last_edited_time": "2026-03-06T03:23:00.000Z",
         "created_by": {
           "object": "user",
           "id": "2aed872b-594c-81eb-bc82-000291164988"
         },
         "last_edited_by": {
           "object": "user",
-          "id": "2aed872b-594c-81eb-bc82-000291164988"
+          "id": "02042589-fdf7-43c3-b4e0-cbe6175fa46c"
         },
         "has_children": false,
         "archived": false,
@@ -9198,7 +9131,7 @@
             {
               "type": "text",
               "text": {
-                "content": "잘못된 타입의 Props가 전달될 경우, 브라우저 개발자 도구 콘솔에 ",
+                "content": "잘못된 타입의 Props가 전달될 경우, 브라우저 개발자 도구 콘솔에 경고 메시지가 표시되어야 한다. (기능을 테스트해 보고 싶을 경우, 컴포넌트에 의도적으로 잘못된 타입의 props를 전달해 보면 된다.)",
                 "link": null
               },
               "annotations": {
@@ -9209,41 +9142,7 @@
                 "code": false,
                 "color": "default"
               },
-              "plain_text": "잘못된 타입의 Props가 전달될 경우, 브라우저 개발자 도구 콘솔에 ",
-              "href": null
-            },
-            {
-              "type": "text",
-              "text": {
-                "content": "경고 메시지가 표시",
-                "link": null
-              },
-              "annotations": {
-                "bold": false,
-                "italic": false,
-                "strikethrough": false,
-                "underline": false,
-                "code": false,
-                "color": "orange"
-              },
-              "plain_text": "경고 메시지가 표시",
-              "href": null
-            },
-            {
-              "type": "text",
-              "text": {
-                "content": "되어야 한다. (기능을 테스트해 보고 싶을 경우, 컴포넌트에 의도적으로 잘못된 타입의 props를 전달해 보면 된다.)",
-                "link": null
-              },
-              "annotations": {
-                "bold": false,
-                "italic": false,
-                "strikethrough": false,
-                "underline": false,
-                "code": false,
-                "color": "default"
-              },
-              "plain_text": "되어야 한다. (기능을 테스트해 보고 싶을 경우, 컴포넌트에 의도적으로 잘못된 타입의 props를 전달해 보면 된다.)",
+              "plain_text": "잘못된 타입의 Props가 전달될 경우, 브라우저 개발자 도구 콘솔에 경고 메시지가 표시되어야 한다. (기능을 테스트해 보고 싶을 경우, 컴포넌트에 의도적으로 잘못된 타입의 props를 전달해 보면 된다.)",
               "href": null
             }
           ],
@@ -9343,8 +9242,8 @@
           "caption": [],
           "type": "file",
           "file": {
-            "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/c69962b0-3951-485b-b10a-5bb29576bba8/7ec31490-8027-4def-a2ea-0b3355dae398/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA_2026-02-01_%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE_10.39.17.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466XWVPNDG3%2F20260303%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260303T094542Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjENL%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJGMEQCIDmOtmOuaDiK9PlyPb5s4SpGa2c3gmR8H%2F%2BT1YEZ%2F50gAiAgHOZDqUAwkF7Filr3G0DxSnOMOCA2mHzpPfTiSGN77yqIBAia%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAAaDDYzNzQyMzE4MzgwNSIM6oenCs%2FEC2IwTgeeKtwDg3ml9PEkPRBECOxbGpDacF7VNwW2RfjsRkjfT3lytJAg39alR0oKQXemhqzWOUDrdjb7xWoQCXBXv8Y8rWS2xLVHwj%2F%2BebsAtn1Q6xjIw6kKOJOgNucXgvdbUACDo5wSp0n9WKN7BWva2xe1c7bhbfoiAkN15mZYucRGl35ghsMDWHWqzK%2FvR9xH7K8a5HyQ4vKjxP8XLogiZqMkNA5mzncL2a%2BjlTE4TiiUVCFTOA%2F1tkckfljDqt%2F4gDdNHBFhuJVOM9EYyMkB8%2FIS1ZvzbpgFo2jJG5f8s%2FWEOXx7gmqqK4%2BB5aPNRX0YwB2PG6uAdT5qvm69PLJ2BAV4aPnmVx1cBm89xqzeBl39MXnBZ%2Fgz09XhrA0aigtRaIE7USwukrEmL1oP0C2Xpibp7c4YVzaXdS3Q5vLNBLEoPjvO7ZOdGEwUrbJ%2BdG2rH84FoMYpsaK8UuXSiTNX%2B3M2OQlx%2Br6FeoDmH18x3pPUlTB02%2BY5K3yiMecjKRBQFS3rnSnMEZERVJ1iR0ecrbLYMBV%2FFMrplVlWp658RyTdHxQ5MRGB4HXJYw3yX5fiHn5Glt5%2FWlnV9mD5sj3Q7PP7dbt6hYxvt0IREJbH7%2FADWq1onDGCQwbcv2urSMeAPmow29CazQY6pgFPx0RBJf%2BGOjvw19alfE86LhB%2FeR9z7grNWNBBEgwAtHECSkosPnhLBkO7ss%2FTF3ICYv3Rq%2FahLYWZWhw4un%2FtIoLEoGSLQQk5lNsrM5OTuM4ReTJHItJDFWWciuekvyXCU36J28hYHrwewY7xK1lQVe%2F54DPWrVLowOT0RH1nzjBZuEN2DHNu%2BDCnm2rv%2BuBigMYnehsj6NdW1oM73QtvxT5zKRz2&X-Amz-Signature=f25d11c61a7c7d14fa80314597eea7aa81ac934c8f194be1d6374ec432765fad&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
-            "expiry_time": "2026-03-03T10:45:42.217Z"
+            "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/c69962b0-3951-485b-b10a-5bb29576bba8/7ec31490-8027-4def-a2ea-0b3355dae398/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA_2026-02-01_%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE_10.39.17.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB46632PSEDKX%2F20260306%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260306T033205Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEBEaCXVzLXdlc3QtMiJHMEUCIQCy%2FWwpGZYQwE7wCtBMvIqS2AWM6xPN7xVVekKxtD4FAgIgWPuk05p5D8P2jOK%2FGtq3uBmgN0vjfXglC5pN7Vtppw4qiAQI2v%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDPsE7S3yHxqYeZSAVSrcA1N%2BAQz4dFmLzSH0JqwjjDYdfsX2Ok55cuH77qBlyaXGXIU5gUj%2B7hGl3nTfKkSHKbYIqz9HqcAfX9XP3s%2B8205ucBWPBg5D7SP0Z6nM3%2BZ2kv9D1lB8cjMGbnZaz%2BThDqwq8qd7%2FjbWPU5muMkntDhL6hZ3o0hN2%2FQi4LRT4iI7mMd8xmmpAnrs8EklfvEk2HLqET0WUstF841FLl17ywsDvJZUXABrrcvh5DQ6mAGQxAXa1fuFyl7BdC2jo10cdkEXHxlBnk9sFnSVreeJlB6aZj041T8Rb7ouDc2lQjiHcvq44nwrQ0Kq%2BwwO4J%2B%2Bc2rnpRZBEF9x726ov2Pz3estBScWy3mFm2pK%2BUxkKhtr%2BPHJGv9T%2BBbVTES0Y8XUTxb1QOn70dp4lpU8TJN4sNvHl6kYLc8C56zAFCbiufGlEtyeCeXUym7%2FSujdEopuOaIg014%2Fmo8DCRgkFXLcSiP%2BtfBL1th3%2BtkhvsjsSt93a6aRNS0BqKbi1izP3NYsx71LrYUFbCcskjtRH2lO1Yl73hnGl3iwgbJ3yZIO3zQ0WgW1YuSkkFR6EiOwX%2FvTTCV6sOr6R92dNXJweazrSuMPV0MR3UgAdYcD8%2BkCC2R4JRGIDrPGcoGADtegMJDPqM0GOqUBUk5ETGBUruGIGKo6VzOfAxAOZ9dDPZNfkZdpIo9gXVmNSdLlQg0Yb8cdW9pWvgEEYImlh%2Ff3KeSzaeXxOz8datsTx6bksGfFjAJ83Hzlwpus6CcJGa8Rll50QaLA7Ddx4DFQ75S30C3R%2Fnye%2F1ZzTK6u%2B%2BJDOvR5l7l3DZtzK6ZCDJhaXe%2BcKObe2CfGowGOzyfaKAL%2FFhsOh9sc3yYk%2FzVHS4Lq&X-Amz-Signature=59b797633b795c67eb1ed45a0cff7c7820b8433c463ce3d9e0efbf4aa5374052&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+            "expiry_time": "2026-03-06T04:32:05.204Z"
           }
         }
       },
@@ -9356,14 +9255,14 @@
           "block_id": "2fd44860-a4f4-8068-9077-ce9403358c66"
         },
         "created_time": "2026-02-04T06:11:00.000Z",
-        "last_edited_time": "2026-02-04T06:19:00.000Z",
+        "last_edited_time": "2026-03-06T03:23:00.000Z",
         "created_by": {
           "object": "user",
           "id": "2aed872b-594c-81eb-bc82-000291164988"
         },
         "last_edited_by": {
           "object": "user",
-          "id": "2aed872b-594c-81eb-bc82-000291164988"
+          "id": "02042589-fdf7-43c3-b4e0-cbe6175fa46c"
         },
         "has_children": false,
         "archived": false,
@@ -9374,7 +9273,7 @@
             {
               "type": "text",
               "text": {
-                "content": "자기소개 요약 카드 컴포넌트에 배지 표시 여부를 제어하는",
+                "content": "자기소개 요약 카드 컴포넌트에 배지 표시 여부를 제어하는 boolean 타입 props를 추가한다.",
                 "link": null
               },
               "annotations": {
@@ -9385,41 +9284,7 @@
                 "code": false,
                 "color": "default"
               },
-              "plain_text": "자기소개 요약 카드 컴포넌트에 배지 표시 여부를 제어하는",
-              "href": null
-            },
-            {
-              "type": "text",
-              "text": {
-                "content": " boolean 타입 props를 추가",
-                "link": null
-              },
-              "annotations": {
-                "bold": false,
-                "italic": false,
-                "strikethrough": false,
-                "underline": false,
-                "code": false,
-                "color": "orange"
-              },
-              "plain_text": " boolean 타입 props를 추가",
-              "href": null
-            },
-            {
-              "type": "text",
-              "text": {
-                "content": "한다.",
-                "link": null
-              },
-              "annotations": {
-                "bold": false,
-                "italic": false,
-                "strikethrough": false,
-                "underline": false,
-                "code": false,
-                "color": "default"
-              },
-              "plain_text": "한다.",
+              "plain_text": "자기소개 요약 카드 컴포넌트에 배지 표시 여부를 제어하는 boolean 타입 props를 추가한다.",
               "href": null
             }
           ],
@@ -9434,14 +9299,14 @@
           "block_id": "2fd44860-a4f4-8068-9077-ce9403358c66"
         },
         "created_time": "2026-02-04T06:11:00.000Z",
-        "last_edited_time": "2026-02-04T06:11:00.000Z",
+        "last_edited_time": "2026-03-06T03:23:00.000Z",
         "created_by": {
           "object": "user",
           "id": "2aed872b-594c-81eb-bc82-000291164988"
         },
         "last_edited_by": {
           "object": "user",
-          "id": "2aed872b-594c-81eb-bc82-000291164988"
+          "id": "02042589-fdf7-43c3-b4e0-cbe6175fa46c"
         },
         "has_children": false,
         "archived": false,
@@ -9478,14 +9343,14 @@
           "block_id": "2fd44860-a4f4-8068-9077-ce9403358c66"
         },
         "created_time": "2026-02-04T06:11:00.000Z",
-        "last_edited_time": "2026-02-04T06:11:00.000Z",
+        "last_edited_time": "2026-03-06T03:23:00.000Z",
         "created_by": {
           "object": "user",
           "id": "2aed872b-594c-81eb-bc82-000291164988"
         },
         "last_edited_by": {
           "object": "user",
-          "id": "2aed872b-594c-81eb-bc82-000291164988"
+          "id": "02042589-fdf7-43c3-b4e0-cbe6175fa46c"
         },
         "has_children": false,
         "archived": false,
@@ -9522,14 +9387,14 @@
           "block_id": "2fd44860-a4f4-8068-9077-ce9403358c66"
         },
         "created_time": "2026-02-04T06:11:00.000Z",
-        "last_edited_time": "2026-02-04T06:11:00.000Z",
+        "last_edited_time": "2026-03-06T03:23:00.000Z",
         "created_by": {
           "object": "user",
           "id": "2aed872b-594c-81eb-bc82-000291164988"
         },
         "last_edited_by": {
           "object": "user",
-          "id": "2aed872b-594c-81eb-bc82-000291164988"
+          "id": "02042589-fdf7-43c3-b4e0-cbe6175fa46c"
         },
         "has_children": false,
         "archived": false,
@@ -9582,7 +9447,146 @@
         "divider": {}
       }
     ],
-    "vod": []
+    "vod": [
+      {
+        "object": "block",
+        "id": "31a44860-a4f4-8086-ac35-dc66df7652b4",
+        "parent": {
+          "type": "block_id",
+          "block_id": "31a44860-a4f4-8041-a947-ea40030b7c04"
+        },
+        "created_time": "2026-03-05T07:20:00.000Z",
+        "last_edited_time": "2026-03-05T07:20:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "02042589-fdf7-43c3-b4e0-cbe6175fa46c"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "02042589-fdf7-43c3-b4e0-cbe6175fa46c"
+        },
+        "has_children": false,
+        "archived": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "mention",
+              "mention": {
+                "type": "link_mention",
+                "link_mention": {
+                  "href": "https://likelion.net/onboarding/kdc-react1000?utm_source=likelion&utm_medium=url_share&utm_campaign=kdcreact1000_likelion_url_share_2512_new&utm_content=url_share_likelion&utm_term=new_all_pcmo",
+                  "title": "멋쟁이사자처럼 : 멋쟁이사자처럼",
+                  "icon_url": "https://likelion.net/img/favicon.png",
+                  "description": "IT 분야 지식이 없어도 누구나 수강 가능한 기초 강의입니다.",
+                  "thumbnail_url": "https://d35ai18pny966l.cloudfront.net/course/kdc/kdc-react1000/thumbnail_react_2_1.png"
+                }
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "https://likelion.net/onboarding/kdc-react1000?utm_source=likelion&utm_medium=url_share&utm_campaign=kdcreact1000_likelion_url_share_2512_new&utm_content=url_share_likelion&utm_term=new_all_pcmo",
+              "href": "https://likelion.net/onboarding/kdc-react1000?utm_source=likelion&utm_medium=url_share&utm_campaign=kdcreact1000_likelion_url_share_2512_new&utm_content=url_share_likelion&utm_term=new_all_pcmo"
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "object": "block",
+        "id": "31a44860-a4f4-805c-8dd7-d74dd2fa058e",
+        "parent": {
+          "type": "block_id",
+          "block_id": "31a44860-a4f4-8041-a947-ea40030b7c04"
+        },
+        "created_time": "2026-03-05T07:20:00.000Z",
+        "last_edited_time": "2026-03-05T07:20:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "02042589-fdf7-43c3-b4e0-cbe6175fa46c"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "02042589-fdf7-43c3-b4e0-cbe6175fa46c"
+        },
+        "has_children": false,
+        "archived": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "[입문부터 배포까지 리액트로 완성하는 프론트엔드 실무]",
+                "link": null
+              },
+              "annotations": {
+                "bold": true,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "[입문부터 배포까지 리액트로 완성하는 프론트엔드 실무]",
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "object": "block",
+        "id": "31a44860-a4f4-8068-98dd-c62db894fe00",
+        "parent": {
+          "type": "block_id",
+          "block_id": "31a44860-a4f4-8041-a947-ea40030b7c04"
+        },
+        "created_time": "2026-03-05T07:20:00.000Z",
+        "last_edited_time": "2026-03-05T07:20:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "02042589-fdf7-43c3-b4e0-cbe6175fa46c"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "02042589-fdf7-43c3-b4e0-cbe6175fa46c"
+        },
+        "has_children": false,
+        "archived": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "4. 리액트 시작하기",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "4. 리액트 시작하기",
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      }
+    ]
   },
-  "syncedAt": "2026-03-03T09:45:42.701Z"
+  "syncedAt": "2026-03-06T03:32:29.203Z"
 }

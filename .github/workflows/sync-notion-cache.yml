@@ -10,6 +10,11 @@ on:
         description: '동기화할 미션 ID (비워두면 전체)'
         required: false
         type: string
+      force:
+        description: '전체 강제 동기화 (변경 여부 무시)'
+        required: false
+        type: boolean
+        default: false
 
 concurrency:
   group: notion-sync
@@ -42,10 +47,14 @@ jobs:
           NOTION_DB_DJANGO: ${{ secrets.NOTION_DB_DJANGO }}
           NOTION_DB_DESIGN: ${{ secrets.NOTION_DB_DESIGN }}
         run: |
+          ARGS=""
+          if [ "${{ github.event.inputs.force }}" = "true" ]; then
+            ARGS="--force"
+          fi
           if [ -n "${{ github.event.inputs.mission_id }}" ]; then
             node scripts/sync-notion-cache.mjs ${{ github.event.inputs.mission_id }}
           else
-            node scripts/sync-notion-cache.mjs
+            node scripts/sync-notion-cache.mjs $ARGS
           fi
 
       - name: Check for changes

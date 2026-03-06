@@ -2,6 +2,7 @@
   "missionId": "2f044860a4f48113957dcd406e51e8ae",
   "notionPageId": "2f044860-a4f4-8113-957d-cd406e51e8ae",
   "fileName": "django-03-python-객체지향oop.json",
+  "lastEditedTime": "2026-03-06T03:26:00.000Z",
   "sections": {
     "introduction": [
       {
@@ -4491,8 +4492,8 @@
           "caption": [],
           "type": "file",
           "file": {
-            "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/c69962b0-3951-485b-b10a-5bb29576bba8/200a9e0a-24a3-4d5b-8257-e27ed2ed6ab9/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA_2026-01-25_%E1%84%8B%E1%85%A9%E1%84%8C%E1%85%A5%E1%86%AB_10.38.40.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB46644HTF6AD%2F20260303%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260303T094859Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjENL%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIHRoutxycUeTkO2ATsyoIT%2BWV56JeG%2BVX3AIo9mjL3O1AiEAqJNwiD1y4YOcTXGHnZc2%2BlQUIahtCmY0YOstWH1mStgqiAQImv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDL0H4ozMLpOz6Pp%2B0CrcAzujXRLssfufx1fr3C8PX5dyz5MAVrDty%2BjZBXueipmXK9uo5XOByxzpyF1JWtMtwYthYgjUR0sxZBJyUsGYvzPvKRCAIyv4LtJuQrPgy7xT8%2Fm6UNBfbmiWOycSOleV7Fw7oZYx%2B%2Bisor0QWhc8wThQ2Lyp4KkapkU%2B4r8kJ3I3VTo5%2FiK5mZicV%2FM64IDhi8m%2F0I8Low1TNNRq2jEXjMoKvj1ce7uCqieJdb3gi7exjT7HAd2z2FDvzkBQ5Y6bV6L3GzdicJOqAtzFXJsn6Rs0i6QMHo4UP%2ByG%2BMQ%2FCIkIhDZXvSI8jVWQwqnOiJDF1SJAvOX2hbY7sKTVzRxPZr%2BpqTfvoJvLS7DKK1xgK625ywNcbHyCMMX5TGXYvUBNcYMqe4FdOgCTknA7mb6rvk6tLwMgQmok2tW9L6wzfYnl2H8c%2FKWB7rd9yk3aDi7xSr6WJ1zFhFvsRG81%2BpAXQgpyPpJPbznogDpQRW8ZW9DBWEkJBVTSAs0djtgpU6AUxLCTRxLoK3rqcXlzejZQCXPz16OvMgTrNVtyVFlQ6hgigXV6M8RRyuWMwz1BDFp654vFMAnE8JLNCPSA2ICW2t6scxQBW1JlXDOZ3Zrsa6%2B1qUGyHeUGBXQT6uGNMPfOms0GOqUBNbajs96BfsYzICyagswmiYLUoey75Gps2zVhpENqhjseVbID0AHp9ZfIusNy1BxfPvjOHwDyULv8qtWoZO1iGKvescaJTpryNkAb6UfL8b9qpWJ0TJXY6c2CBv0anVEKg8ouMFwFIGlL5Y21yhKKkSz5lpxRWSO6d1u2QiA43BEM%2F1wrluiSbBd7ZYkpeH9NPiINT8lJ%2FXRMrAiHzha8%2FSCeO%2BI5&X-Amz-Signature=f8b370ab24bd33afd9041208cb6ce30e9caa27608d5117232490e8401a235faa&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
-            "expiry_time": "2026-03-03T10:48:59.479Z"
+            "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/c69962b0-3951-485b-b10a-5bb29576bba8/200a9e0a-24a3-4d5b-8257-e27ed2ed6ab9/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA_2026-01-25_%E1%84%8B%E1%85%A9%E1%84%8C%E1%85%A5%E1%86%AB_10.38.40.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466ZUVVGU4N%2F20260306%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260306T033339Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEBEaCXVzLXdlc3QtMiJGMEQCIHf0XVcoqljOAt3%2BSHOh0376xfvksBfvnP%2FvI7TFyH5OAiAFo2094ZOvgik%2F877R4LD%2FrEchFJidzhBtYBDkkA7XniqIBAja%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAAaDDYzNzQyMzE4MzgwNSIMJoickVw9%2FB%2BUwg3fKtwD5KDfy7oDKmsIiH9L5jFFpf6gtCkVUxyTAmQB8ZT5bk77lOTP0OD4BqiF7gvyZNGqcGg2Ku8l9BvkAAbQzmf045mGgLPcNju8ilKvspfVoo7DY5ZULU0lQAVMptQHf4P9gWaB42dP1tyY8PUClrmBJTWLNTyR0flODFX7kj6fxGJ%2FZ7Zv6N%2FHoRN38ULUz15WoO3p%2BDGTBjzBD%2FlGk6Yr5mfvmE9DLbU1oEVECifNwdisnkOzsBV5ZimP5y2xgTUiqPl2r8GZOlPE26XzwzXyINe0dnGGd36tP2tjKsPI110DDoE0i2TYQk77S0eaTC6p3532meK8bMcVOLkNEoZzlkY0D0Pffq0Y7lE%2Fl8D8USM48wJM4oP4wq5KIiHd8zTn71QkUhdPnN9BmtZ5e%2FqFFfxRh0OWJn1kWLIa59PNgY7D3H6dZmOPsAP2t%2FvD%2FQgTUZtgY%2Bb8eBPJ%2FLVlzsrOv2I7BHcwyOqYYPcpz14x6wHBaIzgah%2Fz3iAlzVdTGebyj6hVxz61nOuUOzP4XYG0DR7AglPyPqM7VT0OvQ9FIYVsHtLnmu2A987aWzHJ%2FE7TyPSQMr51HAAzhciWsrXJJCq8mv1ZEIHdw3rkcgBuPv2sZ6b8nmdh%2BnJXV4wwrc%2BozQY6pgGwCQMEF4yW1AfKdIKh4PTkcVEcsuY1tgcKVSga30%2BhIB1M5RrLTSDVnL%2BQYOTuXO%2BryKUQEUsen9Jc%2FHPJimEf68vMZma%2BPxDacwA8Sr98Wq5bnsFCZAMb%2BbAL0OBfOCRg0EFvncO2PKhXeu2x7aC41tWGQR1zKEgwuJNuN6pJSy2drK8dPAWEM1O6qyBTYk5zSOOyZyxdXZpaSq0YuWZ3dLY8lWf9&X-Amz-Signature=07aab3c92860a82d0ac7f4e857d9b803d8e71c08f3f9e4fc2d3f803509f70684&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+            "expiry_time": "2026-03-06T04:33:39.351Z"
           }
         }
       },
@@ -5040,14 +5041,14 @@
           "block_id": "2fb44860-a4f4-802b-be51-f0b66fce5900"
         },
         "created_time": "2026-02-02T11:48:00.000Z",
-        "last_edited_time": "2026-02-03T05:30:00.000Z",
+        "last_edited_time": "2026-03-06T03:26:00.000Z",
         "created_by": {
           "object": "user",
           "id": "2aed872b-594c-81eb-bc82-000291164988"
         },
         "last_edited_by": {
           "object": "user",
-          "id": "2aed872b-594c-81eb-bc82-000291164988"
+          "id": "02042589-fdf7-43c3-b4e0-cbe6175fa46c"
         },
         "has_children": false,
         "archived": false,
@@ -5058,24 +5059,7 @@
             {
               "type": "text",
               "text": {
-                "content": "출력 정책을 여러 개로 확장",
-                "link": null
-              },
-              "annotations": {
-                "bold": false,
-                "italic": false,
-                "strikethrough": false,
-                "underline": false,
-                "code": false,
-                "color": "orange"
-              },
-              "plain_text": "출력 정책을 여러 개로 확장",
-              "href": null
-            },
-            {
-              "type": "text",
-              "text": {
-                "content": "할 수 있도록 개선한다.",
+                "content": "출력 정책을 여러 개로 확장할 수 있도록 개선한다.",
                 "link": null
               },
               "annotations": {
@@ -5086,7 +5070,7 @@
                 "code": false,
                 "color": "default"
               },
-              "plain_text": "할 수 있도록 개선한다.",
+              "plain_text": "출력 정책을 여러 개로 확장할 수 있도록 개선한다.",
               "href": null
             }
           ],
@@ -5101,14 +5085,14 @@
           "block_id": "2fb44860-a4f4-802b-be51-f0b66fce5900"
         },
         "created_time": "2026-02-02T11:48:00.000Z",
-        "last_edited_time": "2026-02-03T05:31:00.000Z",
+        "last_edited_time": "2026-03-06T03:26:00.000Z",
         "created_by": {
           "object": "user",
           "id": "2aed872b-594c-81eb-bc82-000291164988"
         },
         "last_edited_by": {
           "object": "user",
-          "id": "2aed872b-594c-81eb-bc82-000291164988"
+          "id": "02042589-fdf7-43c3-b4e0-cbe6175fa46c"
         },
         "has_children": false,
         "archived": false,
@@ -5119,24 +5103,7 @@
             {
               "type": "text",
               "text": {
-                "content": "정렬 기준을 동적으로 변경",
-                "link": null
-              },
-              "annotations": {
-                "bold": false,
-                "italic": false,
-                "strikethrough": false,
-                "underline": false,
-                "code": false,
-                "color": "orange"
-              },
-              "plain_text": "정렬 기준을 동적으로 변경",
-              "href": null
-            },
-            {
-              "type": "text",
-              "text": {
-                "content": "할 수 있도록 한다.",
+                "content": "정렬 기준을 동적으로 변경할 수 있도록 한다.",
                 "link": null
               },
               "annotations": {
@@ -5147,7 +5114,7 @@
                 "code": false,
                 "color": "default"
               },
-              "plain_text": "할 수 있도록 한다.",
+              "plain_text": "정렬 기준을 동적으로 변경할 수 있도록 한다.",
               "href": null
             }
           ],
@@ -5162,14 +5129,14 @@
           "block_id": "2fb44860-a4f4-802b-be51-f0b66fce5900"
         },
         "created_time": "2026-02-02T11:48:00.000Z",
-        "last_edited_time": "2026-02-02T11:48:00.000Z",
+        "last_edited_time": "2026-03-06T03:26:00.000Z",
         "created_by": {
           "object": "user",
           "id": "2aed872b-594c-81eb-bc82-000291164988"
         },
         "last_edited_by": {
           "object": "user",
-          "id": "2aed872b-594c-81eb-bc82-000291164988"
+          "id": "02042589-fdf7-43c3-b4e0-cbe6175fa46c"
         },
         "has_children": false,
         "archived": false,
@@ -5206,14 +5173,14 @@
           "block_id": "2fb44860-a4f4-802b-be51-f0b66fce5900"
         },
         "created_time": "2026-02-02T11:48:00.000Z",
-        "last_edited_time": "2026-02-02T11:48:00.000Z",
+        "last_edited_time": "2026-03-06T03:26:00.000Z",
         "created_by": {
           "object": "user",
           "id": "2aed872b-594c-81eb-bc82-000291164988"
         },
         "last_edited_by": {
           "object": "user",
-          "id": "2aed872b-594c-81eb-bc82-000291164988"
+          "id": "02042589-fdf7-43c3-b4e0-cbe6175fa46c"
         },
         "has_children": false,
         "archived": false,
@@ -5250,14 +5217,14 @@
           "block_id": "2fb44860-a4f4-802b-be51-f0b66fce5900"
         },
         "created_time": "2026-02-02T11:48:00.000Z",
-        "last_edited_time": "2026-02-03T05:31:00.000Z",
+        "last_edited_time": "2026-03-06T03:26:00.000Z",
         "created_by": {
           "object": "user",
           "id": "2aed872b-594c-81eb-bc82-000291164988"
         },
         "last_edited_by": {
           "object": "user",
-          "id": "2aed872b-594c-81eb-bc82-000291164988"
+          "id": "02042589-fdf7-43c3-b4e0-cbe6175fa46c"
         },
         "has_children": false,
         "archived": false,
@@ -5268,7 +5235,7 @@
             {
               "type": "text",
               "text": {
-                "content": "현재 구조에서",
+                "content": "현재 구조에서 dict 기반 코드와의 차이점을 서술한다.",
                 "link": null
               },
               "annotations": {
@@ -5279,41 +5246,7 @@
                 "code": false,
                 "color": "default"
               },
-              "plain_text": "현재 구조에서",
-              "href": null
-            },
-            {
-              "type": "text",
-              "text": {
-                "content": " dict 기반 코드와의 차이점",
-                "link": null
-              },
-              "annotations": {
-                "bold": false,
-                "italic": false,
-                "strikethrough": false,
-                "underline": false,
-                "code": false,
-                "color": "orange"
-              },
-              "plain_text": " dict 기반 코드와의 차이점",
-              "href": null
-            },
-            {
-              "type": "text",
-              "text": {
-                "content": "을 서술한다.",
-                "link": null
-              },
-              "annotations": {
-                "bold": false,
-                "italic": false,
-                "strikethrough": false,
-                "underline": false,
-                "code": false,
-                "color": "default"
-              },
-              "plain_text": "을 서술한다.",
+              "plain_text": "현재 구조에서 dict 기반 코드와의 차이점을 서술한다.",
               "href": null
             }
           ],
@@ -5368,8 +5301,8 @@
           "caption": [],
           "type": "file",
           "file": {
-            "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/c69962b0-3951-485b-b10a-5bb29576bba8/2ed56056-d7f1-4618-8db3-b8894c5e3061/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA_2026-01-25_%E1%84%8B%E1%85%A9%E1%84%8C%E1%85%A5%E1%86%AB_10.51.05.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466SEWP4UTS%2F20260303%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260303T094901Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjENL%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIH6mtcYrYZzdBnOuHnrmGnOykf5agyJJxXxw4Sb2yO30AiEA%2BGNgyyNNL78YNmF5qGG%2BvFPr%2BBAsoNKe0HxZXp1wRusqiAQImv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDIudM29sAZMdBAZNhSrcA34RMes9u9ZQ8I7I4EBxcABu7A4jTbWPblHJ6fvSD837UuNojctCAPy47RxeoIHrITG5muD8Xh%2F0DVu9ysHkFHwwG2eBkiHPSB31JCVOCvFTW6%2BW92xbIoL7f8T5lmrAF%2BK75HBjeplywu6r2OeMyxe%2BJrvvzFlVAjiaRO7GyqnPMYsy06MaC1MDuRjy9N%2FO512SNwUGIuqXxW44valVE9f6rCCnbL1eAAZfnxc%2FkVvtgOamwl%2FNPy%2BnDPLciN1YyTaaewYkTIB7a2rG0VAoCQjstH1oNkruxk19eeSNd6pDw1ZKyo3f8b8uUBn4UtDWWw2DmMgSRQI%2BAcqzXKRG%2BrchS2T1CCX16m8sBIBRHQr9hX6lqBLCL84I%2BlJmu%2BwZPzqVGqfFSmwyHzWiWzQBpp7dtx3SIjPvZ4F8s1JXDUWjzAK2o2gRSEecwvCv56Ipa38PSrxCF6almo1RWdJ70mTRugfGVq7X9V75PxpYfdKKO8YK3EK%2FBYpxMGJIx1W4WWvX4KXfthJ%2Fp8JnduM1PrLCYBaBaujDaQOPR4JtaV%2FmOKIkJmQoIHqRjgilA53D2f%2Fx%2F%2Fh1INvqeXh9BKtUGiFLpN5URneM93nwRfgIEo0rVlq6%2FlVudz9z2VfAMMjQms0GOqUBFNAb2wEgaD7U1mRbbJMZV3KYUd%2BxtX5Ss3SmunJ7Ty5mrMXCNsZ5bQ5pvrpRf51TJF%2BV5v7TDOfTAeJfebus1s5%2Bj78RZN2y%2B0ctKxNEBsCj6h7Q59igCh1oNq0X%2FDug06cOfm6q96It86tp5fVt3SoxzFbFZCdpBk9dDCWJD5CI30oMVWyagQEvNJg4Pn8BFEJlm21%2Bl9a5Qkidf8DGKamnWZkL&X-Amz-Signature=76e010c88255ba92f8385e439b41ef4f17e554f1137d5a2413320eb0a210a21f&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
-            "expiry_time": "2026-03-03T10:49:01.237Z"
+            "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/c69962b0-3951-485b-b10a-5bb29576bba8/2ed56056-d7f1-4618-8db3-b8894c5e3061/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA_2026-01-25_%E1%84%8B%E1%85%A9%E1%84%8C%E1%85%A5%E1%86%AB_10.51.05.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4666SJCAYYC%2F20260306%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260306T033342Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEBEaCXVzLXdlc3QtMiJHMEUCIE%2Bq5iNrnRS7o6W1vDkW4JP1ZlDgpQNHFBYecBC7hjhGAiEAiNRzpeIQq%2Bz0paMLc3PI5DFtHV162mcmDQt0zFjseC8qiAQI2v%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDNgyceyi2Jk1uwkO5ircA%2Bsc488NX3%2F5JTMn9pNcJycgLlto7niUjUmwoKT1unZqYh4T48u%2BCmARyaxo831Irc3K62dHWvhmUF1z9Ifl2Xl3YzVUyA0mwu8kwkHYJTKOl45rpNKDEBzcDy3%2BvFVTLHSRsulgH%2BN0CGcxZ4raYPoQPQkLuYzOKzowloZiT60OiVL23egBwdt%2FlZ%2FjKaE%2FQS3i%2BieT2oyVHq86xlNexGp4ayS3%2BjHWa1loYJtSdzZNts%2BLihGnwx%2FnPgxU5EgQa45dBm8bMOdMoyg4im1FMPG3uUi%2B6USb0fNJrZOBV2AzpCXS78%2FajQgLyh8IO64N9uOZZBEdmet0vi072fJp83CPRWejZeVKnncY32KCbV0cyNtWa2CT3vgZX0ztyUKvgZmtax0j1xA5eN7NvLvR6ldTr1OYIUw0Q9%2FxjHTpxLl8QVelM9Us0K1EvIKWQn6veVILTVweeRM8jwYFD6tSPONFZuBLpeFObSp3LE2lT73RrAKdjDXSf%2BfGBB6Kh32VrPzupkdAT9yYLQYT4P29do1qzyoTtYrWVz4tHOWuAx2Br5HS0U4nxC3zZzFB5avl3QczdyIWIvu%2BTZKKSuIbfn0GUI23H%2FQrgFmdy6XIoRNu6eE4Sm98VM6W7e5CMPzOqM0GOqUBTHwGn3%2BEc7YebhWSelgFMhCCf5FH3JUQ5wfqSuGpIlgUHGXHFOB%2Fq%2FkUHCkb6cX5XrVwgIe7%2FvIfFNqBhfJ44LMr2t6GrwB459vq%2ByHV2Fz8KBiUt7ZfH5It%2BqRPXbNvx9UqeRpGJZYpBvxbqZlcugjLWUzJN8GKHfKt069W64T%2BaGhPRjUHlwA3X4Bw%2FPTJMblh5z9leuKw1l%2BXGJ%2FaRbo%2FtpNx&X-Amz-Signature=1fa7a67f04715f8c529bf4542010e058e58880cd3d5de84d7232ead6f2a1e7b1&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+            "expiry_time": "2026-03-06T04:33:42.548Z"
           }
         }
       },
@@ -5538,5 +5471,5 @@
       }
     ]
   },
-  "syncedAt": "2026-03-03T09:49:02.414Z"
+  "syncedAt": "2026-03-06T03:33:47.769Z"
 }

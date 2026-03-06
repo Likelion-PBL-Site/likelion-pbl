@@ -88,7 +88,7 @@
     {
       "id": "2f044860a4f481ddac76e92fdef2fee2",
       "title": "React Router",
-      "description": "상세 프로필 및 과제 제출 페이지 나누기",
+      "description": "상세 프로필 및  페이지 나누기",
       "track": "react",
       "stage": "React",
       "estimatedTime": 120,
@@ -140,5 +140,5 @@
       ]
     }
   ],
-  "syncedAt": "2026-03-03T09:41:12.691Z"
+  "syncedAt": "2026-03-06T03:51:18.362Z"
 }

@@ -2,6 +2,7 @@
   "missionId": "2f044860a4f4817c9d2ee5fe4bdbaf1a",
   "notionPageId": "2f044860-a4f4-817c-9d2e-e5fe4bdbaf1a",
   "fileName": "design-02-figma-입문-사용자-시나리오-보드-제작.json",
+  "lastEditedTime": "2026-03-04T14:44:00.000Z",
   "sections": {
     "introduction": [
       {
@@ -1746,8 +1747,8 @@
           "caption": [],
           "type": "file",
           "file": {
-            "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/c69962b0-3951-485b-b10a-5bb29576bba8/43838288-8f18-4ce9-8cde-8cec425c6e0e/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4665OVECZBT%2F20260303%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260303T095106Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjENL%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIBmQAakI0WmyQD2ptWk6u4SELbdJbycpThTeea2nJN1JAiEAuY6b5CQ8FUsM4SBwLBJJEd%2F3NjF5rffmkM3t6MChy3wqiAQImv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDA7k5jmWlNtvlwlToyrcAyzTcKX45WGFmOt1t6FLSRe4GC%2FOi04jwHcyFaT%2FWTxojGyneYXZ3SV9DXxu0cB%2BhrEAqlIWdFkTvib5PPnp7RtoUX5uqCAhgrKZ8xscu8Ffe%2F%2BJ%2B0BFL%2BHxB8SqrG7%2FaJtFCqV6o5%2Bz5alyQh1uNoRvoDDmv6zmsFQ%2BXAHaNGPQjKwW8bRvHwovXoVk7%2FzYrM8tAFt3kyqm4ZJRv8w%2BS0dK%2FcDF6285TEKQU%2FKEfeH%2BgcyWjP4p0sfGsn9yzCLXY%2F3Y7K2fD13UHqPCMe4rWz5Y9uRWY9LfsjBCHY9IIcxFDk9106glfRXQFmg9A4qXWOGO5z9U8XJF63xsnISsuxqItXEf1GLmI9eB61HN1s9SUuGnqAsAzTRACsC8sxOV0Has%2F%2B4CZ%2Bo6T0PDZ6i7qXRRCreSTwakfiZRzLGx549PIAYjbDKTSY87%2Bdjh%2B2cJIUiCnWkMtx2ux94WIKT3mo6RKadOZMUv4HZ1mRTdwuxVYArt4Hzd6J3R9%2BgVrcKUAnMBqOabmdafVN2ljGwsJL%2FE9%2F1z06E%2F1K0EkeeqlxnY0jKGJrgQ0%2FDgLEdOox7%2B4jnpnqlIl9OhgW0HH6zTjPQJk9y%2B3VsM6Ay27R88NiYb7KgwYJpEHjBb5JngMKvPms0GOqUBt9KcsGI9jvuf9jywGuHPCyYjijtXSR8wxih%2BdhcJfV30Afk%2FgQ%2BVFsRsvFaofABgwRlH%2Far92MWgdYmF8pN8nO3%2FP5No8%2BnU1HnQTkm0yVJf1CuL%2FNs7sWbZv32nNmG7DRaMu8XrnhWwqLrhJIeBUN%2F%2BX72o2UrIjBMsipCSzsqeD8YFdz1CnevsjyTWw8VFJ7j9Xn5fShl%2FhVb7IG79iqV6h6Ka&X-Amz-Signature=cbe76e93c568111d19c7ffd5d74da357021d12fe370f6622477509952141b5ab&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
-            "expiry_time": "2026-03-03T10:51:06.233Z"
+            "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/c69962b0-3951-485b-b10a-5bb29576bba8/43838288-8f18-4ce9-8cde-8cec425c6e0e/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4663MT42BBN%2F20260304%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260304T145556Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEO7%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIEekQEUQ%2BSo7HQQZfilTelANHDITKTer3n8ph6BCkVDTAiEA%2B%2B9nEnTU8zzsL%2Fdg6sjzQ%2Fh5rfiUMmSPxo%2Fcf%2FAJaNIqiAQIt%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDEHxjSucT3YIiaVaDyrcAxjSLjgCca%2Boz1HnWKLxw4Z807Zgl3TmXcmu9ckkDJKmq%2FoyrOfKi8qQNFYtCHzZvBc1oyCfkTjVgQNorRK6z6z7VVJ3FwB2c4EWnyIrd6VxQ5kKyJssz%2BVPdaudy5WDqE%2FU%2Bm5XxVGksulpeGshJyX0KEsAWhEIq98jKwq14XJCryI2rg%2FQaq9TGdUBOXwwzJseXaJ2RCPl7NG%2BsriXJpS1kqU5a5LTbi1mIbCXsKAxbkbZLZRfzbn8xrdz23rc5kkj8Gnnw9gFIcMveVD%2FlGBpy8RxmoEkgk4f1KQ8wtrGgH2wGn4waQCcmP8BGQzf6Z2Om1AkU72C7P1bbqFuojSTojtLGIZu9aCbewZ1EiaGVGy%2FpzBjhQpEQZbEyA%2FhMCTWUmRxa8nvh5rMRU1GacUvnpwp%2ByFdAV7eXC8hngN7oWPodTlQouaU30BBPs6KraG3nFcHpFhm8J%2F2663rj3jAiOtyeiHhpbQTjvCxncUVek8QoOzfdn7DhvdNqkO7s4LmTRzdLjAycCya3JFUVAvUYOWPw6QQYYsLWrWeUc2zwRb0TU5lwtNsiUR5VKJufXKgYuRcgnuPCsNjjekp4ecOLmVBB3GvJlv9cL9yNb%2BhQZPyWQLcrsXw8yJ3MI3uoM0GOqUBFlroXQO%2FdUO0H3N7Ag9HTlehy5S9cLPRIo7XNMI9vRRBhZ1fnGpc%2FjONUfQpn9WjZwHNi1nbKLiHJJYMhWNWWYwTCA2bT3glKgXDKv%2FEfuvYnH6BBjiKVLl9kUz%2FAm4DNWDjSstdKFWG%2FDBBMx083N40UoqIa8OhwyzWJMUNFHFLChagWE0aI9DW%2FYMHSGv04PNN7aIw1kiFAk%2F9itOuPn9VwSyu&X-Amz-Signature=02def56f2a83462394077683e980add6206220dbe679e973bf3e9157ad47d07a&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+            "expiry_time": "2026-03-04T15:55:56.417Z"
           }
         }
       },
@@ -2392,8 +2393,8 @@
           "caption": [],
           "type": "file",
           "file": {
-            "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/c69962b0-3951-485b-b10a-5bb29576bba8/ca6c4cd3-429b-4567-a007-d6c16fd5169d/%E1%84%80%E1%85%B5%E1%84%83%E1%85%B5_2%E1%84%8C%E1%85%AE%E1%84%8E%E1%85%A1.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466YAEZLMJP%2F20260303%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260303T095106Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjENL%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIQCD21YXXs%2F%2B6xzjXrLEBzW4bJc2Fz3O7ExlmPCMZ3kyDQIge%2B9w276JZvHRrkLwriRu%2F2wrW6yKcpopZW2DmJguqiYqiAQImv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDDiJIjkSimFK%2F8G%2F8ircA%2F1ynBg8TAT7CsDU19Vtnigxgepfk1ImGOYKCfSPFfGzSOSscUrm3qkRMqX6YMp3PIhmCdTnrq8uFM%2B9TsTmPnn7ZrVLlt76xc2L7Ctk3dHk%2F3%2FdIFypWDxBYvpkWDU%2F%2BLyKek8jq6vLbllmy59BFNshkbgL%2BdZJt0uQshioFHV%2BFmRvf0SyHOlfcQCcSzjfcoP52DyAjGFJhMKrSaQf8Zh%2FXOQ3WsH3YD228aaCAKvbb4%2FqJy3jD1kUuzUK5cdX5md4EKi9LdbHxM0ogRSkq6wO8q3KQ89V7y%2FJbFlt5Vy0ZvWc4ngW4dLQRa7iMD1FXJLKqenZ69C5mDO6lVvSwWOErYVfs96f3ZIuERWMdYj%2FKcXLGehsqWLmQDS3JW%2Fk3CWK3VZWEvPtF4tSFmTg5EGjeUHxBfqwKM07sKDyuZIkuZlNbO1FHGoySN%2FsnFryc4fuT1MsZpD6RDBi3wz8hcjbAqPPP9txY0bTp%2FrHBurpqt%2B8T3km%2F3KO9d0irp5ttr%2FSC75dPHHin1sG5WA39IJC9uFTR3ziDRzHF8isU3da8NdFXEmqh9tCDOG7Q0IP3%2F5HTbptNe63vQYkvYoI3l0XNmYCryt3lJELeB5ak9Lv0cEtF8xmNiwMPvsUMO3Oms0GOqUBEj1RFv2VYITIaNnLLEvm9LgAG%2F1%2F1EPFik5lZW17SpPbL8lkDydvU%2Bskpj0m9OsfDmz1Oytd8DmQkrWTY2kzUbS%2BVe3am79x42GDcXN7f%2Bz6LVa5jKmRR3ynki8NoOI0Xy38Vys%2FWir9bw1mL6hQ9SM2vJewJAg3taDD57VYhk492xQdzjisZ0Mw2g1IvmSCdcDlVM48jD0aKCl7EDq8B72x90vt&X-Amz-Signature=b6902ce5a413cf8c2fcd5830d3d073c040f91ead70e8baf228959ffa0df8eb71&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
-            "expiry_time": "2026-03-03T10:51:06.810Z"
+            "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/c69962b0-3951-485b-b10a-5bb29576bba8/ca6c4cd3-429b-4567-a007-d6c16fd5169d/%E1%84%80%E1%85%B5%E1%84%83%E1%85%B5_2%E1%84%8C%E1%85%AE%E1%84%8E%E1%85%A1.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4667RJRHN5P%2F20260304%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260304T145558Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEO%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJGMEQCICFoo5lGhZeIdqeXPDvYmnpwIrUDX8qpjOm9UOuGe%2FCnAiBrcqO9XZT0AtAVjisve8J2b0LzVvlG3u5H%2F%2BpfzemQhCqIBAi4%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAAaDDYzNzQyMzE4MzgwNSIMKcUMLejVNVcIqKvWKtwDzWZOb45G1%2B8jM9B%2FfJzSB0YiexRLSP%2Bti6xpGaTLLWmdU9hw7rFoLHF9pZHiWKZCNrShfgEg1MGy3Fvfd4zym6q6oKFloqg4e%2BUORN8htsqPdt6rwkRr3CWDCXH8iRKh3PqQv%2BO7zzIGvMi8U5pkPoXIrUiQo2GYGtBBBAXuH6XSvh3KF5nbb%2BKr8kFBq6hE%2FpsM%2BHvHIhZX%2FYcXMmj6Ur7iKOibgSsE3TR0BtVL7Jb0q1MoX55Qrzz3ry4HGPgxMUYldFqhQ6SA0%2Bos6CdPEDLbvOEAMpRIuXZv60fcEQr6pEWnzSr%2BrUQqm%2FKhYJ2T9RbGXbp1mvDv7gwiJPbYWdxFhe33TLcUXlBGBR6QC1MiviQnCoHr4wFMXLc9vZ%2FfydbDf7LW1DbRnE2gg13cP8osFA9C1HEQdu%2Fm%2B41SDvHXYoxwXLhCR8OuLhvI3X1m9detrBNssZxqkxFEsAf1o0gIIcqSbTWglHPS%2FGF8RefLx55%2Bk7w4zaiKwl4thvwBJXDy%2BlwRsTu1mCIQh8jOmjLb6LeiW9I3vOaI0yPqROayiM0Ya6arSYmgQ2ZCN1pL%2B1huhpOdc05bcuHefGx2uzL%2B%2B1vKr61%2FXbWp0lvz6e1xnjR%2B9HPzb8JgnvYw6Y6hzQY6pgFUuKl3NH0gBdmedgwSRErnYlbToF0wsiR5LZF7ixuyQ20anVMRS9EBSVO4sIlpOtevK5o%2B4du97Yg5yU2ADSrXt2ymwHtFbCH0EpislYdCtPNsPKl8lFbYHsyxDANnaVDtMPdQjl5K6gC%2BoMEqagdhXTxXAuTj6GhIPrTOyGfhM8SX5SrNmafsapDXjwiTU%2BfvvWa%2FDdrVLB5mW9oqeTY4Am7TqZUB&X-Amz-Signature=fee495fbfca5ff05de964ccbf25fae7898ae16d7c0d23d41eb40d04926c02145&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+            "expiry_time": "2026-03-04T15:55:58.166Z"
           }
         }
       },
@@ -2870,16 +2871,16 @@
           "block_id": "2f144860-a4f4-80c4-8c87-ef34463dfb92"
         },
         "created_time": "2026-01-23T11:14:00.000Z",
-        "last_edited_time": "2026-01-23T11:14:00.000Z",
+        "last_edited_time": "2026-03-04T14:44:00.000Z",
         "created_by": {
           "object": "user",
           "id": "2aed872b-594c-81eb-bc82-000291164988"
         },
         "last_edited_by": {
           "object": "user",
-          "id": "2aed872b-594c-81eb-bc82-000291164988"
+          "id": "02042589-fdf7-43c3-b4e0-cbe6175fa46c"
         },
-        "has_children": false,
+        "has_children": true,
         "archived": false,
         "in_trash": false,
         "type": "bulleted_list_item",
@@ -2888,7 +2889,7 @@
             {
               "type": "text",
               "text": {
-                "content": "디자인 퀄리티:",
+                "content": "디자인 퀄리티",
                 "link": null
               },
               "annotations": {
@@ -2899,29 +2900,58 @@
                 "code": false,
                 "color": "default"
               },
-              "plain_text": "디자인 퀄리티:",
-              "href": null
-            },
-            {
-              "type": "text",
-              "text": {
-                "content": " 색상(Color) 사용을 자제한다. 색상 고민에 시간을 쏟지 않기 위함입니다.",
-                "link": null
-              },
-              "annotations": {
-                "bold": false,
-                "italic": false,
-                "strikethrough": false,
-                "underline": false,
-                "code": false,
-                "color": "default"
-              },
-              "plain_text": " 색상(Color) 사용을 자제한다. 색상 고민에 시간을 쏟지 않기 위함입니다.",
+              "plain_text": "디자인 퀄리티",
               "href": null
             }
           ],
           "color": "default"
-        }
+        },
+        "children": [
+          {
+            "object": "block",
+            "id": "31944860-a4f4-804c-b4b6-ccc7a7ac56b6",
+            "parent": {
+              "type": "block_id",
+              "block_id": "2f144860-a4f4-80a6-b417-f48a964dfc8e"
+            },
+            "created_time": "2026-03-04T14:44:00.000Z",
+            "last_edited_time": "2026-03-04T14:44:00.000Z",
+            "created_by": {
+              "object": "user",
+              "id": "02042589-fdf7-43c3-b4e0-cbe6175fa46c"
+            },
+            "last_edited_by": {
+              "object": "user",
+              "id": "02042589-fdf7-43c3-b4e0-cbe6175fa46c"
+            },
+            "has_children": false,
+            "archived": false,
+            "in_trash": false,
+            "type": "bulleted_list_item",
+            "bulleted_list_item": {
+              "rich_text": [
+                {
+                  "type": "text",
+                  "text": {
+                    "content": "색상(Color) 사용을 자제한다. 색상 고민에 시간을 쏟지 않기 위함입니다.",
+                    "link": null
+                  },
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  },
+                  "plain_text": "색상(Color) 사용을 자제한다. 색상 고민에 시간을 쏟지 않기 위함입니다.",
+                  "href": null
+                }
+              ],
+              "color": "default"
+            }
+          }
+        ]
       },
       {
         "object": "block",
@@ -2931,16 +2961,16 @@
           "block_id": "2f144860-a4f4-80c4-8c87-ef34463dfb92"
         },
         "created_time": "2026-01-23T11:14:00.000Z",
-        "last_edited_time": "2026-02-04T06:46:00.000Z",
+        "last_edited_time": "2026-03-04T14:44:00.000Z",
         "created_by": {
           "object": "user",
           "id": "2aed872b-594c-81eb-bc82-000291164988"
         },
         "last_edited_by": {
           "object": "user",
-          "id": "2aed872b-594c-81eb-bc82-000291164988"
+          "id": "02042589-fdf7-43c3-b4e0-cbe6175fa46c"
         },
-        "has_children": false,
+        "has_children": true,
         "archived": false,
         "in_trash": false,
         "type": "bulleted_list_item",
@@ -2949,7 +2979,7 @@
             {
               "type": "text",
               "text": {
-                "content": "디테일:",
+                "content": "디테일",
                 "link": null
               },
               "annotations": {
@@ -2960,29 +2990,58 @@
                 "code": false,
                 "color": "default"
               },
-              "plain_text": "디테일:",
-              "href": null
-            },
-            {
-              "type": "text",
-              "text": {
-                "content": " 픽셀 단위의 정교한 정렬보다는 내용 전달에 집중해주세요.",
-                "link": null
-              },
-              "annotations": {
-                "bold": false,
-                "italic": false,
-                "strikethrough": false,
-                "underline": false,
-                "code": false,
-                "color": "default"
-              },
-              "plain_text": " 픽셀 단위의 정교한 정렬보다는 내용 전달에 집중해주세요.",
+              "plain_text": "디테일",
               "href": null
             }
           ],
           "color": "default"
-        }
+        },
+        "children": [
+          {
+            "object": "block",
+            "id": "31944860-a4f4-8039-be2b-d6897d49645e",
+            "parent": {
+              "type": "block_id",
+              "block_id": "2f144860-a4f4-8092-bd55-f5c9b45885dc"
+            },
+            "created_time": "2026-03-04T14:44:00.000Z",
+            "last_edited_time": "2026-03-04T14:44:00.000Z",
+            "created_by": {
+              "object": "user",
+              "id": "02042589-fdf7-43c3-b4e0-cbe6175fa46c"
+            },
+            "last_edited_by": {
+              "object": "user",
+              "id": "02042589-fdf7-43c3-b4e0-cbe6175fa46c"
+            },
+            "has_children": false,
+            "archived": false,
+            "in_trash": false,
+            "type": "bulleted_list_item",
+            "bulleted_list_item": {
+              "rich_text": [
+                {
+                  "type": "text",
+                  "text": {
+                    "content": "픽셀 단위의 정교한 정렬보다는 내용 전달에 집중해주세요.",
+                    "link": null
+                  },
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  },
+                  "plain_text": "픽셀 단위의 정교한 정렬보다는 내용 전달에 집중해주세요.",
+                  "href": null
+                }
+              ],
+              "color": "default"
+            }
+          }
+        ]
       },
       {
         "object": "block",
@@ -2992,16 +3051,16 @@
           "block_id": "2f144860-a4f4-80c4-8c87-ef34463dfb92"
         },
         "created_time": "2026-01-23T11:14:00.000Z",
-        "last_edited_time": "2026-01-23T11:14:00.000Z",
+        "last_edited_time": "2026-03-04T14:44:00.000Z",
         "created_by": {
           "object": "user",
           "id": "2aed872b-594c-81eb-bc82-000291164988"
         },
         "last_edited_by": {
           "object": "user",
-          "id": "2aed872b-594c-81eb-bc82-000291164988"
+          "id": "02042589-fdf7-43c3-b4e0-cbe6175fa46c"
         },
-        "has_children": false,
+        "has_children": true,
         "archived": false,
         "in_trash": false,
         "type": "bulleted_list_item",
@@ -3010,7 +3069,7 @@
             {
               "type": "text",
               "text": {
-                "content": "협업:",
+                "content": "협업",
                 "link": null
               },
               "annotations": {
@@ -3021,29 +3080,58 @@
                 "code": false,
                 "color": "default"
               },
-              "plain_text": "협업:",
-              "href": null
-            },
-            {
-              "type": "text",
-              "text": {
-                "content": " 시나리오가 기술적으로 구현 가능한지 개발 팀원에게 공유하고 피드백을 받는 것도 좋습니다. (예: \"지도 API 써서 실시간 위치 보는 거 가능해?\")",
-                "link": null
-              },
-              "annotations": {
-                "bold": false,
-                "italic": false,
-                "strikethrough": false,
-                "underline": false,
-                "code": false,
-                "color": "default"
-              },
-              "plain_text": " 시나리오가 기술적으로 구현 가능한지 개발 팀원에게 공유하고 피드백을 받는 것도 좋습니다. (예: \"지도 API 써서 실시간 위치 보는 거 가능해?\")",
+              "plain_text": "협업",
               "href": null
             }
           ],
           "color": "default"
-        }
+        },
+        "children": [
+          {
+            "object": "block",
+            "id": "31944860-a4f4-80d6-852a-ea049ccf290e",
+            "parent": {
+              "type": "block_id",
+              "block_id": "2f144860-a4f4-80f2-9e74-f67a24224ae0"
+            },
+            "created_time": "2026-03-04T14:44:00.000Z",
+            "last_edited_time": "2026-03-04T14:44:00.000Z",
+            "created_by": {
+              "object": "user",
+              "id": "02042589-fdf7-43c3-b4e0-cbe6175fa46c"
+            },
+            "last_edited_by": {
+              "object": "user",
+              "id": "02042589-fdf7-43c3-b4e0-cbe6175fa46c"
+            },
+            "has_children": false,
+            "archived": false,
+            "in_trash": false,
+            "type": "bulleted_list_item",
+            "bulleted_list_item": {
+              "rich_text": [
+                {
+                  "type": "text",
+                  "text": {
+                    "content": "시나리오가 기술적으로 구현 가능한지 개발 팀원에게 공유하고 피드백을 받는 것도 좋습니다. (예: \"지도 API 써서 실시간 위치 보는 거 가능해?\")",
+                    "link": null
+                  },
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  },
+                  "plain_text": "시나리오가 기술적으로 구현 가능한지 개발 팀원에게 공유하고 피드백을 받는 것도 좋습니다. (예: \"지도 API 써서 실시간 위치 보는 거 가능해?\")",
+                  "href": null
+                }
+              ],
+              "color": "default"
+            }
+          }
+        ]
       },
       {
         "object": "block",
@@ -3883,5 +3971,5 @@
       }
     ]
   },
-  "syncedAt": "2026-03-03T09:51:18.312Z"
+  "syncedAt": "2026-03-04T14:56:12.797Z"
 }

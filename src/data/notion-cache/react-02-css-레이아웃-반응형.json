@@ -2,6 +2,7 @@
   "missionId": "2f044860a4f481fe943ef27144a26fd7",
   "notionPageId": "2f044860-a4f4-81fe-943e-f27144a26fd7",
   "fileName": "react-02-css-레이아웃-반응형.json",
+  "lastEditedTime": "2026-03-06T03:25:00.000Z",
   "sections": {
     "introduction": [
       {
@@ -6222,8 +6223,8 @@
           "caption": [],
           "type": "file",
           "file": {
-            "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/c69962b0-3951-485b-b10a-5bb29576bba8/3d9606b8-4fb2-414c-a556-91fc5ad41ef5/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA_2026-01-18_%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE_4.33.00.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466456BO53B%2F20260303%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260303T094743Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjENL%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJIMEYCIQCzVl%2F2JVNCGYHTH3AZiVlSlRxCkuk6i5FDsNek9HKQ6gIhAOoXaYs30Fcm%2B%2ByKYQA%2BwZK6HGkkUxEx%2FPIV4JdSbmuAKogECJr%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMNjM3NDIzMTgzODA1IgyCyrAaDPqafskEIp8q3AN5sEf4aACHWcfBq74kjWVTi630lPJ%2BzHncFWJmZNZxcfUAGT47vjMlwButO3hVQ0uarrVwcISOJWYyVSFLYGBakL0HSt6SFB%2B647Qqpsypk4nODbIb38OSYARQua4SsIOJM1MXXTyreZzfHO1OBrHRz8kSvgnlg5x%2BqAsFqmQkMklvnTxow60PR%2BDvKQiC3%2B%2BC3aM4MtpVTZ%2FxphMwJsTkdhA%2B2CQgUHxyihY3ppG0wFAzr%2FPdynzUp9be5YDtw0CnnVTrdDWB%2BM6Bm%2BBUUHRZZJTSB63loL7g4lhPUNjaPB7LX2x2P92tfo2rHzDpPjHvA1wpuSRvi6Chko1I4DDo37Hu%2B6Y8a6qsWjjf%2B%2FRSMcwxYCeqvKzs0VLyYvRpuZe8kY%2BmzUFHlukYWp1PIVyk%2FNlNUPwrkH91JO%2Bijm1%2FhaGFZbGxx09819jxcpw26yAnGWY%2B6D0OReIpnm63EvD3rsJ2YgFAe3RSgNFMw%2FzBYRakGr3FBnbsThYpktsqzRksRTCdVDNnifRXnNXoBtUxkO6wc5b8Ztc62S8UuO0XDXTuinwqgKsswfkmKJUJky9WbxqQuWkqhbeNMqkCh4fvF9KG%2BW1sWW%2FLxV1hvuzvcLUdPKbgkt3KPxT6wDDzzprNBjqkAY9bGCehC8OkA0BQaSAFlkUaW%2BkgcD9Xpk4%2FWOBHzO6BMqpFG4uGoSrwcvTf97PMJfHvUnQzDg66umUFS8w9Yjk7sCv0GqU2KSO%2BL8%2Fqr332xhVx2lEigrB9wqacocn9OVy7248DSVVhUCi4NsjDDjFABA9G67jJ%2FokieJ2pzp%2FjmiOg9jKfwDPuxygQTv2UMMAzGZbamzz6qQi2Eh9NZDogiWIr&X-Amz-Signature=d10f2623a6e292c064dc40cea487ef1e3d0685e72fcd3456043a51aae4045d46&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
-            "expiry_time": "2026-03-03T10:47:43.399Z"
+            "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/c69962b0-3951-485b-b10a-5bb29576bba8/3d9606b8-4fb2-414c-a556-91fc5ad41ef5/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA_2026-01-18_%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE_4.33.00.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4662DAAVWZB%2F20260306%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260306T033302Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEBEaCXVzLXdlc3QtMiJHMEUCIQCrMIcJFIvmTQGWTw4C%2BUs94ivXnb0kAIG5BTQhMg2WLwIgGmwQftFyamaVE3n%2FYX4Lq%2Bzk7R9FwqmCYILi2GsjZIwqiAQI2v%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDJC3U3q6I7shPpK41yrcAxQTHMdJY%2BQjLGaxwenfQ2un9oK4KopwR1O2DlfrnRWr58yj6h5AKkQ%2FeU4XTkE8Df%2BP9zTjmAwkQxfAtgsCGSjeejxwPJYQcDr80S3Z3t8b8qVzCMX6CqR60o6sQm0J63zwXbDZlRYj0TbKMMkyT26hYG1SrH8eneGPxZp0yZv5djhJjlc%2F34wo8NoBNaPM6BzlxzCpBeM2XQKUImRjjfMvyouhf6vzJLLeFJt1X%2FjoJELIjMnT5KBD4SVB4VP83g8iK9HakOAtAtg4kN8NLtL2b2PT4b4%2FPsWknHMeolHhghSZQA3YefrNKMU9lA0kwU6WjAzDayQMSo5wml%2BuYkBCw1Ib0ooG4y21xqzySbU4cMTIf6VwdcCxz3Y0%2F9oc0hP1AaHEOcR%2Bqjy5zxSaUkU2D4XgOQdES6FMjEjos1yOfIbWK2iO0VoAvO%2FE3PkH56F41PpHe2Q4gNq0NeobQl37UZSQNfEHNyQPvJCzL4%2FB5N5At99Q8AixFV%2FWkaiz9WR%2FC5bHweVt%2FTmUdM4Q0zXmx1g32rb42gXAFy2upwlG1S2Xm93lCQF0YvFoaJaiFrvMMTOEe8Xz%2F%2BeB7K2%2BTIiaruAEgT9sEmJwr7KKu2PrQQ%2FY2Y%2FjR5Gj%2BO2lMNPOqM0GOqUBOUm6gFq8MS54G9lQj5NL1spnOi%2Fk9pr%2BfGigtko8Rk6ygAu%2F8jJzLDHskH%2F3Mi3ktPwfxtyXBhak6I4oIwEC0eSE%2BswvfjR3PQKHbHy4%2BYEcDQQpY%2FPRCHWrS7mxsevub79tVhhmeyNEizlsPvxnLa%2FYb%2FsEKa9ou0wxq3rg8E%2B1pIojtDB8snhU6V63SyJO0cWWSvHYUxCw3AsL9Mc8yfKDUvGx&X-Amz-Signature=a09610432fa93fc71f3e0fa5424b96094fdf20021152992c613bae6f94a5fe99&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+            "expiry_time": "2026-03-06T04:33:02.914Z"
           }
         }
       },
@@ -6346,8 +6347,8 @@
           "caption": [],
           "type": "file",
           "file": {
-            "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/c69962b0-3951-485b-b10a-5bb29576bba8/6b4fe87d-f017-46f5-a495-96d55639b225/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA_2026-01-18_%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE_4.38.02.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466456BO53B%2F20260303%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260303T094743Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjENL%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJIMEYCIQCzVl%2F2JVNCGYHTH3AZiVlSlRxCkuk6i5FDsNek9HKQ6gIhAOoXaYs30Fcm%2B%2ByKYQA%2BwZK6HGkkUxEx%2FPIV4JdSbmuAKogECJr%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMNjM3NDIzMTgzODA1IgyCyrAaDPqafskEIp8q3AN5sEf4aACHWcfBq74kjWVTi630lPJ%2BzHncFWJmZNZxcfUAGT47vjMlwButO3hVQ0uarrVwcISOJWYyVSFLYGBakL0HSt6SFB%2B647Qqpsypk4nODbIb38OSYARQua4SsIOJM1MXXTyreZzfHO1OBrHRz8kSvgnlg5x%2BqAsFqmQkMklvnTxow60PR%2BDvKQiC3%2B%2BC3aM4MtpVTZ%2FxphMwJsTkdhA%2B2CQgUHxyihY3ppG0wFAzr%2FPdynzUp9be5YDtw0CnnVTrdDWB%2BM6Bm%2BBUUHRZZJTSB63loL7g4lhPUNjaPB7LX2x2P92tfo2rHzDpPjHvA1wpuSRvi6Chko1I4DDo37Hu%2B6Y8a6qsWjjf%2B%2FRSMcwxYCeqvKzs0VLyYvRpuZe8kY%2BmzUFHlukYWp1PIVyk%2FNlNUPwrkH91JO%2Bijm1%2FhaGFZbGxx09819jxcpw26yAnGWY%2B6D0OReIpnm63EvD3rsJ2YgFAe3RSgNFMw%2FzBYRakGr3FBnbsThYpktsqzRksRTCdVDNnifRXnNXoBtUxkO6wc5b8Ztc62S8UuO0XDXTuinwqgKsswfkmKJUJky9WbxqQuWkqhbeNMqkCh4fvF9KG%2BW1sWW%2FLxV1hvuzvcLUdPKbgkt3KPxT6wDDzzprNBjqkAY9bGCehC8OkA0BQaSAFlkUaW%2BkgcD9Xpk4%2FWOBHzO6BMqpFG4uGoSrwcvTf97PMJfHvUnQzDg66umUFS8w9Yjk7sCv0GqU2KSO%2BL8%2Fqr332xhVx2lEigrB9wqacocn9OVy7248DSVVhUCi4NsjDDjFABA9G67jJ%2FokieJ2pzp%2FjmiOg9jKfwDPuxygQTv2UMMAzGZbamzz6qQi2Eh9NZDogiWIr&X-Amz-Signature=62ed026affb61b2a8620a1f87b7431c2289de27b97022a1c2c43fe29ad5fc574&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
-            "expiry_time": "2026-03-03T10:47:43.399Z"
+            "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/c69962b0-3951-485b-b10a-5bb29576bba8/6b4fe87d-f017-46f5-a495-96d55639b225/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA_2026-01-18_%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE_4.38.02.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4662DAAVWZB%2F20260306%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260306T033302Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEBEaCXVzLXdlc3QtMiJHMEUCIQCrMIcJFIvmTQGWTw4C%2BUs94ivXnb0kAIG5BTQhMg2WLwIgGmwQftFyamaVE3n%2FYX4Lq%2Bzk7R9FwqmCYILi2GsjZIwqiAQI2v%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDJC3U3q6I7shPpK41yrcAxQTHMdJY%2BQjLGaxwenfQ2un9oK4KopwR1O2DlfrnRWr58yj6h5AKkQ%2FeU4XTkE8Df%2BP9zTjmAwkQxfAtgsCGSjeejxwPJYQcDr80S3Z3t8b8qVzCMX6CqR60o6sQm0J63zwXbDZlRYj0TbKMMkyT26hYG1SrH8eneGPxZp0yZv5djhJjlc%2F34wo8NoBNaPM6BzlxzCpBeM2XQKUImRjjfMvyouhf6vzJLLeFJt1X%2FjoJELIjMnT5KBD4SVB4VP83g8iK9HakOAtAtg4kN8NLtL2b2PT4b4%2FPsWknHMeolHhghSZQA3YefrNKMU9lA0kwU6WjAzDayQMSo5wml%2BuYkBCw1Ib0ooG4y21xqzySbU4cMTIf6VwdcCxz3Y0%2F9oc0hP1AaHEOcR%2Bqjy5zxSaUkU2D4XgOQdES6FMjEjos1yOfIbWK2iO0VoAvO%2FE3PkH56F41PpHe2Q4gNq0NeobQl37UZSQNfEHNyQPvJCzL4%2FB5N5At99Q8AixFV%2FWkaiz9WR%2FC5bHweVt%2FTmUdM4Q0zXmx1g32rb42gXAFy2upwlG1S2Xm93lCQF0YvFoaJaiFrvMMTOEe8Xz%2F%2BeB7K2%2BTIiaruAEgT9sEmJwr7KKu2PrQQ%2FY2Y%2FjR5Gj%2BO2lMNPOqM0GOqUBOUm6gFq8MS54G9lQj5NL1spnOi%2Fk9pr%2BfGigtko8Rk6ygAu%2F8jJzLDHskH%2F3Mi3ktPwfxtyXBhak6I4oIwEC0eSE%2BswvfjR3PQKHbHy4%2BYEcDQQpY%2FPRCHWrS7mxsevub79tVhhmeyNEizlsPvxnLa%2FYb%2FsEKa9ou0wxq3rg8E%2B1pIojtDB8snhU6V63SyJO0cWWSvHYUxCw3AsL9Mc8yfKDUvGx&X-Amz-Signature=f7aeac5422e6c963042dbacbf6b7da242b5e62dc2132489185c9891e85513e95&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+            "expiry_time": "2026-03-06T04:33:02.914Z"
           }
         }
       },
@@ -6470,8 +6471,8 @@
           "caption": [],
           "type": "file",
           "file": {
-            "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/c69962b0-3951-485b-b10a-5bb29576bba8/306c1ca2-6a30-4b87-bd13-ecab812ed3eb/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA_2026-01-18_%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE_4.39.33.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466456BO53B%2F20260303%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260303T094743Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjENL%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJIMEYCIQCzVl%2F2JVNCGYHTH3AZiVlSlRxCkuk6i5FDsNek9HKQ6gIhAOoXaYs30Fcm%2B%2ByKYQA%2BwZK6HGkkUxEx%2FPIV4JdSbmuAKogECJr%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMNjM3NDIzMTgzODA1IgyCyrAaDPqafskEIp8q3AN5sEf4aACHWcfBq74kjWVTi630lPJ%2BzHncFWJmZNZxcfUAGT47vjMlwButO3hVQ0uarrVwcISOJWYyVSFLYGBakL0HSt6SFB%2B647Qqpsypk4nODbIb38OSYARQua4SsIOJM1MXXTyreZzfHO1OBrHRz8kSvgnlg5x%2BqAsFqmQkMklvnTxow60PR%2BDvKQiC3%2B%2BC3aM4MtpVTZ%2FxphMwJsTkdhA%2B2CQgUHxyihY3ppG0wFAzr%2FPdynzUp9be5YDtw0CnnVTrdDWB%2BM6Bm%2BBUUHRZZJTSB63loL7g4lhPUNjaPB7LX2x2P92tfo2rHzDpPjHvA1wpuSRvi6Chko1I4DDo37Hu%2B6Y8a6qsWjjf%2B%2FRSMcwxYCeqvKzs0VLyYvRpuZe8kY%2BmzUFHlukYWp1PIVyk%2FNlNUPwrkH91JO%2Bijm1%2FhaGFZbGxx09819jxcpw26yAnGWY%2B6D0OReIpnm63EvD3rsJ2YgFAe3RSgNFMw%2FzBYRakGr3FBnbsThYpktsqzRksRTCdVDNnifRXnNXoBtUxkO6wc5b8Ztc62S8UuO0XDXTuinwqgKsswfkmKJUJky9WbxqQuWkqhbeNMqkCh4fvF9KG%2BW1sWW%2FLxV1hvuzvcLUdPKbgkt3KPxT6wDDzzprNBjqkAY9bGCehC8OkA0BQaSAFlkUaW%2BkgcD9Xpk4%2FWOBHzO6BMqpFG4uGoSrwcvTf97PMJfHvUnQzDg66umUFS8w9Yjk7sCv0GqU2KSO%2BL8%2Fqr332xhVx2lEigrB9wqacocn9OVy7248DSVVhUCi4NsjDDjFABA9G67jJ%2FokieJ2pzp%2FjmiOg9jKfwDPuxygQTv2UMMAzGZbamzz6qQi2Eh9NZDogiWIr&X-Amz-Signature=cff65cdfd6d186f2282af4cf1c4bd13412e8da7b935cb623e3cd2fe919142df7&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
-            "expiry_time": "2026-03-03T10:47:43.399Z"
+            "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/c69962b0-3951-485b-b10a-5bb29576bba8/306c1ca2-6a30-4b87-bd13-ecab812ed3eb/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA_2026-01-18_%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE_4.39.33.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4662DAAVWZB%2F20260306%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260306T033302Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEBEaCXVzLXdlc3QtMiJHMEUCIQCrMIcJFIvmTQGWTw4C%2BUs94ivXnb0kAIG5BTQhMg2WLwIgGmwQftFyamaVE3n%2FYX4Lq%2Bzk7R9FwqmCYILi2GsjZIwqiAQI2v%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDJC3U3q6I7shPpK41yrcAxQTHMdJY%2BQjLGaxwenfQ2un9oK4KopwR1O2DlfrnRWr58yj6h5AKkQ%2FeU4XTkE8Df%2BP9zTjmAwkQxfAtgsCGSjeejxwPJYQcDr80S3Z3t8b8qVzCMX6CqR60o6sQm0J63zwXbDZlRYj0TbKMMkyT26hYG1SrH8eneGPxZp0yZv5djhJjlc%2F34wo8NoBNaPM6BzlxzCpBeM2XQKUImRjjfMvyouhf6vzJLLeFJt1X%2FjoJELIjMnT5KBD4SVB4VP83g8iK9HakOAtAtg4kN8NLtL2b2PT4b4%2FPsWknHMeolHhghSZQA3YefrNKMU9lA0kwU6WjAzDayQMSo5wml%2BuYkBCw1Ib0ooG4y21xqzySbU4cMTIf6VwdcCxz3Y0%2F9oc0hP1AaHEOcR%2Bqjy5zxSaUkU2D4XgOQdES6FMjEjos1yOfIbWK2iO0VoAvO%2FE3PkH56F41PpHe2Q4gNq0NeobQl37UZSQNfEHNyQPvJCzL4%2FB5N5At99Q8AixFV%2FWkaiz9WR%2FC5bHweVt%2FTmUdM4Q0zXmx1g32rb42gXAFy2upwlG1S2Xm93lCQF0YvFoaJaiFrvMMTOEe8Xz%2F%2BeB7K2%2BTIiaruAEgT9sEmJwr7KKu2PrQQ%2FY2Y%2FjR5Gj%2BO2lMNPOqM0GOqUBOUm6gFq8MS54G9lQj5NL1spnOi%2Fk9pr%2BfGigtko8Rk6ygAu%2F8jJzLDHskH%2F3Mi3ktPwfxtyXBhak6I4oIwEC0eSE%2BswvfjR3PQKHbHy4%2BYEcDQQpY%2FPRCHWrS7mxsevub79tVhhmeyNEizlsPvxnLa%2FYb%2FsEKa9ou0wxq3rg8E%2B1pIojtDB8snhU6V63SyJO0cWWSvHYUxCw3AsL9Mc8yfKDUvGx&X-Amz-Signature=7f746fdd97756d8198e058da7a88dd55f23777722ce2372b16341bfef0b35945&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+            "expiry_time": "2026-03-06T04:33:02.746Z"
           }
         }
       },
@@ -6594,8 +6595,8 @@
           "caption": [],
           "type": "file",
           "file": {
-            "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/c69962b0-3951-485b-b10a-5bb29576bba8/700752b1-6f06-4c37-9589-f353f353cee1/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA_2026-01-18_%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE_4.33.51.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466456BO53B%2F20260303%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260303T094743Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjENL%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJIMEYCIQCzVl%2F2JVNCGYHTH3AZiVlSlRxCkuk6i5FDsNek9HKQ6gIhAOoXaYs30Fcm%2B%2ByKYQA%2BwZK6HGkkUxEx%2FPIV4JdSbmuAKogECJr%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMNjM3NDIzMTgzODA1IgyCyrAaDPqafskEIp8q3AN5sEf4aACHWcfBq74kjWVTi630lPJ%2BzHncFWJmZNZxcfUAGT47vjMlwButO3hVQ0uarrVwcISOJWYyVSFLYGBakL0HSt6SFB%2B647Qqpsypk4nODbIb38OSYARQua4SsIOJM1MXXTyreZzfHO1OBrHRz8kSvgnlg5x%2BqAsFqmQkMklvnTxow60PR%2BDvKQiC3%2B%2BC3aM4MtpVTZ%2FxphMwJsTkdhA%2B2CQgUHxyihY3ppG0wFAzr%2FPdynzUp9be5YDtw0CnnVTrdDWB%2BM6Bm%2BBUUHRZZJTSB63loL7g4lhPUNjaPB7LX2x2P92tfo2rHzDpPjHvA1wpuSRvi6Chko1I4DDo37Hu%2B6Y8a6qsWjjf%2B%2FRSMcwxYCeqvKzs0VLyYvRpuZe8kY%2BmzUFHlukYWp1PIVyk%2FNlNUPwrkH91JO%2Bijm1%2FhaGFZbGxx09819jxcpw26yAnGWY%2B6D0OReIpnm63EvD3rsJ2YgFAe3RSgNFMw%2FzBYRakGr3FBnbsThYpktsqzRksRTCdVDNnifRXnNXoBtUxkO6wc5b8Ztc62S8UuO0XDXTuinwqgKsswfkmKJUJky9WbxqQuWkqhbeNMqkCh4fvF9KG%2BW1sWW%2FLxV1hvuzvcLUdPKbgkt3KPxT6wDDzzprNBjqkAY9bGCehC8OkA0BQaSAFlkUaW%2BkgcD9Xpk4%2FWOBHzO6BMqpFG4uGoSrwcvTf97PMJfHvUnQzDg66umUFS8w9Yjk7sCv0GqU2KSO%2BL8%2Fqr332xhVx2lEigrB9wqacocn9OVy7248DSVVhUCi4NsjDDjFABA9G67jJ%2FokieJ2pzp%2FjmiOg9jKfwDPuxygQTv2UMMAzGZbamzz6qQi2Eh9NZDogiWIr&X-Amz-Signature=3a7d399df358db497c12cdf6c5ac7126bb7ce2d9bd23bce0730c634695cb1cab&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
-            "expiry_time": "2026-03-03T10:47:43.286Z"
+            "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/c69962b0-3951-485b-b10a-5bb29576bba8/700752b1-6f06-4c37-9589-f353f353cee1/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA_2026-01-18_%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE_4.33.51.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4662DAAVWZB%2F20260306%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260306T033302Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEBEaCXVzLXdlc3QtMiJHMEUCIQCrMIcJFIvmTQGWTw4C%2BUs94ivXnb0kAIG5BTQhMg2WLwIgGmwQftFyamaVE3n%2FYX4Lq%2Bzk7R9FwqmCYILi2GsjZIwqiAQI2v%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDJC3U3q6I7shPpK41yrcAxQTHMdJY%2BQjLGaxwenfQ2un9oK4KopwR1O2DlfrnRWr58yj6h5AKkQ%2FeU4XTkE8Df%2BP9zTjmAwkQxfAtgsCGSjeejxwPJYQcDr80S3Z3t8b8qVzCMX6CqR60o6sQm0J63zwXbDZlRYj0TbKMMkyT26hYG1SrH8eneGPxZp0yZv5djhJjlc%2F34wo8NoBNaPM6BzlxzCpBeM2XQKUImRjjfMvyouhf6vzJLLeFJt1X%2FjoJELIjMnT5KBD4SVB4VP83g8iK9HakOAtAtg4kN8NLtL2b2PT4b4%2FPsWknHMeolHhghSZQA3YefrNKMU9lA0kwU6WjAzDayQMSo5wml%2BuYkBCw1Ib0ooG4y21xqzySbU4cMTIf6VwdcCxz3Y0%2F9oc0hP1AaHEOcR%2Bqjy5zxSaUkU2D4XgOQdES6FMjEjos1yOfIbWK2iO0VoAvO%2FE3PkH56F41PpHe2Q4gNq0NeobQl37UZSQNfEHNyQPvJCzL4%2FB5N5At99Q8AixFV%2FWkaiz9WR%2FC5bHweVt%2FTmUdM4Q0zXmx1g32rb42gXAFy2upwlG1S2Xm93lCQF0YvFoaJaiFrvMMTOEe8Xz%2F%2BeB7K2%2BTIiaruAEgT9sEmJwr7KKu2PrQQ%2FY2Y%2FjR5Gj%2BO2lMNPOqM0GOqUBOUm6gFq8MS54G9lQj5NL1spnOi%2Fk9pr%2BfGigtko8Rk6ygAu%2F8jJzLDHskH%2F3Mi3ktPwfxtyXBhak6I4oIwEC0eSE%2BswvfjR3PQKHbHy4%2BYEcDQQpY%2FPRCHWrS7mxsevub79tVhhmeyNEizlsPvxnLa%2FYb%2FsEKa9ou0wxq3rg8E%2B1pIojtDB8snhU6V63SyJO0cWWSvHYUxCw3AsL9Mc8yfKDUvGx&X-Amz-Signature=5d7a3cc2d05d274a27eb1581e3c74742aca35e53e222bcc865e4b4a6f78b85c4&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+            "expiry_time": "2026-03-06T04:33:02.737Z"
           }
         }
       },
@@ -7689,8 +7690,8 @@
           "caption": [],
           "type": "file",
           "file": {
-            "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/c69962b0-3951-485b-b10a-5bb29576bba8/f841e565-829a-4956-8bbd-301ff4185839/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA_2026-01-18_%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE_5.27.19.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4664WOVAUCM%2F20260303%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260303T094757Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjENL%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIQCjnT7Bisg4JRdOSI7GpxwfYvhNEgDDpN1MSzoWBpHpRAIgNCeg6D4GCL03T6q660hgKlVQ5ej5xgV6Yp66sLYLCE8qiAQImv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDARrK4EoHat8JpJSnSrcA4CUsSnfd830WvgvyieUZJ7YIAX%2B%2BIWoWkNCppKw%2BDuThnb4qKsmi7EQq9TQG4IzgzbfTBrB9dExxUyOIQ2oTF34U4%2BKbdxAkc0NaVbv7l7Cf4tLS%2BMZn%2B8ZWhFeygcR2aS%2Fpgyw2nlYATbyruBfV%2FDHBwPkfUTXVnLilmVg27WQco5pWgsflw3B%2B2xR6eg5ZLWKTib36nIkZGtuM13yAUd36EOC%2BValxm8hUNzYchSwvy5uv6VfgChu9b3DHcllEi53SjKjcHY5ZGR2VuoTU360Cd377B9TAulsG6u%2Bag3hHfvSNYm2S0RGLpJJiPMqAvcs9YoGl9VWu0FmK4N2A%2Fs6ZCfy9DVxmlHgjhQdEHSdhia0ysM6lRCpKeZc%2FlO%2FhfsRjPymV24rqmnCQucCzcGOOXzlIMWSyazrdVWit5IqB%2B4WWXYIrKv4vtxOF7oOWDXLOmORWNaWy5bTnqfdRjQV13ZTu5gU2f7rkLAQ1wO6e29TG6BysU01ajzte7gqIKkpUJjx3Xz%2FwENwFXoMCpxfiiCbex6e28QyS3zjsOj60VISNRMyaq3NNnaW6du1GeEEkWCD9ITQra6abaWy9k68maM8nSXLdUsZAYuR4deBrodl301oEDYT8n06MPPQms0GOqUBOWHtJtxwWbq83kTrh8GvSSmJsxVNhPCkvG8amSpF250JAd0w%2BXxp7Htpf6jJnP6mKJG2zcuYZb7%2BILuVROgCu9Aiv1qf1u4mJRKVWkisVuPlFsomahmh7KJwNxRLCzoWuhD7%2BAnA9V4ZpibSgbDlQvnFbZZySgiPH49hRC%2FlO1bD2%2BYnjXimJChrXxb3zAegAhvM78u5V5i9gc2ysQxntTsdnm9N&X-Amz-Signature=1d034f5cb852472ad0afadcf48121cc76c8abd9fa71815824aa1d94cd625050e&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
-            "expiry_time": "2026-03-03T10:47:57.454Z"
+            "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/c69962b0-3951-485b-b10a-5bb29576bba8/f841e565-829a-4956-8bbd-301ff4185839/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA_2026-01-18_%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE_5.27.19.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466WMTUAMPW%2F20260306%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260306T033303Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEBEaCXVzLXdlc3QtMiJHMEUCIQCDU3qUyHZu28IAsJI9wyfaOZEvvSv4fOlPj9c54tNq3AIgafsRDiMDW7uybDnBS7nL3atCfe%2FPych8HII71uwoQzsqiAQI2v%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDLlHul9lsqBhZFKQZCrcA3x7L6PvGUvBXPWBDelz7HDgumC1caCauouOpgydwNHgDZ%2B6EqpMezpzLGji6n%2F7LdpitAoL%2BpO5l%2F6dXQVd0%2FKzIDw2vfvtV8wR9%2FNmh%2FC%2F7NjMb4CrY2ZoQOCK%2Fk9wUTb%2B1alHQrcm7PCx2pMiCJ3%2BNvYuzw9ovsEc13GUE99gAl9zuMIvu6lRsZr1Y5Gs9A%2FkwY8Scfk9bOkkJojFLulcwPgB425VcmtPMMzRGl3ox9mQrCrblruDYH7B8FgtV0MZGVnxKCwH5TV5oPHQstRwcgUVqcRfrtf1mNpKmhSnXhn3dL%2FOy33A3vdnVDbXoYWTq%2FWeHs12pyKKWUH4862UHjJg5XZAsNZ4bPTZCBdBp16DlTZXO8LUoVmExBN1CiKq4GECXuR8jrgvt8xlLj7UVKbxzCpPZrBgkP7oMmNDc%2Bzwo0HgL6SR3x6N3l1Bwyaz5J6Bo78TjoDzhjs85jE3jVCTCK4qqDBCmozLWfv1%2BGJjvn4vZFbzCWAAHJqkttcWlW1eN0hy3UZvjrUroB6OSR8xV35TU8yg5jXkYw0m86aqrUsHP6N5%2F398KZ2zez2vz0uT0kdVv6QQ48p80CCmU3FLhN%2BOhHFD3GvC52eePxAlL2ZmPrD86onuMIfPqM0GOqUB8%2B8vJg%2F%2Fw%2Bw%2FSyTRr9TW4rrqk0RWPaWLUb8iwQY1TjMejHrflyIo90pFTqJ%2FZXLo1%2FX79YIsIWqJbWm%2BtEev3xvnB2mg7jqQWxootSh5Gr6Cf3glA0EaqckDWcDoe0Z%2BEgPbvUdQenVkxFzM7dT1gpR4et3dHEazvgBoC7MgBiNnRfp99i%2FDOIs5L3Yuoyj7YNIcZNi8WylD%2FXQh8GHJ8EkbaZg%2F&X-Amz-Signature=19991870ca1f5ca89b4f27457dd251fe8826f9d825c2e8cf74dfac476892d589&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+            "expiry_time": "2026-03-06T04:33:03.276Z"
           }
         }
       },
@@ -7702,14 +7703,14 @@
           "block_id": "2f144860-a4f4-803e-a2e1-f26db68ebb1d"
         },
         "created_time": "2026-01-23T10:14:00.000Z",
-        "last_edited_time": "2026-02-02T07:16:00.000Z",
+        "last_edited_time": "2026-03-06T03:25:00.000Z",
         "created_by": {
           "object": "user",
           "id": "2aed872b-594c-81eb-bc82-000291164988"
         },
         "last_edited_by": {
           "object": "user",
-          "id": "2aed872b-594c-81eb-bc82-000291164988"
+          "id": "02042589-fdf7-43c3-b4e0-cbe6175fa46c"
         },
         "has_children": false,
         "archived": false,
@@ -7720,7 +7721,7 @@
             {
               "type": "text",
               "text": {
-                "content": "요약 카드 그리드에는 ",
+                "content": "요약 카드 그리드에는 기본 카드와 하이라이트 카드가 함께 존재해야 한다.",
                 "link": null
               },
               "annotations": {
@@ -7731,41 +7732,7 @@
                 "code": false,
                 "color": "default"
               },
-              "plain_text": "요약 카드 그리드에는 ",
-              "href": null
-            },
-            {
-              "type": "text",
-              "text": {
-                "content": "기본 카드와 하이라이트 카드",
-                "link": null
-              },
-              "annotations": {
-                "bold": false,
-                "italic": false,
-                "strikethrough": false,
-                "underline": false,
-                "code": false,
-                "color": "orange"
-              },
-              "plain_text": "기본 카드와 하이라이트 카드",
-              "href": null
-            },
-            {
-              "type": "text",
-              "text": {
-                "content": "가 함께 존재해야 한다.",
-                "link": null
-              },
-              "annotations": {
-                "bold": false,
-                "italic": false,
-                "strikethrough": false,
-                "underline": false,
-                "code": false,
-                "color": "default"
-              },
-              "plain_text": "가 함께 존재해야 한다.",
+              "plain_text": "요약 카드 그리드에는 기본 카드와 하이라이트 카드가 함께 존재해야 한다.",
               "href": null
             }
           ],
@@ -7780,14 +7747,14 @@
           "block_id": "2f144860-a4f4-803e-a2e1-f26db68ebb1d"
         },
         "created_time": "2026-01-23T10:14:00.000Z",
-        "last_edited_time": "2026-01-23T10:14:00.000Z",
+        "last_edited_time": "2026-03-06T03:25:00.000Z",
         "created_by": {
           "object": "user",
           "id": "2aed872b-594c-81eb-bc82-000291164988"
         },
         "last_edited_by": {
           "object": "user",
-          "id": "2aed872b-594c-81eb-bc82-000291164988"
+          "id": "02042589-fdf7-43c3-b4e0-cbe6175fa46c"
         },
         "has_children": false,
         "archived": false,
@@ -7824,14 +7791,14 @@
           "block_id": "2f144860-a4f4-803e-a2e1-f26db68ebb1d"
         },
         "created_time": "2026-01-23T10:14:00.000Z",
-        "last_edited_time": "2026-02-02T07:19:00.000Z",
+        "last_edited_time": "2026-03-06T03:25:00.000Z",
         "created_by": {
           "object": "user",
           "id": "2aed872b-594c-81eb-bc82-000291164988"
         },
         "last_edited_by": {
           "object": "user",
-          "id": "2aed872b-594c-81eb-bc82-000291164988"
+          "id": "02042589-fdf7-43c3-b4e0-cbe6175fa46c"
         },
         "has_children": false,
         "archived": false,
@@ -7842,7 +7809,7 @@
             {
               "type": "text",
               "text": {
-                "content": "하이라이트 카드도 기본 카드와 동일한 HTML 구조를 유지해야 하며, 추가 클래스 적용으로만 ",
+                "content": "하이라이트 카드도 기본 카드와 동일한 HTML 구조를 유지해야 하며, 추가 클래스 적용으로만 시각적/배치적 차이를 만든다.",
                 "link": null
               },
               "annotations": {
@@ -7853,41 +7820,7 @@
                 "code": false,
                 "color": "default"
               },
-              "plain_text": "하이라이트 카드도 기본 카드와 동일한 HTML 구조를 유지해야 하며, 추가 클래스 적용으로만 ",
-              "href": null
-            },
-            {
-              "type": "text",
-              "text": {
-                "content": "시각적/배치적 차이",
-                "link": null
-              },
-              "annotations": {
-                "bold": false,
-                "italic": false,
-                "strikethrough": false,
-                "underline": false,
-                "code": false,
-                "color": "orange"
-              },
-              "plain_text": "시각적/배치적 차이",
-              "href": null
-            },
-            {
-              "type": "text",
-              "text": {
-                "content": "를 만든다.",
-                "link": null
-              },
-              "annotations": {
-                "bold": false,
-                "italic": false,
-                "strikethrough": false,
-                "underline": false,
-                "code": false,
-                "color": "default"
-              },
-              "plain_text": "를 만든다.",
+              "plain_text": "하이라이트 카드도 기본 카드와 동일한 HTML 구조를 유지해야 하며, 추가 클래스 적용으로만 시각적/배치적 차이를 만든다.",
               "href": null
             }
           ],
@@ -7902,14 +7835,14 @@
           "block_id": "2f144860-a4f4-803e-a2e1-f26db68ebb1d"
         },
         "created_time": "2026-01-23T10:14:00.000Z",
-        "last_edited_time": "2026-01-23T10:14:00.000Z",
+        "last_edited_time": "2026-03-06T03:25:00.000Z",
         "created_by": {
           "object": "user",
           "id": "2aed872b-594c-81eb-bc82-000291164988"
         },
         "last_edited_by": {
           "object": "user",
-          "id": "2aed872b-594c-81eb-bc82-000291164988"
+          "id": "02042589-fdf7-43c3-b4e0-cbe6175fa46c"
         },
         "has_children": false,
         "archived": false,
@@ -7946,14 +7879,14 @@
           "block_id": "2f144860-a4f4-803e-a2e1-f26db68ebb1d"
         },
         "created_time": "2026-01-23T10:14:00.000Z",
-        "last_edited_time": "2026-01-23T10:14:00.000Z",
+        "last_edited_time": "2026-03-06T03:25:00.000Z",
         "created_by": {
           "object": "user",
           "id": "2aed872b-594c-81eb-bc82-000291164988"
         },
         "last_edited_by": {
           "object": "user",
-          "id": "2aed872b-594c-81eb-bc82-000291164988"
+          "id": "02042589-fdf7-43c3-b4e0-cbe6175fa46c"
         },
         "has_children": false,
         "archived": false,
@@ -8013,14 +7946,14 @@
           "block_id": "2f144860-a4f4-803e-a2e1-f26db68ebb1d"
         },
         "created_time": "2026-01-23T10:14:00.000Z",
-        "last_edited_time": "2026-01-27T04:16:00.000Z",
+        "last_edited_time": "2026-03-06T03:25:00.000Z",
         "created_by": {
           "object": "user",
           "id": "2aed872b-594c-81eb-bc82-000291164988"
         },
         "last_edited_by": {
           "object": "user",
-          "id": "2aed872b-594c-81eb-bc82-000291164988"
+          "id": "02042589-fdf7-43c3-b4e0-cbe6175fa46c"
         },
         "has_children": false,
         "archived": false,
@@ -8075,8 +8008,8 @@
           "caption": [],
           "type": "file",
           "file": {
-            "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/c69962b0-3951-485b-b10a-5bb29576bba8/91839a25-881e-42f9-b073-e366ab3b6657/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA_2026-01-18_%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE_5.43.35.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4664WOVAUCM%2F20260303%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260303T094757Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjENL%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIQCjnT7Bisg4JRdOSI7GpxwfYvhNEgDDpN1MSzoWBpHpRAIgNCeg6D4GCL03T6q660hgKlVQ5ej5xgV6Yp66sLYLCE8qiAQImv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDARrK4EoHat8JpJSnSrcA4CUsSnfd830WvgvyieUZJ7YIAX%2B%2BIWoWkNCppKw%2BDuThnb4qKsmi7EQq9TQG4IzgzbfTBrB9dExxUyOIQ2oTF34U4%2BKbdxAkc0NaVbv7l7Cf4tLS%2BMZn%2B8ZWhFeygcR2aS%2Fpgyw2nlYATbyruBfV%2FDHBwPkfUTXVnLilmVg27WQco5pWgsflw3B%2B2xR6eg5ZLWKTib36nIkZGtuM13yAUd36EOC%2BValxm8hUNzYchSwvy5uv6VfgChu9b3DHcllEi53SjKjcHY5ZGR2VuoTU360Cd377B9TAulsG6u%2Bag3hHfvSNYm2S0RGLpJJiPMqAvcs9YoGl9VWu0FmK4N2A%2Fs6ZCfy9DVxmlHgjhQdEHSdhia0ysM6lRCpKeZc%2FlO%2FhfsRjPymV24rqmnCQucCzcGOOXzlIMWSyazrdVWit5IqB%2B4WWXYIrKv4vtxOF7oOWDXLOmORWNaWy5bTnqfdRjQV13ZTu5gU2f7rkLAQ1wO6e29TG6BysU01ajzte7gqIKkpUJjx3Xz%2FwENwFXoMCpxfiiCbex6e28QyS3zjsOj60VISNRMyaq3NNnaW6du1GeEEkWCD9ITQra6abaWy9k68maM8nSXLdUsZAYuR4deBrodl301oEDYT8n06MPPQms0GOqUBOWHtJtxwWbq83kTrh8GvSSmJsxVNhPCkvG8amSpF250JAd0w%2BXxp7Htpf6jJnP6mKJG2zcuYZb7%2BILuVROgCu9Aiv1qf1u4mJRKVWkisVuPlFsomahmh7KJwNxRLCzoWuhD7%2BAnA9V4ZpibSgbDlQvnFbZZySgiPH49hRC%2FlO1bD2%2BYnjXimJChrXxb3zAegAhvM78u5V5i9gc2ysQxntTsdnm9N&X-Amz-Signature=ef5d322f3f49d27815afa7a9fcb498282d4e1e4caf81a487b3b0ca591f5729c3&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
-            "expiry_time": "2026-03-03T10:47:57.724Z"
+            "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/c69962b0-3951-485b-b10a-5bb29576bba8/91839a25-881e-42f9-b073-e366ab3b6657/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA_2026-01-18_%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE_5.43.35.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466WMTUAMPW%2F20260306%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260306T033303Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEBEaCXVzLXdlc3QtMiJHMEUCIQCDU3qUyHZu28IAsJI9wyfaOZEvvSv4fOlPj9c54tNq3AIgafsRDiMDW7uybDnBS7nL3atCfe%2FPych8HII71uwoQzsqiAQI2v%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDLlHul9lsqBhZFKQZCrcA3x7L6PvGUvBXPWBDelz7HDgumC1caCauouOpgydwNHgDZ%2B6EqpMezpzLGji6n%2F7LdpitAoL%2BpO5l%2F6dXQVd0%2FKzIDw2vfvtV8wR9%2FNmh%2FC%2F7NjMb4CrY2ZoQOCK%2Fk9wUTb%2B1alHQrcm7PCx2pMiCJ3%2BNvYuzw9ovsEc13GUE99gAl9zuMIvu6lRsZr1Y5Gs9A%2FkwY8Scfk9bOkkJojFLulcwPgB425VcmtPMMzRGl3ox9mQrCrblruDYH7B8FgtV0MZGVnxKCwH5TV5oPHQstRwcgUVqcRfrtf1mNpKmhSnXhn3dL%2FOy33A3vdnVDbXoYWTq%2FWeHs12pyKKWUH4862UHjJg5XZAsNZ4bPTZCBdBp16DlTZXO8LUoVmExBN1CiKq4GECXuR8jrgvt8xlLj7UVKbxzCpPZrBgkP7oMmNDc%2Bzwo0HgL6SR3x6N3l1Bwyaz5J6Bo78TjoDzhjs85jE3jVCTCK4qqDBCmozLWfv1%2BGJjvn4vZFbzCWAAHJqkttcWlW1eN0hy3UZvjrUroB6OSR8xV35TU8yg5jXkYw0m86aqrUsHP6N5%2F398KZ2zez2vz0uT0kdVv6QQ48p80CCmU3FLhN%2BOhHFD3GvC52eePxAlL2ZmPrD86onuMIfPqM0GOqUB8%2B8vJg%2F%2Fw%2Bw%2FSyTRr9TW4rrqk0RWPaWLUb8iwQY1TjMejHrflyIo90pFTqJ%2FZXLo1%2FX79YIsIWqJbWm%2BtEev3xvnB2mg7jqQWxootSh5Gr6Cf3glA0EaqckDWcDoe0Z%2BEgPbvUdQenVkxFzM7dT1gpR4et3dHEazvgBoC7MgBiNnRfp99i%2FDOIs5L3Yuoyj7YNIcZNi8WylD%2FXQh8GHJ8EkbaZg%2F&X-Amz-Signature=4cda435c7f1f50edfdaeac717ee07a535f23eed2a51aac58aeffcd7618b4fdba&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+            "expiry_time": "2026-03-06T04:33:03.477Z"
           }
         }
       },
@@ -8088,14 +8021,14 @@
           "block_id": "2f144860-a4f4-803e-a2e1-f26db68ebb1d"
         },
         "created_time": "2026-01-23T10:14:00.000Z",
-        "last_edited_time": "2026-02-02T07:19:00.000Z",
+        "last_edited_time": "2026-03-06T03:25:00.000Z",
         "created_by": {
           "object": "user",
           "id": "2aed872b-594c-81eb-bc82-000291164988"
         },
         "last_edited_by": {
           "object": "user",
-          "id": "2aed872b-594c-81eb-bc82-000291164988"
+          "id": "02042589-fdf7-43c3-b4e0-cbe6175fa46c"
         },
         "has_children": false,
         "archived": false,
@@ -8106,7 +8039,7 @@
             {
               "type": "text",
               "text": {
-                "content": "모든 요약 카드에는",
+                "content": "모든 요약 카드에는 배지 2개(기술 배지 + 상태 배지) 가 표시되어야 한다.",
                 "link": null
               },
               "annotations": {
@@ -8117,41 +8050,7 @@
                 "code": false,
                 "color": "default"
               },
-              "plain_text": "모든 요약 카드에는",
-              "href": null
-            },
-            {
-              "type": "text",
-              "text": {
-                "content": " 배지 2개(기술 배지 + 상태 배지)",
-                "link": null
-              },
-              "annotations": {
-                "bold": false,
-                "italic": false,
-                "strikethrough": false,
-                "underline": false,
-                "code": false,
-                "color": "orange"
-              },
-              "plain_text": " 배지 2개(기술 배지 + 상태 배지)",
-              "href": null
-            },
-            {
-              "type": "text",
-              "text": {
-                "content": " 가 표시되어야 한다.",
-                "link": null
-              },
-              "annotations": {
-                "bold": false,
-                "italic": false,
-                "strikethrough": false,
-                "underline": false,
-                "code": false,
-                "color": "default"
-              },
-              "plain_text": " 가 표시되어야 한다.",
+              "plain_text": "모든 요약 카드에는 배지 2개(기술 배지 + 상태 배지) 가 표시되어야 한다.",
               "href": null
             }
           ],
@@ -8166,14 +8065,14 @@
           "block_id": "2f144860-a4f4-803e-a2e1-f26db68ebb1d"
         },
         "created_time": "2026-01-23T10:14:00.000Z",
-        "last_edited_time": "2026-02-02T07:19:00.000Z",
+        "last_edited_time": "2026-03-06T03:25:00.000Z",
         "created_by": {
           "object": "user",
           "id": "2aed872b-594c-81eb-bc82-000291164988"
         },
         "last_edited_by": {
           "object": "user",
-          "id": "2aed872b-594c-81eb-bc82-000291164988"
+          "id": "02042589-fdf7-43c3-b4e0-cbe6175fa46c"
         },
         "has_children": false,
         "archived": false,
@@ -8184,24 +8083,7 @@
             {
               "type": "text",
               "text": {
-                "content": "기술 배지",
-                "link": null
-              },
-              "annotations": {
-                "bold": false,
-                "italic": false,
-                "strikethrough": false,
-                "underline": false,
-                "code": false,
-                "color": "orange"
-              },
-              "plain_text": "기술 배지",
-              "href": null
-            },
-            {
-              "type": "text",
-              "text": {
-                "content": "는 프로필 이미지 위에 겹쳐 보이는 ",
+                "content": "기술 배지는 프로필 이미지 위에 겹쳐 보이는 오버레이 형태로 표시되며, 우측 상단에 고정되어야 한다.",
                 "link": null
               },
               "annotations": {
@@ -8212,41 +8094,7 @@
                 "code": false,
                 "color": "default"
               },
-              "plain_text": "는 프로필 이미지 위에 겹쳐 보이는 ",
-              "href": null
-            },
-            {
-              "type": "text",
-              "text": {
-                "content": "오버레이 형태",
-                "link": null
-              },
-              "annotations": {
-                "bold": false,
-                "italic": false,
-                "strikethrough": false,
-                "underline": false,
-                "code": false,
-                "color": "orange"
-              },
-              "plain_text": "오버레이 형태",
-              "href": null
-            },
-            {
-              "type": "text",
-              "text": {
-                "content": "로 표시되며, 우측 상단에 고정되어야 한다.",
-                "link": null
-              },
-              "annotations": {
-                "bold": false,
-                "italic": false,
-                "strikethrough": false,
-                "underline": false,
-                "code": false,
-                "color": "default"
-              },
-              "plain_text": "로 표시되며, 우측 상단에 고정되어야 한다.",
+              "plain_text": "기술 배지는 프로필 이미지 위에 겹쳐 보이는 오버레이 형태로 표시되며, 우측 상단에 고정되어야 한다.",
               "href": null
             }
           ],
@@ -8261,14 +8109,14 @@
           "block_id": "2f144860-a4f4-803e-a2e1-f26db68ebb1d"
         },
         "created_time": "2026-01-23T10:14:00.000Z",
-        "last_edited_time": "2026-01-23T10:14:00.000Z",
+        "last_edited_time": "2026-03-06T03:25:00.000Z",
         "created_by": {
           "object": "user",
           "id": "2aed872b-594c-81eb-bc82-000291164988"
         },
         "last_edited_by": {
           "object": "user",
-          "id": "2aed872b-594c-81eb-bc82-000291164988"
+          "id": "02042589-fdf7-43c3-b4e0-cbe6175fa46c"
         },
         "has_children": false,
         "archived": false,
@@ -8305,14 +8153,14 @@
           "block_id": "2f144860-a4f4-803e-a2e1-f26db68ebb1d"
         },
         "created_time": "2026-01-23T10:14:00.000Z",
-        "last_edited_time": "2026-02-02T07:19:00.000Z",
+        "last_edited_time": "2026-03-06T03:25:00.000Z",
         "created_by": {
           "object": "user",
           "id": "2aed872b-594c-81eb-bc82-000291164988"
         },
         "last_edited_by": {
           "object": "user",
-          "id": "2aed872b-594c-81eb-bc82-000291164988"
+          "id": "02042589-fdf7-43c3-b4e0-cbe6175fa46c"
         },
         "has_children": false,
         "archived": false,
@@ -8323,24 +8171,7 @@
             {
               "type": "text",
               "text": {
-                "content": "상태 배지",
-                "link": null
-              },
-              "annotations": {
-                "bold": false,
-                "italic": false,
-                "strikethrough": false,
-                "underline": false,
-                "code": false,
-                "color": "orange"
-              },
-              "plain_text": "상태 배지",
-              "href": null
-            },
-            {
-              "type": "text",
-              "text": {
-                "content": "는 프로필 이미지 위에 겹쳐 보이는 ",
+                "content": "상태 배지는 프로필 이미지 위에 겹쳐 보이는 오버레이 형태로 표시되며, 좌측 하단에 고정되어야 한다.",
                 "link": null
               },
               "annotations": {
@@ -8351,41 +8182,7 @@
                 "code": false,
                 "color": "default"
               },
-              "plain_text": "는 프로필 이미지 위에 겹쳐 보이는 ",
-              "href": null
-            },
-            {
-              "type": "text",
-              "text": {
-                "content": "오버레이 형태",
-                "link": null
-              },
-              "annotations": {
-                "bold": false,
-                "italic": false,
-                "strikethrough": false,
-                "underline": false,
-                "code": false,
-                "color": "orange"
-              },
-              "plain_text": "오버레이 형태",
-              "href": null
-            },
-            {
-              "type": "text",
-              "text": {
-                "content": "로 표시되며, 좌측 하단에 고정되어야 한다.",
-                "link": null
-              },
-              "annotations": {
-                "bold": false,
-                "italic": false,
-                "strikethrough": false,
-                "underline": false,
-                "code": false,
-                "color": "default"
-              },
-              "plain_text": "로 표시되며, 좌측 하단에 고정되어야 한다.",
+              "plain_text": "상태 배지는 프로필 이미지 위에 겹쳐 보이는 오버레이 형태로 표시되며, 좌측 하단에 고정되어야 한다.",
               "href": null
             }
           ],
@@ -8400,14 +8197,14 @@
           "block_id": "2f144860-a4f4-803e-a2e1-f26db68ebb1d"
         },
         "created_time": "2026-01-23T10:14:00.000Z",
-        "last_edited_time": "2026-01-23T10:14:00.000Z",
+        "last_edited_time": "2026-03-06T03:25:00.000Z",
         "created_by": {
           "object": "user",
           "id": "2aed872b-594c-81eb-bc82-000291164988"
         },
         "last_edited_by": {
           "object": "user",
-          "id": "2aed872b-594c-81eb-bc82-000291164988"
+          "id": "02042589-fdf7-43c3-b4e0-cbe6175fa46c"
         },
         "has_children": false,
         "archived": false,
@@ -8444,14 +8241,14 @@
           "block_id": "2f144860-a4f4-803e-a2e1-f26db68ebb1d"
         },
         "created_time": "2026-01-23T10:14:00.000Z",
-        "last_edited_time": "2026-02-02T07:19:00.000Z",
+        "last_edited_time": "2026-03-06T03:25:00.000Z",
         "created_by": {
           "object": "user",
           "id": "2aed872b-594c-81eb-bc82-000291164988"
         },
         "last_edited_by": {
           "object": "user",
-          "id": "2aed872b-594c-81eb-bc82-000291164988"
+          "id": "02042589-fdf7-43c3-b4e0-cbe6175fa46c"
         },
         "has_children": false,
         "archived": false,
@@ -8462,7 +8259,7 @@
             {
               "type": "text",
               "text": {
-                "content": "두 배지는 이미지 위에 ",
+                "content": "두 배지는 이미지 위에 동시에 보여야 하며, 이미지/카드 레이아웃을 깨지지 않게 유지해야 한다.",
                 "link": null
               },
               "annotations": {
@@ -8473,75 +8270,7 @@
                 "code": false,
                 "color": "default"
               },
-              "plain_text": "두 배지는 이미지 위에 ",
-              "href": null
-            },
-            {
-              "type": "text",
-              "text": {
-                "content": "동시",
-                "link": null
-              },
-              "annotations": {
-                "bold": false,
-                "italic": false,
-                "strikethrough": false,
-                "underline": false,
-                "code": false,
-                "color": "orange"
-              },
-              "plain_text": "동시",
-              "href": null
-            },
-            {
-              "type": "text",
-              "text": {
-                "content": "에 보여야 하며, ",
-                "link": null
-              },
-              "annotations": {
-                "bold": false,
-                "italic": false,
-                "strikethrough": false,
-                "underline": false,
-                "code": false,
-                "color": "default"
-              },
-              "plain_text": "에 보여야 하며, ",
-              "href": null
-            },
-            {
-              "type": "text",
-              "text": {
-                "content": "이미지/카드 레이아웃을 깨지지 않게 유지",
-                "link": null
-              },
-              "annotations": {
-                "bold": false,
-                "italic": false,
-                "strikethrough": false,
-                "underline": false,
-                "code": false,
-                "color": "orange"
-              },
-              "plain_text": "이미지/카드 레이아웃을 깨지지 않게 유지",
-              "href": null
-            },
-            {
-              "type": "text",
-              "text": {
-                "content": "해야 한다.",
-                "link": null
-              },
-              "annotations": {
-                "bold": false,
-                "italic": false,
-                "strikethrough": false,
-                "underline": false,
-                "code": false,
-                "color": "default"
-              },
-              "plain_text": "해야 한다.",
+              "plain_text": "두 배지는 이미지 위에 동시에 보여야 하며, 이미지/카드 레이아웃을 깨지지 않게 유지해야 한다.",
               "href": null
             }
           ],
@@ -8579,14 +8308,14 @@
           "block_id": "2f144860-a4f4-803e-a2e1-f26db68ebb1d"
         },
         "created_time": "2026-01-27T04:16:00.000Z",
-        "last_edited_time": "2026-02-04T06:55:00.000Z",
+        "last_edited_time": "2026-03-06T03:25:00.000Z",
         "created_by": {
           "object": "user",
           "id": "2aed872b-594c-81eb-bc82-000291164988"
         },
         "last_edited_by": {
           "object": "user",
-          "id": "2aed872b-594c-81eb-bc82-000291164988"
+          "id": "02042589-fdf7-43c3-b4e0-cbe6175fa46c"
         },
         "has_children": false,
         "archived": false,
@@ -8641,8 +8370,8 @@
           "caption": [],
           "type": "file",
           "file": {
-            "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/c69962b0-3951-485b-b10a-5bb29576bba8/23e2ca20-0523-4800-97aa-308c8dfc7b60/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA_2026-01-18_%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE_5.53.53.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4664WOVAUCM%2F20260303%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260303T094757Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjENL%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIQCjnT7Bisg4JRdOSI7GpxwfYvhNEgDDpN1MSzoWBpHpRAIgNCeg6D4GCL03T6q660hgKlVQ5ej5xgV6Yp66sLYLCE8qiAQImv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDARrK4EoHat8JpJSnSrcA4CUsSnfd830WvgvyieUZJ7YIAX%2B%2BIWoWkNCppKw%2BDuThnb4qKsmi7EQq9TQG4IzgzbfTBrB9dExxUyOIQ2oTF34U4%2BKbdxAkc0NaVbv7l7Cf4tLS%2BMZn%2B8ZWhFeygcR2aS%2Fpgyw2nlYATbyruBfV%2FDHBwPkfUTXVnLilmVg27WQco5pWgsflw3B%2B2xR6eg5ZLWKTib36nIkZGtuM13yAUd36EOC%2BValxm8hUNzYchSwvy5uv6VfgChu9b3DHcllEi53SjKjcHY5ZGR2VuoTU360Cd377B9TAulsG6u%2Bag3hHfvSNYm2S0RGLpJJiPMqAvcs9YoGl9VWu0FmK4N2A%2Fs6ZCfy9DVxmlHgjhQdEHSdhia0ysM6lRCpKeZc%2FlO%2FhfsRjPymV24rqmnCQucCzcGOOXzlIMWSyazrdVWit5IqB%2B4WWXYIrKv4vtxOF7oOWDXLOmORWNaWy5bTnqfdRjQV13ZTu5gU2f7rkLAQ1wO6e29TG6BysU01ajzte7gqIKkpUJjx3Xz%2FwENwFXoMCpxfiiCbex6e28QyS3zjsOj60VISNRMyaq3NNnaW6du1GeEEkWCD9ITQra6abaWy9k68maM8nSXLdUsZAYuR4deBrodl301oEDYT8n06MPPQms0GOqUBOWHtJtxwWbq83kTrh8GvSSmJsxVNhPCkvG8amSpF250JAd0w%2BXxp7Htpf6jJnP6mKJG2zcuYZb7%2BILuVROgCu9Aiv1qf1u4mJRKVWkisVuPlFsomahmh7KJwNxRLCzoWuhD7%2BAnA9V4ZpibSgbDlQvnFbZZySgiPH49hRC%2FlO1bD2%2BYnjXimJChrXxb3zAegAhvM78u5V5i9gc2ysQxntTsdnm9N&X-Amz-Signature=42879da4beb7bcb1237c27ee1bb2d6284560d768e32ad7dba1d63902488fd469&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
-            "expiry_time": "2026-03-03T10:47:57.769Z"
+            "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/c69962b0-3951-485b-b10a-5bb29576bba8/23e2ca20-0523-4800-97aa-308c8dfc7b60/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA_2026-01-18_%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE_5.53.53.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466WMTUAMPW%2F20260306%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260306T033303Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEBEaCXVzLXdlc3QtMiJHMEUCIQCDU3qUyHZu28IAsJI9wyfaOZEvvSv4fOlPj9c54tNq3AIgafsRDiMDW7uybDnBS7nL3atCfe%2FPych8HII71uwoQzsqiAQI2v%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDLlHul9lsqBhZFKQZCrcA3x7L6PvGUvBXPWBDelz7HDgumC1caCauouOpgydwNHgDZ%2B6EqpMezpzLGji6n%2F7LdpitAoL%2BpO5l%2F6dXQVd0%2FKzIDw2vfvtV8wR9%2FNmh%2FC%2F7NjMb4CrY2ZoQOCK%2Fk9wUTb%2B1alHQrcm7PCx2pMiCJ3%2BNvYuzw9ovsEc13GUE99gAl9zuMIvu6lRsZr1Y5Gs9A%2FkwY8Scfk9bOkkJojFLulcwPgB425VcmtPMMzRGl3ox9mQrCrblruDYH7B8FgtV0MZGVnxKCwH5TV5oPHQstRwcgUVqcRfrtf1mNpKmhSnXhn3dL%2FOy33A3vdnVDbXoYWTq%2FWeHs12pyKKWUH4862UHjJg5XZAsNZ4bPTZCBdBp16DlTZXO8LUoVmExBN1CiKq4GECXuR8jrgvt8xlLj7UVKbxzCpPZrBgkP7oMmNDc%2Bzwo0HgL6SR3x6N3l1Bwyaz5J6Bo78TjoDzhjs85jE3jVCTCK4qqDBCmozLWfv1%2BGJjvn4vZFbzCWAAHJqkttcWlW1eN0hy3UZvjrUroB6OSR8xV35TU8yg5jXkYw0m86aqrUsHP6N5%2F398KZ2zez2vz0uT0kdVv6QQ48p80CCmU3FLhN%2BOhHFD3GvC52eePxAlL2ZmPrD86onuMIfPqM0GOqUB8%2B8vJg%2F%2Fw%2Bw%2FSyTRr9TW4rrqk0RWPaWLUb8iwQY1TjMejHrflyIo90pFTqJ%2FZXLo1%2FX79YIsIWqJbWm%2BtEev3xvnB2mg7jqQWxootSh5Gr6Cf3glA0EaqckDWcDoe0Z%2BEgPbvUdQenVkxFzM7dT1gpR4et3dHEazvgBoC7MgBiNnRfp99i%2FDOIs5L3Yuoyj7YNIcZNi8WylD%2FXQh8GHJ8EkbaZg%2F&X-Amz-Signature=4fdf7c86bd63d81f9236d7fb284b5105a924428a4456d59d1eee0f6e5c3baaa2&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+            "expiry_time": "2026-03-06T04:33:03.477Z"
           }
         }
       },
@@ -8654,14 +8383,14 @@
           "block_id": "2f144860-a4f4-803e-a2e1-f26db68ebb1d"
         },
         "created_time": "2026-01-23T10:14:00.000Z",
-        "last_edited_time": "2026-02-02T07:20:00.000Z",
+        "last_edited_time": "2026-03-06T03:25:00.000Z",
         "created_by": {
           "object": "user",
           "id": "2aed872b-594c-81eb-bc82-000291164988"
         },
         "last_edited_by": {
           "object": "user",
-          "id": "2aed872b-594c-81eb-bc82-000291164988"
+          "id": "02042589-fdf7-43c3-b4e0-cbe6175fa46c"
         },
         "has_children": false,
         "archived": false,
@@ -8672,24 +8401,7 @@
             {
               "type": "text",
               "text": {
-                "content": "모바일(작은 화면)",
-                "link": null
-              },
-              "annotations": {
-                "bold": false,
-                "italic": false,
-                "strikethrough": false,
-                "underline": false,
-                "code": false,
-                "color": "orange"
-              },
-              "plain_text": "모바일(작은 화면)",
-              "href": null
-            },
-            {
-              "type": "text",
-              "text": {
-                "content": "에서만 요약 카드가 ",
+                "content": "모바일(작은 화면)에서만 요약 카드가 가로 구조(이미지 왼쪽 / 텍스트 오른쪽)로 배치되도록 구현한다.",
                 "link": null
               },
               "annotations": {
@@ -8700,41 +8412,7 @@
                 "code": false,
                 "color": "default"
               },
-              "plain_text": "에서만 요약 카드가 ",
-              "href": null
-            },
-            {
-              "type": "text",
-              "text": {
-                "content": "가로 구조(이미지 왼쪽 / 텍스트 오른쪽)",
-                "link": null
-              },
-              "annotations": {
-                "bold": false,
-                "italic": false,
-                "strikethrough": false,
-                "underline": false,
-                "code": false,
-                "color": "orange"
-              },
-              "plain_text": "가로 구조(이미지 왼쪽 / 텍스트 오른쪽)",
-              "href": null
-            },
-            {
-              "type": "text",
-              "text": {
-                "content": "로 배치되도록 구현한다.",
-                "link": null
-              },
-              "annotations": {
-                "bold": false,
-                "italic": false,
-                "strikethrough": false,
-                "underline": false,
-                "code": false,
-                "color": "default"
-              },
-              "plain_text": "로 배치되도록 구현한다.",
+              "plain_text": "모바일(작은 화면)에서만 요약 카드가 가로 구조(이미지 왼쪽 / 텍스트 오른쪽)로 배치되도록 구현한다.",
               "href": null
             }
           ],
@@ -8749,14 +8427,14 @@
           "block_id": "2f144860-a4f4-803e-a2e1-f26db68ebb1d"
         },
         "created_time": "2026-01-23T10:14:00.000Z",
-        "last_edited_time": "2026-02-02T07:20:00.000Z",
+        "last_edited_time": "2026-03-06T03:25:00.000Z",
         "created_by": {
           "object": "user",
           "id": "2aed872b-594c-81eb-bc82-000291164988"
         },
         "last_edited_by": {
           "object": "user",
-          "id": "2aed872b-594c-81eb-bc82-000291164988"
+          "id": "02042589-fdf7-43c3-b4e0-cbe6175fa46c"
         },
         "has_children": false,
         "archived": false,
@@ -8767,7 +8445,7 @@
             {
               "type": "text",
               "text": {
-                "content": "모든 요약 카드는 동일한 HTML 구조를 유지한 채, 화면 크기에 따라 ",
+                "content": "모든 요약 카드는 동일한 HTML 구조를 유지한 채, 화면 크기에 따라 카드 내부 레이아웃이 전환되어야 한다.",
                 "link": null
               },
               "annotations": {
@@ -8778,41 +8456,7 @@
                 "code": false,
                 "color": "default"
               },
-              "plain_text": "모든 요약 카드는 동일한 HTML 구조를 유지한 채, 화면 크기에 따라 ",
-              "href": null
-            },
-            {
-              "type": "text",
-              "text": {
-                "content": "카드 내부 레이아웃이 전환",
-                "link": null
-              },
-              "annotations": {
-                "bold": false,
-                "italic": false,
-                "strikethrough": false,
-                "underline": false,
-                "code": false,
-                "color": "orange"
-              },
-              "plain_text": "카드 내부 레이아웃이 전환",
-              "href": null
-            },
-            {
-              "type": "text",
-              "text": {
-                "content": "되어야 한다.",
-                "link": null
-              },
-              "annotations": {
-                "bold": false,
-                "italic": false,
-                "strikethrough": false,
-                "underline": false,
-                "code": false,
-                "color": "default"
-              },
-              "plain_text": "되어야 한다.",
+              "plain_text": "모든 요약 카드는 동일한 HTML 구조를 유지한 채, 화면 크기에 따라 카드 내부 레이아웃이 전환되어야 한다.",
               "href": null
             }
           ],
@@ -8827,14 +8471,14 @@
           "block_id": "2f144860-a4f4-803e-a2e1-f26db68ebb1d"
         },
         "created_time": "2026-01-23T10:14:00.000Z",
-        "last_edited_time": "2026-01-23T10:14:00.000Z",
+        "last_edited_time": "2026-03-06T03:25:00.000Z",
         "created_by": {
           "object": "user",
           "id": "2aed872b-594c-81eb-bc82-000291164988"
         },
         "last_edited_by": {
           "object": "user",
-          "id": "2aed872b-594c-81eb-bc82-000291164988"
+          "id": "02042589-fdf7-43c3-b4e0-cbe6175fa46c"
         },
         "has_children": false,
         "archived": false,
@@ -8871,14 +8515,14 @@
           "block_id": "2f144860-a4f4-803e-a2e1-f26db68ebb1d"
         },
         "created_time": "2026-01-23T10:14:00.000Z",
-        "last_edited_time": "2026-02-02T07:20:00.000Z",
+        "last_edited_time": "2026-03-06T03:25:00.000Z",
         "created_by": {
           "object": "user",
           "id": "2aed872b-594c-81eb-bc82-000291164988"
         },
         "last_edited_by": {
           "object": "user",
-          "id": "2aed872b-594c-81eb-bc82-000291164988"
+          "id": "02042589-fdf7-43c3-b4e0-cbe6175fa46c"
         },
         "has_children": false,
         "archived": false,
@@ -8889,7 +8533,7 @@
             {
               "type": "text",
               "text": {
-                "content": "배지는 레이아웃이 바뀌어도 항상 ",
+                "content": "배지는 레이아웃이 바뀌어도 항상 ‘이미지 영역’ 기준으로 오버레이되어야 하며(우상단/좌하단), 카드 전환 과정에서 배지 위치가 흐트러지지 않게 주의한다.",
                 "link": null
               },
               "annotations": {
@@ -8900,41 +8544,7 @@
                 "code": false,
                 "color": "default"
               },
-              "plain_text": "배지는 레이아웃이 바뀌어도 항상 ",
-              "href": null
-            },
-            {
-              "type": "text",
-              "text": {
-                "content": "‘이미지 영역’ 기준으로 오버레이",
-                "link": null
-              },
-              "annotations": {
-                "bold": false,
-                "italic": false,
-                "strikethrough": false,
-                "underline": false,
-                "code": false,
-                "color": "orange"
-              },
-              "plain_text": "‘이미지 영역’ 기준으로 오버레이",
-              "href": null
-            },
-            {
-              "type": "text",
-              "text": {
-                "content": "되어야 하며(우상단/좌하단), 카드 전환 과정에서 배지 위치가 흐트러지지 않게 주의한다.",
-                "link": null
-              },
-              "annotations": {
-                "bold": false,
-                "italic": false,
-                "strikethrough": false,
-                "underline": false,
-                "code": false,
-                "color": "default"
-              },
-              "plain_text": "되어야 하며(우상단/좌하단), 카드 전환 과정에서 배지 위치가 흐트러지지 않게 주의한다.",
+              "plain_text": "배지는 레이아웃이 바뀌어도 항상 ‘이미지 영역’ 기준으로 오버레이되어야 하며(우상단/좌하단), 카드 전환 과정에서 배지 위치가 흐트러지지 않게 주의한다.",
               "href": null
             }
           ],
@@ -8949,14 +8559,14 @@
           "block_id": "2f144860-a4f4-803e-a2e1-f26db68ebb1d"
         },
         "created_time": "2026-01-23T10:14:00.000Z",
-        "last_edited_time": "2026-02-02T07:20:00.000Z",
+        "last_edited_time": "2026-03-06T03:25:00.000Z",
         "created_by": {
           "object": "user",
           "id": "2aed872b-594c-81eb-bc82-000291164988"
         },
         "last_edited_by": {
           "object": "user",
-          "id": "2aed872b-594c-81eb-bc82-000291164988"
+          "id": "02042589-fdf7-43c3-b4e0-cbe6175fa46c"
         },
         "has_children": false,
         "archived": false,
@@ -8967,7 +8577,7 @@
             {
               "type": "text",
               "text": {
-                "content": "레이아웃 전환은 ",
+                "content": "레이아웃 전환은 Media Query로만 구현하며, 불필요한 태그 추가/중복 구조를 만들지 않는다.",
                 "link": null
               },
               "annotations": {
@@ -8978,41 +8588,7 @@
                 "code": false,
                 "color": "default"
               },
-              "plain_text": "레이아웃 전환은 ",
-              "href": null
-            },
-            {
-              "type": "text",
-              "text": {
-                "content": "Media Query",
-                "link": null
-              },
-              "annotations": {
-                "bold": false,
-                "italic": false,
-                "strikethrough": false,
-                "underline": false,
-                "code": false,
-                "color": "orange"
-              },
-              "plain_text": "Media Query",
-              "href": null
-            },
-            {
-              "type": "text",
-              "text": {
-                "content": "로만 구현하며, 불필요한 태그 추가/중복 구조를 만들지 않는다.",
-                "link": null
-              },
-              "annotations": {
-                "bold": false,
-                "italic": false,
-                "strikethrough": false,
-                "underline": false,
-                "code": false,
-                "color": "default"
-              },
-              "plain_text": "로만 구현하며, 불필요한 태그 추가/중복 구조를 만들지 않는다.",
+              "plain_text": "레이아웃 전환은 Media Query로만 구현하며, 불필요한 태그 추가/중복 구조를 만들지 않는다.",
               "href": null
             }
           ],
@@ -9225,8 +8801,216 @@
           ],
           "color": "default"
         }
+      },
+      {
+        "object": "block",
+        "id": "31a44860-a4f4-8083-b0fc-e9abf07ff5f2",
+        "parent": {
+          "type": "block_id",
+          "block_id": "2fc44860-a4f4-804b-937a-f6dfb974a29c"
+        },
+        "created_time": "2026-03-05T07:24:00.000Z",
+        "last_edited_time": "2026-03-05T07:24:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "02042589-fdf7-43c3-b4e0-cbe6175fa46c"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "02042589-fdf7-43c3-b4e0-cbe6175fa46c"
+        },
+        "has_children": false,
+        "archived": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "color": "default"
+        }
+      },
+      {
+        "object": "block",
+        "id": "31a44860-a4f4-8094-836a-d0063d19d10b",
+        "parent": {
+          "type": "block_id",
+          "block_id": "2fc44860-a4f4-804b-937a-f6dfb974a29c"
+        },
+        "created_time": "2026-03-05T07:24:00.000Z",
+        "last_edited_time": "2026-03-05T07:24:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "02042589-fdf7-43c3-b4e0-cbe6175fa46c"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "02042589-fdf7-43c3-b4e0-cbe6175fa46c"
+        },
+        "has_children": false,
+        "archived": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "mention",
+              "mention": {
+                "type": "link_mention",
+                "link_mention": {
+                  "href": "https://likelion.net/onboarding/kdc-react1000?utm_source=likelion&utm_medium=url_share&utm_campaign=kdcreact1000_likelion_url_share_2512_new&utm_content=url_share_likelion&utm_term=new_all_pcmo",
+                  "title": "멋쟁이사자처럼 : 멋쟁이사자처럼",
+                  "icon_url": "https://likelion.net/img/favicon.png",
+                  "description": "IT 분야 지식이 없어도 누구나 수강 가능한 기초 강의입니다.",
+                  "thumbnail_url": "https://d35ai18pny966l.cloudfront.net/course/kdc/kdc-react1000/thumbnail_react_2_1.png"
+                }
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "https://likelion.net/onboarding/kdc-react1000?utm_source=likelion&utm_medium=url_share&utm_campaign=kdcreact1000_likelion_url_share_2512_new&utm_content=url_share_likelion&utm_term=new_all_pcmo",
+              "href": "https://likelion.net/onboarding/kdc-react1000?utm_source=likelion&utm_medium=url_share&utm_campaign=kdcreact1000_likelion_url_share_2512_new&utm_content=url_share_likelion&utm_term=new_all_pcmo"
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "object": "block",
+        "id": "31a44860-a4f4-8037-9eec-ca4cce5f9b1b",
+        "parent": {
+          "type": "block_id",
+          "block_id": "2fc44860-a4f4-804b-937a-f6dfb974a29c"
+        },
+        "created_time": "2026-03-05T07:24:00.000Z",
+        "last_edited_time": "2026-03-05T07:24:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "02042589-fdf7-43c3-b4e0-cbe6175fa46c"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "02042589-fdf7-43c3-b4e0-cbe6175fa46c"
+        },
+        "has_children": false,
+        "archived": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "[입문부터 배포까지 리액트로 완성하는 프론트엔드 실무]",
+                "link": null
+              },
+              "annotations": {
+                "bold": true,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "[입문부터 배포까지 리액트로 완성하는 프론트엔드 실무]",
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "object": "block",
+        "id": "31a44860-a4f4-8038-a78b-cec18ef0a4dd",
+        "parent": {
+          "type": "block_id",
+          "block_id": "2fc44860-a4f4-804b-937a-f6dfb974a29c"
+        },
+        "created_time": "2026-03-05T07:24:00.000Z",
+        "last_edited_time": "2026-03-05T07:24:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "02042589-fdf7-43c3-b4e0-cbe6175fa46c"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "02042589-fdf7-43c3-b4e0-cbe6175fa46c"
+        },
+        "has_children": false,
+        "archived": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "1. 웹 개발 생태계 이해",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "1. 웹 개발 생태계 이해",
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "object": "block",
+        "id": "31a44860-a4f4-8007-a5eb-f1802100a65e",
+        "parent": {
+          "type": "block_id",
+          "block_id": "2fc44860-a4f4-804b-937a-f6dfb974a29c"
+        },
+        "created_time": "2026-03-05T07:24:00.000Z",
+        "last_edited_time": "2026-03-05T07:24:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "02042589-fdf7-43c3-b4e0-cbe6175fa46c"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "02042589-fdf7-43c3-b4e0-cbe6175fa46c"
+        },
+        "has_children": false,
+        "archived": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "2. 웹 개발 환경 설정 및 기초 지식",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "2. 웹 개발 환경 설정 및 기초 지식",
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
       }
     ]
   },
-  "syncedAt": "2026-03-03T09:47:59.975Z"
+  "syncedAt": "2026-03-06T03:33:21.242Z"
 }

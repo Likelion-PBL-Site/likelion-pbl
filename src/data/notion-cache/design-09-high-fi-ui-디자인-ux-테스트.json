@@ -1,16 +1,16 @@
 {
-  "missionId": "2f044860a4f481ab9cbbe80c0d3375d7",
-  "notionPageId": "2f044860-a4f4-81ab-9cbb-e80c0d3375d7",
-  "fileName": "design-08-디자인-시스템-기초.json",
-  "lastEditedTime": "2026-03-05T07:40:00.000Z",
+  "missionId": "2f044860a4f481b2b527cb2998d88199",
+  "notionPageId": "2f044860-a4f4-81b2-b527-cb2998d88199",
+  "fileName": "design-09-high-fi-ui-디자인-ux-테스트.json",
+  "lastEditedTime": "2026-03-05T07:42:00.000Z",
   "sections": {
     "introduction": [
       {
         "object": "block",
-        "id": "31844860-a4f4-8046-8c68-d5a3f2aeb3a5",
+        "id": "31844860-a4f4-8015-a6d5-ee12d517c904",
         "parent": {
           "type": "block_id",
-          "block_id": "31844860-a4f4-8087-9dde-d9cb151915e2"
+          "block_id": "31844860-a4f4-80d7-bee7-f521b6496b47"
         },
         "created_time": "2026-03-03T14:10:00.000Z",
         "last_edited_time": "2026-03-03T14:10:00.000Z",
@@ -30,10 +30,10 @@
       },
       {
         "object": "block",
-        "id": "31844860-a4f4-80e2-8113-da013b4d6696",
+        "id": "31844860-a4f4-8067-8303-f3e5cbfdd2db",
         "parent": {
           "type": "block_id",
-          "block_id": "31844860-a4f4-8087-9dde-d9cb151915e2"
+          "block_id": "31844860-a4f4-80d7-bee7-f521b6496b47"
         },
         "created_time": "2026-03-03T14:10:00.000Z",
         "last_edited_time": "2026-03-03T14:10:00.000Z",
@@ -45,16 +45,105 @@
           "object": "user",
           "id": "02042589-fdf7-43c3-b4e0-cbe6175fa46c"
         },
-        "has_children": false,
+        "has_children": true,
         "archived": false,
         "in_trash": false,
         "type": "quote",
         "quote": {
+          "rich_text": [],
+          "color": "default"
+        },
+        "children": [
+          {
+            "object": "block",
+            "id": "31844860-a4f4-8008-a135-e2068782fc80",
+            "parent": {
+              "type": "block_id",
+              "block_id": "31844860-a4f4-8067-8303-f3e5cbfdd2db"
+            },
+            "created_time": "2026-03-03T14:10:00.000Z",
+            "last_edited_time": "2026-03-03T14:10:00.000Z",
+            "created_by": {
+              "object": "user",
+              "id": "02042589-fdf7-43c3-b4e0-cbe6175fa46c"
+            },
+            "last_edited_by": {
+              "object": "user",
+              "id": "02042589-fdf7-43c3-b4e0-cbe6175fa46c"
+            },
+            "has_children": false,
+            "archived": false,
+            "in_trash": false,
+            "type": "paragraph",
+            "paragraph": {
+              "rich_text": [
+                {
+                  "type": "text",
+                  "text": {
+                    "content": "\"와이어프레임을 실제 사용자 관점에서 점검하고 검증해볼 단계입니다.\"",
+                    "link": null
+                  },
+                  "annotations": {
+                    "bold": true,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  },
+                  "plain_text": "\"와이어프레임을 실제 사용자 관점에서 점검하고 검증해볼 단계입니다.\"",
+                  "href": null
+                }
+              ],
+              "color": "default"
+            }
+          }
+        ]
+      },
+      {
+        "object": "block",
+        "id": "31844860-a4f4-8086-95b2-e98cbc9fb081",
+        "parent": {
+          "type": "block_id",
+          "block_id": "31844860-a4f4-80d7-bee7-f521b6496b47"
+        },
+        "created_time": "2026-03-03T14:10:00.000Z",
+        "last_edited_time": "2026-03-03T14:10:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "02042589-fdf7-43c3-b4e0-cbe6175fa46c"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "02042589-fdf7-43c3-b4e0-cbe6175fa46c"
+        },
+        "has_children": false,
+        "archived": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
           "rich_text": [
             {
               "type": "text",
               "text": {
-                "content": "\"디자인 시스템이라는 규칙을 기준으로 삼아 프로젝트의 완성도를 높여갈 시간입니다.\"",
+                "content": "\n8주차에서 정의한 디자인 시스템을 7주차에 그렸던 와이어프레임에 조립하여 실제 서비스와 동일한 수준의 ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "\n8주차에서 정의한 디자인 시스템을 7주차에 그렸던 와이어프레임에 조립하여 실제 서비스와 동일한 수준의 ",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": "하이파이(High-Fidelity) UI",
                 "link": null
               },
               "annotations": {
@@ -65,7 +154,24 @@
                 "code": false,
                 "color": "default"
               },
-              "plain_text": "\"디자인 시스템이라는 규칙을 기준으로 삼아 프로젝트의 완성도를 높여갈 시간입니다.\"",
+              "plain_text": "하이파이(High-Fidelity) UI",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": "를 완성하는 단계입니다.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "를 완성하는 단계입니다.",
               "href": null
             }
           ],
@@ -74,10 +180,54 @@
       },
       {
         "object": "block",
-        "id": "31844860-a4f4-80f3-b031-cf10c94bd1a8",
+        "id": "31844860-a4f4-80d9-85cd-ca96aea4d5bb",
         "parent": {
           "type": "block_id",
-          "block_id": "31844860-a4f4-8087-9dde-d9cb151915e2"
+          "block_id": "31844860-a4f4-80d7-bee7-f521b6496b47"
+        },
+        "created_time": "2026-03-03T14:10:00.000Z",
+        "last_edited_time": "2026-03-03T14:10:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "02042589-fdf7-43c3-b4e0-cbe6175fa46c"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "02042589-fdf7-43c3-b4e0-cbe6175fa46c"
+        },
+        "has_children": false,
+        "archived": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "\n하지만 여기서 끝이 아닙니다. 색이 입혀지고 진짜 텍스트가 들어가면, 와이어프레임 단계에서는 보이지 않던 새로운 문제들이 튀어나옵니다. \"버튼이 배경색에 묻혀서 안 보여요\", \"텍스트가 너무 많아서 눈에 안 들어와요\" 같은 피드백이 발생할 수 있습니다.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "\n하지만 여기서 끝이 아닙니다. 색이 입혀지고 진짜 텍스트가 들어가면, 와이어프레임 단계에서는 보이지 않던 새로운 문제들이 튀어나옵니다. \"버튼이 배경색에 묻혀서 안 보여요\", \"텍스트가 너무 많아서 눈에 안 들어와요\" 같은 피드백이 발생할 수 있습니다.",
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "object": "block",
+        "id": "31844860-a4f4-80e9-9d47-e40e3d81d1fc",
+        "parent": {
+          "type": "block_id",
+          "block_id": "31844860-a4f4-80d7-bee7-f521b6496b47"
         },
         "created_time": "2026-03-03T14:10:00.000Z",
         "last_edited_time": "2026-03-03T14:10:00.000Z",
@@ -100,10 +250,10 @@
       },
       {
         "object": "block",
-        "id": "31844860-a4f4-801b-bdcc-d14460f70088",
+        "id": "31844860-a4f4-803f-b22a-d31f10e59a6e",
         "parent": {
           "type": "block_id",
-          "block_id": "31844860-a4f4-8087-9dde-d9cb151915e2"
+          "block_id": "31844860-a4f4-80d7-bee7-f521b6496b47"
         },
         "created_time": "2026-03-03T14:10:00.000Z",
         "last_edited_time": "2026-03-03T14:10:00.000Z",
@@ -124,7 +274,7 @@
             {
               "type": "text",
               "text": {
-                "content": "지금까지 개인의 감각에 의존해 디자인을 해왔다면, 이제는 팀 단위 협업을 위한 ",
+                "content": "이번 미션의 핵심은 디자인을 완성한 후 ",
                 "link": null
               },
               "annotations": {
@@ -135,13 +285,13 @@
                 "code": false,
                 "color": "default"
               },
-              "plain_text": "지금까지 개인의 감각에 의존해 디자인을 해왔다면, 이제는 팀 단위 협업을 위한 ",
+              "plain_text": "이번 미션의 핵심은 디자인을 완성한 후 ",
               "href": null
             },
             {
               "type": "text",
               "text": {
-                "content": "디자인 기준",
+                "content": "UX 사용자 테스트를 진행",
                 "link": null
               },
               "annotations": {
@@ -152,13 +302,13 @@
                 "code": false,
                 "color": "default"
               },
-              "plain_text": "디자인 기준",
+              "plain_text": "UX 사용자 테스트를 진행",
               "href": null
             },
             {
               "type": "text",
               "text": {
-                "content": "을 설계할 차례입니다.",
+                "content": "하는 것입니다.\n우리의 목표는 단순히 시각적으로 \"예뻐졌다\"가 아니라, 테스트 결과를 바탕으로 \"그래서 사용자 경험(UX)이 무엇이 어떻게 더 나아졌는가\"를 논리적으로 설명하고 개선하는 것입니다.",
                 "link": null
               },
               "annotations": {
@@ -169,462 +319,21 @@
                 "code": false,
                 "color": "default"
               },
-              "plain_text": "을 설계할 차례입니다.",
+              "plain_text": "하는 것입니다.\n우리의 목표는 단순히 시각적으로 \"예뻐졌다\"가 아니라, 테스트 결과를 바탕으로 \"그래서 사용자 경험(UX)이 무엇이 어떻게 더 나아졌는가\"를 논리적으로 설명하고 개선하는 것입니다.",
               "href": null
             }
           ],
           "color": "default"
         }
-      },
-      {
-        "object": "block",
-        "id": "31844860-a4f4-807e-875b-dabf2349b85e",
-        "parent": {
-          "type": "block_id",
-          "block_id": "31844860-a4f4-8087-9dde-d9cb151915e2"
-        },
-        "created_time": "2026-03-03T14:10:00.000Z",
-        "last_edited_time": "2026-03-03T14:10:00.000Z",
-        "created_by": {
-          "object": "user",
-          "id": "02042589-fdf7-43c3-b4e0-cbe6175fa46c"
-        },
-        "last_edited_by": {
-          "object": "user",
-          "id": "02042589-fdf7-43c3-b4e0-cbe6175fa46c"
-        },
-        "has_children": false,
-        "archived": false,
-        "in_trash": false,
-        "type": "paragraph",
-        "paragraph": {
-          "rich_text": [
-            {
-              "type": "text",
-              "text": {
-                "content": "\n이번 미션에서는 컬러, 타이포그래피, 간격 규칙을 정의하고 ",
-                "link": null
-              },
-              "annotations": {
-                "bold": false,
-                "italic": false,
-                "strikethrough": false,
-                "underline": false,
-                "code": false,
-                "color": "default"
-              },
-              "plain_text": "\n이번 미션에서는 컬러, 타이포그래피, 간격 규칙을 정의하고 ",
-              "href": null
-            },
-            {
-              "type": "text",
-              "text": {
-                "content": "디자인 토큰(Design Token) ",
-                "link": null
-              },
-              "annotations": {
-                "bold": true,
-                "italic": false,
-                "strikethrough": false,
-                "underline": false,
-                "code": false,
-                "color": "default"
-              },
-              "plain_text": "디자인 토큰(Design Token) ",
-              "href": null
-            },
-            {
-              "type": "text",
-              "text": {
-                "content": "개념을 통해 일관된 UI 기준을 세우는 디자인 시스템 기초 작업을 진행합니다.",
-                "link": null
-              },
-              "annotations": {
-                "bold": false,
-                "italic": false,
-                "strikethrough": false,
-                "underline": false,
-                "code": false,
-                "color": "default"
-              },
-              "plain_text": "개념을 통해 일관된 UI 기준을 세우는 디자인 시스템 기초 작업을 진행합니다.",
-              "href": null
-            }
-          ],
-          "color": "default"
-        }
-      },
-      {
-        "object": "block",
-        "id": "31844860-a4f4-80a4-9721-e7556348cf51",
-        "parent": {
-          "type": "block_id",
-          "block_id": "31844860-a4f4-8087-9dde-d9cb151915e2"
-        },
-        "created_time": "2026-03-03T14:10:00.000Z",
-        "last_edited_time": "2026-03-03T14:10:00.000Z",
-        "created_by": {
-          "object": "user",
-          "id": "02042589-fdf7-43c3-b4e0-cbe6175fa46c"
-        },
-        "last_edited_by": {
-          "object": "user",
-          "id": "02042589-fdf7-43c3-b4e0-cbe6175fa46c"
-        },
-        "has_children": false,
-        "archived": false,
-        "in_trash": false,
-        "type": "paragraph",
-        "paragraph": {
-          "rich_text": [
-            {
-              "type": "text",
-              "text": {
-                "content": "\n디자인 시스템은 \"제품을 만드는 팀원들이 공통으로 사용할 '약속'이자 '규칙서'를 만드는 과정입니다.\" 본격적인 UI 컴포넌트들을 찍어내기 전에, 그 기반이 되는 속성들을 먼저 정의하는 단계입니다.",
-                "link": null
-              },
-              "annotations": {
-                "bold": false,
-                "italic": false,
-                "strikethrough": false,
-                "underline": false,
-                "code": false,
-                "color": "default"
-              },
-              "plain_text": "\n디자인 시스템은 \"제품을 만드는 팀원들이 공통으로 사용할 '약속'이자 '규칙서'를 만드는 과정입니다.\" 본격적인 UI 컴포넌트들을 찍어내기 전에, 그 기반이 되는 속성들을 먼저 정의하는 단계입니다.",
-              "href": null
-            }
-          ],
-          "color": "default"
-        }
-      },
-      {
-        "object": "block",
-        "id": "31844860-a4f4-80ae-84d7-e103324db262",
-        "parent": {
-          "type": "block_id",
-          "block_id": "31844860-a4f4-8087-9dde-d9cb151915e2"
-        },
-        "created_time": "2026-03-03T14:10:00.000Z",
-        "last_edited_time": "2026-03-03T14:10:00.000Z",
-        "created_by": {
-          "object": "user",
-          "id": "02042589-fdf7-43c3-b4e0-cbe6175fa46c"
-        },
-        "last_edited_by": {
-          "object": "user",
-          "id": "02042589-fdf7-43c3-b4e0-cbe6175fa46c"
-        },
-        "has_children": false,
-        "archived": false,
-        "in_trash": false,
-        "type": "paragraph",
-        "paragraph": {
-          "rich_text": [],
-          "color": "default"
-        }
-      },
-      {
-        "object": "block",
-        "id": "31844860-a4f4-80b4-b839-fedd4dce968f",
-        "parent": {
-          "type": "block_id",
-          "block_id": "31844860-a4f4-8087-9dde-d9cb151915e2"
-        },
-        "created_time": "2026-03-03T14:10:00.000Z",
-        "last_edited_time": "2026-03-05T07:40:00.000Z",
-        "created_by": {
-          "object": "user",
-          "id": "02042589-fdf7-43c3-b4e0-cbe6175fa46c"
-        },
-        "last_edited_by": {
-          "object": "user",
-          "id": "02042589-fdf7-43c3-b4e0-cbe6175fa46c"
-        },
-        "has_children": true,
-        "archived": false,
-        "in_trash": false,
-        "type": "bulleted_list_item",
-        "bulleted_list_item": {
-          "rich_text": [
-            {
-              "type": "text",
-              "text": {
-                "content": "규칙에 집중합니다",
-                "link": null
-              },
-              "annotations": {
-                "bold": true,
-                "italic": false,
-                "strikethrough": false,
-                "underline": false,
-                "code": false,
-                "color": "default"
-              },
-              "plain_text": "규칙에 집중합니다",
-              "href": null
-            }
-          ],
-          "color": "default"
-        },
-        "children": [
-          {
-            "object": "block",
-            "id": "31a44860-a4f4-801d-badc-c3cac7fcf6a2",
-            "parent": {
-              "type": "block_id",
-              "block_id": "31844860-a4f4-80b4-b839-fedd4dce968f"
-            },
-            "created_time": "2026-03-05T07:40:00.000Z",
-            "last_edited_time": "2026-03-05T07:40:00.000Z",
-            "created_by": {
-              "object": "user",
-              "id": "02042589-fdf7-43c3-b4e0-cbe6175fa46c"
-            },
-            "last_edited_by": {
-              "object": "user",
-              "id": "02042589-fdf7-43c3-b4e0-cbe6175fa46c"
-            },
-            "has_children": false,
-            "archived": false,
-            "in_trash": false,
-            "type": "bulleted_list_item",
-            "bulleted_list_item": {
-              "rich_text": [
-                {
-                  "type": "text",
-                  "text": {
-                    "content": "\"어떤 색이 예쁜가?\"가 아니라 \"우리의 메인 컬러를 어떤 규칙으로 사용할 것인가?\"를 고민합니다.",
-                    "link": null
-                  },
-                  "annotations": {
-                    "bold": false,
-                    "italic": false,
-                    "strikethrough": false,
-                    "underline": false,
-                    "code": false,
-                    "color": "default"
-                  },
-                  "plain_text": "\"어떤 색이 예쁜가?\"가 아니라 \"우리의 메인 컬러를 어떤 규칙으로 사용할 것인가?\"를 고민합니다.",
-                  "href": null
-                }
-              ],
-              "color": "default"
-            }
-          }
-        ]
-      },
-      {
-        "object": "block",
-        "id": "31844860-a4f4-8091-a015-d8318fe440f4",
-        "parent": {
-          "type": "block_id",
-          "block_id": "31844860-a4f4-8087-9dde-d9cb151915e2"
-        },
-        "created_time": "2026-03-03T14:10:00.000Z",
-        "last_edited_time": "2026-03-05T07:40:00.000Z",
-        "created_by": {
-          "object": "user",
-          "id": "02042589-fdf7-43c3-b4e0-cbe6175fa46c"
-        },
-        "last_edited_by": {
-          "object": "user",
-          "id": "02042589-fdf7-43c3-b4e0-cbe6175fa46c"
-        },
-        "has_children": true,
-        "archived": false,
-        "in_trash": false,
-        "type": "bulleted_list_item",
-        "bulleted_list_item": {
-          "rich_text": [
-            {
-              "type": "text",
-              "text": {
-                "content": "일관성을 유지합니다",
-                "link": null
-              },
-              "annotations": {
-                "bold": true,
-                "italic": false,
-                "strikethrough": false,
-                "underline": false,
-                "code": false,
-                "color": "default"
-              },
-              "plain_text": "일관성을 유지합니다",
-              "href": null
-            }
-          ],
-          "color": "default"
-        },
-        "children": [
-          {
-            "object": "block",
-            "id": "31a44860-a4f4-8013-9026-cfbf3ea2b1c9",
-            "parent": {
-              "type": "block_id",
-              "block_id": "31844860-a4f4-8091-a015-d8318fe440f4"
-            },
-            "created_time": "2026-03-05T07:40:00.000Z",
-            "last_edited_time": "2026-03-05T07:40:00.000Z",
-            "created_by": {
-              "object": "user",
-              "id": "02042589-fdf7-43c3-b4e0-cbe6175fa46c"
-            },
-            "last_edited_by": {
-              "object": "user",
-              "id": "02042589-fdf7-43c3-b4e0-cbe6175fa46c"
-            },
-            "has_children": false,
-            "archived": false,
-            "in_trash": false,
-            "type": "bulleted_list_item",
-            "bulleted_list_item": {
-              "rich_text": [
-                {
-                  "type": "text",
-                  "text": {
-                    "content": "모든 화면에서 동일한 여백과 폰트 크기를 사용하여 서비스의 완성도를 높입니다.",
-                    "link": null
-                  },
-                  "annotations": {
-                    "bold": false,
-                    "italic": false,
-                    "strikethrough": false,
-                    "underline": false,
-                    "code": false,
-                    "color": "default"
-                  },
-                  "plain_text": "모든 화면에서 동일한 여백과 폰트 크기를 사용하여 서비스의 완성도를 높입니다.",
-                  "href": null
-                }
-              ],
-              "color": "default"
-            }
-          }
-        ]
-      },
-      {
-        "object": "block",
-        "id": "31844860-a4f4-800f-b755-d87f902d6039",
-        "parent": {
-          "type": "block_id",
-          "block_id": "31844860-a4f4-8087-9dde-d9cb151915e2"
-        },
-        "created_time": "2026-03-03T14:10:00.000Z",
-        "last_edited_time": "2026-03-05T07:40:00.000Z",
-        "created_by": {
-          "object": "user",
-          "id": "02042589-fdf7-43c3-b4e0-cbe6175fa46c"
-        },
-        "last_edited_by": {
-          "object": "user",
-          "id": "02042589-fdf7-43c3-b4e0-cbe6175fa46c"
-        },
-        "has_children": true,
-        "archived": false,
-        "in_trash": false,
-        "type": "bulleted_list_item",
-        "bulleted_list_item": {
-          "rich_text": [
-            {
-              "type": "text",
-              "text": {
-                "content": "협업이 쉬워집니다",
-                "link": null
-              },
-              "annotations": {
-                "bold": true,
-                "italic": false,
-                "strikethrough": false,
-                "underline": false,
-                "code": false,
-                "color": "default"
-              },
-              "plain_text": "협업이 쉬워집니다",
-              "href": null
-            }
-          ],
-          "color": "default"
-        },
-        "children": [
-          {
-            "object": "block",
-            "id": "31a44860-a4f4-8073-ade8-e41217c8be0d",
-            "parent": {
-              "type": "block_id",
-              "block_id": "31844860-a4f4-800f-b755-d87f902d6039"
-            },
-            "created_time": "2026-03-05T07:40:00.000Z",
-            "last_edited_time": "2026-03-05T07:40:00.000Z",
-            "created_by": {
-              "object": "user",
-              "id": "02042589-fdf7-43c3-b4e0-cbe6175fa46c"
-            },
-            "last_edited_by": {
-              "object": "user",
-              "id": "02042589-fdf7-43c3-b4e0-cbe6175fa46c"
-            },
-            "has_children": false,
-            "archived": false,
-            "in_trash": false,
-            "type": "bulleted_list_item",
-            "bulleted_list_item": {
-              "rich_text": [
-                {
-                  "type": "text",
-                  "text": {
-                    "content": "'파란색'이 아니라 'Primary-500'이라는 공통된 이름으로 소통하여 개발자와의 협업 비용을 줄이고, 디자인 수정 시 발생하는 리소스를 최소화합니다.",
-                    "link": null
-                  },
-                  "annotations": {
-                    "bold": false,
-                    "italic": false,
-                    "strikethrough": false,
-                    "underline": false,
-                    "code": false,
-                    "color": "default"
-                  },
-                  "plain_text": "'파란색'이 아니라 'Primary-500'이라는 공통된 이름으로 소통하여 개발자와의 협업 비용을 줄이고, 디자인 수정 시 발생하는 리소스를 최소화합니다.",
-                  "href": null
-                }
-              ],
-              "color": "default"
-            }
-          }
-        ]
-      },
-      {
-        "object": "block",
-        "id": "31844860-a4f4-808f-9ef2-cb9108ee2ae3",
-        "parent": {
-          "type": "page_id",
-          "page_id": "2f044860-a4f4-81ab-9cbb-e80c0d3375d7"
-        },
-        "created_time": "2026-03-03T14:10:00.000Z",
-        "last_edited_time": "2026-03-03T14:10:00.000Z",
-        "created_by": {
-          "object": "user",
-          "id": "02042589-fdf7-43c3-b4e0-cbe6175fa46c"
-        },
-        "last_edited_by": {
-          "object": "user",
-          "id": "02042589-fdf7-43c3-b4e0-cbe6175fa46c"
-        },
-        "has_children": false,
-        "archived": false,
-        "in_trash": false,
-        "type": "divider",
-        "divider": {}
       }
     ],
     "objective": [
       {
         "object": "block",
-        "id": "31844860-a4f4-8089-87c7-c97eeec8e4d4",
+        "id": "31844860-a4f4-8078-9275-c7a6f977f2d0",
         "parent": {
           "type": "block_id",
-          "block_id": "31844860-a4f4-80db-8a80-e05d1164dc0b"
+          "block_id": "31844860-a4f4-807d-9b7f-c88909b6fd1c"
         },
         "created_time": "2026-03-03T14:10:00.000Z",
         "last_edited_time": "2026-03-03T14:10:00.000Z",
@@ -644,10 +353,10 @@
       },
       {
         "object": "block",
-        "id": "31844860-a4f4-808f-9f0c-e5577aaec0c1",
+        "id": "31844860-a4f4-8060-abc8-f2451495c66e",
         "parent": {
           "type": "block_id",
-          "block_id": "31844860-a4f4-80db-8a80-e05d1164dc0b"
+          "block_id": "31844860-a4f4-807d-9b7f-c88909b6fd1c"
         },
         "created_time": "2026-03-03T14:10:00.000Z",
         "last_edited_time": "2026-03-03T14:10:00.000Z",
@@ -668,7 +377,7 @@
             {
               "type": "text",
               "text": {
-                "content": "디자인 토큰 이해",
+                "content": "High-Fi UI 도출",
                 "link": null
               },
               "annotations": {
@@ -679,7 +388,7 @@
                 "code": false,
                 "color": "default"
               },
-              "plain_text": "디자인 토큰 이해",
+              "plain_text": "High-Fi UI 도출",
               "href": null
             }
           ],
@@ -688,10 +397,10 @@
         "children": [
           {
             "object": "block",
-            "id": "31844860-a4f4-8006-857c-fca8da37aa7e",
+            "id": "31844860-a4f4-803d-9966-d74774e0ccb3",
             "parent": {
               "type": "block_id",
-              "block_id": "31844860-a4f4-808f-9f0c-e5577aaec0c1"
+              "block_id": "31844860-a4f4-8060-abc8-f2451495c66e"
             },
             "created_time": "2026-03-03T14:10:00.000Z",
             "last_edited_time": "2026-03-03T14:10:00.000Z",
@@ -712,7 +421,7 @@
                 {
                   "type": "text",
                   "text": {
-                    "content": "컬러, 타이포그래피, 간격 등의 시각적 요소를 하드코딩하지 않고, 재사용 가능한 '토큰'으로 정의할 수 있다.",
+                    "content": "와이어프레임에 디자인 시스템을 적용하고 실제 데이터(이미지, 텍스트)를 활용하여, 개발 직전 단계의 완성도 높은 시각적 결과물을 도출할 수 있다.",
                     "link": null
                   },
                   "annotations": {
@@ -723,7 +432,7 @@
                     "code": false,
                     "color": "default"
                   },
-                  "plain_text": "컬러, 타이포그래피, 간격 등의 시각적 요소를 하드코딩하지 않고, 재사용 가능한 '토큰'으로 정의할 수 있다.",
+                  "plain_text": "와이어프레임에 디자인 시스템을 적용하고 실제 데이터(이미지, 텍스트)를 활용하여, 개발 직전 단계의 완성도 높은 시각적 결과물을 도출할 수 있다.",
                   "href": null
                 }
               ],
@@ -734,10 +443,100 @@
       },
       {
         "object": "block",
-        "id": "31844860-a4f4-80a8-8521-ddf85019aad8",
+        "id": "31844860-a4f4-80a9-b377-d0b4e0fc6d0a",
         "parent": {
           "type": "block_id",
-          "block_id": "31844860-a4f4-80db-8a80-e05d1164dc0b"
+          "block_id": "31844860-a4f4-807d-9b7f-c88909b6fd1c"
+        },
+        "created_time": "2026-03-03T14:10:00.000Z",
+        "last_edited_time": "2026-03-05T07:42:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "02042589-fdf7-43c3-b4e0-cbe6175fa46c"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "02042589-fdf7-43c3-b4e0-cbe6175fa46c"
+        },
+        "has_children": true,
+        "archived": false,
+        "in_trash": false,
+        "type": "bulleted_list_item",
+        "bulleted_list_item": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "시각적 요소의 UX 영향력 검증 (UT)",
+                "link": null
+              },
+              "annotations": {
+                "bold": true,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "시각적 요소의 UX 영향력 검증 (UT)",
+              "href": null
+            }
+          ],
+          "color": "default"
+        },
+        "children": [
+          {
+            "object": "block",
+            "id": "31844860-a4f4-8022-93ea-deb6b59066e5",
+            "parent": {
+              "type": "block_id",
+              "block_id": "31844860-a4f4-80a9-b377-d0b4e0fc6d0a"
+            },
+            "created_time": "2026-03-03T14:10:00.000Z",
+            "last_edited_time": "2026-03-03T14:10:00.000Z",
+            "created_by": {
+              "object": "user",
+              "id": "02042589-fdf7-43c3-b4e0-cbe6175fa46c"
+            },
+            "last_edited_by": {
+              "object": "user",
+              "id": "02042589-fdf7-43c3-b4e0-cbe6175fa46c"
+            },
+            "has_children": false,
+            "archived": false,
+            "in_trash": false,
+            "type": "bulleted_list_item",
+            "bulleted_list_item": {
+              "rich_text": [
+                {
+                  "type": "text",
+                  "text": {
+                    "content": "컬러, 간격, 폰트 크기 등의 시각적 요소가 사용자의 인지 및 행동에 미치는 영향을 실제 테스트를 통해 검증하고 문제점을 파악할 수 있다.",
+                    "link": null
+                  },
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  },
+                  "plain_text": "컬러, 간격, 폰트 크기 등의 시각적 요소가 사용자의 인지 및 행동에 미치는 영향을 실제 테스트를 통해 검증하고 문제점을 파악할 수 있다.",
+                  "href": null
+                }
+              ],
+              "color": "default"
+            }
+          }
+        ]
+      },
+      {
+        "object": "block",
+        "id": "31844860-a4f4-806b-9836-f61f3fd9941a",
+        "parent": {
+          "type": "block_id",
+          "block_id": "31844860-a4f4-807d-9b7f-c88909b6fd1c"
         },
         "created_time": "2026-03-03T14:10:00.000Z",
         "last_edited_time": "2026-03-03T14:10:00.000Z",
@@ -758,7 +557,7 @@
             {
               "type": "text",
               "text": {
-                "content": "공통 규칙 수립",
+                "content": "데이터 기반 디자인 개선",
                 "link": null
               },
               "annotations": {
@@ -769,7 +568,7 @@
                 "code": false,
                 "color": "default"
               },
-              "plain_text": "공통 규칙 수립",
+              "plain_text": "데이터 기반 디자인 개선",
               "href": null
             }
           ],
@@ -778,10 +577,10 @@
         "children": [
           {
             "object": "block",
-            "id": "31844860-a4f4-804f-a7c5-e7d9fb909d12",
+            "id": "31844860-a4f4-80a9-925b-dd24eaa537bd",
             "parent": {
               "type": "block_id",
-              "block_id": "31844860-a4f4-80a8-8521-ddf85019aad8"
+              "block_id": "31844860-a4f4-806b-9836-f61f3fd9941a"
             },
             "created_time": "2026-03-03T14:10:00.000Z",
             "last_edited_time": "2026-03-03T14:10:00.000Z",
@@ -802,7 +601,7 @@
                 {
                   "type": "text",
                   "text": {
-                    "content": "개인 작업이 아닌 팀 단위 협업을 위해, 누구나 이해하고 적용할 수 있는 명확한 디자인 기준과 가이드를 문서화할 수 있다.",
+                    "content": "사용자 피드백을 근거로 시각적 우선순위를 재조정하고, 디자인 변경의 타당성을 논리적으로 설명할 수 있다.",
                     "link": null
                   },
                   "annotations": {
@@ -813,7 +612,7 @@
                     "code": false,
                     "color": "default"
                   },
-                  "plain_text": "개인 작업이 아닌 팀 단위 협업을 위해, 누구나 이해하고 적용할 수 있는 명확한 디자인 기준과 가이드를 문서화할 수 있다.",
+                  "plain_text": "사용자 피드백을 근거로 시각적 우선순위를 재조정하고, 디자인 변경의 타당성을 논리적으로 설명할 수 있다.",
                   "href": null
                 }
               ],
@@ -821,38 +620,15 @@
             }
           }
         ]
-      },
-      {
-        "object": "block",
-        "id": "31844860-a4f4-8019-afb7-c4f4c8fddf61",
-        "parent": {
-          "type": "page_id",
-          "page_id": "2f044860-a4f4-81ab-9cbb-e80c0d3375d7"
-        },
-        "created_time": "2026-03-03T14:10:00.000Z",
-        "last_edited_time": "2026-03-03T14:10:00.000Z",
-        "created_by": {
-          "object": "user",
-          "id": "02042589-fdf7-43c3-b4e0-cbe6175fa46c"
-        },
-        "last_edited_by": {
-          "object": "user",
-          "id": "02042589-fdf7-43c3-b4e0-cbe6175fa46c"
-        },
-        "has_children": false,
-        "archived": false,
-        "in_trash": false,
-        "type": "divider",
-        "divider": {}
       }
     ],
     "result": [
       {
         "object": "block",
-        "id": "31844860-a4f4-809b-927f-e502ebd97bb4",
+        "id": "31844860-a4f4-8050-8954-f7a84946b8b8",
         "parent": {
           "type": "block_id",
-          "block_id": "31844860-a4f4-80f0-9eef-ff1d7c48b20b"
+          "block_id": "31844860-a4f4-8072-917a-ed6666d98c76"
         },
         "created_time": "2026-03-03T14:10:00.000Z",
         "last_edited_time": "2026-03-03T14:10:00.000Z",
@@ -872,10 +648,10 @@
       },
       {
         "object": "block",
-        "id": "31844860-a4f4-8085-88f2-ca0aee500edf",
+        "id": "31844860-a4f4-80b6-9d45-cf77b942e556",
         "parent": {
           "type": "block_id",
-          "block_id": "31844860-a4f4-80f0-9eef-ff1d7c48b20b"
+          "block_id": "31844860-a4f4-8072-917a-ed6666d98c76"
         },
         "created_time": "2026-03-03T14:10:00.000Z",
         "last_edited_time": "2026-03-03T14:10:00.000Z",
@@ -896,7 +672,7 @@
             {
               "type": "text",
               "text": {
-                "content": "프로젝트에 사용할 기본 디자인 시스템 문서",
+                "content": "High-Fi UI 완성본과 이를 개선한 과정을 담은 테스트 리포트",
                 "link": null
               },
               "annotations": {
@@ -907,7 +683,7 @@
                 "code": false,
                 "color": "default"
               },
-              "plain_text": "프로젝트에 사용할 기본 디자인 시스템 문서",
+              "plain_text": "High-Fi UI 완성본과 이를 개선한 과정을 담은 테스트 리포트",
               "href": null
             }
           ],
@@ -916,10 +692,10 @@
       },
       {
         "object": "block",
-        "id": "31844860-a4f4-804b-b095-d87aefb4d81a",
+        "id": "31844860-a4f4-80b6-b38e-c14746a65467",
         "parent": {
           "type": "block_id",
-          "block_id": "31844860-a4f4-80f0-9eef-ff1d7c48b20b"
+          "block_id": "31844860-a4f4-8072-917a-ed6666d98c76"
         },
         "created_time": "2026-03-03T14:10:00.000Z",
         "last_edited_time": "2026-03-03T14:10:00.000Z",
@@ -942,10 +718,10 @@
       },
       {
         "object": "block",
-        "id": "31844860-a4f4-800e-9d84-eb14ca398c35",
+        "id": "31844860-a4f4-8056-8287-f89c5cb85f07",
         "parent": {
           "type": "block_id",
-          "block_id": "31844860-a4f4-80f0-9eef-ff1d7c48b20b"
+          "block_id": "31844860-a4f4-8072-917a-ed6666d98c76"
         },
         "created_time": "2026-03-03T14:10:00.000Z",
         "last_edited_time": "2026-03-03T14:10:00.000Z",
@@ -966,7 +742,7 @@
             {
               "type": "text",
               "text": {
-                "content": "1. 디자인 파운데이션 (Foundation)",
+                "content": "1. High-Fi UI 디자인 완성본",
                 "link": null
               },
               "annotations": {
@@ -977,7 +753,7 @@
                 "code": false,
                 "color": "default"
               },
-              "plain_text": "1. 디자인 파운데이션 (Foundation)",
+              "plain_text": "1. High-Fi UI 디자인 완성본",
               "href": null
             }
           ],
@@ -987,10 +763,10 @@
       },
       {
         "object": "block",
-        "id": "31844860-a4f4-805c-b720-cec4d1b50fcb",
+        "id": "31844860-a4f4-80d6-927c-c40affe9a372",
         "parent": {
           "type": "block_id",
-          "block_id": "31844860-a4f4-80f0-9eef-ff1d7c48b20b"
+          "block_id": "31844860-a4f4-8072-917a-ed6666d98c76"
         },
         "created_time": "2026-03-03T14:10:00.000Z",
         "last_edited_time": "2026-03-03T14:10:00.000Z",
@@ -1011,7 +787,7 @@
             {
               "type": "text",
               "text": {
-                "content": "서비스의 시각적 뼈대가 되는 기본 요소들을 정의합니다.",
+                "content": "핵심 유저 플로우에 해당하는 모든 화면 (약 10~15장 내외).",
                 "link": null
               },
               "annotations": {
@@ -1022,7 +798,7 @@
                 "code": false,
                 "color": "default"
               },
-              "plain_text": "서비스의 시각적 뼈대가 되는 기본 요소들을 정의합니다.",
+              "plain_text": "핵심 유저 플로우에 해당하는 모든 화면 (약 10~15장 내외).",
               "href": null
             }
           ],
@@ -1031,10 +807,10 @@
       },
       {
         "object": "block",
-        "id": "31844860-a4f4-8092-a0e2-db700af8e459",
+        "id": "31844860-a4f4-80e6-9055-e1341af94e58",
         "parent": {
           "type": "block_id",
-          "block_id": "31844860-a4f4-80f0-9eef-ff1d7c48b20b"
+          "block_id": "31844860-a4f4-8072-917a-ed6666d98c76"
         },
         "created_time": "2026-03-03T14:10:00.000Z",
         "last_edited_time": "2026-03-03T14:10:00.000Z",
@@ -1055,24 +831,7 @@
             {
               "type": "text",
               "text": {
-                "content": "Color (컬러):",
-                "link": null
-              },
-              "annotations": {
-                "bold": true,
-                "italic": false,
-                "strikethrough": false,
-                "underline": false,
-                "code": false,
-                "color": "default"
-              },
-              "plain_text": "Color (컬러):",
-              "href": null
-            },
-            {
-              "type": "text",
-              "text": {
-                "content": " 브랜드 컬러(Primary), 보조 컬러(Secondary), 무채색(Grayscale), 의미적 컬러(Semantic - 성공, 경고, 에러 등)를 단계별로 정의합니다.",
+                "content": "디자인 시스템(컬러, 폰트, 간격)이 완벽하게 적용된 상태여야 합니다.",
                 "link": null
               },
               "annotations": {
@@ -1083,7 +842,7 @@
                 "code": false,
                 "color": "default"
               },
-              "plain_text": " 브랜드 컬러(Primary), 보조 컬러(Secondary), 무채색(Grayscale), 의미적 컬러(Semantic - 성공, 경고, 에러 등)를 단계별로 정의합니다.",
+              "plain_text": "디자인 시스템(컬러, 폰트, 간격)이 완벽하게 적용된 상태여야 합니다.",
               "href": null
             }
           ],
@@ -1092,132 +851,10 @@
       },
       {
         "object": "block",
-        "id": "31844860-a4f4-80e8-abc7-f09e666608f6",
+        "id": "31844860-a4f4-80b1-8dd0-eb4d4dd1952c",
         "parent": {
           "type": "block_id",
-          "block_id": "31844860-a4f4-80f0-9eef-ff1d7c48b20b"
-        },
-        "created_time": "2026-03-03T14:10:00.000Z",
-        "last_edited_time": "2026-03-03T14:10:00.000Z",
-        "created_by": {
-          "object": "user",
-          "id": "02042589-fdf7-43c3-b4e0-cbe6175fa46c"
-        },
-        "last_edited_by": {
-          "object": "user",
-          "id": "02042589-fdf7-43c3-b4e0-cbe6175fa46c"
-        },
-        "has_children": false,
-        "archived": false,
-        "in_trash": false,
-        "type": "bulleted_list_item",
-        "bulleted_list_item": {
-          "rich_text": [
-            {
-              "type": "text",
-              "text": {
-                "content": "Typography (서체):",
-                "link": null
-              },
-              "annotations": {
-                "bold": true,
-                "italic": false,
-                "strikethrough": false,
-                "underline": false,
-                "code": false,
-                "color": "default"
-              },
-              "plain_text": "Typography (서체):",
-              "href": null
-            },
-            {
-              "type": "text",
-              "text": {
-                "content": " Heading, Body, Caption 등 역할에 따른 폰트 패밀리, 크기, 굵기(Weight), 행간(Line-height)을 정의합니다.",
-                "link": null
-              },
-              "annotations": {
-                "bold": false,
-                "italic": false,
-                "strikethrough": false,
-                "underline": false,
-                "code": false,
-                "color": "default"
-              },
-              "plain_text": " Heading, Body, Caption 등 역할에 따른 폰트 패밀리, 크기, 굵기(Weight), 행간(Line-height)을 정의합니다.",
-              "href": null
-            }
-          ],
-          "color": "default"
-        }
-      },
-      {
-        "object": "block",
-        "id": "31844860-a4f4-8050-80cf-eea9112bc1c8",
-        "parent": {
-          "type": "block_id",
-          "block_id": "31844860-a4f4-80f0-9eef-ff1d7c48b20b"
-        },
-        "created_time": "2026-03-03T14:10:00.000Z",
-        "last_edited_time": "2026-03-03T14:10:00.000Z",
-        "created_by": {
-          "object": "user",
-          "id": "02042589-fdf7-43c3-b4e0-cbe6175fa46c"
-        },
-        "last_edited_by": {
-          "object": "user",
-          "id": "02042589-fdf7-43c3-b4e0-cbe6175fa46c"
-        },
-        "has_children": false,
-        "archived": false,
-        "in_trash": false,
-        "type": "bulleted_list_item",
-        "bulleted_list_item": {
-          "rich_text": [
-            {
-              "type": "text",
-              "text": {
-                "content": "Spacing & Radius (간격 및 모서리):",
-                "link": null
-              },
-              "annotations": {
-                "bold": true,
-                "italic": false,
-                "strikethrough": false,
-                "underline": false,
-                "code": false,
-                "color": "default"
-              },
-              "plain_text": "Spacing & Radius (간격 및 모서리):",
-              "href": null
-            },
-            {
-              "type": "text",
-              "text": {
-                "content": " 4px 또는 8px 배수 등 일정한 규칙을 가진 여백 시스템과 컴포넌트의 둥글기(Border Radius) 값을 정의합니다.",
-                "link": null
-              },
-              "annotations": {
-                "bold": false,
-                "italic": false,
-                "strikethrough": false,
-                "underline": false,
-                "code": false,
-                "color": "default"
-              },
-              "plain_text": " 4px 또는 8px 배수 등 일정한 규칙을 가진 여백 시스템과 컴포넌트의 둥글기(Border Radius) 값을 정의합니다.",
-              "href": null
-            }
-          ],
-          "color": "default"
-        }
-      },
-      {
-        "object": "block",
-        "id": "31844860-a4f4-8070-ae9e-c412f1d05145",
-        "parent": {
-          "type": "block_id",
-          "block_id": "31844860-a4f4-80f0-9eef-ff1d7c48b20b"
+          "block_id": "31844860-a4f4-8072-917a-ed6666d98c76"
         },
         "created_time": "2026-03-03T14:10:00.000Z",
         "last_edited_time": "2026-03-03T14:10:00.000Z",
@@ -1237,10 +874,10 @@
       },
       {
         "object": "block",
-        "id": "31844860-a4f4-8002-9a68-e8d57a8e9ac0",
+        "id": "31844860-a4f4-8036-8c93-ef3252039d85",
         "parent": {
           "type": "block_id",
-          "block_id": "31844860-a4f4-80f0-9eef-ff1d7c48b20b"
+          "block_id": "31844860-a4f4-8072-917a-ed6666d98c76"
         },
         "created_time": "2026-03-03T14:10:00.000Z",
         "last_edited_time": "2026-03-03T14:10:00.000Z",
@@ -1261,7 +898,7 @@
             {
               "type": "text",
               "text": {
-                "content": "2. 정의 방법 시각화",
+                "content": "2. UX 테스트 결과 및 개선 포인트 (Before & After)",
                 "link": null
               },
               "annotations": {
@@ -1272,7 +909,7 @@
                 "code": false,
                 "color": "default"
               },
-              "plain_text": "2. 정의 방법 시각화",
+              "plain_text": "2. UX 테스트 결과 및 개선 포인트 (Before & After)",
               "href": null
             }
           ],
@@ -1282,10 +919,10 @@
       },
       {
         "object": "block",
-        "id": "31844860-a4f4-808c-a20b-d9acc16e1548",
+        "id": "31844860-a4f4-8061-ae4a-fc22e5c000be",
         "parent": {
           "type": "block_id",
-          "block_id": "31844860-a4f4-80f0-9eef-ff1d7c48b20b"
+          "block_id": "31844860-a4f4-8072-917a-ed6666d98c76"
         },
         "created_time": "2026-03-03T14:10:00.000Z",
         "last_edited_time": "2026-03-03T14:10:00.000Z",
@@ -1306,7 +943,7 @@
             {
               "type": "text",
               "text": {
-                "content": "단순히 색상표만 나열하는 것이 아니라, 해당 속성이 ",
+                "content": "사용자 테스트를 통해 발견한 문제점과 이를 어떻게 해결했는지 시각적으로 비교합니다.",
                 "link": null
               },
               "annotations": {
@@ -1317,41 +954,7 @@
                 "code": false,
                 "color": "default"
               },
-              "plain_text": "단순히 색상표만 나열하는 것이 아니라, 해당 속성이 ",
-              "href": null
-            },
-            {
-              "type": "text",
-              "text": {
-                "content": "어디에 어떻게 쓰이는지",
-                "link": null
-              },
-              "annotations": {
-                "bold": true,
-                "italic": false,
-                "strikethrough": false,
-                "underline": false,
-                "code": false,
-                "color": "default"
-              },
-              "plain_text": "어디에 어떻게 쓰이는지",
-              "href": null
-            },
-            {
-              "type": "text",
-              "text": {
-                "content": " 가이드를 함께 작성합니다.",
-                "link": null
-              },
-              "annotations": {
-                "bold": false,
-                "italic": false,
-                "strikethrough": false,
-                "underline": false,
-                "code": false,
-                "color": "default"
-              },
-              "plain_text": " 가이드를 함께 작성합니다.",
+              "plain_text": "사용자 테스트를 통해 발견한 문제점과 이를 어떻게 해결했는지 시각적으로 비교합니다.",
               "href": null
             }
           ],
@@ -1360,10 +963,10 @@
       },
       {
         "object": "block",
-        "id": "31844860-a4f4-80bb-a690-c84facef52a6",
+        "id": "31844860-a4f4-8024-bf41-cc3b6e65b9bb",
         "parent": {
           "type": "block_id",
-          "block_id": "31844860-a4f4-80f0-9eef-ff1d7c48b20b"
+          "block_id": "31844860-a4f4-8072-917a-ed6666d98c76"
         },
         "created_time": "2026-03-03T14:10:00.000Z",
         "last_edited_time": "2026-03-03T14:10:00.000Z",
@@ -1384,7 +987,7 @@
             {
               "type": "text",
               "text": {
-                "content": "배치 방법:",
+                "content": "AS-IS (테스트 직후 화면):",
                 "link": null
               },
               "annotations": {
@@ -1395,13 +998,13 @@
                 "code": false,
                 "color": "default"
               },
-              "plain_text": "배치 방법:",
+              "plain_text": "AS-IS (테스트 직후 화면):",
               "href": null
             },
             {
               "type": "text",
               "text": {
-                "content": " 컬러표, 타이포그래피 계층도, 스페이싱 규격을 캔버스에 섹션별로 나누어 배치합니다.",
+                "content": " 문제점이 발견된 기존 High-Fi 화면 + \"버튼이 너무 눈에 띄지 않음\" 등의 사용자 피드백 메모.",
                 "link": null
               },
               "annotations": {
@@ -1412,7 +1015,7 @@
                 "code": false,
                 "color": "default"
               },
-              "plain_text": " 컬러표, 타이포그래피 계층도, 스페이싱 규격을 캔버스에 섹션별로 나누어 배치합니다.",
+              "plain_text": " 문제점이 발견된 기존 High-Fi 화면 + \"버튼이 너무 눈에 띄지 않음\" 등의 사용자 피드백 메모.",
               "href": null
             }
           ],
@@ -1421,10 +1024,10 @@
       },
       {
         "object": "block",
-        "id": "31844860-a4f4-8054-a842-ec1b8fbfa30d",
+        "id": "31844860-a4f4-800b-b350-fb5a5fcde61c",
         "parent": {
           "type": "block_id",
-          "block_id": "31844860-a4f4-80f0-9eef-ff1d7c48b20b"
+          "block_id": "31844860-a4f4-8072-917a-ed6666d98c76"
         },
         "created_time": "2026-03-03T14:10:00.000Z",
         "last_edited_time": "2026-03-03T14:10:00.000Z",
@@ -1445,7 +1048,7 @@
             {
               "type": "text",
               "text": {
-                "content": "네이밍 표시:",
+                "content": "TO-BE (개선된 화면):",
                 "link": null
               },
               "annotations": {
@@ -1456,13 +1059,13 @@
                 "code": false,
                 "color": "default"
               },
-              "plain_text": "네이밍 표시:",
+              "plain_text": "TO-BE (개선된 화면):",
               "href": null
             },
             {
               "type": "text",
               "text": {
-                "content": " 각 요소 옆에 피그마 변수(Variables)나 스타일(Styles)로 등록할 정확한 이름을 텍스트로 명시하여 개발자도 알아볼 수 있게 합니다.",
+                "content": " 피드백을 반영하여 색상 대비, 크기, 레이아웃 등을 조정한 최종 화면.",
                 "link": null
               },
               "annotations": {
@@ -1473,7 +1076,7 @@
                 "code": false,
                 "color": "default"
               },
-              "plain_text": " 각 요소 옆에 피그마 변수(Variables)나 스타일(Styles)로 등록할 정확한 이름을 텍스트로 명시하여 개발자도 알아볼 수 있게 합니다.",
+              "plain_text": " 피드백을 반영하여 색상 대비, 크기, 레이아웃 등을 조정한 최종 화면.",
               "href": null
             }
           ],
@@ -1482,10 +1085,10 @@
       },
       {
         "object": "block",
-        "id": "31844860-a4f4-801e-a7d3-d5348463b9e0",
+        "id": "31844860-a4f4-80be-b77d-e10444775df5",
         "parent": {
-          "type": "page_id",
-          "page_id": "2f044860-a4f4-81ab-9cbb-e80c0d3375d7"
+          "type": "block_id",
+          "block_id": "31844860-a4f4-8072-917a-ed6666d98c76"
         },
         "created_time": "2026-03-03T14:10:00.000Z",
         "last_edited_time": "2026-03-03T14:10:00.000Z",
@@ -1500,17 +1103,55 @@
         "has_children": false,
         "archived": false,
         "in_trash": false,
-        "type": "divider",
-        "divider": {}
+        "type": "bulleted_list_item",
+        "bulleted_list_item": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Rationale (개선 근거):",
+                "link": null
+              },
+              "annotations": {
+                "bold": true,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Rationale (개선 근거):",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": " \"시각적 위계를 높여 사용자가 헤매지 않도록 Primary Color로 수정함\" 등 수정의 이유를 간략한 텍스트로 명시.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": " \"시각적 위계를 높여 사용자가 헤매지 않도록 Primary Color로 수정함\" 등 수정의 이유를 간략한 텍스트로 명시.",
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
       }
     ],
     "timeGoal": [
       {
         "object": "block",
-        "id": "31844860-a4f4-80bd-b5df-e8a7c23e194f",
+        "id": "31844860-a4f4-80c9-aa60-d44fef431dc2",
         "parent": {
           "type": "block_id",
-          "block_id": "31844860-a4f4-80c0-95e5-c2585ad4086c"
+          "block_id": "31844860-a4f4-80a0-9059-e47bd4d09e42"
         },
         "created_time": "2026-03-03T14:10:00.000Z",
         "last_edited_time": "2026-03-03T14:10:00.000Z",
@@ -1530,10 +1171,10 @@
       },
       {
         "object": "block",
-        "id": "31844860-a4f4-8065-aea5-f5897d1f2a0e",
+        "id": "31844860-a4f4-8025-b1fb-c985ad17bb13",
         "parent": {
           "type": "block_id",
-          "block_id": "31844860-a4f4-80c0-95e5-c2585ad4086c"
+          "block_id": "31844860-a4f4-80a0-9059-e47bd4d09e42"
         },
         "created_time": "2026-03-03T14:10:00.000Z",
         "last_edited_time": "2026-03-03T14:10:00.000Z",
@@ -1554,7 +1195,7 @@
             {
               "type": "text",
               "text": {
-                "content": "총 소요 시간 : 15시간",
+                "content": "총 소요 시간 : 20시간",
                 "link": null
               },
               "annotations": {
@@ -1565,44 +1206,21 @@
                 "code": false,
                 "color": "default"
               },
-              "plain_text": "총 소요 시간 : 15시간",
+              "plain_text": "총 소요 시간 : 20시간",
               "href": null
             }
           ],
           "color": "default"
         }
-      },
-      {
-        "object": "block",
-        "id": "31844860-a4f4-80d2-87ac-d3dd27a3bbac",
-        "parent": {
-          "type": "page_id",
-          "page_id": "2f044860-a4f4-81ab-9cbb-e80c0d3375d7"
-        },
-        "created_time": "2026-03-03T14:10:00.000Z",
-        "last_edited_time": "2026-03-03T14:10:00.000Z",
-        "created_by": {
-          "object": "user",
-          "id": "02042589-fdf7-43c3-b4e0-cbe6175fa46c"
-        },
-        "last_edited_by": {
-          "object": "user",
-          "id": "02042589-fdf7-43c3-b4e0-cbe6175fa46c"
-        },
-        "has_children": false,
-        "archived": false,
-        "in_trash": false,
-        "type": "divider",
-        "divider": {}
       }
     ],
     "guidelines": [
       {
         "object": "block",
-        "id": "31844860-a4f4-80ff-b46b-f06b2e7abf02",
+        "id": "31844860-a4f4-80f7-9f73-ef9f16f93c0c",
         "parent": {
           "type": "block_id",
-          "block_id": "31844860-a4f4-80cc-bd0d-e77af655c8e5"
+          "block_id": "31844860-a4f4-807c-993a-c0284f0ee4ac"
         },
         "created_time": "2026-03-03T14:10:00.000Z",
         "last_edited_time": "2026-03-03T14:10:00.000Z",
@@ -1622,10 +1240,10 @@
       },
       {
         "object": "block",
-        "id": "31844860-a4f4-80de-bb73-eec63ffd60bd",
+        "id": "31844860-a4f4-8010-93a9-d19bf4c9e3ed",
         "parent": {
           "type": "block_id",
-          "block_id": "31844860-a4f4-80cc-bd0d-e77af655c8e5"
+          "block_id": "31844860-a4f4-807c-993a-c0284f0ee4ac"
         },
         "created_time": "2026-03-03T14:10:00.000Z",
         "last_edited_time": "2026-03-03T14:10:00.000Z",
@@ -1646,7 +1264,7 @@
             {
               "type": "text",
               "text": {
-                "content": "1. 피그마 기능 활용: '스타일' 또는 '변수'로 등록하세요",
+                "content": "1. 디자인 시스템의 엄격한 준수: ‘임의의 스타일’을 만들지 마세요",
                 "link": null
               },
               "annotations": {
@@ -1657,7 +1275,7 @@
                 "code": false,
                 "color": "default"
               },
-              "plain_text": "1. 피그마 기능 활용: '스타일' 또는 '변수'로 등록하세요",
+              "plain_text": "1. 디자인 시스템의 엄격한 준수: ‘임의의 스타일’을 만들지 마세요",
               "href": null
             }
           ],
@@ -1667,10 +1285,10 @@
       },
       {
         "object": "block",
-        "id": "31844860-a4f4-80f9-93e3-d1e6eb295e9c",
+        "id": "31844860-a4f4-8072-9e48-e7c15738e5d4",
         "parent": {
           "type": "block_id",
-          "block_id": "31844860-a4f4-80cc-bd0d-e77af655c8e5"
+          "block_id": "31844860-a4f4-807c-993a-c0284f0ee4ac"
         },
         "created_time": "2026-03-03T14:10:00.000Z",
         "last_edited_time": "2026-03-03T14:10:00.000Z",
@@ -1708,7 +1326,7 @@
             {
               "type": "text",
               "text": {
-                "content": " 스포이트(Color Picker)로 색을 찍어 쓰거나, 매번 텍스트 크기를 수동으로 입력하는 것을 엄격히 금지합니다.",
+                "content": " 8주차에 정의한 스타일(Local Styles, Variables) 외의 컬러나 폰트 크기를 임의로 추가하거나 혼용하지 마세요.",
                 "link": null
               },
               "annotations": {
@@ -1719,7 +1337,7 @@
                 "code": false,
                 "color": "default"
               },
-              "plain_text": " 스포이트(Color Picker)로 색을 찍어 쓰거나, 매번 텍스트 크기를 수동으로 입력하는 것을 엄격히 금지합니다.",
+              "plain_text": " 8주차에 정의한 스타일(Local Styles, Variables) 외의 컬러나 폰트 크기를 임의로 추가하거나 혼용하지 마세요.",
               "href": null
             }
           ],
@@ -1728,10 +1346,10 @@
       },
       {
         "object": "block",
-        "id": "31844860-a4f4-8043-b97c-d85b5e3ff3dc",
+        "id": "31844860-a4f4-8067-a19a-db8e25e25c1e",
         "parent": {
           "type": "block_id",
-          "block_id": "31844860-a4f4-80cc-bd0d-e77af655c8e5"
+          "block_id": "31844860-a4f4-807c-993a-c0284f0ee4ac"
         },
         "created_time": "2026-03-03T14:10:00.000Z",
         "last_edited_time": "2026-03-03T14:10:00.000Z",
@@ -1765,6 +1383,23 @@
               },
               "plain_text": "이유:",
               "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": " 예외가 하나씩 생기기 시작하면 디자인 시스템은 빠르게 무너집니다.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": " 예외가 하나씩 생기기 시작하면 디자인 시스템은 빠르게 무너집니다.",
+              "href": null
             }
           ],
           "color": "default"
@@ -1772,10 +1407,10 @@
         "children": [
           {
             "object": "block",
-            "id": "31844860-a4f4-802e-8fdd-e45644ebdc35",
+            "id": "31844860-a4f4-80cc-a127-cc1b0216fe8d",
             "parent": {
               "type": "block_id",
-              "block_id": "31844860-a4f4-8043-b97c-d85b5e3ff3dc"
+              "block_id": "31844860-a4f4-8067-a19a-db8e25e25c1e"
             },
             "created_time": "2026-03-03T14:10:00.000Z",
             "last_edited_time": "2026-03-03T14:10:00.000Z",
@@ -1790,30 +1425,13 @@
             "has_children": false,
             "archived": false,
             "in_trash": false,
-            "type": "bulleted_list_item",
-            "bulleted_list_item": {
+            "type": "paragraph",
+            "paragraph": {
               "rich_text": [
                 {
                   "type": "text",
                   "text": {
-                    "content": "수정의 용이성:",
-                    "link": null
-                  },
-                  "annotations": {
-                    "bold": true,
-                    "italic": false,
-                    "strikethrough": false,
-                    "underline": false,
-                    "code": false,
-                    "color": "default"
-                  },
-                  "plain_text": "수정의 용이성:",
-                  "href": null
-                },
-                {
-                  "type": "text",
-                  "text": {
-                    "content": " 메인 컬러가 바뀌었을 때, 변수로 등록되어 있어야 클릭 한 번으로 수백 개의 화면을 동시에 업데이트할 수 있습니다.",
+                    "content": "기존 시스템으로 해결되지 않는 화면이 있다면, 화면을 임시로 수정하는 것이 아니라 ",
                     "link": null
                   },
                   "annotations": {
@@ -1824,40 +1442,13 @@
                     "code": false,
                     "color": "default"
                   },
-                  "plain_text": " 메인 컬러가 바뀌었을 때, 변수로 등록되어 있어야 클릭 한 번으로 수백 개의 화면을 동시에 업데이트할 수 있습니다.",
+                  "plain_text": "기존 시스템으로 해결되지 않는 화면이 있다면, 화면을 임시로 수정하는 것이 아니라 ",
                   "href": null
-                }
-              ],
-              "color": "default"
-            }
-          },
-          {
-            "object": "block",
-            "id": "31844860-a4f4-8075-8ff1-fc3c699f5e06",
-            "parent": {
-              "type": "block_id",
-              "block_id": "31844860-a4f4-8043-b97c-d85b5e3ff3dc"
-            },
-            "created_time": "2026-03-03T14:10:00.000Z",
-            "last_edited_time": "2026-03-03T14:10:00.000Z",
-            "created_by": {
-              "object": "user",
-              "id": "02042589-fdf7-43c3-b4e0-cbe6175fa46c"
-            },
-            "last_edited_by": {
-              "object": "user",
-              "id": "02042589-fdf7-43c3-b4e0-cbe6175fa46c"
-            },
-            "has_children": false,
-            "archived": false,
-            "in_trash": false,
-            "type": "bulleted_list_item",
-            "bulleted_list_item": {
-              "rich_text": [
+                },
                 {
                   "type": "text",
                   "text": {
-                    "content": "협업의 기본:",
+                    "content": "디자인 시스템 자체를 업데이트하는 방향",
                     "link": null
                   },
                   "annotations": {
@@ -1868,13 +1459,13 @@
                     "code": false,
                     "color": "default"
                   },
-                  "plain_text": "협업의 기본:",
+                  "plain_text": "디자인 시스템 자체를 업데이트하는 방향",
                   "href": null
                 },
                 {
                   "type": "text",
                   "text": {
-                    "content": " 개발자는 피그마의 Dev Mode를 통해 등록된 변수명을 확인하고 코드를 작성합니다.",
+                    "content": "으로 접근해야 합니다.",
                     "link": null
                   },
                   "annotations": {
@@ -1885,7 +1476,7 @@
                     "code": false,
                     "color": "default"
                   },
-                  "plain_text": " 개발자는 피그마의 Dev Mode를 통해 등록된 변수명을 확인하고 코드를 작성합니다.",
+                  "plain_text": "으로 접근해야 합니다.",
                   "href": null
                 }
               ],
@@ -1896,10 +1487,10 @@
       },
       {
         "object": "block",
-        "id": "31844860-a4f4-801e-ba26-fba7b5df701e",
+        "id": "31844860-a4f4-80fa-8dc9-cc745e95e968",
         "parent": {
           "type": "block_id",
-          "block_id": "31844860-a4f4-80cc-bd0d-e77af655c8e5"
+          "block_id": "31844860-a4f4-807c-993a-c0284f0ee4ac"
         },
         "created_time": "2026-03-03T14:10:00.000Z",
         "last_edited_time": "2026-03-03T14:10:00.000Z",
@@ -1920,7 +1511,7 @@
             {
               "type": "text",
               "text": {
-                "content": "상세 가이드:",
+                "content": "핵심 원칙:",
                 "link": null
               },
               "annotations": {
@@ -1931,13 +1522,13 @@
                 "code": false,
                 "color": "default"
               },
-              "plain_text": "상세 가이드:",
+              "plain_text": "핵심 원칙:",
               "href": null
             },
             {
               "type": "text",
               "text": {
-                "content": " 모든 컬러와 폰트 설정은 피그마 우측 패널의 4개 점(∷) 아이콘이나 Local Variables를 통해 시스템에 등록해야 합니다.",
+                "content": " 문제를 화면에서 해결하지 말고, 시스템 레벨에서 해결하세요.",
                 "link": null
               },
               "annotations": {
@@ -1948,7 +1539,7 @@
                 "code": false,
                 "color": "default"
               },
-              "plain_text": " 모든 컬러와 폰트 설정은 피그마 우측 패널의 4개 점(∷) 아이콘이나 Local Variables를 통해 시스템에 등록해야 합니다.",
+              "plain_text": " 문제를 화면에서 해결하지 말고, 시스템 레벨에서 해결하세요.",
               "href": null
             }
           ],
@@ -1957,10 +1548,10 @@
       },
       {
         "object": "block",
-        "id": "31844860-a4f4-80a1-a902-fc2fbc00af31",
+        "id": "31844860-a4f4-80de-9a7b-dc26a1750e68",
         "parent": {
           "type": "block_id",
-          "block_id": "31844860-a4f4-80cc-bd0d-e77af655c8e5"
+          "block_id": "31844860-a4f4-807c-993a-c0284f0ee4ac"
         },
         "created_time": "2026-03-03T14:10:00.000Z",
         "last_edited_time": "2026-03-03T14:10:00.000Z",
@@ -1980,10 +1571,10 @@
       },
       {
         "object": "block",
-        "id": "31844860-a4f4-8001-9512-e43a004d8a19",
+        "id": "31844860-a4f4-80f3-acff-e09e965c2d8e",
         "parent": {
           "type": "block_id",
-          "block_id": "31844860-a4f4-80cc-bd0d-e77af655c8e5"
+          "block_id": "31844860-a4f4-807c-993a-c0284f0ee4ac"
         },
         "created_time": "2026-03-03T14:10:00.000Z",
         "last_edited_time": "2026-03-03T14:10:00.000Z",
@@ -2004,7 +1595,7 @@
             {
               "type": "text",
               "text": {
-                "content": "2. 의미 기반 네이밍 (Semantic Naming): '목적'을 이름에 담으세요",
+                "content": "2. 행동 중심의 UT 진행: ‘감상평’이 아닌 ‘문제’를 찾으세요",
                 "link": null
               },
               "annotations": {
@@ -2015,7 +1606,7 @@
                 "code": false,
                 "color": "default"
               },
-              "plain_text": "2. 의미 기반 네이밍 (Semantic Naming): '목적'을 이름에 담으세요",
+              "plain_text": "2. 행동 중심의 UT 진행: ‘감상평’이 아닌 ‘문제’를 찾으세요",
               "href": null
             }
           ],
@@ -2025,40 +1616,10 @@
       },
       {
         "object": "block",
-        "id": "31844860-a4f4-807d-af6a-fef181cb58e8",
+        "id": "31844860-a4f4-808c-b4c7-fdee719a7de7",
         "parent": {
           "type": "block_id",
-          "block_id": "31844860-a4f4-80cc-bd0d-e77af655c8e5"
-        },
-        "created_time": "2026-03-03T14:10:00.000Z",
-        "last_edited_time": "2026-03-03T14:10:00.000Z",
-        "created_by": {
-          "object": "user",
-          "id": "02042589-fdf7-43c3-b4e0-cbe6175fa46c"
-        },
-        "last_edited_by": {
-          "object": "user",
-          "id": "02042589-fdf7-43c3-b4e0-cbe6175fa46c"
-        },
-        "has_children": false,
-        "archived": false,
-        "in_trash": false,
-        "type": "image",
-        "image": {
-          "caption": [],
-          "type": "file",
-          "file": {
-            "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/c69962b0-3951-485b-b10a-5bb29576bba8/eecada2e-e081-4e5a-87e4-5621620dd9e4/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB46674NZYVPC%2F20260305%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260305T082224Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEP7%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJIMEYCIQC8pdNJDYu%2F2vhdrmpKjFlBQ2f36c6OrJicWKkwz6kyxgIhAIAELEW%2BCFY96Um9V2SI%2FMN2fhd1oXR9k8SGo9Ntzf4%2BKogECMf%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMNjM3NDIzMTgzODA1IgwzObfIThS6J3VN7qEq3ANvy5hiAgMgc7vfM8ECasUAzbRXvwU9QB2WGzHnc9exYxu8lHwJeNRU5FAwiR%2Fj8vd%2Fdy2HWcYy8JEtgXNGoFULVd5%2FKp8fGiP2mUA8GkTBwnnJVXTJBoAgRTlokJdGIKvsey7SY5hqWEgp6Gm8Ym%2F%2BXpX6hjw83is9thxHRyEpXmQQwLwX25i%2BZ2xHtqaCd%2Bh7fqPApbBmdUdMTA9DPeHgs4u3e9NxVDcuz9oXAXJty%2FD1yK5VuBX61bVsUeUSXPlOUOA%2FvIpoNSDlt2%2Bp6q4NHXOP%2FO6qsAdaE3mrXvtu4hs%2Bz3insqqpFeRKLx5muB0yDylCNM4LPCFuMu7naVDvkdDFJ1EivAB9zxj%2FUAIAUktOY%2FK8sBWzwJ2hGbSGQnnlY%2FKuRi%2FCV8NcHU2MRl2Pvw%2FW2Jhs7G%2B1sP2pCmV9KUsBhv2G7b7JporyUFK2NrX1WB7wDghf1eWigBYgXhhqS%2FIg1oTeYSVvNfQNTQLGk16KRdS4NTKFfmAGz6Wn3Dda%2BT5SipKy%2Fmp0tkhVErY9uHlReL8eYL6TVrlrXjLggCQvJOZrLbdbtgLWgwXR28AZtATRMeHtiW%2BkMhn7lFfub1b6i2TQHYjHx1Iq95iSlIKgCWsRn%2FgwfG0dBDDgsaTNBjqkAdK9uT4eeRhP3s5uSlmDXIatj6ueF1vOePLIrXbLfvO5tLFP%2BfjzSZ0%2BhzFC8aQ21i0hXI5jGJRtaKOTv84u2u2IOdwvG5TzxDVQ1H5u4l%2FNw%2FND5zC36IcGMxNbkr%2FpfSiGjYhfCnzzIkppvLMAqfnRVPT%2BKuXX3Fi6UzTa84qXQAHKug7eniip0ZEg5CC0K%2FVSfPE6tmEB0QkFfiOE4hbMKIVW&X-Amz-Signature=45ee3604a4d8a0ea9a15a9b45b87e939b92059f64356c89040480d19a2c5f4b4&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
-            "expiry_time": "2026-03-05T09:22:23.949Z"
-          }
-        }
-      },
-      {
-        "object": "block",
-        "id": "31844860-a4f4-8016-8b87-c657b6fcbf82",
-        "parent": {
-          "type": "block_id",
-          "block_id": "31844860-a4f4-80cc-bd0d-e77af655c8e5"
+          "block_id": "31844860-a4f4-807c-993a-c0284f0ee4ac"
         },
         "created_time": "2026-03-03T14:10:00.000Z",
         "last_edited_time": "2026-03-03T14:10:00.000Z",
@@ -2096,7 +1657,7 @@
             {
               "type": "text",
               "text": {
-                "content": " '진한 파란색', '큰 폰트'처럼 직관적이지만 한정적인 이름 대신, 역할과 목적에 맞는 이름을 부여합니다.",
+                "content": " UT(User Test) 진행 시 “디자인 어때요? 예쁜가요?”와 같은 질문은 지양하세요.",
                 "link": null
               },
               "annotations": {
@@ -2107,7 +1668,7 @@
                 "code": false,
                 "color": "default"
               },
-              "plain_text": " '진한 파란색', '큰 폰트'처럼 직관적이지만 한정적인 이름 대신, 역할과 목적에 맞는 이름을 부여합니다.",
+              "plain_text": " UT(User Test) 진행 시 “디자인 어때요? 예쁜가요?”와 같은 질문은 지양하세요.",
               "href": null
             }
           ],
@@ -2116,71 +1677,10 @@
       },
       {
         "object": "block",
-        "id": "31844860-a4f4-8003-a5c8-f3c28be0a427",
+        "id": "31844860-a4f4-80c7-8e45-c41dcfc5512e",
         "parent": {
           "type": "block_id",
-          "block_id": "31844860-a4f4-80cc-bd0d-e77af655c8e5"
-        },
-        "created_time": "2026-03-03T14:10:00.000Z",
-        "last_edited_time": "2026-03-03T14:10:00.000Z",
-        "created_by": {
-          "object": "user",
-          "id": "02042589-fdf7-43c3-b4e0-cbe6175fa46c"
-        },
-        "last_edited_by": {
-          "object": "user",
-          "id": "02042589-fdf7-43c3-b4e0-cbe6175fa46c"
-        },
-        "has_children": false,
-        "archived": false,
-        "in_trash": false,
-        "type": "bulleted_list_item",
-        "bulleted_list_item": {
-          "rich_text": [
-            {
-              "type": "text",
-              "text": {
-                "content": "이유:",
-                "link": null
-              },
-              "annotations": {
-                "bold": true,
-                "italic": false,
-                "strikethrough": false,
-                "underline": false,
-                "code": false,
-                "color": "default"
-              },
-              "plain_text": "이유:",
-              "href": null
-            },
-            {
-              "type": "text",
-              "text": {
-                "content": " 다크모드가 도입되거나 브랜드 컬러가 파란색에서 오렌지색으로 바뀌어도, 네이밍을 유지하며 시스템을 유연하게 관리할 수 있습니다.",
-                "link": null
-              },
-              "annotations": {
-                "bold": false,
-                "italic": false,
-                "strikethrough": false,
-                "underline": false,
-                "code": false,
-                "color": "default"
-              },
-              "plain_text": " 다크모드가 도입되거나 브랜드 컬러가 파란색에서 오렌지색으로 바뀌어도, 네이밍을 유지하며 시스템을 유연하게 관리할 수 있습니다.",
-              "href": null
-            }
-          ],
-          "color": "default"
-        }
-      },
-      {
-        "object": "block",
-        "id": "31844860-a4f4-8011-89f4-e1ed5f054669",
-        "parent": {
-          "type": "block_id",
-          "block_id": "31844860-a4f4-80cc-bd0d-e77af655c8e5"
+          "block_id": "31844860-a4f4-807c-993a-c0284f0ee4ac"
         },
         "created_time": "2026-03-03T14:10:00.000Z",
         "last_edited_time": "2026-03-03T14:10:00.000Z",
@@ -2201,7 +1701,7 @@
             {
               "type": "text",
               "text": {
-                "content": "나쁜 vs 좋은 예시:",
+                "content": "방법:",
                 "link": null
               },
               "annotations": {
@@ -2212,7 +1712,24 @@
                 "code": false,
                 "color": "default"
               },
-              "plain_text": "나쁜 vs 좋은 예시:",
+              "plain_text": "방법:",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": " 구체적인 미션을 부여하고 사용자의 행동을 관찰하세요.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": " 구체적인 미션을 부여하고 사용자의 행동을 관찰하세요.",
               "href": null
             }
           ],
@@ -2221,10 +1738,10 @@
         "children": [
           {
             "object": "block",
-            "id": "31844860-a4f4-80a4-a4e8-cdcdbe21f203",
+            "id": "31844860-a4f4-806d-b6f2-c8cf2ba12b9d",
             "parent": {
               "type": "block_id",
-              "block_id": "31844860-a4f4-8011-89f4-e1ed5f054669"
+              "block_id": "31844860-a4f4-80c7-8e45-c41dcfc5512e"
             },
             "created_time": "2026-03-03T14:10:00.000Z",
             "last_edited_time": "2026-03-03T14:10:00.000Z",
@@ -2239,13 +1756,13 @@
             "has_children": false,
             "archived": false,
             "in_trash": false,
-            "type": "bulleted_list_item",
-            "bulleted_list_item": {
+            "type": "paragraph",
+            "paragraph": {
               "rich_text": [
                 {
                   "type": "text",
                   "text": {
-                    "content": "(❌) Color: Blue-500 / Typography: 24px Bold",
+                    "content": "예시:",
                     "link": null
                   },
                   "annotations": {
@@ -2256,7 +1773,7 @@
                     "code": false,
                     "color": "default"
                   },
-                  "plain_text": "(❌) Color: Blue-500 / Typography: 24px Bold",
+                  "plain_text": "예시:",
                   "href": null
                 }
               ],
@@ -2265,10 +1782,10 @@
           },
           {
             "object": "block",
-            "id": "31844860-a4f4-8062-a5f8-c870bb0da90b",
+            "id": "31844860-a4f4-809a-a30d-ff98dc5389a4",
             "parent": {
               "type": "block_id",
-              "block_id": "31844860-a4f4-8011-89f4-e1ed5f054669"
+              "block_id": "31844860-a4f4-80c7-8e45-c41dcfc5512e"
             },
             "created_time": "2026-03-03T14:10:00.000Z",
             "last_edited_time": "2026-03-03T14:10:00.000Z",
@@ -2289,7 +1806,7 @@
                 {
                   "type": "text",
                   "text": {
-                    "content": "(⭕) Color: Primary-Default / Typography: Heading-1",
+                    "content": "“이 화면에서 강의실을 예약해 보세요.”",
                     "link": null
                   },
                   "annotations": {
@@ -2300,7 +1817,271 @@
                     "code": false,
                     "color": "default"
                   },
-                  "plain_text": "(⭕) Color: Primary-Default / Typography: Heading-1",
+                  "plain_text": "“이 화면에서 강의실을 예약해 보세요.”",
+                  "href": null
+                }
+              ],
+              "color": "default"
+            }
+          },
+          {
+            "object": "block",
+            "id": "31844860-a4f4-80ec-ade3-f9b3825d8f4f",
+            "parent": {
+              "type": "block_id",
+              "block_id": "31844860-a4f4-80c7-8e45-c41dcfc5512e"
+            },
+            "created_time": "2026-03-03T14:10:00.000Z",
+            "last_edited_time": "2026-03-03T14:10:00.000Z",
+            "created_by": {
+              "object": "user",
+              "id": "02042589-fdf7-43c3-b4e0-cbe6175fa46c"
+            },
+            "last_edited_by": {
+              "object": "user",
+              "id": "02042589-fdf7-43c3-b4e0-cbe6175fa46c"
+            },
+            "has_children": false,
+            "archived": false,
+            "in_trash": false,
+            "type": "bulleted_list_item",
+            "bulleted_list_item": {
+              "rich_text": [
+                {
+                  "type": "text",
+                  "text": {
+                    "content": "“예약을 취소해 보세요.”",
+                    "link": null
+                  },
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  },
+                  "plain_text": "“예약을 취소해 보세요.”",
+                  "href": null
+                }
+              ],
+              "color": "default"
+            }
+          },
+          {
+            "object": "block",
+            "id": "31844860-a4f4-807d-9953-ed2bf129ecdc",
+            "parent": {
+              "type": "block_id",
+              "block_id": "31844860-a4f4-80c7-8e45-c41dcfc5512e"
+            },
+            "created_time": "2026-03-03T14:10:00.000Z",
+            "last_edited_time": "2026-03-03T14:10:00.000Z",
+            "created_by": {
+              "object": "user",
+              "id": "02042589-fdf7-43c3-b4e0-cbe6175fa46c"
+            },
+            "last_edited_by": {
+              "object": "user",
+              "id": "02042589-fdf7-43c3-b4e0-cbe6175fa46c"
+            },
+            "has_children": false,
+            "archived": false,
+            "in_trash": false,
+            "type": "paragraph",
+            "paragraph": {
+              "rich_text": [
+                {
+                  "type": "text",
+                  "text": {
+                    "content": "관찰 포인트:",
+                    "link": null
+                  },
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  },
+                  "plain_text": "관찰 포인트:",
+                  "href": null
+                }
+              ],
+              "color": "default"
+            }
+          },
+          {
+            "object": "block",
+            "id": "31844860-a4f4-80c6-9bb6-fc4cb43ffc72",
+            "parent": {
+              "type": "block_id",
+              "block_id": "31844860-a4f4-80c7-8e45-c41dcfc5512e"
+            },
+            "created_time": "2026-03-03T14:10:00.000Z",
+            "last_edited_time": "2026-03-03T14:10:00.000Z",
+            "created_by": {
+              "object": "user",
+              "id": "02042589-fdf7-43c3-b4e0-cbe6175fa46c"
+            },
+            "last_edited_by": {
+              "object": "user",
+              "id": "02042589-fdf7-43c3-b4e0-cbe6175fa46c"
+            },
+            "has_children": false,
+            "archived": false,
+            "in_trash": false,
+            "type": "bulleted_list_item",
+            "bulleted_list_item": {
+              "rich_text": [
+                {
+                  "type": "text",
+                  "text": {
+                    "content": "사용자가 어느 지점에서 멈추는가?",
+                    "link": null
+                  },
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  },
+                  "plain_text": "사용자가 어느 지점에서 멈추는가?",
+                  "href": null
+                }
+              ],
+              "color": "default"
+            }
+          },
+          {
+            "object": "block",
+            "id": "31844860-a4f4-80f0-b37b-c4e876cdd35c",
+            "parent": {
+              "type": "block_id",
+              "block_id": "31844860-a4f4-80c7-8e45-c41dcfc5512e"
+            },
+            "created_time": "2026-03-03T14:10:00.000Z",
+            "last_edited_time": "2026-03-03T14:10:00.000Z",
+            "created_by": {
+              "object": "user",
+              "id": "02042589-fdf7-43c3-b4e0-cbe6175fa46c"
+            },
+            "last_edited_by": {
+              "object": "user",
+              "id": "02042589-fdf7-43c3-b4e0-cbe6175fa46c"
+            },
+            "has_children": false,
+            "archived": false,
+            "in_trash": false,
+            "type": "bulleted_list_item",
+            "bulleted_list_item": {
+              "rich_text": [
+                {
+                  "type": "text",
+                  "text": {
+                    "content": "잘못된 버튼을 누르는가?",
+                    "link": null
+                  },
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  },
+                  "plain_text": "잘못된 버튼을 누르는가?",
+                  "href": null
+                }
+              ],
+              "color": "default"
+            }
+          },
+          {
+            "object": "block",
+            "id": "31844860-a4f4-8083-9f08-f098c598d1eb",
+            "parent": {
+              "type": "block_id",
+              "block_id": "31844860-a4f4-80c7-8e45-c41dcfc5512e"
+            },
+            "created_time": "2026-03-03T14:10:00.000Z",
+            "last_edited_time": "2026-03-03T14:10:00.000Z",
+            "created_by": {
+              "object": "user",
+              "id": "02042589-fdf7-43c3-b4e0-cbe6175fa46c"
+            },
+            "last_edited_by": {
+              "object": "user",
+              "id": "02042589-fdf7-43c3-b4e0-cbe6175fa46c"
+            },
+            "has_children": false,
+            "archived": false,
+            "in_trash": false,
+            "type": "bulleted_list_item",
+            "bulleted_list_item": {
+              "rich_text": [
+                {
+                  "type": "text",
+                  "text": {
+                    "content": "동일한 기능을 여러 번 탐색하는가?",
+                    "link": null
+                  },
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  },
+                  "plain_text": "동일한 기능을 여러 번 탐색하는가?",
+                  "href": null
+                }
+              ],
+              "color": "default"
+            }
+          },
+          {
+            "object": "block",
+            "id": "31844860-a4f4-8087-8f29-dd3c7b411fc2",
+            "parent": {
+              "type": "block_id",
+              "block_id": "31844860-a4f4-80c7-8e45-c41dcfc5512e"
+            },
+            "created_time": "2026-03-03T14:10:00.000Z",
+            "last_edited_time": "2026-03-03T14:10:00.000Z",
+            "created_by": {
+              "object": "user",
+              "id": "02042589-fdf7-43c3-b4e0-cbe6175fa46c"
+            },
+            "last_edited_by": {
+              "object": "user",
+              "id": "02042589-fdf7-43c3-b4e0-cbe6175fa46c"
+            },
+            "has_children": false,
+            "archived": false,
+            "in_trash": false,
+            "type": "paragraph",
+            "paragraph": {
+              "rich_text": [
+                {
+                  "type": "text",
+                  "text": {
+                    "content": "예: 취소 버튼과 확인 버튼의 시각적 위계가 명확하지 않아 오조작이 발생하는지 확인",
+                    "link": null
+                  },
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  },
+                  "plain_text": "예: 취소 버튼과 확인 버튼의 시각적 위계가 명확하지 않아 오조작이 발생하는지 확인",
                   "href": null
                 }
               ],
@@ -2311,10 +2092,105 @@
       },
       {
         "object": "block",
-        "id": "31844860-a4f4-80ff-8df5-cb4fe0fd4c2a",
+        "id": "31844860-a4f4-805d-b9e7-cef17b8f845e",
         "parent": {
           "type": "block_id",
-          "block_id": "31844860-a4f4-80cc-bd0d-e77af655c8e5"
+          "block_id": "31844860-a4f4-807c-993a-c0284f0ee4ac"
+        },
+        "created_time": "2026-03-03T14:10:00.000Z",
+        "last_edited_time": "2026-03-03T14:10:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "02042589-fdf7-43c3-b4e0-cbe6175fa46c"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "02042589-fdf7-43c3-b4e0-cbe6175fa46c"
+        },
+        "has_children": false,
+        "archived": false,
+        "in_trash": false,
+        "type": "bulleted_list_item",
+        "bulleted_list_item": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "핵심 원칙:",
+                "link": null
+              },
+              "annotations": {
+                "bold": true,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "핵심 원칙:",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": " 사용자 의견이 아니라 ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": " 사용자 의견이 아니라 ",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": "사용자 행동",
+                "link": null
+              },
+              "annotations": {
+                "bold": true,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "사용자 행동",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": "을 분석하세요.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "을 분석하세요.",
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "object": "block",
+        "id": "31844860-a4f4-80de-8f29-e7be749c7493",
+        "parent": {
+          "type": "block_id",
+          "block_id": "31844860-a4f4-807c-993a-c0284f0ee4ac"
         },
         "created_time": "2026-03-03T14:10:00.000Z",
         "last_edited_time": "2026-03-03T14:10:00.000Z",
@@ -2334,10 +2210,10 @@
       },
       {
         "object": "block",
-        "id": "31844860-a4f4-80d0-8f9f-e002c0e3173d",
+        "id": "31844860-a4f4-8063-ab99-c4f13d72b48d",
         "parent": {
           "type": "block_id",
-          "block_id": "31844860-a4f4-80cc-bd0d-e77af655c8e5"
+          "block_id": "31844860-a4f4-807c-993a-c0284f0ee4ac"
         },
         "created_time": "2026-03-03T14:10:00.000Z",
         "last_edited_time": "2026-03-03T14:10:00.000Z",
@@ -2358,7 +2234,7 @@
             {
               "type": "text",
               "text": {
-                "content": "3. 위계와 일관성: '규칙의 예외'를 만들지 마세요",
+                "content": "3. ‘왜?’라는 질문에 답할 수 있는가: 뷰티가 아닌 유용성",
                 "link": null
               },
               "annotations": {
@@ -2369,7 +2245,7 @@
                 "code": false,
                 "color": "default"
               },
-              "plain_text": "3. 위계와 일관성: '규칙의 예외'를 만들지 마세요",
+              "plain_text": "3. ‘왜?’라는 질문에 답할 수 있는가: 뷰티가 아닌 유용성",
               "href": null
             }
           ],
@@ -2379,10 +2255,10 @@
       },
       {
         "object": "block",
-        "id": "31844860-a4f4-8010-baf7-c62058a5c71e",
+        "id": "31844860-a4f4-80df-86a3-c4845a826b1a",
         "parent": {
           "type": "block_id",
-          "block_id": "31844860-a4f4-80cc-bd0d-e77af655c8e5"
+          "block_id": "31844860-a4f4-807c-993a-c0284f0ee4ac"
         },
         "created_time": "2026-03-03T14:10:00.000Z",
         "last_edited_time": "2026-03-03T14:10:00.000Z",
@@ -2420,7 +2296,7 @@
             {
               "type": "text",
               "text": {
-                "content": " 사전에 정의한 타이포그래피 스케일과 스페이싱(간격) 규칙 내에서만 디자인을 진행합니다.",
+                "content": " 화면 개선의 근거를 단순한 미적 취향으로 삼지 마세요.",
                 "link": null
               },
               "annotations": {
@@ -2431,7 +2307,7 @@
                 "code": false,
                 "color": "default"
               },
-              "plain_text": " 사전에 정의한 타이포그래피 스케일과 스페이싱(간격) 규칙 내에서만 디자인을 진행합니다.",
+              "plain_text": " 화면 개선의 근거를 단순한 미적 취향으로 삼지 마세요.",
               "href": null
             }
           ],
@@ -2440,10 +2316,10 @@
       },
       {
         "object": "block",
-        "id": "31844860-a4f4-804e-8d7e-e4d7a320d89c",
+        "id": "31844860-a4f4-8097-be45-d4bb84036ade",
         "parent": {
           "type": "block_id",
-          "block_id": "31844860-a4f4-80cc-bd0d-e77af655c8e5"
+          "block_id": "31844860-a4f4-807c-993a-c0284f0ee4ac"
         },
         "created_time": "2026-03-03T14:10:00.000Z",
         "last_edited_time": "2026-03-03T14:10:00.000Z",
@@ -2464,7 +2340,7 @@
             {
               "type": "text",
               "text": {
-                "content": "이유:",
+                "content": "기준:",
                 "link": null
               },
               "annotations": {
@@ -2475,13 +2351,13 @@
                 "code": false,
                 "color": "default"
               },
-              "plain_text": "이유:",
+              "plain_text": "기준:",
               "href": null
             },
             {
               "type": "text",
               "text": {
-                "content": " \"여기는 17px이 예뻐 보이니까 하나만 추가할까?\" 하는 순간 시스템은 무너집니다. 제한된 규칙 안에서 위계를 만들어야 사용자도 일관성을 느낍니다.",
+                "content": " 모든 디자인 변경에는 명확한 기능적 이유가 있어야 합니다.",
                 "link": null
               },
               "annotations": {
@@ -2492,7 +2368,7 @@
                 "code": false,
                 "color": "default"
               },
-              "plain_text": " \"여기는 17px이 예뻐 보이니까 하나만 추가할까?\" 하는 순간 시스템은 무너집니다. 제한된 규칙 안에서 위계를 만들어야 사용자도 일관성을 느낍니다.",
+              "plain_text": " 모든 디자인 변경에는 명확한 기능적 이유가 있어야 합니다.",
               "href": null
             }
           ],
@@ -2501,10 +2377,10 @@
       },
       {
         "object": "block",
-        "id": "31844860-a4f4-808c-b147-e95b0c3564da",
+        "id": "31844860-a4f4-80fc-b26f-f6ba337320d3",
         "parent": {
           "type": "block_id",
-          "block_id": "31844860-a4f4-80cc-bd0d-e77af655c8e5"
+          "block_id": "31844860-a4f4-807c-993a-c0284f0ee4ac"
         },
         "created_time": "2026-03-03T14:10:00.000Z",
         "last_edited_time": "2026-03-03T14:10:00.000Z",
@@ -2525,7 +2401,7 @@
             {
               "type": "text",
               "text": {
-                "content": "필수 체크리스트:",
+                "content": "체크리스트",
                 "link": null
               },
               "annotations": {
@@ -2536,7 +2412,7 @@
                 "code": false,
                 "color": "default"
               },
-              "plain_text": "필수 체크리스트:",
+              "plain_text": "체크리스트",
               "href": null
             }
           ],
@@ -2545,10 +2421,10 @@
         "children": [
           {
             "object": "block",
-            "id": "31844860-a4f4-80b7-b48a-c774b18defdd",
+            "id": "31844860-a4f4-8048-88de-f5028d6cb6e0",
             "parent": {
               "type": "block_id",
-              "block_id": "31844860-a4f4-808c-b147-e95b0c3564da"
+              "block_id": "31844860-a4f4-80fc-b26f-f6ba337320d3"
             },
             "created_time": "2026-03-03T14:10:00.000Z",
             "last_edited_time": "2026-03-03T14:10:00.000Z",
@@ -2569,7 +2445,7 @@
                 {
                   "type": "text",
                   "text": {
-                    "content": "간격 규칙:",
+                    "content": "명도 대비",
                     "link": null
                   },
                   "annotations": {
@@ -2580,13 +2456,13 @@
                     "code": false,
                     "color": "default"
                   },
-                  "plain_text": "간격 규칙:",
+                  "plain_text": "명도 대비",
                   "href": null
                 },
                 {
                   "type": "text",
                   "text": {
-                    "content": " 모든 요소 간의 여백이 4의 배수(또는 8의 배수)로 떨어지는가?",
+                    "content": ": 텍스트와 배경색의 대비가 충분하여 가독성이 확보되었는가? (접근성 기준 충족 여부)",
                     "link": null
                   },
                   "annotations": {
@@ -2597,7 +2473,7 @@
                     "code": false,
                     "color": "default"
                   },
-                  "plain_text": " 모든 요소 간의 여백이 4의 배수(또는 8의 배수)로 떨어지는가?",
+                  "plain_text": ": 텍스트와 배경색의 대비가 충분하여 가독성이 확보되었는가? (접근성 기준 충족 여부)",
                   "href": null
                 }
               ],
@@ -2606,10 +2482,10 @@
           },
           {
             "object": "block",
-            "id": "31844860-a4f4-80b9-bdca-c7b9719041bd",
+            "id": "31844860-a4f4-803e-b0f4-e77c8d88091a",
             "parent": {
               "type": "block_id",
-              "block_id": "31844860-a4f4-808c-b147-e95b0c3564da"
+              "block_id": "31844860-a4f4-80fc-b26f-f6ba337320d3"
             },
             "created_time": "2026-03-03T14:10:00.000Z",
             "last_edited_time": "2026-03-03T14:10:00.000Z",
@@ -2630,7 +2506,7 @@
                 {
                   "type": "text",
                   "text": {
-                    "content": "색상 대비",
+                    "content": "터치 영역",
                     "link": null
                   },
                   "annotations": {
@@ -2641,13 +2517,13 @@
                     "code": false,
                     "color": "default"
                   },
-                  "plain_text": "색상 대비",
+                  "plain_text": "터치 영역",
                   "href": null
                 },
                 {
                   "type": "text",
                   "text": {
-                    "content": ": 텍스트와 배경 색상의 명도 대비가 적절하여 가독성을 해치지 않는가?",
+                    "content": ": 모바일 환경에서 버튼의 최소 터치 영역(44x44px 이상)을 확보했는가?",
                     "link": null
                   },
                   "annotations": {
@@ -2658,7 +2534,7 @@
                     "code": false,
                     "color": "default"
                   },
-                  "plain_text": ": 텍스트와 배경 색상의 명도 대비가 적절하여 가독성을 해치지 않는가?",
+                  "plain_text": ": 모바일 환경에서 버튼의 최소 터치 영역(44x44px 이상)을 확보했는가?",
                   "href": null
                 }
               ],
@@ -2667,10 +2543,10 @@
           },
           {
             "object": "block",
-            "id": "31844860-a4f4-8007-9794-ed0f158364cf",
+            "id": "31844860-a4f4-80f6-b8b0-efc787a2e353",
             "parent": {
               "type": "block_id",
-              "block_id": "31844860-a4f4-808c-b147-e95b0c3564da"
+              "block_id": "31844860-a4f4-80fc-b26f-f6ba337320d3"
             },
             "created_time": "2026-03-03T14:10:00.000Z",
             "last_edited_time": "2026-03-03T14:10:00.000Z",
@@ -2691,7 +2567,7 @@
                 {
                   "type": "text",
                   "text": {
-                    "content": "텍스트 위계: ",
+                    "content": "시각적 위계",
                     "link": null
                   },
                   "annotations": {
@@ -2702,13 +2578,13 @@
                     "code": false,
                     "color": "default"
                   },
-                  "plain_text": "텍스트 위계: ",
+                  "plain_text": "시각적 위계",
                   "href": null
                 },
                 {
                   "type": "text",
                   "text": {
-                    "content": "H1부터 Caption까지 단계별 크기 차이가 명확한가?",
+                    "content": ": 가장 중요한 정보 또는 주요 액션이 가장 먼저 눈에 들어오도록 설계되었는가?",
                     "link": null
                   },
                   "annotations": {
@@ -2719,7 +2595,68 @@
                     "code": false,
                     "color": "default"
                   },
-                  "plain_text": "H1부터 Caption까지 단계별 크기 차이가 명확한가?",
+                  "plain_text": ": 가장 중요한 정보 또는 주요 액션이 가장 먼저 눈에 들어오도록 설계되었는가?",
+                  "href": null
+                }
+              ],
+              "color": "default"
+            }
+          },
+          {
+            "object": "block",
+            "id": "31844860-a4f4-8030-a716-de449eda107c",
+            "parent": {
+              "type": "block_id",
+              "block_id": "31844860-a4f4-80fc-b26f-f6ba337320d3"
+            },
+            "created_time": "2026-03-03T14:10:00.000Z",
+            "last_edited_time": "2026-03-03T14:10:00.000Z",
+            "created_by": {
+              "object": "user",
+              "id": "02042589-fdf7-43c3-b4e0-cbe6175fa46c"
+            },
+            "last_edited_by": {
+              "object": "user",
+              "id": "02042589-fdf7-43c3-b4e0-cbe6175fa46c"
+            },
+            "has_children": false,
+            "archived": false,
+            "in_trash": false,
+            "type": "bulleted_list_item",
+            "bulleted_list_item": {
+              "rich_text": [
+                {
+                  "type": "text",
+                  "text": {
+                    "content": "핵심 원칙:",
+                    "link": null
+                  },
+                  "annotations": {
+                    "bold": true,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  },
+                  "plain_text": "핵심 원칙:",
+                  "href": null
+                },
+                {
+                  "type": "text",
+                  "text": {
+                    "content": " “예뻐서”가 아니라, “더 잘 작동하기 때문에” 디자인하세요.",
+                    "link": null
+                  },
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  },
+                  "plain_text": " “예뻐서”가 아니라, “더 잘 작동하기 때문에” 디자인하세요.",
                   "href": null
                 }
               ],
@@ -2730,10 +2667,10 @@
       },
       {
         "object": "block",
-        "id": "31844860-a4f4-8083-8ddb-f06cb47c1b02",
+        "id": "31844860-a4f4-8077-b09a-dd61b44f5569",
         "parent": {
-          "type": "page_id",
-          "page_id": "2f044860-a4f4-81ab-9cbb-e80c0d3375d7"
+          "type": "block_id",
+          "block_id": "31844860-a4f4-807c-993a-c0284f0ee4ac"
         },
         "created_time": "2026-03-03T14:10:00.000Z",
         "last_edited_time": "2026-03-03T14:10:00.000Z",
@@ -2755,10 +2692,10 @@
     "example": [
       {
         "object": "block",
-        "id": "31844860-a4f4-809d-97e3-d1da87325973",
+        "id": "31844860-a4f4-80ae-95ee-c5d7b74e01c1",
         "parent": {
           "type": "block_id",
-          "block_id": "31844860-a4f4-80f3-b2d4-d13ceef72ceb"
+          "block_id": "31844860-a4f4-80dd-b191-d6cb5b0eb947"
         },
         "created_time": "2026-03-03T14:10:00.000Z",
         "last_edited_time": "2026-03-03T14:10:00.000Z",
@@ -2778,10 +2715,10 @@
       },
       {
         "object": "block",
-        "id": "31844860-a4f4-8083-a43d-ea98fe59011e",
+        "id": "31844860-a4f4-80af-a4a0-f5ca9eca6d94",
         "parent": {
           "type": "block_id",
-          "block_id": "31844860-a4f4-80f3-b2d4-d13ceef72ceb"
+          "block_id": "31844860-a4f4-80dd-b191-d6cb5b0eb947"
         },
         "created_time": "2026-03-03T14:10:00.000Z",
         "last_edited_time": "2026-03-03T14:10:00.000Z",
@@ -2823,10 +2760,10 @@
       },
       {
         "object": "block",
-        "id": "31844860-a4f4-809d-a2d4-c6b07487c700",
+        "id": "31844860-a4f4-80a8-8fe7-d15753d905e7",
         "parent": {
           "type": "block_id",
-          "block_id": "31844860-a4f4-80f3-b2d4-d13ceef72ceb"
+          "block_id": "31844860-a4f4-80dd-b191-d6cb5b0eb947"
         },
         "created_time": "2026-03-03T14:10:00.000Z",
         "last_edited_time": "2026-03-03T14:10:00.000Z",
@@ -2847,7 +2784,7 @@
             {
               "type": "text",
               "text": {
-                "content": "'팀플룸 예약 서비스, Moim'의 디자인 시스템",
+                "content": "'팀플룸 예약 서비스, Moim'의 High-Fi",
                 "link": null
               },
               "annotations": {
@@ -2858,7 +2795,7 @@
                 "code": false,
                 "color": "orange"
               },
-              "plain_text": "'팀플룸 예약 서비스, Moim'의 디자인 시스템",
+              "plain_text": "'팀플룸 예약 서비스, Moim'의 High-Fi",
               "href": null
             }
           ],
@@ -2867,36 +2804,10 @@
       },
       {
         "object": "block",
-        "id": "31844860-a4f4-8024-811e-f2d4a6793101",
+        "id": "31844860-a4f4-80b0-a938-d4a3d120c60c",
         "parent": {
           "type": "block_id",
-          "block_id": "31844860-a4f4-80f3-b2d4-d13ceef72ceb"
-        },
-        "created_time": "2026-03-03T14:10:00.000Z",
-        "last_edited_time": "2026-03-03T14:10:00.000Z",
-        "created_by": {
-          "object": "user",
-          "id": "02042589-fdf7-43c3-b4e0-cbe6175fa46c"
-        },
-        "last_edited_by": {
-          "object": "user",
-          "id": "02042589-fdf7-43c3-b4e0-cbe6175fa46c"
-        },
-        "has_children": false,
-        "archived": false,
-        "in_trash": false,
-        "type": "paragraph",
-        "paragraph": {
-          "rich_text": [],
-          "color": "default"
-        }
-      },
-      {
-        "object": "block",
-        "id": "31844860-a4f4-8008-a2a0-f597a1eebbaa",
-        "parent": {
-          "type": "block_id",
-          "block_id": "31844860-a4f4-80f3-b2d4-d13ceef72ceb"
+          "block_id": "31844860-a4f4-80dd-b191-d6cb5b0eb947"
         },
         "created_time": "2026-03-03T14:10:00.000Z",
         "last_edited_time": "2026-03-03T14:10:00.000Z",
@@ -2916,17 +2827,17 @@
           "caption": [],
           "type": "file",
           "file": {
-            "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/c69962b0-3951-485b-b10a-5bb29576bba8/f3b31fcf-2fbb-485d-84f6-3e661c1c17c6/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466ZTY24LRW%2F20260305%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260305T082222Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEP7%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJIMEYCIQCaHZsijtQwjgiDlSzdHu0V%2BkxNKteQG8m%2Fv9JG1HVDZwIhAO6t%2B4JtnMMXzb09zJ6hruUHKDsoigqxvfeOALcO0krMKogECMf%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMNjM3NDIzMTgzODA1IgxlYUKxhw7LdUyYJPsq3ANnJHU2q04o%2FFPGgQ9naZjwLxUCZzpkG23GHu%2ByMRkIS1Xtgh%2FUFbFf8uUBCfeT5RtCMMGm1ZvJ4SW0XoRN3Fvba6hZJHMVd2tL8caeJCzyvzO5hOsCFnzhiy46XJnWNu654Fl4QIlgzv6BP%2F%2B1jms2WkP%2FElbm7vF9qonRqbKeYGisy3fNwLMo4k6wLWsuSuXo0BiLEscLP2dU9RViq64uFGFOOvoir%2Fi9FxnI4fJPZ5ZK0hsfoAh7DFve9U%2BYDc3gt97hEygFtkKXe1g0mSN51hkTOHWg6MIS0hb1PjmxHUhji8TdMTSWvV%2Bm32%2FkgRnF3%2FCCeVQkpk5EGgIJF%2Fqdt%2Ff3gWEmypkG7Zpjiei3M%2BN3Ifuy9q0sn4gLKm4VPBrBx%2FJt3YGAdI4s8qwAiR%2BLwex%2BSTZNJ6IZ5jS%2B1qtDPmdM8LkgclTT1NMZApcal6xdgfNboEVJXZkNTky7lQ%2FSn0%2B%2FYaPj8DiOMn824W%2F%2Bls4j%2FN5srigCJTPy6d5x7jzpx2eh7yzUWh8j2rknItAx%2Fh6Vud1F7c%2FkmHE6OJ4BzaslcSCPH%2B9uVpXEX1XhHxvgFpYb3czgthDWqpYk3rhHzpDlsHzJNFgopv%2BKZJGZrBHCWC3EuqeSMJeWmzDhsKTNBjqkAZtAkmR8qub4g1oTaImwftQEhjugi82hQ85IG6JUpFhz7K7zeziRl9V5lxrH1No1soVizjEn18XBi3bSG5c0R0Zkk7e2hjsnFKxS9RXLQRgl6hILKc7ZvN7vB5ABws5i4CLz35p9C8GYDzHZjLq7S1KZZVEo2ryL07bPOkNSy9ZouM90mDTdX%2FnVruJyIe1NbenfSPGIW1g0zev01fV83mZJTJP6&X-Amz-Signature=66751616ce01a32d8a1329f6ecc8b19a9e1c4f6b9c595919c8a44017f20171e7&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
-            "expiry_time": "2026-03-05T09:22:22.005Z"
+            "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/c69962b0-3951-485b-b10a-5bb29576bba8/32729afc-1173-48a0-a832-a6f80f607ba5/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4664ALBWG5O%2F20260305%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260305T082233Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEP7%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJIMEYCIQDEfNrXtdeCcrt%2FS3ducTWriKzsM2fNcFOv4cdxYs9EywIhAP7eh9s8a9AYPUp1SX2hs5XUHZ1SKg4WcdJlMP6MEusYKogECMf%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMNjM3NDIzMTgzODA1Igw%2BhY3LlcIUg5oWlNcq3APNWMmjEv4mIQBBzRbjdsVKHpirSVMFZFC7494jtNk8RGks%2F4AKb0qnx9Qe7XQz2Ae1L4JVCgo8Z4hO9E6OfF3%2FRKuZKpq4yqbQ4sHdc5WMkfZmLi7U%2Bkt5GPThDzQvx5e70H5zcZJpV8Id%2FtVZyxE9KpMdaII1gWacyiESfeJmsIEkpSM7GATk6EVWf2uQRr5zXME7cDpkcvqBYBwywtRUPpl6%2FiO%2FYfs2dGFSAXLox%2FmwnvGrtDeROD%2BWAbEggPLxot0P9Has6W2NV4yxj1bF0dgab%2BdV98nmpaahDaBNMEAzB1NGE51zZH%2Fy0xl%2B1LnoRsYzxcxHklgOSl%2BrSQhpvurrV6%2F7RCq4Mtw5YYGZubT9kD1ZGdNFct2mh1ql7H3kwGRycwMUChf9I5Qo2TSfYFYXxcABmtXQzdS8fVZEjQB5mWc5%2BrATrmvUQ3q%2FJBjs%2F8f7F%2FDzHqviWrxR2LvjVclfuK5fDIps3Mp5UqupOqyCihRXK10QP0Dns5TtM43my1Nb%2F6xUpr08%2BB1c3KD7TfR0g55CVoh5fSe8T0JiAaDkvG6KmlnAYo1o9KLBpsFUDxIvjFjF%2BC6TT0X5uDO2XELtUuRzsr8StVavDhQMIJqLK165JjPjsR%2FIgjCQsaTNBjqkAZ7Q9A%2BwWRsKglzb88L%2Fy%2BIGBUxzdezen68mgkxQw9unVublPgMnHocXGo5rEMha9iCpme3IfHEHcJ9DAaoj0AwxTFlz9xlatQZHvpsIeH8suWpVGCln6msixnYJOU77qBdzFcGtgw0y6DYdzR%2BwQ%2FECZelIF9SbjKq5Ls67mpW%2F6C1TL73A9yxKMZ%2BiU79%2F8lxWTedJU03vuGtLPptKtAcuyUpR&X-Amz-Signature=9811490003b3363d8bd74a6c98af37247263e8d660eaf5d8f1b198006ce1f72a&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+            "expiry_time": "2026-03-05T09:22:33.350Z"
           }
         }
       },
       {
         "object": "block",
-        "id": "31844860-a4f4-8006-9b70-c510bedb4039",
+        "id": "31844860-a4f4-802a-851c-d33059cefa9c",
         "parent": {
           "type": "block_id",
-          "block_id": "31844860-a4f4-80f3-b2d4-d13ceef72ceb"
+          "block_id": "31844860-a4f4-80dd-b191-d6cb5b0eb947"
         },
         "created_time": "2026-03-03T14:10:00.000Z",
         "last_edited_time": "2026-03-03T14:10:00.000Z",
@@ -2943,15 +2854,15 @@
         "in_trash": false,
         "type": "link_preview",
         "link_preview": {
-          "url": "https://drive.google.com/file/d/12h16wrsEy1x5QhKRzff5lbEi8lduyjU_/view?usp=sharing"
+          "url": "https://drive.google.com/file/d/1NLTPOA1XexFAV8eClNt67ClN3g140sDZ/view?usp=sharing"
         }
       },
       {
         "object": "block",
-        "id": "31844860-a4f4-80e8-9f95-d155e325c7eb",
+        "id": "31844860-a4f4-8059-95d6-f4e9c0a6c6b1",
         "parent": {
           "type": "block_id",
-          "block_id": "31844860-a4f4-80f3-b2d4-d13ceef72ceb"
+          "block_id": "31844860-a4f4-80dd-b191-d6cb5b0eb947"
         },
         "created_time": "2026-03-03T14:10:00.000Z",
         "last_edited_time": "2026-03-03T14:10:00.000Z",
@@ -2974,10 +2885,105 @@
       },
       {
         "object": "block",
-        "id": "31844860-a4f4-8057-8f36-d2e8c57d3979",
+        "id": "31844860-a4f4-8070-b394-f23c469733a7",
         "parent": {
           "type": "block_id",
-          "block_id": "31844860-a4f4-80f3-b2d4-d13ceef72ceb"
+          "block_id": "31844860-a4f4-80dd-b191-d6cb5b0eb947"
+        },
+        "created_time": "2026-03-03T14:10:00.000Z",
+        "last_edited_time": "2026-03-03T14:10:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "02042589-fdf7-43c3-b4e0-cbe6175fa46c"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "02042589-fdf7-43c3-b4e0-cbe6175fa46c"
+        },
+        "has_children": false,
+        "archived": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "시연 영상",
+                "link": null
+              },
+              "annotations": {
+                "bold": true,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "시연 영상",
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
+      },
+      {
+        "object": "block",
+        "id": "31844860-a4f4-80c5-b281-da05671ba6f8",
+        "parent": {
+          "type": "block_id",
+          "block_id": "31844860-a4f4-80dd-b191-d6cb5b0eb947"
+        },
+        "created_time": "2026-03-03T14:10:00.000Z",
+        "last_edited_time": "2026-03-03T14:10:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "02042589-fdf7-43c3-b4e0-cbe6175fa46c"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "02042589-fdf7-43c3-b4e0-cbe6175fa46c"
+        },
+        "has_children": false,
+        "archived": false,
+        "in_trash": false,
+        "type": "link_preview",
+        "link_preview": {
+          "url": "https://drive.google.com/file/d/1JCxJTwfs6RQKuN52YI0dtJvD5nYY3Mp9/view?usp=sharing"
+        }
+      },
+      {
+        "object": "block",
+        "id": "31844860-a4f4-8058-8295-fc02037ed338",
+        "parent": {
+          "type": "block_id",
+          "block_id": "31844860-a4f4-80dd-b191-d6cb5b0eb947"
+        },
+        "created_time": "2026-03-03T14:10:00.000Z",
+        "last_edited_time": "2026-03-03T14:10:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "02042589-fdf7-43c3-b4e0-cbe6175fa46c"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "02042589-fdf7-43c3-b4e0-cbe6175fa46c"
+        },
+        "has_children": false,
+        "archived": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "color": "default"
+        }
+      },
+      {
+        "object": "block",
+        "id": "31844860-a4f4-80e4-a57b-c1cd38fa3956",
+        "parent": {
+          "type": "block_id",
+          "block_id": "31844860-a4f4-80dd-b191-d6cb5b0eb947"
         },
         "created_time": "2026-03-03T14:10:00.000Z",
         "last_edited_time": "2026-03-03T14:10:00.000Z",
@@ -2998,7 +3004,7 @@
             {
               "type": "text",
               "text": {
-                "content": "1. 디자인 파운데이션 제작 예시",
+                "content": "1. UT 기반 Before & After 비교 예시",
                 "link": null
               },
               "annotations": {
@@ -3009,7 +3015,7 @@
                 "code": false,
                 "color": "default"
               },
-              "plain_text": "1. 디자인 파운데이션 제작 예시",
+              "plain_text": "1. UT 기반 Before & After 비교 예시",
               "href": null
             }
           ],
@@ -3019,10 +3025,10 @@
       },
       {
         "object": "block",
-        "id": "31844860-a4f4-80c0-a473-fc75769fc841",
+        "id": "31844860-a4f4-8018-b247-db6eda59ca8c",
         "parent": {
           "type": "block_id",
-          "block_id": "31844860-a4f4-80f3-b2d4-d13ceef72ceb"
+          "block_id": "31844860-a4f4-80dd-b191-d6cb5b0eb947"
         },
         "created_time": "2026-03-03T14:10:00.000Z",
         "last_edited_time": "2026-03-03T14:10:00.000Z",
@@ -3042,17 +3048,47 @@
           "caption": [],
           "type": "file",
           "file": {
-            "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/c69962b0-3951-485b-b10a-5bb29576bba8/d82bcab9-a68b-4478-a591-2f5c3972f3e8/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466ZTY24LRW%2F20260305%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260305T082222Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEP7%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJIMEYCIQCaHZsijtQwjgiDlSzdHu0V%2BkxNKteQG8m%2Fv9JG1HVDZwIhAO6t%2B4JtnMMXzb09zJ6hruUHKDsoigqxvfeOALcO0krMKogECMf%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMNjM3NDIzMTgzODA1IgxlYUKxhw7LdUyYJPsq3ANnJHU2q04o%2FFPGgQ9naZjwLxUCZzpkG23GHu%2ByMRkIS1Xtgh%2FUFbFf8uUBCfeT5RtCMMGm1ZvJ4SW0XoRN3Fvba6hZJHMVd2tL8caeJCzyvzO5hOsCFnzhiy46XJnWNu654Fl4QIlgzv6BP%2F%2B1jms2WkP%2FElbm7vF9qonRqbKeYGisy3fNwLMo4k6wLWsuSuXo0BiLEscLP2dU9RViq64uFGFOOvoir%2Fi9FxnI4fJPZ5ZK0hsfoAh7DFve9U%2BYDc3gt97hEygFtkKXe1g0mSN51hkTOHWg6MIS0hb1PjmxHUhji8TdMTSWvV%2Bm32%2FkgRnF3%2FCCeVQkpk5EGgIJF%2Fqdt%2Ff3gWEmypkG7Zpjiei3M%2BN3Ifuy9q0sn4gLKm4VPBrBx%2FJt3YGAdI4s8qwAiR%2BLwex%2BSTZNJ6IZ5jS%2B1qtDPmdM8LkgclTT1NMZApcal6xdgfNboEVJXZkNTky7lQ%2FSn0%2B%2FYaPj8DiOMn824W%2F%2Bls4j%2FN5srigCJTPy6d5x7jzpx2eh7yzUWh8j2rknItAx%2Fh6Vud1F7c%2FkmHE6OJ4BzaslcSCPH%2B9uVpXEX1XhHxvgFpYb3czgthDWqpYk3rhHzpDlsHzJNFgopv%2BKZJGZrBHCWC3EuqeSMJeWmzDhsKTNBjqkAZtAkmR8qub4g1oTaImwftQEhjugi82hQ85IG6JUpFhz7K7zeziRl9V5lxrH1No1soVizjEn18XBi3bSG5c0R0Zkk7e2hjsnFKxS9RXLQRgl6hILKc7ZvN7vB5ABws5i4CLz35p9C8GYDzHZjLq7S1KZZVEo2ryL07bPOkNSy9ZouM90mDTdX%2FnVruJyIe1NbenfSPGIW1g0zev01fV83mZJTJP6&X-Amz-Signature=a33294b52c023d6a235d536a0c2fe33d6dfa1fd2136a8246bd63e055952ee4de&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
-            "expiry_time": "2026-03-05T09:22:22.005Z"
+            "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/c69962b0-3951-485b-b10a-5bb29576bba8/4dd75967-6310-43cf-9a63-37272adb5ada/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4664ALBWG5O%2F20260305%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260305T082233Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEP7%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJIMEYCIQDEfNrXtdeCcrt%2FS3ducTWriKzsM2fNcFOv4cdxYs9EywIhAP7eh9s8a9AYPUp1SX2hs5XUHZ1SKg4WcdJlMP6MEusYKogECMf%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMNjM3NDIzMTgzODA1Igw%2BhY3LlcIUg5oWlNcq3APNWMmjEv4mIQBBzRbjdsVKHpirSVMFZFC7494jtNk8RGks%2F4AKb0qnx9Qe7XQz2Ae1L4JVCgo8Z4hO9E6OfF3%2FRKuZKpq4yqbQ4sHdc5WMkfZmLi7U%2Bkt5GPThDzQvx5e70H5zcZJpV8Id%2FtVZyxE9KpMdaII1gWacyiESfeJmsIEkpSM7GATk6EVWf2uQRr5zXME7cDpkcvqBYBwywtRUPpl6%2FiO%2FYfs2dGFSAXLox%2FmwnvGrtDeROD%2BWAbEggPLxot0P9Has6W2NV4yxj1bF0dgab%2BdV98nmpaahDaBNMEAzB1NGE51zZH%2Fy0xl%2B1LnoRsYzxcxHklgOSl%2BrSQhpvurrV6%2F7RCq4Mtw5YYGZubT9kD1ZGdNFct2mh1ql7H3kwGRycwMUChf9I5Qo2TSfYFYXxcABmtXQzdS8fVZEjQB5mWc5%2BrATrmvUQ3q%2FJBjs%2F8f7F%2FDzHqviWrxR2LvjVclfuK5fDIps3Mp5UqupOqyCihRXK10QP0Dns5TtM43my1Nb%2F6xUpr08%2BB1c3KD7TfR0g55CVoh5fSe8T0JiAaDkvG6KmlnAYo1o9KLBpsFUDxIvjFjF%2BC6TT0X5uDO2XELtUuRzsr8StVavDhQMIJqLK165JjPjsR%2FIgjCQsaTNBjqkAZ7Q9A%2BwWRsKglzb88L%2Fy%2BIGBUxzdezen68mgkxQw9unVublPgMnHocXGo5rEMha9iCpme3IfHEHcJ9DAaoj0AwxTFlz9xlatQZHvpsIeH8suWpVGCln6msixnYJOU77qBdzFcGtgw0y6DYdzR%2BwQ%2FECZelIF9SbjKq5Ls67mpW%2F6C1TL73A9yxKMZ%2BiU79%2F8lxWTedJU03vuGtLPptKtAcuyUpR&X-Amz-Signature=b444667cf85b6b93f23c922c573218104ef4016b5dd7be33951be15857322acc&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+            "expiry_time": "2026-03-05T09:22:33.350Z"
           }
         }
       },
       {
         "object": "block",
-        "id": "31844860-a4f4-80b2-a1f2-e7583c1a77a7",
+        "id": "31844860-a4f4-80ec-bdba-d01f00a527bf",
         "parent": {
           "type": "block_id",
-          "block_id": "31844860-a4f4-80f3-b2d4-d13ceef72ceb"
+          "block_id": "31844860-a4f4-80dd-b191-d6cb5b0eb947"
+        },
+        "created_time": "2026-03-03T14:10:00.000Z",
+        "last_edited_time": "2026-03-03T14:10:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "02042589-fdf7-43c3-b4e0-cbe6175fa46c"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "02042589-fdf7-43c3-b4e0-cbe6175fa46c"
+        },
+        "has_children": false,
+        "archived": false,
+        "in_trash": false,
+        "type": "image",
+        "image": {
+          "caption": [],
+          "type": "file",
+          "file": {
+            "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/c69962b0-3951-485b-b10a-5bb29576bba8/1ce533ab-9a9c-4a41-8cb9-aa45a2991487/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4664ALBWG5O%2F20260305%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260305T082233Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEP7%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJIMEYCIQDEfNrXtdeCcrt%2FS3ducTWriKzsM2fNcFOv4cdxYs9EywIhAP7eh9s8a9AYPUp1SX2hs5XUHZ1SKg4WcdJlMP6MEusYKogECMf%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMNjM3NDIzMTgzODA1Igw%2BhY3LlcIUg5oWlNcq3APNWMmjEv4mIQBBzRbjdsVKHpirSVMFZFC7494jtNk8RGks%2F4AKb0qnx9Qe7XQz2Ae1L4JVCgo8Z4hO9E6OfF3%2FRKuZKpq4yqbQ4sHdc5WMkfZmLi7U%2Bkt5GPThDzQvx5e70H5zcZJpV8Id%2FtVZyxE9KpMdaII1gWacyiESfeJmsIEkpSM7GATk6EVWf2uQRr5zXME7cDpkcvqBYBwywtRUPpl6%2FiO%2FYfs2dGFSAXLox%2FmwnvGrtDeROD%2BWAbEggPLxot0P9Has6W2NV4yxj1bF0dgab%2BdV98nmpaahDaBNMEAzB1NGE51zZH%2Fy0xl%2B1LnoRsYzxcxHklgOSl%2BrSQhpvurrV6%2F7RCq4Mtw5YYGZubT9kD1ZGdNFct2mh1ql7H3kwGRycwMUChf9I5Qo2TSfYFYXxcABmtXQzdS8fVZEjQB5mWc5%2BrATrmvUQ3q%2FJBjs%2F8f7F%2FDzHqviWrxR2LvjVclfuK5fDIps3Mp5UqupOqyCihRXK10QP0Dns5TtM43my1Nb%2F6xUpr08%2BB1c3KD7TfR0g55CVoh5fSe8T0JiAaDkvG6KmlnAYo1o9KLBpsFUDxIvjFjF%2BC6TT0X5uDO2XELtUuRzsr8StVavDhQMIJqLK165JjPjsR%2FIgjCQsaTNBjqkAZ7Q9A%2BwWRsKglzb88L%2Fy%2BIGBUxzdezen68mgkxQw9unVublPgMnHocXGo5rEMha9iCpme3IfHEHcJ9DAaoj0AwxTFlz9xlatQZHvpsIeH8suWpVGCln6msixnYJOU77qBdzFcGtgw0y6DYdzR%2BwQ%2FECZelIF9SbjKq5Ls67mpW%2F6C1TL73A9yxKMZ%2BiU79%2F8lxWTedJU03vuGtLPptKtAcuyUpR&X-Amz-Signature=60a0e6bfcb646d6de7747493b8cc404097b08b39a78af328bcdc87f6f86c4b81&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+            "expiry_time": "2026-03-05T09:22:33.350Z"
+          }
+        }
+      },
+      {
+        "object": "block",
+        "id": "31844860-a4f4-80c8-a43c-c85080f52281",
+        "parent": {
+          "type": "block_id",
+          "block_id": "31844860-a4f4-80dd-b191-d6cb5b0eb947"
         },
         "created_time": "2026-03-03T14:10:00.000Z",
         "last_edited_time": "2026-03-03T14:10:00.000Z",
@@ -3073,7 +3109,7 @@
             {
               "type": "text",
               "text": {
-                "content": "컬러 시스템:",
+                "content": "AS-IS:",
                 "link": null
               },
               "annotations": {
@@ -3084,13 +3120,13 @@
                 "code": false,
                 "color": "default"
               },
-              "plain_text": "컬러 시스템:",
+              "plain_text": "AS-IS:",
               "href": null
             },
             {
               "type": "text",
               "text": {
-                "content": " 브랜드 컬러인 Orange를 Primary로 설정하고, 100~900 단계의 명도 팔레트 구축. 역할에 따라 Text-Primary, Surface-Default 등으로 시맨틱 토큰 매핑.",
+                "content": " 예약 완료 화면의 텍스트가 모두 짙은 회색으로 되어있어, 어떤 강의실이 예약되었는지 한눈에 안 들어온다는 피드백 접수.",
                 "link": null
               },
               "annotations": {
@@ -3101,7 +3137,7 @@
                 "code": false,
                 "color": "default"
               },
-              "plain_text": " 브랜드 컬러인 Orange를 Primary로 설정하고, 100~900 단계의 명도 팔레트 구축. 역할에 따라 Text-Primary, Surface-Default 등으로 시맨틱 토큰 매핑.",
+              "plain_text": " 예약 완료 화면의 텍스트가 모두 짙은 회색으로 되어있어, 어떤 강의실이 예약되었는지 한눈에 안 들어온다는 피드백 접수.",
               "href": null
             }
           ],
@@ -3110,10 +3146,10 @@
       },
       {
         "object": "block",
-        "id": "31844860-a4f4-8092-b972-c2dcf887f120",
+        "id": "31844860-a4f4-803d-9c94-c04ebad63ed6",
         "parent": {
           "type": "block_id",
-          "block_id": "31844860-a4f4-80f3-b2d4-d13ceef72ceb"
+          "block_id": "31844860-a4f4-80dd-b191-d6cb5b0eb947"
         },
         "created_time": "2026-03-03T14:10:00.000Z",
         "last_edited_time": "2026-03-03T14:10:00.000Z",
@@ -3134,7 +3170,7 @@
             {
               "type": "text",
               "text": {
-                "content": "타이포그래피:",
+                "content": "TO-BE:",
                 "link": null
               },
               "annotations": {
@@ -3145,13 +3181,13 @@
                 "code": false,
                 "color": "default"
               },
-              "plain_text": "타이포그래피:",
+              "plain_text": "TO-BE:",
               "href": null
             },
             {
               "type": "text",
               "text": {
-                "content": " Pretendard 폰트를 기반으로 Title(H1~H3), Body(1~3), Caption 체계화.",
+                "content": " 강조해야 할 '강의실 이름'과 '시간' 정보의 폰트를 Heading 급으로 키우고, Primary Color를 적용하여 정보의 위계를 재조정함.",
                 "link": null
               },
               "annotations": {
@@ -3162,7 +3198,7 @@
                 "code": false,
                 "color": "default"
               },
-              "plain_text": " Pretendard 폰트를 기반으로 Title(H1~H3), Body(1~3), Caption 체계화.",
+              "plain_text": " 강조해야 할 '강의실 이름'과 '시간' 정보의 폰트를 Heading 급으로 키우고, Primary Color를 적용하여 정보의 위계를 재조정함.",
               "href": null
             }
           ],
@@ -3171,10 +3207,10 @@
       },
       {
         "object": "block",
-        "id": "31844860-a4f4-803f-abc4-d515d1aaf7dc",
+        "id": "31844860-a4f4-8080-870a-d8a547f81f1a",
         "parent": {
-          "type": "page_id",
-          "page_id": "2f044860-a4f4-81ab-9cbb-e80c0d3375d7"
+          "type": "block_id",
+          "block_id": "31844860-a4f4-80dd-b191-d6cb5b0eb947"
         },
         "created_time": "2026-03-03T14:10:00.000Z",
         "last_edited_time": "2026-03-03T14:10:00.000Z",
@@ -3189,17 +3225,55 @@
         "has_children": false,
         "archived": false,
         "in_trash": false,
-        "type": "divider",
-        "divider": {}
+        "type": "bulleted_list_item",
+        "bulleted_list_item": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "결과:",
+                "link": null
+              },
+              "annotations": {
+                "bold": true,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "결과:",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": " \"예뻐졌다\"가 아니라 \"핵심 정보 탐색 시간이 단축되었다\"로 디자인 개선을 논리적으로 증명.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": " \"예뻐졌다\"가 아니라 \"핵심 정보 탐색 시간이 단축되었다\"로 디자인 개선을 논리적으로 증명.",
+              "href": null
+            }
+          ],
+          "color": "default"
+        }
       }
     ],
     "constraints": [
       {
         "object": "block",
-        "id": "31844860-a4f4-80cf-b871-d42ea49039ea",
+        "id": "31844860-a4f4-80b5-b432-d3896dd1dea2",
         "parent": {
           "type": "block_id",
-          "block_id": "31844860-a4f4-80c5-81fd-ed28d7e9f379"
+          "block_id": "31844860-a4f4-80cf-bd08-d92306729896"
         },
         "created_time": "2026-03-03T14:10:00.000Z",
         "last_edited_time": "2026-03-03T14:10:00.000Z",
@@ -3219,262 +3293,10 @@
       },
       {
         "object": "block",
-        "id": "31844860-a4f4-801b-8188-dc591d5700e1",
+        "id": "31844860-a4f4-8058-b159-fbd02f40bb6d",
         "parent": {
           "type": "block_id",
-          "block_id": "31844860-a4f4-80c5-81fd-ed28d7e9f379"
-        },
-        "created_time": "2026-03-03T14:10:00.000Z",
-        "last_edited_time": "2026-03-04T14:45:00.000Z",
-        "created_by": {
-          "object": "user",
-          "id": "02042589-fdf7-43c3-b4e0-cbe6175fa46c"
-        },
-        "last_edited_by": {
-          "object": "user",
-          "id": "02042589-fdf7-43c3-b4e0-cbe6175fa46c"
-        },
-        "has_children": true,
-        "archived": false,
-        "in_trash": false,
-        "type": "bulleted_list_item",
-        "bulleted_list_item": {
-          "rich_text": [
-            {
-              "type": "text",
-              "text": {
-                "content": "무분별한 토큰 생성 금지",
-                "link": null
-              },
-              "annotations": {
-                "bold": true,
-                "italic": false,
-                "strikethrough": false,
-                "underline": false,
-                "code": false,
-                "color": "default"
-              },
-              "plain_text": "무분별한 토큰 생성 금지",
-              "href": null
-            }
-          ],
-          "color": "default"
-        },
-        "children": [
-          {
-            "object": "block",
-            "id": "31844860-a4f4-8009-90d9-dddc7f923611",
-            "parent": {
-              "type": "block_id",
-              "block_id": "31844860-a4f4-801b-8188-dc591d5700e1"
-            },
-            "created_time": "2026-03-03T14:10:00.000Z",
-            "last_edited_time": "2026-03-04T14:45:00.000Z",
-            "created_by": {
-              "object": "user",
-              "id": "02042589-fdf7-43c3-b4e0-cbe6175fa46c"
-            },
-            "last_edited_by": {
-              "object": "user",
-              "id": "02042589-fdf7-43c3-b4e0-cbe6175fa46c"
-            },
-            "has_children": true,
-            "archived": false,
-            "in_trash": false,
-            "type": "bulleted_list_item",
-            "bulleted_list_item": {
-              "rich_text": [
-                {
-                  "type": "text",
-                  "text": {
-                    "content": "규칙",
-                    "link": null
-                  },
-                  "annotations": {
-                    "bold": true,
-                    "italic": false,
-                    "strikethrough": false,
-                    "underline": false,
-                    "code": false,
-                    "color": "default"
-                  },
-                  "plain_text": "규칙",
-                  "href": null
-                }
-              ],
-              "color": "default"
-            },
-            "children": [
-              {
-                "object": "block",
-                "id": "31944860-a4f4-80bd-be45-c0919cef0ae5",
-                "parent": {
-                  "type": "block_id",
-                  "block_id": "31844860-a4f4-8009-90d9-dddc7f923611"
-                },
-                "created_time": "2026-03-04T14:45:00.000Z",
-                "last_edited_time": "2026-03-04T14:45:00.000Z",
-                "created_by": {
-                  "object": "user",
-                  "id": "02042589-fdf7-43c3-b4e0-cbe6175fa46c"
-                },
-                "last_edited_by": {
-                  "object": "user",
-                  "id": "02042589-fdf7-43c3-b4e0-cbe6175fa46c"
-                },
-                "has_children": false,
-                "archived": false,
-                "in_trash": false,
-                "type": "bulleted_list_item",
-                "bulleted_list_item": {
-                  "rich_text": [
-                    {
-                      "type": "text",
-                      "text": {
-                        "content": "프로젝트 규모에 맞지 않게 너무 많은 단계의 컬러나 폰트 스타일을 만들지 마세요.",
-                        "link": null
-                      },
-                      "annotations": {
-                        "bold": false,
-                        "italic": false,
-                        "strikethrough": false,
-                        "underline": false,
-                        "code": false,
-                        "color": "default"
-                      },
-                      "plain_text": "프로젝트 규모에 맞지 않게 너무 많은 단계의 컬러나 폰트 스타일을 만들지 마세요.",
-                      "href": null
-                    }
-                  ],
-                  "color": "default"
-                }
-              }
-            ]
-          },
-          {
-            "object": "block",
-            "id": "31844860-a4f4-80af-b9e7-cb84676fd479",
-            "parent": {
-              "type": "block_id",
-              "block_id": "31844860-a4f4-801b-8188-dc591d5700e1"
-            },
-            "created_time": "2026-03-03T14:10:00.000Z",
-            "last_edited_time": "2026-03-04T14:45:00.000Z",
-            "created_by": {
-              "object": "user",
-              "id": "02042589-fdf7-43c3-b4e0-cbe6175fa46c"
-            },
-            "last_edited_by": {
-              "object": "user",
-              "id": "02042589-fdf7-43c3-b4e0-cbe6175fa46c"
-            },
-            "has_children": true,
-            "archived": false,
-            "in_trash": false,
-            "type": "bulleted_list_item",
-            "bulleted_list_item": {
-              "rich_text": [
-                {
-                  "type": "text",
-                  "text": {
-                    "content": "이유",
-                    "link": null
-                  },
-                  "annotations": {
-                    "bold": true,
-                    "italic": false,
-                    "strikethrough": false,
-                    "underline": false,
-                    "code": false,
-                    "color": "default"
-                  },
-                  "plain_text": "이유",
-                  "href": null
-                }
-              ],
-              "color": "default"
-            },
-            "children": [
-              {
-                "object": "block",
-                "id": "31944860-a4f4-8091-96e8-fb19a2462f36",
-                "parent": {
-                  "type": "block_id",
-                  "block_id": "31844860-a4f4-80af-b9e7-cb84676fd479"
-                },
-                "created_time": "2026-03-04T14:45:00.000Z",
-                "last_edited_time": "2026-03-04T14:45:00.000Z",
-                "created_by": {
-                  "object": "user",
-                  "id": "02042589-fdf7-43c3-b4e0-cbe6175fa46c"
-                },
-                "last_edited_by": {
-                  "object": "user",
-                  "id": "02042589-fdf7-43c3-b4e0-cbe6175fa46c"
-                },
-                "has_children": false,
-                "archived": false,
-                "in_trash": false,
-                "type": "bulleted_list_item",
-                "bulleted_list_item": {
-                  "rich_text": [
-                    {
-                      "type": "text",
-                      "text": {
-                        "content": "쓰이지 않는 토큰이 많아지면 오히려 팀원들이 어떤 것을 써야 할지 혼란스러워합니다. 꼭 필요한 핵심 세트(Core Set)부터 시작하여 점진적으로 확장하세요.",
-                        "link": null
-                      },
-                      "annotations": {
-                        "bold": false,
-                        "italic": false,
-                        "strikethrough": false,
-                        "underline": false,
-                        "code": false,
-                        "color": "default"
-                      },
-                      "plain_text": "쓰이지 않는 토큰이 많아지면 오히려 팀원들이 어떤 것을 써야 할지 혼란스러워합니다. 꼭 필요한 핵심 세트(Core Set)부터 시작하여 점진적으로 확장하세요.",
-                      "href": null
-                    }
-                  ],
-                  "color": "default"
-                }
-              }
-            ]
-          },
-          {
-            "object": "block",
-            "id": "31844860-a4f4-80b0-970d-c018170d87a1",
-            "parent": {
-              "type": "block_id",
-              "block_id": "31844860-a4f4-801b-8188-dc591d5700e1"
-            },
-            "created_time": "2026-03-03T14:10:00.000Z",
-            "last_edited_time": "2026-03-03T14:10:00.000Z",
-            "created_by": {
-              "object": "user",
-              "id": "02042589-fdf7-43c3-b4e0-cbe6175fa46c"
-            },
-            "last_edited_by": {
-              "object": "user",
-              "id": "02042589-fdf7-43c3-b4e0-cbe6175fa46c"
-            },
-            "has_children": false,
-            "archived": false,
-            "in_trash": false,
-            "type": "paragraph",
-            "paragraph": {
-              "rich_text": [],
-              "color": "default"
-            }
-          }
-        ]
-      },
-      {
-        "object": "block",
-        "id": "31844860-a4f4-804a-9b94-eed14bb3cc49",
-        "parent": {
-          "type": "block_id",
-          "block_id": "31844860-a4f4-80c5-81fd-ed28d7e9f379"
+          "block_id": "31844860-a4f4-80cf-bd08-d92306729896"
         },
         "created_time": "2026-03-03T14:10:00.000Z",
         "last_edited_time": "2026-03-03T14:10:00.000Z",
@@ -3495,7 +3317,7 @@
             {
               "type": "text",
               "text": {
-                "content": "로컬 폰트 주의",
+                "content": "목적 잃은 애니메이션 지양",
                 "link": null
               },
               "annotations": {
@@ -3506,7 +3328,7 @@
                 "code": false,
                 "color": "default"
               },
-              "plain_text": "로컬 폰트 주의",
+              "plain_text": "목적 잃은 애니메이션 지양",
               "href": null
             }
           ],
@@ -3515,10 +3337,10 @@
         "children": [
           {
             "object": "block",
-            "id": "31844860-a4f4-80b3-90de-e3728ca5e86c",
+            "id": "31844860-a4f4-807c-9f76-dc6c5578d6a5",
             "parent": {
               "type": "block_id",
-              "block_id": "31844860-a4f4-804a-9b94-eed14bb3cc49"
+              "block_id": "31844860-a4f4-8058-b159-fbd02f40bb6d"
             },
             "created_time": "2026-03-03T14:10:00.000Z",
             "last_edited_time": "2026-03-03T14:10:00.000Z",
@@ -3539,7 +3361,7 @@
                 {
                   "type": "text",
                   "text": {
-                    "content": "자신의 PC에만 설치된 유료 폰트나 특수 폰트를 사용하면, 다른 팀원이 파일을 열었을 때 폰트가 깨지는(Missing Font) 현상이 발생합니다. 누구나 쉽게 접근할 수 있는 구글 폰트(웹 폰트) 기반으로 시스템을 구축하세요.",
+                    "content": "지금은 인터랙션을 화려하게 넣는 단계가 아닙니다. 화면 전환이나 컴포넌트 구조의 타당성을 검증하는 것이 먼저입니다. ",
                     "link": null
                   },
                   "annotations": {
@@ -3550,7 +3372,51 @@
                     "code": false,
                     "color": "default"
                   },
-                  "plain_text": "자신의 PC에만 설치된 유료 폰트나 특수 폰트를 사용하면, 다른 팀원이 파일을 열었을 때 폰트가 깨지는(Missing Font) 현상이 발생합니다. 누구나 쉽게 접근할 수 있는 구글 폰트(웹 폰트) 기반으로 시스템을 구축하세요.",
+                  "plain_text": "지금은 인터랙션을 화려하게 넣는 단계가 아닙니다. 화면 전환이나 컴포넌트 구조의 타당성을 검증하는 것이 먼저입니다. ",
+                  "href": null
+                }
+              ],
+              "color": "default"
+            }
+          },
+          {
+            "object": "block",
+            "id": "31844860-a4f4-8084-a5e6-f89db2bf5b8a",
+            "parent": {
+              "type": "block_id",
+              "block_id": "31844860-a4f4-8058-b159-fbd02f40bb6d"
+            },
+            "created_time": "2026-03-03T14:10:00.000Z",
+            "last_edited_time": "2026-03-03T14:10:00.000Z",
+            "created_by": {
+              "object": "user",
+              "id": "02042589-fdf7-43c3-b4e0-cbe6175fa46c"
+            },
+            "last_edited_by": {
+              "object": "user",
+              "id": "02042589-fdf7-43c3-b4e0-cbe6175fa46c"
+            },
+            "has_children": false,
+            "archived": false,
+            "in_trash": false,
+            "type": "bulleted_list_item",
+            "bulleted_list_item": {
+              "rich_text": [
+                {
+                  "type": "text",
+                  "text": {
+                    "content": "화려한 피그마 애니메이션 효과에 시간을 쏟기보다, 정적 화면의 사용성(Usability)을 끌어올리는 데 집중하세요.",
+                    "link": null
+                  },
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  },
+                  "plain_text": "화려한 피그마 애니메이션 효과에 시간을 쏟기보다, 정적 화면의 사용성(Usability)을 끌어올리는 데 집중하세요.",
                   "href": null
                 }
               ],
@@ -3561,10 +3427,10 @@
       },
       {
         "object": "block",
-        "id": "31844860-a4f4-80e5-986a-f097f4ba2df1",
+        "id": "31844860-a4f4-8072-9a4d-d66aa0d2ec55",
         "parent": {
-          "type": "page_id",
-          "page_id": "2f044860-a4f4-81ab-9cbb-e80c0d3375d7"
+          "type": "block_id",
+          "block_id": "31844860-a4f4-80cf-bd08-d92306729896"
         },
         "created_time": "2026-03-03T14:10:00.000Z",
         "last_edited_time": "2026-03-03T14:10:00.000Z",
@@ -3579,17 +3445,154 @@
         "has_children": false,
         "archived": false,
         "in_trash": false,
-        "type": "divider",
-        "divider": {}
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "color": "default"
+        }
+      },
+      {
+        "object": "block",
+        "id": "31844860-a4f4-8062-87fd-e3a531884649",
+        "parent": {
+          "type": "block_id",
+          "block_id": "31844860-a4f4-80cf-bd08-d92306729896"
+        },
+        "created_time": "2026-03-03T14:10:00.000Z",
+        "last_edited_time": "2026-03-03T14:10:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "02042589-fdf7-43c3-b4e0-cbe6175fa46c"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "02042589-fdf7-43c3-b4e0-cbe6175fa46c"
+        },
+        "has_children": true,
+        "archived": false,
+        "in_trash": false,
+        "type": "bulleted_list_item",
+        "bulleted_list_item": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "소수의 의견에 휘둘리지 않기",
+                "link": null
+              },
+              "annotations": {
+                "bold": true,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "소수의 의견에 휘둘리지 않기",
+              "href": null
+            }
+          ],
+          "color": "default"
+        },
+        "children": [
+          {
+            "object": "block",
+            "id": "31844860-a4f4-808d-89a7-d5ecd4ab7b99",
+            "parent": {
+              "type": "block_id",
+              "block_id": "31844860-a4f4-8062-87fd-e3a531884649"
+            },
+            "created_time": "2026-03-03T14:10:00.000Z",
+            "last_edited_time": "2026-03-03T14:10:00.000Z",
+            "created_by": {
+              "object": "user",
+              "id": "02042589-fdf7-43c3-b4e0-cbe6175fa46c"
+            },
+            "last_edited_by": {
+              "object": "user",
+              "id": "02042589-fdf7-43c3-b4e0-cbe6175fa46c"
+            },
+            "has_children": false,
+            "archived": false,
+            "in_trash": false,
+            "type": "bulleted_list_item",
+            "bulleted_list_item": {
+              "rich_text": [
+                {
+                  "type": "text",
+                  "text": {
+                    "content": "한 명의 사용자가 \"버튼이 초록색이면 좋겠어요\"라고 말했다고 해서 디자인 시스템을 엎지 마세요. ",
+                    "link": null
+                  },
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  },
+                  "plain_text": "한 명의 사용자가 \"버튼이 초록색이면 좋겠어요\"라고 말했다고 해서 디자인 시스템을 엎지 마세요. ",
+                  "href": null
+                }
+              ],
+              "color": "default"
+            }
+          },
+          {
+            "object": "block",
+            "id": "31844860-a4f4-80c3-b6c0-e0d17c538fdf",
+            "parent": {
+              "type": "block_id",
+              "block_id": "31844860-a4f4-8062-87fd-e3a531884649"
+            },
+            "created_time": "2026-03-03T14:10:00.000Z",
+            "last_edited_time": "2026-03-03T14:10:00.000Z",
+            "created_by": {
+              "object": "user",
+              "id": "02042589-fdf7-43c3-b4e0-cbe6175fa46c"
+            },
+            "last_edited_by": {
+              "object": "user",
+              "id": "02042589-fdf7-43c3-b4e0-cbe6175fa46c"
+            },
+            "has_children": false,
+            "archived": false,
+            "in_trash": false,
+            "type": "bulleted_list_item",
+            "bulleted_list_item": {
+              "rich_text": [
+                {
+                  "type": "text",
+                  "text": {
+                    "content": "그것이 취향의 문제인지, 실제 사용성을 크게 해치는 문제인지 팀원들과 객관적으로 판단하여 수정 여부를 결정해야 합니다.",
+                    "link": null
+                  },
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  },
+                  "plain_text": "그것이 취향의 문제인지, 실제 사용성을 크게 해치는 문제인지 팀원들과 객관적으로 판단하여 수정 여부를 결정해야 합니다.",
+                  "href": null
+                }
+              ],
+              "color": "default"
+            }
+          }
+        ]
       }
     ],
     "bonus": [
       {
         "object": "block",
-        "id": "31844860-a4f4-809b-bbf9-da3e40f17cf8",
+        "id": "31844860-a4f4-806b-8225-fe0a9a0df2ba",
         "parent": {
           "type": "block_id",
-          "block_id": "31844860-a4f4-803c-983e-f908b24b1554"
+          "block_id": "31844860-a4f4-80ab-ac04-d1929795b6b4"
         },
         "created_time": "2026-03-03T14:10:00.000Z",
         "last_edited_time": "2026-03-03T14:10:00.000Z",
@@ -3609,10 +3612,10 @@
       },
       {
         "object": "block",
-        "id": "31844860-a4f4-8070-893a-f7e13795ef7f",
+        "id": "31844860-a4f4-8027-9d70-d09498785ef5",
         "parent": {
           "type": "block_id",
-          "block_id": "31844860-a4f4-803c-983e-f908b24b1554"
+          "block_id": "31844860-a4f4-80ab-ac04-d1929795b6b4"
         },
         "created_time": "2026-03-03T14:10:00.000Z",
         "last_edited_time": "2026-03-03T14:10:00.000Z",
@@ -3633,7 +3636,7 @@
             {
               "type": "text",
               "text": {
-                "content": "1. 기초 컴포넌트(Button) 제작해보기",
+                "content": "1. A/B 테스트 가설 세워보기",
                 "link": null
               },
               "annotations": {
@@ -3644,7 +3647,7 @@
                 "code": false,
                 "color": "default"
               },
-              "plain_text": "1. 기초 컴포넌트(Button) 제작해보기",
+              "plain_text": "1. A/B 테스트 가설 세워보기",
               "href": null
             }
           ],
@@ -3654,10 +3657,10 @@
       },
       {
         "object": "block",
-        "id": "31844860-a4f4-80fd-9f3c-e7d4738fe5f7",
+        "id": "31844860-a4f4-8066-81fe-c4fdcb52b2af",
         "parent": {
           "type": "block_id",
-          "block_id": "31844860-a4f4-803c-983e-f908b24b1554"
+          "block_id": "31844860-a4f4-80ab-ac04-d1929795b6b4"
         },
         "created_time": "2026-03-03T14:10:00.000Z",
         "last_edited_time": "2026-03-03T14:10:00.000Z",
@@ -3677,17 +3680,17 @@
           "caption": [],
           "type": "file",
           "file": {
-            "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/c69962b0-3951-485b-b10a-5bb29576bba8/4e872b35-e21d-424e-8dd6-746a921078ed/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466ZDBYBJWT%2F20260305%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260305T082222Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEP7%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJGMEQCICGOpEm6LouzTBrFqzpEWQYaBlyFyyLuCLU7imZmfDQmAiBBwf%2FbiUgM%2FDf2ETJL%2BoQjm3k%2BRat8Q4vU472hP6rXNCqIBAjH%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAAaDDYzNzQyMzE4MzgwNSIMcyX3X10kHsQqjdynKtwD2LgmpB0gAP8M1PscjT8wav61An6JFgPnVQ4O0ZBey6WuE%2FEL3OfJgH%2FyD%2BXDtEzWDv7CVA3MCY1fJWADMTDORChpje1uxTrCLIMlWOH205Z%2FkqxrjA5rdF44UMn5n7WkU2J7xvAnoQDCpxy4oiySa4kF6YSok3uGmpXWYrdtb%2BOCjxTHy5qKWI05JhEedzQ9kAmYSpAH5HLGaO%2Btpvy5TA%2FehxrSr4DkFOEimIVfquACOFEUTMJRf3orZiCyAhKuz3h38QRgMyILKLU48KGbX22R06SRgRUWrFY8YpZG5R1kHQmYd2urPsHbVjYIwpvHm9pu8sdyrcoFeGV043xGC9QICPvBhxd7BYuXAZ9Mt5yOSP%2FHGJwdlitYXphzdbEIRrmlbmtMGI3hxNFsDaXtxpGe3%2F%2FtJQTMDZbiej4c1bznM26JCdiU55DYdwqHcHtyFmvc8jVuCjKIaqMcmnKd0R%2F9ifG7CkjLQsrBgwmHLMwx%2B6cFAcR1XGbHuwj5lMPRHJb%2Bsn%2FXHfrROs3vyg4LATGzYSn0dVQoA4CvELV55Yzss8idh8t%2B6pRWyqWFxInx2E%2BRNB8NCQhD9JjTeYw0HE5xWSmjj1sLcmWq12KZ5hR%2BYCPaBQClpPWldYswgLKkzQY6pgFWG%2F%2BL9v8tJo6LwTcawJFkXrcexmSuVVmZSJL9W91FzyMEdK1tAocxyBJOBP6ZIqThMxhI1GGUi0%2B0J0ll43zGaa5pOQkyySWwduuzDzUTMnyBnGmjD%2Bh%2BJNE0vL60o54Z2%2BzF36t%2FjJm%2Fu7oL21i4%2B6r5zZTbcbnxC4RdND67uJk8z8pe73aIXgaB031eznFD1Zg1FfIYv%2FqrPOf5YOMVHp%2FWmHln&X-Amz-Signature=4e9070d44944c4450ae3c5f0fb46ca62309226df8edefa5eac0cf3732e900e5f&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
-            "expiry_time": "2026-03-05T09:22:22.015Z"
+            "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/c69962b0-3951-485b-b10a-5bb29576bba8/6e8392c7-2a87-4ec5-a583-ce395c192e4e/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB46647GPIYCT%2F20260305%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260305T082233Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEP7%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJIMEYCIQD7%2Bu1j%2BVojoj4fOkT1ec1GJtDtasZfzKB4egeKIGLqSQIhAJLqJoLwFWl9D1oNt3E1xsw6Q4Ih2CeI6OXGCEttBD0hKogECMf%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMNjM3NDIzMTgzODA1Igz9FVvGy5jCKKS3gGsq3AMblpMFMg3zCx4ZJn9VD4%2FkgIkf3HI2HNScdGgHmUI%2FZvJfAXv1g5tPz6kr3avn1adysKtIXKkNrjn3yz49SAa4VYZNnLusRVuVnw1TNKk9Eo%2Fxq4Uicw4jxiP62FBePG8S0gOUL%2BwztxBKaznHuX%2BIqKTHWbGXhy1%2B%2F4zQ8aDykzQRIcBcM7DFcjWPQcS1cSLzPqp1E3%2FAeODA8BXU1SZcZ9f74euXFl5B20fDD5%2BvgR0Rzkf4cKL1pCUVWk1PEcQ0KqkqcjGNB%2BcxdTajs70Vbl3phs6suS0MXggjevBKR0fRuKEBCAM7zuG3q6YeVjspOahR8n6oGo%2BIlw6W5IDesXyvFWKGa6THzyY0NqNNoAh9jLNpkZNVdbPCax9vbXruP%2FN0biUXiXbyOrKrf%2Bn6HvhAblFVy2GxmZNByyj3glAjUaWlkOPXqd0HunltyVjxmMIRkL9yhuIt4PVlaN6IjY%2BsmSYykZxuMBiFhrEUbBA69s5ENpJz0xCa3QJQ%2BbD%2Bgs%2B4%2FMZa7e1dSrSeWLSeIwgPYCMTQzerfjrJ4xIFKuQo7LvByHKHaho%2B%2Fg%2FCnWGQh9nECaikh9jIu%2FZBu3B6YpN%2Fx2XeZfVPk1ykmoT7VmLscaYsO8XStSKOTTDcsKTNBjqkASZldAt%2BrG%2BHptuGiY6fnUSqpl%2BT0j%2BETRTGQeq%2FCaEUvZYoQTHT6UBMxXsH5EXrGkWjug3IhC2YnLpITpKU9eAbqP4%2FC0Ja4M%2FAseQDIkQpIUxFtI5hDbOVYapVNxE9j5fuKK5TMZYXyVHpB7KJpQx6FlSnwp2sWtvk12XGHDcjyckU3qj%2FYQtXfb%2BqBGW5vjwnERr8uXfxK1pgypeRADBdLDbb&X-Amz-Signature=4dc45327a0ff96a88437a56da4bc622e41b826df3e85f9da5dad7f0187b4e6c7&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+            "expiry_time": "2026-03-05T09:22:33.912Z"
           }
         }
       },
       {
         "object": "block",
-        "id": "31844860-a4f4-8052-a44f-d1401e4ae83d",
+        "id": "31844860-a4f4-805e-ad7f-c9c818081081",
         "parent": {
           "type": "block_id",
-          "block_id": "31844860-a4f4-803c-983e-f908b24b1554"
+          "block_id": "31844860-a4f4-80ab-ac04-d1929795b6b4"
         },
         "created_time": "2026-03-03T14:10:00.000Z",
         "last_edited_time": "2026-03-03T14:10:00.000Z",
@@ -3708,7 +3711,7 @@
             {
               "type": "text",
               "text": {
-                "content": "정의한 컬러, 타이포그래피, 간격(Radius, Padding) 규칙을 활용하여 서비스에서 가장 많이 쓰이는 '버튼(Button)' 컴포넌트를 하나 만들어 봅니다.",
+                "content": "의견이 갈리는 두 가지 UI 시안(예: 버튼 색상을 Filled로 할지, Outline으로 할지)을 만들어 실제 사용자에게 짤막하게 선호도나 인지 속도 차이를 묻는 A/B 테스트를 시도해 보세요.",
                 "link": null
               },
               "annotations": {
@@ -3719,7 +3722,7 @@
                 "code": false,
                 "color": "default"
               },
-              "plain_text": "정의한 컬러, 타이포그래피, 간격(Radius, Padding) 규칙을 활용하여 서비스에서 가장 많이 쓰이는 '버튼(Button)' 컴포넌트를 하나 만들어 봅니다.",
+              "plain_text": "의견이 갈리는 두 가지 UI 시안(예: 버튼 색상을 Filled로 할지, Outline으로 할지)을 만들어 실제 사용자에게 짤막하게 선호도나 인지 속도 차이를 묻는 A/B 테스트를 시도해 보세요.",
               "href": null
             }
           ],
@@ -3728,54 +3731,10 @@
       },
       {
         "object": "block",
-        "id": "31844860-a4f4-80e0-83fa-f0612f749aaf",
+        "id": "31844860-a4f4-80c2-a982-d5bfb7d2a84a",
         "parent": {
           "type": "block_id",
-          "block_id": "31844860-a4f4-803c-983e-f908b24b1554"
-        },
-        "created_time": "2026-03-03T14:10:00.000Z",
-        "last_edited_time": "2026-03-03T14:10:00.000Z",
-        "created_by": {
-          "object": "user",
-          "id": "02042589-fdf7-43c3-b4e0-cbe6175fa46c"
-        },
-        "last_edited_by": {
-          "object": "user",
-          "id": "02042589-fdf7-43c3-b4e0-cbe6175fa46c"
-        },
-        "has_children": false,
-        "archived": false,
-        "in_trash": false,
-        "type": "bulleted_list_item",
-        "bulleted_list_item": {
-          "rich_text": [
-            {
-              "type": "text",
-              "text": {
-                "content": " Default, Hover, Disabled 상태(State)에 따라 정의된 토큰이 어떻게 다르게 적용되는지 확인해 봅니다.",
-                "link": null
-              },
-              "annotations": {
-                "bold": false,
-                "italic": false,
-                "strikethrough": false,
-                "underline": false,
-                "code": false,
-                "color": "default"
-              },
-              "plain_text": " Default, Hover, Disabled 상태(State)에 따라 정의된 토큰이 어떻게 다르게 적용되는지 확인해 봅니다.",
-              "href": null
-            }
-          ],
-          "color": "default"
-        }
-      },
-      {
-        "object": "block",
-        "id": "31844860-a4f4-8037-862a-e4b89b0b5b2a",
-        "parent": {
-          "type": "block_id",
-          "block_id": "31844860-a4f4-803c-983e-f908b24b1554"
+          "block_id": "31844860-a4f4-80ab-ac04-d1929795b6b4"
         },
         "created_time": "2026-03-03T14:10:00.000Z",
         "last_edited_time": "2026-03-03T14:10:00.000Z",
@@ -3795,10 +3754,10 @@
       },
       {
         "object": "block",
-        "id": "31844860-a4f4-80c0-a78c-ea3b9850006a",
+        "id": "31844860-a4f4-809f-a57a-c453caf3e8c1",
         "parent": {
           "type": "block_id",
-          "block_id": "31844860-a4f4-803c-983e-f908b24b1554"
+          "block_id": "31844860-a4f4-80ab-ac04-d1929795b6b4"
         },
         "created_time": "2026-03-03T14:10:00.000Z",
         "last_edited_time": "2026-03-03T14:10:00.000Z",
@@ -3819,7 +3778,7 @@
             {
               "type": "text",
               "text": {
-                "content": "2.  다크 모드(Dark Mode) 고민해보기",
+                "content": "2. 웹 접근성(Accessibility) 플러그인 돌려보기",
                 "link": null
               },
               "annotations": {
@@ -3830,7 +3789,7 @@
                 "code": false,
                 "color": "default"
               },
-              "plain_text": "2.  다크 모드(Dark Mode) 고민해보기",
+              "plain_text": "2. 웹 접근성(Accessibility) 플러그인 돌려보기",
               "href": null
             }
           ],
@@ -3840,10 +3799,10 @@
       },
       {
         "object": "block",
-        "id": "31844860-a4f4-80cd-a79c-fe15db2fd186",
+        "id": "31844860-a4f4-8010-9673-dd76549f9fe0",
         "parent": {
           "type": "block_id",
-          "block_id": "31844860-a4f4-803c-983e-f908b24b1554"
+          "block_id": "31844860-a4f4-80ab-ac04-d1929795b6b4"
         },
         "created_time": "2026-03-03T14:10:00.000Z",
         "last_edited_time": "2026-03-03T14:10:00.000Z",
@@ -3863,17 +3822,17 @@
           "caption": [],
           "type": "file",
           "file": {
-            "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/c69962b0-3951-485b-b10a-5bb29576bba8/8d49f16e-da58-4489-85c4-4ac6c246478f/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466ZDBYBJWT%2F20260305%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260305T082222Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEP7%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJGMEQCICGOpEm6LouzTBrFqzpEWQYaBlyFyyLuCLU7imZmfDQmAiBBwf%2FbiUgM%2FDf2ETJL%2BoQjm3k%2BRat8Q4vU472hP6rXNCqIBAjH%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAAaDDYzNzQyMzE4MzgwNSIMcyX3X10kHsQqjdynKtwD2LgmpB0gAP8M1PscjT8wav61An6JFgPnVQ4O0ZBey6WuE%2FEL3OfJgH%2FyD%2BXDtEzWDv7CVA3MCY1fJWADMTDORChpje1uxTrCLIMlWOH205Z%2FkqxrjA5rdF44UMn5n7WkU2J7xvAnoQDCpxy4oiySa4kF6YSok3uGmpXWYrdtb%2BOCjxTHy5qKWI05JhEedzQ9kAmYSpAH5HLGaO%2Btpvy5TA%2FehxrSr4DkFOEimIVfquACOFEUTMJRf3orZiCyAhKuz3h38QRgMyILKLU48KGbX22R06SRgRUWrFY8YpZG5R1kHQmYd2urPsHbVjYIwpvHm9pu8sdyrcoFeGV043xGC9QICPvBhxd7BYuXAZ9Mt5yOSP%2FHGJwdlitYXphzdbEIRrmlbmtMGI3hxNFsDaXtxpGe3%2F%2FtJQTMDZbiej4c1bznM26JCdiU55DYdwqHcHtyFmvc8jVuCjKIaqMcmnKd0R%2F9ifG7CkjLQsrBgwmHLMwx%2B6cFAcR1XGbHuwj5lMPRHJb%2Bsn%2FXHfrROs3vyg4LATGzYSn0dVQoA4CvELV55Yzss8idh8t%2B6pRWyqWFxInx2E%2BRNB8NCQhD9JjTeYw0HE5xWSmjj1sLcmWq12KZ5hR%2BYCPaBQClpPWldYswgLKkzQY6pgFWG%2F%2BL9v8tJo6LwTcawJFkXrcexmSuVVmZSJL9W91FzyMEdK1tAocxyBJOBP6ZIqThMxhI1GGUi0%2B0J0ll43zGaa5pOQkyySWwduuzDzUTMnyBnGmjD%2Bh%2BJNE0vL60o54Z2%2BzF36t%2FjJm%2Fu7oL21i4%2B6r5zZTbcbnxC4RdND67uJk8z8pe73aIXgaB031eznFD1Zg1FfIYv%2FqrPOf5YOMVHp%2FWmHln&X-Amz-Signature=b05e2bd42a9fcce94ad372e5f99d30ed12b4a899b3ecc1e89cc52f1a27055557&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
-            "expiry_time": "2026-03-05T09:22:22.015Z"
+            "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/c69962b0-3951-485b-b10a-5bb29576bba8/b7c0be19-21de-4ce7-b8d7-796cce2690cf/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB46647GPIYCT%2F20260305%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260305T082233Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEP7%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJIMEYCIQD7%2Bu1j%2BVojoj4fOkT1ec1GJtDtasZfzKB4egeKIGLqSQIhAJLqJoLwFWl9D1oNt3E1xsw6Q4Ih2CeI6OXGCEttBD0hKogECMf%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMNjM3NDIzMTgzODA1Igz9FVvGy5jCKKS3gGsq3AMblpMFMg3zCx4ZJn9VD4%2FkgIkf3HI2HNScdGgHmUI%2FZvJfAXv1g5tPz6kr3avn1adysKtIXKkNrjn3yz49SAa4VYZNnLusRVuVnw1TNKk9Eo%2Fxq4Uicw4jxiP62FBePG8S0gOUL%2BwztxBKaznHuX%2BIqKTHWbGXhy1%2B%2F4zQ8aDykzQRIcBcM7DFcjWPQcS1cSLzPqp1E3%2FAeODA8BXU1SZcZ9f74euXFl5B20fDD5%2BvgR0Rzkf4cKL1pCUVWk1PEcQ0KqkqcjGNB%2BcxdTajs70Vbl3phs6suS0MXggjevBKR0fRuKEBCAM7zuG3q6YeVjspOahR8n6oGo%2BIlw6W5IDesXyvFWKGa6THzyY0NqNNoAh9jLNpkZNVdbPCax9vbXruP%2FN0biUXiXbyOrKrf%2Bn6HvhAblFVy2GxmZNByyj3glAjUaWlkOPXqd0HunltyVjxmMIRkL9yhuIt4PVlaN6IjY%2BsmSYykZxuMBiFhrEUbBA69s5ENpJz0xCa3QJQ%2BbD%2Bgs%2B4%2FMZa7e1dSrSeWLSeIwgPYCMTQzerfjrJ4xIFKuQo7LvByHKHaho%2B%2Fg%2FCnWGQh9nECaikh9jIu%2FZBu3B6YpN%2Fx2XeZfVPk1ykmoT7VmLscaYsO8XStSKOTTDcsKTNBjqkASZldAt%2BrG%2BHptuGiY6fnUSqpl%2BT0j%2BETRTGQeq%2FCaEUvZYoQTHT6UBMxXsH5EXrGkWjug3IhC2YnLpITpKU9eAbqP4%2FC0Ja4M%2FAseQDIkQpIUxFtI5hDbOVYapVNxE9j5fuKK5TMZYXyVHpB7KJpQx6FlSnwp2sWtvk12XGHDcjyckU3qj%2FYQtXfb%2BqBGW5vjwnERr8uXfxK1pgypeRADBdLDbb&X-Amz-Signature=948cb05e926996968511f3e1aa599e07068a1adb322b58c3f6cde2da2e9fe766&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+            "expiry_time": "2026-03-05T09:22:33.898Z"
           }
         }
       },
       {
         "object": "block",
-        "id": "31844860-a4f4-80c3-bce5-ddddf2e546d0",
+        "id": "31844860-a4f4-804d-959f-c82337a66e00",
         "parent": {
           "type": "block_id",
-          "block_id": "31844860-a4f4-803c-983e-f908b24b1554"
+          "block_id": "31844860-a4f4-80ab-ac04-d1929795b6b4"
         },
         "created_time": "2026-03-03T14:10:00.000Z",
         "last_edited_time": "2026-03-03T14:10:00.000Z",
@@ -3894,7 +3853,7 @@
             {
               "type": "text",
               "text": {
-                "content": "피그마의 Variables 기능을 활용해 Light 모드와 Dark 모드를 전환할 수 있도록 기본 세팅을 해봅니다.",
+                "content": "피그마에 있는 접근성 관련 플러그인을 활용하여, 여러분이 디자인한 텍스트와 배경색의 명도 대비가 WCAG(웹 콘텐츠 접근성 지침) 기준을 통과하는지 테스트해 보세요. ",
                 "link": null
               },
               "annotations": {
@@ -3905,7 +3864,7 @@
                 "code": false,
                 "color": "default"
               },
-              "plain_text": "피그마의 Variables 기능을 활용해 Light 모드와 Dark 모드를 전환할 수 있도록 기본 세팅을 해봅니다.",
+              "plain_text": "피그마에 있는 접근성 관련 플러그인을 활용하여, 여러분이 디자인한 텍스트와 배경색의 명도 대비가 WCAG(웹 콘텐츠 접근성 지침) 기준을 통과하는지 테스트해 보세요. ",
               "href": null
             }
           ],
@@ -3914,10 +3873,10 @@
       },
       {
         "object": "block",
-        "id": "31844860-a4f4-80ae-8280-e9ffc29a6db6",
+        "id": "31844860-a4f4-8060-9328-d313bf2df115",
         "parent": {
           "type": "block_id",
-          "block_id": "31844860-a4f4-803c-983e-f908b24b1554"
+          "block_id": "31844860-a4f4-80ab-ac04-d1929795b6b4"
         },
         "created_time": "2026-03-03T14:10:00.000Z",
         "last_edited_time": "2026-03-03T14:10:00.000Z",
@@ -3938,7 +3897,7 @@
             {
               "type": "text",
               "text": {
-                "content": "배경색이 어두워질 때 텍스트 색상이 어떻게 달라져야 하는지 직접 매핑해보면, 디자인 토큰 구조를 훨씬 선명하게 이해할 수 있습니다.",
+                "content": "개발자 및 기획자와 협업할 때 강력한 논리적 무기가 됩니다.",
                 "link": null
               },
               "annotations": {
@@ -3949,7 +3908,7 @@
                 "code": false,
                 "color": "default"
               },
-              "plain_text": "배경색이 어두워질 때 텍스트 색상이 어떻게 달라져야 하는지 직접 매핑해보면, 디자인 토큰 구조를 훨씬 선명하게 이해할 수 있습니다.",
+              "plain_text": "개발자 및 기획자와 협업할 때 강력한 논리적 무기가 됩니다.",
               "href": null
             }
           ],
@@ -3960,10 +3919,10 @@
     "vod": [
       {
         "object": "block",
-        "id": "31844860-a4f4-8069-8024-c1f6fcad27b7",
+        "id": "31844860-a4f4-8084-8032-c25bcb97c1f5",
         "parent": {
           "type": "block_id",
-          "block_id": "31844860-a4f4-802d-ad3b-d4861ae8425c"
+          "block_id": "31844860-a4f4-80c8-8cd0-db8e8f21d113"
         },
         "created_time": "2026-03-03T14:10:00.000Z",
         "last_edited_time": "2026-03-03T14:10:00.000Z",
@@ -4010,10 +3969,10 @@
       },
       {
         "object": "block",
-        "id": "31844860-a4f4-8077-9c57-f33b287de38f",
+        "id": "31844860-a4f4-80de-b681-f65445e49538",
         "parent": {
           "type": "block_id",
-          "block_id": "31844860-a4f4-802d-ad3b-d4861ae8425c"
+          "block_id": "31844860-a4f4-80c8-8cd0-db8e8f21d113"
         },
         "created_time": "2026-03-03T14:10:00.000Z",
         "last_edited_time": "2026-03-03T14:10:00.000Z",
@@ -4054,10 +4013,10 @@
       },
       {
         "object": "block",
-        "id": "31844860-a4f4-80be-ac60-f00708c1bfb0",
+        "id": "31844860-a4f4-80fd-a29c-f1eb957205bb",
         "parent": {
           "type": "block_id",
-          "block_id": "31844860-a4f4-802d-ad3b-d4861ae8425c"
+          "block_id": "31844860-a4f4-80c8-8cd0-db8e8f21d113"
         },
         "created_time": "2026-03-03T14:10:00.000Z",
         "last_edited_time": "2026-03-03T14:10:00.000Z",
@@ -4098,10 +4057,10 @@
       },
       {
         "object": "block",
-        "id": "31844860-a4f4-80d5-a0a7-f3b1396c4ff6",
+        "id": "31844860-a4f4-809f-893d-cc0999c107a6",
         "parent": {
           "type": "block_id",
-          "block_id": "31844860-a4f4-802d-ad3b-d4861ae8425c"
+          "block_id": "31844860-a4f4-80c8-8cd0-db8e8f21d113"
         },
         "created_time": "2026-03-03T14:10:00.000Z",
         "last_edited_time": "2026-03-03T14:10:00.000Z",
@@ -4124,10 +4083,10 @@
       },
       {
         "object": "block",
-        "id": "31844860-a4f4-8005-80dd-e16aa8ed8b0e",
+        "id": "31844860-a4f4-80d1-9c29-d92fc308ef45",
         "parent": {
           "type": "block_id",
-          "block_id": "31844860-a4f4-802d-ad3b-d4861ae8425c"
+          "block_id": "31844860-a4f4-80c8-8cd0-db8e8f21d113"
         },
         "created_time": "2026-03-03T14:10:00.000Z",
         "last_edited_time": "2026-03-03T14:10:00.000Z",
@@ -4174,10 +4133,10 @@
       },
       {
         "object": "block",
-        "id": "31844860-a4f4-80f3-868e-f8e3666b363b",
+        "id": "31844860-a4f4-804e-b2a3-ffee9b10348f",
         "parent": {
           "type": "block_id",
-          "block_id": "31844860-a4f4-802d-ad3b-d4861ae8425c"
+          "block_id": "31844860-a4f4-80c8-8cd0-db8e8f21d113"
         },
         "created_time": "2026-03-03T14:10:00.000Z",
         "last_edited_time": "2026-03-03T14:10:00.000Z",
@@ -4218,10 +4177,10 @@
       },
       {
         "object": "block",
-        "id": "31844860-a4f4-8023-b62c-d707a9c500d4",
+        "id": "31844860-a4f4-80a4-94b3-d28bf7cfb5ce",
         "parent": {
           "type": "block_id",
-          "block_id": "31844860-a4f4-802d-ad3b-d4861ae8425c"
+          "block_id": "31844860-a4f4-80c8-8cd0-db8e8f21d113"
         },
         "created_time": "2026-03-03T14:10:00.000Z",
         "last_edited_time": "2026-03-03T14:10:00.000Z",
@@ -4262,10 +4221,10 @@
       },
       {
         "object": "block",
-        "id": "31844860-a4f4-800c-81d0-cb536c35e42f",
+        "id": "31844860-a4f4-802b-b224-c0a77aad3a77",
         "parent": {
           "type": "block_id",
-          "block_id": "31844860-a4f4-802d-ad3b-d4861ae8425c"
+          "block_id": "31844860-a4f4-80c8-8cd0-db8e8f21d113"
         },
         "created_time": "2026-03-03T14:10:00.000Z",
         "last_edited_time": "2026-03-03T14:10:00.000Z",
@@ -4303,34 +4262,8 @@
           ],
           "color": "default"
         }
-      },
-      {
-        "object": "block",
-        "id": "31844860-a4f4-802d-9dd8-c261d6e63ade",
-        "parent": {
-          "type": "page_id",
-          "page_id": "2f044860-a4f4-81ab-9cbb-e80c0d3375d7"
-        },
-        "created_time": "2026-03-03T14:10:00.000Z",
-        "last_edited_time": "2026-03-03T14:10:00.000Z",
-        "created_by": {
-          "object": "user",
-          "id": "02042589-fdf7-43c3-b4e0-cbe6175fa46c"
-        },
-        "last_edited_by": {
-          "object": "user",
-          "id": "02042589-fdf7-43c3-b4e0-cbe6175fa46c"
-        },
-        "has_children": false,
-        "archived": false,
-        "in_trash": false,
-        "type": "paragraph",
-        "paragraph": {
-          "rich_text": [],
-          "color": "default"
-        }
       }
     ]
   },
-  "syncedAt": "2026-03-05T08:22:50.530Z"
+  "syncedAt": "2026-03-05T08:22:51.410Z"
 }

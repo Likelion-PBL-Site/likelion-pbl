@@ -2,6 +2,7 @@
   "missionId": "2f044860a4f481ed9fced95cf94b2286",
   "notionPageId": "2f044860-a4f4-81ed-9fce-d95cf94b2286",
   "fileName": "django-02-자료구조-로직-분리.json",
+  "lastEditedTime": "2026-03-06T03:26:00.000Z",
   "sections": {
     "introduction": [
       {
@@ -4357,8 +4358,8 @@
           "caption": [],
           "type": "file",
           "file": {
-            "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/c69962b0-3951-485b-b10a-5bb29576bba8/5a57b190-e8e4-4882-bd98-e9888d181fe6/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA_2026-01-20_%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE_9.55.29.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4662SYIZ47S%2F20260303%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260303T094946Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjENL%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJIMEYCIQDi12C%2BfJNoao5BdQkhm4jtF7wT6HQ5ZiLYNHNVmri4pAIhAOC93NxftP6aCKNClHTitTaN7lW77fJu1GnyL%2FY%2FMe62KogECJr%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMNjM3NDIzMTgzODA1IgyKcBNgAMTtQvVMYo0q3AOKnmw4FLjNFy5d3KCQJhVMdtEfb2HGnIIbzr%2B3kXrzh6yjqjNPTd%2Bu42vsZAaxT%2FrfEfuILdUk46VZxR3VJDfcfrPIlDl0vOgJYwV0k812f1jx3QwkVl2ZOdtvWMwHZA7FnP1%2FXfyKtUzeCY11zy9BcM6%2FaRMkm9q%2BpUo3e5cRxis69xr1qdvnM6idcIIpXswXFMo8aa69FUJD5u9Mp27TfdHRqc8DwRSeD9eBbLMdGYaCUeoay8TU4AuoPJyAP6%2BgXZjmIUeuYLeYGrGcx1v0%2F8VeRidmQvU9L5aurn0D2E31CsiCS%2Fe1w83z1e2zcC6zqM%2B5%2BnraRUXLb42LXRpGnQ5Quq4ykZiqQEhAGoyNHr5C25iXpnAsu1qsUEom5HKBVcd0rwd0tjdO63TQ33HWW3SFpABNm2koflHKngKqcK6vCLIHJ2WIXAAJT8xPwjiusYgmqx%2FfX0Tn0Eb7bjo2Ap89i7lZYoXhHrIZIwdlYqw2TLFl4uvkqug5D0OEQ22NumI6GVGeIKU%2FtmUtlqKWxtdOumPU5G%2Fgv%2Bg8TWr7DvXg5mNqMr%2BiWAeQXa8BSjgXNQVPWKeHXfJhfo0GfQGJs7tbVWNs2aACgQ1GfdkYmtpRlw0FjP7KgaAUkzCO0JrNBjqkAWqRN0Z6%2F2sZayBUE1rpGbybsS8T1VADTsLpH%2FIu28eYRwzY91CHKKYbfS%2BZDnpHH0VXIO%2FZG1GEl0UE2ObFHY3mh1oIiCjgbou%2Fbr7qlYEvJcPsDKDpMT0ZIS2aFajesjDmF5t2K4ISM4%2BbyYNkJwhPQgFPidPfnghkBSulMl8eI5DIIb0bOyLvIAV2LpOtDw4ppccBwRNfODA3dUD15gxQkFuu&X-Amz-Signature=5649590b6715eee203ae0d6218f22761fd83dd4deb41bc475b466ee1ee43a25d&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
-            "expiry_time": "2026-03-03T10:49:46.867Z"
+            "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/c69962b0-3951-485b-b10a-5bb29576bba8/5a57b190-e8e4-4882-bd98-e9888d181fe6/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA_2026-01-20_%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE_9.55.29.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466WKIMRDK7%2F20260306%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260306T033354Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEBEaCXVzLXdlc3QtMiJHMEUCIDFAqdSryQUTpJYgtvfMqeSJiPbKf%2FUxzkigAULPLz7vAiEAt0RFLsCkx53fpuldCkqHpV8UPCTl1go33nJzCM40fR8qiAQI2v%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDJQbdBe7cCahW2ieSSrcAzuCOur1hezI4F3PgTONmAw1sXpvoI3L9JxEJp9TVjSnLOvaxkxbOOzbwrI%2Foc9IxGxQEIBH4ojB7L%2FGeU8nK3eth7eMGamij2vc85O6ggMMcotp2Tg4mTANVa6TVcD0m3VY3kdeQwHM4QUqj%2FV9wOSRpoSs18JjmMTt71s81aUSWaQX%2FU96WDFG7LlB%2BPZ5hWafNr6mCJGLtapfC8jY3mj6DMTWQAIHExsXJ6uLdYEdrKgqyEbJH09CEYw0nIzXtUBxyBQjPLDHeauPwjgeNI1KrnDQY8cQz0ASwyaH3BrFpeHfrdQ7nN57Xo0y03FhQmwYBYr2VhFeyn%2BDPMAV8ZqGjHvMVQ7Q1vPhm8tRL%2BKuN4zujlPBbfBDpXt%2FDwLitrf6iWC%2BRPUMcyofedhWvWbDYn30uQrbBnFSAJvKdCcIM%2Fc2JpepJurbOfwLGC1upipmB367tDXPXX3fzc4GWU0%2F20Aet2GJHvd45zRe7XOlcpbdFnfFoOP7IiTVBYf4YBN6LPBXOOoZudrwbrTfrVHTNLKQd7vRj8VCJiKAvVGUci%2BUCtOWdGiCVKK3fqHga3JK7Vb2cG94VvkuolWxTL3Apu3B%2BIS0dc%2BrvS7bnb3ahNZdYLMXww7FSvWoMKrPqM0GOqUBrGgz1TN9eHwvDen9W%2FO7GwyYtI1CUezCe1OPAWpMXWeV2ZghO8YzWbAkC2LR1rZ9yBDlOhGk0wyA3LTaD0iZmo8jSBI8Oxbww4hOhtQ3tPKaks01xVrJREEJyItWlWE5TFzzYzRyJn%2F9fIvcNq4pUS9HtpG0OAyK2BZeLwxkhZHemZviGZGoMV6pX8WG%2FtdDLhoEekM5dapM%2BhkkefPqDl3E4bJt&X-Amz-Signature=ad469f3d756b9bad25d935078e37770172b9ab2b3f48992de92a84c2411ad838&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+            "expiry_time": "2026-03-06T04:33:54.617Z"
           }
         }
       },
@@ -4936,14 +4937,14 @@
           "block_id": "2f544860-a4f4-80f1-b9d4-c9a566bf4473"
         },
         "created_time": "2026-01-27T04:18:00.000Z",
-        "last_edited_time": "2026-02-03T05:24:00.000Z",
+        "last_edited_time": "2026-03-06T03:26:00.000Z",
         "created_by": {
           "object": "user",
           "id": "2aed872b-594c-81eb-bc82-000291164988"
         },
         "last_edited_by": {
           "object": "user",
-          "id": "2aed872b-594c-81eb-bc82-000291164988"
+          "id": "02042589-fdf7-43c3-b4e0-cbe6175fa46c"
         },
         "has_children": false,
         "archived": false,
@@ -4954,24 +4955,7 @@
             {
               "type": "text",
               "text": {
-                "content": "입력값 검증 로직을 별도의 함수로 분리",
-                "link": null
-              },
-              "annotations": {
-                "bold": false,
-                "italic": false,
-                "strikethrough": false,
-                "underline": false,
-                "code": false,
-                "color": "orange"
-              },
-              "plain_text": "입력값 검증 로직을 별도의 함수로 분리",
-              "href": null
-            },
-            {
-              "type": "text",
-              "text": {
-                "content": "해 코드 구조를 개선할 수 있다.",
+                "content": "입력값 검증 로직을 별도의 함수로 분리해 코드 구조를 개선할 수 있다.",
                 "link": null
               },
               "annotations": {
@@ -4982,7 +4966,7 @@
                 "code": false,
                 "color": "default"
               },
-              "plain_text": "해 코드 구조를 개선할 수 있다.",
+              "plain_text": "입력값 검증 로직을 별도의 함수로 분리해 코드 구조를 개선할 수 있다.",
               "href": null
             }
           ],
@@ -4997,14 +4981,14 @@
           "block_id": "2f544860-a4f4-80f1-b9d4-c9a566bf4473"
         },
         "created_time": "2026-01-27T04:18:00.000Z",
-        "last_edited_time": "2026-02-03T05:24:00.000Z",
+        "last_edited_time": "2026-03-06T03:26:00.000Z",
         "created_by": {
           "object": "user",
           "id": "2aed872b-594c-81eb-bc82-000291164988"
         },
         "last_edited_by": {
           "object": "user",
-          "id": "2aed872b-594c-81eb-bc82-000291164988"
+          "id": "02042589-fdf7-43c3-b4e0-cbe6175fa46c"
         },
         "has_children": false,
         "archived": false,
@@ -5015,7 +4999,7 @@
             {
               "type": "text",
               "text": {
-                "content": "동일한 이름의 ",
+                "content": "동일한 이름의 아기사자가 중복 등록되지 않도록 처리할 수 있다.",
                 "link": null
               },
               "annotations": {
@@ -5026,41 +5010,7 @@
                 "code": false,
                 "color": "default"
               },
-              "plain_text": "동일한 이름의 ",
-              "href": null
-            },
-            {
-              "type": "text",
-              "text": {
-                "content": "아기사자가 중복 등록",
-                "link": null
-              },
-              "annotations": {
-                "bold": false,
-                "italic": false,
-                "strikethrough": false,
-                "underline": false,
-                "code": false,
-                "color": "orange"
-              },
-              "plain_text": "아기사자가 중복 등록",
-              "href": null
-            },
-            {
-              "type": "text",
-              "text": {
-                "content": "되지 않도록 처리할 수 있다.",
-                "link": null
-              },
-              "annotations": {
-                "bold": false,
-                "italic": false,
-                "strikethrough": false,
-                "underline": false,
-                "code": false,
-                "color": "default"
-              },
-              "plain_text": "되지 않도록 처리할 수 있다.",
+              "plain_text": "동일한 이름의 아기사자가 중복 등록되지 않도록 처리할 수 있다.",
               "href": null
             }
           ],
@@ -5075,14 +5025,14 @@
           "block_id": "2f544860-a4f4-80f1-b9d4-c9a566bf4473"
         },
         "created_time": "2026-01-27T04:18:00.000Z",
-        "last_edited_time": "2026-02-03T05:25:00.000Z",
+        "last_edited_time": "2026-03-06T03:26:00.000Z",
         "created_by": {
           "object": "user",
           "id": "2aed872b-594c-81eb-bc82-000291164988"
         },
         "last_edited_by": {
           "object": "user",
-          "id": "2aed872b-594c-81eb-bc82-000291164988"
+          "id": "02042589-fdf7-43c3-b4e0-cbe6175fa46c"
         },
         "has_children": false,
         "archived": false,
@@ -5093,7 +5043,7 @@
             {
               "type": "text",
               "text": {
-                "content": "트랙과 기수를 동시에 ",
+                "content": "트랙과 기수를 동시에 조건으로 사용해 아기사자를 조회할 수 있다.",
                 "link": null
               },
               "annotations": {
@@ -5104,41 +5054,7 @@
                 "code": false,
                 "color": "default"
               },
-              "plain_text": "트랙과 기수를 동시에 ",
-              "href": null
-            },
-            {
-              "type": "text",
-              "text": {
-                "content": "조건",
-                "link": null
-              },
-              "annotations": {
-                "bold": false,
-                "italic": false,
-                "strikethrough": false,
-                "underline": false,
-                "code": false,
-                "color": "orange"
-              },
-              "plain_text": "조건",
-              "href": null
-            },
-            {
-              "type": "text",
-              "text": {
-                "content": "으로 사용해 아기사자를 조회할 수 있다.",
-                "link": null
-              },
-              "annotations": {
-                "bold": false,
-                "italic": false,
-                "strikethrough": false,
-                "underline": false,
-                "code": false,
-                "color": "default"
-              },
-              "plain_text": "으로 사용해 아기사자를 조회할 수 있다.",
+              "plain_text": "트랙과 기수를 동시에 조건으로 사용해 아기사자를 조회할 수 있다.",
               "href": null
             }
           ],
@@ -5153,14 +5069,14 @@
           "block_id": "2f544860-a4f4-80f1-b9d4-c9a566bf4473"
         },
         "created_time": "2026-01-27T04:18:00.000Z",
-        "last_edited_time": "2026-02-03T05:25:00.000Z",
+        "last_edited_time": "2026-03-06T03:26:00.000Z",
         "created_by": {
           "object": "user",
           "id": "2aed872b-594c-81eb-bc82-000291164988"
         },
         "last_edited_by": {
           "object": "user",
-          "id": "2aed872b-594c-81eb-bc82-000291164988"
+          "id": "02042589-fdf7-43c3-b4e0-cbe6175fa46c"
         },
         "has_children": false,
         "archived": false,
@@ -5171,7 +5087,7 @@
             {
               "type": "text",
               "text": {
-                "content": "검색 또는 조회 결과가 여러 개인 경우 ",
+                "content": "검색 또는 조회 결과가 여러 개인 경우 리스트 형태로 출력할 수 있다.",
                 "link": null
               },
               "annotations": {
@@ -5182,41 +5098,7 @@
                 "code": false,
                 "color": "default"
               },
-              "plain_text": "검색 또는 조회 결과가 여러 개인 경우 ",
-              "href": null
-            },
-            {
-              "type": "text",
-              "text": {
-                "content": "리스트 형태로 출력",
-                "link": null
-              },
-              "annotations": {
-                "bold": false,
-                "italic": false,
-                "strikethrough": false,
-                "underline": false,
-                "code": false,
-                "color": "orange"
-              },
-              "plain_text": "리스트 형태로 출력",
-              "href": null
-            },
-            {
-              "type": "text",
-              "text": {
-                "content": "할 수 있다.",
-                "link": null
-              },
-              "annotations": {
-                "bold": false,
-                "italic": false,
-                "strikethrough": false,
-                "underline": false,
-                "code": false,
-                "color": "default"
-              },
-              "plain_text": "할 수 있다.",
+              "plain_text": "검색 또는 조회 결과가 여러 개인 경우 리스트 형태로 출력할 수 있다.",
               "href": null
             }
           ],
@@ -5231,14 +5113,14 @@
           "block_id": "2f544860-a4f4-80f1-b9d4-c9a566bf4473"
         },
         "created_time": "2026-01-27T04:18:00.000Z",
-        "last_edited_time": "2026-01-27T04:18:00.000Z",
+        "last_edited_time": "2026-03-06T03:26:00.000Z",
         "created_by": {
           "object": "user",
           "id": "2aed872b-594c-81eb-bc82-000291164988"
         },
         "last_edited_by": {
           "object": "user",
-          "id": "2aed872b-594c-81eb-bc82-000291164988"
+          "id": "02042589-fdf7-43c3-b4e0-cbe6175fa46c"
         },
         "has_children": false,
         "archived": false,
@@ -5275,14 +5157,14 @@
           "block_id": "2f544860-a4f4-80f1-b9d4-c9a566bf4473"
         },
         "created_time": "2026-01-27T04:18:00.000Z",
-        "last_edited_time": "2026-02-03T05:25:00.000Z",
+        "last_edited_time": "2026-03-06T03:26:00.000Z",
         "created_by": {
           "object": "user",
           "id": "2aed872b-594c-81eb-bc82-000291164988"
         },
         "last_edited_by": {
           "object": "user",
-          "id": "2aed872b-594c-81eb-bc82-000291164988"
+          "id": "02042589-fdf7-43c3-b4e0-cbe6175fa46c"
         },
         "has_children": false,
         "archived": false,
@@ -5293,7 +5175,7 @@
             {
               "type": "text",
               "text": {
-                "content": "아기사자 정보 구조를 확장하더라도 ",
+                "content": "아기사자 정보 구조를 확장하더라도 기존 기능 수정이 최소화되도록 개선할 수 있다.",
                 "link": null
               },
               "annotations": {
@@ -5304,41 +5186,7 @@
                 "code": false,
                 "color": "default"
               },
-              "plain_text": "아기사자 정보 구조를 확장하더라도 ",
-              "href": null
-            },
-            {
-              "type": "text",
-              "text": {
-                "content": "기존 기능 수정이 최소화",
-                "link": null
-              },
-              "annotations": {
-                "bold": false,
-                "italic": false,
-                "strikethrough": false,
-                "underline": false,
-                "code": false,
-                "color": "orange"
-              },
-              "plain_text": "기존 기능 수정이 최소화",
-              "href": null
-            },
-            {
-              "type": "text",
-              "text": {
-                "content": "되도록 개선할 수 있다.",
-                "link": null
-              },
-              "annotations": {
-                "bold": false,
-                "italic": false,
-                "strikethrough": false,
-                "underline": false,
-                "code": false,
-                "color": "default"
-              },
-              "plain_text": "되도록 개선할 수 있다.",
+              "plain_text": "아기사자 정보 구조를 확장하더라도 기존 기능 수정이 최소화되도록 개선할 수 있다.",
               "href": null
             }
           ],
@@ -5393,8 +5241,8 @@
           "caption": [],
           "type": "file",
           "file": {
-            "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/c69962b0-3951-485b-b10a-5bb29576bba8/d11b9b95-d041-4c13-9c1d-08735a120279/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA_2026-01-20_%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE_9.59.37.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466TCNZVKAJ%2F20260303%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260303T094949Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjENL%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJGMEQCIQCD0KYU%2B0FYct8I2mRyv3g4tgpsbEh74ecp2NO4CL61UwIfPRCxfpqVYVM8RETt11zrZ3ZntNum4uIeHiVoncsUtiqIBAia%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAAaDDYzNzQyMzE4MzgwNSIMltoP%2BrN5aabSkKUiKtwD1AFMX%2F0K1KlCHLlODQeZJVC%2F7viYdpoiEvgZ%2BO5RS6zew7cq22j%2FywLuE%2BgduIAP%2B4Oq5lUnbyNNMzUbNnniK8kPuEeHUpNLmAcQWQ2u%2F%2BBSda%2Fe7gQaLbw7D%2FqA6XZVefsTaSfyS45nsARvQuIcLVIR%2BWoAlF%2FVNJ5jGUWJ6sS9C6SO%2BE4W8ZDX3xqHCRxml%2Bc62I5nHNceBdrs4%2Bdi5GTAIRZs12CY1obw2O%2FTpxxujY4Rg7kTeXgciX6rlRmZH9iMcPZlxGC21Nev9ErIazqxfHj60xpqV9CoWX%2BAQd3cWR0ooVOM2kwUpbcBjH47NUa5e%2BOFr6cPT0HmM26A2eGHEeBlQveHQU%2FDc6586zpwRUdoXfnnqU7ECGri7yL8Qvvn7JL7wzKG6hjkzqgpHl8eldNjU%2B2qyVfPcrqjp9c6CLjIyoKofJwSyoZ%2BE99MBzDFiTqfS9iHFy2CQHMqyWSKBAsdMV%2FRBcTH0EOblnvVneCSR9yMXBOZZwcf8IuOyzTMRl5MyaJ71p9AmWiOIYq5qTL%2FJ8%2BRvOjAIRfaSidy415TVpukCRSc5ANCyWj3bWApqEQVcw2jAXY9seCd02kuPtiOtqAAVtJ8gUBytQJk%2BLFxK0CCh6GBvmQwnM%2BazQY6pgFVu2GpD9zHUmEzqLt1X6ZwSJ6Rf%2B2f9sbkeCs659hTYE8K8yYy6K4ZRr7Ilmabe4QqRltAAtSaRXd8exxUgLoScqhArsypbnO8f78SeS8M%2ByE9cBE7CUWN8I87r89w%2Br5mXSgePUBKVRfbQU5UQQpmZuFcQAcdMn0AbQvpTIEbCLP1%2BpswIg0S71dV%2F%2BnIqTn975jA5Ledb8Sp6EKR04b4T8MQegMN&X-Amz-Signature=c6c5399257450d75ef0059fbb5989e112bff180a0f721869195ee8110e65b7bd&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
-            "expiry_time": "2026-03-03T10:49:49.081Z"
+            "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/c69962b0-3951-485b-b10a-5bb29576bba8/d11b9b95-d041-4c13-9c1d-08735a120279/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA_2026-01-20_%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE_9.59.37.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4662MBI7DL7%2F20260306%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260306T033354Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEBEaCXVzLXdlc3QtMiJHMEUCIQD5H825jrXdLWbLWQdcuNUtbmqjglvoOY5qXappcOC6mAIgcql5Gc%2BMiq281WN3t147LtETWRKjdBFLfIg9y7q%2BuM0qiAQI2v%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDC%2FAEMSQngF3t729YSrcA0tTulCrdUWEvk7hDQjF28syricV493urFHLKhgdELaMJpyk2cpOJZV%2BKapoepSL%2Foyg1HDxIA2YTxTpFUeD%2B6xONH2g3fiNADGpC0TRzjNT98%2BmfH992iCZQFrPzAx4hd9Flf0zbxsqQK9Jvaq0Xtjr9v33FpK9FZnoBv1hXO8%2BzPnzVNVwKaH2pdOZZ33eNLCNF8QNA54138QFwnAS75ugk3jGd0oxCoI4E9zPZyn2LSxj4tHyFx3tHjevCWbkCaBDbK4VEUxIGLgYSe%2FXq%2Bc0ipVD9V3M4BzScckLAJ3cwcAp3tY30Ahv0MbwLC47ncgTWOBWmiV6oaZxhiyTVzSReCXtmJOE77WDTVVWwnmoDkjP1kAtjaQ4QEqD%2BJrrz05vtWYvNFm0ehz5C9tAmf%2BmsgXSPpHALAzCHnlfPulCy0ijYcNdjL6kdrR2y4e4kppbu3GeYGd93tHwMHO8UKrpP8W58lDiIgw8GIHEkprut09P7Dgz2X1jhVVnRzF%2FjNh94mzfDHAzeZqeru96Frus3WttZW9jZcdFlRVYM7A1FMxv6b6Dz9bUSYXel7pGBgzTzJ6kqu4fLOz2gj%2Bdj5rBCZP97S0elmLakluvpF5x0YdhOZ1uzXasolViMPPOqM0GOqUBuKFQyZkLBkYqtgc7RfyD5Ap%2FGMBRj8wRwFSECAN0PfS7tjMUI7gnVXl9rI0S5lodu%2FZMNLXKbDBO4e3tTEUEyi7WhRvodvthkmOIpoTZROk4fkD%2BDsvuRvIsSIcQRiQlGQDvFD73LRMQ6j6PWF3bGcSplxjcAH4HPGW1mj2dAJV6MknwU%2BaekvATrtnHVRGazqAW%2Bn4LmxlLcR78uWODoSqc7K4f&X-Amz-Signature=5fdd7d8b3afda519cd195af4f0fee67bcbfc2000b91ffd263f0e90c9ed2d5591&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+            "expiry_time": "2026-03-06T04:33:54.717Z"
           }
         }
       },
@@ -5607,5 +5455,5 @@
       }
     ]
   },
-  "syncedAt": "2026-03-03T09:49:49.561Z"
+  "syncedAt": "2026-03-06T03:33:57.001Z"
 }

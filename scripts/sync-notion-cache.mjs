@@ -6,7 +6,8 @@
  * GitHub Actions에서 주기적으로 실행되어 모든 미션을 미리 캐싱합니다.
  *
  * 사용법:
- *   node scripts/sync-notion-cache.mjs                    # 모든 미션 동기화
+ *   node scripts/sync-notion-cache.mjs                    # 증분 동기화 (변경된 미션만)
+ *   node scripts/sync-notion-cache.mjs --force             # 전체 강제 동기화
  *   node scripts/sync-notion-cache.mjs <미션ID 또는 페이지ID>  # 특정 미션만 동기화
  *
  * 환경 변수:
@@ -28,6 +29,61 @@ config();
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const CACHE_DIR = path.join(__dirname, "../src/data/notion-cache");
+
+// ─── 동시성 제어 유틸리티 ───
+
+/**
+ * Promise 기반 동시성 제한 (p-limit 대체)
+ * @param {number} concurrency - 최대 동시 실행 수
+ */
+function createLimiter(concurrency) {
+  const queue = [];
+  let active = 0;
+
+  function next() {
+    while (active < concurrency && queue.length > 0) {
+      active++;
+      const { fn, resolve, reject } = queue.shift();
+      fn().then(resolve, reject).finally(() => {
+        active--;
+        next();
+      });
+    }
+  }
+
+  return function limit(fn) {
+    return new Promise((resolve, reject) => {
+      queue.push({ fn, resolve, reject });
+      next();
+    });
+  };
+}
+
+/**
+ * 429 Rate Limit 재시도 래퍼
+ * Notion API의 Retry-After 헤더를 존중한다.
+ */
+async function withRetry(fn, maxRetries = 3) {
+  for (let attempt = 0; attempt <= maxRetries; attempt++) {
+    try {
+      return await fn();
+    } catch (error) {
+      if (error?.status === 429 && attempt < maxRetries) {
+        const retryAfter = error?.headers?.get?.("retry-after");
+        const waitMs = retryAfter ? parseInt(retryAfter) * 1000 : 1000 * Math.pow(2, attempt);
+        console.log(`   ⏳ Rate limit. ${waitMs}ms 후 재시도 (${attempt + 1}/${maxRetries})`);
+        await new Promise(r => setTimeout(r, waitMs));
+        continue;
+      }
+      throw error;
+    }
+  }
+}
+
+// Notion API 동시성 제한 (rate limit: 3 req/sec)
+const apiLimiter = createLimiter(3);
+// 미션 단위 동시 처리 상한 (메모리 관리)
+const missionLimiter = createLimiter(5);
 
 // 트랙별 Notion 데이터베이스 ID
 const TRACK_DATABASES = {
@@ -153,9 +209,9 @@ async function fetchMissionsFromDatabase(client, databaseId, trackName) {
   const missions = [];
 
   try {
-    const response = await client.databases.query({
-      database_id: databaseId,
-    });
+    const response = await withRetry(() =>
+      apiLimiter(() => client.databases.query({ database_id: databaseId }))
+    );
 
     for (const page of response.results) {
       if (!("properties" in page)) continue;
@@ -179,6 +235,7 @@ async function fetchMissionsFromDatabase(client, databaseId, trackName) {
         notionPageId: pageId,
         title: topic || weekStr,
         track: trackName,
+        lastEditedTime: page.last_edited_time,
         // MissionSummary 형식에 맞게 추가
         summary: {
           id: normalizedId,
@@ -256,31 +313,43 @@ function findSectionKey(text) {
 }
 
 /**
- * 페이지의 모든 블록 가져오기 (재귀)
+ * 페이지의 모든 블록 가져오기 (병렬 자식 블록 fetch)
  */
 async function fetchPageBlocks(client, pageId) {
   const blocks = [];
   let cursor;
 
+  // 1. 현재 depth의 블록을 모두 수집
   do {
-    const response = await client.blocks.children.list({
-      block_id: pageId,
-      start_cursor: cursor,
-      page_size: 100,
-    });
+    const response = await withRetry(() =>
+      apiLimiter(() =>
+        client.blocks.children.list({
+          block_id: pageId,
+          start_cursor: cursor,
+          page_size: 100,
+        })
+      )
+    );
 
     for (const block of response.results) {
       if ("type" in block) {
-        // 자식 블록이 있으면 재귀적으로 가져오기
-        if (block.has_children) {
-          block.children = await fetchPageBlocks(client, block.id);
-        }
         blocks.push(block);
       }
     }
 
     cursor = response.next_cursor ?? undefined;
   } while (cursor);
+
+  // 2. has_children인 블록들의 자식을 병렬로 fetch
+  // 주의: apiLimiter로 감싸지 않음 (내부에서 이미 apiLimiter 사용, 중첩 시 deadlock)
+  const blocksWithChildren = blocks.filter((b) => b.has_children);
+  if (blocksWithChildren.length > 0) {
+    await Promise.all(
+      blocksWithChildren.map(async (block) => {
+        block.children = await fetchPageBlocks(client, block.id);
+      })
+    );
+  }
 
   return blocks;
 }
@@ -360,7 +429,7 @@ function parseBlocksToSections(blocks) {
  * 단일 미션 동기화
  */
 async function syncMission(client, mission) {
-  const { missionId, notionPageId, title, track, summary } = mission;
+  const { missionId, notionPageId, title, track, summary, lastEditedTime } = mission;
   const order = summary?.order || 0;
 
   // 가독성 있는 파일명 생성
@@ -387,6 +456,7 @@ async function syncMission(client, mission) {
     missionId,
     notionPageId,
     fileName,  // 새 파일명 참조용
+    lastEditedTime,  // 증분 동기화용 (변경 감지)
     sections,
     syncedAt: new Date().toISOString(),
   };
@@ -472,10 +542,12 @@ async function saveTrackCache(trackName, missions) {
  */
 async function main() {
   const args = process.argv.slice(2);
-  const targetMissionId = args[0];
+  const forceSync = args.includes("--force");
+  const targetMissionId = args.find((a) => a !== "--force");
 
   console.log("🔄 Notion 캐시 동기화 시작");
   console.log(`   캐시 디렉토리: ${CACHE_DIR}`);
+  if (forceSync) console.log("   🔧 강제 동기화 모드 (--force)");
 
   // 캐시 디렉토리 확인
   try {
@@ -487,7 +559,7 @@ async function main() {
 
   const client = getNotionClient();
 
-  // 🆕 Notion DB에서 모든 미션 동적 조회
+  // Notion DB에서 모든 미션 동적 조회
   console.log("\n📡 Notion 데이터베이스에서 미션 목록 조회 중...");
   const allMissions = await fetchAllMissions(client);
 
@@ -496,15 +568,17 @@ async function main() {
     process.exit(1);
   }
 
-  // 🆕 트랙별 미션 목록 캐시 저장
+  // 트랙별 미션 목록 캐시 저장
   console.log("\n📦 트랙별 미션 목록 캐시 저장 중...");
-  const tracks = [...new Set(allMissions.map((m) => m.track))];
-  for (const track of tracks) {
+  const trackNames = [...new Set(allMissions.map((m) => m.track))];
+  for (const track of trackNames) {
     await saveTrackCache(track, allMissions);
   }
 
-  // 기존 개별 캐시 파일 정리 (새 파일명으로 교체)
-  await cleanupOldCacheFiles();
+  // --force일 때만 기존 캐시 파일 정리
+  if (forceSync) {
+    await cleanupOldCacheFiles();
+  }
 
   // 동기화 대상 필터링 (특정 미션 ID 지정 시)
   const targets = targetMissionId
@@ -521,18 +595,59 @@ async function main() {
     process.exit(1);
   }
 
-  console.log(`\n📋 미션 상세 동기화 대상: ${targets.length}개 미션`);
+  // 증분 동기화: 변경된 미션만 필터링
+  let syncTargets;
+  if (forceSync || targetMissionId) {
+    syncTargets = targets;
+  } else {
+    syncTargets = [];
+    let skipped = 0;
 
-  const results = [];
-  for (const mission of targets) {
-    try {
-      const result = await syncMission(client, mission);
-      results.push({ ...mission, success: true, syncedAt: result.syncedAt, fileName: result.fileName });
-    } catch (error) {
-      console.error(`   ❌ 실패: ${error.message}`);
-      results.push({ ...mission, success: false, error: error.message });
+    for (const mission of targets) {
+      const fileName = generateCacheFileName(mission.track, mission.summary?.order || 0, mission.title);
+      const cachePath = path.join(CACHE_DIR, fileName);
+
+      try {
+        const existing = JSON.parse(await fs.readFile(cachePath, "utf-8"));
+        if (existing.lastEditedTime && existing.lastEditedTime === mission.lastEditedTime) {
+          skipped++;
+          continue;
+        }
+      } catch {
+        // 캐시 파일 없음 → 새 미션
+      }
+
+      syncTargets.push(mission);
+    }
+
+    if (skipped > 0) {
+      console.log(`\n⏭️  변경 없는 미션 건너뜀: ${skipped}개`);
     }
   }
+
+  console.log(`📋 동기화 대상: ${syncTargets.length}개 미션`);
+
+  if (syncTargets.length === 0) {
+    console.log("\n✨ 변경된 미션이 없습니다. 동기화 건너뜀.");
+    await regenerateAllMissionsCache();
+    console.log("\n🎉 동기화 완료!");
+    return;
+  }
+
+  // 병렬 미션 동기화 (최대 5개 동시)
+  const results = await Promise.all(
+    syncTargets.map((mission) =>
+      missionLimiter(async () => {
+        try {
+          const result = await syncMission(client, mission);
+          return { ...mission, success: true, syncedAt: result.syncedAt, fileName: result.fileName };
+        } catch (error) {
+          console.error(`   ❌ 실패: ${mission.title} - ${error.message}`);
+          return { ...mission, success: false, error: error.message };
+        }
+      })
+    )
+  );
 
   // 결과 요약
   console.log("\n" + "=".repeat(50));
@@ -560,7 +675,7 @@ async function main() {
     }
   }
 
-  // 🆕 all-missions.json 재생성 (정적 import용 통합 캐시)
+  // all-missions.json 재생성 (정적 import용 통합 캐시)
   await regenerateAllMissionsCache();
 
   console.log("\n🎉 동기화 완료!");
