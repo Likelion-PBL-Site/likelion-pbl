@@ -90,8 +90,8 @@ const trackRoadmaps = [
     stages: [
       { name: "Python", weeks: "1-2주", topics: "Python 기초 문법" },
       { name: "Django", weeks: "3-5주", topics: "Django 프로젝트 구조" },
-      { name: "DRF", weeks: "6-8주", topics: "REST API 설계" },
-      { name: "Project", weeks: "9-10주", topics: "최종 프로젝트" },
+      { name: "ORM", weeks: "6-8주", topics: "Django ORM & 관계 모델링" },
+      { name: "Project", weeks: "9-10주", topics: "미니 프로젝트 완성" },
     ],
   },
   {
